@@ -7,7 +7,7 @@ An offline-first iPhone PWA for the University of Seville Instituto de Idiomas B
 ## What's in Phase 1
 
 - Five tabs: Hoy, Unidades, Practicar, Examen, Progreso (+ Ajustes)
-- Drill engine: `gap`, `choice`, `conjugate`, `transform`, `cloze`, with the accent bar, lenient/strict accent checking, the "Why?" reason step, a typo override, and wrong items coming back later in the session
+- Drill engine: `gap`, `choice`, `conjugate`, `transform`, `cloze`, with lenient/strict accent checking, the "Why?" reason step, a typo override, and wrong items coming back later in the session
 - Past-tenses focus pack: 214 items (137 generated conjugations + 67 hand-written items + 10 cloze stories) and a time-marker sorter
 - 296 drill items across units 1–12 + `programa` (≥ 6 per grammar point, 48 points)
 - "Today's session" builder (focus ≥ 25%, weak spots, class unit, review spread across all units), Weak spots, mastery bars (last 20 attempts), heatmap
