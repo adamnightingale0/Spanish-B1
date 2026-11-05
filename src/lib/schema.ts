@@ -7,7 +7,8 @@ export const WhyId = z.enum(WHY_IDS);
 export const BookRef = z.object({
   page: z.number().int().positive(),
   masEjercicios: z.number().int().positive().optional(),
-  masGramatica: z.number().int().positive().optional()
+  masGramatica: z.number().int().positive().optional(),
+  ejercicios: z.string().optional() // exercise numbers in Más ejercicios, e.g. "8-9"
 });
 
 const base = {

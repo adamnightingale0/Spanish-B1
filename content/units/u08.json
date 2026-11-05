@@ -1,30 +1,349 @@
 {
-  "id": "u08", "unit": 8, "title": "El turista accidental", "theme": "Anécdotas y viajes",
-  "vocabAreas": ["Viajes y turismo", "Anécdotas"],
-  "writingTask": "Contar una anécdota real o inventada",
-  "bookRef": { "page": 108 },
-  "grammarPoints": ["conectores-causa-consecuencia", "pluscuamperfecto", "past-combined"],
-  "items": [
-    { "id": "u08-conec-001", "type": "choice", "unit": 8, "grammarPoint": "conectores-causa-consecuencia", "difficulty": 1, "prompt": "Cancelaron el vuelo, ___ tuvimos que dormir en el aeropuerto.", "options": ["así que", "porque", "ya que"], "answers": ["así que"], "feedback": "así que introduces a consequence.", "contrast": "Dormimos en el aeropuerto porque cancelaron el vuelo." },
-    { "id": "u08-conec-002", "type": "choice", "unit": 8, "grammarPoint": "conectores-causa-consecuencia", "difficulty": 2, "prompt": "___ ya conocíamos la ciudad, no contratamos ningún guía.", "options": ["Como", "Por eso", "Así que"], "answers": ["Como"], "feedback": "Como + cause at the start of the sentence.", "contrast": "Ya conocíamos la ciudad; por eso no contratamos guía." },
-    { "id": "u08-conec-003", "type": "choice", "unit": 8, "grammarPoint": "conectores-causa-consecuencia", "difficulty": 2, "prompt": "El hotel estaba completo. ___, buscamos un apartamento.", "options": ["Por eso", "Porque", "Como"], "answers": ["Por eso"], "feedback": "por eso = that's why (consequence).", "contrast": "Como el hotel estaba completo, buscamos un apartamento." },
-    { "id": "u08-conec-004", "type": "choice", "unit": 8, "grammarPoint": "conectores-causa-consecuencia", "difficulty": 2, "prompt": "—¿Por qué no viniste a la excursión? —___ me dolía muchísimo la cabeza.", "options": ["Es que", "Así que", "Por lo tanto"], "answers": ["Es que"], "feedback": "es que… is an informal excuse or explanation.", "contrast": "Me dolía la cabeza, así que no fui." },
-    { "id": "u08-conec-005", "type": "choice", "unit": 8, "grammarPoint": "conectores-causa-consecuencia", "difficulty": 3, "prompt": "El museo cierra los lunes; ___, os recomendamos visitarlo otro día.", "options": ["por lo tanto", "ya que", "como"], "answers": ["por lo tanto"], "feedback": "por lo tanto = therefore (a little formal).", "contrast": "Ya que cierra los lunes, id otro día." },
-    { "id": "u08-conec-006", "type": "choice", "unit": 8, "grammarPoint": "conectores-causa-consecuencia", "difficulty": 2, "prompt": "___ estás en Sevilla, ¿por qué no vas a ver el Alcázar?", "options": ["Ya que", "Así que", "Por eso"], "answers": ["Ya que"], "feedback": "ya que + cause = since.", "contrast": "Estás en Sevilla, así que ve al Alcázar." },
-
-    { "id": "u08-plus-001", "type": "conjugate", "unit": 8, "grammarPoint": "pluscuamperfecto", "difficulty": 1, "verb": "viajar", "person": "nosotros", "tense": "pluscuamperfecto", "answers": ["habíamos viajado"], "feedback": "habíamos + participle.", "contrast": "hemos viajado (perfecto)" },
-    { "id": "u08-plus-002", "type": "conjugate", "unit": 8, "grammarPoint": "pluscuamperfecto", "difficulty": 2, "verb": "ver", "person": "yo", "tense": "pluscuamperfecto", "answers": ["había visto"], "feedback": "Irregular participle: visto.", "contrast": "vi (indefinido)" },
-    { "id": "u08-plus-003", "type": "gap", "unit": 8, "grammarPoint": "pluscuamperfecto", "difficulty": 2, "prompt": "Cuando llegamos a la estación, el tren ya ___ (salir).", "answers": ["había salido"], "why": "prior-past", "feedback": "The train left before we arrived → pluscuamperfecto.", "contrast": "Cuando llegamos, el tren salió (= it left as we arrived)." },
-    { "id": "u08-plus-004", "type": "gap", "unit": 8, "grammarPoint": "pluscuamperfecto", "difficulty": 2, "prompt": "Nunca ___ (probar, yo) el pulpo hasta que fui a Galicia.", "answers": ["había probado"], "why": "prior-past", "feedback": "nunca + pluscuamperfecto = never before a past moment.", "contrast": "Nunca he probado el pulpo (up to now)." },
-    { "id": "u08-plus-005", "type": "gap", "unit": 8, "grammarPoint": "pluscuamperfecto", "difficulty": 3, "prompt": "No pude entrar en el piso porque ___ (dejar, yo) las llaves en la oficina.", "answers": ["había dejado"], "why": "prior-past", "feedback": "Leaving the keys happened before not being able to get in.", "contrast": "Dejé las llaves en la oficina y no pude entrar." },
-    { "id": "u08-plus-006", "type": "conjugate", "unit": 8, "grammarPoint": "pluscuamperfecto", "difficulty": 2, "verb": "escribir", "person": "vosotros", "tense": "pluscuamperfecto", "answers": ["habíais escrito"], "feedback": "Irregular participle: escrito.", "contrast": "escribisteis (indefinido)" },
-    { "id": "u08-plus-007", "type": "gap", "unit": 8, "grammarPoint": "pluscuamperfecto", "difficulty": 3, "prompt": "Al llegar al hotel nos dijeron que alguien ___ (romper) la ventana de nuestra habitación.", "answers": ["había roto"], "why": "prior-past", "feedback": "Irregular participle: roto. It happened before they told us.", "contrast": "Alguien rompió la ventana." },
-
-    { "id": "u08-comb-001", "type": "choice", "unit": 8, "grammarPoint": "past-combined", "difficulty": 2, "prompt": "___ las once de la noche cuando por fin llegamos a Granada.", "options": ["Eran", "Fueron", "Habían sido"], "answers": ["Eran"], "why": "background-description", "feedback": "Time of day in a story → imperfecto (eran).", "contrast": "Llegamos a las once." },
-    { "id": "u08-comb-002", "type": "choice", "unit": 8, "grammarPoint": "past-combined", "difficulty": 2, "prompt": "Mientras ___ fotos en la plaza, alguien me robó la cartera.", "options": ["hacía", "hice", "había hecho"], "answers": ["hacía"], "why": "interrupted-action", "feedback": "Action in progress (mientras) that is interrupted → imperfecto.", "contrast": "Hice fotos y luego me fui." },
-    { "id": "u08-comb-003", "type": "gap", "unit": 8, "grammarPoint": "past-combined", "difficulty": 2, "prompt": "El verano pasado ___ (ir, nosotros) a Lisboa en coche.", "answers": ["fuimos"], "why": "time-marker-closed", "feedback": "el verano pasado = a closed period → indefinido.", "contrast": "Este verano hemos ido a Lisboa." },
-    { "id": "u08-comb-004", "type": "gap", "unit": 8, "grammarPoint": "past-combined", "difficulty": 3, "prompt": "La recepcionista nos dijo que no había habitaciones porque ___ (haber) un error con la reserva.", "answers": ["había habido"], "why": "prior-past", "feedback": "The error happened before she told us → pluscuamperfecto of haber.", "contrast": "Hubo un error." },
-    { "id": "u08-comb-005", "type": "choice", "unit": 8, "grammarPoint": "past-combined", "difficulty": 2, "prompt": "El hotel ___ muy bonito: tenía vistas al mar y una piscina enorme.", "options": ["era", "fue", "ha sido"], "answers": ["era"], "why": "background-description", "feedback": "Describing a place → imperfecto.", "contrast": "El viaje fue genial (overall evaluation of a finished event)." },
-    { "id": "u08-comb-006", "type": "gap", "unit": 8, "grammarPoint": "past-combined", "difficulty": 3, "prompt": "Estábamos en el museo cuando ___ (sonar) la alarma de incendios.", "answers": ["sonó"], "why": "completed-action", "feedback": "The event that interrupts the scene → indefinido.", "contrast": "Estábamos en el museo (scene) → imperfecto." }
-  ]
+ "id": "u08",
+ "unit": 8,
+ "title": "El turista accidental",
+ "theme": "Anécdotas y viajes",
+ "vocabAreas": [
+  "Viajes y turismo",
+  "Anécdotas"
+ ],
+ "writingTask": "Contar una anécdota real o inventada",
+ "bookRef": {
+  "page": 108,
+  "masEjercicios": 227,
+  "masGramatica": 263
+ },
+ "grammarPoints": [
+  "conectores-causa-consecuencia",
+  "pluscuamperfecto",
+  "past-combined"
+ ],
+ "items": [
+  {
+   "id": "u08-conec-001",
+   "type": "choice",
+   "unit": 8,
+   "grammarPoint": "conectores-causa-consecuencia",
+   "difficulty": 1,
+   "prompt": "Cancelaron el vuelo, ___ tuvimos que dormir en el aeropuerto.",
+   "options": [
+    "así que",
+    "porque",
+    "ya que"
+   ],
+   "answers": [
+    "así que"
+   ],
+   "feedback": "así que introduces a consequence.",
+   "contrast": "Dormimos en el aeropuerto porque cancelaron el vuelo."
+  },
+  {
+   "id": "u08-conec-002",
+   "type": "choice",
+   "unit": 8,
+   "grammarPoint": "conectores-causa-consecuencia",
+   "difficulty": 2,
+   "prompt": "___ ya conocíamos la ciudad, no contratamos ningún guía.",
+   "options": [
+    "Como",
+    "Por eso",
+    "Así que"
+   ],
+   "answers": [
+    "Como"
+   ],
+   "feedback": "Como + cause at the start of the sentence.",
+   "contrast": "Ya conocíamos la ciudad; por eso no contratamos guía."
+  },
+  {
+   "id": "u08-conec-003",
+   "type": "choice",
+   "unit": 8,
+   "grammarPoint": "conectores-causa-consecuencia",
+   "difficulty": 2,
+   "prompt": "El hotel estaba completo. ___, buscamos un apartamento.",
+   "options": [
+    "Por eso",
+    "Porque",
+    "Como"
+   ],
+   "answers": [
+    "Por eso"
+   ],
+   "feedback": "por eso = that's why (consequence).",
+   "contrast": "Como el hotel estaba completo, buscamos un apartamento."
+  },
+  {
+   "id": "u08-conec-004",
+   "type": "choice",
+   "unit": 8,
+   "grammarPoint": "conectores-causa-consecuencia",
+   "difficulty": 2,
+   "prompt": "—¿Por qué no viniste a la excursión? —___ me dolía muchísimo la cabeza.",
+   "options": [
+    "Es que",
+    "Así que",
+    "Por lo tanto"
+   ],
+   "answers": [
+    "Es que"
+   ],
+   "feedback": "es que… is an informal excuse or explanation.",
+   "contrast": "Me dolía la cabeza, así que no fui."
+  },
+  {
+   "id": "u08-conec-005",
+   "type": "choice",
+   "unit": 8,
+   "grammarPoint": "conectores-causa-consecuencia",
+   "difficulty": 3,
+   "prompt": "El museo cierra los lunes; ___, os recomendamos visitarlo otro día.",
+   "options": [
+    "por lo tanto",
+    "ya que",
+    "como"
+   ],
+   "answers": [
+    "por lo tanto"
+   ],
+   "feedback": "por lo tanto = therefore (a little formal).",
+   "contrast": "Ya que cierra los lunes, id otro día."
+  },
+  {
+   "id": "u08-conec-006",
+   "type": "choice",
+   "unit": 8,
+   "grammarPoint": "conectores-causa-consecuencia",
+   "difficulty": 2,
+   "prompt": "___ estás en Sevilla, ¿por qué no vas a ver el Alcázar?",
+   "options": [
+    "Ya que",
+    "Así que",
+    "Por eso"
+   ],
+   "answers": [
+    "Ya que"
+   ],
+   "feedback": "ya que + cause = since.",
+   "contrast": "Estás en Sevilla, así que ve al Alcázar."
+  },
+  {
+   "id": "u08-plus-001",
+   "type": "conjugate",
+   "unit": 8,
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 1,
+   "verb": "viajar",
+   "person": "nosotros",
+   "tense": "pluscuamperfecto",
+   "answers": [
+    "habíamos viajado"
+   ],
+   "feedback": "habíamos + participle.",
+   "contrast": "hemos viajado (perfecto)"
+  },
+  {
+   "id": "u08-plus-002",
+   "type": "conjugate",
+   "unit": 8,
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 2,
+   "verb": "ver",
+   "person": "yo",
+   "tense": "pluscuamperfecto",
+   "answers": [
+    "había visto"
+   ],
+   "feedback": "Irregular participle: visto.",
+   "contrast": "vi (indefinido)"
+  },
+  {
+   "id": "u08-plus-003",
+   "type": "gap",
+   "unit": 8,
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 2,
+   "prompt": "Cuando llegamos a la estación, el tren ya ___ (salir).",
+   "answers": [
+    "había salido"
+   ],
+   "why": "prior-past",
+   "feedback": "The train left before we arrived → pluscuamperfecto.",
+   "contrast": "Cuando llegamos, el tren salió (= it left as we arrived)."
+  },
+  {
+   "id": "u08-plus-004",
+   "type": "gap",
+   "unit": 8,
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 2,
+   "prompt": "Nunca ___ (probar, yo) el pulpo hasta que fui a Galicia.",
+   "answers": [
+    "había probado"
+   ],
+   "why": "prior-past",
+   "feedback": "nunca + pluscuamperfecto = never before a past moment.",
+   "contrast": "Nunca he probado el pulpo (up to now)."
+  },
+  {
+   "id": "u08-plus-005",
+   "type": "gap",
+   "unit": 8,
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 3,
+   "prompt": "No pude entrar en el piso porque ___ (dejar, yo) las llaves en la oficina.",
+   "answers": [
+    "había dejado"
+   ],
+   "why": "prior-past",
+   "feedback": "Leaving the keys happened before not being able to get in.",
+   "contrast": "Dejé las llaves en la oficina y no pude entrar."
+  },
+  {
+   "id": "u08-plus-006",
+   "type": "conjugate",
+   "unit": 8,
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 2,
+   "verb": "escribir",
+   "person": "vosotros",
+   "tense": "pluscuamperfecto",
+   "answers": [
+    "habíais escrito"
+   ],
+   "feedback": "Irregular participle: escrito.",
+   "contrast": "escribisteis (indefinido)"
+  },
+  {
+   "id": "u08-plus-007",
+   "type": "gap",
+   "unit": 8,
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 3,
+   "prompt": "Al llegar al hotel nos dijeron que alguien ___ (romper) la ventana de nuestra habitación.",
+   "answers": [
+    "había roto"
+   ],
+   "why": "prior-past",
+   "feedback": "Irregular participle: roto. It happened before they told us.",
+   "contrast": "Alguien rompió la ventana."
+  },
+  {
+   "id": "u08-comb-001",
+   "type": "choice",
+   "unit": 8,
+   "grammarPoint": "past-combined",
+   "difficulty": 2,
+   "prompt": "___ las once de la noche cuando por fin llegamos a Granada.",
+   "options": [
+    "Eran",
+    "Fueron",
+    "Habían sido"
+   ],
+   "answers": [
+    "Eran"
+   ],
+   "why": "background-description",
+   "feedback": "Time of day in a story → imperfecto (eran).",
+   "contrast": "Llegamos a las once."
+  },
+  {
+   "id": "u08-comb-002",
+   "type": "choice",
+   "unit": 8,
+   "grammarPoint": "past-combined",
+   "difficulty": 2,
+   "prompt": "Mientras ___ fotos en la plaza, alguien me robó la cartera.",
+   "options": [
+    "hacía",
+    "hice",
+    "había hecho"
+   ],
+   "answers": [
+    "hacía"
+   ],
+   "why": "interrupted-action",
+   "feedback": "Action in progress (mientras) that is interrupted → imperfecto.",
+   "contrast": "Hice fotos y luego me fui."
+  },
+  {
+   "id": "u08-comb-003",
+   "type": "gap",
+   "unit": 8,
+   "grammarPoint": "past-combined",
+   "difficulty": 2,
+   "prompt": "El verano pasado ___ (ir, nosotros) a Lisboa en coche.",
+   "answers": [
+    "fuimos"
+   ],
+   "why": "time-marker-closed",
+   "feedback": "el verano pasado = a closed period → indefinido.",
+   "contrast": "Este verano hemos ido a Lisboa."
+  },
+  {
+   "id": "u08-comb-004",
+   "type": "gap",
+   "unit": 8,
+   "grammarPoint": "past-combined",
+   "difficulty": 3,
+   "prompt": "La recepcionista nos dijo que no había habitaciones porque ___ (haber) un error con la reserva.",
+   "answers": [
+    "había habido"
+   ],
+   "why": "prior-past",
+   "feedback": "The error happened before she told us → pluscuamperfecto of haber.",
+   "contrast": "Hubo un error."
+  },
+  {
+   "id": "u08-comb-005",
+   "type": "choice",
+   "unit": 8,
+   "grammarPoint": "past-combined",
+   "difficulty": 2,
+   "prompt": "El hotel ___ muy bonito: tenía vistas al mar y una piscina enorme.",
+   "options": [
+    "era",
+    "fue",
+    "ha sido"
+   ],
+   "answers": [
+    "era"
+   ],
+   "why": "background-description",
+   "feedback": "Describing a place → imperfecto.",
+   "contrast": "El viaje fue genial (overall evaluation of a finished event)."
+  },
+  {
+   "id": "u08-comb-006",
+   "type": "gap",
+   "unit": 8,
+   "grammarPoint": "past-combined",
+   "difficulty": 3,
+   "prompt": "Estábamos en el museo cuando ___ (sonar) la alarma de incendios.",
+   "answers": [
+    "sonó"
+   ],
+   "why": "completed-action",
+   "feedback": "The event that interrupts the scene → indefinido.",
+   "contrast": "Estábamos en el museo (scene) → imperfecto."
+  },
+  {
+   "id": "u08-conec-007",
+   "type": "choice",
+   "unit": 8,
+   "grammarPoint": "conectores-causa-consecuencia",
+   "difficulty": 2,
+   "prompt": "—Ha cancelado el hotel y no contesta al teléfono. —___ no viene, ¿no?",
+   "options": [
+    "O sea que",
+    "Porque",
+    "Como"
+   ],
+   "answers": [
+    "O sea que"
+   ],
+   "feedback": "o sea que = so (a conclusion drawn from what someone said).",
+   "contrast": "No contesta, así que no viene."
+  }
+ ]
 }

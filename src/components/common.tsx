@@ -38,12 +38,12 @@ export function Speak({ text }: { text: string }) {
   );
 }
 
-export function BookRef({ page, masEjercicios, masGramatica }: { page?: number; masEjercicios?: number; masGramatica?: number }) {
+export function BookRef({ page, masEjercicios, masGramatica, ejercicios }: { page?: number; masEjercicios?: number; masGramatica?: number; ejercicios?: string }) {
   if (!page) return null;
   return (
     <p class="small muted">
       📖 Libro: p. {page}
-      {masEjercicios ? ` · Más ejercicios p. ${masEjercicios}` : ''}
+      {masEjercicios ? ` · Más ejercicios p. ${masEjercicios}${ejercicios ? ` (ej. ${ejercicios})` : ''}` : ''}
       {masGramatica ? ` · Más gramática p. ${masGramatica}` : ''}
     </p>
   );

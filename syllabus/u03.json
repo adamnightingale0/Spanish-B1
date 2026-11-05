@@ -1,0 +1,68 @@
+{
+ "id": "u03",
+ "unit": 3,
+ "title": "Mañana",
+ "grammarPoints": [
+  "futuro-simple",
+  "marcadores-futuro",
+  "probabilidad-adverbios",
+  "si-presente"
+ ],
+ "functions": [
+  "hablar de acciones y situaciones futuras",
+  "expresar condiciones",
+  "formular hipótesis sobre el futuro"
+ ],
+ "themes": [
+  "retos del futuro",
+  "ciencia ficción",
+  "tecnología y ciencia"
+ ],
+ "writingTaskType": "cartel de advertencias sobre el futuro",
+ "phonetics": "la sílaba tónica",
+ "targetWords": [
+  "reducir la contaminación",
+  "curar el cáncer",
+  "prevenir la diabetes",
+  "acabar con la violencia",
+  "el desempleo",
+  "frenar el calentamiento global",
+  "el envejecimiento",
+  "la esperanza de vida",
+  "cada vez más / menos",
+  "extinguirse / la extinción",
+  "desaparecer / la desaparición",
+  "aparecer / la aparición",
+  "crear / la creación",
+  "inventar / la invención",
+  "construir / la construcción",
+  "destruir / la destrucción",
+  "la robótica",
+  "la nanotecnología",
+  "la biotecnología",
+  "la cirugía",
+  "la genética",
+  "la inteligencia artificial",
+  "la realidad virtual",
+  "el/la piloto de drones",
+  "la ciberseguridad",
+  "modificar genes",
+  "geolocalizar",
+  "implantar un microchip",
+  "la impresora 3D",
+  "el coche autónomo",
+  "el dron"
+ ],
+ "bookRef": {
+  "page": 38,
+  "lexico": 46,
+  "gramatica": 47,
+  "masEjercicios": 192,
+  "masGramatica": [
+   277,
+   283,
+   284,
+   301
+  ]
+ }
+}

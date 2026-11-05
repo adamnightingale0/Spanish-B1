@@ -9,7 +9,9 @@
  ],
  "writingTask": "Blog sobre misterios científicos",
  "bookRef": {
-  "page": 164
+  "page": 164,
+  "masEjercicios": 255,
+  "masGramatica": 263
  },
  "grammarPoints": [
   "futuro-compuesto",

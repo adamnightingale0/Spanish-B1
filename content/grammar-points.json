@@ -1,62 +1,957 @@
 [
-  { "id": "soler-inf", "unit": 1, "title": "soler + infinitivo", "summary": "Use soler + infinitive to say what usually happens. Only conjugate soler (suelo, sueles, suele, solemos, soléis, suelen).", "rules": ["soler is an o→ue verb: suelo, but solemos / soléis", "Past habits use the imperfecto: solía, solías…", "No preposition: suelo cenar (never *suelo a cenar*)"], "examples": ["En España solemos cenar a las diez.", "De niño solía pasar los veranos en el pueblo."], "bookRef": { "page": 10 } },
-  { "id": "lo-normal-es", "unit": 1, "title": "Lo normal / lo habitual / lo raro es + inf.", "summary": "Lo + adjective works like a noun: 'the normal thing'. Follow it with es + infinitive for general statements, or es que + subjunctive when a subject is named.", "rules": ["Lo normal es + infinitive (general)", "Lo normal es que + subjunctive (specific people)", "Also: lo habitual, lo raro, lo más común, lo típico"], "examples": ["Lo normal es dar dos besos.", "Lo raro es que la gente llegue puntual a una fiesta."], "bookRef": { "page": 10 } },
-  { "id": "cuantificadores", "unit": 1, "title": "Cuantificadores: todo el mundo, casi nadie…", "summary": "Quantifiers say how many people do something. Most take a singular verb (todo el mundo, casi nadie, la mayoría de la gente); la mayoría de + plural noun can take a plural verb.", "rules": ["todo el mundo / nadie / casi nadie + singular verb", "Nadie after the verb needs no: No lo hace nadie", "muchas personas / pocas personas + plural verb"], "examples": ["Casi nadie cena antes de las nueve.", "Todo el mundo deja propina en los bares de su barrio."], "bookRef": { "page": 10 } },
-  { "id": "esta-prohibido", "unit": 1, "title": "Está prohibido / no está permitido / se puede", "summary": "Talk about rules with está prohibido / está permitido / es obligatorio + infinitive, or with (no) se puede + infinitive. With a noun subject, the participle agrees.", "rules": ["Está prohibido + infinitive (invariable)", "Noun subject: Están prohibidas las motos", "(No) se puede / (no) se permite + infinitive", "Es obligatorio + infinitive"], "examples": ["Está prohibido fumar en los bares.", "En la biblioteca no se puede comer."], "bookRef": { "page": 10 } },
-  { "id": "se-impersonal", "unit": 1, "title": "Se impersonal / se pasiva", "summary": "Se + 3rd person verb describes what people do in general. With a plural noun, the verb goes plural (se venden pisos).", "rules": ["se + singular verb + infinitive / singular noun", "se + plural verb + plural noun", "With people as objects: se respeta a los mayores (singular)"], "examples": ["En Sevilla se come muy tarde.", "Aquí se alquilan bicicletas."], "bookRef": { "page": 10 } },
-  { "id": "ser-estar-normas", "unit": 1, "title": "Ser / estar in rules and customs", "summary": "Es + adjective + infinitive gives opinions about customs (es normal, es raro, es de mala educación). Está + participle describes a state such as está prohibido, está mal visto.", "rules": ["Es + adjective + infinitive: es raro, es normal, es de mala educación", "Está + bien/mal visto, está prohibido, está permitido", "Está bien / está mal + infinitive"], "examples": ["Es de mala educación hablar con la boca llena.", "Está mal visto llegar con las manos vacías."], "bookRef": { "page": 10 } },
-
-  { "id": "perifrasis-tiempo", "unit": 2, "title": "Perífrasis: empezar a, acabar de, volver a, dejar de…", "summary": "Verb phrases that describe the stages of an action: start (empezar a), just finished (acabar de), finish (terminar de), again (volver a), stop (dejar de) + infinitive.", "rules": ["empezar / ponerse a + inf. = start", "acabar de + inf. = have just done", "volver a + inf. = do again", "dejar de + inf. = stop doing", "terminar de + inf. = finish doing"], "examples": ["Acabo de terminar el máster.", "Ha dejado de fumar este año."], "bookRef": { "page": 24 } },
-  { "id": "llevar-seguir-gerundio", "unit": 2, "title": "llevar / seguir + gerundio", "summary": "Llevar + time + gerund says how long something has been going on. Seguir + gerund says it is still going on. Sin + infinitive gives the negative.", "rules": ["Llevo dos años viviendo en Sevilla", "Sigo trabajando en la misma empresa", "Llevo tres meses sin fumar", "Seguir is e→i: sigo, sigues, sigue…"], "examples": ["Llevamos media hora esperando.", "¿Sigues estudiando alemán?"], "bookRef": { "page": 24 } },
-  { "id": "desde-hace", "unit": 2, "title": "desde / desde hace / hace … que", "summary": "Desde + a point in time (desde 2020, desde marzo). Desde hace + a period (desde hace tres años). Hace + period + que + verb puts the period first.", "rules": ["desde + date or moment", "desde hace + amount of time", "Hace + time + que + present", "desde que + verb: desde que llegué"], "examples": ["Vivo aquí desde 2021.", "Hace dos años que estudio español."], "bookRef": { "page": 24 } },
-  { "id": "past-review", "unit": 2, "title": "Repaso: perfecto, indefinido, imperfecto", "summary": "Perfecto for open periods and experiences (hoy, este año, alguna vez). Indefinido for finished events in a closed period (ayer, en 2019). Imperfecto for description, habits and background.", "rules": ["Open period/experience → he trabajado", "Closed period → trabajé", "Description/habit/background → trabajaba"], "examples": ["Este año he cambiado de trabajo.", "En 2019 cambié de trabajo.", "Antes trabajaba en un banco."], "bookRef": { "page": 24 } },
-
-  { "id": "si-presente", "unit": 3, "title": "Si + presente, futuro / imperativo", "summary": "Real conditions: si + present, then future, present or imperative. Never use the future after si.", "rules": ["Si + presente → futuro: Si llueve, no iremos", "Si + presente → imperativo: Si tienes tiempo, llámame", "Never *si lloverá*"], "examples": ["Si estudias cada día, aprobarás.", "Si llegas tarde, avísame."], "bookRef": { "page": 38 } },
-  { "id": "futuro-simple", "unit": 3, "title": "Futuro simple", "summary": "Add -é, -ás, -á, -emos, -éis, -án to the infinitive. Twelve common verbs have an irregular stem (tendr-, saldr-, podr-, har-, dir-…).", "rules": ["Endings are the same for -ar/-er/-ir", "Irregular stems: tener→tendr-, poner→pondr-, salir→saldr-, venir→vendr-, poder→podr-, saber→sabr-, haber→habr-, querer→querr-, hacer→har-, decir→dir-, caber→cabr-, valer→valdr-"], "examples": ["En 2050 habrá más coches eléctricos.", "Mañana te lo diré."], "bookRef": { "page": 38 } },
-  { "id": "probabilidad-adverbios", "unit": 3, "title": "Seguramente, probablemente, quizás…", "summary": "Adverbs of probability. Seguramente / probablemente / seguro que + indicative. Quizás / tal vez / posiblemente can take the indicative or subjunctive; a lo mejor always takes the indicative.", "rules": ["a lo mejor + indicativo (always)", "seguro que + indicativo", "quizás / tal vez + indicativo o subjuntivo", "es probable que + subjuntivo"], "examples": ["A lo mejor vamos a la playa.", "Es probable que llueva mañana."], "bookRef": { "page": 38 } },
-  { "id": "marcadores-futuro", "unit": 3, "title": "Marcadores de futuro", "summary": "Time markers for the future: dentro de + period, el próximo / la próxima, a finales de, de aquí a + period, en + year.", "rules": ["dentro de dos años = two years from now", "de aquí a + period = from now until", "el año que viene / el próximo año", "a finales de / a principios de + month or year"], "examples": ["Dentro de diez años trabajaremos desde casa.", "A finales de mes me mudo."], "bookRef": { "page": 38 } },
-
-  { "id": "conectores-relato", "unit": 4, "title": "Conectores del relato", "summary": "Connectors that structure a story: al principio, de repente, entonces, al final, en ese momento, al cabo de, un rato después.", "rules": ["Start: al principio, un día, una vez", "Sudden event: de repente, de pronto", "Sequence: entonces, luego, después, al cabo de + time", "End: al final, por fin, finalmente"], "examples": ["De repente, se fue la luz.", "Al cabo de una hora, llegó la policía."], "bookRef": { "page": 52 } },
-  { "id": "causa-contraste", "unit": 4, "title": "porque, como, pero, aunque, sin embargo", "summary": "Porque gives a cause after the main idea. Como gives a known cause at the start of the sentence. Pero, aunque and sin embargo show contrast.", "rules": ["Como + cause, result (as the first clause)", "Result + porque + cause", "aunque + indicative = although (fact)", "Sin embargo starts a new sentence or clause, followed by a comma"], "examples": ["Como no había entradas, nos fuimos a casa.", "La película es larga. Sin embargo, no aburre."], "bookRef": { "page": 52 } },
-  { "id": "pronombres-od-oi", "unit": 4, "title": "Pronombres de OD y OI", "summary": "Direct object: lo, la, los, las. Indirect object: le, les. When they appear together, le/les becomes se (se lo dije).", "rules": ["Order: indirect before direct (me lo, te la)", "le/les + lo/la/los/las → se lo / se la…", "Before a conjugated verb, or attached to an infinitive, gerund or affirmative imperative"], "examples": ["¿El libro? Se lo regalé a mi hermana.", "Las llaves te las dejo en la mesa."], "bookRef": { "page": 52 } },
-
-  { "id": "imperativo-afirmativo", "unit": 5, "title": "Imperativo afirmativo", "summary": "tú = 3rd-person present (habla, come). vosotros = infinitive with -r → -d (hablad). usted/ustedes take the present subjunctive (hable, hablen). Irregular tú forms: di, haz, pon, sal, sé, ten, ven, ve.", "rules": ["tú: compra, lee, abre", "vosotros: comprad, leed, abrid", "usted: compre, lea, abra", "Irregular tú: ven, ten, pon, sal, haz, di, ve, sé"], "examples": ["Busque y compare.", "Venid a probar nuestras tapas."], "bookRef": { "page": 66 } },
-  { "id": "imperativo-negativo", "unit": 5, "title": "Imperativo negativo", "summary": "Every negative command uses no + present subjunctive: no compres, no compréis, no compre, no compren.", "rules": ["-ar → -e: no hables", "-er/-ir → -a: no comas, no abras", "Irregular: no vayas, no hagas, no digas, no pongas, no seas", "vosotros: no habléis, no comáis"], "examples": ["No te pierdas esta oferta.", "No dejéis la compra para el último día."], "bookRef": { "page": 66 } },
-  { "id": "pronombres-posicion", "unit": 5, "title": "Posición de los pronombres con imperativo", "summary": "Pronouns attach to the end of an affirmative command (cómpralo), and the stress often then needs an accent. In negative commands they go before the verb (no lo compres).", "rules": ["Affirmative: dímelo, pruébala, llámame", "Negative: no me lo digas, no la pruebes", "vosotros + os drops the -d: sentaos, levantaos (but idos)"], "examples": ["Pruébalo gratis durante un mes.", "No lo dudes."], "bookRef": { "page": 66 } },
-
-  { "id": "subjuntivo-presente", "unit": 6, "title": "Presente de subjuntivo: formas", "summary": "Take the yo present, drop -o, and add the 'opposite' vowel: -ar → -e, -er/-ir → -a. Stem changes and irregular yo forms carry over (tenga, haga, pueda). Six irregulars: sea, esté, vaya, haya, sepa, dé.", "rules": ["hablar → hable, hables, hable, hablemos, habléis, hablen", "tener (tengo) → tenga", "Irregular: ser→sea, ir→vaya, estar→esté, haber→haya, saber→sepa, dar→dé"], "examples": ["Espero que tengas suerte.", "Ojalá haya más carriles bici."], "bookRef": { "page": 80 } },
-  { "id": "querer-pedir-que", "unit": 6, "title": "Querer / pedir / exigir que + subjuntivo", "summary": "Verbs of wanting and asking take an infinitive when the subject is the same, and que + subjunctive when it is different.", "rules": ["Same subject: quiero cambiar", "Different subject: quiero que cambies", "Also: pedir, exigir, necesitar, esperar, desear"], "examples": ["Exigimos que el ayuntamiento limpie el parque.", "Te pido que me escuches."], "bookRef": { "page": 80 } },
-  { "id": "deberian-habria-que", "unit": 6, "title": "Deberían / habría que / hay que", "summary": "Propose solutions with debería(n) + infinitive (someone should) or habría que + infinitive (it would be necessary to). Es necesario / es importante que take the subjunctive.", "rules": ["Los políticos deberían + inf.", "Habría que + inf. (impersonal)", "Es necesario que + subjuntivo"], "examples": ["Habría que bajar el precio del transporte.", "El gobierno debería invertir en vivienda."], "bookRef": { "page": 80 } },
-  { "id": "cuando-subjuntivo", "unit": 6, "title": "Cuando + subjuntivo (futuro)", "summary": "Cuando + subjunctive refers to the future. Cuando + indicative refers to habits or the past. Never use the future after cuando.", "rules": ["Future: cuando llegue, te llamo", "Habit: cuando llego, me ducho", "Past: cuando llegué, estaba cerrado", "Never *cuando llegaré*"], "examples": ["Cuando tenga dinero, viajaré a Perú.", "Cuando termine la carrera, buscaré trabajo."], "bookRef": { "page": 80 } },
-
-  { "id": "estilo-indirecto", "unit": 7, "title": "Estilo indirecto", "summary": "Reporting with me ha dicho que (present unchanged), me ha preguntado si / qué, and me ha pedido que + subjunctive. Pronouns and possessives change to the reporter's point of view.", "rules": ["Statement: Dice / Me ha dicho que + same tense", "Yes/no question: Me ha preguntado si…", "Wh- question: Me ha preguntado dónde / cuándo…", "Request or command: Me ha pedido que + subjuntivo"], "examples": ["Me ha dicho que llega tarde.", "Me ha pedido que le llame."], "bookRef": { "page": 94 } },
-
-  { "id": "conectores-causa-consecuencia", "unit": 8, "title": "Conectores de causa y consecuencia", "summary": "Consequence: así que, por eso, por lo tanto, de modo que. Cause: porque, como, ya que, es que (informal excuse).", "rules": ["así que / por eso + result", "ya que + cause (a little formal)", "es que… is an informal justification"], "examples": ["Perdí el vuelo, así que dormí en el aeropuerto.", "Ya que estás aquí, ayúdame."], "bookRef": { "page": 108 } },
-  { "id": "pluscuamperfecto", "unit": 8, "title": "Pluscuamperfecto", "summary": "Había / habías / había / habíamos / habíais / habían + participle. It describes something that happened before another past event.", "rules": ["Form: imperfecto of haber + participle", "Irregular participles: hecho, dicho, visto, puesto, escrito, vuelto, abierto, roto", "Common with ya and nunca: nunca había visto…"], "examples": ["Cuando llegamos, el tren ya había salido.", "Nunca había probado el salmorejo."], "bookRef": { "page": 108 } },
-  { "id": "past-combined", "unit": 8, "title": "Contar anécdotas: todos los pasados", "summary": "In an anecdote, the indefinido moves the story forward, the imperfecto sets the scene, and the pluscuamperfecto goes one step further back.", "rules": ["Events → indefinido", "Scene / circumstances → imperfecto", "Earlier event → pluscuamperfecto"], "examples": ["Estaba en Roma, había perdido el pasaporte y de repente me llamó la policía."], "bookRef": { "page": 108 } },
-
-  { "id": "me-fascina-que", "unit": 9, "title": "Me fascina / me molesta que + subjuntivo", "summary": "Gustar-type verbs of feeling take an infinitive for the same subject and que + subjunctive for a different subject.", "rules": ["Me molesta llegar tarde (same subject)", "Me molesta que llegues tarde (different subject)", "Verb agrees with the thing: me molestan los ruidos"], "examples": ["Me encanta que me escribas.", "Le pone nervioso que la gente hable en el cine."], "bookRef": { "page": 122 } },
-  { "id": "verbos-sentimiento", "unit": 9, "title": "Verbos de sentimiento: odio, no aguanto, me pone de mal humor", "summary": "Odiar, no soportar, no aguantar and detestar are regular verbs (yo odio). Me pone(n) nervioso / de mal humor works like gustar.", "rules": ["Yo odio / no soporto + noun / inf. / que + subj.", "Me pone(n) + adj.: me ponen nerviosa las colas", "Me da rabia / pena / vergüenza que + subj."], "examples": ["No soporto que me interrumpan.", "Me da pena que te vayas."], "bookRef": { "page": 122 } },
-
-  { "id": "superlativo-isimo", "unit": 10, "title": "Superlativo -ísimo", "summary": "Add -ísimo/a/os/as to an adjective to mean 'very, very'. Drop the final vowel and watch the spelling: rico → riquísimo, largo → larguísimo, amable → amabilísimo.", "rules": ["caro → carísimo", "c → qu: rico → riquísimo", "g → gu: largo → larguísimo", "-ble → -bilísimo: amable → amabilísimo"], "examples": ["Esta lámpara es carísima.", "El diseño es sencillísimo."], "bookRef": { "page": 136 } },
-  { "id": "exclamativas", "unit": 10, "title": "Exclamativas: ¡Qué…!, ¡Qué … tan / más …!", "summary": "¡Qué + adjective / noun! ¡Qué + noun + tan / más + adjective! ¡Cuánto/a + noun! Remember the accent and the opening ¡.", "rules": ["¡Qué bonito!", "¡Qué silla tan / más cómoda!", "¡Cuánta gente!", "¡Cómo + verb!: ¡Cómo llueve!"], "examples": ["¡Qué diseño tan original!", "¡Cuánto ruido!"], "bookRef": { "page": 136 } },
-  { "id": "relativas-preposicion", "unit": 10, "title": "Relativas con preposición: con el que, en la que…", "summary": "When the relative clause needs a preposition, use preposition + article + que, with the article agreeing with the noun: la caja en la que, el cuchillo con el que.", "rules": ["Preposition goes before the relative", "Article agrees: el / la / los / las + que", "Places: en el que = donde"], "examples": ["Es un aparato con el que puedes cortar pan.", "La mesa en la que trabajo es de madera."], "bookRef": { "page": 136 } },
-  { "id": "relativas-ind-subj", "unit": 10, "title": "Relativas: indicativo o subjuntivo", "summary": "Indicative when the thing exists and is known (tengo una silla que se pliega). Subjunctive when it is unknown or wanted (busco una silla que se pliegue). With no existe / no hay, use the subjunctive.", "rules": ["Known antecedent → indicativo", "Unknown or desired antecedent → subjuntivo", "No hay nada / nadie que + subjuntivo"], "examples": ["Necesito una mochila que sea impermeable.", "No conozco a nadie que tenga un coche eléctrico."], "bookRef": { "page": 136 } },
-
-  { "id": "valorar-inf-subj", "unit": 11, "title": "Es injusto / está bien / me parece mal que + subjuntivo", "summary": "Value judgments take an infinitive for general statements and que + subjunctive when a subject is named.", "rules": ["Es injusto + inf. (general)", "Es injusto que + subj. (specific subject)", "Also: está bien/mal que, me parece fatal que, es una vergüenza que"], "examples": ["Me parece fatal que se tire comida.", "Está bien reciclar, pero no es suficiente."], "bookRef": { "page": 150 } },
-  { "id": "condicional", "unit": 11, "title": "Condicional simple", "summary": "Infinitive + -ía, -ías, -ía, -íamos, -íais, -ían (the same irregular stems as the future). Use it for advice, polite requests and hypotheses.", "rules": ["hablaría, comería, viviría", "Irregular: tendría, haría, diría, podría, saldría, pondría, vendría, querría, sabría, habría", "Advice: yo que tú, iría al médico"], "examples": ["Yo en tu lugar, hablaría con ella.", "¿Podrías ayudarme?"], "bookRef": { "page": 150 } },
-  { "id": "lo-neutro", "unit": 11, "title": "Lo + adjetivo / lo que", "summary": "Lo + adjective = 'the … thing'. Lo que = 'what' (the thing that).", "rules": ["Lo bueno / lo malo / lo peor es que…", "Lo que más me preocupa es…", "Lo + adjective stays masculine singular"], "examples": ["Lo peor es que nadie hace nada.", "Lo que necesitamos es más transporte público."], "bookRef": { "page": 150 } },
-
-  { "id": "futuro-compuesto", "unit": 12, "title": "Futuro compuesto (probabilidad en el pasado)", "summary": "Habré / habrás / habrá … + participle. It makes guesses about a recent past (perfecto context): ¿Dónde está Ana? — Se habrá dormido.", "rules": ["Guess about the present → futuro simple: estará en casa", "Guess about a perfecto-type past → futuro compuesto: habrá salido", "Guess about an indefinido-type past → condicional: saldría"], "examples": ["No contesta: se habrá quedado sin batería.", "Habrán perdido el tren."], "bookRef": { "page": 164 } },
-  { "id": "hipotesis-ind-subj", "unit": 12, "title": "Hipótesis: creo que, puede que, es posible que", "summary": "Some expressions take the indicative (creo que, supongo que, seguro que, a lo mejor). Others take the subjunctive (puede que, es posible que, no creo que).", "rules": ["Indicativo: creo que, me imagino que, a lo mejor", "Subjuntivo: puede que, es posible que, no creo que, dudo que"], "examples": ["Puede que sea un fenómeno natural.", "Supongo que hay una explicación."], "bookRef": { "page": 164 } },
-  { "id": "creer-creerse", "unit": 12, "title": "Creer / creerse / creer en", "summary": "Creer que = think. Creer en = believe in (ghosts, God, someone). Creerse algo = believe (a story) fully, often with doubt implied: no me lo creo.", "rules": ["Creo que tienes razón (opinion)", "¿Crees en los fantasmas? (belief in)", "No me lo creo / Se cree todo lo que lee"], "examples": ["Mi abuela cree en el mal de ojo.", "¡No me lo creo!"], "bookRef": { "page": 164 } },
-
-  { "id": "cual-vs-que", "unit": 0, "title": "¿Cuál? vs ¿Qué?", "summary": "¿Qué + noun? and ¿qué + verb? ask for a definition or type. ¿Cuál + verb? asks you to choose from a set. Before ser, use ¿cuál es…? for data (¿Cuál es tu dirección?).", "rules": ["¿Qué + sustantivo?: ¿Qué libro lees?", "¿Cuál es tu número? (not *qué es tu número*)", "¿Qué es…? = definition: ¿Qué es un salmorejo?", "¿Cuál de + plural?: ¿Cuál de los dos?"], "examples": ["¿Cuál es tu correo electrónico?", "¿Qué es el ACLES?"] },
-  { "id": "gustar-preferir", "unit": 0, "title": "Gustar / preferir", "summary": "Gustar agrees with the thing liked (me gusta el cine, me gustan las series). Preferir is a normal e→ie verb (prefiero, preferimos).", "rules": ["me / te / le / nos / os / les + gusta(n)", "A mí / a ti / a él… for emphasis or contrast", "preferir: prefiero, prefieres, prefiere, preferimos, preferís, prefieren"], "examples": ["A mi pareja le gustan las películas de terror, pero yo prefiero las comedias."] },
-  { "id": "presente-valor-futuro", "unit": 0, "title": "Presente con valor de futuro", "summary": "Spanish often uses the present for scheduled or arranged future events, usually with a time marker.", "rules": ["El tren sale a las 8 mañana", "Esta noche ceno con Marta", "Ir a + infinitive for plans"], "examples": ["El lunes empiezo el curso.", "¿Qué haces este fin de semana?"] },
-  { "id": "creo-que-ind", "unit": 0, "title": "Creo que + ind. / No creo que + subj.", "summary": "Affirmative opinion verbs (creo, pienso, me parece que) take the indicative. In the negative they take the subjunctive.", "rules": ["Creo que es verdad", "No creo que sea verdad", "Also: pienso que / no pienso que; me parece que / no me parece que"], "examples": ["Pienso que el examen será difícil.", "No pienso que haya problemas."] },
-  { "id": "ser-estar-adj-que", "unit": 0, "title": "Es importante / está claro que…", "summary": "Expressions of certainty (está claro, es verdad, es evidente que) take the indicative. Expressions of value or need (es importante, es necesario, es mejor que) take the subjunctive, or an infinitive when there is no subject.", "rules": ["Está claro que + indicativo", "Es importante que + subjuntivo", "Es importante + infinitivo (general)", "No está claro que + subjuntivo"], "examples": ["Es verdad que el piso es caro.", "Es importante que llegues a tiempo al examen."] },
-  { "id": "que-subj-deseos", "unit": 0, "title": "¡Que + subjuntivo! (deseos)", "summary": "Que + subjunctive expresses good wishes in set situations: ¡Que te mejores!, ¡Que aproveche!, ¡Que tengas suerte!", "rules": ["¡Que + subjuntivo!", "Before an exam: ¡Que te vaya bien!", "Before eating: ¡Que aproveche!", "Ojalá + subjuntivo for general wishes"], "examples": ["¡Que lo pases bien en el viaje!", "¡Que cumplas muchos más!"] },
-  { "id": "para-inf", "unit": 0, "title": "Para + inf. / para que + subj.", "summary": "Para + infinitive when the subject is the same. Para que + subjunctive when it is different.", "rules": ["Estudio para aprobar (same subject)", "Te lo explico para que lo entiendas (different subject)"], "examples": ["Ahorro para comprarme un coche.", "Hablo despacio para que me entiendan."] },
-  { "id": "sugerir-recomendar-quejarse-proponer", "unit": 0, "title": "Sugerir, recomendar, proponer, quejarse", "summary": "Te recomiendo / sugiero / aconsejo / propongo que + subjunctive. Quejarse de + noun / infinitive / que + subjunctive. These are key structures for writing advice emails and complaints.", "rules": ["Te recomiendo que + subjuntivo", "Te recomiendo + infinitivo (also possible)", "Me quejo de + sustantivo", "Quiero quejarme de que + subj. / indicativo (fact)"], "examples": ["Te aconsejo que vayas en tren.", "Le escribo para quejarme del servicio."] }
+ {
+  "id": "soler-inf",
+  "unit": 1,
+  "title": "soler + infinitivo",
+  "summary": "Use soler + infinitive to say what usually happens. Only conjugate soler (suelo, sueles, suele, solemos, soléis, suelen).",
+  "rules": [
+   "soler is an o→ue verb: suelo, but solemos / soléis",
+   "Past habits use the imperfecto: solía, solías…",
+   "No preposition: suelo cenar (never *suelo a cenar*)"
+  ],
+  "examples": [
+   "En España solemos cenar a las diez.",
+   "De niño solía pasar los veranos en el pueblo."
+  ],
+  "bookRef": {
+   "page": 19,
+   "masEjercicios": 178
+  }
+ },
+ {
+  "id": "lo-normal-es",
+  "unit": 1,
+  "title": "Lo normal / lo habitual / lo raro es + inf.",
+  "summary": "Lo + adjective works like a noun: 'the normal thing'. Follow it with es + infinitive for general statements, or es que + subjunctive when a subject is named.",
+  "rules": [
+   "Lo normal es + infinitive (general)",
+   "Lo normal es que + subjunctive (specific people)",
+   "Also: lo habitual, lo raro, lo más común, lo típico"
+  ],
+  "examples": [
+   "Lo normal es dar dos besos.",
+   "Lo raro es que la gente llegue puntual a una fiesta."
+  ],
+  "bookRef": {
+   "page": 19,
+   "masEjercicios": 178
+  }
+ },
+ {
+  "id": "cuantificadores",
+  "unit": 1,
+  "title": "Cuantificadores: todo el mundo, casi nadie…",
+  "summary": "Quantifiers say how many people do something. Most take a singular verb (todo el mundo, casi nadie, la mayoría de la gente); la mayoría de + plural noun can take a plural verb.",
+  "rules": [
+   "todo el mundo / nadie / casi nadie + singular verb",
+   "Nadie after the verb needs no: No lo hace nadie",
+   "muchas personas / pocas personas + plural verb"
+  ],
+  "examples": [
+   "Casi nadie cena antes de las nueve.",
+   "Todo el mundo deja propina en los bares de su barrio."
+  ],
+  "bookRef": {
+   "page": 18,
+   "ejercicios": "10",
+   "masEjercicios": 178
+  }
+ },
+ {
+  "id": "esta-prohibido",
+  "unit": 1,
+  "title": "Está prohibido / no está permitido / se puede",
+  "summary": "Talk about rules with está prohibido / está permitido / es obligatorio + infinitive, or with (no) se puede + infinitive. With a noun subject, the participle agrees.",
+  "rules": [
+   "Está prohibido + infinitive (invariable)",
+   "Noun subject: Están prohibidas las motos",
+   "(No) se puede / (no) se permite + infinitive",
+   "Es obligatorio + infinitive"
+  ],
+  "examples": [
+   "Está prohibido fumar en los bares.",
+   "En la biblioteca no se puede comer."
+  ],
+  "bookRef": {
+   "page": 19,
+   "ejercicios": "8-9",
+   "masEjercicios": 178
+  }
+ },
+ {
+  "id": "se-impersonal",
+  "unit": 1,
+  "title": "Se impersonal / se pasiva",
+  "summary": "Se + 3rd person verb describes what people do in general. With a plural noun, the verb goes plural (se venden pisos).",
+  "rules": [
+   "se + singular verb + infinitive / singular noun",
+   "se + plural verb + plural noun",
+   "With people as objects: se respeta a los mayores (singular)"
+  ],
+  "examples": [
+   "En Sevilla se come muy tarde.",
+   "Aquí se alquilan bicicletas."
+  ],
+  "bookRef": {
+   "page": 19,
+   "ejercicios": "12",
+   "masGramatica": 294,
+   "masEjercicios": 178
+  }
+ },
+ {
+  "id": "ser-estar-normas",
+  "unit": 1,
+  "title": "Ser / estar in rules and customs",
+  "summary": "Es + adjective + infinitive gives opinions about customs (es normal, es raro, es de mala educación). Está + participle describes a state such as está prohibido, está mal visto.",
+  "rules": [
+   "Es + adjective + infinitive: es raro, es normal, es de mala educación",
+   "Está + bien/mal visto, está prohibido, está permitido",
+   "Está bien / está mal + infinitive"
+  ],
+  "examples": [
+   "Es de mala educación hablar con la boca llena.",
+   "Está mal visto llegar con las manos vacías."
+  ],
+  "bookRef": {
+   "page": 18,
+   "ejercicios": "13",
+   "masEjercicios": 178
+  }
+ },
+ {
+  "id": "perifrasis-tiempo",
+  "unit": 2,
+  "title": "Perífrasis: empezar a, acabar de, volver a, dejar de…",
+  "summary": "Verb phrases that describe the stages of an action: start (empezar a), just finished (acabar de), finish (terminar de), again (volver a), stop (dejar de) + infinitive.",
+  "rules": [
+   "empezar / ponerse a + inf. = start",
+   "acabar de + inf. = have just done",
+   "volver a + inf. = do again",
+   "dejar de + inf. = stop doing",
+   "terminar de + inf. = finish doing"
+  ],
+  "examples": [
+   "Acabo de terminar el máster.",
+   "Ha dejado de fumar este año."
+  ],
+  "bookRef": {
+   "page": 33,
+   "masGramatica": 290,
+   "masEjercicios": 185
+  }
+ },
+ {
+  "id": "llevar-seguir-gerundio",
+  "unit": 2,
+  "title": "llevar / seguir + gerundio",
+  "summary": "Llevar + time + gerund says how long something has been going on. Seguir + gerund says it is still going on. Sin + infinitive gives the negative.",
+  "rules": [
+   "Llevo dos años viviendo en Sevilla",
+   "Sigo trabajando en la misma empresa",
+   "Llevo tres meses sin fumar",
+   "Seguir is e→i: sigo, sigues, sigue…"
+  ],
+  "examples": [
+   "Llevamos media hora esperando.",
+   "¿Sigues estudiando alemán?"
+  ],
+  "bookRef": {
+   "page": 33,
+   "masGramatica": 290,
+   "masEjercicios": 185
+  }
+ },
+ {
+  "id": "desde-hace",
+  "unit": 2,
+  "title": "desde / desde hace / hace … que",
+  "summary": "Desde + a point in time (desde 2020, desde marzo). Desde hace + a period (desde hace tres años). Hace + period + que + verb puts the period first.",
+  "rules": [
+   "desde + date or moment",
+   "desde hace + amount of time",
+   "Hace + time + que + present",
+   "desde que + verb: desde que llegué"
+  ],
+  "examples": [
+   "Vivo aquí desde 2021.",
+   "Hace dos años que estudio español."
+  ],
+  "bookRef": {
+   "page": 33,
+   "masGramatica": 275,
+   "masEjercicios": 185
+  }
+ },
+ {
+  "id": "past-review",
+  "unit": 2,
+  "title": "Repaso: perfecto, indefinido, imperfecto",
+  "summary": "Perfecto for open periods and experiences (hoy, este año, alguna vez). Indefinido for finished events in a closed period (ayer, en 2019). Imperfecto for description, habits and background.",
+  "rules": [
+   "Open period/experience → he trabajado",
+   "Closed period → trabajé",
+   "Description/habit/background → trabajaba"
+  ],
+  "examples": [
+   "Este año he cambiado de trabajo.",
+   "En 2019 cambié de trabajo.",
+   "Antes trabajaba en un banco."
+  ],
+  "bookRef": {
+   "page": 33,
+   "masGramatica": 275,
+   "masEjercicios": 185
+  }
+ },
+ {
+  "id": "estar-gerundio",
+  "unit": 2,
+  "title": "estar + gerundio (en presente y en pasado)",
+  "summary": "estar + gerund shows an action in progress. With estar in the perfecto or indefinido, the action lasted a while and is finished (he estado / estuve trabajando). With estar in the present or imperfecto, you only see it in progress (estoy / estaba trabajando).",
+  "rules": [
+   "Progress now: estoy estudiando",
+   "Lasted and finished: he estado / estuve paseando toda la tarde",
+   "Background in progress: estaba durmiendo cuando…",
+   "Pronouns: me estoy duchando = estoy duchándome"
+  ],
+  "examples": [
+   "Esta mañana he estado preparando el examen.",
+   "Estaba cocinando cuando llegaron mis amigos."
+  ],
+  "bookRef": {
+   "page": 33,
+   "masGramatica": 290,
+   "masEjercicios": 185
+  }
+ },
+ {
+  "id": "si-presente",
+  "unit": 3,
+  "title": "Si + presente, futuro / imperativo",
+  "summary": "Real conditions: si + present, then future, present or imperative. Never use the future after si.",
+  "rules": [
+   "Si + presente → futuro: Si llueve, no iremos",
+   "Si + presente → imperativo: Si tienes tiempo, llámame",
+   "Never *si lloverá*"
+  ],
+  "examples": [
+   "Si estudias cada día, aprobarás.",
+   "Si llegas tarde, avísame."
+  ],
+  "bookRef": {
+   "page": 47,
+   "masGramatica": 277,
+   "masEjercicios": 192
+  }
+ },
+ {
+  "id": "futuro-simple",
+  "unit": 3,
+  "title": "Futuro simple",
+  "summary": "Add -é, -ás, -á, -emos, -éis, -án to the infinitive. Twelve common verbs have an irregular stem (tendr-, saldr-, podr-, har-, dir-…).",
+  "rules": [
+   "Endings are the same for -ar/-er/-ir",
+   "Irregular stems: tener→tendr-, poner→pondr-, salir→saldr-, venir→vendr-, poder→podr-, saber→sabr-, haber→habr-, querer→querr-, hacer→har-, decir→dir-, caber→cabr-, valer→valdr-"
+  ],
+  "examples": [
+   "En 2050 habrá más coches eléctricos.",
+   "Mañana te lo diré."
+  ],
+  "bookRef": {
+   "page": 47,
+   "masGramatica": 283,
+   "masEjercicios": 192
+  }
+ },
+ {
+  "id": "probabilidad-adverbios",
+  "unit": 3,
+  "title": "Seguramente, probablemente, quizás…",
+  "summary": "Adverbs of probability. Seguramente / probablemente / seguro que + indicative. Quizás / tal vez / posiblemente can take the indicative or subjunctive; a lo mejor always takes the indicative.",
+  "rules": [
+   "a lo mejor + indicativo (always)",
+   "seguro que + indicativo",
+   "quizás / tal vez + indicativo o subjuntivo",
+   "es probable que + subjuntivo"
+  ],
+  "examples": [
+   "A lo mejor vamos a la playa.",
+   "Es probable que llueva mañana."
+  ],
+  "bookRef": {
+   "page": 47,
+   "masGramatica": 284,
+   "masEjercicios": 192
+  }
+ },
+ {
+  "id": "marcadores-futuro",
+  "unit": 3,
+  "title": "Marcadores de futuro",
+  "summary": "Time markers for the future: dentro de + period, el próximo / la próxima, a finales de, de aquí a + period, en + year.",
+  "rules": [
+   "dentro de dos años = two years from now",
+   "de aquí a + period = from now until",
+   "el año que viene / el próximo año",
+   "a finales de / a principios de + month or year"
+  ],
+  "examples": [
+   "Dentro de diez años trabajaremos desde casa.",
+   "A finales de mes me mudo."
+  ],
+  "bookRef": {
+   "page": 47,
+   "ejercicios": "19",
+   "masEjercicios": 192
+  }
+ },
+ {
+  "id": "conectores-relato",
+  "unit": 4,
+  "title": "Conectores del relato",
+  "summary": "Connectors that structure a story: al principio, de repente, entonces, al final, en ese momento, al cabo de, un rato después.",
+  "rules": [
+   "Start: al principio, un día, una vez",
+   "Sudden event: de repente, de pronto",
+   "Sequence: entonces, luego, después, al cabo de + time",
+   "End: al final, por fin, finalmente"
+  ],
+  "examples": [
+   "De repente, se fue la luz.",
+   "Al cabo de una hora, llegó la policía."
+  ],
+  "bookRef": {
+   "page": 61,
+   "ejercicios": "10-12",
+   "masGramatica": 273,
+   "masEjercicios": 199
+  }
+ },
+ {
+  "id": "causa-contraste",
+  "unit": 4,
+  "title": "porque, como, pero, aunque, sin embargo",
+  "summary": "Porque gives a cause after the main idea. Como gives a known cause at the start of the sentence. Pero, aunque and sin embargo show contrast.",
+  "rules": [
+   "Como + cause, result (as the first clause)",
+   "Result + porque + cause",
+   "aunque + indicative = although (fact)",
+   "Sin embargo starts a new sentence or clause, followed by a comma"
+  ],
+  "examples": [
+   "Como no había entradas, nos fuimos a casa.",
+   "La película es larga. Sin embargo, no aburre."
+  ],
+  "bookRef": {
+   "page": 61,
+   "ejercicios": "15-16",
+   "masGramatica": 273,
+   "masEjercicios": 199
+  }
+ },
+ {
+  "id": "pronombres-od-oi",
+  "unit": 4,
+  "title": "Pronombres de OD y OI",
+  "summary": "Direct object: lo, la, los, las. Indirect object: le, les. When they appear together, le/les becomes se (se lo dije).",
+  "rules": [
+   "Order: indirect before direct (me lo, te la)",
+   "le/les + lo/la/los/las → se lo / se la…",
+   "Before a conjugated verb, or attached to an infinitive, gerund or affirmative imperative"
+  ],
+  "examples": [
+   "¿El libro? Se lo regalé a mi hermana.",
+   "Las llaves te las dejo en la mesa."
+  ],
+  "bookRef": {
+   "page": 61,
+   "ejercicios": "17-18, 21",
+   "masGramatica": 267,
+   "masEjercicios": 199
+  }
+ },
+ {
+  "id": "presente-relato",
+  "unit": 4,
+  "title": "Relatar en presente",
+  "summary": "To summarise a film or book, or tell a joke, Spanish uses the present tense. In anecdotes the first sentence is often in the past and the rest in the present (¿Sabes qué me pasó ayer? Pues nada, que salgo de casa y veo…).",
+  "rules": [
+   "Film or book plots: va de / trata de + present",
+   "Jokes: va un señor y le dice…",
+   "Anecdotes: past to open, then present for vividness"
+  ],
+  "examples": [
+   "La película trata de un chico que vive en una isla.",
+   "Va un hombre al médico y le dice…"
+  ],
+  "bookRef": {
+   "page": 61,
+   "masGramatica": 277,
+   "masEjercicios": 199
+  }
+ },
+ {
+  "id": "imperativo-afirmativo",
+  "unit": 5,
+  "title": "Imperativo afirmativo",
+  "summary": "tú = 3rd-person present (habla, come). vosotros = infinitive with -r → -d (hablad). usted/ustedes take the present subjunctive (hable, hablen). Irregular tú forms: di, haz, pon, sal, sé, ten, ven, ve.",
+  "rules": [
+   "tú: compra, lee, abre",
+   "vosotros: comprad, leed, abrid",
+   "usted: compre, lea, abra",
+   "Irregular tú: ven, ten, pon, sal, haz, di, ve, sé"
+  ],
+  "examples": [
+   "Busque y compare.",
+   "Venid a probar nuestras tapas."
+  ],
+  "bookRef": {
+   "page": 66,
+   "masEjercicios": 206
+  }
+ },
+ {
+  "id": "imperativo-negativo",
+  "unit": 5,
+  "title": "Imperativo negativo",
+  "summary": "Every negative command uses no + present subjunctive: no compres, no compréis, no compre, no compren.",
+  "rules": [
+   "-ar → -e: no hables",
+   "-er/-ir → -a: no comas, no abras",
+   "Irregular: no vayas, no hagas, no digas, no pongas, no seas",
+   "vosotros: no habléis, no comáis"
+  ],
+  "examples": [
+   "No te pierdas esta oferta.",
+   "No dejéis la compra para el último día."
+  ],
+  "bookRef": {
+   "page": 66,
+   "masEjercicios": 206
+  }
+ },
+ {
+  "id": "pronombres-posicion",
+  "unit": 5,
+  "title": "Posición de los pronombres con imperativo",
+  "summary": "Pronouns attach to the end of an affirmative command (cómpralo), and the stress often then needs an accent. In negative commands they go before the verb (no lo compres).",
+  "rules": [
+   "Affirmative: dímelo, pruébala, llámame",
+   "Negative: no me lo digas, no la pruebes",
+   "vosotros + os drops the -d: sentaos, levantaos (but idos)"
+  ],
+  "examples": [
+   "Pruébalo gratis durante un mes.",
+   "No lo dudes."
+  ],
+  "bookRef": {
+   "page": 66,
+   "masEjercicios": 206
+  }
+ },
+ {
+  "id": "subjuntivo-presente",
+  "unit": 6,
+  "title": "Presente de subjuntivo: formas",
+  "summary": "Take the yo present, drop -o, and add the 'opposite' vowel: -ar → -e, -er/-ir → -a. Stem changes and irregular yo forms carry over (tenga, haga, pueda). Six irregulars: sea, esté, vaya, haya, sepa, dé.",
+  "rules": [
+   "hablar → hable, hables, hable, hablemos, habléis, hablen",
+   "tener (tengo) → tenga",
+   "Irregular: ser→sea, ir→vaya, estar→esté, haber→haya, saber→sepa, dar→dé"
+  ],
+  "examples": [
+   "Espero que tengas suerte.",
+   "Ojalá haya más carriles bici."
+  ],
+  "bookRef": {
+   "page": 80,
+   "masEjercicios": 213
+  }
+ },
+ {
+  "id": "querer-pedir-que",
+  "unit": 6,
+  "title": "Querer / pedir / exigir que + subjuntivo",
+  "summary": "Verbs of wanting and asking take an infinitive when the subject is the same, and que + subjunctive when it is different.",
+  "rules": [
+   "Same subject: quiero cambiar",
+   "Different subject: quiero que cambies",
+   "Also: pedir, exigir, necesitar, esperar, desear"
+  ],
+  "examples": [
+   "Exigimos que el ayuntamiento limpie el parque.",
+   "Te pido que me escuches."
+  ],
+  "bookRef": {
+   "page": 80,
+   "masEjercicios": 213
+  }
+ },
+ {
+  "id": "deberian-habria-que",
+  "unit": 6,
+  "title": "Deberían / habría que / hay que",
+  "summary": "Propose solutions with debería(n) + infinitive (someone should) or habría que + infinitive (it would be necessary to). Es necesario / es importante que take the subjunctive.",
+  "rules": [
+   "Los políticos deberían + inf.",
+   "Habría que + inf. (impersonal)",
+   "Es necesario que + subjuntivo"
+  ],
+  "examples": [
+   "Habría que bajar el precio del transporte.",
+   "El gobierno debería invertir en vivienda."
+  ],
+  "bookRef": {
+   "page": 80,
+   "masEjercicios": 213
+  }
+ },
+ {
+  "id": "cuando-subjuntivo",
+  "unit": 6,
+  "title": "Cuando + subjuntivo (futuro)",
+  "summary": "Cuando + subjunctive refers to the future. Cuando + indicative refers to habits or the past. Never use the future after cuando.",
+  "rules": [
+   "Future: cuando llegue, te llamo",
+   "Habit: cuando llego, me ducho",
+   "Past: cuando llegué, estaba cerrado",
+   "Never *cuando llegaré*"
+  ],
+  "examples": [
+   "Cuando tenga dinero, viajaré a Perú.",
+   "Cuando termine la carrera, buscaré trabajo."
+  ],
+  "bookRef": {
+   "page": 80,
+   "masEjercicios": 213
+  }
+ },
+ {
+  "id": "estilo-indirecto",
+  "unit": 7,
+  "title": "Estilo indirecto",
+  "summary": "Reporting with me ha dicho que (present unchanged), me ha preguntado si / qué, and me ha pedido que + subjunctive. Pronouns and possessives change to the reporter's point of view.",
+  "rules": [
+   "Statement: Dice / Me ha dicho que + same tense",
+   "Yes/no question: Me ha preguntado si…",
+   "Wh- question: Me ha preguntado dónde / cuándo…",
+   "Request or command: Me ha pedido que + subjuntivo"
+  ],
+  "examples": [
+   "Me ha dicho que llega tarde.",
+   "Me ha pedido que le llame."
+  ],
+  "bookRef": {
+   "page": 94,
+   "masEjercicios": 220
+  }
+ },
+ {
+  "id": "conectores-causa-consecuencia",
+  "unit": 8,
+  "title": "Conectores de causa y consecuencia",
+  "summary": "Consequence: así que, por eso, por lo tanto, de modo que. Cause: porque, como, ya que, es que (informal excuse).",
+  "rules": [
+   "así que / por eso + result",
+   "ya que + cause (a little formal)",
+   "es que… is an informal justification"
+  ],
+  "examples": [
+   "Perdí el vuelo, así que dormí en el aeropuerto.",
+   "Ya que estás aquí, ayúdame."
+  ],
+  "bookRef": {
+   "page": 108,
+   "masEjercicios": 227
+  }
+ },
+ {
+  "id": "pluscuamperfecto",
+  "unit": 8,
+  "title": "Pluscuamperfecto",
+  "summary": "Había / habías / había / habíamos / habíais / habían + participle. It describes something that happened before another past event.",
+  "rules": [
+   "Form: imperfecto of haber + participle",
+   "Irregular participles: hecho, dicho, visto, puesto, escrito, vuelto, abierto, roto",
+   "Common with ya and nunca: nunca había visto…"
+  ],
+  "examples": [
+   "Cuando llegamos, el tren ya había salido.",
+   "Nunca había probado el salmorejo."
+  ],
+  "bookRef": {
+   "page": 108,
+   "masEjercicios": 227
+  }
+ },
+ {
+  "id": "past-combined",
+  "unit": 8,
+  "title": "Contar anécdotas: todos los pasados",
+  "summary": "In an anecdote, the indefinido moves the story forward, the imperfecto sets the scene, and the pluscuamperfecto goes one step further back.",
+  "rules": [
+   "Events → indefinido",
+   "Scene / circumstances → imperfecto",
+   "Earlier event → pluscuamperfecto"
+  ],
+  "examples": [
+   "Estaba en Roma, había perdido el pasaporte y de repente me llamó la policía."
+  ],
+  "bookRef": {
+   "page": 108,
+   "masEjercicios": 227
+  }
+ },
+ {
+  "id": "me-fascina-que",
+  "unit": 9,
+  "title": "Me fascina / me molesta que + subjuntivo",
+  "summary": "Gustar-type verbs of feeling take an infinitive for the same subject and que + subjunctive for a different subject.",
+  "rules": [
+   "Me molesta llegar tarde (same subject)",
+   "Me molesta que llegues tarde (different subject)",
+   "Verb agrees with the thing: me molestan los ruidos"
+  ],
+  "examples": [
+   "Me encanta que me escribas.",
+   "Le pone nervioso que la gente hable en el cine."
+  ],
+  "bookRef": {
+   "page": 122,
+   "masEjercicios": 234
+  }
+ },
+ {
+  "id": "verbos-sentimiento",
+  "unit": 9,
+  "title": "Verbos de sentimiento: odio, no aguanto, me pone de mal humor",
+  "summary": "Odiar, no soportar, no aguantar and detestar are regular verbs (yo odio). Me pone(n) nervioso / de mal humor works like gustar.",
+  "rules": [
+   "Yo odio / no soporto + noun / inf. / que + subj.",
+   "Me pone(n) + adj.: me ponen nerviosa las colas",
+   "Me da rabia / pena / vergüenza que + subj."
+  ],
+  "examples": [
+   "No soporto que me interrumpan.",
+   "Me da pena que te vayas."
+  ],
+  "bookRef": {
+   "page": 122,
+   "masEjercicios": 234
+  }
+ },
+ {
+  "id": "superlativo-isimo",
+  "unit": 10,
+  "title": "Superlativo -ísimo",
+  "summary": "Add -ísimo/a/os/as to an adjective to mean 'very, very'. Drop the final vowel and watch the spelling: rico → riquísimo, largo → larguísimo, amable → amabilísimo.",
+  "rules": [
+   "caro → carísimo",
+   "c → qu: rico → riquísimo",
+   "g → gu: largo → larguísimo",
+   "-ble → -bilísimo: amable → amabilísimo"
+  ],
+  "examples": [
+   "Esta lámpara es carísima.",
+   "El diseño es sencillísimo."
+  ],
+  "bookRef": {
+   "page": 136,
+   "masEjercicios": 241
+  }
+ },
+ {
+  "id": "exclamativas",
+  "unit": 10,
+  "title": "Exclamativas: ¡Qué…!, ¡Qué … tan / más …!",
+  "summary": "¡Qué + adjective / noun! ¡Qué + noun + tan / más + adjective! ¡Cuánto/a + noun! Remember the accent and the opening ¡.",
+  "rules": [
+   "¡Qué bonito!",
+   "¡Qué silla tan / más cómoda!",
+   "¡Cuánta gente!",
+   "¡Cómo + verb!: ¡Cómo llueve!"
+  ],
+  "examples": [
+   "¡Qué diseño tan original!",
+   "¡Cuánto ruido!"
+  ],
+  "bookRef": {
+   "page": 136,
+   "masEjercicios": 241
+  }
+ },
+ {
+  "id": "relativas-preposicion",
+  "unit": 10,
+  "title": "Relativas con preposición: con el que, en la que…",
+  "summary": "When the relative clause needs a preposition, use preposition + article + que, with the article agreeing with the noun: la caja en la que, el cuchillo con el que.",
+  "rules": [
+   "Preposition goes before the relative",
+   "Article agrees: el / la / los / las + que",
+   "Places: en el que = donde"
+  ],
+  "examples": [
+   "Es un aparato con el que puedes cortar pan.",
+   "La mesa en la que trabajo es de madera."
+  ],
+  "bookRef": {
+   "page": 136,
+   "masEjercicios": 241
+  }
+ },
+ {
+  "id": "relativas-ind-subj",
+  "unit": 10,
+  "title": "Relativas: indicativo o subjuntivo",
+  "summary": "Indicative when the thing exists and is known (tengo una silla que se pliega). Subjunctive when it is unknown or wanted (busco una silla que se pliegue). With no existe / no hay, use the subjunctive.",
+  "rules": [
+   "Known antecedent → indicativo",
+   "Unknown or desired antecedent → subjuntivo",
+   "No hay nada / nadie que + subjuntivo"
+  ],
+  "examples": [
+   "Necesito una mochila que sea impermeable.",
+   "No conozco a nadie que tenga un coche eléctrico."
+  ],
+  "bookRef": {
+   "page": 136,
+   "masEjercicios": 241
+  }
+ },
+ {
+  "id": "valorar-inf-subj",
+  "unit": 11,
+  "title": "Es injusto / está bien / me parece mal que + subjuntivo",
+  "summary": "Value judgments take an infinitive for general statements and que + subjunctive when a subject is named.",
+  "rules": [
+   "Es injusto + inf. (general)",
+   "Es injusto que + subj. (specific subject)",
+   "Also: está bien/mal que, me parece fatal que, es una vergüenza que"
+  ],
+  "examples": [
+   "Me parece fatal que se tire comida.",
+   "Está bien reciclar, pero no es suficiente."
+  ],
+  "bookRef": {
+   "page": 150,
+   "masEjercicios": 248
+  }
+ },
+ {
+  "id": "condicional",
+  "unit": 11,
+  "title": "Condicional simple",
+  "summary": "Infinitive + -ía, -ías, -ía, -íamos, -íais, -ían (the same irregular stems as the future). Use it for advice, polite requests and hypotheses.",
+  "rules": [
+   "hablaría, comería, viviría",
+   "Irregular: tendría, haría, diría, podría, saldría, pondría, vendría, querría, sabría, habría",
+   "Advice: yo que tú, iría al médico"
+  ],
+  "examples": [
+   "Yo en tu lugar, hablaría con ella.",
+   "¿Podrías ayudarme?"
+  ],
+  "bookRef": {
+   "page": 150,
+   "masEjercicios": 248
+  }
+ },
+ {
+  "id": "lo-neutro",
+  "unit": 11,
+  "title": "Lo + adjetivo / lo que",
+  "summary": "Lo + adjective = 'the … thing'. Lo que = 'what' (the thing that).",
+  "rules": [
+   "Lo bueno / lo malo / lo peor es que…",
+   "Lo que más me preocupa es…",
+   "Lo + adjective stays masculine singular"
+  ],
+  "examples": [
+   "Lo peor es que nadie hace nada.",
+   "Lo que necesitamos es más transporte público."
+  ],
+  "bookRef": {
+   "page": 150,
+   "masEjercicios": 248
+  }
+ },
+ {
+  "id": "futuro-compuesto",
+  "unit": 12,
+  "title": "Futuro compuesto (probabilidad en el pasado)",
+  "summary": "Habré / habrás / habrá … + participle. It makes guesses about a recent past (perfecto context): ¿Dónde está Ana? — Se habrá dormido.",
+  "rules": [
+   "Guess about the present → futuro simple: estará en casa",
+   "Guess about a perfecto-type past → futuro compuesto: habrá salido",
+   "Guess about an indefinido-type past → condicional: saldría"
+  ],
+  "examples": [
+   "No contesta: se habrá quedado sin batería.",
+   "Habrán perdido el tren."
+  ],
+  "bookRef": {
+   "page": 164,
+   "masEjercicios": 255
+  }
+ },
+ {
+  "id": "hipotesis-ind-subj",
+  "unit": 12,
+  "title": "Hipótesis: creo que, puede que, es posible que",
+  "summary": "Some expressions take the indicative (creo que, supongo que, seguro que, a lo mejor). Others take the subjunctive (puede que, es posible que, no creo que).",
+  "rules": [
+   "Indicativo: creo que, me imagino que, a lo mejor",
+   "Subjuntivo: puede que, es posible que, no creo que, dudo que"
+  ],
+  "examples": [
+   "Puede que sea un fenómeno natural.",
+   "Supongo que hay una explicación."
+  ],
+  "bookRef": {
+   "page": 164,
+   "masEjercicios": 255
+  }
+ },
+ {
+  "id": "creer-creerse",
+  "unit": 12,
+  "title": "Creer / creerse / creer en",
+  "summary": "Creer que = think. Creer en = believe in (ghosts, God, someone). Creerse algo = believe (a story) fully, often with doubt implied: no me lo creo.",
+  "rules": [
+   "Creo que tienes razón (opinion)",
+   "¿Crees en los fantasmas? (belief in)",
+   "No me lo creo / Se cree todo lo que lee"
+  ],
+  "examples": [
+   "Mi abuela cree en el mal de ojo.",
+   "¡No me lo creo!"
+  ],
+  "bookRef": {
+   "page": 164,
+   "masEjercicios": 255
+  }
+ },
+ {
+  "id": "cual-vs-que",
+  "unit": 0,
+  "title": "¿Cuál? vs ¿Qué?",
+  "summary": "¿Qué + noun? and ¿qué + verb? ask for a definition or type. ¿Cuál + verb? asks you to choose from a set. Before ser, use ¿cuál es…? for data (¿Cuál es tu dirección?).",
+  "rules": [
+   "¿Qué + sustantivo?: ¿Qué libro lees?",
+   "¿Cuál es tu número? (not *qué es tu número*)",
+   "¿Qué es…? = definition: ¿Qué es un salmorejo?",
+   "¿Cuál de + plural?: ¿Cuál de los dos?"
+  ],
+  "examples": [
+   "¿Cuál es tu correo electrónico?",
+   "¿Qué es el ACLES?"
+  ]
+ },
+ {
+  "id": "gustar-preferir",
+  "unit": 0,
+  "title": "Gustar / preferir",
+  "summary": "Gustar agrees with the thing liked (me gusta el cine, me gustan las series). Preferir is a normal e→ie verb (prefiero, preferimos).",
+  "rules": [
+   "me / te / le / nos / os / les + gusta(n)",
+   "A mí / a ti / a él… for emphasis or contrast",
+   "preferir: prefiero, prefieres, prefiere, preferimos, preferís, prefieren"
+  ],
+  "examples": [
+   "A mi pareja le gustan las películas de terror, pero yo prefiero las comedias."
+  ]
+ },
+ {
+  "id": "presente-valor-futuro",
+  "unit": 0,
+  "title": "Presente con valor de futuro",
+  "summary": "Spanish often uses the present for scheduled or arranged future events, usually with a time marker.",
+  "rules": [
+   "El tren sale a las 8 mañana",
+   "Esta noche ceno con Marta",
+   "Ir a + infinitive for plans"
+  ],
+  "examples": [
+   "El lunes empiezo el curso.",
+   "¿Qué haces este fin de semana?"
+  ]
+ },
+ {
+  "id": "creo-que-ind",
+  "unit": 0,
+  "title": "Creo que + ind. / No creo que + subj.",
+  "summary": "Affirmative opinion verbs (creo, pienso, me parece que) take the indicative. In the negative they take the subjunctive.",
+  "rules": [
+   "Creo que es verdad",
+   "No creo que sea verdad",
+   "Also: pienso que / no pienso que; me parece que / no me parece que"
+  ],
+  "examples": [
+   "Pienso que el examen será difícil.",
+   "No pienso que haya problemas."
+  ]
+ },
+ {
+  "id": "ser-estar-adj-que",
+  "unit": 0,
+  "title": "Es importante / está claro que…",
+  "summary": "Expressions of certainty (está claro, es verdad, es evidente que) take the indicative. Expressions of value or need (es importante, es necesario, es mejor que) take the subjunctive, or an infinitive when there is no subject.",
+  "rules": [
+   "Está claro que + indicativo",
+   "Es importante que + subjuntivo",
+   "Es importante + infinitivo (general)",
+   "No está claro que + subjuntivo"
+  ],
+  "examples": [
+   "Es verdad que el piso es caro.",
+   "Es importante que llegues a tiempo al examen."
+  ]
+ },
+ {
+  "id": "que-subj-deseos",
+  "unit": 0,
+  "title": "¡Que + subjuntivo! (deseos)",
+  "summary": "Que + subjunctive expresses good wishes in set situations: ¡Que te mejores!, ¡Que aproveche!, ¡Que tengas suerte!",
+  "rules": [
+   "¡Que + subjuntivo!",
+   "Before an exam: ¡Que te vaya bien!",
+   "Before eating: ¡Que aproveche!",
+   "Ojalá + subjuntivo for general wishes"
+  ],
+  "examples": [
+   "¡Que lo pases bien en el viaje!",
+   "¡Que cumplas muchos más!"
+  ]
+ },
+ {
+  "id": "para-inf",
+  "unit": 0,
+  "title": "Para + inf. / para que + subj.",
+  "summary": "Para + infinitive when the subject is the same. Para que + subjunctive when it is different.",
+  "rules": [
+   "Estudio para aprobar (same subject)",
+   "Te lo explico para que lo entiendas (different subject)"
+  ],
+  "examples": [
+   "Ahorro para comprarme un coche.",
+   "Hablo despacio para que me entiendan."
+  ]
+ },
+ {
+  "id": "sugerir-recomendar-quejarse-proponer",
+  "unit": 0,
+  "title": "Sugerir, recomendar, proponer, quejarse",
+  "summary": "Te recomiendo / sugiero / aconsejo / propongo que + subjunctive. Quejarse de + noun / infinitive / que + subjunctive. These are key structures for writing advice emails and complaints.",
+  "rules": [
+   "Te recomiendo que + subjuntivo",
+   "Te recomiendo + infinitivo (also possible)",
+   "Me quejo de + sustantivo",
+   "Quiero quejarme de que + subj. / indicativo (fact)"
+  ],
+  "examples": [
+   "Te aconsejo que vayas en tren.",
+   "Le escribo para quejarme del servicio."
+  ]
+ }
 ]

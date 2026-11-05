@@ -9,9 +9,12 @@
  ],
  "writingTask": "Sinopsis de una película",
  "bookRef": {
-  "page": 52
+  "page": 52,
+  "masEjercicios": 199,
+  "masGramatica": 263
  },
  "grammarPoints": [
+  "presente-relato",
   "conectores-relato",
   "causa-contraste",
   "pronombres-od-oi"
@@ -329,6 +332,148 @@
    ],
    "feedback": "Indirect (te) before direct (las).",
    "contrast": "Me las has dejado."
+  },
+  {
+   "id": "u04-rel-001",
+   "type": "gap",
+   "unit": 4,
+   "grammarPoint": "presente-relato",
+   "difficulty": 1,
+   "prompt": "La película ___ (tratar) de una chica que quiere ser astronauta.",
+   "answers": [
+    "trata"
+   ],
+   "feedback": "Summaries of films and books use the present: trata de / va de.",
+   "contrast": "Ayer vi una película que trataba de…"
+  },
+  {
+   "id": "u04-rel-002",
+   "type": "gap",
+   "unit": 4,
+   "grammarPoint": "presente-relato",
+   "difficulty": 2,
+   "prompt": "Va un hombre al médico y le ___ (decir): «Doctor, nadie me hace caso».",
+   "answers": [
+    "dice"
+   ],
+   "feedback": "Jokes are told in the present: va… y le dice…",
+   "contrast": "Fue al médico y le dijo…"
+  },
+  {
+   "id": "u04-rel-003",
+   "type": "choice",
+   "unit": 4,
+   "grammarPoint": "presente-relato",
+   "difficulty": 2,
+   "prompt": "La novela ___ en Cádiz en los años cincuenta.",
+   "options": [
+    "está ambientada",
+    "es ambientada",
+    "ambienta"
+   ],
+   "answers": [
+    "está ambientada"
+   ],
+   "feedback": "estar ambientado/a en = to be set in.",
+   "contrast": "La historia ocurre en Cádiz."
+  },
+  {
+   "id": "u04-rel-004",
+   "type": "choice",
+   "unit": 4,
+   "grammarPoint": "presente-relato",
+   "difficulty": 2,
+   "prompt": "¿Sabes qué me pasó ayer? Pues nada, que ___ del metro y me encuentro a mi exjefe.",
+   "options": [
+    "salgo",
+    "salí",
+    "salía"
+   ],
+   "answers": [
+    "salgo"
+   ],
+   "feedback": "In anecdotes, after a past opener, the story often continues in the present for vividness.",
+   "contrast": "Salí del metro y me encontré…"
+  },
+  {
+   "id": "u04-rel-005",
+   "type": "gap",
+   "unit": 4,
+   "grammarPoint": "presente-relato",
+   "difficulty": 2,
+   "prompt": "Al final de la serie, la protagonista ___ (descubrir) que su hermano es el culpable.",
+   "answers": [
+    "descubre"
+   ],
+   "feedback": "Plot summary → present.",
+   "contrast": "Al final descubrió que…"
+  },
+  {
+   "id": "u04-rel-006",
+   "type": "choice",
+   "unit": 4,
+   "grammarPoint": "presente-relato",
+   "difficulty": 3,
+   "prompt": "No sé qué ha pasado, pero creo que ___ un malentendido.",
+   "options": [
+    "se trata de",
+    "trata de",
+    "va de"
+   ],
+   "answers": [
+    "se trata de"
+   ],
+   "feedback": "se trata de = it's (a matter of). trata de / va de = it's about (a story).",
+   "contrast": "La película trata de un malentendido."
+  },
+  {
+   "id": "u04-conec-007",
+   "type": "choice",
+   "unit": 4,
+   "grammarPoint": "conectores-relato",
+   "difficulty": 2,
+   "prompt": "Estábamos en la playa y ___ empezó a llover a cántaros.",
+   "options": [
+    "de pronto",
+    "al final",
+    "por fin"
+   ],
+   "answers": [
+    "de pronto"
+   ],
+   "feedback": "de pronto = de repente (sudden event).",
+   "contrast": "Al final salió el sol."
+  },
+  {
+   "id": "u04-pron-007",
+   "type": "choice",
+   "unit": 4,
+   "grammarPoint": "pronombres-od-oi",
+   "difficulty": 2,
+   "prompt": "—¿Has visto a Pablo? —No, no ___ he visto desde el lunes.",
+   "options": [
+    "lo",
+    "la",
+    "les"
+   ],
+   "answers": [
+    "lo"
+   ],
+   "feedback": "Pablo is a male person (OD) → lo; in Spain le is also very common (leísmo).",
+   "contrast": "¿Y a Laura? No la he visto."
+  },
+  {
+   "id": "u04-pron-008",
+   "type": "gap",
+   "unit": 4,
+   "grammarPoint": "pronombres-od-oi",
+   "difficulty": 2,
+   "prompt": "—¿Has aprobado el examen? —Sí, pero nadie ___ sabe todavía.",
+   "answers": [
+    "lo"
+   ],
+   "feedback": "lo can replace a whole idea or sentence.",
+   "contrast": "Sí, pero nadie lo sabe."
   }
  ]
 }
