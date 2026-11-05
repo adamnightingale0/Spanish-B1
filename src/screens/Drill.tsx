@@ -6,7 +6,6 @@ import { WHY_LABELS, TYPE_LABELS, gpById, unitLabel, bookRefFor } from '../lib/c
 import type { Attempt } from '../lib/db';
 import { useApp, navigate } from '../state';
 import { BookRef, Speak } from '../components/common';
-import { AccentBar } from '../components/AccentBar';
 
 interface GapResult {
   n: number;
@@ -44,7 +43,6 @@ export function Drill({ spec }: { spec: { title: string; items: DrillItem[] } })
   const [history, setHistory] = useState<Outcome[]>([]);
   const requeued = useRef(new Map<string, number>());
   const itemStart = useRef(Date.now());
-  const activeInput = useRef<HTMLInputElement | null>(null);
 
   const item = queue[pos];
 
@@ -195,7 +193,7 @@ export function Drill({ spec }: { spec: { title: string; items: DrillItem[] } })
       </div>
 
       {item.type === 'cloze' ? (
-        <Cloze item={item} inputs={inputs} setInputs={setInputs} results={phase === 'answer' ? null : results} activeInput={activeInput} />
+        <Cloze item={item} inputs={inputs} setInputs={setInputs} results={phase === 'answer' ? null : results} />
       ) : (
         <Prompt item={item} value={inputs[0] ?? ''} />
       )}
@@ -246,17 +244,9 @@ export function Drill({ spec }: { spec: { title: string; items: DrillItem[] } })
               aria-label="Tu respuesta"
               placeholder="Escribe aquí…"
               value={inputs[0] ?? ''}
-              onFocus={(e) => (activeInput.current = e.currentTarget)}
               onInput={(e) => setInputs({ 0: e.currentTarget.value })}
             />
           )}
-          <AccentBar
-            target={activeInput}
-            onInsert={(el, value) => {
-              const n = Number(el.dataset.n ?? 0);
-              setInputs((prev) => ({ ...prev, [n]: value }));
-            }}
-          />
           <div class="sticky-actions">
             <button type="button" onClick={() => check()} class="grow">
               No lo sé
@@ -335,14 +325,12 @@ function Cloze({
   item,
   inputs,
   setInputs,
-  results,
-  activeInput
+  results
 }: {
   item: ClozeItem;
   inputs: Record<number, string>;
   setInputs: (f: (p: Record<number, string>) => Record<number, string>) => void;
   results: GapResult[] | null;
-  activeInput: { current: HTMLInputElement | null };
 }) {
   const parts = item.text.split(/\{\{(\d+)\}\}/);
   return (
@@ -370,8 +358,7 @@ function Cloze({
                 class={r ? (r.res.correct ? 'right' : 'wrong') : ''}
                 disabled={!!results}
                 value={inputs[n] ?? ''}
-                onFocus={(e) => (activeInput.current = e.currentTarget)}
-                onInput={(e) => {
+                  onInput={(e) => {
                   const v = e.currentTarget.value;
                   setInputs((prev) => ({ ...prev, [n]: v }));
                 }}

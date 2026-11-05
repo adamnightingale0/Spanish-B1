@@ -171,8 +171,6 @@ label.field > span { display: block; font-size: 14px; color: var(--muted); margi
 .options button.right { background: var(--ok-soft); border-color: var(--ok); }
 .options button.wrong { background: var(--bad-soft); border-color: var(--bad); }
 
-.accent-bar { display: flex; gap: 6px; margin: 10px 0; flex-wrap: wrap; }
-.accent-bar button { min-width: 44px; padding: 6px 0; font-size: 19px; flex: 1; }
 
 .feedback { border-radius: var(--radius); padding: 14px 16px; margin: 14px 0; border: 1px solid var(--line); background: var(--surface); }
 .feedback.ok { border-color: var(--ok); background: var(--ok-soft); }
