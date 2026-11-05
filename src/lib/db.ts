@@ -15,6 +15,7 @@ export interface Attempt {
   reasonCorrect?: boolean;
   override?: boolean; // the "typo" button turned a wrong mark into a right one
   ms?: number; // time spent on the item
+  errorTag?: string; // what was confused, e.g. 'indefinido→imperfecto' (see errors.ts)
 }
 
 export interface Settings {
@@ -27,6 +28,8 @@ export interface Settings {
   ttsRate: number;
   lastBackup: number | null;
   firstRun: number;
+  pageOffset: number; // PDF page = printed page + pageOffset
+  placementDone: number | null;
 }
 
 export const DEFAULT_SETTINGS: Settings = {
@@ -38,11 +41,34 @@ export const DEFAULT_SETTINGS: Settings = {
   voiceURI: null,
   ttsRate: 1,
   lastBackup: null,
-  firstRun: Date.now()
+  firstRun: Date.now(),
+  pageOffset: 1,
+  placementDone: null
 };
 
 const attemptsStore = createStore('b1-attempts', 'attempts');
 const metaStore = createStore('b1-meta', 'meta');
+const srsStore = createStore('b1-srs', 'srs');
+const bookStore = createStore('b1-book', 'book');
+
+/** Spaced-repetition state for one vocabulary card (FSRS card serialised with dates as ISO strings). */
+export interface SrsRecord {
+  cardId: string;
+  fsrs: Record<string, unknown>;
+  recogCorrect: number; // correct ES→EN answers; after 2, the card switches to EN→ES typed recall
+  introduced: number; // ts the card was first studied
+  lastRating?: number;
+}
+
+export async function loadSrs(): Promise<SrsRecord[]> {
+  return (await entries<string, SrsRecord>(srsStore)).map(([, v]) => v);
+}
+export const saveSrs = (r: SrsRecord) => set(r.cardId, r, srsStore);
+
+/** The user's own book PDF, kept only on this device and never exported. */
+export const loadBook = () => get<Blob>('pdf', bookStore);
+export const saveBook = (b: Blob) => set('pdf', b, bookStore);
+export const removeBook = () => del('pdf', bookStore);
 
 export async function loadSettings(): Promise<Settings> {
   const s = (await get<Partial<Settings>>('settings', metaStore)) ?? {};
@@ -72,6 +98,7 @@ export interface Backup {
   exportedAt: string;
   settings: Settings;
   attempts: Attempt[];
+  srs?: SrsRecord[];
 }
 
 export async function exportBackup(): Promise<Backup> {
@@ -80,7 +107,8 @@ export async function exportBackup(): Promise<Backup> {
     version: 1,
     exportedAt: new Date().toISOString(),
     settings: await loadSettings(),
-    attempts: await loadAttempts()
+    attempts: await loadAttempts(),
+    srs: await loadSrs()
   };
 }
 
@@ -88,6 +116,7 @@ export async function importBackup(data: unknown): Promise<number> {
   const b = data as Backup;
   if (!b || b.app !== 'spanish-b1-practice' || !Array.isArray(b.attempts)) throw new Error('This file is not a Spanish B1 Practice backup.');
   await setMany(b.attempts.map((a) => [a.key, a]), attemptsStore);
+  if (Array.isArray(b.srs)) await setMany(b.srs.map((r) => [r.cardId, r]), srsStore);
   await saveSettings({ ...DEFAULT_SETTINGS, ...b.settings });
   return b.attempts.length;
 }
@@ -95,4 +124,5 @@ export async function importBackup(data: unknown): Promise<number> {
 export async function resetAll() {
   await clear(attemptsStore);
   await clear(metaStore);
+  await clear(srsStore);
 }

@@ -1,11 +1,17 @@
 import { createContext } from 'preact';
 import { useContext } from 'preact/hooks';
-import type { Attempt, Settings } from './lib/db';
+import type { Attempt, Settings, SrsRecord } from './lib/db';
 import type { SessionSpec } from './lib/session';
 
 export interface AppState {
   settings: Settings;
   attempts: Attempt[];
+  srs: SrsRecord[];
+  saveSrsRecord: (r: SrsRecord) => void;
+  hasBook: boolean;
+  setHasBook: (b: boolean) => void;
+  /** Opens the book viewer over the current screen (keeps a drill exactly where it was). */
+  openBook: (printedPage: number) => void;
   updateSettings: (patch: Partial<Settings>) => void;
   addAttempts: (a: Attempt[]) => void;
   replaceAttempt: (a: Attempt) => void;

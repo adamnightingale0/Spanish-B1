@@ -1,0 +1,299 @@
+{
+ "id": "vocab-u09",
+ "unit": 9,
+ "cards": [
+  {
+   "id": "v09-el-aburrimiento",
+   "unit": 9,
+   "topic": "emociones",
+   "es": "el aburrimiento",
+   "en": "the boredom",
+   "example_es": "En las reuniones largas me muero de aburrimiento.",
+   "example_en": "I die of boredom in long meetings.",
+   "gender": "m",
+   "collocation": "aburrirse / aburrir"
+  },
+  {
+   "id": "v09-el-enfado",
+   "unit": 9,
+   "topic": "emociones",
+   "es": "el enfado",
+   "en": "the anger, annoyance",
+   "example_es": "Se le pasó el enfado enseguida.",
+   "example_en": "His anger passed quickly.",
+   "gender": "m",
+   "collocation": "enfadarse"
+  },
+  {
+   "id": "v09-la-pena",
+   "unit": 9,
+   "topic": "emociones",
+   "es": "la pena",
+   "en": "the sadness, pity",
+   "example_es": "Me da pena que te vayas.",
+   "example_en": "I'm sad that you're leaving.",
+   "gender": "f",
+   "collocation": "dar pena"
+  },
+  {
+   "id": "v09-la-ilusion",
+   "unit": 9,
+   "topic": "emociones",
+   "es": "la ilusión",
+   "en": "the excitement, hope",
+   "example_es": "Me hace mucha ilusión verte.",
+   "example_en": "I'm really looking forward to seeing you.",
+   "gender": "f",
+   "collocation": "hacer ilusión"
+  },
+  {
+   "id": "v09-la-pereza",
+   "unit": 9,
+   "topic": "emociones",
+   "es": "la pereza",
+   "en": "the laziness",
+   "example_es": "Me da pereza ir al gimnasio hoy.",
+   "example_en": "I can't be bothered to go to the gym today.",
+   "gender": "f",
+   "collocation": "dar pereza"
+  },
+  {
+   "id": "v09-el-asco",
+   "unit": 9,
+   "topic": "emociones",
+   "es": "el asco",
+   "en": "the disgust",
+   "example_es": "Me da asco la comida recalentada.",
+   "example_en": "Reheated food disgusts me.",
+   "gender": "m",
+   "collocation": "dar asco"
+  },
+  {
+   "id": "v09-el-miedo",
+   "unit": 9,
+   "topic": "emociones",
+   "es": "el miedo",
+   "en": "the fear",
+   "example_es": "Tengo miedo a volar.",
+   "example_en": "I'm afraid of flying.",
+   "gender": "m",
+   "collocation": "tener / dar miedo"
+  },
+  {
+   "id": "v09-la-verguenza",
+   "unit": 9,
+   "topic": "emociones",
+   "es": "la vergüenza",
+   "en": "the embarrassment, shame",
+   "example_es": "Me da vergüenza hablar en público.",
+   "example_en": "I'm embarrassed to speak in public.",
+   "gender": "f",
+   "collocation": "dar vergüenza"
+  },
+  {
+   "id": "v09-los-celos",
+   "unit": 9,
+   "topic": "emociones",
+   "es": "los celos",
+   "en": "the jealousy",
+   "example_es": "Tiene celos de su hermano pequeño.",
+   "example_en": "He's jealous of his little brother.",
+   "gender": "m",
+   "collocation": "tener celos"
+  },
+  {
+   "id": "v09-la-rabia",
+   "unit": 9,
+   "topic": "emociones",
+   "es": "la rabia",
+   "en": "the rage, annoyance",
+   "example_es": "Me da rabia perder el autobús por un minuto.",
+   "example_en": "It drives me mad to miss the bus by a minute.",
+   "gender": "f",
+   "collocation": "dar rabia"
+  },
+  {
+   "id": "v09-ponerse-nervioso",
+   "unit": 9,
+   "topic": "emociones",
+   "es": "ponerse nervioso",
+   "en": "to get nervous",
+   "example_es": "Me pongo nervioso antes de los exámenes.",
+   "example_en": "I get nervous before exams."
+  },
+  {
+   "id": "v09-sentar-bien-mal",
+   "unit": 9,
+   "topic": "emociones",
+   "es": "sentar bien / mal",
+   "en": "to go down well / badly",
+   "example_es": "Me sentó fatal que no me llamaras.",
+   "example_en": "It upset me that you didn't call."
+  },
+  {
+   "id": "v09-estar-harto-de",
+   "unit": 9,
+   "topic": "emociones",
+   "es": "estar harto de",
+   "en": "to be fed up with",
+   "example_es": "Estoy harta del ruido de las obras.",
+   "example_en": "I'm fed up with the noise of the building work."
+  },
+  {
+   "id": "v09-no-soportar",
+   "unit": 9,
+   "topic": "manías",
+   "es": "no soportar",
+   "en": "can't stand",
+   "example_es": "No soporto que me interrumpan.",
+   "example_en": "I can't stand being interrupted."
+  },
+  {
+   "id": "v09-no-aguantar",
+   "unit": 9,
+   "topic": "manías",
+   "es": "no aguantar",
+   "en": "can't bear",
+   "example_es": "No aguanto el calor de agosto.",
+   "example_en": "I can't bear the August heat."
+  },
+  {
+   "id": "v09-la-mania",
+   "unit": 9,
+   "topic": "manías",
+   "es": "la manía",
+   "en": "the pet peeve, quirk",
+   "example_es": "Tengo la manía de ordenar los libros por colores.",
+   "example_en": "I have a habit of arranging books by colour.",
+   "gender": "f"
+  },
+  {
+   "id": "v09-odiar",
+   "unit": 9,
+   "topic": "manías",
+   "es": "odiar",
+   "en": "to hate",
+   "example_es": "Odio hacer cola.",
+   "example_en": "I hate queuing."
+  },
+  {
+   "id": "v09-molestar",
+   "unit": 9,
+   "topic": "manías",
+   "es": "molestar",
+   "en": "to bother",
+   "example_es": "¿Te molesta que abra la ventana?",
+   "example_en": "Do you mind if I open the window?"
+  },
+  {
+   "id": "v09-la-pareja",
+   "unit": 9,
+   "topic": "relaciones",
+   "es": "la pareja",
+   "en": "the partner, couple",
+   "example_es": "Vivo con mi pareja en Triana.",
+   "example_en": "I live with my partner in Triana.",
+   "gender": "f"
+  },
+  {
+   "id": "v09-discutir",
+   "unit": 9,
+   "topic": "relaciones",
+   "es": "discutir",
+   "en": "to argue",
+   "example_es": "Discutimos por quién friega los platos.",
+   "example_en": "We argue about who does the dishes."
+  },
+  {
+   "id": "v09-reconciliarse",
+   "unit": 9,
+   "topic": "relaciones",
+   "es": "reconciliarse",
+   "en": "to make up",
+   "example_es": "Discutieron, pero se reconciliaron enseguida.",
+   "example_en": "They argued, but made up straight away."
+  },
+  {
+   "id": "v09-llevarse-bien-mal",
+   "unit": 9,
+   "topic": "relaciones",
+   "es": "llevarse bien / mal",
+   "en": "to get on well / badly",
+   "example_es": "Me llevo muy bien con mi compañera de piso.",
+   "example_en": "I get on very well with my flatmate.",
+   "collocation": "llevarse bien con alguien"
+  },
+  {
+   "id": "v09-que-va",
+   "unit": 9,
+   "topic": "desacuerdo",
+   "es": "¡Qué va!",
+   "en": "No way! Not at all!",
+   "example_es": "—¿Estás enfadado? —¡Qué va!",
+   "example_en": "—Are you angry? —Not at all!"
+  },
+  {
+   "id": "v09-que-dices",
+   "unit": 9,
+   "topic": "desacuerdo",
+   "es": "¡Qué dices!",
+   "en": "What are you talking about!",
+   "example_es": "—Lo has roto tú. —¡Qué dices! Yo no he sido.",
+   "example_en": "—You broke it. —What are you talking about! It wasn't me."
+  },
+  {
+   "id": "v09-yo-no-diria-eso",
+   "unit": 9,
+   "topic": "desacuerdo",
+   "es": "yo no diría eso",
+   "en": "I wouldn't say that",
+   "example_es": "Yo no diría eso; simplemente es tímido.",
+   "example_en": "I wouldn't say that; he's just shy."
+  },
+  {
+   "id": "v09-a-mi-modo-de-ver",
+   "unit": 9,
+   "topic": "desacuerdo",
+   "es": "a mi modo de ver",
+   "en": "the way I see it",
+   "example_es": "A mi modo de ver, el problema es otro.",
+   "example_en": "The way I see it, the problem is something else."
+  },
+  {
+   "id": "v09-no-estar-del-todo-de-acuerdo",
+   "unit": 9,
+   "topic": "desacuerdo",
+   "es": "no estar del todo de acuerdo",
+   "en": "to not completely agree",
+   "example_es": "No estoy del todo de acuerdo contigo.",
+   "example_en": "I don't completely agree with you."
+  },
+  {
+   "id": "v09-lo-que-pasa-es-que",
+   "unit": 9,
+   "topic": "desacuerdo",
+   "es": "lo que pasa es que",
+   "en": "the thing is that",
+   "example_es": "Lo que pasa es que no tengo tiempo.",
+   "example_en": "The thing is, I don't have time."
+  },
+  {
+   "id": "v09-encantar",
+   "unit": 9,
+   "topic": "intereses",
+   "es": "encantar",
+   "en": "to love (like gustar)",
+   "example_es": "Me encanta que me cocines.",
+   "example_en": "I love it when you cook for me."
+  },
+  {
+   "id": "v09-apasionar",
+   "unit": 9,
+   "topic": "intereses",
+   "es": "apasionar",
+   "en": "to be passionate about",
+   "example_es": "Le apasiona la fotografía.",
+   "example_en": "She's passionate about photography."
+  }
+ ]
+}

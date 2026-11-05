@@ -1,4 +1,4 @@
-import type { DrillItem, UnitPack, FocusPack, GrammarPoint, ExamProfile, WhyId } from './schema';
+import type { DrillItem, UnitPack, FocusPack, GrammarPoint, ExamProfile, WhyId, VocabCard } from './schema';
 import gpData from '../../content/grammar-points.json';
 import focusData from '../../content/focus/past-tenses.json';
 import usb1 from '../../content/exam-profiles/us-b1.json';
@@ -17,6 +17,12 @@ export const units: UnitPack[] = Object.values(unitModules as Record<string, Uni
   (a, b) => (a.unit || 99) - (b.unit || 99)
 );
 export const unitByNumber = new Map(units.map((u) => [u.unit, u]));
+
+const vocabModules = import.meta.glob('../../content/vocab/*.json', { eager: true, import: 'default' });
+export const vocabCards: VocabCard[] = Object.values(vocabModules as Record<string, { cards: VocabCard[] }>)
+  .flatMap((p) => p.cards)
+  .sort((a, b) => a.unit - b.unit);
+export const cardById = new Map(vocabCards.map((c) => [c.id, c]));
 
 export const allItems: DrillItem[] = [...focus.items, ...units.flatMap((u) => u.items)];
 export const itemById = new Map(allItems.map((i) => [i.id, i]));
@@ -41,7 +47,10 @@ export const TYPE_LABELS: Record<DrillItem['type'], string> = {
   choice: 'Elegir',
   conjugate: 'Conjugar',
   transform: 'Transformar',
-  cloze: 'Historia (cloze)'
+  cloze: 'Historia (cloze)',
+  error: 'Encontrar el error',
+  order: 'Ordenar',
+  match: 'Relacionar'
 };
 
 export function bookRefFor(item: DrillItem): { page: number; masEjercicios?: number; masGramatica?: number; ejercicios?: string } | undefined {

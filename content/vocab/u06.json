@@ -1,0 +1,299 @@
+{
+ "id": "vocab-u06",
+ "unit": 6,
+ "cards": [
+  {
+   "id": "v06-la-vivienda",
+   "unit": 6,
+   "topic": "vida social",
+   "es": "la vivienda",
+   "en": "the housing",
+   "example_es": "El precio de la vivienda no para de subir.",
+   "example_en": "Housing prices keep going up.",
+   "gender": "f"
+  },
+  {
+   "id": "v06-la-sanidad",
+   "unit": 6,
+   "topic": "vida social",
+   "es": "la sanidad",
+   "en": "the healthcare (system)",
+   "example_es": "Defendemos una sanidad pública de calidad.",
+   "example_en": "We defend quality public healthcare.",
+   "gender": "f"
+  },
+  {
+   "id": "v06-el-empleo",
+   "unit": 6,
+   "topic": "vida social",
+   "es": "el empleo",
+   "en": "the employment, job",
+   "example_es": "El ayuntamiento promete crear empleo.",
+   "example_en": "The council promises to create jobs.",
+   "gender": "m"
+  },
+  {
+   "id": "v06-el-medioambiente",
+   "unit": 6,
+   "topic": "vida social",
+   "es": "el medioambiente",
+   "en": "the environment",
+   "example_es": "Hay que proteger el medioambiente.",
+   "example_en": "We must protect the environment.",
+   "gender": "m"
+  },
+  {
+   "id": "v06-la-justicia",
+   "unit": 6,
+   "topic": "vida social",
+   "es": "la justicia",
+   "en": "the justice (system)",
+   "example_es": "La justicia es muy lenta en este país.",
+   "example_en": "The justice system is very slow in this country.",
+   "gender": "f"
+  },
+  {
+   "id": "v06-reivindicar",
+   "unit": 6,
+   "topic": "activismo",
+   "es": "reivindicar",
+   "en": "to demand, claim (a right)",
+   "example_es": "Las enfermeras reivindican más personal.",
+   "example_en": "The nurses are demanding more staff."
+  },
+  {
+   "id": "v06-defender",
+   "unit": 6,
+   "topic": "activismo",
+   "es": "defender",
+   "en": "to defend",
+   "example_es": "Defendemos los derechos de los inquilinos.",
+   "example_en": "We defend tenants' rights."
+  },
+  {
+   "id": "v06-tener-derecho-a",
+   "unit": 6,
+   "topic": "activismo",
+   "es": "tener derecho a",
+   "en": "to have the right to",
+   "example_es": "Todo el mundo tiene derecho a una vivienda digna.",
+   "example_en": "Everyone has the right to decent housing."
+  },
+  {
+   "id": "v06-luchar-contra",
+   "unit": 6,
+   "topic": "activismo",
+   "es": "luchar contra",
+   "en": "to fight against",
+   "example_es": "La asociación lucha contra la corrupción.",
+   "example_en": "The association fights against corruption."
+  },
+  {
+   "id": "v06-luchar-por",
+   "unit": 6,
+   "topic": "activismo",
+   "es": "luchar por",
+   "en": "to fight for",
+   "example_es": "Luchan por la sanidad pública.",
+   "example_en": "They fight for public healthcare."
+  },
+  {
+   "id": "v06-protestar-por",
+   "unit": 6,
+   "topic": "activismo",
+   "es": "protestar por",
+   "en": "to protest about",
+   "example_es": "Los vecinos protestan por el ruido de los bares.",
+   "example_en": "The residents are protesting about the noise from the bars."
+  },
+  {
+   "id": "v06-exigir",
+   "unit": 6,
+   "topic": "activismo",
+   "es": "exigir",
+   "en": "to demand",
+   "example_es": "Exigimos el cierre de la incineradora.",
+   "example_en": "We demand the closure of the incinerator."
+  },
+  {
+   "id": "v06-la-manifestacion",
+   "unit": 6,
+   "topic": "activismo",
+   "es": "la manifestación",
+   "en": "the demonstration",
+   "example_es": "El sábado hay una manifestación en el centro.",
+   "example_en": "There's a demonstration in the centre on Saturday.",
+   "gender": "f"
+  },
+  {
+   "id": "v06-la-recogida-de-firmas",
+   "unit": 6,
+   "topic": "activismo",
+   "es": "la recogida de firmas",
+   "en": "the petition (signature drive)",
+   "example_es": "Hemos organizado una recogida de firmas.",
+   "example_en": "We've organised a petition.",
+   "gender": "f"
+  },
+  {
+   "id": "v06-digno-digna",
+   "unit": 6,
+   "topic": "activismo",
+   "es": "digno, digna",
+   "en": "decent, dignified",
+   "example_es": "Pedimos un salario digno.",
+   "example_en": "We're asking for a decent wage."
+  },
+  {
+   "id": "v06-la-subida",
+   "unit": 6,
+   "topic": "sustantivos y verbos",
+   "es": "la subida",
+   "en": "the rise, increase",
+   "example_es": "Protestan contra la subida de los alquileres.",
+   "example_en": "They're protesting against the rise in rents.",
+   "gender": "f",
+   "collocation": "subir"
+  },
+  {
+   "id": "v06-la-bajada",
+   "unit": 6,
+   "topic": "sustantivos y verbos",
+   "es": "la bajada",
+   "en": "the fall, drop",
+   "example_es": "Ha habido una bajada de precios.",
+   "example_en": "There's been a fall in prices.",
+   "gender": "f",
+   "collocation": "bajar"
+  },
+  {
+   "id": "v06-el-cierre",
+   "unit": 6,
+   "topic": "sustantivos y verbos",
+   "es": "el cierre",
+   "en": "the closure",
+   "example_es": "El cierre de la biblioteca fue una mala noticia.",
+   "example_en": "The library closure was bad news.",
+   "gender": "m",
+   "collocation": "cerrar"
+  },
+  {
+   "id": "v06-la-apertura",
+   "unit": 6,
+   "topic": "sustantivos y verbos",
+   "es": "la apertura",
+   "en": "the opening",
+   "example_es": "Celebramos la apertura del nuevo centro de salud.",
+   "example_en": "We celebrated the opening of the new health centre.",
+   "gender": "f",
+   "collocation": "abrir"
+  },
+  {
+   "id": "v06-la-reduccion",
+   "unit": 6,
+   "topic": "sustantivos y verbos",
+   "es": "la reducción",
+   "en": "the reduction",
+   "example_es": "Pedimos una reducción de los impuestos.",
+   "example_en": "We're asking for a tax reduction.",
+   "gender": "f",
+   "collocation": "reducir"
+  },
+  {
+   "id": "v06-el-abandono",
+   "unit": 6,
+   "topic": "sustantivos y verbos",
+   "es": "el abandono",
+   "en": "the abandonment",
+   "example_es": "El abandono de animales aumenta en verano.",
+   "example_en": "Pet abandonment rises in summer.",
+   "gender": "m",
+   "collocation": "abandonar"
+  },
+  {
+   "id": "v06-la-discriminacion",
+   "unit": 6,
+   "topic": "sustantivos y verbos",
+   "es": "la discriminación",
+   "en": "the discrimination",
+   "example_es": "Luchamos contra la discriminación laboral.",
+   "example_en": "We fight against discrimination at work.",
+   "gender": "f",
+   "collocation": "discriminar"
+  },
+  {
+   "id": "v06-disminuir",
+   "unit": 6,
+   "topic": "registros",
+   "es": "disminuir",
+   "en": "to decrease (formal: bajar)",
+   "example_es": "El paro ha disminuido un dos por ciento.",
+   "example_en": "Unemployment has decreased by two per cent."
+  },
+  {
+   "id": "v06-trasladarse",
+   "unit": 6,
+   "topic": "registros",
+   "es": "trasladarse",
+   "en": "to move, travel (formal: ir)",
+   "example_es": "Los alumnos tendrán que trasladarse en autobús.",
+   "example_en": "Students will have to travel by bus."
+  },
+  {
+   "id": "v06-realizar",
+   "unit": 6,
+   "topic": "registros",
+   "es": "realizar",
+   "en": "to carry out (formal: hacer)",
+   "example_es": "El ayuntamiento realizará obras en la plaza.",
+   "example_en": "The council will carry out works in the square."
+  },
+  {
+   "id": "v06-cursar",
+   "unit": 6,
+   "topic": "registros",
+   "es": "cursar",
+   "en": "to study (formal: estudiar)",
+   "example_es": "Cursa el último año de Medicina.",
+   "example_en": "She's in her final year of Medicine."
+  },
+  {
+   "id": "v06-el-ayuntamiento",
+   "unit": 6,
+   "topic": "vida administrativa",
+   "es": "el ayuntamiento",
+   "en": "the town council, town hall",
+   "example_es": "Hay que pedir cita en el ayuntamiento.",
+   "example_en": "You have to make an appointment at the town hall.",
+   "gender": "m"
+  },
+  {
+   "id": "v06-el-alcalde-la-alcaldesa",
+   "unit": 6,
+   "topic": "vida administrativa",
+   "es": "el alcalde / la alcaldesa",
+   "en": "the mayor",
+   "example_es": "Escribimos una carta abierta a la alcaldesa.",
+   "example_en": "We wrote an open letter to the mayor."
+  },
+  {
+   "id": "v06-la-ley",
+   "unit": 6,
+   "topic": "vida administrativa",
+   "es": "la ley",
+   "en": "the law",
+   "example_es": "Han aprobado una nueva ley de vivienda.",
+   "example_en": "They've passed a new housing law.",
+   "gender": "f"
+  },
+  {
+   "id": "v06-ojala",
+   "unit": 6,
+   "topic": "deseos",
+   "es": "¡Ojalá!",
+   "en": "I hope so! / If only!",
+   "example_es": "Ojalá bajen los alquileres.",
+   "example_en": "I hope rents come down."
+  }
+ ]
+}

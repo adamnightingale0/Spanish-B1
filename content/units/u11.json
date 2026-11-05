@@ -443,6 +443,44 @@
    ],
    "feedback": "Es + adjective + infinitive. Note: the opposite of lógico is ilógico (in- → i- before l).",
    "contrast": "Es ilógico."
+  },
+  {
+   "id": "u11-err-001",
+   "type": "error",
+   "unit": 11,
+   "grammarPoint": "valorar-inf-subj",
+   "difficulty": 1,
+   "prompt": "Me parece fatal que los supermercados tiran tanta comida.",
+   "errorIndex": 6,
+   "answers": [
+    "tiren"
+   ],
+   "feedback": "Value judgment + que → subjunctive."
+  },
+  {
+   "id": "u11-err-002",
+   "type": "error",
+   "unit": 11,
+   "grammarPoint": "condicional",
+   "difficulty": 2,
+   "prompt": "Yo que tú, hablaré con el casero.",
+   "errorIndex": 3,
+   "answers": [
+    "hablaría"
+   ],
+   "feedback": "Advice with yo que tú → condicional."
+  },
+  {
+   "id": "u11-ord-001",
+   "type": "order",
+   "unit": 11,
+   "grammarPoint": "lo-neutro",
+   "difficulty": 2,
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "Lo que necesitamos es más transporte público"
+   ],
+   "feedback": "lo que + verb + es + what you emphasise."
   }
  ]
 }

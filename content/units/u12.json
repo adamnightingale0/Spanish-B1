@@ -430,6 +430,44 @@
    ],
    "feedback": "Guess about an action in progress now → estar (futuro) + gerund.",
    "contrast": "Habrá salido ya (guess about the recent past)."
+  },
+  {
+   "id": "u12-err-001",
+   "type": "error",
+   "unit": 12,
+   "grammarPoint": "hipotesis-ind-subj",
+   "difficulty": 2,
+   "prompt": "Puede que hay una explicación científica.",
+   "errorIndex": 2,
+   "answers": [
+    "haya"
+   ],
+   "feedback": "puede que + subjunctive."
+  },
+  {
+   "id": "u12-err-002",
+   "type": "error",
+   "unit": 12,
+   "grammarPoint": "creer-creerse",
+   "difficulty": 1,
+   "prompt": "¿Tú crees a los extraterrestres?",
+   "errorIndex": 2,
+   "answers": [
+    "en"
+   ],
+   "feedback": "creer en = believe in."
+  },
+  {
+   "id": "u12-ord-001",
+   "type": "order",
+   "unit": 12,
+   "grammarPoint": "futuro-compuesto",
+   "difficulty": 2,
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "Se habrá quedado sin batería"
+   ],
+   "feedback": "Guess about the recent past → futuro compuesto."
   }
  ]
 }

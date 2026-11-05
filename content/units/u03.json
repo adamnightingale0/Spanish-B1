@@ -459,6 +459,61 @@
    ],
    "feedback": "si + presente, presente: shows a firm decision (me iré would also work).",
    "contrast": "Si me lo ofrecen, me iré."
+  },
+  {
+   "id": "u03-err-001",
+   "type": "error",
+   "unit": 3,
+   "grammarPoint": "si-presente",
+   "difficulty": 1,
+   "prompt": "Si lloverá mañana, nos quedaremos en casa.",
+   "errorIndex": 1,
+   "answers": [
+    "llueve"
+   ],
+   "feedback": "Never the future after si: si + present.",
+   "contrast": "Si llueve, nos quedaremos en casa."
+  },
+  {
+   "id": "u03-err-002",
+   "type": "error",
+   "unit": 3,
+   "grammarPoint": "futuro-simple",
+   "difficulty": 2,
+   "prompt": "Mañana te lo deciré sin falta.",
+   "errorIndex": 3,
+   "answers": [
+    "diré"
+   ],
+   "feedback": "decir → dir- + é.",
+   "contrast": "Te lo digo mañana."
+  },
+  {
+   "id": "u03-match-001",
+   "type": "match",
+   "unit": 3,
+   "grammarPoint": "si-presente",
+   "difficulty": 2,
+   "instruction": "Relaciona cada principio con su final.",
+   "pairs": [
+    {
+     "left": "Si estudias todos los días,",
+     "right": "aprobarás el examen."
+    },
+    {
+     "left": "Si tienes tiempo esta tarde,",
+     "right": "llámame."
+    },
+    {
+     "left": "Si me ofrecen el puesto,",
+     "right": "me voy a Madrid."
+    },
+    {
+     "left": "Si no reducimos el consumo,",
+     "right": "no habrá agua suficiente."
+    }
+   ],
+   "feedback": "si + present + future / imperative / present."
   }
  ]
 }

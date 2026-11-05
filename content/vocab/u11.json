@@ -1,0 +1,289 @@
+{
+ "id": "vocab-u11",
+ "unit": 11,
+ "cards": [
+  {
+   "id": "v11-ilogico-ilogica",
+   "unit": 11,
+   "topic": "valorar",
+   "es": "ilógico, ilógica",
+   "en": "illogical",
+   "example_es": "Es ilógico importar fruta que tenemos aquí.",
+   "example_en": "It's illogical to import fruit we have here."
+  },
+  {
+   "id": "v11-injusto-injusta",
+   "unit": 11,
+   "topic": "valorar",
+   "es": "injusto, injusta",
+   "en": "unfair",
+   "example_es": "Es injusto que paguen menos a las mujeres.",
+   "example_en": "It's unfair that women are paid less."
+  },
+  {
+   "id": "v11-intolerable",
+   "unit": 11,
+   "topic": "valorar",
+   "es": "intolerable",
+   "en": "intolerable",
+   "example_es": "Es intolerable que se tire tanta comida.",
+   "example_en": "It's intolerable that so much food is thrown away."
+  },
+  {
+   "id": "v11-grave",
+   "unit": 11,
+   "topic": "valorar",
+   "es": "grave",
+   "en": "serious",
+   "example_es": "La sequía es un problema grave.",
+   "example_en": "The drought is a serious problem."
+  },
+  {
+   "id": "v11-una-verguenza",
+   "unit": 11,
+   "topic": "valorar",
+   "es": "una vergüenza",
+   "en": "a disgrace",
+   "example_es": "Es una vergüenza que no haya carril bici.",
+   "example_en": "It's a disgrace that there's no cycle lane."
+  },
+  {
+   "id": "v11-una-tonteria",
+   "unit": 11,
+   "topic": "valorar",
+   "es": "una tontería",
+   "en": "a silly thing, nonsense",
+   "example_es": "Es una tontería coger el coche para ir a la esquina.",
+   "example_en": "It's silly to take the car to go round the corner."
+  },
+  {
+   "id": "v11-una-locura",
+   "unit": 11,
+   "topic": "valorar",
+   "es": "una locura",
+   "en": "a crazy thing",
+   "example_es": "Pagar mil euros por un piso pequeño es una locura.",
+   "example_en": "Paying a thousand euros for a small flat is madness."
+  },
+  {
+   "id": "v11-es-evidente",
+   "unit": 11,
+   "topic": "veracidad",
+   "es": "es evidente",
+   "en": "it's obvious, evident",
+   "example_es": "Es evidente que el clima está cambiando.",
+   "example_en": "It's evident that the climate is changing."
+  },
+  {
+   "id": "v11-es-innegable",
+   "unit": 11,
+   "topic": "veracidad",
+   "es": "es innegable",
+   "en": "it's undeniable",
+   "example_es": "Es innegable que hay un problema.",
+   "example_en": "It's undeniable that there's a problem."
+  },
+  {
+   "id": "v11-es-mentira",
+   "unit": 11,
+   "topic": "veracidad",
+   "es": "es mentira",
+   "en": "it's a lie",
+   "example_es": "Es mentira que el plástico se recicle todo.",
+   "example_en": "It's not true that all plastic is recycled."
+  },
+  {
+   "id": "v11-reciclar",
+   "unit": 11,
+   "topic": "acciones",
+   "es": "reciclar",
+   "en": "to recycle",
+   "example_es": "En casa reciclamos el vidrio y el papel.",
+   "example_en": "At home we recycle glass and paper.",
+   "collocation": "el reciclaje"
+  },
+  {
+   "id": "v11-reutilizar",
+   "unit": 11,
+   "topic": "acciones",
+   "es": "reutilizar",
+   "en": "to reuse",
+   "example_es": "Reutilizo las bolsas de la compra.",
+   "example_en": "I reuse shopping bags.",
+   "collocation": "la reutilización"
+  },
+  {
+   "id": "v11-el-consumo",
+   "unit": 11,
+   "topic": "acciones",
+   "es": "el consumo",
+   "en": "the consumption",
+   "example_es": "Hay que reducir el consumo de carne.",
+   "example_en": "We need to reduce meat consumption.",
+   "gender": "m",
+   "collocation": "consumir"
+  },
+  {
+   "id": "v11-ahorrar",
+   "unit": 11,
+   "topic": "acciones",
+   "es": "ahorrar",
+   "en": "to save",
+   "example_es": "Apagando las luces ahorras energía.",
+   "example_en": "You save energy by turning off the lights.",
+   "collocation": "el ahorro"
+  },
+  {
+   "id": "v11-fomentar",
+   "unit": 11,
+   "topic": "acciones",
+   "es": "fomentar",
+   "en": "to encourage, promote",
+   "example_es": "El ayuntamiento fomenta el uso de la bici.",
+   "example_en": "The council encourages cycling.",
+   "collocation": "el fomento"
+  },
+  {
+   "id": "v11-biodegradable",
+   "unit": 11,
+   "topic": "materiales",
+   "es": "biodegradable",
+   "en": "biodegradable",
+   "example_es": "Usamos platos biodegradables en la fiesta.",
+   "example_en": "We used biodegradable plates at the party."
+  },
+  {
+   "id": "v11-reciclable",
+   "unit": 11,
+   "topic": "materiales",
+   "es": "reciclable",
+   "en": "recyclable",
+   "example_es": "Este envase es reciclable.",
+   "example_en": "This packaging is recyclable."
+  },
+  {
+   "id": "v11-de-proximidad",
+   "unit": 11,
+   "topic": "materiales",
+   "es": "de proximidad",
+   "en": "local (produce, shops)",
+   "example_es": "Compro en el comercio de proximidad.",
+   "example_en": "I shop at local shops.",
+   "collocation": "producto de proximidad"
+  },
+  {
+   "id": "v11-de-un-solo-uso",
+   "unit": 11,
+   "topic": "materiales",
+   "es": "de un solo uso",
+   "en": "single-use",
+   "example_es": "Prohibirán los plásticos de un solo uso.",
+   "example_en": "They're going to ban single-use plastics."
+  },
+  {
+   "id": "v11-de-usar-y-tirar",
+   "unit": 11,
+   "topic": "materiales",
+   "es": "de usar y tirar",
+   "en": "disposable",
+   "example_es": "Las maquinillas de usar y tirar generan mucha basura.",
+   "example_en": "Disposable razors create a lot of rubbish."
+  },
+  {
+   "id": "v11-de-segunda-mano",
+   "unit": 11,
+   "topic": "materiales",
+   "es": "de segunda mano",
+   "en": "second-hand",
+   "example_es": "Me he comprado una bici de segunda mano.",
+   "example_en": "I've bought a second-hand bike."
+  },
+  {
+   "id": "v11-el-acero-inoxidable",
+   "unit": 11,
+   "topic": "materiales",
+   "es": "el acero inoxidable",
+   "en": "the stainless steel",
+   "example_es": "Llevo una botella de acero inoxidable.",
+   "example_en": "I carry a stainless-steel bottle.",
+   "gender": "m"
+  },
+  {
+   "id": "v11-el-envase",
+   "unit": 11,
+   "topic": "materiales",
+   "es": "el envase",
+   "en": "the container, packaging",
+   "example_es": "Los envases de vidrio se pueden reutilizar.",
+   "example_en": "Glass containers can be reused.",
+   "gender": "m"
+  },
+  {
+   "id": "v11-los-residuos",
+   "unit": 11,
+   "topic": "problemas",
+   "es": "los residuos",
+   "en": "the waste",
+   "example_es": "Generamos demasiados residuos.",
+   "example_en": "We produce too much waste.",
+   "gender": "m"
+  },
+  {
+   "id": "v11-la-sequia",
+   "unit": 11,
+   "topic": "problemas",
+   "es": "la sequía",
+   "en": "the drought",
+   "example_es": "Andalucía sufre una sequía muy dura.",
+   "example_en": "Andalusia is suffering a very severe drought.",
+   "gender": "f"
+  },
+  {
+   "id": "v11-el-comercio-justo",
+   "unit": 11,
+   "topic": "acciones",
+   "es": "el comercio justo",
+   "en": "the fair trade",
+   "example_es": "Solo compro café de comercio justo.",
+   "example_en": "I only buy fair-trade coffee.",
+   "gender": "m"
+  },
+  {
+   "id": "v11-el-voluntariado",
+   "unit": 11,
+   "topic": "acciones",
+   "es": "el voluntariado",
+   "en": "the volunteering",
+   "example_es": "Hago voluntariado en un comedor social.",
+   "example_en": "I volunteer at a soup kitchen.",
+   "gender": "m"
+  },
+  {
+   "id": "v11-donar",
+   "unit": 11,
+   "topic": "acciones",
+   "es": "donar",
+   "en": "to donate",
+   "example_es": "Donamos la ropa que ya no usamos.",
+   "example_en": "We donate the clothes we no longer wear."
+  },
+  {
+   "id": "v11-concienciar",
+   "unit": 11,
+   "topic": "acciones",
+   "es": "concienciar",
+   "en": "to raise awareness",
+   "example_es": "Hay que concienciar a la población.",
+   "example_en": "We need to raise people's awareness."
+  },
+  {
+   "id": "v11-yo-que-tu",
+   "unit": 11,
+   "topic": "consejos",
+   "es": "yo que tú",
+   "en": "if I were you",
+   "example_es": "Yo que tú, iría en tren.",
+   "example_en": "If I were you, I'd go by train."
+  }
+ ]
+}

@@ -3,7 +3,7 @@
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { z } from 'zod';
-import { UnitPack, FocusPack, GrammarPoints, ExamProfile, Manifest } from '../src/lib/schema';
+import { UnitPack, FocusPack, GrammarPoints, ExamProfile, Manifest, VocabPack } from '../src/lib/schema';
 
 const root = join(import.meta.dirname, '..', 'content');
 const errors: string[] = [];
@@ -60,6 +60,19 @@ for (const f of unitFiles) {
 const focus = load('focus/past-tenses.json', FocusPack);
 if (focus) checkItems('focus/past-tenses.json', focus.items);
 
+const cardIds = new Set<string>();
+let cardCount = 0;
+for (const f of readdirSync(join(root, 'vocab')).filter((f: string) => f.endsWith('.json'))) {
+  const pack = load(`vocab/${f}`, VocabPack);
+  if (!pack) continue;
+  for (const c of pack.cards) {
+    if (cardIds.has(c.id)) errors.push(`vocab/${f}: duplicate card id ${c.id}`);
+    cardIds.add(c.id);
+    if (c.unit !== pack.unit) errors.push(`vocab/${f}: ${c.id} unit mismatch`);
+  }
+  cardCount += pack.cards.length;
+}
+
 for (const f of readdirSync(join(root, 'exam-profiles'))) load(`exam-profiles/${f}`, ExamProfile);
 
 if (manifest) for (const p of manifest.packs) if (!existsSync(join(root, p))) errors.push(`manifest.json: missing pack ${p}`);
@@ -75,4 +88,4 @@ if (errors.length) {
   console.error(`\n${errors.length} content error(s).`);
   process.exit(1);
 }
-console.log(`✓ content valid: ${itemIds.size} items across ${unitFiles.length + 1} packs, ${gps.length} grammar points.`);
+console.log(`✓ content valid: ${itemIds.size} items across ${unitFiles.length + 1} packs, ${gps.length} grammar points, ${cardCount} vocabulary cards.`);

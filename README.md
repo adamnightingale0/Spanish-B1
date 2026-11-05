@@ -2,7 +2,7 @@
 
 An offline-first iPhone PWA for the University of Seville Instituto de Idiomas B1 exam (written exam 18 Jan 2027), built on the syllabus of *Aula Internacional Plus 3*. See [`SPEC.md`](SPEC.md) for the full spec and build phases.
 
-**Status: Phase 1** (shell + past-tenses trainer), plus grammar drills for all 12 units and the `programa` pack.
+**Status: Phase 2** (vocabulary SRS, all drill types, diagnosis, book viewer) on top of Phase 1.
 
 ## What's in Phase 1
 
@@ -14,6 +14,16 @@ An offline-first iPhone PWA for the University of Seville Instituto de Idiomas B
 - IndexedDB progress, `navigator.storage.persist()`, JSON export/import with a 14-day backup reminder
 - Exam tab: `us-b1` profile, pass-rule calculator (50% overall **and** 50% per skill), links to the official sample papers
 
+## What's in Phase 2
+
+- Vocabulary flashcards with FSRS (`ts-fsrs`): 360 cards (30 per unit), ES→EN recognition then EN→ES typed recall after two correct answers, Again / Hard / Good / Easy, 15 new and 150 reviews a day, 🔊 for word and example
+- All eight drill types: adds `error` (tap the wrong word and correct it), `order` and `match`
+- Today's session starts with due flashcards (up to a quarter of the time), then the drills
+- Mastery weighted towards recent answers (an answer counts half after 7 days); fewer than 5 attempts = "not enough data"
+- Error-pattern tagging (e.g. `indefinido→imperfecto`, `ser→estar`, accent only) and the top 5 confusions on Progress with a "Practicar" button
+- Placement check (~40 items from all units), offered on first run and repeatable from Progress
+- My book viewer: load your own PDF in Settings (stored only on the phone, never exported), one page rendered at a time, swipe, double-tap and pinch zoom, page box, unit list, page-offset check, and 📖 links that open over a drill and return to the same item
+
 ## Commands
 
 ```bash
@@ -24,6 +34,8 @@ npm run validate-content  # zod schemas + cross-pack checks (also runs in build/
 npm run gen:conjugations  # regenerate pt-conj-* items from the verb table
 npm run build             # validate + typecheck + build to dist/
 node tests/e2e/smoke.mjs http://localhost:4173/   # Playwright smoke test (iPhone viewport) against `npm run preview`
+node tests/e2e/phase2.mjs http://localhost:4173/ some.pdf   # vocab, new drill types, book viewer offline
+python3 -I scripts/build-vocab.py   # rebuild content/vocab from scripts/vocab-src
 ```
 
 ## Deploy (GitHub Pages)

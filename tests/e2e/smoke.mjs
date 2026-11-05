@@ -13,6 +13,13 @@ await page.waitForSelector('text=Sesión de hoy');
 if (shots) await page.screenshot({ path: `${shots}/home.png`, fullPage: true });
 await page.click('text=Sesión de hoy');
 await page.waitForSelector('.drill-top');
+// Today's session starts with flashcards: review them, then continue to the drills.
+for (let i = 0; i < 40 && (await page.locator('.flashcard').count()); i++) {
+  if (await page.locator('button:has-text("Mostrar")').count()) await page.click('button:has-text("Mostrar")');
+  await page.click('.grades button:has-text("Bien")');
+}
+if (await page.locator('button:has-text("Seguir con los ejercicios")').count()) await page.click('button:has-text("Seguir con los ejercicios")');
+await page.waitForSelector('.drill-top');
 let answered = 0;
 for (let step = 0; step < 60 && answered < 20; step++) {
   if (await page.locator('text=¡Sesión terminada!').count()) break;
@@ -25,6 +32,20 @@ for (let step = 0; step < 60 && answered < 20; step++) {
     await page.click('button:has-text("Comprobar")');
   } else if (await opts.count()) {
     await opts.first().click();
+  } else if (await page.locator('.token-row').count()) {
+    // error / order items
+    if (await page.locator('.order-answer').count()) {
+      const n = await page.locator('.token-row .token').count();
+      for (let i = 0; i < n; i++) await page.locator('.token-row .token:not([disabled])').first().click();
+    } else {
+      await page.locator('.token-row .token').first().click();
+      await page.fill('.answer-input', 'x');
+    }
+    await page.click('button:has-text("Comprobar")');
+  } else if (await page.locator('.match-row').count()) {
+    const rows = await page.locator('.match-row').count();
+    for (let i = 0; i < rows; i++) await page.locator('.options button:not([disabled])').first().click();
+    await page.click('button:has-text("Comprobar")');
   } else if (await page.locator('.answer-input').count()) {
     await page.fill('.answer-input', 'he perdido');
     await page.click('button:has-text("Comprobar")');

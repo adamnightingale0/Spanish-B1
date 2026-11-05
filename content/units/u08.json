@@ -471,6 +471,60 @@
    ],
    "feedback": "¡Qué rabia! = how annoying.",
    "contrast": "¡Qué suerte! = how lucky."
+  },
+  {
+   "id": "u08-err-001",
+   "type": "error",
+   "unit": 8,
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 2,
+   "prompt": "Cuando llegamos, el tren ya salió.",
+   "errorIndex": 5,
+   "answers": [
+    "había salido"
+   ],
+   "feedback": "Earlier than another past event → pluscuamperfecto.",
+   "contrast": "Cuando llegamos, el tren salió (just then)."
+  },
+  {
+   "id": "u08-match-001",
+   "type": "match",
+   "unit": 8,
+   "grammarPoint": "conectores-causa-consecuencia",
+   "difficulty": 2,
+   "instruction": "Relaciona cada principio con su final.",
+   "pairs": [
+    {
+     "left": "Cancelaron el vuelo,",
+     "right": "así que dormimos en el aeropuerto."
+    },
+    {
+     "left": "Como ya conocíamos la ciudad,",
+     "right": "no contratamos guía."
+    },
+    {
+     "left": "El hotel estaba completo.",
+     "right": "Por eso buscamos un apartamento."
+    },
+    {
+     "left": "Ya que estás en Sevilla,",
+     "right": "ve a ver el Alcázar."
+    }
+   ],
+   "feedback": "así que / por eso = consequence; como / ya que = cause."
+  },
+  {
+   "id": "u08-ord-001",
+   "type": "order",
+   "unit": 8,
+   "grammarPoint": "past-combined",
+   "difficulty": 2,
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "Estaba haciendo fotos cuando me robaron la cartera",
+    "Cuando me robaron la cartera estaba haciendo fotos"
+   ],
+   "feedback": "Action in progress (estaba haciendo) + interrupting event (robaron)."
   }
  ]
 }

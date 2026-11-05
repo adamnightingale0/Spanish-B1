@@ -1,0 +1,302 @@
+{
+ "id": "vocab-u03",
+ "unit": 3,
+ "cards": [
+  {
+   "id": "v03-reducir-la-contaminacion",
+   "unit": 3,
+   "topic": "retos del futuro",
+   "es": "reducir la contaminación",
+   "en": "to reduce pollution",
+   "example_es": "Las bicis ayudan a reducir la contaminación.",
+   "example_en": "Bikes help to reduce pollution."
+  },
+  {
+   "id": "v03-curar",
+   "unit": 3,
+   "topic": "retos del futuro",
+   "es": "curar",
+   "en": "to cure",
+   "example_es": "Algún día se podrá curar el alzhéimer.",
+   "example_en": "One day it will be possible to cure Alzheimer's."
+  },
+  {
+   "id": "v03-prevenir",
+   "unit": 3,
+   "topic": "retos del futuro",
+   "es": "prevenir",
+   "en": "to prevent",
+   "example_es": "Hacer deporte ayuda a prevenir la diabetes.",
+   "example_en": "Exercise helps prevent diabetes."
+  },
+  {
+   "id": "v03-acabar-con",
+   "unit": 3,
+   "topic": "retos del futuro",
+   "es": "acabar con",
+   "en": "to put an end to",
+   "example_es": "Hay que acabar con la violencia de género.",
+   "example_en": "We must put an end to gender violence."
+  },
+  {
+   "id": "v03-el-desempleo",
+   "unit": 3,
+   "topic": "retos del futuro",
+   "es": "el desempleo",
+   "en": "the unemployment",
+   "example_es": "El desempleo ha bajado este año.",
+   "example_en": "Unemployment has fallen this year.",
+   "gender": "m"
+  },
+  {
+   "id": "v03-el-calentamiento-global",
+   "unit": 3,
+   "topic": "retos del futuro",
+   "es": "el calentamiento global",
+   "en": "the global warming",
+   "example_es": "El calentamiento global afecta a las cosechas.",
+   "example_en": "Global warming affects harvests.",
+   "gender": "m",
+   "collocation": "frenar el calentamiento global"
+  },
+  {
+   "id": "v03-el-envejecimiento",
+   "unit": 3,
+   "topic": "retos del futuro",
+   "es": "el envejecimiento",
+   "en": "the ageing",
+   "example_es": "El envejecimiento de la población es un reto.",
+   "example_en": "The ageing population is a challenge.",
+   "gender": "m"
+  },
+  {
+   "id": "v03-la-esperanza-de-vida",
+   "unit": 3,
+   "topic": "retos del futuro",
+   "es": "la esperanza de vida",
+   "en": "the life expectancy",
+   "example_es": "En España la esperanza de vida es muy alta.",
+   "example_en": "Life expectancy in Spain is very high.",
+   "gender": "f",
+   "collocation": "aumentar la esperanza de vida"
+  },
+  {
+   "id": "v03-cada-vez-mas",
+   "unit": 3,
+   "topic": "cada vez más / menos",
+   "es": "cada vez más",
+   "en": "more and more",
+   "example_es": "Cada vez más gente trabaja desde casa.",
+   "example_en": "More and more people work from home."
+  },
+  {
+   "id": "v03-cada-vez-menos",
+   "unit": 3,
+   "topic": "cada vez más / menos",
+   "es": "cada vez menos",
+   "en": "less and less, fewer and fewer",
+   "example_es": "Cada vez hay menos tiendas pequeñas.",
+   "example_en": "There are fewer and fewer small shops."
+  },
+  {
+   "id": "v03-extinguirse",
+   "unit": 3,
+   "topic": "verbos y sustantivos",
+   "es": "extinguirse",
+   "en": "to become extinct",
+   "example_es": "Muchas especies se extinguirán este siglo.",
+   "example_en": "Many species will become extinct this century.",
+   "collocation": "la extinción"
+  },
+  {
+   "id": "v03-la-desaparicion",
+   "unit": 3,
+   "topic": "verbos y sustantivos",
+   "es": "la desaparición",
+   "en": "the disappearance",
+   "example_es": "Nos preocupa la desaparición de los bosques.",
+   "example_en": "We're worried about the disappearance of forests.",
+   "gender": "f",
+   "collocation": "desaparecer"
+  },
+  {
+   "id": "v03-la-aparicion",
+   "unit": 3,
+   "topic": "verbos y sustantivos",
+   "es": "la aparición",
+   "en": "the appearance (emergence)",
+   "example_es": "La aparición de internet lo cambió todo.",
+   "example_en": "The appearance of the internet changed everything.",
+   "gender": "f",
+   "collocation": "aparecer"
+  },
+  {
+   "id": "v03-la-creacion",
+   "unit": 3,
+   "topic": "verbos y sustantivos",
+   "es": "la creación",
+   "en": "the creation",
+   "example_es": "El plan incluye la creación de mil empleos.",
+   "example_en": "The plan includes the creation of a thousand jobs.",
+   "gender": "f",
+   "collocation": "crear"
+  },
+  {
+   "id": "v03-la-construccion",
+   "unit": 3,
+   "topic": "verbos y sustantivos",
+   "es": "la construcción",
+   "en": "the construction",
+   "example_es": "La construcción del metro tardó diez años.",
+   "example_en": "Building the metro took ten years.",
+   "gender": "f",
+   "collocation": "construir"
+  },
+  {
+   "id": "v03-destruir",
+   "unit": 3,
+   "topic": "verbos y sustantivos",
+   "es": "destruir",
+   "en": "to destroy",
+   "example_es": "Los incendios destruyeron miles de hectáreas.",
+   "example_en": "The fires destroyed thousands of hectares.",
+   "collocation": "la destrucción"
+  },
+  {
+   "id": "v03-la-robotica",
+   "unit": 3,
+   "topic": "tecnología y ciencia",
+   "es": "la robótica",
+   "en": "the robotics",
+   "example_es": "Mi sobrino estudia robótica.",
+   "example_en": "My nephew studies robotics.",
+   "gender": "f"
+  },
+  {
+   "id": "v03-la-inteligencia-artificial",
+   "unit": 3,
+   "topic": "tecnología y ciencia",
+   "es": "la inteligencia artificial",
+   "en": "the artificial intelligence",
+   "example_es": "La inteligencia artificial ya traduce bastante bien.",
+   "example_en": "Artificial intelligence already translates quite well.",
+   "gender": "f"
+  },
+  {
+   "id": "v03-la-realidad-virtual",
+   "unit": 3,
+   "topic": "tecnología y ciencia",
+   "es": "la realidad virtual",
+   "en": "the virtual reality",
+   "example_es": "Probé unas gafas de realidad virtual.",
+   "example_en": "I tried a virtual-reality headset.",
+   "gender": "f"
+  },
+  {
+   "id": "v03-la-genetica",
+   "unit": 3,
+   "topic": "tecnología y ciencia",
+   "es": "la genética",
+   "en": "the genetics",
+   "example_es": "La genética explica muchas enfermedades.",
+   "example_en": "Genetics explains many diseases.",
+   "gender": "f"
+  },
+  {
+   "id": "v03-la-cirugia",
+   "unit": 3,
+   "topic": "tecnología y ciencia",
+   "es": "la cirugía",
+   "en": "the surgery",
+   "example_es": "La cirugía con robots es cada vez más común.",
+   "example_en": "Robotic surgery is more and more common.",
+   "gender": "f"
+  },
+  {
+   "id": "v03-la-ciberseguridad",
+   "unit": 3,
+   "topic": "tecnología y ciencia",
+   "es": "la ciberseguridad",
+   "en": "the cybersecurity",
+   "example_es": "Los bancos invierten mucho en ciberseguridad.",
+   "example_en": "Banks invest a lot in cybersecurity.",
+   "gender": "f"
+  },
+  {
+   "id": "v03-modificar-genes",
+   "unit": 3,
+   "topic": "tecnología y ciencia",
+   "es": "modificar genes",
+   "en": "to modify genes",
+   "example_es": "Ya se pueden modificar genes de plantas.",
+   "example_en": "Plant genes can already be modified."
+  },
+  {
+   "id": "v03-geolocalizar",
+   "unit": 3,
+   "topic": "tecnología y ciencia",
+   "es": "geolocalizar",
+   "en": "to geolocate",
+   "example_es": "La aplicación geolocaliza tu móvil.",
+   "example_en": "The app geolocates your phone."
+  },
+  {
+   "id": "v03-la-impresora-3d",
+   "unit": 3,
+   "topic": "tecnología y ciencia",
+   "es": "la impresora 3D",
+   "en": "the 3D printer",
+   "example_es": "Con una impresora 3D se pueden hacer piezas.",
+   "example_en": "With a 3D printer you can make parts.",
+   "gender": "f"
+  },
+  {
+   "id": "v03-el-coche-autonomo",
+   "unit": 3,
+   "topic": "tecnología y ciencia",
+   "es": "el coche autónomo",
+   "en": "the self-driving car",
+   "example_es": "¿Te subirías a un coche autónomo?",
+   "example_en": "Would you get into a self-driving car?",
+   "gender": "m"
+  },
+  {
+   "id": "v03-el-dron",
+   "unit": 3,
+   "topic": "tecnología y ciencia",
+   "es": "el dron",
+   "en": "the drone",
+   "example_es": "Un dron graba el concierto desde el aire.",
+   "example_en": "A drone films the concert from the air.",
+   "gender": "m"
+  },
+  {
+   "id": "v03-dentro-de",
+   "unit": 3,
+   "topic": "marcadores temporales",
+   "es": "dentro de",
+   "en": "in (time from now)",
+   "example_es": "Dentro de un mes me mudo.",
+   "example_en": "I'm moving in a month."
+  },
+  {
+   "id": "v03-la-proxima-decada",
+   "unit": 3,
+   "topic": "marcadores temporales",
+   "es": "la próxima década",
+   "en": "the next decade",
+   "example_es": "En la próxima década cambiará el transporte.",
+   "example_en": "Transport will change in the next decade.",
+   "gender": "f"
+  },
+  {
+   "id": "v03-seguramente",
+   "unit": 3,
+   "topic": "hipótesis",
+   "es": "seguramente",
+   "en": "probably, most likely",
+   "example_es": "Seguramente lloverá el fin de semana.",
+   "example_en": "It'll most likely rain at the weekend."
+  }
+ ]
+}

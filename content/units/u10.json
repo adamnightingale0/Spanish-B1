@@ -536,6 +536,60 @@
    ],
    "feedback": "super- as a colloquial prefix: superpráctico.",
    "contrast": "practiquísimo"
+  },
+  {
+   "id": "u10-err-001",
+   "type": "error",
+   "unit": 10,
+   "grammarPoint": "relativas-ind-subj",
+   "difficulty": 2,
+   "prompt": "Busco una mochila que es impermeable.",
+   "errorIndex": 4,
+   "answers": [
+    "sea"
+   ],
+   "feedback": "Something you're looking for (unknown) → subjunctive.",
+   "contrast": "Tengo una mochila que es impermeable."
+  },
+  {
+   "id": "u10-err-002",
+   "type": "error",
+   "unit": 10,
+   "grammarPoint": "superlativo-isimo",
+   "difficulty": 2,
+   "prompt": "La tarta estaba ricísima.",
+   "errorIndex": 3,
+   "answers": [
+    "riquísima"
+   ],
+   "feedback": "c → qu before i: rico → riquísimo."
+  },
+  {
+   "id": "u10-match-001",
+   "type": "match",
+   "unit": 10,
+   "grammarPoint": "relativas-preposicion",
+   "difficulty": 2,
+   "instruction": "Relaciona cada principio con su final.",
+   "pairs": [
+    {
+     "left": "Es el cuchillo con",
+     "right": "el que corto el pan."
+    },
+    {
+     "left": "Esta es la caja en",
+     "right": "la que guardo las fotos."
+    },
+    {
+     "left": "Son las tijeras con",
+     "right": "las que corto el papel."
+    },
+    {
+     "left": "Es el material del",
+     "right": "que está hecha la bolsa."
+    }
+   ],
+   "feedback": "preposition + article + que; the article agrees with the noun."
   }
  ]
 }

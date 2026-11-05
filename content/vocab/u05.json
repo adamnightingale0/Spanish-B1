@@ -1,0 +1,294 @@
+{
+ "id": "vocab-u05",
+ "unit": 5,
+ "cards": [
+  {
+   "id": "v05-el-la-publicista",
+   "unit": 5,
+   "topic": "publicidad",
+   "es": "el / la publicista",
+   "en": "the advertising executive",
+   "example_es": "Mi prima es publicista en una agencia de Madrid.",
+   "example_en": "My cousin is an ad executive at a Madrid agency."
+  },
+  {
+   "id": "v05-el-consumidor-la-consumidora",
+   "unit": 5,
+   "topic": "publicidad",
+   "es": "el consumidor / la consumidora",
+   "en": "the consumer",
+   "example_es": "Los consumidores comparan precios en internet.",
+   "example_en": "Consumers compare prices online."
+  },
+  {
+   "id": "v05-la-agencia-de-publicidad",
+   "unit": 5,
+   "topic": "publicidad",
+   "es": "la agencia de publicidad",
+   "en": "the advertising agency",
+   "example_es": "La agencia de publicidad presentó tres ideas.",
+   "example_en": "The ad agency presented three ideas.",
+   "gender": "f"
+  },
+  {
+   "id": "v05-la-marca",
+   "unit": 5,
+   "topic": "publicidad",
+   "es": "la marca",
+   "en": "the brand",
+   "example_es": "¿De qué marca son tus zapatillas?",
+   "example_en": "What brand are your trainers?",
+   "gender": "f"
+  },
+  {
+   "id": "v05-la-valla-publicitaria",
+   "unit": 5,
+   "topic": "tipos de publicidad",
+   "es": "la valla publicitaria",
+   "en": "the billboard",
+   "example_es": "Hay una valla publicitaria enorme en la autovía.",
+   "example_en": "There's a huge billboard on the motorway.",
+   "gender": "f"
+  },
+  {
+   "id": "v05-el-anuncio",
+   "unit": 5,
+   "topic": "tipos de publicidad",
+   "es": "el anuncio",
+   "en": "the advert",
+   "example_es": "Ese anuncio de coches es muy emotivo.",
+   "example_en": "That car advert is very moving.",
+   "gender": "m"
+  },
+  {
+   "id": "v05-el-folleto",
+   "unit": 5,
+   "topic": "tipos de publicidad",
+   "es": "el folleto",
+   "en": "the leaflet, brochure",
+   "example_es": "Me dieron un folleto con las ofertas.",
+   "example_en": "They gave me a leaflet with the offers.",
+   "gender": "m"
+  },
+  {
+   "id": "v05-el-cartel",
+   "unit": 5,
+   "topic": "tipos de publicidad",
+   "es": "el cartel",
+   "en": "the poster",
+   "example_es": "Pegaron carteles del concierto por todo el barrio.",
+   "example_en": "They put up concert posters all over the neighbourhood.",
+   "gender": "m"
+  },
+  {
+   "id": "v05-la-campana",
+   "unit": 5,
+   "topic": "tipos de publicidad",
+   "es": "la campaña",
+   "en": "the campaign",
+   "example_es": "Han lanzado una campaña contra el tabaco.",
+   "example_en": "They've launched an anti-smoking campaign.",
+   "gender": "f",
+   "collocation": "una campaña institucional"
+  },
+  {
+   "id": "v05-promocionar",
+   "unit": 5,
+   "topic": "objetivos",
+   "es": "promocionar",
+   "en": "to promote",
+   "example_es": "Quieren promocionar el turismo rural.",
+   "example_en": "They want to promote rural tourism."
+  },
+  {
+   "id": "v05-persuadir",
+   "unit": 5,
+   "topic": "objetivos",
+   "es": "persuadir",
+   "en": "to persuade",
+   "example_es": "El anuncio intenta persuadir a los jóvenes.",
+   "example_en": "The advert tries to persuade young people."
+  },
+  {
+   "id": "v05-convencer",
+   "unit": 5,
+   "topic": "objetivos",
+   "es": "convencer",
+   "en": "to convince",
+   "example_es": "No me convence nada este producto.",
+   "example_en": "This product doesn't convince me at all."
+  },
+  {
+   "id": "v05-concienciar",
+   "unit": 5,
+   "topic": "objetivos",
+   "es": "concienciar",
+   "en": "to raise awareness",
+   "example_es": "La campaña quiere concienciar sobre el reciclaje.",
+   "example_en": "The campaign wants to raise awareness about recycling.",
+   "collocation": "concienciar a alguien de / sobre algo"
+  },
+  {
+   "id": "v05-impactar",
+   "unit": 5,
+   "topic": "objetivos",
+   "es": "impactar",
+   "en": "to make an impact, shock",
+   "example_es": "Las imágenes del anuncio impactan mucho.",
+   "example_en": "The images in the advert are very striking."
+  },
+  {
+   "id": "v05-el-lujo",
+   "unit": 5,
+   "topic": "valores",
+   "es": "el lujo",
+   "en": "the luxury",
+   "example_es": "El anuncio asocia el perfume con el lujo.",
+   "example_en": "The advert links the perfume with luxury.",
+   "gender": "m"
+  },
+  {
+   "id": "v05-la-juventud",
+   "unit": 5,
+   "topic": "valores",
+   "es": "la juventud",
+   "en": "the youth",
+   "example_es": "Muchos anuncios venden juventud y belleza.",
+   "example_en": "Many adverts sell youth and beauty.",
+   "gender": "f"
+  },
+  {
+   "id": "v05-la-igualdad",
+   "unit": 5,
+   "topic": "valores",
+   "es": "la igualdad",
+   "en": "the equality",
+   "example_es": "Es una campaña a favor de la igualdad.",
+   "example_en": "It's a campaign in favour of equality.",
+   "gender": "f"
+  },
+  {
+   "id": "v05-el-exito",
+   "unit": 5,
+   "topic": "valores",
+   "es": "el éxito",
+   "en": "the success",
+   "example_es": "El anuncio fue un éxito en las redes.",
+   "example_en": "The advert was a success on social media.",
+   "gender": "m"
+  },
+  {
+   "id": "v05-el-eslogan",
+   "unit": 5,
+   "topic": "elementos",
+   "es": "el eslogan",
+   "en": "the slogan",
+   "example_es": "El eslogan es corto y fácil de recordar.",
+   "example_en": "The slogan is short and easy to remember.",
+   "gender": "m"
+  },
+  {
+   "id": "v05-impactante",
+   "unit": 5,
+   "topic": "adjetivos",
+   "es": "impactante",
+   "en": "striking, shocking",
+   "example_es": "Es una imagen muy impactante.",
+   "example_en": "It's a very striking image."
+  },
+  {
+   "id": "v05-atrevido-atrevida",
+   "unit": 5,
+   "topic": "adjetivos",
+   "es": "atrevido, atrevida",
+   "en": "daring, bold",
+   "example_es": "Han hecho una campaña bastante atrevida.",
+   "example_en": "They've done quite a daring campaign."
+  },
+  {
+   "id": "v05-polemico-polemica",
+   "unit": 5,
+   "topic": "adjetivos",
+   "es": "polémico, polémica",
+   "en": "controversial",
+   "example_es": "El anuncio ha sido muy polémico.",
+   "example_en": "The advert has been very controversial."
+  },
+  {
+   "id": "v05-sexista",
+   "unit": 5,
+   "topic": "adjetivos",
+   "es": "sexista",
+   "en": "sexist",
+   "example_es": "Muchos anuncios antiguos eran sexistas.",
+   "example_en": "Many old adverts were sexist."
+  },
+  {
+   "id": "v05-eficaz",
+   "unit": 5,
+   "topic": "adjetivos",
+   "es": "eficaz",
+   "en": "effective",
+   "example_es": "Es una campaña barata pero muy eficaz.",
+   "example_en": "It's a cheap but very effective campaign."
+  },
+  {
+   "id": "v05-ir-dirigido-a",
+   "unit": 5,
+   "topic": "describir un anuncio",
+   "es": "ir dirigido a",
+   "en": "to be aimed at",
+   "example_es": "El anuncio va dirigido a la gente mayor.",
+   "example_en": "The advert is aimed at older people."
+  },
+  {
+   "id": "v05-el-publico-objetivo",
+   "unit": 5,
+   "topic": "describir un anuncio",
+   "es": "el público objetivo",
+   "en": "the target audience",
+   "example_es": "Su público objetivo son los estudiantes.",
+   "example_en": "Its target audience is students.",
+   "gender": "m"
+  },
+  {
+   "id": "v05-la-oferta",
+   "unit": 5,
+   "topic": "publicidad",
+   "es": "la oferta",
+   "en": "the offer, deal",
+   "example_es": "Esta oferta solo dura hasta el domingo.",
+   "example_en": "This offer only lasts until Sunday.",
+   "gender": "f"
+  },
+  {
+   "id": "v05-el-descuento",
+   "unit": 5,
+   "topic": "publicidad",
+   "es": "el descuento",
+   "en": "the discount",
+   "example_es": "Con la tarjeta tienes un diez por ciento de descuento.",
+   "example_en": "With the card you get ten per cent off.",
+   "gender": "m"
+  },
+  {
+   "id": "v05-probar",
+   "unit": 5,
+   "topic": "instrucciones",
+   "es": "probar",
+   "en": "to try (out)",
+   "example_es": "Pruébelo gratis durante un mes.",
+   "example_en": "Try it free for a month."
+  },
+  {
+   "id": "v05-las-instrucciones",
+   "unit": 5,
+   "topic": "instrucciones",
+   "es": "las instrucciones",
+   "en": "the instructions",
+   "example_es": "Lee las instrucciones antes de montarlo.",
+   "example_en": "Read the instructions before assembling it.",
+   "gender": "f"
+  }
+ ]
+}

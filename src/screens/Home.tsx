@@ -1,7 +1,9 @@
 import { useApp, navigate } from '../state';
 import { buildTodaySession, focusLabel, focusMasteryValue, focusPool, buildDrill, masteryByPoint, masteryBySubPoint } from '../lib/session';
 import { daysUntil, streak, todayCount, lastByItem } from '../lib/stats';
-import { focus, gpById, allItems } from '../lib/content';
+import { focus, gpById, allItems, vocabCards } from '../lib/content';
+import { buildQueue } from '../lib/srs';
+import { buildPlacement } from '../lib/placement';
 import { MasteryBar } from '../components/common';
 
 const isStandalone = () =>
@@ -12,6 +14,8 @@ export function Home() {
   const { settings, attempts } = app;
   const days = daysUntil(settings.examDate);
   const lastItems = lastByItem(attempts);
+  const vq = buildQueue(vocabCards, app.srs, settings.classUnit);
+  const vocabAvailable = vq.due.length + vq.fresh.length;
   const toReview = [...lastItems.values()].filter((a) => !a.correct).length;
   const focusM = focusMasteryValue(attempts, settings.focus);
   const subM = masteryBySubPoint(attempts);
@@ -38,6 +42,16 @@ export function Home() {
         )}
       </p>
 
+      {!settings.placementDone && (
+        <div class="card highlight">
+          <b>Prueba de nivel (15 min)</b>
+          <p class="small muted">Unas 40 preguntas de todas las unidades. Así la app sabe desde el primer día qué puntos necesitas practicar más.</p>
+          <button class="btn-primary btn-block" onClick={() => app.startSession({ title: 'Prueba de nivel', items: buildPlacement(), kind: 'placement' }, 'progress')}>
+            Empezar la prueba de nivel
+          </button>
+        </div>
+      )}
+
       {!isStandalone() && (
         <div class="banner">
           <b>Instala la app</b> para que funcione sin conexión y Safari no borre tu progreso: en Safari, pulsa <b>Compartir</b> → <b>Añadir a pantalla de inicio</b>.
@@ -58,17 +72,17 @@ export function Home() {
           <b>{todayCount(attempts)}</b>
           <span>respuestas hoy</span>
         </div>
-        <div class="stat">
-          <b>{toReview}</b>
-          <span>fallos por repasar</span>
+        <div class="stat tap" onClick={() => navigate('vocab')}>
+          <b>{vq.dueCount}</b>
+          <span>tarjetas para hoy</span>
         </div>
       </div>
 
-      <button class="btn-primary btn-big" onClick={() => app.startSession(buildTodaySession(attempts, settings), 'home')}>
+      <button class="btn-primary btn-big" onClick={() => app.startSession(buildTodaySession(attempts, settings, Date.now(), vocabAvailable), 'home')}>
         ▶ Sesión de hoy · {settings.sessionMinutes} min
       </button>
       <p class="tiny muted" style={{ textAlign: 'center' }}>
-        Foco + puntos débiles + unidad {settings.classUnit} + repaso de todas las unidades
+        Vocabulario + foco + puntos débiles + unidad {settings.classUnit} + repaso de todas las unidades{toReview ? ` · ${toReview} fallos pendientes` : ''}
       </p>
 
       {settings.focus !== 'none' && (

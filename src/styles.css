@@ -238,3 +238,50 @@ input[type='range'] { width: 100%; accent-color: var(--accent); min-height: 44px
 /* Compact reason chips for cloze stories (one row of short pills per gap). */
 .why-chips.compact { display: flex; flex-wrap: wrap; gap: 6px; }
 .why-chips.compact button { min-height: 36px; padding: 4px 10px; font-size: 14px; border-radius: 999px; flex-direction: row; }
+
+/* Error / order / match exercises */
+.token-row, .order-answer { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0; }
+.order-answer { min-height: 56px; padding: 8px; border: 1.5px dashed var(--line); border-radius: 12px; align-items: center; }
+.token { min-height: 44px; padding: 6px 12px; font-size: 18px; border-radius: 10px; }
+.token.sel { border-color: var(--accent); background: var(--accent-soft); }
+.token.wrong { border-color: var(--bad); background: var(--bad-soft); }
+.token:disabled { opacity: 0.35; }
+.token.sel:disabled, .token.wrong:disabled { opacity: 1; }
+.match-row { display: flex; justify-content: space-between; gap: 10px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 12px; margin: 6px 0; font-size: 16px; background: var(--surface); }
+.match-row.active { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent) inset; }
+.match-row b { text-align: right; }
+.options button.sel { border-color: var(--accent); background: var(--accent-soft); }
+.ok-text { color: var(--ok); }
+.bad-text { color: var(--bad); }
+
+/* Flashcards */
+.flashcard { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 24px 18px; margin: 14px 0; text-align: center; min-height: 180px; }
+.fc-main { font-size: 28px; font-weight: 700; line-height: 1.25; }
+.fc-back { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--line); }
+.fc-en { font-size: 21px; margin-bottom: 8px; }
+.flashcard .answer-input { margin-top: 14px; text-align: center; }
+.grades { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; position: sticky; bottom: calc(env(safe-area-inset-bottom) + 8px); }
+.grades button { padding: 8px 2px; font-size: 15px; }
+.grades button.bad { border-color: var(--bad); }
+.grades button.ok { border-color: var(--ok); }
+.grades button.suggest { box-shadow: 0 0 0 2px var(--accent) inset; font-weight: 700; }
+.vocab-row { display: flex; justify-content: space-between; gap: 8px; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.vocab-row:last-child { border-bottom: none; }
+
+/* Book viewer */
+.book-overlay { position: fixed; inset: 0; z-index: 50; background: #3a3836; display: flex; flex-direction: column; color: #f2ece4; }
+.book-bar { display: flex; gap: 8px; align-items: center; justify-content: space-between; padding: calc(env(safe-area-inset-top) + 6px) 10px 6px; background: #262422; }
+.book-bar .btn-small { background: #3a3836; color: #f2ece4; border-color: #55504b; }
+.page-input { width: 4.2em !important; min-height: 36px !important; padding: 4px 6px !important; font-size: 16px !important; text-align: center; }
+.book-menu { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; padding: 8px 10px; background: #262422; max-height: 50vh; overflow: auto; }
+.book-menu .btn-small { justify-content: flex-start; font-size: 14px; background: #3a3836; color: #f2ece4; border-color: #55504b; }
+.book-scroll { flex: 1; overflow: hidden; display: flex; justify-content: center; align-items: flex-start; touch-action: pan-y; position: relative; }
+.book-scroll.zoomed { overflow: auto; justify-content: flex-start; touch-action: pan-x pan-y; }
+.book-host { transform-origin: center top; transition: transform 0.05s; }
+.book-canvas { display: block; background: white; }
+.book-msg { position: absolute; top: 40%; width: 100%; text-align: center; }
+.book-nav { display: flex; align-items: center; justify-content: space-between; padding: 6px 10px calc(env(safe-area-inset-bottom) + 6px); background: #262422; }
+.book-nav button { min-width: 64px; font-size: 26px; background: #3a3836; color: #f2ece4; border-color: #55504b; }
+.bookref-link { color: var(--accent); background: none; border: none; padding: 0; min-height: 0; font: inherit; text-decoration: underline; cursor: pointer; }
+
+.order-answer .token.sel { background: var(--surface-2); border-color: var(--line); }

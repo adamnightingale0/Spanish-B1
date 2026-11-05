@@ -3,14 +3,20 @@ import type { Attempt } from './db';
 export const MASTERY_WINDOW = 20;
 export const MIN_ATTEMPTS = 5;
 
+export const HALF_LIFE_DAYS = 7;
+
 export interface Mastery {
   n: number; // attempts in window
   total: number; // all attempts ever
-  accuracy: number | null; // null = not enough data
+  accuracy: number | null; // recency-weighted accuracy; null = not enough data (fewer than 5 attempts)
+  confidence: number; // 0..1, grows with the number of attempts
 }
 
-/** Grammar point mastery = accuracy over the last 20 attempts (null below 5 attempts). */
-export function masteryBy(attempts: Attempt[], key: (a: Attempt) => string | undefined): Map<string, Mastery> {
+/**
+ * Mastery = accuracy over the last 20 attempts, weighted towards recent answers:
+ * an answer counts half as much after 7 days. Fewer than 5 attempts → "not enough data".
+ */
+export function masteryBy(attempts: Attempt[], key: (a: Attempt) => string | undefined, now = Date.now()): Map<string, Mastery> {
   const groups = new Map<string, Attempt[]>();
   for (const a of attempts) {
     const k = key(a);
@@ -22,8 +28,20 @@ export function masteryBy(attempts: Attempt[], key: (a: Attempt) => string | und
   const out = new Map<string, Mastery>();
   for (const [k, list] of groups) {
     const recent = list.slice(-MASTERY_WINDOW);
-    const right = recent.filter((a) => a.correct).length;
-    out.set(k, { n: recent.length, total: list.length, accuracy: recent.length >= MIN_ATTEMPTS ? right / recent.length : null });
+    let w = 0;
+    let right = 0;
+    for (const a of recent) {
+      const age = Math.max(0, now - a.ts) / 864e5;
+      const wt = Math.pow(0.5, age / HALF_LIFE_DAYS);
+      w += wt;
+      if (a.correct) right += wt;
+    }
+    out.set(k, {
+      n: recent.length,
+      total: list.length,
+      accuracy: list.length >= MIN_ATTEMPTS && w > 0 ? right / w : null,
+      confidence: 1 - Math.pow(0.8, list.length)
+    });
   }
   return out;
 }
@@ -36,8 +54,26 @@ export function recentAccuracy(attempts: Attempt[], days = 14, now = Date.now())
   const since = now - days * 864e5;
   return masteryBy(
     attempts.filter((a) => a.ts >= since),
-    (x) => x.grammarPoint
+    (x) => x.grammarPoint,
+    now
   );
+}
+
+/** Most frequent error tags over the last 30 days. */
+export function topConfusions(attempts: Attempt[], k = 5, now = Date.now()): { tag: string; count: number; points: string[] }[] {
+  const since = now - 30 * 864e5;
+  const m = new Map<string, { count: number; points: Set<string> }>();
+  for (const a of attempts) {
+    if (a.correct || !a.errorTag || a.ts < since) continue;
+    const e = m.get(a.errorTag) ?? { count: 0, points: new Set<string>() };
+    e.count++;
+    e.points.add(a.grammarPoint);
+    m.set(a.errorTag, e);
+  }
+  return [...m.entries()]
+    .sort((a, b) => b[1].count - a[1].count)
+    .slice(0, k)
+    .map(([tag, v]) => ({ tag, count: v.count, points: [...v.points] }));
 }
 
 const dayKey = (ts: number) => {

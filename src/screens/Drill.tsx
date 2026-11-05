@@ -1,11 +1,16 @@
-import { useEffect, useRef, useState } from 'preact/hooks';
+import { useEffect, useMemo, useRef, useState } from 'preact/hooks';
 import type { DrillItem, WhyId, ClozeItem } from '../lib/schema';
+import { tagError } from '../lib/errors';
+import { shuffle, type SessionSpec } from '../lib/session';
+import { VocabReview } from './Vocab';
 import { WHY_IDS } from '../lib/why';
 import { checkAnswer, type CheckResult } from '../lib/answer';
 import { WHY_LABELS, TYPE_LABELS, gpById, unitLabel, bookRefFor } from '../lib/content';
 import type { Attempt } from '../lib/db';
 import { useApp, navigate } from '../state';
 import { BookRef, Speak } from '../components/common';
+
+type Simple = Exclude<DrillItem, { type: 'cloze' | 'error' | 'order' | 'match' }>;
 
 interface GapResult {
   n: number;
@@ -30,7 +35,7 @@ type Phase = 'answer' | 'why' | 'feedback' | 'done';
 const MAX_REQUEUE = 2;
 const REQUEUE_GAP = 4;
 
-export function Drill({ spec }: { spec: { title: string; items: DrillItem[] } }) {
+export function Drill({ spec }: { spec: SessionSpec }) {
   const app = useApp();
   const { settings } = app;
   const [queue, setQueue] = useState<DrillItem[]>(spec.items);
@@ -41,6 +46,10 @@ export function Drill({ spec }: { spec: { title: string; items: DrillItem[] } })
   const [reasons, setReasons] = useState<Record<number, WhyId>>({});
   const [outcome, setOutcome] = useState<Outcome | null>(null);
   const [history, setHistory] = useState<Outcome[]>([]);
+  const [vocabDone, setVocabDone] = useState(!spec.vocabCount);
+  const [picked, setPicked] = useState<number | null>(null);
+  const [orderSel, setOrderSel] = useState<number[]>([]);
+  const [matchSel, setMatchSel] = useState<Record<number, string>>({});
   const requeued = useRef(new Map<string, number>());
   const itemStart = useRef(Date.now());
 
@@ -52,6 +61,9 @@ export function Drill({ spec }: { spec: { title: string; items: DrillItem[] } })
     setResults([]);
     setReasons({});
     setOutcome(null);
+    setPicked(null);
+    setOrderSel([]);
+    setMatchSel({});
     const first = document.querySelector<HTMLInputElement>('.answer-input, .cloze-text input');
     first?.focus({ preventScroll: true });
   }, [pos, queue.length === 0]);
@@ -67,11 +79,39 @@ export function Drill({ spec }: { spec: { title: string; items: DrillItem[] } })
     return () => window.removeEventListener('keydown', onKey);
   });
 
-  if (phase === 'done' || !item) return <Summary history={history} title={spec.title} />;
+  // Shuffled tokens / endings stay fixed for the current item.
+  const orderTokens = useMemo(() => (item?.type === 'order' ? shuffleUntilDifferent(lowerFirst(item.answers[0]).split(' ')) : []), [item?.id, pos]);
+  const matchRights = useMemo(() => (item?.type === 'match' ? shuffle(item.pairs.map((p) => p.right)) : []), [item?.id, pos]);
+
+  if (!vocabDone) return <VocabReview limit={spec.vocabCount!} title={spec.title} onDone={() => setVocabDone(true)} />;
+  if (phase === 'done' || !item) return <Summary history={history} spec={spec} />;
 
   const opts = { allowSubjectPronoun: item.type === 'conjugate' };
 
   function evaluate(given: Record<number, string>): GapResult[] {
+    if (item.type === 'error') {
+      const tokens = item.prompt.split(' ');
+      const tapped = picked ?? -1;
+      const correction = given[0] ?? '';
+      const res: CheckResult =
+        tapped === item.errorIndex
+          ? checkAnswer(correction, item.answers, settings.accent)
+          : { correct: false, accentOnly: false, expected: item.answers[0] };
+      return [{ n: 0, given: tapped >= 0 ? `${tokens[tapped]} → ${correction}` : correction, res, answers: item.answers, feedback: item.feedback }];
+    }
+    if (item.type === 'order') {
+      const sentence = orderSel.map((i) => orderTokens[i]).join(' ');
+      return [{ n: 0, given: sentence, res: checkAnswer(sentence, item.answers, settings.accent), answers: item.answers, feedback: item.feedback }];
+    }
+    if (item.type === 'match') {
+      return item.pairs.map((p, i) => ({
+        n: i,
+        given: matchSel[i] ?? '',
+        res: { correct: matchSel[i] === p.right, accentOnly: false, expected: p.right },
+        answers: [p.right],
+        feedback: item.feedback
+      }));
+    }
     if (item.type === 'cloze') {
       return item.gaps.map((g) => ({
         n: g.n,
@@ -104,7 +144,9 @@ export function Drill({ spec }: { spec: { title: string; items: DrillItem[] } })
   function finalize(r: GapResult[], rs: Record<number, WhyId>) {
     const now = Date.now();
     const ms = Math.round((now - itemStart.current) / Math.max(1, r.length));
-    const list: Attempt[] = r.map((g, i) => {
+    // A match exercise is logged as one attempt; cloze gaps are logged one by one.
+    const logged = item.type === 'match' ? [{ ...r[0], res: { ...r[0].res, correct: r.every((g) => g.res.correct) } }] : r;
+    const list: Attempt[] = logged.map((g, i) => {
       const itemId = item.type === 'cloze' ? `${item.id}#${g.n}` : item.id;
       const a: Attempt = {
         key: `${now + i}-${itemId}`,
@@ -119,6 +161,15 @@ export function Drill({ spec }: { spec: { title: string; items: DrillItem[] } })
       };
       if (g.res.accentOnly) a.accentOnly = true;
       if (g.why) a.reasonCorrect = rs[g.n] === g.why;
+      if (!g.res.correct) {
+        const given = item.type === 'error' ? (inputs[0] ?? '') : g.given;
+        a.errorTag =
+          item.type === 'error' && picked !== item.errorIndex
+            ? 'no encontró el error'
+            : item.type === 'order'
+              ? 'orden de palabras'
+              : tagError(item, given, g.answers[0], g.res.accentOnly);
+      }
       return a;
     });
     app.addAttempts(list);
@@ -194,6 +245,12 @@ export function Drill({ spec }: { spec: { title: string; items: DrillItem[] } })
 
       {item.type === 'cloze' ? (
         <Cloze item={item} inputs={inputs} setInputs={setInputs} results={phase === 'answer' ? null : results} />
+      ) : item.type === 'error' ? (
+        <ErrorTask item={item} picked={picked} setPicked={setPicked} locked={phase !== 'answer'} />
+      ) : item.type === 'order' ? (
+        <OrderTask item={item} tokens={orderTokens} sel={orderSel} setSel={setOrderSel} locked={phase !== 'answer'} />
+      ) : item.type === 'match' ? (
+        <MatchTask item={item} rights={matchRights} sel={matchSel} setSel={setMatchSel} locked={phase !== 'answer'} />
       ) : (
         <Prompt item={item} value={inputs[0] ?? ''} />
       )}
@@ -231,7 +288,7 @@ export function Drill({ spec }: { spec: { title: string; items: DrillItem[] } })
             check();
           }}
         >
-          {item.type !== 'cloze' && (
+          {item.type !== 'cloze' && item.type !== 'order' && item.type !== 'match' && (item.type !== 'error' || picked !== null) && (
             <input
               class="answer-input"
               type="text"
@@ -242,7 +299,7 @@ export function Drill({ spec }: { spec: { title: string; items: DrillItem[] } })
               spellcheck={false}
               enterkeyhint="done"
               aria-label="Tu respuesta"
-              placeholder="Escribe aquí…"
+              placeholder={item.type === 'error' ? 'Escribe la corrección…' : 'Escribe aquí…'}
               value={inputs[0] ?? ''}
               onInput={(e) => setInputs({ 0: e.currentTarget.value })}
             />
@@ -251,7 +308,15 @@ export function Drill({ spec }: { spec: { title: string; items: DrillItem[] } })
             <button type="button" onClick={() => check()} class="grow">
               No lo sé
             </button>
-            <button type="submit" class="btn-primary grow">
+            <button
+              type="submit"
+              class="btn-primary grow"
+              disabled={
+                (item.type === 'error' && picked === null) ||
+                (item.type === 'order' && orderSel.length < orderTokens.length) ||
+                (item.type === 'match' && Object.keys(matchSel).length < item.pairs.length)
+              }
+            >
               Comprobar
             </button>
           </div>
@@ -288,7 +353,7 @@ export function Drill({ spec }: { spec: { title: string; items: DrillItem[] } })
   );
 }
 
-function Prompt({ item, value }: { item: Exclude<DrillItem, ClozeItem>; value: string }) {
+function Prompt({ item, value }: { item: Simple; value: string }) {
   if (item.type === 'conjugate') {
     return (
       <div class="prompt">
@@ -481,8 +546,47 @@ function Feedback({ item, results }: { item: DrillItem; results: GapResult[] }) 
       </div>
     );
   }
+  if (item.type === 'match') {
+    const right = results.filter((g) => g.res.correct).length;
+    return (
+      <div class={`feedback ${right === results.length ? 'ok' : 'bad'}`}>
+        <div class="verdict">
+          {right}/{results.length} correctas
+        </div>
+        {item.pairs.map((p, i) => (
+          <p class="small">
+            {results[i].res.correct ? '✓' : '✗'} {p.left} <b>{p.right}</b>
+          </p>
+        ))}
+        <p class="rule">{item.feedback}</p>
+      </div>
+    );
+  }
   const g = results[0];
   const ok = g.res.correct;
+  if (item.type === 'error' || item.type === 'order') {
+    const tokens = item.type === 'error' ? item.prompt.split(' ') : [];
+    return (
+      <div class={`feedback ${ok ? 'ok' : 'bad'}`}>
+        <div class="verdict">{ok ? '✓ ¡Correcto!' : '✗ No es correcto'}</div>
+        {ok && g.res.accentOnly && <p class="warn-line">Ojo con la tilde: {g.res.expected}</p>}
+        {item.type === 'error' ? (
+          <p>
+            Error: <s>{tokens[item.errorIndex]}</s> → <b>{item.answers[0]}</b>
+            {!ok && g.given && <span class="muted"> (tú: {g.given})</span>}
+          </p>
+        ) : (
+          <p>
+            <b>{item.answers[0]}</b> <Speak text={item.answers[0]} />
+            {!ok && <span class="muted"> (tú: {g.given})</span>}
+          </p>
+        )}
+        {item.type === 'order' && item.answers.length > 1 && <p class="small muted">También vale: {item.answers.slice(1).join(' · ')}</p>}
+        <p class="rule">{item.feedback}</p>
+        {item.contrast && <p class="contrast">Compara: {item.contrast}</p>}
+      </div>
+    );
+  }
   return (
     <div class={`feedback ${ok ? 'ok' : 'bad'}`}>
       <div class="verdict">{ok ? '✓ ¡Correcto!' : '✗ No es correcto'}</div>
@@ -517,13 +621,20 @@ function summaryText(i: DrillItem): string {
       return `${i.verb} · ${i.person} · ${i.tense}`;
     case 'cloze':
       return i.title;
+    case 'order':
+    case 'match':
+      return i.instruction;
     default:
       return i.prompt;
   }
 }
 
-function Summary({ history, title }: { history: Outcome[]; title: string }) {
+function Summary({ history, spec }: { history: Outcome[]; spec: SessionSpec }) {
   const app = useApp();
+  const title = spec.title;
+  useEffect(() => {
+    if (spec.kind === 'placement' && history.length) app.updateSettings({ placementDone: Date.now() });
+  }, []);
   const firstTry = new Map<string, Outcome>();
   for (const o of history) if (!firstTry.has(o.item.id)) firstTry.set(o.item.id, o);
   const outs = [...firstTry.values()];
@@ -579,6 +690,129 @@ function Summary({ history, title }: { history: Outcome[]; title: string }) {
           Volver
         </button>
       </div>
+    </div>
+  );
+}
+
+/** Lower-case the first word so its capital letter doesn't give the order away (names keep theirs). */
+const KEEP_CAPS = /^(España|Sevilla|Madrid|Triana|Cádiz|Granada|Lisboa|Pablo|Marta|Ana|Luis)$/;
+function lowerFirst(sentence: string): string {
+  const [first, ...rest] = sentence.split(' ');
+  return [KEEP_CAPS.test(first) ? first : first.charAt(0).toLowerCase() + first.slice(1), ...rest].join(' ');
+}
+
+function shuffleUntilDifferent(tokens: string[]): string[] {
+  if (tokens.length < 2) return tokens;
+  for (let i = 0; i < 10; i++) {
+    const t = shuffle(tokens);
+    if (t.join(' ') !== tokens.join(' ')) return t;
+  }
+  return [...tokens].reverse();
+}
+
+function ErrorTask({ item, picked, setPicked, locked }: { item: Extract<DrillItem, { type: 'error' }>; picked: number | null; setPicked: (n: number) => void; locked: boolean }) {
+  const tokens = item.prompt.split(' ');
+  return (
+    <div class="prompt">
+      <div class="instruction">Toca la palabra incorrecta y escribe la corrección:</div>
+      <div class="token-row">
+        {tokens.map((t, i) => {
+          let cls = picked === i ? 'sel' : '';
+          if (locked) cls = i === item.errorIndex ? 'wrong' : picked === i ? 'sel' : '';
+          return (
+            <button type="button" class={`token ${cls}`} disabled={locked} onClick={() => setPicked(i)}>
+              {t}
+            </button>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+function OrderTask({
+  item,
+  tokens,
+  sel,
+  setSel,
+  locked
+}: {
+  item: Extract<DrillItem, { type: 'order' }>;
+  tokens: string[];
+  sel: number[];
+  setSel: (s: number[]) => void;
+  locked: boolean;
+}) {
+  return (
+    <div class="prompt">
+      <div class="instruction">{item.instruction}</div>
+      <div class="order-answer" aria-label="Tu frase">
+        {sel.length ? (
+          sel.map((i, k) => (
+            <button type="button" class="token sel" disabled={locked} onClick={() => setSel(sel.filter((_, j) => j !== k))}>
+              {tokens[i]}
+            </button>
+          ))
+        ) : (
+          <span class="muted small">Toca las palabras en orden…</span>
+        )}
+      </div>
+      <div class="token-row">
+        {tokens.map((t, i) => (
+          <button type="button" class="token" disabled={locked || sel.includes(i)} onClick={() => setSel([...sel, i])}>
+            {t}
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function MatchTask({
+  item,
+  rights,
+  sel,
+  setSel,
+  locked
+}: {
+  item: Extract<DrillItem, { type: 'match' }>;
+  rights: string[];
+  sel: Record<number, string>;
+  setSel: (s: Record<number, string>) => void;
+  locked: boolean;
+}) {
+  const [active, setActive] = useState(0);
+  const used = new Set(Object.values(sel));
+  return (
+    <div class="prompt">
+      <div class="instruction">{item.instruction}</div>
+      {item.pairs.map((p, i) => (
+        <div class={`match-row ${active === i && !locked ? 'active' : ''}`} onClick={() => !locked && setActive(i)}>
+          <span>{p.left}</span>
+          <b class={locked ? (sel[i] === p.right ? 'ok-text' : 'bad-text') : ''}>{sel[i] ?? '…'}</b>
+        </div>
+      ))}
+      {!locked && (
+        <div class="options">
+          {rights.map((r) => (
+            <button
+              type="button"
+              disabled={used.has(r) && sel[active] !== r}
+              class={sel[active] === r ? 'sel' : ''}
+              onClick={() => {
+                const next = { ...sel };
+                for (const k of Object.keys(next)) if (next[Number(k)] === r) delete next[Number(k)];
+                next[active] = r;
+                setSel(next);
+                const empty = item.pairs.findIndex((_, j) => !(j in next));
+                if (empty >= 0) setActive(empty);
+              }}
+            >
+              {r}
+            </button>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

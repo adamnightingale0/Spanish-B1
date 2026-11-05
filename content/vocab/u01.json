@@ -1,0 +1,300 @@
+{
+ "id": "vocab-u01",
+ "unit": 1,
+ "cards": [
+  {
+   "id": "v01-todo-el-mundo",
+   "unit": 1,
+   "topic": "cuantificadores",
+   "es": "todo el mundo",
+   "en": "everyone",
+   "example_es": "En mi barrio todo el mundo se conoce.",
+   "example_en": "In my neighbourhood everyone knows each other."
+  },
+  {
+   "id": "v01-la-mayoria-de",
+   "unit": 1,
+   "topic": "cuantificadores",
+   "es": "la mayoría (de)",
+   "en": "most (of), the majority",
+   "example_es": "La mayoría de mis compañeros cena tarde.",
+   "example_en": "Most of my classmates have dinner late.",
+   "gender": "f"
+  },
+  {
+   "id": "v01-la-mitad-de",
+   "unit": 1,
+   "topic": "cuantificadores",
+   "es": "la mitad (de)",
+   "en": "half (of)",
+   "example_es": "La mitad de la clase vive cerca del centro.",
+   "example_en": "Half the class lives near the centre.",
+   "gender": "f"
+  },
+  {
+   "id": "v01-casi-nadie",
+   "unit": 1,
+   "topic": "cuantificadores",
+   "es": "casi nadie",
+   "en": "hardly anyone",
+   "example_es": "Casi nadie trabaja en agosto.",
+   "example_en": "Hardly anyone works in August."
+  },
+  {
+   "id": "v01-ningun-ninguna",
+   "unit": 1,
+   "topic": "cuantificadores",
+   "es": "ningún / ninguna",
+   "en": "no, not any",
+   "example_es": "No hay ninguna farmacia abierta a estas horas.",
+   "example_en": "There's no chemist open at this time."
+  },
+  {
+   "id": "v01-dar-las-gracias",
+   "unit": 1,
+   "topic": "costumbres sociales",
+   "es": "dar las gracias",
+   "en": "to say thank you",
+   "example_es": "Siempre doy las gracias al conductor del autobús.",
+   "example_en": "I always thank the bus driver.",
+   "collocation": "dar las gracias a alguien por algo"
+  },
+  {
+   "id": "v01-dar-un-abrazo",
+   "unit": 1,
+   "topic": "costumbres sociales",
+   "es": "dar un abrazo",
+   "en": "to give a hug",
+   "example_es": "Cuando nos vemos, mi tía me da un abrazo enorme.",
+   "example_en": "When we meet, my aunt gives me a huge hug."
+  },
+  {
+   "id": "v01-dar-la-mano",
+   "unit": 1,
+   "topic": "costumbres sociales",
+   "es": "dar la mano",
+   "en": "to shake hands",
+   "example_es": "En una entrevista de trabajo se suele dar la mano.",
+   "example_en": "In a job interview people usually shake hands."
+  },
+  {
+   "id": "v01-invitar-a-un-cafe",
+   "unit": 1,
+   "topic": "costumbres sociales",
+   "es": "invitar a un café",
+   "en": "to buy someone a coffee",
+   "example_es": "Hoy te invito yo a un café.",
+   "example_en": "Today the coffee's on me.",
+   "collocation": "invitar a alguien a algo"
+  },
+  {
+   "id": "v01-la-invitacion",
+   "unit": 1,
+   "topic": "costumbres sociales",
+   "es": "la invitación",
+   "en": "the invitation",
+   "example_es": "Rechacé la invitación porque tenía examen.",
+   "example_en": "I turned down the invitation because I had an exam.",
+   "gender": "f",
+   "collocation": "aceptar / rechazar una invitación"
+  },
+  {
+   "id": "v01-la-felicitacion",
+   "unit": 1,
+   "topic": "costumbres sociales",
+   "es": "la felicitación",
+   "en": "the congratulations, the greeting card",
+   "example_es": "Le envié una felicitación por su cumpleaños.",
+   "example_en": "I sent her a birthday message.",
+   "gender": "f"
+  },
+  {
+   "id": "v01-la-nota-de-agradecimiento",
+   "unit": 1,
+   "topic": "costumbres sociales",
+   "es": "la nota de agradecimiento",
+   "en": "the thank-you note",
+   "example_es": "Dejamos una nota de agradecimiento a los vecinos.",
+   "example_en": "We left a thank-you note for the neighbours.",
+   "gender": "f"
+  },
+  {
+   "id": "v01-hacer-un-cumplido",
+   "unit": 1,
+   "topic": "costumbres sociales",
+   "es": "hacer un cumplido",
+   "en": "to pay a compliment",
+   "example_es": "Me hizo un cumplido sobre mi acento.",
+   "example_en": "He paid me a compliment on my accent."
+  },
+  {
+   "id": "v01-el-elogio",
+   "unit": 1,
+   "topic": "costumbres sociales",
+   "es": "el elogio",
+   "en": "the praise",
+   "example_es": "Recibió muchos elogios por su presentación.",
+   "example_en": "She received a lot of praise for her presentation.",
+   "gender": "m",
+   "collocation": "recibir un elogio"
+  },
+  {
+   "id": "v01-el-sueldo",
+   "unit": 1,
+   "topic": "trabajo",
+   "es": "el sueldo",
+   "en": "the salary, pay",
+   "example_es": "Cobro el sueldo a final de mes.",
+   "example_en": "I get paid at the end of the month.",
+   "gender": "m",
+   "collocation": "cobrar el sueldo"
+  },
+  {
+   "id": "v01-la-plantilla",
+   "unit": 1,
+   "topic": "trabajo",
+   "es": "la plantilla",
+   "en": "the staff, workforce",
+   "example_es": "La empresa tiene una plantilla de cincuenta personas.",
+   "example_en": "The company has a staff of fifty.",
+   "gender": "f"
+  },
+  {
+   "id": "v01-el-empleado-la-empleada",
+   "unit": 1,
+   "topic": "trabajo",
+   "es": "el empleado / la empleada",
+   "en": "the employee",
+   "example_es": "Los empleados tienen media hora de descanso.",
+   "example_en": "The employees get a half-hour break."
+  },
+  {
+   "id": "v01-la-jornada-completa",
+   "unit": 1,
+   "topic": "trabajo",
+   "es": "la jornada completa",
+   "en": "full-time (working day)",
+   "example_es": "Trabajo a jornada completa en una tienda.",
+   "example_en": "I work full time in a shop.",
+   "gender": "f",
+   "collocation": "trabajar a jornada completa / media jornada"
+  },
+  {
+   "id": "v01-la-media-jornada",
+   "unit": 1,
+   "topic": "trabajo",
+   "es": "la media jornada",
+   "en": "part-time (half day)",
+   "example_es": "Busco un trabajo de media jornada para poder estudiar.",
+   "example_en": "I'm looking for a part-time job so I can study.",
+   "gender": "f"
+  },
+  {
+   "id": "v01-el-descanso",
+   "unit": 1,
+   "topic": "trabajo",
+   "es": "el descanso",
+   "en": "the break, rest",
+   "example_es": "Hacemos un descanso a las once.",
+   "example_en": "We take a break at eleven.",
+   "gender": "m"
+  },
+  {
+   "id": "v01-la-hora-de-entrada",
+   "unit": 1,
+   "topic": "trabajo",
+   "es": "la hora de entrada",
+   "en": "the start time (at work)",
+   "example_es": "La hora de entrada es a las ocho.",
+   "example_en": "The start time is eight o'clock.",
+   "gender": "f",
+   "collocation": "la hora de entrada / salida"
+  },
+  {
+   "id": "v01-el-dia-de-permiso",
+   "unit": 1,
+   "topic": "trabajo",
+   "es": "el día de permiso",
+   "en": "the day off (with permission)",
+   "example_es": "Pedí un día de permiso para la mudanza.",
+   "example_en": "I asked for a day off for the move.",
+   "gender": "m"
+  },
+  {
+   "id": "v01-la-baja-por-enfermedad",
+   "unit": 1,
+   "topic": "trabajo",
+   "es": "la baja por enfermedad",
+   "en": "the sick leave",
+   "example_es": "Está de baja por enfermedad desde el lunes.",
+   "example_en": "He's been on sick leave since Monday.",
+   "gender": "f",
+   "collocation": "estar de baja"
+  },
+  {
+   "id": "v01-obligatorio-obligatoria",
+   "unit": 1,
+   "topic": "normas",
+   "es": "obligatorio, obligatoria",
+   "en": "compulsory",
+   "example_es": "El casco es obligatorio en la obra.",
+   "example_en": "Helmets are compulsory on the building site."
+  },
+  {
+   "id": "v01-de-mala-educacion",
+   "unit": 1,
+   "topic": "normas",
+   "es": "de mala educación",
+   "en": "rude, bad manners",
+   "example_es": "Es de mala educación mirar el móvil durante la cena.",
+   "example_en": "It's rude to look at your phone during dinner."
+  },
+  {
+   "id": "v01-aconsejable",
+   "unit": 1,
+   "topic": "normas",
+   "es": "aconsejable",
+   "en": "advisable",
+   "example_es": "Es aconsejable reservar mesa los sábados.",
+   "example_en": "It's advisable to book a table on Saturdays."
+  },
+  {
+   "id": "v01-prohibido-prohibida",
+   "unit": 1,
+   "topic": "normas",
+   "es": "prohibido, prohibida",
+   "en": "forbidden",
+   "example_es": "Está prohibido aparcar en esta calle.",
+   "example_en": "Parking is forbidden on this street."
+  },
+  {
+   "id": "v01-permitido-permitida",
+   "unit": 1,
+   "topic": "normas",
+   "es": "permitido, permitida",
+   "en": "allowed",
+   "example_es": "¿Está permitido entrar con perros?",
+   "example_en": "Are dogs allowed in?"
+  },
+  {
+   "id": "v01-mal-visto",
+   "unit": 1,
+   "topic": "normas",
+   "es": "mal visto",
+   "en": "frowned upon",
+   "example_es": "Está mal visto llegar tarde a una reunión.",
+   "example_en": "Arriving late to a meeting is frowned upon.",
+   "collocation": "estar bien / mal visto"
+  },
+  {
+   "id": "v01-dejar",
+   "unit": 1,
+   "topic": "verbo dejar",
+   "es": "dejar",
+   "en": "to let, to leave",
+   "example_es": "Mis padres no me dejaban salir entre semana.",
+   "example_en": "My parents didn't let me go out on weekdays.",
+   "collocation": "dejar + infinitivo"
+  }
+ ]
+}

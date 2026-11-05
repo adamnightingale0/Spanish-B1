@@ -1,0 +1,289 @@
+{
+ "id": "vocab-u04",
+ "unit": 4,
+ "cards": [
+  {
+   "id": "v04-contar-un-chiste",
+   "unit": 4,
+   "topic": "contar y narrar",
+   "es": "contar un chiste",
+   "en": "to tell a joke",
+   "example_es": "Mi abuelo cuenta chistes muy malos.",
+   "example_en": "My grandfather tells very bad jokes."
+  },
+  {
+   "id": "v04-contar-un-secreto",
+   "unit": 4,
+   "topic": "contar y narrar",
+   "es": "contar un secreto",
+   "en": "to tell a secret",
+   "example_es": "No le cuentes el secreto a nadie.",
+   "example_en": "Don't tell the secret to anyone."
+  },
+  {
+   "id": "v04-narrar",
+   "unit": 4,
+   "topic": "contar y narrar",
+   "es": "narrar",
+   "en": "to narrate",
+   "example_es": "La novela narra la vida de una pintora.",
+   "example_en": "The novel narrates the life of a painter."
+  },
+  {
+   "id": "v04-la-anecdota",
+   "unit": 4,
+   "topic": "contar y narrar",
+   "es": "la anécdota",
+   "en": "the anecdote",
+   "example_es": "Me contó una anécdota divertidísima del viaje.",
+   "example_en": "He told me a hilarious anecdote about the trip.",
+   "gender": "f"
+  },
+  {
+   "id": "v04-el-cuento",
+   "unit": 4,
+   "topic": "contar y narrar",
+   "es": "el cuento",
+   "en": "the (short) story, tale",
+   "example_es": "De pequeña leía cuentos antes de dormir.",
+   "example_en": "As a girl I read stories before bed.",
+   "gender": "m"
+  },
+  {
+   "id": "v04-la-leyenda",
+   "unit": 4,
+   "topic": "contar y narrar",
+   "es": "la leyenda",
+   "en": "the legend",
+   "example_es": "Hay una leyenda sobre este puente.",
+   "example_en": "There's a legend about this bridge.",
+   "gender": "f"
+  },
+  {
+   "id": "v04-el-argumento",
+   "unit": 4,
+   "topic": "obras",
+   "es": "el argumento",
+   "en": "the plot",
+   "example_es": "El argumento de la serie es muy original.",
+   "example_en": "The plot of the series is very original.",
+   "gender": "m"
+  },
+  {
+   "id": "v04-el-final",
+   "unit": 4,
+   "topic": "obras",
+   "es": "el final",
+   "en": "the ending",
+   "example_es": "No me cuentes el final.",
+   "example_en": "Don't tell me the ending.",
+   "gender": "m"
+  },
+  {
+   "id": "v04-la-saga",
+   "unit": 4,
+   "topic": "obras",
+   "es": "la saga",
+   "en": "the saga, series (of films/books)",
+   "example_es": "He visto toda la saga en una semana.",
+   "example_en": "I've watched the whole saga in a week.",
+   "gender": "f"
+  },
+  {
+   "id": "v04-la-novela",
+   "unit": 4,
+   "topic": "obras",
+   "es": "la novela",
+   "en": "the novel",
+   "example_es": "Estoy leyendo una novela policíaca.",
+   "example_en": "I'm reading a crime novel.",
+   "gender": "f"
+  },
+  {
+   "id": "v04-el-relato",
+   "unit": 4,
+   "topic": "obras",
+   "es": "el relato",
+   "en": "the short story, account",
+   "example_es": "Escribió un relato sobre su infancia.",
+   "example_en": "She wrote a short story about her childhood.",
+   "gender": "m"
+  },
+  {
+   "id": "v04-la-comedia",
+   "unit": 4,
+   "topic": "géneros",
+   "es": "la comedia",
+   "en": "the comedy",
+   "example_es": "Esta noche me apetece ver una comedia.",
+   "example_en": "Tonight I feel like watching a comedy.",
+   "gender": "f"
+  },
+  {
+   "id": "v04-el-drama",
+   "unit": 4,
+   "topic": "géneros",
+   "es": "el drama",
+   "en": "the drama",
+   "example_es": "Es un drama sobre una familia de inmigrantes.",
+   "example_en": "It's a drama about an immigrant family.",
+   "gender": "m"
+  },
+  {
+   "id": "v04-el-documental",
+   "unit": 4,
+   "topic": "géneros",
+   "es": "el documental",
+   "en": "the documentary",
+   "example_es": "Vimos un documental sobre el Amazonas.",
+   "example_en": "We watched a documentary about the Amazon.",
+   "gender": "m"
+  },
+  {
+   "id": "v04-de-ciencia-ficcion",
+   "unit": 4,
+   "topic": "géneros",
+   "es": "de ciencia ficción",
+   "en": "science-fiction",
+   "example_es": "Me encantan las películas de ciencia ficción.",
+   "example_en": "I love science-fiction films."
+  },
+  {
+   "id": "v04-de-animacion",
+   "unit": 4,
+   "topic": "géneros",
+   "es": "de animación",
+   "en": "animated",
+   "example_es": "Es una película de animación para adultos.",
+   "example_en": "It's an animated film for adults."
+  },
+  {
+   "id": "v04-de-suspense",
+   "unit": 4,
+   "topic": "géneros",
+   "es": "de suspense",
+   "en": "thriller, suspense",
+   "example_es": "Las películas de suspense me ponen nervioso.",
+   "example_en": "Thrillers make me nervous."
+  },
+  {
+   "id": "v04-de-terror",
+   "unit": 4,
+   "topic": "géneros",
+   "es": "de terror",
+   "en": "horror",
+   "example_es": "No veo películas de terror sola.",
+   "example_en": "I don't watch horror films alone."
+  },
+  {
+   "id": "v04-policiaco-policiaca",
+   "unit": 4,
+   "topic": "géneros",
+   "es": "policíaco, policíaca",
+   "en": "crime, detective",
+   "example_es": "Es una serie policíaca ambientada en Bilbao.",
+   "example_en": "It's a crime series set in Bilbao."
+  },
+  {
+   "id": "v04-belico-belica",
+   "unit": 4,
+   "topic": "géneros",
+   "es": "bélico, bélica",
+   "en": "war (film)",
+   "example_es": "Las películas bélicas suelen ser muy duras.",
+   "example_en": "War films are usually very hard to watch."
+  },
+  {
+   "id": "v04-biografico-biografica",
+   "unit": 4,
+   "topic": "géneros",
+   "es": "biográfico, biográfica",
+   "en": "biographical",
+   "example_es": "Han estrenado una película biográfica sobre Lorca.",
+   "example_en": "They've released a biopic about Lorca."
+  },
+  {
+   "id": "v04-tratar-de",
+   "unit": 4,
+   "topic": "hablar de una obra",
+   "es": "tratar de",
+   "en": "to be about",
+   "example_es": "La película trata de un chico que pierde a su perro.",
+   "example_en": "The film is about a boy who loses his dog."
+  },
+  {
+   "id": "v04-ir-de",
+   "unit": 4,
+   "topic": "hablar de una obra",
+   "es": "ir de",
+   "en": "to be about (informal)",
+   "example_es": "¿De qué va el libro?",
+   "example_en": "What's the book about?"
+  },
+  {
+   "id": "v04-estar-basado-en",
+   "unit": 4,
+   "topic": "hablar de una obra",
+   "es": "estar basado en",
+   "en": "to be based on",
+   "example_es": "La serie está basada en hechos reales.",
+   "example_en": "The series is based on real events."
+  },
+  {
+   "id": "v04-estar-ambientado-en",
+   "unit": 4,
+   "topic": "hablar de una obra",
+   "es": "estar ambientado en",
+   "en": "to be set in",
+   "example_es": "La novela está ambientada en el siglo XIX.",
+   "example_en": "The novel is set in the 19th century."
+  },
+  {
+   "id": "v04-el-la-protagonista",
+   "unit": 4,
+   "topic": "hablar de una obra",
+   "es": "el / la protagonista",
+   "en": "the main character",
+   "example_es": "La protagonista es una periodista valiente.",
+   "example_en": "The main character is a brave journalist."
+  },
+  {
+   "id": "v04-salir-en-una-pelicula",
+   "unit": 4,
+   "topic": "hablar de una obra",
+   "es": "salir (en una película)",
+   "en": "to be in (a film)",
+   "example_es": "¿Sabes qué actores salen en la película?",
+   "example_en": "Do you know which actors are in the film?"
+  },
+  {
+   "id": "v04-el-guion",
+   "unit": 4,
+   "topic": "cine",
+   "es": "el guion",
+   "en": "the script",
+   "example_es": "El guion es flojo, pero los actores son buenos.",
+   "example_en": "The script is weak, but the actors are good.",
+   "gender": "m"
+  },
+  {
+   "id": "v04-el-estreno",
+   "unit": 4,
+   "topic": "cine",
+   "es": "el estreno",
+   "en": "the premiere, release",
+   "example_es": "El estreno es el viernes.",
+   "example_en": "It comes out on Friday.",
+   "gender": "m"
+  },
+  {
+   "id": "v04-de-repente",
+   "unit": 4,
+   "topic": "conectores",
+   "es": "de repente",
+   "en": "suddenly",
+   "example_es": "De repente, se apagaron todas las luces.",
+   "example_en": "Suddenly all the lights went out."
+  }
+ ]
+}

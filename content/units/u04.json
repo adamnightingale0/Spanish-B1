@@ -474,6 +474,60 @@
    ],
    "feedback": "lo can replace a whole idea or sentence.",
    "contrast": "Sí, pero nadie lo sabe."
+  },
+  {
+   "id": "u04-ord-001",
+   "type": "order",
+   "unit": 4,
+   "grammarPoint": "pronombres-od-oi",
+   "difficulty": 2,
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "Se lo regalé a mi hermana",
+    "A mi hermana se lo regalé"
+   ],
+   "feedback": "Indirect before direct; le + lo → se lo.",
+   "contrast": "Le regalé el libro a mi hermana."
+  },
+  {
+   "id": "u04-ord-002",
+   "type": "order",
+   "unit": 4,
+   "grammarPoint": "pronombres-od-oi",
+   "difficulty": 3,
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "Voy a contárselo mañana",
+    "Mañana voy a contárselo"
+   ],
+   "feedback": "Pronouns attached to the infinitive (with an accent) or before ir: se lo voy a contar."
+  },
+  {
+   "id": "u04-match-001",
+   "type": "match",
+   "unit": 4,
+   "grammarPoint": "causa-contraste",
+   "difficulty": 2,
+   "instruction": "Relaciona cada principio con su final.",
+   "pairs": [
+    {
+     "left": "Como no había entradas,",
+     "right": "nos fuimos a cenar."
+    },
+    {
+     "left": "No vi el final",
+     "right": "porque me quedé dormido."
+    },
+    {
+     "left": "Aunque el guion es flojo,",
+     "right": "los actores son muy buenos."
+    },
+    {
+     "left": "La novela es larga.",
+     "right": "Sin embargo, se lee rápido."
+    }
+   ],
+   "feedback": "como + cause first; porque + cause second; aunque / sin embargo for contrast."
   }
  ]
 }

@@ -760,6 +760,72 @@
    ],
    "feedback": "quejarse (pronominal): se quejan; a fact → indicative.",
    "contrast": "No quiero que se quejen."
+  },
+  {
+   "id": "prog-err-001",
+   "type": "error",
+   "unit": 0,
+   "grammarPoint": "cual-vs-que",
+   "difficulty": 1,
+   "prompt": "¿Qué es tu número de teléfono?",
+   "errorIndex": 0,
+   "answers": [
+    "¿Cuál",
+    "Cuál"
+   ],
+   "feedback": "¿Cuál es…? for data (number, address)."
+  },
+  {
+   "id": "prog-err-002",
+   "type": "error",
+   "unit": 0,
+   "grammarPoint": "para-inf",
+   "difficulty": 2,
+   "prompt": "Te lo explico para que lo entiendes.",
+   "errorIndex": 6,
+   "answers": [
+    "entiendas"
+   ],
+   "feedback": "para que + subjunctive."
+  },
+  {
+   "id": "prog-ord-001",
+   "type": "order",
+   "unit": 0,
+   "grammarPoint": "sugerir-recomendar-quejarse-proponer",
+   "difficulty": 2,
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "Te recomiendo que vayas en tren"
+   ],
+   "feedback": "recomendar que + subjunctive."
+  },
+  {
+   "id": "prog-match-001",
+   "type": "match",
+   "unit": 0,
+   "grammarPoint": "que-subj-deseos",
+   "difficulty": 1,
+   "instruction": "¿Qué dices en cada situación?",
+   "pairs": [
+    {
+     "left": "Tu amiga está enferma:",
+     "right": "¡Que te mejores!"
+    },
+    {
+     "left": "Antes de comer:",
+     "right": "¡Que aproveche!"
+    },
+    {
+     "left": "Mañana tienes un examen:",
+     "right": "¡Que te vaya bien!"
+    },
+    {
+     "left": "Es su cumpleaños:",
+     "right": "¡Que cumplas muchos más!"
+    }
+   ],
+   "feedback": "¡Que + subjuntivo! for wishes in set situations."
   }
  ]
 }
