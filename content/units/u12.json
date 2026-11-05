@@ -10,13 +10,14 @@
  "writingTask": "Blog sobre misterios científicos",
  "bookRef": {
   "page": 164,
-  "masEjercicios": 255,
+  "masEjercicios": 256,
   "masGramatica": 263
  },
  "grammarPoints": [
   "futuro-compuesto",
   "hipotesis-ind-subj",
-  "creer-creerse"
+  "creer-creerse",
+  "pensar-recordar"
  ],
  "items": [
   {
@@ -307,6 +308,128 @@
    ],
    "feedback": "decir que reports the claim; no me lo creo shows disbelief.",
    "contrast": "Ellos se lo creen."
+  },
+  {
+   "id": "u12-pens-001",
+   "type": "choice",
+   "unit": 12,
+   "grammarPoint": "pensar-recordar",
+   "difficulty": 1,
+   "prompt": "—Estás muy callado. ¿___ qué piensas? —En el examen de mañana.",
+   "options": [
+    "En",
+    "De",
+    "Por"
+   ],
+   "answers": [
+    "En"
+   ],
+   "feedback": "pensar en = have something in mind.",
+   "contrast": "¿Qué piensas de la teoría? (opinion)"
+  },
+  {
+   "id": "u12-pens-002",
+   "type": "choice",
+   "unit": 12,
+   "grammarPoint": "pensar-recordar",
+   "difficulty": 1,
+   "prompt": "¿Qué piensas ___ los fenómenos paranormales?",
+   "options": [
+    "de",
+    "en",
+    "sobre de"
+   ],
+   "answers": [
+    "de"
+   ],
+   "feedback": "pensar de = opinion about.",
+   "contrast": "Pienso en ti."
+  },
+  {
+   "id": "u12-pens-003",
+   "type": "choice",
+   "unit": 12,
+   "grammarPoint": "pensar-recordar",
+   "difficulty": 2,
+   "prompt": "Este verano ___ ir a Galicia a hacer el Camino.",
+   "options": [
+    "pienso",
+    "pienso en",
+    "pienso de"
+   ],
+   "answers": [
+    "pienso"
+   ],
+   "feedback": "pensar + infinitive = intend to.",
+   "contrast": "Pienso en el viaje."
+  },
+  {
+   "id": "u12-pens-004",
+   "type": "choice",
+   "unit": 12,
+   "grammarPoint": "pensar-recordar",
+   "difficulty": 1,
+   "prompt": "No me ___ de dónde he dejado las llaves.",
+   "options": [
+    "acuerdo",
+    "recuerdo",
+    "recordo"
+   ],
+   "answers": [
+    "acuerdo"
+   ],
+   "feedback": "acordarse de algo = recordar algo.",
+   "contrast": "No recuerdo dónde las he dejado."
+  },
+  {
+   "id": "u12-pens-005",
+   "type": "choice",
+   "unit": 12,
+   "grammarPoint": "pensar-recordar",
+   "difficulty": 2,
+   "prompt": "Esta casa me recuerda ___ la de mis abuelos.",
+   "options": [
+    "a",
+    "de",
+    "en"
+   ],
+   "answers": [
+    "a"
+   ],
+   "feedback": "recordar a = remind of / look like.",
+   "contrast": "Recuerdo la casa de mis abuelos."
+  },
+  {
+   "id": "u12-pens-006",
+   "type": "transform",
+   "unit": 12,
+   "grammarPoint": "pensar-recordar",
+   "difficulty": 2,
+   "instruction": "Reescribe con «acordarse de».",
+   "prompt": "No recuerdo su nombre.",
+   "answers": [
+    "No me acuerdo de su nombre"
+   ],
+   "feedback": "recordar algo = acordarse de algo.",
+   "contrast": "Me acuerdo de ti."
+  },
+  {
+   "id": "u12-fcomp-007",
+   "type": "choice",
+   "unit": 12,
+   "grammarPoint": "futuro-compuesto",
+   "difficulty": 2,
+   "prompt": "—¿Qué estará haciendo Pepe ahora? —No sé, ___ en la oficina.",
+   "options": [
+    "estará trabajando",
+    "habrá trabajado",
+    "estaría trabajando"
+   ],
+   "answers": [
+    "estará trabajando"
+   ],
+   "feedback": "Guess about an action in progress now → estar (futuro) + gerund.",
+   "contrast": "Habrá salido ya (guess about the recent past)."
   }
  ]
 }

@@ -10,7 +10,7 @@
  "writingTask": "Crear y transmitir distintos mensajes",
  "bookRef": {
   "page": 94,
-  "masEjercicios": 220,
+  "masEjercicios": 221,
   "masGramatica": 263
  },
  "grammarPoints": [
@@ -139,6 +139,104 @@
    ],
    "feedback": "Possessives change perspective: mis gafas (Marta's) → sus gafas.",
    "contrast": "Me ha preguntado si he visto mis gafas = my glasses."
+  },
+  {
+   "id": "u07-ind-009",
+   "type": "choice",
+   "unit": 7,
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 1,
+   "prompt": "Marcos: «¿Me dejas tu bici?» → Marcos me ha ___ la bici.",
+   "options": [
+    "pedido",
+    "preguntado",
+    "dicho"
+   ],
+   "answers": [
+    "pedido"
+   ],
+   "feedback": "pedir = ask for something or an action; preguntar = ask a question.",
+   "contrast": "Me ha preguntado si tengo bici."
+  },
+  {
+   "id": "u07-ind-010",
+   "type": "choice",
+   "unit": 7,
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 1,
+   "prompt": "Lucía: «¿A qué hora sale el tren?» → Lucía me ha ___ a qué hora sale el tren.",
+   "options": [
+    "preguntado",
+    "pedido",
+    "contado"
+   ],
+   "answers": [
+    "preguntado"
+   ],
+   "feedback": "A question → preguntar.",
+   "contrast": "Me ha pedido el horario."
+  },
+  {
+   "id": "u07-ind-011",
+   "type": "choice",
+   "unit": 7,
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "prompt": "Rosa: «¡Muchas gracias por la cena!» → Rosa me ha dado las gracias ___ la cena.",
+   "options": [
+    "por",
+    "para",
+    "de"
+   ],
+   "answers": [
+    "por"
+   ],
+   "feedback": "dar las gracias (a alguien) por algo.",
+   "contrast": "Me ha felicitado por el ascenso."
+  },
+  {
+   "id": "u07-ind-012",
+   "type": "choice",
+   "unit": 7,
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "prompt": "Tu abuela: «¿Está mi nieto en casa?» → Ha llamado tu abuela y ha preguntado ___ ti.",
+   "options": [
+    "por",
+    "a",
+    "de"
+   ],
+   "answers": [
+    "por"
+   ],
+   "feedback": "preguntar por alguien = ask after / ask for someone.",
+   "contrast": "Me ha preguntado si estás."
+  },
+  {
+   "id": "u07-ind-013",
+   "type": "gap",
+   "unit": 7,
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "prompt": "Javier: «Adiós a todos, me voy ya.» → Javier se ha ___ (despedir) de todos.",
+   "answers": [
+    "despedido"
+   ],
+   "feedback": "despedirse de alguien summarises a goodbye.",
+   "contrast": "Ha dicho adiós."
+  },
+  {
+   "id": "u07-ind-014",
+   "type": "gap",
+   "unit": 7,
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 3,
+   "prompt": "El médico: «Debería descansar unos días.» → El médico me ha sugerido que ___ (descansar) unos días.",
+   "answers": [
+    "descanse"
+   ],
+   "feedback": "sugerir que + subjunctive.",
+   "contrast": "Me ha dicho que debería descansar."
   }
  ]
 }

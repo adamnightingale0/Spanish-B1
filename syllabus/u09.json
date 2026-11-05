@@ -1,0 +1,62 @@
+{
+ "id": "u09",
+ "unit": 9,
+ "title": "Tenemos que hablar",
+ "grammarPoints": [
+  "me-fascina-que",
+  "verbos-sentimiento",
+  "desacuerdo-contraargumentar"
+ ],
+ "functions": [
+  "expresar intereses y sentimientos",
+  "hablar de relaciones",
+  "mostrar y suavizar el desacuerdo",
+  "contraargumentar"
+ ],
+ "themes": [
+  "emociones y sentimientos",
+  "manías",
+  "relaciones personales"
+ ],
+ "writingTaskType": "representar una discusión",
+ "phonetics": "la entonación de las preguntas eco",
+ "targetWords": [
+  "el aburrimiento",
+  "el enfado",
+  "la pena",
+  "la alegría",
+  "la ilusión",
+  "la pereza",
+  "el asco",
+  "el miedo",
+  "la tranquilidad",
+  "la ansiedad",
+  "los nervios",
+  "la tristeza",
+  "los celos",
+  "la rabia",
+  "la sorpresa",
+  "dar miedo / pena / vergüenza",
+  "ponerse nervioso/a",
+  "ponerse celoso/a",
+  "sentar bien / mal",
+  "sentirse bien / mal",
+  "hacer ilusión",
+  "estar harto/a de",
+  "no soportar",
+  "no aguantar",
+  "¡Qué va!",
+  "yo no diría eso"
+ ],
+ "bookRef": {
+  "page": 122,
+  "lexico": 130,
+  "gramatica": 131,
+  "masGramatica": [
+   266,
+   274,
+   295
+  ],
+  "masEjercicios": 235
+ }
+}

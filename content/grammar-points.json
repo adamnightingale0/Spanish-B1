@@ -15,7 +15,7 @@
   ],
   "bookRef": {
    "page": 19,
-   "masEjercicios": 178
+   "masEjercicios": 179
   }
  },
  {
@@ -34,7 +34,7 @@
   ],
   "bookRef": {
    "page": 19,
-   "masEjercicios": 178
+   "masEjercicios": 179
   }
  },
  {
@@ -54,7 +54,7 @@
   "bookRef": {
    "page": 18,
    "ejercicios": "10",
-   "masEjercicios": 178
+   "masEjercicios": 179
   }
  },
  {
@@ -75,7 +75,7 @@
   "bookRef": {
    "page": 19,
    "ejercicios": "8-9",
-   "masEjercicios": 178
+   "masEjercicios": 179
   }
  },
  {
@@ -96,7 +96,7 @@
    "page": 19,
    "ejercicios": "12",
    "masGramatica": 294,
-   "masEjercicios": 178
+   "masEjercicios": 179
   }
  },
  {
@@ -116,7 +116,7 @@
   "bookRef": {
    "page": 18,
    "ejercicios": "13",
-   "masEjercicios": 178
+   "masEjercicios": 179
   }
  },
  {
@@ -138,7 +138,7 @@
   "bookRef": {
    "page": 33,
    "masGramatica": 290,
-   "masEjercicios": 185
+   "masEjercicios": 186
   }
  },
  {
@@ -159,7 +159,7 @@
   "bookRef": {
    "page": 33,
    "masGramatica": 290,
-   "masEjercicios": 185
+   "masEjercicios": 186
   }
  },
  {
@@ -180,7 +180,7 @@
   "bookRef": {
    "page": 33,
    "masGramatica": 275,
-   "masEjercicios": 185
+   "masEjercicios": 186
   }
  },
  {
@@ -201,7 +201,7 @@
   "bookRef": {
    "page": 33,
    "masGramatica": 275,
-   "masEjercicios": 185
+   "masEjercicios": 186
   }
  },
  {
@@ -222,7 +222,7 @@
   "bookRef": {
    "page": 33,
    "masGramatica": 290,
-   "masEjercicios": 185
+   "masEjercicios": 186
   }
  },
  {
@@ -242,7 +242,7 @@
   "bookRef": {
    "page": 47,
    "masGramatica": 277,
-   "masEjercicios": 192
+   "masEjercicios": 193
   }
  },
  {
@@ -261,7 +261,7 @@
   "bookRef": {
    "page": 47,
    "masGramatica": 283,
-   "masEjercicios": 192
+   "masEjercicios": 193
   }
  },
  {
@@ -282,7 +282,7 @@
   "bookRef": {
    "page": 47,
    "masGramatica": 284,
-   "masEjercicios": 192
+   "masEjercicios": 193
   }
  },
  {
@@ -303,7 +303,7 @@
   "bookRef": {
    "page": 47,
    "ejercicios": "19",
-   "masEjercicios": 192
+   "masEjercicios": 193
   }
  },
  {
@@ -325,7 +325,7 @@
    "page": 61,
    "ejercicios": "10-12",
    "masGramatica": 273,
-   "masEjercicios": 199
+   "masEjercicios": 200
   }
  },
  {
@@ -347,7 +347,7 @@
    "page": 61,
    "ejercicios": "15-16",
    "masGramatica": 273,
-   "masEjercicios": 199
+   "masEjercicios": 200
   }
  },
  {
@@ -368,7 +368,7 @@
    "page": 61,
    "ejercicios": "17-18, 21",
    "masGramatica": 267,
-   "masEjercicios": 199
+   "masEjercicios": 200
   }
  },
  {
@@ -388,7 +388,7 @@
   "bookRef": {
    "page": 61,
    "masGramatica": 277,
-   "masEjercicios": 199
+   "masEjercicios": 200
   }
  },
  {
@@ -407,8 +407,9 @@
    "Venid a probar nuestras tapas."
   ],
   "bookRef": {
-   "page": 66,
-   "masEjercicios": 206
+   "page": 75,
+   "masGramatica": 286,
+   "masEjercicios": 207
   }
  },
  {
@@ -427,8 +428,9 @@
    "No dejéis la compra para el último día."
   ],
   "bookRef": {
-   "page": 66,
-   "masEjercicios": 206
+   "page": 75,
+   "masGramatica": 287,
+   "masEjercicios": 207
   }
  },
  {
@@ -446,8 +448,9 @@
    "No lo dudes."
   ],
   "bookRef": {
-   "page": 66,
-   "masEjercicios": 206
+   "page": 75,
+   "masGramatica": 269,
+   "masEjercicios": 207
   }
  },
  {
@@ -465,8 +468,9 @@
    "Ojalá haya más carriles bici."
   ],
   "bookRef": {
-   "page": 80,
-   "masEjercicios": 213
+   "page": 89,
+   "masGramatica": 289,
+   "masEjercicios": 214
   }
  },
  {
@@ -484,8 +488,9 @@
    "Te pido que me escuches."
   ],
   "bookRef": {
-   "page": 80,
-   "masEjercicios": 213
+   "page": 89,
+   "masGramatica": 296,
+   "masEjercicios": 214
   }
  },
  {
@@ -503,8 +508,10 @@
    "El gobierno debería invertir en vivienda."
   ],
   "bookRef": {
-   "page": 80,
-   "masEjercicios": 213
+   "page": 89,
+   "ejercicios": "17",
+   "masGramatica": 285,
+   "masEjercicios": 214
   }
  },
  {
@@ -523,8 +530,9 @@
    "Cuando termine la carrera, buscaré trabajo."
   ],
   "bookRef": {
-   "page": 80,
-   "masEjercicios": 213
+   "page": 89,
+   "masGramatica": 299,
+   "masEjercicios": 214
   }
  },
  {
@@ -543,8 +551,10 @@
    "Me ha pedido que le llame."
   ],
   "bookRef": {
-   "page": 94,
-   "masEjercicios": 220
+   "page": 103,
+   "ejercicios": "6, 11-14",
+   "masGramatica": 299,
+   "masEjercicios": 221
   }
  },
  {
@@ -562,8 +572,9 @@
    "Ya que estás aquí, ayúdame."
   ],
   "bookRef": {
-   "page": 108,
-   "masEjercicios": 227
+   "page": 117,
+   "masGramatica": 273,
+   "masEjercicios": 228
   }
  },
  {
@@ -581,8 +592,9 @@
    "Nunca había probado el salmorejo."
   ],
   "bookRef": {
-   "page": 108,
-   "masEjercicios": 227
+   "page": 117,
+   "masGramatica": 282,
+   "masEjercicios": 228
   }
  },
  {
@@ -599,8 +611,30 @@
    "Estaba en Roma, había perdido el pasaporte y de repente me llamó la policía."
   ],
   "bookRef": {
-   "page": 108,
-   "masEjercicios": 227
+   "page": 117,
+   "masGramatica": 279,
+   "masEjercicios": 228
+  }
+ },
+ {
+  "id": "recursos-anecdota",
+  "unit": 8,
+  "title": "Contar una anécdota y reaccionar",
+  "summary": "Open a story with resulta que / una vez / un día. Refer back with aquel día, al día siguiente, la noche anterior. Close it with al final / total, que. The listener shows interest with ¿Y qué hiciste?, ¡No me digas!, ¡Qué rabia!",
+  "rules": [
+   "Start: resulta que, una vez, un día, hace unos meses",
+   "Refer back: aquel día, al día siguiente, la semana anterior",
+   "End: al final, total, que…",
+   "Listener: ¿Y qué pasó?, ¡No me digas!, ¡Menos mal!, ¡Qué mala suerte!"
+  ],
+  "examples": [
+   "Total, que perdimos el último tren.",
+   "—Y nos quedamos sin batería en medio del desierto. —¡No me digas!"
+  ],
+  "bookRef": {
+   "page": 116,
+   "ejercicios": "13",
+   "masEjercicios": 228
   }
  },
  {
@@ -618,8 +652,9 @@
    "Le pone nervioso que la gente hable en el cine."
   ],
   "bookRef": {
-   "page": 122,
-   "masEjercicios": 234
+   "page": 131,
+   "masGramatica": 295,
+   "masEjercicios": 235
   }
  },
  {
@@ -637,8 +672,31 @@
    "Me da pena que te vayas."
   ],
   "bookRef": {
-   "page": 122,
-   "masEjercicios": 234
+   "page": 130,
+   "ejercicios": "14",
+   "masGramatica": 295,
+   "masEjercicios": 235
+  }
+ },
+ {
+  "id": "desacuerdo-contraargumentar",
+  "unit": 9,
+  "title": "Mostrar y suavizar el desacuerdo",
+  "summary": "Show surprise or annoyance by echoing what was said (¿Que no apagué la luz?). Soften disagreement with yo no diría eso, a mi modo de ver, no estoy del todo de acuerdo. Counter-argue with pues or (pero) si.",
+  "rules": [
+   "Echo question: ¿Que + repeated words?",
+   "Strong rejection: ¡Qué dices!, ¡Qué va!",
+   "Softening: yo no diría eso, lo que pasa es que…",
+   "Counter-argument: pues…, (pero) si…"
+  ],
+  "examples": [
+   "—Nunca me ayudas. —¿Que nunca te ayudo? ¡Si ayer limpié yo la cocina!",
+   "Hombre, yo no estoy del todo de acuerdo."
+  ],
+  "bookRef": {
+   "page": 131,
+   "masGramatica": 274,
+   "masEjercicios": 235
   }
  },
  {
@@ -657,8 +715,9 @@
    "El diseño es sencillísimo."
   ],
   "bookRef": {
-   "page": 136,
-   "masEjercicios": 241
+   "page": 144,
+   "ejercicios": "16-17",
+   "masEjercicios": 242
   }
  },
  {
@@ -677,8 +736,9 @@
    "¡Cuánto ruido!"
   ],
   "bookRef": {
-   "page": 136,
-   "masEjercicios": 241
+   "page": 145,
+   "ejercicios": "18",
+   "masEjercicios": 242
   }
  },
  {
@@ -696,8 +756,9 @@
    "La mesa en la que trabajo es de madera."
   ],
   "bookRef": {
-   "page": 136,
-   "masEjercicios": 241
+   "page": 145,
+   "masGramatica": 297,
+   "masEjercicios": 242
   }
  },
  {
@@ -715,8 +776,29 @@
    "No conozco a nadie que tenga un coche eléctrico."
   ],
   "bookRef": {
-   "page": 136,
-   "masEjercicios": 241
+   "page": 145,
+   "masGramatica": 297,
+   "masEjercicios": 242
+  }
+ },
+ {
+  "id": "valorar-objetos",
+  "unit": 10,
+  "title": "Valorar objetos: lo encuentro… / no me convence",
+  "summary": "Give an opinion of an object with lo/la/los/las encuentro (veo) + adjective, which agrees with the object, or me parece(n) + adjective. Soften negatives with no está mal, pero…, no me acaba de convencer, francamente…",
+  "rules": [
+   "La encuentro muy bonita (la lámpara)",
+   "Me parecen caros (los zapatos)",
+   "Negative but polite: no me desagrada, pero…; no me acaba de convencer",
+   "Gradation: poco práctico (negative) vs un poco caro (with negative qualities)"
+  ],
+  "examples": [
+   "Estas sillas las encuentro muy incómodas.",
+   "No está mal, pero no es lo que busco."
+  ],
+  "bookRef": {
+   "page": 145,
+   "masEjercicios": 242
   }
  },
  {
@@ -734,8 +816,10 @@
    "Está bien reciclar, pero no es suficiente."
   ],
   "bookRef": {
-   "page": 150,
-   "masEjercicios": 248
+   "page": 159,
+   "ejercicios": "16",
+   "masGramatica": 297,
+   "masEjercicios": 249
   }
  },
  {
@@ -753,8 +837,10 @@
    "¿Podrías ayudarme?"
   ],
   "bookRef": {
-   "page": 150,
-   "masEjercicios": 248
+   "page": 159,
+   "ejercicios": "10-11",
+   "masGramatica": 285,
+   "masEjercicios": 249
   }
  },
  {
@@ -772,8 +858,30 @@
    "Lo que necesitamos es más transporte público."
   ],
   "bookRef": {
-   "page": 150,
-   "masEjercicios": 248
+   "page": 159,
+   "masGramatica": 265,
+   "masEjercicios": 249
+  }
+ },
+ {
+  "id": "veracidad-ind-subj",
+  "unit": 11,
+  "title": "Es verdad que + ind. / No es cierto que + subj.",
+  "summary": "Expressions of truth or evidence (es verdad, es cierto, es evidente, es obvio, está claro que) take the indicative. When negated or when they deny the truth (no es verdad, no está claro, es mentira, es falso que) they take the subjunctive.",
+  "rules": [
+   "Es evidente que + indicativo",
+   "No es cierto que + subjuntivo",
+   "Es mentira / es falso que + subjuntivo",
+   "Es cierto = es verdad (not 'es seguro')"
+  ],
+  "examples": [
+   "Está claro que hay que reducir el plástico.",
+   "No es verdad que el reciclaje no sirva para nada."
+  ],
+  "bookRef": {
+   "page": 159,
+   "masGramatica": 297,
+   "masEjercicios": 249
   }
  },
  {
@@ -791,8 +899,9 @@
    "Habrán perdido el tren."
   ],
   "bookRef": {
-   "page": 164,
-   "masEjercicios": 255
+   "page": 173,
+   "masGramatica": 284,
+   "masEjercicios": 256
   }
  },
  {
@@ -809,8 +918,10 @@
    "Supongo que hay una explicación."
   ],
   "bookRef": {
-   "page": 164,
-   "masEjercicios": 255
+   "page": 173,
+   "ejercicios": "10-11",
+   "masGramatica": 301,
+   "masEjercicios": 256
   }
  },
  {
@@ -828,8 +939,30 @@
    "¡No me lo creo!"
   ],
   "bookRef": {
-   "page": 164,
-   "masEjercicios": 255
+   "page": 172,
+   "ejercicios": "5",
+   "masEjercicios": 256
+  }
+ },
+ {
+  "id": "pensar-recordar",
+  "unit": 12,
+  "title": "Pensar en / de / que; recordar, acordarse de, recordar a",
+  "summary": "pensar en = have someone or something in mind; pensar de = opinion about; pensar que = I think that; pensar + infinitive = intend. Recordar algo = acordarse de algo; recordar a alguien = remind you of / look like.",
+  "rules": [
+   "¿En qué piensas?",
+   "¿Qué piensas de…? (opinion)",
+   "Pienso ir a Escocia (intention)",
+   "No me acuerdo de su nombre = No recuerdo su nombre",
+   "Me recuerdas a tu madre (resemblance)"
+  ],
+  "examples": [
+   "¿Qué piensas de esta teoría?",
+   "Esta canción me recuerda a mi infancia."
+  ],
+  "bookRef": {
+   "page": 172,
+   "masEjercicios": 256
   }
  },
  {

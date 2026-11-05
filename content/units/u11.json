@@ -10,13 +10,14 @@
  "writingTask": "Presentar problemas y proponer soluciones",
  "bookRef": {
   "page": 150,
-  "masEjercicios": 248,
+  "masEjercicios": 249,
   "masGramatica": 263
  },
  "grammarPoints": [
   "valorar-inf-subj",
   "condicional",
-  "lo-neutro"
+  "lo-neutro",
+  "veracidad-ind-subj"
  ],
  "items": [
   {
@@ -333,6 +334,115 @@
    ],
    "feedback": "eso de / lo de que + subjunctive = the fact that…",
    "contrast": "Lo de la biblioteca me parece fatal."
+  },
+  {
+   "id": "u11-ver-001",
+   "type": "choice",
+   "unit": 11,
+   "grammarPoint": "veracidad-ind-subj",
+   "difficulty": 1,
+   "prompt": "Es evidente que el cambio climático ___ un problema grave.",
+   "options": [
+    "es",
+    "sea"
+   ],
+   "answers": [
+    "es"
+   ],
+   "feedback": "Evidence (es evidente que) → indicative.",
+   "contrast": "No es evidente que sea grave."
+  },
+  {
+   "id": "u11-ver-002",
+   "type": "choice",
+   "unit": 11,
+   "grammarPoint": "veracidad-ind-subj",
+   "difficulty": 1,
+   "prompt": "No es verdad que el reciclaje no ___ para nada.",
+   "options": [
+    "sirva",
+    "sirve"
+   ],
+   "answers": [
+    "sirva"
+   ],
+   "feedback": "Denying the truth (no es verdad que) → subjunctive.",
+   "contrast": "Es verdad que sirve."
+  },
+  {
+   "id": "u11-ver-003",
+   "type": "gap",
+   "unit": 11,
+   "grammarPoint": "veracidad-ind-subj",
+   "difficulty": 2,
+   "prompt": "Está claro que ___ (tener, nosotros) que consumir menos plástico.",
+   "answers": [
+    "tenemos"
+   ],
+   "feedback": "está claro que + indicative.",
+   "contrast": "No está claro que tengamos que…"
+  },
+  {
+   "id": "u11-ver-004",
+   "type": "gap",
+   "unit": 11,
+   "grammarPoint": "veracidad-ind-subj",
+   "difficulty": 2,
+   "prompt": "Es mentira que los coches eléctricos no ___ (contaminar) nada.",
+   "answers": [
+    "contaminen"
+   ],
+   "feedback": "es mentira / es falso que + subjunctive.",
+   "contrast": "Es cierto que contaminan menos."
+  },
+  {
+   "id": "u11-ver-005",
+   "type": "choice",
+   "unit": 11,
+   "grammarPoint": "veracidad-ind-subj",
+   "difficulty": 2,
+   "prompt": "Es cierto que la comida local ___ más sostenible.",
+   "options": [
+    "es",
+    "sea",
+    "será que"
+   ],
+   "answers": [
+    "es"
+   ],
+   "feedback": "es cierto (= es verdad) que + indicative.",
+   "contrast": "No es cierto que sea más cara."
+  },
+  {
+   "id": "u11-ver-006",
+   "type": "gap",
+   "unit": 11,
+   "grammarPoint": "veracidad-ind-subj",
+   "difficulty": 3,
+   "prompt": "No está claro que las bolsas de papel ___ (ser) mejores que las de tela.",
+   "answers": [
+    "sean"
+   ],
+   "feedback": "no está claro que + subjunctive.",
+   "contrast": "Está claro que son mejores."
+  },
+  {
+   "id": "u11-val-007",
+   "type": "choice",
+   "unit": 11,
+   "grammarPoint": "valorar-inf-subj",
+   "difficulty": 2,
+   "prompt": "Es ___ tirar la comida que sobra: hay mucha gente que pasa hambre.",
+   "options": [
+    "intolerable",
+    "inlógico",
+    "injusto que"
+   ],
+   "answers": [
+    "intolerable"
+   ],
+   "feedback": "Es + adjective + infinitive. Note: the opposite of lógico is ilógico (in- → i- before l).",
+   "contrast": "Es ilógico."
   }
  ]
 }

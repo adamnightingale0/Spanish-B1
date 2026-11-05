@@ -10,14 +10,15 @@
  "writingTask": "Cartel con los objetos que necesitas",
  "bookRef": {
   "page": 136,
-  "masEjercicios": 241,
+  "masEjercicios": 242,
   "masGramatica": 263
  },
  "grammarPoints": [
   "superlativo-isimo",
   "exclamativas",
   "relativas-preposicion",
-  "relativas-ind-subj"
+  "relativas-ind-subj",
+  "valorar-objetos"
  ],
  "items": [
   {
@@ -396,6 +397,145 @@
    ],
    "feedback": "Asking whether one exists → subjunctive.",
    "contrast": "Hay una tienda que vende muebles usados."
+  },
+  {
+   "id": "u10-valo-001",
+   "type": "choice",
+   "unit": 10,
+   "grammarPoint": "valorar-objetos",
+   "difficulty": 1,
+   "prompt": "¿Esta lámpara? ___ encuentro muy original.",
+   "options": [
+    "La",
+    "Lo",
+    "Le"
+   ],
+   "answers": [
+    "La"
+   ],
+   "feedback": "encontrar + OD pronoun that agrees with the object: la lámpara → la.",
+   "contrast": "Los zapatos los encuentro caros."
+  },
+  {
+   "id": "u10-valo-002",
+   "type": "gap",
+   "unit": 10,
+   "grammarPoint": "valorar-objetos",
+   "difficulty": 1,
+   "prompt": "Estas sillas las encuentro muy ___ (cómodo).",
+   "answers": [
+    "cómodas"
+   ],
+   "feedback": "The adjective agrees with the object: las sillas → cómodas.",
+   "contrast": "Este sofá lo encuentro cómodo."
+  },
+  {
+   "id": "u10-valo-003",
+   "type": "choice",
+   "unit": 10,
+   "grammarPoint": "valorar-objetos",
+   "difficulty": 2,
+   "prompt": "A mí estos pendientes me ___ un poco exagerados.",
+   "options": [
+    "parecen",
+    "parece",
+    "parezco"
+   ],
+   "answers": [
+    "parecen"
+   ],
+   "feedback": "parecer works like gustar: the object (los pendientes) is the subject.",
+   "contrast": "Me parece bonito el collar."
+  },
+  {
+   "id": "u10-valo-004",
+   "type": "choice",
+   "unit": 10,
+   "grammarPoint": "valorar-objetos",
+   "difficulty": 2,
+   "prompt": "El diseño no está mal, pero no me acaba de ___.",
+   "options": [
+    "convencer",
+    "convence",
+    "convencido"
+   ],
+   "answers": [
+    "convencer"
+   ],
+   "feedback": "acabar de + infinitive (negative) = not quite: no me acaba de convencer.",
+   "contrast": "No me convence."
+  },
+  {
+   "id": "u10-valo-005",
+   "type": "choice",
+   "unit": 10,
+   "grammarPoint": "valorar-objetos",
+   "difficulty": 2,
+   "prompt": "Es una mochila bonita, pero es ___ práctica: no tiene bolsillos.",
+   "options": [
+    "poco",
+    "un poco",
+    "mucho"
+   ],
+   "answers": [
+    "poco"
+   ],
+   "feedback": "poco reduces a positive quality (= not very practical).",
+   "contrast": "Es un poco cara (un poco with negative qualities)."
+  },
+  {
+   "id": "u10-valo-006",
+   "type": "choice",
+   "unit": 10,
+   "grammarPoint": "valorar-objetos",
+   "difficulty": 2,
+   "prompt": "El sofá es bonito, pero ___ caro para nosotros.",
+   "options": [
+    "un poco",
+    "poco",
+    "nada"
+   ],
+   "answers": [
+    "un poco"
+   ],
+   "feedback": "un poco + negative quality (caro).",
+   "contrast": "poco práctico"
+  },
+  {
+   "id": "u10-valo-007",
+   "type": "choice",
+   "unit": 10,
+   "grammarPoint": "valorar-objetos",
+   "difficulty": 3,
+   "prompt": "La verdad, el color es ___ llamativo para una oficina.",
+   "options": [
+    "demasiado",
+    "muy poco de",
+    "bastante de"
+   ],
+   "answers": [
+    "demasiado"
+   ],
+   "feedback": "demasiado / excesivamente = too.",
+   "contrast": "Es realmente llamativo."
+  },
+  {
+   "id": "u10-isimo-007",
+   "type": "choice",
+   "unit": 10,
+   "grammarPoint": "superlativo-isimo",
+   "difficulty": 1,
+   "prompt": "En lengua coloquial: «Es un aparato ___práctico».",
+   "options": [
+    "super",
+    "muy",
+    "-ísimo"
+   ],
+   "answers": [
+    "super"
+   ],
+   "feedback": "super- as a colloquial prefix: superpráctico.",
+   "contrast": "practiquísimo"
   }
  ]
 }

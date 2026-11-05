@@ -11,12 +11,13 @@
  "writingTask": "Representar una discusión",
  "bookRef": {
   "page": 122,
-  "masEjercicios": 234,
+  "masEjercicios": 235,
   "masGramatica": 263
  },
  "grammarPoints": [
   "me-fascina-que",
-  "verbos-sentimiento"
+  "verbos-sentimiento",
+  "desacuerdo-contraargumentar"
  ],
  "items": [
   {
@@ -204,6 +205,148 @@
    ],
    "feedback": "dar vergüenza que + subjunctive.",
    "contrast": "Le da vergüenza bailar."
+  },
+  {
+   "id": "u09-desac-001",
+   "type": "choice",
+   "unit": 9,
+   "grammarPoint": "desacuerdo-contraargumentar",
+   "difficulty": 1,
+   "prompt": "—Ayer no sacaste la basura. —¿___ no saqué la basura? ¡Claro que la saqué!",
+   "options": [
+    "Que",
+    "Qué",
+    "Cómo que"
+   ],
+   "answers": [
+    "Que"
+   ],
+   "feedback": "Echo question with que (no accent) repeats what the other person said.",
+   "contrast": "¿Qué? = rejection of what was said."
+  },
+  {
+   "id": "u09-desac-002",
+   "type": "choice",
+   "unit": 9,
+   "grammarPoint": "desacuerdo-contraargumentar",
+   "difficulty": 2,
+   "prompt": "—Tu hermano es un antipático. —Hombre, yo no ___ eso. Lo que pasa es que es tímido.",
+   "options": [
+    "diría",
+    "digo",
+    "dije"
+   ],
+   "answers": [
+    "diría"
+   ],
+   "feedback": "Yo no diría eso softens disagreement (condicional).",
+   "contrast": "¡Qué dices! (strong)."
+  },
+  {
+   "id": "u09-desac-003",
+   "type": "choice",
+   "unit": 9,
+   "grammarPoint": "desacuerdo-contraargumentar",
+   "difficulty": 2,
+   "prompt": "—No me llamas nunca. —¡(Pero) ___ te llamé ayer dos veces!",
+   "options": [
+    "si",
+    "sí",
+    "pues"
+   ],
+   "answers": [
+    "si"
+   ],
+   "feedback": "(pero) si… counter-argues with surprise. No accent on si.",
+   "contrast": "Pues yo te llamé ayer."
+  },
+  {
+   "id": "u09-desac-004",
+   "type": "choice",
+   "unit": 9,
+   "grammarPoint": "desacuerdo-contraargumentar",
+   "difficulty": 2,
+   "prompt": "—Este restaurante es carísimo. —___ a mí me parece bastante barato.",
+   "options": [
+    "Pues",
+    "Si",
+    "Que"
+   ],
+   "answers": [
+    "Pues"
+   ],
+   "feedback": "pues introduces a contrasting opinion.",
+   "contrast": "¡Pero si es barato!"
+  },
+  {
+   "id": "u09-desac-005",
+   "type": "choice",
+   "unit": 9,
+   "grammarPoint": "desacuerdo-contraargumentar",
+   "difficulty": 1,
+   "prompt": "—¿Has estado de vacaciones? Estás muy moreno. —¡Qué ___! He estado trabajando todo el mes.",
+   "options": [
+    "va",
+    "bien",
+    "pasa"
+   ],
+   "answers": [
+    "va"
+   ],
+   "feedback": "¡Qué va! denies emphatically.",
+   "contrast": "¡Qué dices! = rejection of an accusation."
+  },
+  {
+   "id": "u09-desac-006",
+   "type": "choice",
+   "unit": 9,
+   "grammarPoint": "desacuerdo-contraargumentar",
+   "difficulty": 2,
+   "prompt": "—El problema es que eres muy desordenado. —A mi modo de ver, ese no es el problema. ___ es que el piso es muy pequeño.",
+   "options": [
+    "Lo que pasa",
+    "Lo pasa",
+    "Que pasa"
+   ],
+   "answers": [
+    "Lo que pasa"
+   ],
+   "feedback": "Lo que pasa es que… softens and reframes.",
+   "contrast": "El problema es que…"
+  },
+  {
+   "id": "u09-fasc-007",
+   "type": "choice",
+   "unit": 9,
+   "grammarPoint": "me-fascina-que",
+   "difficulty": 2,
+   "prompt": "¿Qué frase es correcta?",
+   "options": [
+    "Me encanta este grupo.",
+    "Me encanta mucho este grupo.",
+    "Me encanto este grupo."
+   ],
+   "answers": [
+    "Me encanta este grupo."
+   ],
+   "feedback": "encantar, adorar, odiar already express intensity: no mucho.",
+   "contrast": "Me gusta mucho este grupo."
+  },
+  {
+   "id": "u09-sent-007",
+   "type": "transform",
+   "unit": 9,
+   "grammarPoint": "verbos-sentimiento",
+   "difficulty": 2,
+   "instruction": "Intensifica con «¡Qué…!».",
+   "prompt": "Me da mucha pena.",
+   "answers": [
+    "¡Qué pena me da!",
+    "Qué pena me da",
+    "¡Qué pena!"
+   ],
+   "feedback": "¡Qué + noun / adjective! intensifies a feeling.",
+   "contrast": "¡Qué rabia!"
   }
  ]
 }

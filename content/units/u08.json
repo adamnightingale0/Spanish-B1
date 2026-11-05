@@ -10,13 +10,14 @@
  "writingTask": "Contar una anécdota real o inventada",
  "bookRef": {
   "page": 108,
-  "masEjercicios": 227,
+  "masEjercicios": 228,
   "masGramatica": 263
  },
  "grammarPoints": [
   "conectores-causa-consecuencia",
   "pluscuamperfecto",
-  "past-combined"
+  "past-combined",
+  "recursos-anecdota"
  ],
  "items": [
   {
@@ -344,6 +345,132 @@
    ],
    "feedback": "o sea que = so (a conclusion drawn from what someone said).",
    "contrast": "No contesta, así que no viene."
+  },
+  {
+   "id": "u08-anec-001",
+   "type": "choice",
+   "unit": 8,
+   "grammarPoint": "recursos-anecdota",
+   "difficulty": 1,
+   "prompt": "___ que el año pasado estábamos en Lisboa y perdimos el pasaporte.",
+   "options": [
+    "Resulta",
+    "Total",
+    "Al final"
+   ],
+   "answers": [
+    "Resulta"
+   ],
+   "feedback": "resulta que… opens an anecdote.",
+   "contrast": "Total, que no pudimos volver."
+  },
+  {
+   "id": "u08-anec-002",
+   "type": "choice",
+   "unit": 8,
+   "grammarPoint": "recursos-anecdota",
+   "difficulty": 1,
+   "prompt": "Llamamos a la embajada, esperamos horas… ___, que volvimos dos días tarde.",
+   "options": [
+    "Total",
+    "Resulta",
+    "Una vez"
+   ],
+   "answers": [
+    "Total"
+   ],
+   "feedback": "total, que… sums up the outcome.",
+   "contrast": "Resulta que… (start)."
+  },
+  {
+   "id": "u08-anec-003",
+   "type": "choice",
+   "unit": 8,
+   "grammarPoint": "recursos-anecdota",
+   "difficulty": 2,
+   "prompt": "Llegamos a Granada el viernes y ___ subimos a la Alhambra.",
+   "options": [
+    "al día siguiente",
+    "mañana",
+    "el día que viene"
+   ],
+   "answers": [
+    "al día siguiente"
+   ],
+   "feedback": "Referring back inside a past story: al día siguiente (not mañana).",
+   "contrast": "Mañana subimos a la Alhambra (from today)."
+  },
+  {
+   "id": "u08-anec-004",
+   "type": "choice",
+   "unit": 8,
+   "grammarPoint": "recursos-anecdota",
+   "difficulty": 2,
+   "prompt": "Esa semana llovió todos los días, pero ___ había hecho un sol increíble.",
+   "options": [
+    "la semana anterior",
+    "la semana pasada",
+    "la próxima semana"
+   ],
+   "answers": [
+    "la semana anterior"
+   ],
+   "feedback": "anterior = before that moment in the story.",
+   "contrast": "La semana pasada = the week before this one."
+  },
+  {
+   "id": "u08-anec-005",
+   "type": "choice",
+   "unit": 8,
+   "grammarPoint": "recursos-anecdota",
+   "difficulty": 1,
+   "prompt": "—Y entonces me di cuenta de que me había dejado las llaves dentro. —¡___!",
+   "options": [
+    "No me digas",
+    "Qué bien",
+    "Menos mal"
+   ],
+   "answers": [
+    "No me digas"
+   ],
+   "feedback": "¡No me digas! shows surprise.",
+   "contrast": "¡Menos mal! = relief."
+  },
+  {
+   "id": "u08-anec-006",
+   "type": "choice",
+   "unit": 8,
+   "grammarPoint": "recursos-anecdota",
+   "difficulty": 2,
+   "prompt": "—Al final encontramos un hotel con habitaciones libres. —¡___!",
+   "options": [
+    "Menos mal",
+    "Qué rabia",
+    "Qué mala suerte"
+   ],
+   "answers": [
+    "Menos mal"
+   ],
+   "feedback": "Good outcome after a problem → ¡Menos mal! (relief).",
+   "contrast": "¡Qué rabia! = annoyance."
+  },
+  {
+   "id": "u08-anec-007",
+   "type": "choice",
+   "unit": 8,
+   "grammarPoint": "recursos-anecdota",
+   "difficulty": 2,
+   "prompt": "—Perdimos el vuelo por cinco minutos. —¡Qué ___!",
+   "options": [
+    "rabia",
+    "alegría",
+    "suerte"
+   ],
+   "answers": [
+    "rabia"
+   ],
+   "feedback": "¡Qué rabia! = how annoying.",
+   "contrast": "¡Qué suerte! = how lucky."
   }
  ]
 }

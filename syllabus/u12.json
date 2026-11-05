@@ -1,0 +1,60 @@
+{
+ "id": "u12",
+ "unit": 12,
+ "title": "Misterios y enigmas",
+ "grammarPoints": [
+  "hipotesis-ind-subj",
+  "futuro-compuesto",
+  "creer-creerse",
+  "pensar-recordar"
+ ],
+ "functions": [
+  "hacer hipótesis y conjeturas",
+  "relatar sucesos misteriosos",
+  "expresar grados de seguridad"
+ ],
+ "themes": [
+  "sucesos misteriosos y paranormales",
+  "psicología y ciencia"
+ ],
+ "writingTaskType": "blog sobre misterios de la ciencia",
+ "spelling": "¿be o uve?",
+ "targetWords": [
+  "la teoría",
+  "sostener",
+  "afirmar",
+  "tener una premonición",
+  "la telepatía",
+  "una pesadilla",
+  "el presentimiento",
+  "ver un fantasma",
+  "un ovni",
+  "oír voces",
+  "viajar en el tiempo",
+  "leer el pensamiento",
+  "notar una presencia",
+  "misterioso/a",
+  "espectacular",
+  "asombroso/a",
+  "inexplicable",
+  "impresionante",
+  "creer en",
+  "creerse algo",
+  "pensar en / de",
+  "acordarse de",
+  "recordar a",
+  "estar convencido/a de"
+ ],
+ "bookRef": {
+  "page": 164,
+  "lexico": 172,
+  "gramatica": 173,
+  "masGramatica": [
+   283,
+   284,
+   297,
+   301
+  ],
+  "masEjercicios": 256
+ }
+}
