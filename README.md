@@ -26,17 +26,17 @@ An offline-first iPhone PWA for the University of Seville Instituto de Idiomas B
 
 ## What's in Phase 3
 
-- Reading trainer in the three Seville formats: `read-mcq` (article ~600 words, 7 questions), `read-match` (8 short texts, 10 profiles, 2 distractors), `read-insert` (article ~400 words, 7 gaps, 10 fragments). 3 tasks of each.
+- Reading trainer in the three Seville formats: `read-mcq` (article ~600 words, 7 questions), `read-match` (8 short texts, 10 profiles, 2 distractors), `read-insert` (article ~400 words, 7 gaps, 10 fragments). 5 tasks of each (the spec's full target of 15).
 - Each task can be timed (20 min); full reading paper (one task of each format, 22 questions, 60 min, free to move between tasks, auto-submit when time runs out).
 - After correcting, the evidence sentence is highlighted in yellow; for `read-insert`, the cohesion clue (connector, pronoun, repeated word) in green, with a one-line explanation.
-- Listening trainer with text-to-speech in the three formats: `listen-reply` (6 monologues), `listen-speakers` (3 friends, 7 statements, A/B/C/none), `listen-interview` (radio interview, 7 questions). 2 of each.
+- Listening trainer with text-to-speech in the three formats: `listen-reply` (6 monologues), `listen-speakers` (3 friends, 7 statements, A/B/C/none), `listen-interview` (radio interview, 7 questions). 4 of each (the full target of 12).
 - Exam conditions: 30–45 s reading time, each recording played twice, 30 s to finish, then answers lock and the transcript is revealed with the evidence highlighted. Different voice or pitch per speaker; 0.8× / 1× speed; labelled "practice only".
 - Full listening paper (the three tasks in a row, ~30 min). Every result is stored per skill; Progress shows reading and listening estimates (last 5 timed tasks per format) against the 50% and 60% lines; Home suggests a "lectura / audición del día".
 - Content source in `scripts/skills-src/`, built with `python3 -I scripts/build-skills.py`; `validate-content` checks that every evidence sentence and clue really appears in its text.
 
 ## What's in Phase 4
 
-- Writing trainer in the Seville format: 12 original prompts in 4 exam sets (Task 1 compulsory + choose 1 of 2 for Task 2), rotating genres (testimonial, informal email with advice, magazine story, formal complaint, opinion article, review, forum post, formal request, blog), most combining past narration with advice or opinion.
+- Writing trainer in the Seville format: 24 original prompts, the 12 unit tasks rewritten in exam format plus 12 prompts in 4 exam sets (Task 1 compulsory + choose 1 of 2 for Task 2), rotating genres (testimonial, informal email with advice, magazine story, formal complaint, opinion article, review, forum post, formal request, blog), most combining past narration with advice or opinion.
 - Live word count with a warning outside 120–150; content-point checklist; "structures to show off" ticked automatically by pattern matching; drafts autosaved (at most 400 ms behind, and on leaving the app).
 - After writing: model answer, useful phrases, self-assessment on the four official criteria (0–3), adjusted down when a content point is missed or the length is far off; "Export for marking" copies the prompt, the text and the rubric for Claude or a teacher.
 - Full timed written mock with the `us-b1` profile: reading 60' → listening 30' → 20' break → writing 70', then self-assessment and the pass rules (≥ 50 % overall and ≥ 50 % in each skill, otherwise SUSPENSO, 3). Resumes where it was if the app is closed. Results and history in the Exam tab.

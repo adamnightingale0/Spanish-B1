@@ -1,0 +1,100 @@
+{
+ "id": "read-match-05",
+ "unit": 10,
+ "taskFormat": "read-match",
+ "topic": "vivienda",
+ "title": "Anuncios de pisos en alquiler",
+ "instruction": "Lee ocho anuncios de pisos y los perfiles de diez personas. Elige el piso más adecuado para cada persona. Hay dos personas que no tienen piso.",
+ "profiles": [
+  {
+   "id": "A",
+   "text": "Carmen trabaja desde casa y necesita una habitación libre para hacer de despacho."
+  },
+  {
+   "id": "B",
+   "text": "Diego es estudiante y solo puede pagar 350 euros al mes."
+  },
+  {
+   "id": "C",
+   "text": "Elena tiene un perro grande y quiere un piso con terraza o patio."
+  },
+  {
+   "id": "D",
+   "text": "Fran va en silla de ruedas y necesita un edificio con ascensor y sin escalones."
+  },
+  {
+   "id": "E",
+   "text": "Rocío y Pablo tienen tres hijos y necesitan al menos cuatro dormitorios."
+  },
+  {
+   "id": "F",
+   "text": "Miguel solo va a estar en Sevilla tres meses por trabajo."
+  },
+  {
+   "id": "G",
+   "text": "Natalia quiere vivir en el centro y moverse siempre a pie."
+  },
+  {
+   "id": "H",
+   "text": "Óscar quiere compartir piso para conocer gente nueva."
+  },
+  {
+   "id": "I",
+   "text": "Julia tiene coche y necesita plaza de garaje."
+  },
+  {
+   "id": "J",
+   "text": "Alberto quiere vivir en el campo, lejos del ruido de la ciudad."
+  }
+ ],
+ "texts": [
+  {
+   "title": "Ático en Nervión",
+   "text": "Dos dormitorios y una gran terraza de 30 m². Se admiten mascotas.",
+   "answer": "C",
+   "evidence": "Se admiten mascotas."
+  },
+  {
+   "title": "Habitación en piso compartido",
+   "text": "Habitación en piso con otros tres jóvenes muy simpáticos. Buen ambiente, cenas los domingos. 400 € con gastos.",
+   "answer": "H",
+   "evidence": "Buen ambiente, cenas los domingos."
+  },
+  {
+   "title": "Estudio en la Alameda",
+   "text": "En pleno centro, a cinco minutos andando de la catedral y de todas las tiendas. Ideal para una persona.",
+   "answer": "G",
+   "evidence": "a cinco minutos andando de la catedral"
+  },
+  {
+   "title": "Casa en Mairena",
+   "text": "Chalé con cinco dormitorios, jardín y piscina, cerca de colegios. Perfecto para familias numerosas.",
+   "answer": "E",
+   "evidence": "Perfecto para familias numerosas."
+  },
+  {
+   "title": "Piso adaptado en Los Remedios",
+   "text": "Edificio con rampa en la entrada, ascensor amplio y baño adaptado.",
+   "answer": "D",
+   "evidence": "Edificio con rampa en la entrada"
+  },
+  {
+   "title": "Apartamento por temporadas",
+   "text": "Alquiler mínimo de un mes y máximo de seis. Totalmente equipado, con wifi.",
+   "answer": "F",
+   "evidence": "Alquiler mínimo de un mes y máximo de seis."
+  },
+  {
+   "title": "Tres dormitorios en Triana",
+   "text": "Salón luminoso, dos dormitorios y uno más pequeño, perfecto como oficina. Fibra óptica de alta velocidad.",
+   "answer": "A",
+   "evidence": "perfecto como oficina"
+  },
+  {
+   "title": "Piso con garaje en Sevilla Este",
+   "text": "Tres dormitorios, dos baños y plaza de aparcamiento incluida en el precio.",
+   "answer": "I",
+   "evidence": "plaza de aparcamiento incluida en el precio"
+  }
+ ]
+}

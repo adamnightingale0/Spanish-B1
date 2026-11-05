@@ -34,7 +34,7 @@
   },
   {
    "label": "Que + subjuntivo (te aconsejo que vayas, espero que…)",
-   "pattern": "(?:^|[^\\p{L}])(?:que|ojalá|cuando|para que) (?:te |os |le |no |me |se |lo |la )?(?:sea|seas|sean|vaya|vayas|vayáis|tenga|tengas|haga|hagas|pueda|puedas|esté|estés|\\p{L}{2,}(?:es|éis|en|as|áis|an))(?![\\p{L}])",
+   "pattern": "(?:^|[^\\p{L}])(?:(?:que|ojalá|cuando|para que) (?:te |os |le |no |me |se |lo |la )?(?:sea|seas|sean|vaya|vayas|vayáis|tenga|tengas|haga|hagas|pueda|puedas|esté|estés|\\p{L}{2,}(?:es|éis|en|as|áis|an))(?![\\p{L}])|(?:exij[oa]|exigimos|pedimos|quiero|queremos|espero|esperamos|es necesario|es importante|es injusto|me parece fatal) que)",
    "min": 1,
    "distinct": false
   }

@@ -1,0 +1,75 @@
+{
+ "id": "listen-reply-03",
+ "unit": 0,
+ "taskFormat": "listen-reply",
+ "title": "Mensajes y comentarios (3)",
+ "voiceRate": 1,
+ "items": [
+  {
+   "speaker": "F",
+   "script": "¡Por fin he terminado la tesis! Después de cuatro años, mañana la entrego en la universidad.",
+   "options": [
+    "¡Que te mejores pronto!",
+    "No pasa nada, otra vez será.",
+    "¡Qué bien! Hay que celebrarlo."
+   ],
+   "answer": 2,
+   "why": "Great news after a long effort → celebrate it."
+  },
+  {
+   "speaker": "M",
+   "script": "Perdona, ¿sabes si esta línea de autobús va a la estación de Santa Justa? Es que no veo el mapa por ningún lado.",
+   "options": [
+    "Sí, pero tienes que bajarte en la tercera parada.",
+    "No, gracias, prefiero ir andando.",
+    "Sí, el autobús es muy nuevo."
+   ],
+   "answer": 0,
+   "why": "He asks for directions → give useful information."
+  },
+  {
+   "speaker": "F",
+   "script": "Me han robado la cartera en el metro. Tenía el carné de identidad, las tarjetas y un poco de dinero.",
+   "options": [
+    "Yo también tengo una cartera nueva.",
+    "¡Qué rabia! ¿Ya has llamado al banco para cancelar las tarjetas?",
+    "¡Qué suerte has tenido!"
+   ],
+   "answer": 1,
+   "why": "Bad news → show sympathy and help with a practical question."
+  },
+  {
+   "speaker": "M",
+   "script": "Estoy pensando en apuntarme al gimnasio, pero no sé si al de la esquina o al del centro comercial. ¿Tú qué harías?",
+   "options": [
+    "Sí, el centro comercial abre a las diez.",
+    "No, no hago deporte desde ayer.",
+    "Yo que tú elegiría el de la esquina, así no tienes excusa para no ir."
+   ],
+   "answer": 2,
+   "why": "He asks for advice → give a recommendation (yo que tú + condicional)."
+  },
+  {
+   "speaker": "F",
+   "script": "Siento no haber ido a tu cena el sábado. Mi hijo se puso enfermo y no pude salir de casa.",
+   "options": [
+    "No te preocupes, lo importante es que tu hijo esté bien.",
+    "¡Que aproveche!",
+    "Sí, la cena estuvo muy buena, gracias por venir."
+   ],
+   "answer": 0,
+   "why": "An apology with a good reason → accept it and show concern."
+  },
+  {
+   "speaker": "M",
+   "script": "El viernes que viene me caso. Bueno, ya lo sabes, pero quería recordarte que la ceremonia empieza a las doce en punto.",
+   "options": [
+    "No, no me gustan las bodas.",
+    "Gracias por recordármelo, allí estaré.",
+    "¡Enhorabuena por el nuevo trabajo!"
+   ],
+   "answer": 1,
+   "why": "A reminder → thank him and confirm."
+  }
+ ]
+}

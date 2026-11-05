@@ -1,0 +1,54 @@
+{
+ "id": "write-u09",
+ "unit": 9,
+ "examTask": 2,
+ "genre": "entrada de foro",
+ "register": "informal",
+ "title": "Mis manías y las de los demás",
+ "prompt": "En un foro sobre convivencia, los usuarios escriben sobre las cosas que más les molestan de vivir con otras personas. Escribe tu mensaje.",
+ "contentPoints": [
+  "Con quién vives o has vivido.",
+  "Dos cosas que te molestan de los demás.",
+  "Una manía tuya que molesta a los demás.",
+  "Cómo soléis solucionar los conflictos."
+ ],
+ "targets": [
+  {
+   "label": "Verbos de sentimiento (me molesta que, no soporto…)",
+   "pattern": "(?:^|[^\\p{L}])(?:me (?:molesta|molestan|encanta|encantan|pone|ponen|da (?:pena|rabia|vergüenza)|fastidia|preocupa)|no soporto|no aguanto|odio)(?![\\p{L}])",
+   "min": 2,
+   "distinct": false
+  },
+  {
+   "label": "Que + subjuntivo (te aconsejo que vayas, espero que…)",
+   "pattern": "(?:^|[^\\p{L}])(?:(?:que|ojalá|cuando|para que) (?:te |os |le |no |me |se |lo |la )?(?:sea|seas|sean|vaya|vayas|vayáis|tenga|tengas|haga|hagas|pueda|puedas|esté|estés|\\p{L}{2,}(?:es|éis|en|as|áis|an))(?![\\p{L}])|(?:exij[oa]|exigimos|pedimos|quiero|queremos|espero|esperamos|es necesario|es importante|es injusto|me parece fatal) que)",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Pretérito perfecto",
+   "pattern": "(?:^|[^\\p{L}])(?:he|has|ha|hemos|habéis|han) \\p{L}+(?:ado|ido|to|cho|so)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Tres conectores distintos (además, sin embargo, por eso…)",
+   "pattern": "(?:^|[^\\p{L}])(?:además|sin embargo|por eso|así que|aunque|en primer lugar|por último|por un lado|por otro lado|en cambio|de hecho|al final|de repente|entonces|porque|como|también|por lo tanto|ya que)(?![\\p{L}])",
+   "min": 3,
+   "distinct": true
+  }
+ ],
+ "usefulPhrases": [
+  "Me molesta que + subjuntivo",
+  "No soporto…",
+  "Me pone nervioso que…",
+  "Lo que más me fastidia es…",
+  "Yo, en cambio, tengo la manía de…"
+ ],
+ "modelAnswer": "Hola a todos. He compartido piso con muchas personas y ahora vivo con mi pareja, así que tengo mucha experiencia en este tema. Lo que más me molesta es que la gente deje los platos sucios en el fregadero durante días. Tampoco soporto que alguien se coma mi comida sin preguntar: me pone de muy mal humor. Pero tengo que reconocer que yo también tengo mis manías. Por ejemplo, me encanta que todo esté ordenado y, si alguien cambia algo de sitio, lo vuelvo a poner donde estaba. A mi pareja eso le pone nerviosísima. Además, canto en la ducha todas las mañanas, y no muy bien. Para evitar discusiones, solemos hablar las cosas tranquilamente en cuanto aparece un problema. Creo que es la mejor solución: hablar antes de enfadarse.",
+ "taskFormat": "write-choice",
+ "wordRange": [
+  120,
+  150
+ ]
+}

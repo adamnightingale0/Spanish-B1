@@ -1,0 +1,54 @@
+{
+ "id": "write-u03",
+ "unit": 3,
+ "examTask": 2,
+ "genre": "artículo de opinión",
+ "register": "neutro",
+ "title": "Mi ciudad en 2050",
+ "prompt": "Un periódico local pregunta a sus lectores: «¿Cómo será nuestra ciudad dentro de 25 años?». Escribe un artículo con tus predicciones y advertencias.",
+ "contentPoints": [
+  "Cómo será el transporte.",
+  "Cómo cambiarán el trabajo y la vida diaria.",
+  "Un problema que puede empeorar.",
+  "Qué deberíamos hacer desde ahora."
+ ],
+ "targets": [
+  {
+   "label": "Futuro simple (habrá, viviremos…)",
+   "pattern": "(?:^|[^\\p{L}])\\p{L}{2,}(?:ré|rás|rá|remos|réis|rán)(?![\\p{L}])",
+   "min": 2,
+   "distinct": false
+  },
+  {
+   "label": "Si + presente, futuro / imperativo",
+   "pattern": "(?:^|[^\\p{L}])si \\p{L}+ ",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Expresar opinión (creo que, en mi opinión…)",
+   "pattern": "(?:^|[^\\p{L}])(?:creo que|pienso que|en mi opinión|me parece que|desde mi punto de vista|para mí|no creo que)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Tres conectores distintos (además, sin embargo, por eso…)",
+   "pattern": "(?:^|[^\\p{L}])(?:además|sin embargo|por eso|así que|aunque|en primer lugar|por último|por un lado|por otro lado|en cambio|de hecho|al final|de repente|entonces|porque|como|también|por lo tanto|ya que)(?![\\p{L}])",
+   "min": 3,
+   "distinct": true
+  }
+ ],
+ "usefulPhrases": [
+  "Dentro de veinticinco años…",
+  "Probablemente…",
+  "Cada vez más / menos…",
+  "Si no hacemos nada, …",
+  "Habría que…"
+ ],
+ "modelAnswer": "Dentro de veinticinco años, Sevilla será una ciudad muy diferente. Creo que el centro estará cerrado a los coches y que la mayoría de la gente se moverá en bicicleta, en metro o en coches eléctricos compartidos. Además, cada vez más personas trabajarán desde casa, así que habrá menos tráfico por la mañana. Sin embargo, me preocupa mucho el calor. Si las temperaturas siguen subiendo, en verano será casi imposible salir a la calle durante el día, y probablemente tendremos problemas de agua. Por eso, pienso que tenemos que actuar ya. Habría que plantar muchos más árboles, poner toldos en las calles y construir edificios que necesiten menos aire acondicionado. Si empezamos ahora, en 2050 Sevilla seguirá siendo una ciudad maravillosa para vivir. Si no hacemos nada, tendremos que irnos.",
+ "taskFormat": "write-choice",
+ "wordRange": [
+  120,
+  150
+ ]
+}

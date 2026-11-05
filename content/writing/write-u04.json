@@ -1,0 +1,55 @@
+{
+ "id": "write-u04",
+ "unit": 4,
+ "examTask": 2,
+ "genre": "reseña de una película",
+ "register": "neutro",
+ "title": "La sinopsis de una película",
+ "prompt": "Una web de cine pide a sus lectores que escriban sobre una película que les ha gustado mucho. Escribe tu texto.",
+ "contentPoints": [
+  "De qué tipo de película se trata y quién sale en ella.",
+  "Resume el argumento (sin contar el final).",
+  "Qué es lo que más te gustó.",
+  "A quién se la recomiendas."
+ ],
+ "targets": [
+  {
+   "label": "Pretérito perfecto",
+   "pattern": "(?:^|[^\\p{L}])(?:he|has|ha|hemos|habéis|han) \\p{L}+(?:ado|ido|to|cho|so)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Conectores de relato (de repente, al final, entonces…)",
+   "pattern": "(?:^|[^\\p{L}])(?:de repente|de pronto|al final|al principio|entonces|un día|al día siguiente|en ese momento|por fin)(?![\\p{L}])",
+   "min": 2,
+   "distinct": true
+  },
+  {
+   "label": "Expresar opinión (creo que, en mi opinión…)",
+   "pattern": "(?:^|[^\\p{L}])(?:creo que|pienso que|en mi opinión|me parece que|desde mi punto de vista|para mí|no creo que)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Tres conectores distintos (además, sin embargo, por eso…)",
+   "pattern": "(?:^|[^\\p{L}])(?:además|sin embargo|por eso|así que|aunque|en primer lugar|por último|por un lado|por otro lado|en cambio|de hecho|al final|de repente|entonces|porque|como|también|por lo tanto|ya que)(?![\\p{L}])",
+   "min": 3,
+   "distinct": true
+  }
+ ],
+ "usefulPhrases": [
+  "Es una película de…",
+  "Trata de / Va de…",
+  "Está ambientada en…",
+  "El / La protagonista es…",
+  "Lo que más me gustó fue…",
+  "Os la recomiendo si…"
+ ],
+ "modelAnswer": "La última película que me ha encantado es «Vivir dos veces», una comedia dramática española. Está ambientada en Valencia y la protagonizan Oscar Martínez y Inma Cuesta. Trata de Emilio, un profesor jubilado que empieza a perder la memoria y quiere encontrar a su amor de juventud antes de olvidarlo todo. Entonces su hija y su nieta deciden ayudarlo y los tres empiezan un viaje lleno de sorpresas. Al principio parece una historia triste, pero creo que en realidad es muy divertida y tierna. Lo que más me gustó fue la relación entre el abuelo y la nieta: tienen diálogos muy graciosos y, a la vez, emocionantes. Además, los actores son buenísimos. Os la recomiendo si os gustan las historias familiares. Eso sí, llevad pañuelos, porque al final es imposible no llorar.",
+ "taskFormat": "write-choice",
+ "wordRange": [
+  120,
+  150
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "id": "listen-interview-03",
+ "unit": 3,
+ "taskFormat": "listen-interview",
+ "title": "Entrevista: una ingeniera que diseña robots",
+ "voiceRate": 1,
+ "context": "Vas a escuchar una entrevista de radio con Nuria Campos, ingeniera que diseña robots para ayudar a personas mayores.",
+ "script": [
+  {
+   "speaker": "Entrevistador",
+   "line": "Nuria, buenos días. ¿Cuándo empezó su interés por los robots?"
+  },
+  {
+   "speaker": "Nuria",
+   "line": "Buenos días. Pues desde muy pequeña. Con ocho años desmonté la radio de mi abuelo para ver qué había dentro. No supe volver a montarla, y mi abuelo se enfadó muchísimo."
+  },
+  {
+   "speaker": "Entrevistador",
+   "line": "¿Siempre tuvo claro que quería ser ingeniera?"
+  },
+  {
+   "speaker": "Nuria",
+   "line": "No, la verdad es que no. En el instituto me gustaban mucho la biología y la música. Elegí ingeniería casi por casualidad, porque una profesora me animó a presentarme a un concurso de robótica."
+  },
+  {
+   "speaker": "Entrevistador",
+   "line": "¿Y qué hacen exactamente los robots que diseña su empresa?"
+  },
+  {
+   "speaker": "Nuria",
+   "line": "Ayudan a personas mayores que viven solas. Les recuerdan cuándo tienen que tomar las medicinas, avisan a la familia si se caen y pueden hacer videollamadas con solo decir un nombre."
+  },
+  {
+   "speaker": "Entrevistador",
+   "line": "Hay gente que piensa que los robots pueden aumentar la soledad de los mayores. ¿Qué opina?"
+  },
+  {
+   "speaker": "Nuria",
+   "line": "Entiendo esa preocupación, pero nuestros robots no sustituyen a las personas. Al contrario, su objetivo es que los mayores estén más conectados con su familia y con sus amigos."
+  },
+  {
+   "speaker": "Entrevistador",
+   "line": "¿Cuál ha sido el momento más emocionante de su carrera?"
+  },
+  {
+   "speaker": "Nuria",
+   "line": "Una señora de noventa años de un pueblo de Jaén nos escribió una carta. Gracias al robot, había podido ver por vídeo a su nieta recién nacida, que vive en Canadá. La tengo colgada en mi oficina."
+  },
+  {
+   "speaker": "Entrevistador",
+   "line": "¿Qué le diría a una chica joven que duda si estudiar una carrera técnica?"
+  },
+  {
+   "speaker": "Nuria",
+   "line": "Que no tenga miedo. Todavía somos pocas mujeres en ingeniería, pero eso está cambiando. Y que no piense que tiene que ser un genio de las matemáticas: lo más importante es la curiosidad."
+  }
+ ],
+ "questions": [
+  {
+   "q": "De pequeña, Nuria…",
+   "options": [
+    "rompió la radio de su abuelo por curiosidad.",
+    "construyó su primer robot.",
+    "arregló la radio de su abuelo."
+   ],
+   "answer": 0,
+   "evidence": "No supe volver a montarla"
+  },
+  {
+   "q": "¿Por qué eligió estudiar ingeniería?",
+   "options": [
+    "Porque siempre lo había tenido claro.",
+    "Porque una profesora la animó a participar en un concurso.",
+    "Porque no le gustaban la biología ni la música."
+   ],
+   "answer": 1,
+   "evidence": "una profesora me animó a presentarme a un concurso de robótica"
+  },
+  {
+   "q": "Los robots de su empresa…",
+   "options": [
+    "sustituyen a los médicos.",
+    "hacen la limpieza de la casa.",
+    "ayudan a personas mayores que viven solas."
+   ],
+   "answer": 2,
+   "evidence": "Ayudan a personas mayores que viven solas."
+  },
+  {
+   "q": "¿Qué hacen los robots si una persona se cae?",
+   "options": [
+    "Llaman a la familia.",
+    "La ayudan a levantarse.",
+    "Llaman a una ambulancia."
+   ],
+   "answer": 0,
+   "evidence": "avisan a la familia si se caen"
+  },
+  {
+   "q": "Según Nuria, el objetivo de los robots es…",
+   "options": [
+    "que los mayores necesiten menos a su familia.",
+    "que los mayores estén más conectados con los demás.",
+    "reducir los gastos de las residencias."
+   ],
+   "answer": 1,
+   "evidence": "su objetivo es que los mayores estén más conectados con su familia y con sus amigos"
+  },
+  {
+   "q": "La carta de la señora de Jaén…",
+   "options": [
+    "pedía un robot para su nieta.",
+    "era una queja sobre el robot.",
+    "contaba que había visto a su nieta gracias al robot."
+   ],
+   "answer": 2,
+   "evidence": "había podido ver por vídeo a su nieta recién nacida"
+  },
+  {
+   "q": "Para estudiar una carrera técnica, según Nuria, lo más importante es…",
+   "options": [
+    "la curiosidad.",
+    "estudiar en el extranjero.",
+    "ser muy bueno en matemáticas."
+   ],
+   "answer": 0,
+   "evidence": "lo más importante es la curiosidad"
+  }
+ ]
+}

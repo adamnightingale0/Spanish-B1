@@ -277,9 +277,30 @@ export function WritingList() {
           <span>propuestas</span>
         </div>
       </div>
+      <h2>Por unidad</h2>
+      <p class="tiny muted">La tarea final de cada unidad del libro, en formato de examen (120–150 palabras).</p>
+      {writingTasks
+        .filter((t) => t.set === undefined)
+        .sort((a, b) => a.unit - b.unit)
+        .map((t) => {
+          const l = last(t.id);
+          return (
+            <div class="card tap row spread" onClick={() => navigate(`write/${t.id}`)}>
+              <div>
+                <b>
+                  U{t.unit} · {t.title}
+                </b>
+                <div class="tiny muted">{t.genre}</div>
+              </div>
+              <span class="pill">{l ? `${l.correct}/${l.total}` : 'nueva'}</span>
+            </div>
+          );
+        })}
+      <h2>Modelos de examen</h2>
+      <p class="tiny muted">Cada modelo tiene una Tarea 1 obligatoria y dos propuestas para la Tarea 2, como en el examen. Los simulacros usan estos modelos.</p>
       {writingSets.map((s) => (
         <>
-          <h2>Modelo {s.set}</h2>
+          <h3>Modelo {s.set}</h3>
           {[s.t1, ...s.t2].map((t) => {
             const l = last(t.id);
             return (

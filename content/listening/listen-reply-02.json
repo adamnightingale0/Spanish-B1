@@ -9,22 +9,22 @@
    "speaker": "M",
    "script": "Hola, soy Pablo, tu vecino del tercero. Mañana vienen a arreglar las tuberías y tendremos que cortar el agua por la mañana. Lo siento mucho.",
    "options": [
+    "Sí, vivo en el tercero.",
     "No pasa nada, gracias por avisar.",
-    "¡Qué bien! Me encanta el agua.",
-    "Sí, vivo en el tercero."
+    "¡Qué bien! Me encanta el agua."
    ],
-   "answer": 0,
+   "answer": 1,
    "why": "A neighbour apologises in advance → thank him for warning you."
   },
   {
    "speaker": "F",
    "script": "He perdido el autobús y el siguiente tarda cuarenta minutos. Creo que voy a llegar tarde a la reunión.",
    "options": [
-    "No te preocupes, empezamos sin ti y luego te lo cuento.",
     "¡Qué suerte has tenido!",
-    "El autobús es muy cómodo."
+    "El autobús es muy cómodo.",
+    "No te preocupes, empezamos sin ti y luego te lo cuento."
    ],
-   "answer": 0,
+   "answer": 2,
    "why": "She'll be late → reassure and offer a solution."
   },
   {
@@ -42,22 +42,22 @@
    "speaker": "F",
    "script": "Ayer fui a ver la película que me recomendaste y, la verdad, me pareció un rollo. Me quedé dormida a la mitad.",
    "options": [
+    "Sí, mañana vamos al cine.",
     "¿En serio? Pues a mí me encantó.",
-    "¡Que duermas bien!",
-    "Sí, mañana vamos al cine."
+    "¡Que duermas bien!"
    ],
-   "answer": 0,
+   "answer": 1,
    "why": "She didn't like it → react with surprise and give your view."
   },
   {
    "speaker": "M",
    "script": "Lo siento muchísimo, pero se me ha caído tu libro en la piscina. Te compro otro, ¿vale?",
    "options": [
-    "Vale, no te preocupes, son cosas que pasan.",
     "¡Enhorabuena por la piscina!",
-    "No, no sé nadar."
+    "No, no sé nadar.",
+    "Vale, no te preocupes, son cosas que pasan."
    ],
-   "answer": 0,
+   "answer": 2,
    "why": "He apologises → accept the apology."
   },
   {

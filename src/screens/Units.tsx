@@ -59,10 +59,12 @@ export function UnitDetail({ unit }: { unit: number }) {
           Drill ({unitItems.length})
         </button>
         <button class="grow" onClick={() => navigate(`vocab/${unit}`)}>Vocabulario</button>
-        <button class="grow" disabled title="Fase 4">Escribir</button>
+        <button class="grow" onClick={() => navigate(`write/write-u${String(unit).padStart(2, '0')}`)} disabled={unit === 0}>
+          Escribir
+        </button>
         <button class="grow" disabled title="Fase 5">Hablar</button>
       </div>
-      <p class="tiny muted">Escritura y expresión oral llegan en las fases 4 y 5.</p>
+      <p class="tiny muted">La expresión oral llega en la fase 5.</p>
 
       {u.grammarPoints.map((id) => {
         const g = gpById.get(id)!;

@@ -1,0 +1,54 @@
+{
+ "id": "write-u05",
+ "unit": 5,
+ "examTask": 2,
+ "genre": "texto publicitario",
+ "register": "informal",
+ "title": "Una campaña para tu escuela",
+ "prompt": "Tu escuela de español quiere atraer a nuevos estudiantes y te pide un texto para su campaña en redes sociales. Escribe el texto.",
+ "contentPoints": [
+  "Un eslogan.",
+  "Qué ofrece la escuela.",
+  "Tu experiencia como estudiante.",
+  "Una invitación a apuntarse, con instrucciones claras."
+ ],
+ "targets": [
+  {
+   "label": "Imperativo (descubre, no te pierdas, venid…)",
+   "pattern": "(?:^|[^\\p{L}])(?:ven|venid|haz|pon|sal|di|descubre|prueba|pruébalo|compra|elige|disfruta|aprovecha|visita|no te pierdas|no esperes|no lo dudes|ve|llama|apúntate|reserva|\\p{L}{3,}ad)(?![\\p{L}])",
+   "min": 2,
+   "distinct": false
+  },
+  {
+   "label": "Pretérito perfecto",
+   "pattern": "(?:^|[^\\p{L}])(?:he|has|ha|hemos|habéis|han) \\p{L}+(?:ado|ido|to|cho|so)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Superlativo en -ísimo",
+   "pattern": "\\p{L}+ísim[oa]s?(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Tres conectores distintos (además, sin embargo, por eso…)",
+   "pattern": "(?:^|[^\\p{L}])(?:además|sin embargo|por eso|así que|aunque|en primer lugar|por último|por un lado|por otro lado|en cambio|de hecho|al final|de repente|entonces|porque|como|también|por lo tanto|ya que)(?![\\p{L}])",
+   "min": 3,
+   "distinct": true
+  }
+ ],
+ "usefulPhrases": [
+  "¿Quieres…? ¡Ven a…!",
+  "Descubre…",
+  "No te pierdas…",
+  "Apúntate antes del…",
+  "Pruébalo gratis."
+ ],
+ "modelAnswer": "«Aprende español, vive Sevilla». ¿Quieres hablar español de verdad y no solo estudiarlo? ¡Ven a nuestra escuela en el corazón de Triana! Ofrecemos clases en grupos pequeños, de seis personas como máximo, con profesores nativos y simpatiquísimos. Además, cada semana organizamos actividades por la ciudad: rutas de tapas, clases de flamenco e intercambios con estudiantes sevillanos. Yo llegué hace un año sin saber casi nada y ahora puedo hablar con mis vecinos, ver series sin subtítulos y preparar el examen B1. Por eso, creo que ha sido la mejor decisión de mi vida. También tenemos cursos de preparación del DELE. Si tienes dudas, no te preocupes: la primera clase es gratis. No esperes más: entra en nuestra web, elige tu horario y reserva tu plaza antes del 30 de septiembre. ¡Te esperamos! Y recuerda: en Sevilla, aprender es una fiesta.",
+ "taskFormat": "write-choice",
+ "wordRange": [
+  120,
+  150
+ ]
+}

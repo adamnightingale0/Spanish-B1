@@ -1,0 +1,54 @@
+{
+ "id": "write-u01",
+ "unit": 1,
+ "examTask": 2,
+ "genre": "artículo para una revista",
+ "register": "neutro",
+ "title": "Costumbres de mi país",
+ "prompt": "Una revista para estudiantes extranjeros en España publica artículos sobre las costumbres de otros países. Escribe un artículo sobre las costumbres y normas sociales de tu país.",
+ "contentPoints": [
+  "Cómo se saluda la gente y qué es de mala educación.",
+  "Los horarios y las comidas.",
+  "Una norma que sorprende a los extranjeros.",
+  "Una costumbre española que te sorprendió a ti."
+ ],
+ "targets": [
+  {
+   "label": "Se impersonal (se come, se suele…)",
+   "pattern": "(?:^|[^\\p{L}])se (?:\\p{L}+(?:a|e|an|en))(?![\\p{L}])",
+   "min": 2,
+   "distinct": false
+  },
+  {
+   "label": "Soler + infinitivo",
+   "pattern": "(?:^|[^\\p{L}])(?:suelo|sueles|suele|solemos|soléis|suelen|solía|solían|solíamos)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Normas (está prohibido, es obligatorio, está mal visto…)",
+   "pattern": "(?:^|[^\\p{L}])(?:está(?:n)? (?:prohibid[oa]s?|permitid[oa]s?|bien vist[oa]|mal vist[oa])|es obligatorio|es de mala educación|no se puede)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Tres conectores distintos (además, sin embargo, por eso…)",
+   "pattern": "(?:^|[^\\p{L}])(?:además|sin embargo|por eso|así que|aunque|en primer lugar|por último|por un lado|por otro lado|en cambio|de hecho|al final|de repente|entonces|porque|como|también|por lo tanto|ya que)(?![\\p{L}])",
+   "min": 3,
+   "distinct": true
+  }
+ ],
+ "usefulPhrases": [
+  "En mi país, lo normal es…",
+  "Está mal visto…",
+  "Casi nadie…",
+  "La mayoría de la gente suele…",
+  "A mí me sorprendió que…"
+ ],
+ "modelAnswer": "En Inglaterra, cuando conoces a alguien, normalmente se da la mano, pero casi nunca se dan besos, y menos dos. Entre amigos, lo normal es decir «hola» y ya está. Es de mala educación colarse en una cola: los ingleses somos muy pacientes y esperamos nuestro turno sin protestar. Los horarios también son muy diferentes. Se come algo rápido a mediodía, a veces delante del ordenador, y la cena suele ser sobre las siete. Por eso, muchos extranjeros se sorprenden de que los restaurantes cierren la cocina tan pronto. Otra norma curiosa es que en los pubs no hay camareros en la mesa: tienes que pedir en la barra. En cambio, a mí en España me sorprendió que la gente hablara tanto en la calle y que nadie tuviera prisa por terminar la sobremesa.",
+ "taskFormat": "write-choice",
+ "wordRange": [
+  120,
+  150
+ ]
+}

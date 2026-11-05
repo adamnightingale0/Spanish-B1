@@ -1,0 +1,56 @@
+{
+ "id": "write-u11",
+ "unit": 11,
+ "examTask": 1,
+ "genre": "artículo de opinión",
+ "register": "neutro",
+ "title": "Un problema y sus soluciones",
+ "prompt": "La revista de tu escuela prepara un número especial titulado «Un mundo mejor». Escribe un artículo sobre un problema de tu ciudad y propón soluciones.",
+ "contentPoints": [
+  "Presenta el problema y por qué te preocupa.",
+  "Valora lo que se hace ahora.",
+  "Propón al menos dos soluciones.",
+  "Explica qué puede hacer cada persona."
+ ],
+ "targets": [
+  {
+   "label": "Valorar (es increíble que…, me parece fatal que…)",
+   "pattern": "(?:^|[^\\p{L}])(?:es (?:injusto|increíble|una vergüenza|importante|necesario|normal|lógico|una pena) que|me (?:parece|pareció|parecía) (?:bien|mal|fatal|increíble|genial|injusto) que|está (?:bien|mal) que)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Condicional (me gustaría, podría…)",
+   "pattern": "(?:^|[^\\p{L}])\\p{L}{2,}(?:ría|rías|ríamos|ríais|rían)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Lo + adjetivo / lo que",
+   "pattern": "(?:^|[^\\p{L}])(?:lo (?:mejor|peor|bueno|malo|más|importante|que))(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Expresar opinión (creo que, en mi opinión…)",
+   "pattern": "(?:^|[^\\p{L}])(?:creo que|pienso que|en mi opinión|me parece que|desde mi punto de vista|para mí|no creo que)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  }
+ ],
+ "usefulPhrases": [
+  "En mi opinión, …",
+  "Por un lado, … Por otro lado, …",
+  "Es verdad que…, pero…",
+  "Me parece fatal que + subjuntivo",
+  "Lo peor es que…",
+  "Lo que necesitamos es…",
+  "Sería una buena idea + infinitivo"
+ ],
+ "modelAnswer": "Uno de los problemas que más me preocupan de Sevilla es la cantidad de plástico que tiramos. En verano, después de la Feria o de un concierto, las calles y los parques se llenan de vasos y botellas. Me parece fatal que haya tan pocas papeleras de reciclaje en el centro. Es verdad que el ayuntamiento ha puesto algunos contenedores nuevos, pero no es suficiente. Lo peor es que mucha gente ni siquiera sabe cómo separar la basura. En mi opinión, sería una buena idea usar vasos reutilizables en todos los eventos públicos, como ya se hace en otras ciudades. También haría campañas en los colegios para que los niños aprendan a reciclar desde pequeños. Y cada uno de nosotros podría hacer algo sencillo: llevar una botella y una bolsa de tela siempre encima.",
+ "taskFormat": "write-compulsory",
+ "wordRange": [
+  120,
+  150
+ ]
+}

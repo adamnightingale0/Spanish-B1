@@ -1,0 +1,55 @@
+{
+ "id": "write-u12",
+ "unit": 12,
+ "examTask": 2,
+ "genre": "entrada de blog",
+ "register": "neutro",
+ "title": "Una experiencia misteriosa",
+ "prompt": "Un blog sobre misterios y fenómenos extraños invita a sus lectores a contar algo raro que les haya pasado. Escribe tu entrada, real o inventada.",
+ "contentPoints": [
+  "Qué pasó, dónde y cuándo.",
+  "Cómo te sentiste.",
+  "Al menos dos explicaciones posibles.",
+  "Tu opinión: ¿crees en estos fenómenos?"
+ ],
+ "targets": [
+  {
+   "label": "Pretérito indefinido (2 veces)",
+   "pattern": "(?:^|[^\\p{L}])(?:fui|fue|fuimos|fueron|estuve|estuvo|estuvimos|tuve|tuvo|tuvimos|hice|hizo|hicimos|pude|pudo|dije|dijo|vine|vino|vi|vio|di|dio|\\p{L}{2,}(?:é|ó|aron|ieron|aste|iste|asteis|isteis))(?![\\p{L}])",
+   "min": 2,
+   "distinct": false
+  },
+  {
+   "label": "Pretérito imperfecto (2 veces)",
+   "pattern": "(?:^|[^\\p{L}])(?:era|eran|éramos|iba|iban|íbamos|había|\\p{L}{2,}(?:aba|abas|ábamos|aban|ía|ías|íamos|ían))(?![\\p{L}])",
+   "min": 2,
+   "distinct": false
+  },
+  {
+   "label": "Hipótesis (puede que, a lo mejor, habrá sido…)",
+   "pattern": "(?:^|[^\\p{L}])(?:puede que|a lo mejor|quizás|quizá|tal vez|es posible que|seguramente|supongo que|habrá|habrán|sería)(?![\\p{L}])",
+   "min": 2,
+   "distinct": true
+  },
+  {
+   "label": "Expresar opinión (creo que, en mi opinión…)",
+   "pattern": "(?:^|[^\\p{L}])(?:creo que|pienso que|en mi opinión|me parece que|desde mi punto de vista|para mí|no creo que)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  }
+ ],
+ "usefulPhrases": [
+  "Nunca había visto nada igual.",
+  "Puede que + subjuntivo",
+  "A lo mejor + indicativo",
+  "Habrá sido…",
+  "No creo que + subjuntivo",
+  "No me lo creo."
+ ],
+ "modelAnswer": "El verano pasado pasé un fin de semana en una casa rural de la sierra con unos amigos. La primera noche, mientras todos dormían, oí pasos en el piso de arriba. Me levanté, pero allí no había nadie y todas las ventanas estaban cerradas. A la mañana siguiente, la puerta de la cocina estaba abierta y había una taza en la mesa que nadie recordaba haber dejado allí. Pasé muchísimo miedo y casi no dormí la segunda noche. Mis amigos tienen varias teorías. Puede que fuera el dueño de la casa, que vive al lado. A lo mejor uno de nosotros se levantó dormido. O quizás fue simplemente el viento. Sinceramente, no creo que los fantasmas existan, pero todavía hoy no sé explicar lo que pasó aquella noche.",
+ "taskFormat": "write-choice",
+ "wordRange": [
+  120,
+  150
+ ]
+}

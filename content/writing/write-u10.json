@@ -1,0 +1,54 @@
+{
+ "id": "write-u10",
+ "unit": 10,
+ "examTask": 2,
+ "genre": "anuncio / mensaje en un foro",
+ "register": "informal",
+ "title": "Busco cosas para mi nuevo piso",
+ "prompt": "Te acabas de mudar a un piso pequeño sin muebles. Escribe un mensaje en un grupo de intercambio de objetos de tu barrio explicando qué necesitas.",
+ "contentPoints": [
+  "Preséntate y explica tu situación.",
+  "Describe al menos dos objetos que necesitas y cómo tienen que ser.",
+  "Di qué ofreces a cambio.",
+  "Explica cómo pueden contactar contigo."
+ ],
+ "targets": [
+  {
+   "label": "Relativa con subjuntivo (busco algo que sea…)",
+   "pattern": "(?:^|[^\\p{L}])que (?:sea|sean|tenga|tengan|pueda|puedan|sirva|sirvan|quepa|quepan|ocupe|ocupen|funcione|funcionen)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Pretérito perfecto",
+   "pattern": "(?:^|[^\\p{L}])(?:he|has|ha|hemos|habéis|han) \\p{L}+(?:ado|ido|to|cho|so)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Superlativo en -ísimo",
+   "pattern": "\\p{L}+ísim[oa]s?(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Tres conectores distintos (además, sin embargo, por eso…)",
+   "pattern": "(?:^|[^\\p{L}])(?:además|sin embargo|por eso|así que|aunque|en primer lugar|por último|por un lado|por otro lado|en cambio|de hecho|al final|de repente|entonces|porque|como|también|por lo tanto|ya que)(?![\\p{L}])",
+   "min": 3,
+   "distinct": true
+  }
+ ],
+ "usefulPhrases": [
+  "Busco un / una… que + subjuntivo",
+  "Necesito algo que sirva para…",
+  "Que no ocupe mucho espacio",
+  "De madera / de metal…",
+  "A cambio, puedo ofrecer…"
+ ],
+ "modelAnswer": "¡Hola, vecinos! Me llamo Adam y me acabo de mudar a un estudio en la calle Pureza. El piso es bonito, pero pequeñísimo y está casi vacío: de momento solo he conseguido una cama, así que necesito vuestra ayuda. Busco una mesa plegable que no ocupe mucho espacio y que sirva para comer y trabajar con el ordenador. Si es de madera, mejor, porque el piso tiene muy poca luz y quiero algo cálido. También necesito una estantería que quepa en un rincón estrecho, de un metro de ancho como máximo, para mis libros de español. Además, si alguien tiene una lámpara de pie que funcione bien, me haría muy feliz. A cambio, puedo ofrecer clases de conversación en inglés o ayudar con una mudanza, porque tengo coche. Si tenéis algo, escribidme un mensaje privado. ¡Muchas gracias!",
+ "taskFormat": "write-choice",
+ "wordRange": [
+  120,
+  150
+ ]
+}

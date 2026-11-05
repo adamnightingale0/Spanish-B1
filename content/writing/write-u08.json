@@ -1,0 +1,54 @@
+{
+ "id": "write-u08",
+ "unit": 8,
+ "examTask": 2,
+ "genre": "relato de una anécdota",
+ "register": "neutro",
+ "title": "Una anécdota de viaje",
+ "prompt": "Un blog de viajes busca anécdotas divertidas o sorprendentes de sus lectores. Escribe la tuya, real o inventada.",
+ "contentPoints": [
+  "Dónde estabas, cuándo y con quién.",
+  "Qué había pasado antes.",
+  "Qué ocurrió.",
+  "Cómo terminó la historia."
+ ],
+ "targets": [
+  {
+   "label": "Pretérito indefinido (2 veces)",
+   "pattern": "(?:^|[^\\p{L}])(?:fui|fue|fuimos|fueron|estuve|estuvo|estuvimos|tuve|tuvo|tuvimos|hice|hizo|hicimos|pude|pudo|dije|dijo|vine|vino|vi|vio|di|dio|\\p{L}{2,}(?:é|ó|aron|ieron|aste|iste|asteis|isteis))(?![\\p{L}])",
+   "min": 2,
+   "distinct": false
+  },
+  {
+   "label": "Pretérito imperfecto (2 veces)",
+   "pattern": "(?:^|[^\\p{L}])(?:era|eran|éramos|iba|iban|íbamos|había|\\p{L}{2,}(?:aba|abas|ábamos|aban|ía|ías|íamos|ían))(?![\\p{L}])",
+   "min": 2,
+   "distinct": false
+  },
+  {
+   "label": "Pluscuamperfecto (había + participio)",
+   "pattern": "(?:^|[^\\p{L}])(?:había|habías|habíamos|habíais|habían) \\p{L}+(?:ado|ido|to|cho|so)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Conectores de relato (de repente, al final, entonces…)",
+   "pattern": "(?:^|[^\\p{L}])(?:de repente|de pronto|al final|al principio|entonces|un día|al día siguiente|en ese momento|por fin)(?![\\p{L}])",
+   "min": 2,
+   "distinct": true
+  }
+ ],
+ "usefulPhrases": [
+  "Resulta que…",
+  "Aquel día…",
+  "Al día siguiente…",
+  "Total, que…",
+  "Al final…"
+ ],
+ "modelAnswer": "Resulta que hace tres años estaba de vacaciones en Roma con mi hermano. Era nuestro último día y queríamos ver el Coliseo antes de volver a casa. Habíamos comprado las entradas por internet, pero mi hermano se había dejado el móvil en el hotel, así que no podíamos enseñarlas. Mientras discutíamos en la cola, un señor mayor muy elegante se acercó y nos preguntó qué pasaba. Le explicamos el problema y, de repente, sonrió y nos dijo: «Venid conmigo». Entonces habló con el guardia en italiano y nos dejó pasar. Al final descubrimos que era un guía muy famoso que llevaba cuarenta años trabajando allí. Nos hizo una visita privada y gratuita de dos horas. Total, que el olvido de mi hermano se convirtió en el mejor recuerdo del viaje.",
+ "taskFormat": "write-choice",
+ "wordRange": [
+  120,
+  150
+ ]
+}

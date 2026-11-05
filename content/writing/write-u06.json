@@ -1,0 +1,54 @@
+{
+ "id": "write-u06",
+ "unit": 6,
+ "examTask": 1,
+ "genre": "carta abierta",
+ "register": "formal",
+ "title": "Carta abierta: el precio del alquiler",
+ "prompt": "Una asociación de vecinos va a publicar en el periódico una carta abierta al ayuntamiento sobre un problema del barrio. Escribe la carta.",
+ "contentPoints": [
+  "Presenta el problema.",
+  "Explica cómo afecta a los vecinos con un ejemplo.",
+  "Di qué exigís al ayuntamiento.",
+  "Explica qué pasará si no se hace nada."
+ ],
+ "targets": [
+  {
+   "label": "Saludo y despedida formales",
+   "pattern": "(?:estimad[oa]s?|distinguid[oa]s?)[\\s\\S]*(?:atentamente|un cordial saludo|saludos cordiales|reciba un saludo)",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Que + subjuntivo (te aconsejo que vayas, espero que…)",
+   "pattern": "(?:^|[^\\p{L}])(?:(?:que|ojalá|cuando|para que) (?:te |os |le |no |me |se |lo |la )?(?:sea|seas|sean|vaya|vayas|vayáis|tenga|tengas|haga|hagas|pueda|puedas|esté|estés|\\p{L}{2,}(?:es|éis|en|as|áis|an))(?![\\p{L}])|(?:exij[oa]|exigimos|pedimos|quiero|queremos|espero|esperamos|es necesario|es importante|es injusto|me parece fatal) que)",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Valorar (es increíble que…, me parece fatal que…)",
+   "pattern": "(?:^|[^\\p{L}])(?:es (?:injusto|increíble|una vergüenza|importante|necesario|normal|lógico|una pena) que|me (?:parece|pareció|parecía) (?:bien|mal|fatal|increíble|genial|injusto) que|está (?:bien|mal) que)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Pretérito perfecto",
+   "pattern": "(?:^|[^\\p{L}])(?:he|has|ha|hemos|habéis|han) \\p{L}+(?:ado|ido|to|cho|so)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  }
+ ],
+ "usefulPhrases": [
+  "Nos dirigimos a ustedes para…",
+  "Exigimos que + subjuntivo",
+  "Es necesario que…",
+  "Habría que…",
+  "Cuando + subjuntivo…"
+ ],
+ "modelAnswer": "Estimada señora alcaldesa:\nLos vecinos del barrio de la Macarena queremos denunciar un problema que cada día es más grave: el precio del alquiler. En los últimos cinco años, los alquileres han subido más de un cuarenta por ciento y muchas familias ya no pueden pagarlos. Por ejemplo, nuestra vecina Rosario, que ha vivido aquí toda su vida, tuvo que irse el mes pasado porque el propietario quería convertir su piso en un apartamento turístico. Nos parece injusto que los vecinos tengan que abandonar su barrio. Por eso, exigimos que el ayuntamiento limite los pisos turísticos y que construya vivienda pública a precios razonables. También es necesario que se ayude a los jóvenes a alquilar. Si no se hace nada, pronto el barrio será solo para turistas.\nAtentamente,\nAsociación de Vecinos de la Macarena",
+ "taskFormat": "write-compulsory",
+ "wordRange": [
+  120,
+  150
+ ]
+}

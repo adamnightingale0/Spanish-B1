@@ -18,21 +18,21 @@
   {
    "q": "Según el texto, ¿qué es lo que llama la atención sobre los hábitos de los españoles?",
    "options": [
+    "Que casi todos duermen menos de cinco horas.",
     "Que comen y hacen deporte peor que antes.",
-    "Que han mejorado en varios hábitos, pero no en el sueño.",
-    "Que casi todos duermen menos de cinco horas."
+    "Que han mejorado en varios hábitos, pero no en el sueño."
    ],
-   "answer": 1,
+   "answer": 2,
    "evidence": "hay un hábito saludable que sigue sin recibir la atención que merece: el sueño"
   },
   {
    "q": "La doctora Ruiz explica que, mientras dormimos, el cerebro…",
    "options": [
-    "descansa completamente.",
     "organiza lo aprendido y se limpia.",
-    "prepara los exámenes del día siguiente."
+    "prepara los exámenes del día siguiente.",
+    "descansa completamente."
    ],
-   "answer": 1,
+   "answer": 0,
    "evidence": "ordena lo que hemos aprendido durante el día y elimina sustancias"
   },
   {
@@ -48,41 +48,41 @@
   {
    "q": "¿Qué consecuencia de dormir poco se menciona en el texto?",
    "options": [
-    "Tener más ganas de comer cosas dulces.",
     "Ganar paciencia con los demás.",
-    "Tener menos accidentes laborales."
+    "Tener menos accidentes laborales.",
+    "Tener más ganas de comer cosas dulces."
    ],
-   "answer": 0,
+   "answer": 2,
    "evidence": "porque el cuerpo pide más comida, sobre todo dulces"
   },
   {
    "q": "Sobre los fines de semana, la doctora aconseja…",
    "options": [
-    "dormir hasta mediodía para recuperar horas.",
     "mantener los mismos horarios que entre semana.",
-    "acostarse más tarde que entre semana."
+    "acostarse más tarde que entre semana.",
+    "dormir hasta mediodía para recuperar horas."
    ],
-   "answer": 1,
+   "answer": 0,
    "evidence": "acostarse y levantarse a la misma hora todos los días, también los fines de semana"
   },
   {
    "q": "Según el texto, una siesta de dos horas…",
    "options": [
-    "mejora la concentración por la tarde.",
     "es una buena aliada contra el cansancio.",
-    "puede dificultar el sueño por la noche."
+    "puede dificultar el sueño por la noche.",
+    "mejora la concentración por la tarde."
    ],
-   "answer": 2,
+   "answer": 1,
    "evidence": "una siesta de dos horas puede hacer que por la noche nos cueste mucho más dormirnos"
   },
   {
    "q": "¿Qué han conseguido algunas empresas con sus nuevas medidas?",
    "options": [
+    "Que nadie envíe correos electrónicos.",
     "Que los empleados trabajen más horas.",
-    "Que haya menos bajas y más satisfacción.",
-    "Que nadie envíe correos electrónicos."
+    "Que haya menos bajas y más satisfacción."
    ],
-   "answer": 1,
+   "answer": 2,
    "evidence": "menos bajas por enfermedad y empleados más contentos"
   }
  ]

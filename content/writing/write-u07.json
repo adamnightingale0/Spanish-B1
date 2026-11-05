@@ -1,0 +1,54 @@
+{
+ "id": "write-u07",
+ "unit": 7,
+ "examTask": 2,
+ "genre": "nota / mensaje informal",
+ "register": "informal",
+ "title": "Mensajes para tu compañera de piso",
+ "prompt": "Has pasado el día en casa y han llamado varias personas preguntando por tu compañera de piso, Laura, que está de viaje. Escríbele un correo para contarle los mensajes.",
+ "contentPoints": [
+  "Salúdala y pregúntale por el viaje.",
+  "Transmite el mensaje de su madre.",
+  "Transmite el mensaje de su jefe.",
+  "Transmite la pregunta de un amigo y despídete."
+ ],
+ "targets": [
+  {
+   "label": "Saludo y despedida informales",
+   "pattern": "(?:hola|querid[oa]s?)[\\s\\S]*(?:un abrazo|besos|un beso|hasta pronto|escríbeme|nos vemos)",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Estilo indirecto (me ha dicho que, ha preguntado si…)",
+   "pattern": "(?:^|[^\\p{L}])(?:(?:me|te|le|nos|os|les) ha (?:dicho|pedido|preguntado|contado)|ha dicho que|dice que|ha preguntado si|quiere que)(?![\\p{L}])",
+   "min": 2,
+   "distinct": false
+  },
+  {
+   "label": "Que + subjuntivo (te aconsejo que vayas, espero que…)",
+   "pattern": "(?:^|[^\\p{L}])(?:(?:que|ojalá|cuando|para que) (?:te |os |le |no |me |se |lo |la )?(?:sea|seas|sean|vaya|vayas|vayáis|tenga|tengas|haga|hagas|pueda|puedas|esté|estés|\\p{L}{2,}(?:es|éis|en|as|áis|an))(?![\\p{L}])|(?:exij[oa]|exigimos|pedimos|quiero|queremos|espero|esperamos|es necesario|es importante|es injusto|me parece fatal) que)",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Pretérito perfecto",
+   "pattern": "(?:^|[^\\p{L}])(?:he|has|ha|hemos|habéis|han) \\p{L}+(?:ado|ido|to|cho|so)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  }
+ ],
+ "usefulPhrases": [
+  "Ha llamado… y me ha dicho que…",
+  "Te ha pedido que + subjuntivo",
+  "Me ha preguntado si…",
+  "Quiere saber cuándo…",
+  "Dice que le llames."
+ ],
+ "modelAnswer": "¡Hola, Laura! ¿Qué tal por Lisboa? Espero que estés disfrutando mucho del viaje. Te escribo porque hoy han llamado varias personas preguntando por ti. Primero ha llamado tu madre. Me ha dicho que no encuentra las llaves del coche y me ha preguntado si te las has llevado tú. También me ha pedido que la llames esta noche, porque quiere contarte algo importante sobre la boda de tu prima. Después ha llamado tu jefe. Dice que la reunión del lunes ha cambiado al martes a las diez y quiere que le envíes el informe antes del fin de semana. Por último, ha venido Marcos, tu amigo del gimnasio. Me ha preguntado cuándo vuelves, porque quiere invitarte a su cumpleaños el sábado. ¡Ya está! Pásalo muy bien y nos vemos el domingo. Un abrazo,\nAdam",
+ "taskFormat": "write-choice",
+ "wordRange": [
+  120,
+  150
+ ]
+}

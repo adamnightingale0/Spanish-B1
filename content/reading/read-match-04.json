@@ -1,0 +1,100 @@
+{
+ "id": "read-match-04",
+ "unit": 8,
+ "taskFormat": "read-match",
+ "topic": "viajes",
+ "title": "Escapadas desde Sevilla",
+ "instruction": "Lee ocho propuestas de escapadas de fin de semana y los perfiles de diez personas. Elige la escapada más adecuada para cada persona. Hay dos personas que no tienen escapada.",
+ "profiles": [
+  {
+   "id": "A",
+   "text": "Ana y su pareja quieren descansar en un sitio tranquilo, sin coche y sin planes."
+  },
+  {
+   "id": "B",
+   "text": "Rubén es fotógrafo aficionado y busca paisajes espectaculares de montaña."
+  },
+  {
+   "id": "C",
+   "text": "Teresa viaja con sus hijos de 6 y 9 años y quiere actividades con animales."
+  },
+  {
+   "id": "D",
+   "text": "Gonzalo quiere conocer la historia romana de Andalucía."
+  },
+  {
+   "id": "E",
+   "text": "Lidia es surfista y busca una playa con buenas olas."
+  },
+  {
+   "id": "F",
+   "text": "Manuel y sus amigos quieren comer bien y probar vinos de la zona."
+  },
+  {
+   "id": "G",
+   "text": "Irene no tiene coche y quiere una ciudad con muchos monumentos a menos de una hora en tren."
+  },
+  {
+   "id": "H",
+   "text": "Pedro quiere hacer una ruta en bicicleta por un camino llano."
+  },
+  {
+   "id": "I",
+   "text": "Silvia busca un sitio para ver las estrellas lejos de las luces de la ciudad."
+  },
+  {
+   "id": "J",
+   "text": "Héctor quiere practicar escalada con un guía profesional."
+  }
+ ],
+ "texts": [
+  {
+   "title": "Vía Verde de la Sierra",
+   "text": "Treinta y seis kilómetros de antigua vía de tren, sin cuestas, entre túneles y puentes. Se alquilan bicicletas en la estación de Puerto Serrano.",
+   "answer": "H",
+   "evidence": "sin cuestas"
+  },
+  {
+   "title": "Itálica",
+   "text": "A diez kilómetros de Sevilla, las ruinas de la ciudad donde nacieron dos emperadores. Su anfiteatro es uno de los mayores del mundo romano.",
+   "answer": "D",
+   "evidence": "las ruinas de la ciudad donde nacieron dos emperadores"
+  },
+  {
+   "title": "Tarifa",
+   "text": "Viento casi todo el año y olas perfectas para el surf y el kitesurf. Escuelas para todos los niveles en la misma playa.",
+   "answer": "E",
+   "evidence": "olas perfectas para el surf"
+  },
+  {
+   "title": "Jerez de la Frontera",
+   "text": "Visitas a bodegas con cata incluida y tabernas donde se come el mejor pescado frito de la provincia.",
+   "answer": "F",
+   "evidence": "Visitas a bodegas con cata incluida"
+  },
+  {
+   "title": "Córdoba",
+   "text": "La Mezquita, la judería y los patios, a solo 45 minutos en AVE desde Santa Justa. Todo se visita a pie.",
+   "answer": "G",
+   "evidence": "a solo 45 minutos en AVE"
+  },
+  {
+   "title": "Sierra Norte",
+   "text": "Uno de los cielos más oscuros de Andalucía. Observaciones nocturnas con telescopio cada sábado en el pueblo de Cazalla.",
+   "answer": "I",
+   "evidence": "Observaciones nocturnas con telescopio"
+  },
+  {
+   "title": "Doñana",
+   "text": "Excursiones en todoterreno y paseos para observar ciervos, flamencos y, con suerte, el lince ibérico. Actividades especiales para familias.",
+   "answer": "C",
+   "evidence": "Actividades especiales para familias."
+  },
+  {
+   "title": "Grazalema",
+   "text": "Montañas de piedra caliza, bosques de pinsapos y miradores sobre valles enteros. Uno de los paisajes más fotografiados de la provincia de Cádiz.",
+   "answer": "B",
+   "evidence": "Uno de los paisajes más fotografiados de la provincia de Cádiz."
+  }
+ ]
+}
