@@ -3,6 +3,9 @@ import { units, gpById, focus, allItems, vocabCards } from '../lib/content';
 import { buildPlacement } from '../lib/placement';
 import { retention } from '../lib/srs';
 import { tagLabel } from '../lib/errors';
+import { skillEstimate } from '../lib/skills';
+import { FORMAT_LABELS } from '../lib/content';
+import { navigate } from '../state';
 import { buildDrill, masteryByPoint, masteryBySubPoint } from '../lib/session';
 import { minutesPerWeek, streak, topConfusions } from '../lib/stats';
 import { Header, MasteryBar } from '../components/common';
@@ -52,6 +55,39 @@ export function Progress() {
           <b>{reasons.length ? Math.round((reasons.filter((a) => a.reasonCorrect).length / reasons.length) * 100) : 0} %</b>
           <span>«¿Por qué?»</span>
         </div>
+      </div>
+
+      <h2>Destrezas</h2>
+      <div class="card">
+        {(['reading', 'listening'] as const).map((sk) => {
+          const e = skillEstimate(app.skills, sk);
+          const v = e.pct;
+          return (
+            <div style={{ margin: '8px 0' }} onClick={() => navigate(sk)}>
+              <div class="row spread small">
+                <span>{sk === 'reading' ? 'Lectura' : 'Audición'}</span>
+                <span class="muted">{v === null ? 'sin datos' : `${Math.round(v * 100)} % · ${e.n} tareas`}</span>
+              </div>
+              <div class={`bar skill-bar ${v === null ? 'none' : v >= 0.6 ? '' : v >= 0.5 ? 'mid' : 'low'}`}>
+                {v !== null && <i style={{ width: `${Math.max(4, v * 100)}%` }} />}
+                <span class="line50" />
+                <span class="line60" />
+              </div>
+            </div>
+          );
+        })}
+        <p class="tiny muted">Línea fina: 50 % (mínimo para aprobar) · línea gruesa: 60 % (margen de seguridad).</p>
+        {app.skills.slice(-5).reverse().map((r) => (
+          <div class="row spread tiny" style={{ borderTop: '1px solid var(--line)', padding: '4px 0' }}>
+            <span>
+              {new Date(r.ts).toLocaleDateString('es-ES')} · {FORMAT_LABELS[r.format]?.short}
+              {r.paper ? ' · prueba completa' : ''}
+            </span>
+            <b>
+              {r.correct}/{r.total}
+            </b>
+          </div>
+        ))}
       </div>
 
       <h2>Errores más frecuentes (30 días)</h2>

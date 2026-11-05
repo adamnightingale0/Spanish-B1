@@ -3,7 +3,9 @@ import { useApp } from '../state';
 import { examProfile } from '../lib/content';
 import { evaluateWritten, type Skill } from '../lib/exam';
 import { daysUntil } from '../lib/stats';
-import { Header } from '../components/common';
+import { Header, pct } from '../components/common';
+import { navigate } from '../state';
+import { skillEstimate } from '../lib/skills';
 
 const RESOURCES = [
   { label: 'Examen de Español B1 (información)', url: 'https://institutodeidiomas.us.es/areas-idiomas/espanol/examen-espanol-b1' },
@@ -18,7 +20,8 @@ const RESOURCES = [
 const SKILL_LABEL: Record<string, string> = { reading: 'Lectura', listening: 'Audición', writing: 'Escritura' };
 
 export function Exam() {
-  const { settings } = useApp();
+  const app = useApp();
+  const { settings } = app;
   const [scores, setScores] = useState<Record<Skill, number>>({ reading: 0.6, listening: 0.6, writing: 0.6, speaking: 0.6 });
   const r = evaluateWritten(examProfile, scores);
   return (
@@ -30,6 +33,20 @@ export function Exam() {
         <b>Escrito: {daysUntil(settings.examDate)} días</b>
         <p class="small muted">Escrito el 18 de enero de 2027 (mañana). Oral entre el 4 y el 10 de febrero. Si no, la siguiente convocatoria escrita es el 7 de junio de 2027.</p>
       </div>
+
+      <h2>Pruebas cronometradas</h2>
+      <div class="row">
+        <button class="btn-primary grow" onClick={() => navigate('paper/reading')}>
+          Lectura · 60 min
+        </button>
+        <button class="btn-primary grow" onClick={() => navigate('paper/listening')}>
+          Audición · 30 min
+        </button>
+      </div>
+      <p class="small muted">
+        Estimación actual: lectura {pct(skillEstimate(app.skills, 'reading').pct)}, audición {pct(skillEstimate(app.skills, 'listening').pct)}. El simulacro
+        escrito completo (con la expresión escrita) llega en la fase 4.
+      </p>
 
       <h2>Estructura</h2>
       <table class="simple">
@@ -80,7 +97,6 @@ export function Exam() {
           )}
         </div>
       </div>
-      <p class="small muted">Los simulacros cronometrados (lectura 60 min, audición 30, descanso 20, escritura 70) llegan en la fase 4.</p>
 
       <h2>Recursos oficiales</h2>
       <p class="tiny muted">Necesitan conexión. Se abren en la web del Instituto de Idiomas.</p>

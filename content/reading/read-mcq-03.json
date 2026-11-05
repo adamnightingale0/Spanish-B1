@@ -1,0 +1,88 @@
+{
+ "id": "read-mcq-03",
+ "unit": 0,
+ "taskFormat": "read-mcq",
+ "topic": "vida en la ciudad, libros",
+ "title": "Bibliotecas: ya no hace falta hablar en voz baja",
+ "text": [
+  "Hace unos años, muchos pensaban que las bibliotecas públicas tenían los días contados. Con internet, los libros electrónicos y las plataformas de series, ¿quién iba a necesitar un edificio lleno de estanterías? Sin embargo, las cifras dicen lo contrario: en ciudades como Sevilla, Zaragoza o Valencia, el número de visitantes ha aumentado en la última década. El secreto está en que las bibliotecas han cambiado tanto que algunas ya casi no se parecen a lo que conocíamos.",
+  "La biblioteca del barrio de San Jerónimo, en Sevilla, es un buen ejemplo. Además de libros, presta ordenadores portátiles, juegos de mesa e incluso herramientas, como taladros o máquinas de coser. «Mucha gente necesita un taladro una vez al año. No tiene sentido que cada vecino compre uno», explica Carmen Ortega, la directora. En la planta baja hay una sala donde se puede hablar, comer algo y trabajar en grupo; el silencio total solo se exige en la sala de estudio del primer piso.",
+  "Las actividades son otra de las claves del éxito. Cada semana hay clubes de lectura, talleres de informática para personas mayores, cuentacuentos para niños y grupos de conversación en varios idiomas. Estos últimos tienen mucha demanda entre los inmigrantes que quieren mejorar su español, pero también entre los vecinos que preparan un viaje o un examen. «Lo más bonito es que se mezcla gente que en la calle quizá nunca hablaría entre sí», comenta Ortega.",
+  "Para muchas personas, la biblioteca es también un refugio. En verano, cuando las temperaturas superan los cuarenta grados, sus salas con aire acondicionado se llenan de estudiantes y de vecinos que no tienen un lugar fresco en casa. Varios ayuntamientos han decidido ampliar el horario en julio y agosto y abrir también por la tarde los fines de semana, algo que hace unos años parecía impensable.",
+  "No todo son buenas noticias. Los presupuestos han bajado y muchas bibliotecas tienen menos personal del que necesitan. «Hacemos muchas más cosas con el mismo número de trabajadores, o incluso con menos», lamenta un bibliotecario de Zaragoza que prefiere no dar su nombre. Además, en algunos barrios los edificios son antiguos y no están adaptados a personas con movilidad reducida.",
+  "Otro debate es el de los libros en papel. Algunas voces críticas piensan que las bibliotecas están dedicando demasiado espacio y dinero a actividades y muy poco a renovar sus colecciones. Ortega no está de acuerdo: «El préstamo de libros sigue siendo nuestra actividad principal. Lo que pasa es que la gente que viene a un taller acaba llevándose un libro, y la que viene por un libro descubre un taller. Una cosa ayuda a la otra».",
+  "Lo que parece claro es que la biblioteca del futuro será cada vez menos un almacén de libros y cada vez más un punto de encuentro. Como dice una usuaria de setenta años que aprendió a usar el ordenador en San Jerónimo: «Aquí vengo a leer el periódico, a ver a mis amigas y a aprender cosas nuevas. Para mí es como la plaza del pueblo, pero con techo»."
+ ],
+ "questions": [
+  {
+   "q": "Según el texto, en la última década las bibliotecas de algunas ciudades…",
+   "options": [
+    "han perdido visitantes por culpa de internet.",
+    "han recibido a más personas que antes.",
+    "se han convertido en tiendas de libros electrónicos."
+   ],
+   "answer": 1,
+   "evidence": "el número de visitantes ha aumentado en la última década"
+  },
+  {
+   "q": "¿Por qué presta herramientas la biblioteca de San Jerónimo?",
+   "options": [
+    "Porque son objetos que se usan poco y es absurdo que todos los compren.",
+    "Porque los vecinos las donaron a la biblioteca.",
+    "Porque organiza talleres de bricolaje cada semana."
+   ],
+   "answer": 0,
+   "evidence": "Mucha gente necesita un taladro una vez al año. No tiene sentido que cada vecino compre uno"
+  },
+  {
+   "q": "En la biblioteca de San Jerónimo…",
+   "options": [
+    "está prohibido hablar en todo el edificio.",
+    "hay una zona para hablar y otra para estudiar en silencio.",
+    "no se puede comer en ninguna sala."
+   ],
+   "answer": 1,
+   "evidence": "el silencio total solo se exige en la sala de estudio del primer piso"
+  },
+  {
+   "q": "Según la directora, lo mejor de las actividades es que…",
+   "options": [
+    "atraen sobre todo a los niños del barrio.",
+    "reúnen a personas muy diferentes.",
+    "son gratuitas para los inmigrantes."
+   ],
+   "answer": 1,
+   "evidence": "se mezcla gente que en la calle quizá nunca hablaría entre sí"
+  },
+  {
+   "q": "En verano, algunos ayuntamientos han decidido…",
+   "options": [
+    "cerrar las bibliotecas por el calor.",
+    "abrir más horas las bibliotecas.",
+    "instalar aire acondicionado en las casas."
+   ],
+   "answer": 1,
+   "evidence": "Varios ayuntamientos han decidido ampliar el horario en julio y agosto"
+  },
+  {
+   "q": "¿Qué problema menciona el bibliotecario de Zaragoza?",
+   "options": [
+    "Que hay demasiados trabajadores.",
+    "Que tienen que hacer más con los mismos recursos.",
+    "Que la gente ya no lee libros en papel."
+   ],
+   "answer": 1,
+   "evidence": "Hacemos muchas más cosas con el mismo número de trabajadores, o incluso con menos"
+  },
+  {
+   "q": "Según Carmen Ortega, los talleres y el préstamo de libros…",
+   "options": [
+    "compiten por el mismo dinero.",
+    "se benefician mutuamente.",
+    "atraen a públicos que nunca se mezclan."
+   ],
+   "answer": 1,
+   "evidence": "Una cosa ayuda a la otra"
+  }
+ ]
+}

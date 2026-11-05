@@ -3,7 +3,7 @@
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { z } from 'zod';
-import { UnitPack, FocusPack, GrammarPoints, ExamProfile, Manifest, VocabPack } from '../src/lib/schema';
+import { UnitPack, FocusPack, GrammarPoints, ExamProfile, Manifest, VocabPack, ReadingTask, ListeningTask } from '../src/lib/schema';
 
 const root = join(import.meta.dirname, '..', 'content');
 const errors: string[] = [];
@@ -73,6 +73,60 @@ for (const f of readdirSync(join(root, 'vocab')).filter((f: string) => f.endsWit
   cardCount += pack.cards.length;
 }
 
+// Skill tasks: schema + every evidence / clue string must appear in its text or script.
+const skillCounts: Record<string, number> = {};
+const words = (t: string) => t.split(/\s+/).filter(Boolean).length;
+for (const f of readdirSync(join(root, 'reading')).filter((f: string) => f.endsWith('.json'))) {
+  const t = load(`reading/${f}`, ReadingTask);
+  if (!t) continue;
+  skillCounts[t.taskFormat] = (skillCounts[t.taskFormat] ?? 0) + 1;
+  const rel = `reading/${f}`;
+  if (t.taskFormat === 'read-mcq') {
+    const full = t.text.join(' ');
+    for (const q of t.questions) if (!full.includes(q.evidence)) errors.push(`${rel}: evidence not in text: "${q.evidence}"`);
+    const n = words(full);
+    if (n < 450 || n > 700) warn.push(`${rel}: ${n} words (target ~600)`);
+  } else if (t.taskFormat === 'read-match') {
+    const used = t.texts.map((x) => x.answer);
+    if (new Set(used).size !== used.length) errors.push(`${rel}: two texts share a profile`);
+    for (const x of t.texts) {
+      if (!x.text.includes(x.evidence)) errors.push(`${rel}: evidence not in text "${x.title}"`);
+      if (!t.profiles.some((p) => p.id === x.answer)) errors.push(`${rel}: unknown profile ${x.answer}`);
+    }
+  } else {
+    const full = t.text.join(' ');
+    const marks = [...full.matchAll(/\{\{(\d)\}\}/g)].map((m) => Number(m[1]));
+    if (marks.length !== 7) errors.push(`${rel}: needs exactly 7 {{n}} gaps (has ${marks.length})`);
+    const used = t.gaps.map((g) => g.answer);
+    if (new Set(used).size !== 7) errors.push(`${rel}: a fragment is used twice`);
+    for (const g of t.gaps) {
+      const frag = t.fragments.find((x) => x.id === g.answer);
+      const para = t.text.find((p) => p.includes(`{{${g.n}}}`)) ?? '';
+      if (!frag) errors.push(`${rel}: gap ${g.n} unknown fragment`);
+      else if (!frag.text.includes(g.clue) && !para.includes(g.clue)) errors.push(`${rel}: gap ${g.n} clue "${g.clue}" not found`);
+    }
+  }
+}
+for (const f of readdirSync(join(root, 'listening')).filter((f: string) => f.endsWith('.json'))) {
+  const t = load(`listening/${f}`, ListeningTask);
+  if (!t) continue;
+  skillCounts[t.taskFormat] = (skillCounts[t.taskFormat] ?? 0) + 1;
+  const rel = `listening/${f}`;
+  if (t.taskFormat === 'listen-speakers' || t.taskFormat === 'listen-interview') {
+    const full = t.script.map((l) => l.line).join(' ');
+    const ev = t.taskFormat === 'listen-speakers' ? t.statements.map((x) => x.evidence) : t.questions.map((x) => x.evidence);
+    for (const e of ev) if (!full.includes(e)) errors.push(`${rel}: evidence not in script: "${e}"`);
+    if (t.taskFormat === 'listen-speakers') {
+      for (const l of t.script) if (!['A', 'B', 'C'].includes(l.speaker)) errors.push(`${rel}: speaker must be A, B or C`);
+      for (const st of t.statements) {
+        if (st.answer === 'N') continue;
+        const line = t.script.find((l) => l.line.includes(st.evidence));
+        if (line && line.speaker !== st.answer) errors.push(`${rel}: "${st.s}" evidence is said by ${line.speaker}, not ${st.answer}`);
+      }
+    }
+  }
+}
+
 for (const f of readdirSync(join(root, 'exam-profiles'))) load(`exam-profiles/${f}`, ExamProfile);
 
 if (manifest) for (const p of manifest.packs) if (!existsSync(join(root, p))) errors.push(`manifest.json: missing pack ${p}`);
@@ -89,3 +143,4 @@ if (errors.length) {
   process.exit(1);
 }
 console.log(`✓ content valid: ${itemIds.size} items across ${unitFiles.length + 1} packs, ${gps.length} grammar points, ${cardCount} vocabulary cards.`);
+console.log(`  skill tasks: ${Object.entries(skillCounts).map(([k, v]) => `${k} ${v}`).join(', ')}`);

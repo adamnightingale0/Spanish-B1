@@ -1,0 +1,89 @@
+{
+ "id": "read-mcq-01",
+ "unit": 0,
+ "taskFormat": "read-mcq",
+ "topic": "salud",
+ "title": "Dormir bien: la asignatura pendiente",
+ "text": [
+  "Comemos mejor que hace veinte años, hacemos más deporte y cada vez más gente deja de fumar. Sin embargo, hay un hábito saludable que sigue sin recibir la atención que merece: el sueño. Según varios estudios recientes, casi la mitad de los adultos españoles duerme menos de siete horas entre semana, la cantidad mínima que recomiendan los especialistas.",
+  "La doctora Elena Ruiz, que dirige una unidad del sueño en un hospital de Sevilla, lo explica así: «Mucha gente piensa que dormir es perder el tiempo. Lo que no saben es que mientras dormimos el cerebro trabaja muchísimo: ordena lo que hemos aprendido durante el día y elimina sustancias que, si se acumulan, nos hacen sentir cansados y de mal humor». Por eso, añade, los estudiantes que pasan la noche estudiando antes de un examen suelen recordar menos de lo que creen.",
+  "Las causas de este problema son variadas. En España influyen los horarios: cenamos tarde, los programas de televisión más populares terminan pasada la medianoche y muchas personas salen del trabajo a las ocho o las nueve. A esto se suma el uso del móvil en la cama. La luz de las pantallas engaña al cerebro, que cree que todavía es de día y retrasa el momento en que aparece el sueño. «No es solo la luz», matiza Ruiz. «Leer mensajes del trabajo o discutir en las redes sociales a las doce de la noche nos activa justo cuando deberíamos empezar a relajarnos».",
+  "Las consecuencias de dormir poco no se limitan al cansancio. Quien duerme mal durante meses tiene más riesgo de sufrir sobrepeso, porque el cuerpo pide más comida, sobre todo dulces. También aumentan los accidentes de tráfico y laborales: la Dirección General de Tráfico calcula que el sueño está detrás de entre el 15 y el 20 % de los accidentes en carretera. Y, aunque se habla menos de ello, la falta de descanso afecta a nuestras relaciones, porque nos volvemos más irritables y tenemos menos paciencia con los demás.",
+  "¿Qué podemos hacer? Los especialistas coinciden en que lo más importante es la regularidad: acostarse y levantarse a la misma hora todos los días, también los fines de semana. «Mucha gente intenta recuperar el sueño perdido el sábado y el domingo durmiendo hasta mediodía, pero eso solo desordena aún más el reloj interno», advierte la doctora. Además, recomienda dejar el móvil fuera del dormitorio, cenar al menos dos horas antes de acostarse y evitar el café a partir de las cinco de la tarde.",
+  "La siesta, tan típica de nuestro país, también tiene sus reglas. Una siesta corta, de veinte o treinta minutos, ayuda a recuperar energía y mejora la concentración por la tarde. En cambio, una siesta de dos horas puede hacer que por la noche nos cueste mucho más dormirnos. «La siesta es una aliada si es breve. Si es larga, se convierte en parte del problema», resume Ruiz.",
+  "Algunas empresas ya han empezado a tomarse en serio el descanso de sus trabajadores. Hay oficinas que ofrecen horarios flexibles para que cada persona pueda adaptar la jornada a su ritmo, y otras que prohíben enviar correos electrónicos después de las siete de la tarde. Los resultados, según las propias empresas, son positivos: menos bajas por enfermedad y empleados más contentos.",
+  "Dormir bien, en definitiva, no es un lujo ni una pérdida de tiempo, sino una inversión en salud. Como dice la doctora Ruiz con una sonrisa: «Nadie presume de comer mal, pero todavía hay gente que presume de dormir solo cinco horas. Eso tiene que cambiar»."
+ ],
+ "questions": [
+  {
+   "q": "Según el texto, ¿qué es lo que llama la atención sobre los hábitos de los españoles?",
+   "options": [
+    "Que comen y hacen deporte peor que antes.",
+    "Que han mejorado en varios hábitos, pero no en el sueño.",
+    "Que casi todos duermen menos de cinco horas."
+   ],
+   "answer": 1,
+   "evidence": "hay un hábito saludable que sigue sin recibir la atención que merece: el sueño"
+  },
+  {
+   "q": "La doctora Ruiz explica que, mientras dormimos, el cerebro…",
+   "options": [
+    "descansa completamente.",
+    "organiza lo aprendido y se limpia.",
+    "prepara los exámenes del día siguiente."
+   ],
+   "answer": 1,
+   "evidence": "ordena lo que hemos aprendido durante el día y elimina sustancias"
+  },
+  {
+   "q": "Según la doctora, el problema del móvil en la cama es…",
+   "options": [
+    "solo la luz de la pantalla.",
+    "la luz y también la actividad que nos produce.",
+    "que gastamos demasiada batería por la noche."
+   ],
+   "answer": 1,
+   "evidence": "«No es solo la luz», matiza Ruiz."
+  },
+  {
+   "q": "¿Qué consecuencia de dormir poco se menciona en el texto?",
+   "options": [
+    "Tener más ganas de comer cosas dulces.",
+    "Ganar paciencia con los demás.",
+    "Tener menos accidentes laborales."
+   ],
+   "answer": 0,
+   "evidence": "porque el cuerpo pide más comida, sobre todo dulces"
+  },
+  {
+   "q": "Sobre los fines de semana, la doctora aconseja…",
+   "options": [
+    "dormir hasta mediodía para recuperar horas.",
+    "mantener los mismos horarios que entre semana.",
+    "acostarse más tarde que entre semana."
+   ],
+   "answer": 1,
+   "evidence": "acostarse y levantarse a la misma hora todos los días, también los fines de semana"
+  },
+  {
+   "q": "Según el texto, una siesta de dos horas…",
+   "options": [
+    "mejora la concentración por la tarde.",
+    "es una buena aliada contra el cansancio.",
+    "puede dificultar el sueño por la noche."
+   ],
+   "answer": 2,
+   "evidence": "una siesta de dos horas puede hacer que por la noche nos cueste mucho más dormirnos"
+  },
+  {
+   "q": "¿Qué han conseguido algunas empresas con sus nuevas medidas?",
+   "options": [
+    "Que los empleados trabajen más horas.",
+    "Que haya menos bajas y más satisfacción.",
+    "Que nadie envíe correos electrónicos."
+   ],
+   "answer": 1,
+   "evidence": "menos bajas por enfermedad y empleados más contentos"
+  }
+ ]
+}

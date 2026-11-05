@@ -1,0 +1,88 @@
+{
+ "id": "read-mcq-02",
+ "unit": 2,
+ "taskFormat": "read-mcq",
+ "topic": "estudiar en el extranjero",
+ "title": "Un año fuera: lo que no aparece en el folleto",
+ "text": [
+  "Cada curso, más de cuarenta mil estudiantes españoles hacen las maletas para pasar un semestre o un año entero en una universidad extranjera. Las fotos que publican en las redes sociales suelen mostrar fiestas, viajes de fin de semana y paisajes espectaculares. Pero quien ha vivido la experiencia sabe que la realidad es más complicada y, muchas veces, más interesante.",
+  "Lucía Gómez estudió el tercer año de Periodismo en Lyon. «Los primeros días fueron durísimos», recuerda. «Había estudiado francés en el instituto y pensaba que me defendía bien, pero en clase los profesores hablaban rapidísimo y no entendía casi nada. Me sentaba al fondo y grababa las clases con el móvil para escucharlas otra vez por la noche». Según Lucía, el idioma mejoró de verdad cuando dejó de pasar todo el tiempo con otros estudiantes españoles. «Al principio es cómodo, porque compartes los mismos problemas, pero así no aprendes. En febrero me apunté a un equipo de baloncesto de la universidad y ahí empecé a hablar francés de verdad».",
+  "El alojamiento es otro de los grandes retos. En muchas ciudades europeas encontrar una habitación a un precio razonable es casi una misión imposible, y hay estudiantes que pasan las primeras semanas en albergues. Los expertos recomiendan empezar a buscar con al menos tres meses de antelación y desconfiar de los anuncios que piden dinero antes de ver el piso. «A una compañera mía la estafaron: pagó la fianza por internet y el piso no existía», cuenta Lucía.",
+  "Tampoco hay que olvidar la parte económica. Las becas ayudan, pero rara vez cubren todos los gastos, y el dinero suele llegar con retraso. Por eso muchas familias tienen que adelantar varios meses de alquiler. Algunos estudiantes buscan un trabajo a tiempo parcial en el país de destino, aunque no siempre es fácil compaginarlo con las clases y los exámenes.",
+  "A pesar de todo, casi todos los que vuelven aseguran que repetirían. Diego Martín, que pasó un año en Polonia estudiando Ingeniería, cree que lo más valioso no fue lo que aprendió en la universidad. «Aprendí a resolver problemas yo solo: abrir una cuenta en el banco, ir al médico en otro idioma, organizar mi propio dinero. En casa de mis padres no había tenido que hacer nada de eso». Las empresas parecen valorar también esa experiencia: según una encuesta reciente, siete de cada diez responsables de recursos humanos consideran positivo que un candidato haya estudiado en el extranjero.",
+  "El regreso, curiosamente, puede ser tan difícil como la llegada. Muchos estudiantes hablan de un «choque cultural inverso»: después de meses de independencia, volver a la rutina de antes produce una sensación extraña. «Mis amigos seguían haciendo lo mismo y yo sentía que había cambiado muchísimo. Durante unas semanas no sabía muy bien dónde estaba mi sitio», reconoce Lucía.",
+  "Para quien esté pensando en irse, ella tiene un consejo claro: «No vayas solo a pasarlo bien ni solo a estudiar. Ve con la mente abierta y acepta que habrá días malos. Los días malos también enseñan». Diego añade otro más práctico: «Lleva siempre fotocopias de todos tus documentos. Te ahorrarán muchos disgustos»."
+ ],
+ "questions": [
+  {
+   "q": "Según el primer párrafo, las fotos de las redes sociales…",
+   "options": [
+    "muestran solo una parte de la experiencia.",
+    "reflejan fielmente la vida de los estudiantes.",
+    "suelen mostrar los problemas del alojamiento."
+   ],
+   "answer": 0,
+   "evidence": "la realidad es más complicada y, muchas veces, más interesante"
+  },
+  {
+   "q": "Al principio de su estancia en Lyon, Lucía…",
+   "options": [
+    "entendía bien a los profesores gracias al instituto.",
+    "tenía muchas dificultades para seguir las clases.",
+    "prefería sentarse en primera fila."
+   ],
+   "answer": 1,
+   "evidence": "en clase los profesores hablaban rapidísimo y no entendía casi nada"
+  },
+  {
+   "q": "¿Qué ayudó más a Lucía a mejorar su francés?",
+   "options": [
+    "Pasar tiempo con estudiantes españoles.",
+    "Escuchar las grabaciones de las clases.",
+    "Participar en una actividad deportiva."
+   ],
+   "answer": 2,
+   "evidence": "me apunté a un equipo de baloncesto de la universidad y ahí empecé a hablar francés de verdad"
+  },
+  {
+   "q": "Sobre el alojamiento, los expertos aconsejan…",
+   "options": [
+    "pagar la fianza cuanto antes por internet.",
+    "empezar a buscar con mucho tiempo.",
+    "quedarse en un albergue todo el curso."
+   ],
+   "answer": 1,
+   "evidence": "empezar a buscar con al menos tres meses de antelación"
+  },
+  {
+   "q": "En cuanto al dinero, el texto dice que las becas…",
+   "options": [
+    "normalmente no pagan todos los gastos.",
+    "llegan siempre antes de empezar el curso.",
+    "hacen innecesario trabajar."
+   ],
+   "answer": 0,
+   "evidence": "rara vez cubren todos los gastos"
+  },
+  {
+   "q": "Para Diego, lo más importante del año en Polonia fue…",
+   "options": [
+    "lo que aprendió en Ingeniería.",
+    "aprender a ser independiente.",
+    "conseguir trabajo en una empresa polaca."
+   ],
+   "answer": 1,
+   "evidence": "Aprendí a resolver problemas yo solo"
+  },
+  {
+   "q": "El «choque cultural inverso» se refiere a…",
+   "options": [
+    "las dificultades de los primeros días fuera.",
+    "la sensación rara al volver a casa.",
+    "los problemas con los amigos extranjeros."
+   ],
+   "answer": 1,
+   "evidence": "volver a la rutina de antes produce una sensación extraña"
+  }
+ ]
+}

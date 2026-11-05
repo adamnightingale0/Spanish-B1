@@ -1,0 +1,146 @@
+{
+ "id": "listen-interview-01",
+ "unit": 2,
+ "taskFormat": "listen-interview",
+ "title": "Entrevista: de abogada a panadera",
+ "voiceRate": 1,
+ "context": "Vas a escuchar una entrevista de radio con Teresa Vidal, que dejó su trabajo de abogada para abrir una panadería.",
+ "script": [
+  {
+   "speaker": "Entrevistador",
+   "line": "Buenas tardes, Teresa, y bienvenida al programa."
+  },
+  {
+   "speaker": "Teresa",
+   "line": "Buenas tardes, muchas gracias por invitarme."
+  },
+  {
+   "speaker": "Entrevistador",
+   "line": "Usted trabajó durante doce años como abogada en un bufete muy conocido de Madrid. ¿Cuándo decidió cambiar de vida?"
+  },
+  {
+   "speaker": "Teresa",
+   "line": "Pues fue poco a poco. Ganaba un buen sueldo, pero trabajaba once o doce horas al día y casi no veía a mi familia. Un día me di cuenta de que solo era feliz los domingos, cuando hacía pan en casa con mis hijos."
+  },
+  {
+   "speaker": "Entrevistador",
+   "line": "¿Y cómo reaccionó su entorno cuando dijo que iba a dejar el derecho?"
+  },
+  {
+   "speaker": "Teresa",
+   "line": "Mi marido me apoyó desde el primer momento. Mis padres, en cambio, pensaban que me había vuelto loca. Mi madre me decía: «Con lo que te costó estudiar la carrera…»."
+  },
+  {
+   "speaker": "Entrevistador",
+   "line": "¿Tenía alguna formación como panadera?"
+  },
+  {
+   "speaker": "Teresa",
+   "line": "Ninguna profesional. Por eso, antes de abrir, hice un curso de un año en una escuela de panadería de Barcelona y luego trabajé seis meses en un obrador de Valencia, levantándome a las tres de la mañana."
+  },
+  {
+   "speaker": "Entrevistador",
+   "line": "Y en 2021 abrió su propio negocio en Sevilla. ¿Por qué Sevilla?"
+  },
+  {
+   "speaker": "Teresa",
+   "line": "Mi marido es sevillano y siempre habíamos querido volver. Además, aquí los locales eran mucho más baratos que en Madrid."
+  },
+  {
+   "speaker": "Entrevistador",
+   "line": "¿Cómo fueron los comienzos?"
+  },
+  {
+   "speaker": "Teresa",
+   "line": "Muy duros. El primer año casi no tuvimos beneficios y pensé muchas veces en cerrar. Lo que nos salvó fue el boca a boca: los vecinos empezaron a recomendarnos y en dos años la clientela se triplicó."
+  },
+  {
+   "speaker": "Entrevistador",
+   "line": "¿Echa de menos algo de su vida anterior?"
+  },
+  {
+   "speaker": "Teresa",
+   "line": "Echo de menos a algunos compañeros, eso sí. Pero no echo de menos las reuniones interminables ni el estrés. Ahora también trabajo mucho, pero es un cansancio diferente, más sano."
+  },
+  {
+   "speaker": "Entrevistador",
+   "line": "Para terminar, ¿qué le diría a alguien que está pensando en cambiar de profesión?"
+  },
+  {
+   "speaker": "Teresa",
+   "line": "Que lo piense bien, que ahorre antes de dar el paso y que se forme. Los sueños están muy bien, pero hay que prepararlos."
+  }
+ ],
+ "questions": [
+  {
+   "q": "¿Por qué decidió Teresa dejar la abogacía?",
+   "options": [
+    "Porque ganaba poco dinero.",
+    "Porque tenía poco tiempo para su familia.",
+    "Porque la despidieron del bufete."
+   ],
+   "answer": 1,
+   "evidence": "trabajaba once o doce horas al día y casi no veía a mi familia"
+  },
+  {
+   "q": "¿Cómo reaccionaron sus padres?",
+   "options": [
+    "La apoyaron desde el principio.",
+    "No estaban de acuerdo con su decisión.",
+    "Le ofrecieron dinero para el negocio."
+   ],
+   "answer": 1,
+   "evidence": "Mis padres, en cambio, pensaban que me había vuelto loca."
+  },
+  {
+   "q": "Antes de abrir la panadería, Teresa…",
+   "options": [
+    "no tenía ninguna experiencia práctica.",
+    "estudió y trabajó en el sector.",
+    "trabajó doce años en un obrador."
+   ],
+   "answer": 1,
+   "evidence": "hice un curso de un año en una escuela de panadería de Barcelona y luego trabajé seis meses en un obrador de Valencia"
+  },
+  {
+   "q": "Eligió Sevilla, entre otras razones, porque…",
+   "options": [
+    "los alquileres eran más bajos.",
+    "allí vivían sus padres.",
+    "había menos panaderías."
+   ],
+   "answer": 0,
+   "evidence": "aquí los locales eran mucho más baratos que en Madrid"
+  },
+  {
+   "q": "El primer año del negocio…",
+   "options": [
+    "fue un gran éxito.",
+    "estuvo a punto de cerrarlo.",
+    "tuvo el triple de clientes."
+   ],
+   "answer": 1,
+   "evidence": "pensé muchas veces en cerrar"
+  },
+  {
+   "q": "¿Qué ayudó a que el negocio creciera?",
+   "options": [
+    "La publicidad en las redes sociales.",
+    "Las recomendaciones de los vecinos.",
+    "Un premio de panadería."
+   ],
+   "answer": 1,
+   "evidence": "los vecinos empezaron a recomendarnos"
+  },
+  {
+   "q": "¿Qué consejo da Teresa a quien quiere cambiar de profesión?",
+   "options": [
+    "Que siga sus sueños sin pensarlo mucho.",
+    "Que se prepare bien y ahorre antes.",
+    "Que no deje nunca un trabajo seguro."
+   ],
+   "answer": 1,
+   "evidence": "que ahorre antes de dar el paso y que se forme"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "id": "listen-reply-02",
+ "unit": 0,
+ "taskFormat": "listen-reply",
+ "title": "Mensajes y comentarios (2)",
+ "voiceRate": 1,
+ "items": [
+  {
+   "speaker": "M",
+   "script": "Hola, soy Pablo, tu vecino del tercero. Mañana vienen a arreglar las tuberías y tendremos que cortar el agua por la mañana. Lo siento mucho.",
+   "options": [
+    "No pasa nada, gracias por avisar.",
+    "¡Qué bien! Me encanta el agua.",
+    "Sí, vivo en el tercero."
+   ],
+   "answer": 0,
+   "why": "A neighbour apologises in advance → thank him for warning you."
+  },
+  {
+   "speaker": "F",
+   "script": "He perdido el autobús y el siguiente tarda cuarenta minutos. Creo que voy a llegar tarde a la reunión.",
+   "options": [
+    "No te preocupes, empezamos sin ti y luego te lo cuento.",
+    "¡Qué suerte has tenido!",
+    "El autobús es muy cómodo."
+   ],
+   "answer": 0,
+   "why": "She'll be late → reassure and offer a solution."
+  },
+  {
+   "speaker": "M",
+   "script": "¿Me puedes recomendar algún restaurante por aquí cerca? Busco algo tranquilo y que no sea muy caro.",
+   "options": [
+    "Sí, hay uno muy bueno en la esquina, y de precio está bien.",
+    "No, no tengo hambre.",
+    "Sí, cocino muy bien."
+   ],
+   "answer": 0,
+   "why": "He asks for a recommendation → recommend a place."
+  },
+  {
+   "speaker": "F",
+   "script": "Ayer fui a ver la película que me recomendaste y, la verdad, me pareció un rollo. Me quedé dormida a la mitad.",
+   "options": [
+    "¿En serio? Pues a mí me encantó.",
+    "¡Que duermas bien!",
+    "Sí, mañana vamos al cine."
+   ],
+   "answer": 0,
+   "why": "She didn't like it → react with surprise and give your view."
+  },
+  {
+   "speaker": "M",
+   "script": "Lo siento muchísimo, pero se me ha caído tu libro en la piscina. Te compro otro, ¿vale?",
+   "options": [
+    "Vale, no te preocupes, son cosas que pasan.",
+    "¡Enhorabuena por la piscina!",
+    "No, no sé nadar."
+   ],
+   "answer": 0,
+   "why": "He apologises → accept the apology."
+  },
+  {
+   "speaker": "F",
+   "script": "Me voy de viaje a Japón tres semanas y no tengo a nadie que cuide de mis plantas. ¿Tú podrías pasarte de vez en cuando?",
+   "options": [
+    "Claro, dame las llaves y me paso un par de veces por semana.",
+    "¡Qué envidia! Yo también quiero ir a Japón.",
+    "No, no me gustan los viajes largos."
+   ],
+   "answer": 0,
+   "why": "A request for help → agree and say how."
+  }
+ ]
+}

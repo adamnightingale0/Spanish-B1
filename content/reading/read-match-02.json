@@ -1,0 +1,100 @@
+{
+ "id": "read-match-02",
+ "unit": 1,
+ "taskFormat": "read-match",
+ "topic": "tiempo libre en la ciudad",
+ "title": "Cursos de otoño en el centro cívico",
+ "instruction": "Lee los anuncios de ocho cursos y los perfiles de diez personas. Elige el curso más adecuado para cada persona. Hay dos personas que no tienen curso.",
+ "profiles": [
+  {
+   "id": "A",
+   "text": "Inés trabaja de lunes a viernes hasta las ocho de la tarde y solo tiene libres los sábados por la mañana."
+  },
+  {
+   "id": "B",
+   "text": "Rafael se ha mudado a Sevilla y quiere conocer gente del barrio mientras hace algo con las manos."
+  },
+  {
+   "id": "C",
+   "text": "Nuria tiene un bebé de seis meses y busca una actividad a la que pueda ir con él."
+  },
+  {
+   "id": "D",
+   "text": "Óscar quiere aprender a hacer fotos mejores con su móvil para su blog de viajes."
+  },
+  {
+   "id": "E",
+   "text": "Pilar tiene 72 años y nunca ha usado un ordenador, pero quiere hacer videollamadas con sus nietos."
+  },
+  {
+   "id": "F",
+   "text": "Samuel es estudiante, no tiene mucho dinero y quiere mejorar su inglés hablando."
+  },
+  {
+   "id": "G",
+   "text": "Alicia tiene problemas de espalda por pasar muchas horas sentada en la oficina."
+  },
+  {
+   "id": "H",
+   "text": "Marcos quiere aprender a tocar un instrumento, pero no sabe leer música."
+  },
+  {
+   "id": "I",
+   "text": "Beatriz quiere aprender a preparar platos sin carne para toda su familia."
+  },
+  {
+   "id": "J",
+   "text": "Hugo busca una actividad al aire libre para hacer deporte en grupo los domingos."
+  }
+ ],
+ "texts": [
+  {
+   "title": "Cerámica para principiantes",
+   "text": "Aprende a hacer tus propios platos y tazas mientras compartes mesa con otros vecinos. Grupos pequeños y muy buen ambiente. Martes y jueves, de 18:00 a 20:00.",
+   "answer": "B",
+   "evidence": "mientras compartes mesa con otros vecinos"
+  },
+  {
+   "title": "Ordenador sin miedo",
+   "text": "Curso para mayores de 65 que empiezan desde cero: encender el ordenador, usar el correo y hablar con la familia por vídeo. Profesores con mucha paciencia.",
+   "answer": "E",
+   "evidence": "hablar con la familia por vídeo"
+  },
+  {
+   "title": "Intercambio de idiomas",
+   "text": "Cada miércoles, estudiantes extranjeros y vecinos se reúnen para conversar media hora en español y media hora en inglés. Actividad gratuita, sin inscripción.",
+   "answer": "F",
+   "evidence": "Actividad gratuita, sin inscripción."
+  },
+  {
+   "title": "Guitarra de oído",
+   "text": "¿Nunca has tocado? Aprenderás tus primeras canciones sin partituras, solo escuchando y repitiendo. Trae tu guitarra o usa una de las nuestras.",
+   "answer": "H",
+   "evidence": "sin partituras, solo escuchando y repitiendo"
+  },
+  {
+   "title": "Espalda sana",
+   "text": "Ejercicios suaves para corregir la postura y aliviar los dolores de espalda, especialmente pensados para personas que trabajan sentadas.",
+   "answer": "G",
+   "evidence": "especialmente pensados para personas que trabajan sentadas"
+  },
+  {
+   "title": "Masaje y canciones",
+   "text": "Un espacio para madres y padres con bebés de 3 a 12 meses: masaje infantil, canciones y juegos. Ven con tu bebé y una toalla.",
+   "answer": "C",
+   "evidence": "Ven con tu bebé y una toalla."
+  },
+  {
+   "title": "Fotografía con el móvil",
+   "text": "Luz, encuadre y edición sin aplicaciones caras: consigue fotos de viaje dignas de una revista. Sábados de 10:00 a 13:00.",
+   "answer": "D",
+   "evidence": "consigue fotos de viaje dignas de una revista"
+  },
+  {
+   "title": "Cocina vegetariana en familia",
+   "text": "Recetas sencillas y nutritivas sin carne ni pescado que gustan a niños y adultos. Cada semana cocinamos y comemos juntos.",
+   "answer": "I",
+   "evidence": "Recetas sencillas y nutritivas sin carne ni pescado que gustan a niños y adultos."
+  }
+ ]
+}

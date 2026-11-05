@@ -1,0 +1,100 @@
+{
+ "id": "read-match-01",
+ "unit": 4,
+ "taskFormat": "read-match",
+ "topic": "libros",
+ "title": "Novedades de la librería",
+ "instruction": "Lee las reseñas de ocho libros y los perfiles de diez personas. Elige el libro más adecuado para cada persona. Hay dos personas que no tienen libro.",
+ "profiles": [
+  {
+   "id": "A",
+   "text": "Marta tiene 9 años, le encantan los animales y está empezando a leer libros sin dibujos."
+  },
+  {
+   "id": "B",
+   "text": "Javier es cocinero y quiere conocer la historia de los platos tradicionales de España."
+  },
+  {
+   "id": "C",
+   "text": "Rosa acaba de jubilarse y busca una novela larga y tranquila para leer en la playa."
+  },
+  {
+   "id": "D",
+   "text": "Andrés viaja mucho por trabajo y prefiere libros de relatos cortos que pueda leer en el avión."
+  },
+  {
+   "id": "E",
+   "text": "Lucía estudia Psicología y le interesa entender por qué tomamos malas decisiones."
+  },
+  {
+   "id": "F",
+   "text": "Pablo es aficionado a las novelas policíacas, sobre todo si están ambientadas en ciudades que conoce."
+  },
+  {
+   "id": "G",
+   "text": "Elena quiere empezar a correr y necesita consejos prácticos para no lesionarse."
+  },
+  {
+   "id": "H",
+   "text": "Tomás tiene 16 años y odia leer, pero le gustan los cómics y las historias de ciencia ficción."
+  },
+  {
+   "id": "I",
+   "text": "Carmen va a mudarse a un piso pequeño y quiere ideas para organizar mejor su casa."
+  },
+  {
+   "id": "J",
+   "text": "Luis está aprendiendo inglés y busca un libro bilingüe con historias sencillas."
+  }
+ ],
+ "texts": [
+  {
+   "title": "El misterio de la calle Feria",
+   "text": "Una inspectora recién llegada a Sevilla investiga la desaparición de un anticuario en el barrio de la Macarena. Los lectores reconocerán bares, mercados y plazas reales de la ciudad.",
+   "answer": "F",
+   "evidence": "Los lectores reconocerán bares, mercados y plazas reales de la ciudad."
+  },
+  {
+   "title": "La perrita que no sabía ladrar",
+   "text": "Lola es una perrita muy especial: en lugar de ladrar, canta. Una historia divertida en capítulos cortos, con letra grande, pensada para los primeros lectores que ya no necesitan ilustraciones.",
+   "answer": "A",
+   "evidence": "pensada para los primeros lectores que ya no necesitan ilustraciones"
+  },
+  {
+   "title": "Planeta Rojo",
+   "text": "Una novela gráfica llena de acción: en el año 2190, un grupo de adolescentes intenta sobrevivir en la primera colonia de Marte. Ideal para quienes dicen que «los libros son un rollo».",
+   "answer": "H",
+   "evidence": "Una novela gráfica llena de acción"
+  },
+  {
+   "title": "Diez minutos de viaje",
+   "text": "Veinte cuentos breves de autores jóvenes, ninguno de más de diez páginas. Se pueden leer en cualquier orden, en un tren o en una sala de espera.",
+   "answer": "D",
+   "evidence": "ninguno de más de diez páginas"
+  },
+  {
+   "title": "Del cocido al gazpacho",
+   "text": "Un recorrido por el origen de la cocina española: de dónde viene cada ingrediente, cómo cambiaron las recetas con los siglos y qué comían nuestros abuelos.",
+   "answer": "B",
+   "evidence": "Un recorrido por el origen de la cocina española"
+  },
+  {
+   "title": "La casa de los cuatro veranos",
+   "text": "Más de setecientas páginas para seguir a una familia que se reúne cada agosto en una casa junto al mar. Una lectura sin prisas, perfecta para las vacaciones.",
+   "answer": "C",
+   "evidence": "Una lectura sin prisas, perfecta para las vacaciones."
+  },
+  {
+   "title": "Menos es más",
+   "text": "Cómo ganar espacio en casa: muebles que sirven para dos cosas, trucos para guardar la ropa y consejos para deshacerse de lo que no necesitamos.",
+   "answer": "I",
+   "evidence": "Cómo ganar espacio en casa"
+  },
+  {
+   "title": "El cerebro tramposo",
+   "text": "Un ensayo ameno, escrito por una investigadora, sobre los errores que comete nuestra mente al decidir: por qué compramos cosas que no necesitamos o por qué confiamos en la primera impresión.",
+   "answer": "E",
+   "evidence": "sobre los errores que comete nuestra mente al decidir"
+  }
+ ]
+}

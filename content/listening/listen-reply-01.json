@@ -1,0 +1,75 @@
+{
+ "id": "listen-reply-01",
+ "unit": 0,
+ "taskFormat": "listen-reply",
+ "title": "Mensajes y comentarios (1)",
+ "voiceRate": 1,
+ "items": [
+  {
+   "speaker": "F",
+   "script": "Oye, ¿sabes qué? Al final me han dado el trabajo en la agencia de viajes. Empiezo el lunes y todavía no me lo creo.",
+   "options": [
+    "¡Qué pena! Otra vez será.",
+    "¡Enhorabuena! Te lo mereces.",
+    "¡Que aproveche!"
+   ],
+   "answer": 1,
+   "why": "Good news (a new job) → congratulate: ¡Enhorabuena!"
+  },
+  {
+   "speaker": "M",
+   "script": "Perdona, es que llevo veinte minutos esperando y el camarero no me ha traído la cuenta. ¿Tú sabes si aquí se paga en la barra?",
+   "options": [
+    "Sí, creo que tienes que pagar dentro.",
+    "No, gracias, ya he comido.",
+    "Sí, la barra es de madera."
+   ],
+   "answer": 0,
+   "why": "He asks if you pay at the bar → answer about how to pay."
+  },
+  {
+   "speaker": "F",
+   "script": "Mañana tengo el examen de conducir y estoy nerviosísima. Llevo toda la semana sin dormir bien.",
+   "options": [
+    "¡Que te mejores!",
+    "Tranquila, seguro que te sale muy bien.",
+    "Pues yo conduzco desde los dieciocho."
+   ],
+   "answer": 1,
+   "why": "She's nervous about an exam → reassure her."
+  },
+  {
+   "speaker": "M",
+   "script": "¿Te importa si abro un poco la ventana? Es que aquí dentro hace un calor horrible.",
+   "options": [
+    "No, claro, ábrela.",
+    "Sí, hace mucho frío.",
+    "No, la ventana es nueva."
+   ],
+   "answer": 0,
+   "why": "¿Te importa si…? asks permission → No, claro (no me importa)."
+  },
+  {
+   "speaker": "F",
+   "script": "Mi abuela ha estado en el hospital toda la semana, pero ya está en casa y se encuentra mucho mejor.",
+   "options": [
+    "¡Qué susto! Me alegro de que esté bien.",
+    "¡Que lo pases bien en el hospital!",
+    "Pues mi abuela vive en Málaga."
+   ],
+   "answer": 0,
+   "why": "Bad news with a good ending → show relief: Me alegro de que esté bien."
+  },
+  {
+   "speaker": "M",
+   "script": "Este sábado celebro mi cumpleaños en casa. Si quieres venir, trae algo de beber y avísame antes del jueves.",
+   "options": [
+    "¡Feliz cumpleaños! ¿Cuántos cumples?",
+    "¡Genial! Te confirmo mañana.",
+    "No, el jueves no puedo trabajar."
+   ],
+   "answer": 1,
+   "why": "An invitation with a deadline → accept and say when you'll confirm."
+  }
+ ]
+}

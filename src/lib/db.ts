@@ -50,6 +50,26 @@ const attemptsStore = createStore('b1-attempts', 'attempts');
 const metaStore = createStore('b1-meta', 'meta');
 const srsStore = createStore('b1-srs', 'srs');
 const bookStore = createStore('b1-book', 'book');
+const skillStore = createStore('b1-skills', 'results');
+
+/** One completed reading or listening task. */
+export interface SkillResult {
+  key: string;
+  taskId: string;
+  skill: 'reading' | 'listening';
+  format: string;
+  correct: number;
+  total: number;
+  timed: boolean;
+  paper?: boolean; // part of a full timed paper
+  ms: number;
+  ts: number;
+  answers: (string | number | null)[];
+}
+export async function loadSkillResults(): Promise<SkillResult[]> {
+  return (await entries<string, SkillResult>(skillStore)).map(([, v]) => v).sort((a, b) => a.ts - b.ts);
+}
+export const saveSkillResult = (r: SkillResult) => set(r.key, r, skillStore);
 
 /** Spaced-repetition state for one vocabulary card (FSRS card serialised with dates as ISO strings). */
 export interface SrsRecord {
@@ -99,6 +119,7 @@ export interface Backup {
   settings: Settings;
   attempts: Attempt[];
   srs?: SrsRecord[];
+  skills?: SkillResult[];
 }
 
 export async function exportBackup(): Promise<Backup> {
@@ -108,7 +129,8 @@ export async function exportBackup(): Promise<Backup> {
     exportedAt: new Date().toISOString(),
     settings: await loadSettings(),
     attempts: await loadAttempts(),
-    srs: await loadSrs()
+    srs: await loadSrs(),
+    skills: await loadSkillResults()
   };
 }
 
@@ -117,6 +139,7 @@ export async function importBackup(data: unknown): Promise<number> {
   if (!b || b.app !== 'spanish-b1-practice' || !Array.isArray(b.attempts)) throw new Error('This file is not a Spanish B1 Practice backup.');
   await setMany(b.attempts.map((a) => [a.key, a]), attemptsStore);
   if (Array.isArray(b.srs)) await setMany(b.srs.map((r) => [r.cardId, r]), srsStore);
+  if (Array.isArray(b.skills)) await setMany(b.skills.map((r) => [r.key, r]), skillStore);
   await saveSettings({ ...DEFAULT_SETTINGS, ...b.settings });
   return b.attempts.length;
 }
@@ -125,4 +148,5 @@ export async function resetAll() {
   await clear(attemptsStore);
   await clear(metaStore);
   await clear(srsStore);
+  await clear(skillStore);
 }
