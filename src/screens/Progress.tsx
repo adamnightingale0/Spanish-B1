@@ -59,13 +59,13 @@ export function Progress() {
 
       <h2>Destrezas</h2>
       <div class="card">
-        {(['reading', 'listening'] as const).map((sk) => {
+        {(['reading', 'listening', 'writing'] as const).map((sk) => {
           const e = skillEstimate(app.skills, sk);
           const v = e.pct;
           return (
             <div style={{ margin: '8px 0' }} onClick={() => navigate(sk)}>
               <div class="row spread small">
-                <span>{sk === 'reading' ? 'Lectura' : 'Audición'}</span>
+                <span>{sk === 'reading' ? 'Lectura' : sk === 'listening' ? 'Audición' : 'Escritura'}</span>
                 <span class="muted">{v === null ? 'sin datos' : `${Math.round(v * 100)} % · ${e.n} tareas`}</span>
               </div>
               <div class={`bar skill-bar ${v === null ? 'none' : v >= 0.6 ? '' : v >= 0.5 ? 'mid' : 'low'}`}>
@@ -76,7 +76,24 @@ export function Progress() {
             </div>
           );
         })}
-        <p class="tiny muted">Línea fina: 50 % (mínimo para aprobar) · línea gruesa: 60 % (margen de seguridad).</p>
+        <p class="tiny muted">Línea fina: 50 % (mínimo para aprobar) · línea gruesa: 60 % (margen de seguridad). Escritura: autoevaluación, con descuento si faltan puntos o palabras.</p>
+        {app.exams.filter((e) => e.kind === 'weekly').length > 0 && (
+          <>
+            <b class="small">Evolución (controles semanales)</b>
+            <div class="weekbars">
+              {app.exams
+                .filter((e) => e.kind === 'weekly')
+                .slice(-8)
+                .map((e) => (
+                  <div class="wb">
+                    <span>{Math.round(e.overall * 100)}</span>
+                    <i style={{ height: `${e.overall * 80}%` }} />
+                    <span>{new Date(e.ts).getDate()}/{new Date(e.ts).getMonth() + 1}</span>
+                  </div>
+                ))}
+            </div>
+          </>
+        )}
         {app.skills.slice(-5).reverse().map((r) => (
           <div class="row spread tiny" style={{ borderTop: '1px solid var(--line)', padding: '4px 0' }}>
             <span>

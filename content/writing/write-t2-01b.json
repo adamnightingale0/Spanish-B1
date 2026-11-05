@@ -1,0 +1,57 @@
+{
+ "id": "write-t2-01b",
+ "set": 1,
+ "examTask": 2,
+ "genre": "relato para una revista",
+ "register": "neutro",
+ "title": "Una persona que cambió mi vida",
+ "prompt": "Una revista ha convocado un concurso de relatos con el título «La persona que cambió mi vida». Escribe tu historia para participar.",
+ "contentPoints": [
+  "Quién es esa persona y cómo la conociste.",
+  "Cómo era tu vida en aquel momento.",
+  "Qué pasó y qué hizo esa persona por ti.",
+  "Cómo ha cambiado tu vida desde entonces."
+ ],
+ "targets": [
+  {
+   "label": "Pretérito indefinido (2 veces)",
+   "pattern": "(?:^|[^\\p{L}])(?:fui|fue|fuimos|fueron|estuve|estuvo|estuvimos|tuve|tuvo|tuvimos|hice|hizo|hicimos|pude|pudo|dije|dijo|vine|vino|vi|vio|di|dio|\\p{L}{2,}(?:é|ó|aron|ieron|aste|iste|asteis|isteis))(?![\\p{L}])",
+   "min": 2,
+   "distinct": false
+  },
+  {
+   "label": "Pretérito imperfecto (2 veces)",
+   "pattern": "(?:^|[^\\p{L}])(?:era|eran|éramos|iba|iban|íbamos|había|\\p{L}{2,}(?:aba|abas|ábamos|aban|ía|ías|íamos|ían))(?![\\p{L}])",
+   "min": 2,
+   "distinct": false
+  },
+  {
+   "label": "Conectores de relato (de repente, al final, entonces…)",
+   "pattern": "(?:^|[^\\p{L}])(?:de repente|de pronto|al final|al principio|entonces|un día|al día siguiente|en ese momento|por fin)(?![\\p{L}])",
+   "min": 2,
+   "distinct": true
+  },
+  {
+   "label": "Pretérito perfecto",
+   "pattern": "(?:^|[^\\p{L}])(?:he|has|ha|hemos|habéis|han) \\p{L}+(?:ado|ido|to|cho|so)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  }
+ ],
+ "usefulPhrases": [
+  "Todo empezó cuando…",
+  "Recuerdo que aquel día…",
+  "De repente, …",
+  "En ese momento me di cuenta de que…",
+  "Al final, …",
+  "Desde entonces, …",
+  "Nunca olvidaré…"
+ ],
+ "modelAnswer": "Conocí a Rosa en 2019, cuando empecé a trabajar en una librería de Londres. Yo tenía veintitrés años, vivía solo y no sabía qué quería hacer con mi vida. Rosa era la encargada: una mujer de sesenta años, sevillana, que hablaba muy rápido y se reía muchísimo. Un día me vio leyendo un libro en español y me preguntó si me gustaba el idioma. Le dije que sí, pero que nunca lo había estudiado en serio. Entonces me propuso un trato: ella me enseñaba español en la hora de la comida y yo la ayudaba con el ordenador. Durante dos años comimos juntos casi todos los días. Al final, me animó a solicitar un trabajo en Sevilla. Desde entonces vivo aquí, nunca he dejado de estudiar y, cada vez que paso por una librería, me acuerdo de ella.",
+ "unit": 0,
+ "taskFormat": "write-choice",
+ "wordRange": [
+  120,
+  150
+ ]
+}

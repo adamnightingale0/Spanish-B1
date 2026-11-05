@@ -166,7 +166,7 @@ export function TaskPage({ id }: { id: string }) {
  * Full paper: one task of each format. Reading: 60 minutes, free to move between tasks, corrected at
  * the end. Listening: the three tasks in a row with exam timing, no going back.
  */
-export function PaperPage({ skill }: { skill: SkillId }) {
+export function PaperPage({ skill, onComplete }: { skill: SkillId; onComplete?: (fraction: number) => void }) {
   const app = useApp();
   const [tasks] = useState(() => pickPaper(app.skills, skill));
   const [answers, setAnswers] = useState<Answer[][]>(() => tasks.map((t) => Array(itemsOf(t)).fill(null)));
@@ -183,8 +183,13 @@ export function PaperPage({ skill }: { skill: SkillId }) {
     const now = Date.now();
     tasks.forEach((t, i) => {
       const g = grade(t, final[i]);
-      app.addSkillResult({ key: `${now + i}-${t.id}`, taskId: t.id, skill, format: t.taskFormat, correct: g.correct, total: g.total, timed: true, paper: true, ms: now - (startedAt ?? now), ts: now + i, answers: final[i] });
+      app.addSkillResult({ key: `${now + i}-${t.id}`, taskId: t.id, skill, format: t.taskFormat, correct: g.correct, total: g.total, timed: true, paper: true, mock: !!onComplete, ms: now - (startedAt ?? now), ts: now + i, answers: final[i] });
     });
+    if (onComplete) {
+      const gs = tasks.map((t, i) => grade(t, final[i]));
+      onComplete(gs.reduce((s, g) => s + g.correct, 0) / gs.reduce((s, g) => s + g.total, 0));
+      return;
+    }
     setDone(true);
     window.scrollTo(0, 0);
   }
@@ -192,10 +197,12 @@ export function PaperPage({ skill }: { skill: SkillId }) {
   if (!startedAt) {
     return (
       <div class="screen no-tabs">
-        <a class="btn btn-ghost" href={`#/${skill}`} style={{ paddingLeft: 0 }}>
-          ‹ Volver
-        </a>
-        <h1>Prueba completa</h1>
+        {!onComplete && (
+          <a class="btn btn-ghost" href={`#/${skill}`} style={{ paddingLeft: 0 }}>
+            ‹ Volver
+          </a>
+        )}
+        <h1>{onComplete ? (skill === 'reading' ? 'Prueba 1 · Comprensión de lectura' : 'Prueba 2 · Comprensión auditiva') : 'Prueba completa'}</h1>
         <p class="muted">
           {SKILL_LABEL[skill]} · {PAPER_MINUTES[skill]} minutos · {tasks.reduce((s, t) => s + itemsOf(t), 0)} preguntas
         </p>

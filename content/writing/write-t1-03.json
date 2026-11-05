@@ -1,0 +1,56 @@
+{
+ "id": "write-t1-03",
+ "set": 3,
+ "examTask": 1,
+ "genre": "entrada de foro",
+ "register": "informal",
+ "title": "Mi primer trabajo",
+ "prompt": "En un foro de jóvenes que buscan su primer empleo, la gente cuenta cómo fue su primera experiencia laboral. Escribe tu mensaje para el foro.",
+ "contentPoints": [
+  "Qué trabajo era, dónde y a qué edad lo conseguiste.",
+  "Cómo eran tus compañeros y tu jefe.",
+  "Una anécdota de aquel trabajo.",
+  "Qué te enseñó esa experiencia.",
+  "Un consejo para quien busca su primer trabajo."
+ ],
+ "targets": [
+  {
+   "label": "Pretérito indefinido (2 veces)",
+   "pattern": "(?:^|[^\\p{L}])(?:fui|fue|fuimos|fueron|estuve|estuvo|estuvimos|tuve|tuvo|tuvimos|hice|hizo|hicimos|pude|pudo|dije|dijo|vine|vino|vi|vio|di|dio|\\p{L}{2,}(?:é|ó|aron|ieron|aste|iste|asteis|isteis))(?![\\p{L}])",
+   "min": 2,
+   "distinct": false
+  },
+  {
+   "label": "Pretérito imperfecto (2 veces)",
+   "pattern": "(?:^|[^\\p{L}])(?:era|eran|éramos|iba|iban|íbamos|había|\\p{L}{2,}(?:aba|abas|ábamos|aban|ía|ías|íamos|ían))(?![\\p{L}])",
+   "min": 2,
+   "distinct": false
+  },
+  {
+   "label": "Conectores de relato (de repente, al final, entonces…)",
+   "pattern": "(?:^|[^\\p{L}])(?:de repente|de pronto|al final|al principio|entonces|un día|al día siguiente|en ese momento|por fin)(?![\\p{L}])",
+   "min": 2,
+   "distinct": true
+  },
+  {
+   "label": "Dar un consejo (te aconsejo que…, yo que tú…, deberías…)",
+   "pattern": "(?:^|[^\\p{L}])(?:(?:te|os|le|les) (?:aconsejo|recomiendo|sugiero|propongo) que|yo que tú|yo en tu lugar|deberías|deberíais|es mejor que|no te olvides de)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  }
+ ],
+ "usefulPhrases": [
+  "Mi primer trabajo fue…",
+  "Lo conseguí gracias a…",
+  "Me acuerdo de que una vez…",
+  "Aprendí que…",
+  "Si estáis buscando trabajo, os aconsejo que…"
+ ],
+ "modelAnswer": "¡Hola a todos! Mi primer trabajo fue de camarero en una cafetería de Brighton, cuando tenía diecisiete años. Lo conseguí porque el dueño era amigo de mi padre. Mis compañeros eran mayores que yo, pero me ayudaron muchísimo desde el primer día. El jefe, en cambio, era bastante serio y no le gustaba nada que llegáramos tarde. Recuerdo que un día, el primer mes, se me cayó una bandeja con seis cafés encima de un cliente. Me quería morir de vergüenza. Pero el señor se rio, me dijo que a él le había pasado lo mismo de joven y al final me dejó una buena propina. Aquel trabajo me enseñó a ser responsable y a mantener la calma. A quienes buscáis vuestro primer empleo os aconsejo que no tengáis miedo de empezar por algo sencillo: todo trabajo enseña algo.",
+ "unit": 0,
+ "taskFormat": "write-compulsory",
+ "wordRange": [
+  120,
+  150
+ ]
+}

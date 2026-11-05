@@ -1,6 +1,6 @@
 import { useEffect, useState, useCallback } from 'preact/hooks';
 import { AppCtx, type AppState, navigate } from './state';
-import { loadAttempts, loadSettings, saveSettings, saveAttempt, requestPersistence, loadSrs, saveSrs, loadBook, loadSkillResults, saveSkillResult, type SkillResult, type Attempt, type Settings, type SrsRecord } from './lib/db';
+import { loadAttempts, loadSettings, saveSettings, saveAttempt, requestPersistence, loadSrs, saveSrs, loadBook, loadSkillResults, saveSkillResult, loadExams, saveExam, type SkillResult, type ExamRecord, type Attempt, type Settings, type SrsRecord } from './lib/db';
 import type { SessionSpec } from './lib/session';
 import { TabBar } from './components/TabBar';
 import { Home } from './screens/Home';
@@ -14,6 +14,9 @@ import { SettingsScreen } from './screens/Settings';
 import { VocabScreen } from './screens/Vocab';
 import { BookViewer, BookOverlay } from './screens/Book';
 import { SkillList, TaskPage, PaperPage } from './screens/Skills';
+import { WritingList, WritingPage } from './screens/Writing';
+import { MockPage } from './screens/Mock';
+import { WeeklyPage } from './screens/Weekly';
 
 function useHashRoute(): string {
   const read = () => location.hash.replace(/^#\/?/, '') || 'home';
@@ -36,12 +39,14 @@ export function App() {
   const [session, setSession] = useState<SessionSpec | null>(null);
   const [srs, setSrs] = useState<SrsRecord[]>([]);
   const [skills, setSkills] = useState<SkillResult[]>([]);
+  const [exams, setExams] = useState<ExamRecord[]>([]);
   const [hasBook, setHasBook] = useState(false);
   const [bookPage, setBookPage] = useState<number | null>(null);
   const [sessionReturn, setSessionReturn] = useState('home');
 
   const reload = useCallback(async () => {
-    const [s, a, r, b, k] = await Promise.all([loadSettings(), loadAttempts(), loadSrs(), loadBook().catch(() => undefined), loadSkillResults()]);
+    const [s, a, r, b, k, ex] = await Promise.all([loadSettings(), loadAttempts(), loadSrs(), loadBook().catch(() => undefined), loadSkillResults(), loadExams()]);
+    setExams(ex);
     setSettings(s);
     setAttempts(a);
     setSrs(r);
@@ -71,6 +76,11 @@ export function App() {
     addSkillResult: (r) => {
       setSkills((prev) => [...prev, r]);
       saveSkillResult(r);
+    },
+    exams,
+    addExam: (e) => {
+      setExams((prev) => [...prev, e]);
+      saveExam(e);
     },
     hasBook,
     setHasBook,
@@ -131,6 +141,21 @@ export function App() {
     case 'reading':
     case 'listening':
       screen = <SkillList key={head} skill={head} />;
+      break;
+    case 'writing':
+      screen = <WritingList />;
+      break;
+    case 'write':
+      screen = <WritingPage key={arg} id={arg} />;
+      tabs = false;
+      break;
+    case 'mock':
+      screen = <MockPage />;
+      tabs = false;
+      break;
+    case 'weekly':
+      screen = <WeeklyPage />;
+      tabs = false;
       break;
     case 'task':
       screen = <TaskPage key={arg} id={arg} />;

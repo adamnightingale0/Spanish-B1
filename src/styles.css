@@ -323,3 +323,10 @@ select.gap-btn { width: auto; max-width: 9em; min-height: 34px; padding: 2px 6px
 .stat.tap { cursor: pointer; }
 .q-card .opt:disabled { opacity: 1; }
 .q-card .opt:disabled:not(.right):not(.wrong):not(.sel) { opacity: 0.6; }
+
+/* Writing */
+.check-row { display: flex; gap: 10px; align-items: flex-start; padding: 6px 0; }
+.check-row input[type='checkbox'] { width: 22px; height: 22px; flex: none; margin-top: 2px; accent-color: var(--accent); }
+.writing-box { width: 100%; min-height: 300px; font: inherit; font-size: 17px; line-height: 1.5; padding: 12px; border-radius: 12px; border: 1.5px solid var(--line); background: var(--surface); color: var(--text); margin: 10px 0 4px; resize: vertical; }
+.writing-box:focus { outline: none; border-color: var(--accent); }
+.writing-shown { white-space: pre-wrap; line-height: 1.55; }

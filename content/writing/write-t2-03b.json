@@ -1,0 +1,57 @@
+{
+ "id": "write-t2-03b",
+ "set": 3,
+ "examTask": 2,
+ "genre": "relato de una experiencia",
+ "register": "neutro",
+ "title": "Un viaje que salió mal",
+ "prompt": "Una revista de viajes publica historias de lectores con el título «El viaje que salió mal (pero acabó bien)». Escribe tu historia.",
+ "contentPoints": [
+  "Adónde ibas, con quién y por qué.",
+  "Qué salió mal.",
+  "Cómo os sentisteis y qué hicisteis.",
+  "Cómo terminó la historia y qué aprendiste."
+ ],
+ "targets": [
+  {
+   "label": "Pretérito indefinido (2 veces)",
+   "pattern": "(?:^|[^\\p{L}])(?:fui|fue|fuimos|fueron|estuve|estuvo|estuvimos|tuve|tuvo|tuvimos|hice|hizo|hicimos|pude|pudo|dije|dijo|vine|vino|vi|vio|di|dio|\\p{L}{2,}(?:é|ó|aron|ieron|aste|iste|asteis|isteis))(?![\\p{L}])",
+   "min": 2,
+   "distinct": false
+  },
+  {
+   "label": "Pretérito imperfecto (2 veces)",
+   "pattern": "(?:^|[^\\p{L}])(?:era|eran|éramos|iba|iban|íbamos|había|\\p{L}{2,}(?:aba|abas|ábamos|aban|ía|ías|íamos|ían))(?![\\p{L}])",
+   "min": 2,
+   "distinct": false
+  },
+  {
+   "label": "Pluscuamperfecto (había + participio)",
+   "pattern": "(?:^|[^\\p{L}])(?:había|habías|habíamos|habíais|habían) \\p{L}+(?:ado|ido|to|cho|so)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Conectores de relato (de repente, al final, entonces…)",
+   "pattern": "(?:^|[^\\p{L}])(?:de repente|de pronto|al final|al principio|entonces|un día|al día siguiente|en ese momento|por fin)(?![\\p{L}])",
+   "min": 2,
+   "distinct": true
+  }
+ ],
+ "usefulPhrases": [
+  "Todo empezó cuando…",
+  "Recuerdo que aquel día…",
+  "De repente, …",
+  "En ese momento me di cuenta de que…",
+  "Al final, …",
+  "Desde entonces, …",
+  "Nunca olvidaré…"
+ ],
+ "modelAnswer": "El verano pasado mi pareja y yo íbamos a pasar una semana en Lisboa para celebrar nuestro aniversario. Lo habíamos organizado todo con meses de antelación. Sin embargo, al llegar al aeropuerto nos dijeron que el vuelo estaba cancelado por una huelga. No había más vuelos hasta tres días después. Estábamos enfadadísimos y muy decepcionados. Entonces, en la cafetería del aeropuerto, una señora portuguesa nos oyó hablar y nos dio una idea: ir en tren y autobús. Al principio nos pareció una locura, pero aceptamos. El viaje duró casi doce horas, pero vimos paisajes preciosos y conocimos a gente encantadora. Al final llegamos a Lisboa de noche, cansados pero felices. Aprendí que a veces los planes que salen mal se convierten en los mejores recuerdos.",
+ "unit": 0,
+ "taskFormat": "write-choice",
+ "wordRange": [
+  120,
+  150
+ ]
+}

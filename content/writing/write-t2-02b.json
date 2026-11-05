@@ -1,0 +1,57 @@
+{
+ "id": "write-t2-02b",
+ "set": 2,
+ "examTask": 2,
+ "genre": "reseña",
+ "register": "neutro",
+ "title": "Reseña de un restaurante",
+ "prompt": "Una web de viajeros busca reseñas de restaurantes. Escribe una reseña sobre un restaurante en el que comiste recientemente.",
+ "contentPoints": [
+  "Dónde está el restaurante y cuándo fuiste.",
+  "Cómo era el local y el ambiente.",
+  "Qué comiste y qué te pareció.",
+  "El servicio y el precio.",
+  "Si lo recomiendas y a quién."
+ ],
+ "targets": [
+  {
+   "label": "Pretérito indefinido (2 veces)",
+   "pattern": "(?:^|[^\\p{L}])(?:fui|fue|fuimos|fueron|estuve|estuvo|estuvimos|tuve|tuvo|tuvimos|hice|hizo|hicimos|pude|pudo|dije|dijo|vine|vino|vi|vio|di|dio|\\p{L}{2,}(?:é|ó|aron|ieron|aste|iste|asteis|isteis))(?![\\p{L}])",
+   "min": 2,
+   "distinct": false
+  },
+  {
+   "label": "Pretérito imperfecto (2 veces)",
+   "pattern": "(?:^|[^\\p{L}])(?:era|eran|éramos|iba|iban|íbamos|había|\\p{L}{2,}(?:aba|abas|ábamos|aban|ía|ías|íamos|ían))(?![\\p{L}])",
+   "min": 2,
+   "distinct": false
+  },
+  {
+   "label": "Expresar opinión (creo que, en mi opinión…)",
+   "pattern": "(?:^|[^\\p{L}])(?:creo que|pienso que|en mi opinión|me parece que|desde mi punto de vista|para mí|no creo que)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Dar un consejo (te aconsejo que…, yo que tú…, deberías…)",
+   "pattern": "(?:^|[^\\p{L}])(?:(?:te|os|le|les) (?:aconsejo|recomiendo|sugiero|propongo) que|yo que tú|yo en tu lugar|deberías|deberíais|es mejor que|no te olvides de)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  }
+ ],
+ "usefulPhrases": [
+  "Fuimos a cenar a…",
+  "El local era…",
+  "Lo que más me gustó fue…",
+  "La relación calidad-precio es…",
+  "Lo recomiendo a…",
+  "Os aconsejo que reservéis antes."
+ ],
+ "modelAnswer": "El sábado pasado fui a cenar con unos amigos a La Alacena, un pequeño restaurante en el barrio de Triana. El local era sencillo pero muy acogedor, con mesas de madera y fotos antiguas de Sevilla en las paredes. Como era sábado, había muchísimo ambiente y bastante ruido. Pedimos varios platos para compartir: salmorejo, croquetas caseras y un pescado a la plancha buenísimo. Lo que más me gustó fueron las croquetas; creo que son las mejores que he probado en la ciudad. El postre, en cambio, me pareció un poco flojo. Los camareros fueron muy amables y nos explicaron todos los platos con paciencia. Pagamos unos veinticinco euros por persona, un precio muy razonable. Lo recomiendo a quien quiera probar cocina andaluza tradicional sin gastar demasiado. Eso sí, os aconsejo que reservéis antes, porque se llena enseguida.",
+ "unit": 0,
+ "taskFormat": "write-choice",
+ "wordRange": [
+  120,
+  150
+ ]
+}

@@ -680,6 +680,20 @@ function Summary({ history, spec }: { history: Outcome[]; spec: SessionSpec }) {
           ))}
         </>
       )}
+      {spec.kind === 'placement' && (
+        <div class="card highlight">
+          <b>Parte 2 (opcional): lectura y audición</b>
+          <p class="small muted">Una tarea corta de cada una para estimar también tus destrezas del examen.</p>
+          <div class="row">
+            <button class="grow" onClick={() => navigate('task/read-insert-01')}>
+              Lectura (~10 min)
+            </button>
+            <button class="grow" onClick={() => navigate('task/listen-reply-01')}>
+              Audición (~6 min)
+            </button>
+          </div>
+        </div>
+      )}
       <div class="stack" style={{ marginTop: 16 }}>
         {mistakes.length > 0 && (
           <button class="btn-primary btn-block" onClick={() => app.startSession({ title: 'Repaso de fallos', items: mistakes.map((m) => m.item) }, app.sessionReturn)}>
