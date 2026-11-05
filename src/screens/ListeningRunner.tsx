@@ -112,7 +112,7 @@ export function ListeningRunner({
         <div class="player">
           {!hasVoice && (
             <p class="warn-line small">
-              No hay ninguna voz en español instalada, así que no se oirá nada. En el iPhone: Ajustes → Accesibilidad → Contenido leído → Voces → Español (España).
+              No hay ninguna voz en español instalada, así que no se oirá nada. En el iPhone: Ajustes → Accesibilidad → Leer y hablar (en versiones anteriores, «Contenido leído») → Voces → Español → España. Si no lo encuentras, escribe «Voces» en el buscador de Ajustes.
             </p>
           )}
           <p class="small">Primero tendrás {prepSeconds(task)} segundos para leer las preguntas. Después escucharás cada audio dos veces.</p>
