@@ -555,6 +555,61 @@
    ],
    "feedback": "acabar + noun = finish (it). acabar de + infinitive = have just done.",
    "contrast": "Acabo de empezar la carrera."
+  },
+  {
+   "id": "u02-err-001",
+   "type": "error",
+   "unit": 2,
+   "grammarPoint": "llevar-seguir-gerundio",
+   "difficulty": 2,
+   "prompt": "Llevo dos años vivir en Sevilla.",
+   "errorIndex": 3,
+   "answers": [
+    "viviendo"
+   ],
+   "feedback": "llevar + time + gerund.",
+   "contrast": "Vivo aquí desde hace dos años."
+  },
+  {
+   "id": "u02-err-002",
+   "type": "error",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "prompt": "Ayer he comido con mis padres en Triana.",
+   "errorIndex": 1,
+   "answers": [
+    "comí"
+   ],
+   "feedback": "ayer is a closed period → indefinido: comí (tap he, then write the whole verb).",
+   "contrast": "Hoy he comido con mis padres."
+  },
+  {
+   "id": "u02-match-001",
+   "type": "match",
+   "unit": 2,
+   "grammarPoint": "desde-hace",
+   "difficulty": 2,
+   "instruction": "Relaciona cada principio con su final.",
+   "pairs": [
+    {
+     "left": "Vivo en Sevilla desde",
+     "right": "2023."
+    },
+    {
+     "left": "No veo a Pablo desde hace",
+     "right": "tres meses."
+    },
+    {
+     "left": "Hace un año",
+     "right": "que estudio español."
+    },
+    {
+     "left": "Empecé a trabajar aquí hace",
+     "right": "dos años."
+    }
+   ],
+   "feedback": "desde + date; desde hace + period; hace + period + que; hace + period = ago."
   }
  ]
 }

@@ -1,7 +1,10 @@
 import { useApp } from '../state';
-import { units, gpById, focus, allItems } from '../lib/content';
+import { units, gpById, focus, allItems, vocabCards } from '../lib/content';
+import { buildPlacement } from '../lib/placement';
+import { retention } from '../lib/srs';
+import { tagLabel } from '../lib/errors';
 import { buildDrill, masteryByPoint, masteryBySubPoint } from '../lib/session';
-import { minutesPerWeek, streak } from '../lib/stats';
+import { minutesPerWeek, streak, topConfusions } from '../lib/stats';
 import { Header, MasteryBar } from '../components/common';
 
 function cellColor(acc: number | null | undefined): string {
@@ -21,6 +24,8 @@ export function Progress() {
   const total = attempts.length;
   const right = attempts.filter((a) => a.correct).length;
   const reasons = attempts.filter((a) => a.reasonCorrect !== undefined);
+  const confusions = topConfusions(attempts);
+  const ret = retention(app.srs);
 
   return (
     <div class="screen">
@@ -46,6 +51,42 @@ export function Progress() {
         <div class="stat">
           <b>{reasons.length ? Math.round((reasons.filter((a) => a.reasonCorrect).length / reasons.length) * 100) : 0} %</b>
           <span>«¿Por qué?»</span>
+        </div>
+      </div>
+
+      <h2>Errores más frecuentes (30 días)</h2>
+      {confusions.length ? (
+        confusions.map((c) => (
+          <div class="card row spread">
+            <div>
+              <b>{tagLabel(c.tag)}</b>
+              <div class="tiny muted">
+                {c.count}× · {c.points.map((p) => gpById.get(p)?.title ?? p).join(' · ')}
+              </div>
+            </div>
+            <button
+              class="btn-small"
+              onClick={() =>
+                app.startSession({ title: tagLabel(c.tag), items: buildDrill(allItems.filter((i) => c.points.includes(i.grammarPoint)), attempts, 15) }, 'progress')
+              }
+            >
+              Practicar
+            </button>
+          </div>
+        ))
+      ) : (
+        <p class="small muted">Aún no hay errores registrados. Los fallos se clasifican (p. ej. «indefinido en lugar de imperfecto») y aparecerán aquí.</p>
+      )}
+
+      <h2>Vocabulario</h2>
+      <div class="row">
+        <div class="stat">
+          <b>{app.srs.length}</b>
+          <span>de {vocabCards.length} tarjetas vistas</span>
+        </div>
+        <div class="stat">
+          <b>{ret === null ? '—' : Math.round(ret * 100) + ' %'}</b>
+          <span>retención</span>
         </div>
       </div>
 
@@ -95,6 +136,17 @@ export function Progress() {
         {focus.subPoints.map((s) => (
           <MasteryBar m={subM.get(s.id)} label={s.title} />
         ))}
+      </div>
+
+      <div class="card">
+        <b>Prueba de nivel</b>
+        <p class="small muted">
+          {app.settings.placementDone ? `Última: ${new Date(app.settings.placementDone).toLocaleDateString('es-ES')}. ` : ''}
+          Unas 40 preguntas de todas las unidades (15 min).
+        </p>
+        <button class="btn-block" onClick={() => app.startSession({ title: 'Prueba de nivel', items: buildPlacement(), kind: 'placement' }, 'progress')}>
+          {app.settings.placementDone ? 'Repetir la prueba de nivel' : 'Hacer la prueba de nivel'}
+        </button>
       </div>
 
       <h2>Todos los puntos</h2>

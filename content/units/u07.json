@@ -237,6 +237,61 @@
    ],
    "feedback": "sugerir que + subjunctive.",
    "contrast": "Me ha dicho que debería descansar."
+  },
+  {
+   "id": "u07-err-001",
+   "type": "error",
+   "unit": 7,
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "prompt": "Mi jefa me ha pedido que le envío el informe.",
+   "errorIndex": 7,
+   "answers": [
+    "envíe"
+   ],
+   "feedback": "pedir que + subjunctive.",
+   "contrast": "Me ha dicho que el informe está bien."
+  },
+  {
+   "id": "u07-err-002",
+   "type": "error",
+   "unit": 7,
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "prompt": "Luis me ha preguntado qué voy a la cena.",
+   "errorIndex": 4,
+   "answers": [
+    "si"
+   ],
+   "feedback": "Yes/no questions are reported with si.",
+   "contrast": "Me ha preguntado qué llevo a la cena."
+  },
+  {
+   "id": "u07-match-001",
+   "type": "match",
+   "unit": 7,
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "instruction": "Relaciona cada mensaje con su transmisión.",
+   "pairs": [
+    {
+     "left": "«¿Vienes?» →",
+     "right": "Me ha preguntado si voy."
+    },
+    {
+     "left": "«Llámame.» →",
+     "right": "Me ha pedido que le llame."
+    },
+    {
+     "left": "«Llego tarde.» →",
+     "right": "Me ha dicho que llega tarde."
+    },
+    {
+     "left": "«¿Dónde vives?» →",
+     "right": "Me ha preguntado dónde vivo."
+    }
+   ],
+   "feedback": "Statement → decir que; yes/no → preguntar si; wh- → preguntar dónde…; request → pedir que + subj."
   }
  ]
 }

@@ -335,6 +335,46 @@
    ],
    "feedback": "With estar + gerund the pronoun can go on the gerund or before estar.",
    "contrast": "Están arreglándolo = Lo están arreglando."
+  },
+  {
+   "id": "u05-ord-001",
+   "type": "order",
+   "unit": 5,
+   "grammarPoint": "pronombres-posicion",
+   "difficulty": 2,
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "No se lo digas a nadie"
+   ],
+   "feedback": "Negative command: no + pronouns + subjunctive.",
+   "contrast": "Díselo a todos."
+  },
+  {
+   "id": "u05-ord-002",
+   "type": "order",
+   "unit": 5,
+   "grammarPoint": "pronombres-posicion",
+   "difficulty": 2,
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "Pruébalo gratis durante un mes",
+    "Durante un mes pruébalo gratis"
+   ],
+   "feedback": "Affirmative command: pronoun attached (pruébalo)."
+  },
+  {
+   "id": "u05-err-001",
+   "type": "error",
+   "unit": 5,
+   "grammarPoint": "imperativo-negativo",
+   "difficulty": 1,
+   "prompt": "No dejad la compra para el último día.",
+   "errorIndex": 1,
+   "answers": [
+    "dejéis"
+   ],
+   "feedback": "Negative commands use the subjunctive: no dejéis.",
+   "contrast": "Dejad la compra preparada."
   }
  ]
 }

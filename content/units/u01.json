@@ -664,6 +664,45 @@
    ],
    "feedback": "Advice: es aconsejable / recomendable / mejor + infinitive.",
    "contrast": "Es mejor llegar pronto."
+  },
+  {
+   "id": "u01-err-001",
+   "type": "error",
+   "unit": 1,
+   "grammarPoint": "soler-inf",
+   "difficulty": 1,
+   "prompt": "Los sábados suelemos desayunar churros.",
+   "errorIndex": 2,
+   "answers": [
+    "solemos"
+   ],
+   "feedback": "soler only changes o→ue in stressed forms: solemos, soléis.",
+   "contrast": "Suelo desayunar churros."
+  },
+  {
+   "id": "u01-err-002",
+   "type": "error",
+   "unit": 1,
+   "grammarPoint": "esta-prohibido",
+   "difficulty": 2,
+   "prompt": "En este parque están prohibido las bicicletas.",
+   "errorIndex": 4,
+   "answers": [
+    "prohibidas"
+   ],
+   "feedback": "With a noun subject, the participle agrees: las bicicletas → prohibidas."
+  },
+  {
+   "id": "u01-ord-001",
+   "type": "order",
+   "unit": 1,
+   "grammarPoint": "se-impersonal",
+   "difficulty": 2,
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "En España se cena muy tarde"
+   ],
+   "feedback": "se + 3rd person singular for general habits."
   }
  ]
 }

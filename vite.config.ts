@@ -31,7 +31,7 @@ export default defineConfig({
       },
       workbox: {
         // Content packs are bundled into the JS, so precaching the build output covers them.
-        globPatterns: ['**/*.{js,css,html,svg,png,json,webmanifest}'],
+        globPatterns: ['**/*.{js,mjs,css,html,svg,png,json,webmanifest}'],
         maximumFileSizeToCacheInBytes: 8 * 1024 * 1024
       }
     })

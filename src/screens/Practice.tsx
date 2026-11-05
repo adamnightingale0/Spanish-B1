@@ -127,11 +127,14 @@ export function Practice() {
       <h2>Destrezas</h2>
       <div class="card">
         <p class="small muted">
-          Vocabulario (SRS), comprensión de lectura y auditiva, expresión escrita y oral llegan en las próximas fases (2–5), con el formato del examen de la
+          Comprensión de lectura y auditiva, expresión escrita y oral llegan en las próximas fases (3–5), con el formato del examen de la
           Universidad de Sevilla.
         </p>
         <div class="row wrap">
-          {['Vocabulario', 'Lectura', 'Audición', 'Escritura', 'Oral'].map((s) => (
+          <button class="grow btn-small btn-primary" onClick={() => navigate('vocab')}>
+            Vocabulario
+          </button>
+          {['Lectura', 'Audición', 'Escritura', 'Oral'].map((s) => (
             <button class="grow btn-small" disabled>
               {s}
             </button>

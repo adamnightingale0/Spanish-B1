@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'preact/hooks';
 import { useApp } from '../state';
 import { units, grammarPoints, unitLabel, CONTENT_VERSION } from '../lib/content';
-import { exportBackup, importBackup, resetAll, requestPersistence } from '../lib/db';
+import { exportBackup, importBackup, resetAll, requestPersistence, saveBook, removeBook, loadBook } from '../lib/db';
+import { closeBook } from '../lib/book';
 import { spanishVoices, speak, ttsSupported } from '../lib/tts';
 import { Header } from '../components/common';
 
@@ -159,8 +160,7 @@ export function SettingsScreen() {
         )}
       </p>
 
-      <h2>Libro</h2>
-      <p class="small muted">El visor de tu PDF del libro llega en la fase 2. Por ahora, los enlaces 📖 muestran el número de página del libro impreso.</p>
+      <BookSettings />
 
       <h2>Zona peligrosa</h2>
       <button class="btn-block" style={{ color: 'var(--bad)' }} onClick={doReset}>
@@ -170,5 +170,78 @@ export function SettingsScreen() {
         Spanish B1 Practice · contenido {CONTENT_VERSION} · {app.attempts.length} respuestas guardadas
       </p>
     </div>
+  );
+}
+
+function BookSettings() {
+  const app = useApp();
+  const [size, setSize] = useState<number | null>(null);
+  const [msg, setMsg] = useState('');
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    loadBook().then((b) => setSize(b ? b.size : null));
+  }, [app.hasBook]);
+
+  async function load(f: File) {
+    if (f.type && f.type !== 'application/pdf') return setMsg('Elige un archivo PDF.');
+    setLoading(true);
+    setMsg('');
+    try {
+      await saveBook(f);
+      await closeBook();
+      await requestPersistence();
+      app.setHasBook(true);
+      setSize(f.size);
+      setMsg('Libro guardado en este iPhone.');
+    } catch (e) {
+      setMsg('No se pudo guardar: ' + (e as Error).message + '. Prueba con una versión comprimida (30–50 MB).');
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  return (
+    <>
+      <h2>Mi libro (PDF)</h2>
+      <p class="small muted">
+        Tu copia del libro se guarda solo en este iPhone. Nunca se sube a internet ni se incluye en las copias de seguridad. Comprímelo antes en el
+        ordenador (30–50 MB) para que cargue rápido.
+      </p>
+      {size !== null ? (
+        <>
+          <p class="small">
+            ✓ Libro cargado · {(size / 1048576).toFixed(1)} MB
+          </p>
+          <div class="row wrap">
+            <button class="grow" onClick={() => app.openBook(10)}>
+              ¿La página 10 muestra la Unidad 1?
+            </button>
+            <button
+              class="grow"
+              style={{ color: 'var(--bad)' }}
+              onClick={async () => {
+                if (!confirm('¿Quitar el libro de este iPhone?')) return;
+                await removeBook();
+                await closeBook();
+                app.setHasBook(false);
+                setSize(null);
+              }}
+            >
+              Quitar libro
+            </button>
+          </div>
+          <p class="tiny muted">
+            Si la página 10 no es el inicio de la Unidad 1, abre ☰ en el visor y ajusta el desfase (ahora {app.settings.pageOffset}: página impresa +{' '}
+            {app.settings.pageOffset} = página del PDF).
+          </p>
+        </>
+      ) : (
+        <label class="btn btn-block">
+          {loading ? 'Guardando…' : 'Cargar mi libro (PDF)'}
+          <input type="file" accept="application/pdf,.pdf" style={{ display: 'none' }} onChange={(e) => e.currentTarget.files?.[0] && load(e.currentTarget.files[0])} />
+        </label>
+      )}
+      {msg && <p class="small">{msg}</p>}
+    </>
   );
 }

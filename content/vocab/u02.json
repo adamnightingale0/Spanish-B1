@@ -1,0 +1,293 @@
+{
+ "id": "vocab-u02",
+ "unit": 2,
+ "cards": [
+  {
+   "id": "v02-enamorarse",
+   "unit": 2,
+   "topic": "trayectoria personal",
+   "es": "enamorarse",
+   "en": "to fall in love",
+   "example_es": "Se enamoraron en un viaje a Cuba.",
+   "example_en": "They fell in love on a trip to Cuba.",
+   "collocation": "enamorarse de alguien"
+  },
+  {
+   "id": "v02-casarse",
+   "unit": 2,
+   "topic": "trayectoria personal",
+   "es": "casarse",
+   "en": "to get married",
+   "example_es": "Mi hermana se casa en mayo.",
+   "example_en": "My sister is getting married in May.",
+   "collocation": "casarse con alguien"
+  },
+  {
+   "id": "v02-separarse",
+   "unit": 2,
+   "topic": "trayectoria personal",
+   "es": "separarse",
+   "en": "to separate",
+   "example_es": "Mis tíos se separaron hace años.",
+   "example_en": "My aunt and uncle separated years ago."
+  },
+  {
+   "id": "v02-independizarse",
+   "unit": 2,
+   "topic": "trayectoria personal",
+   "es": "independizarse",
+   "en": "to move out, become independent",
+   "example_es": "Me independicé a los veinticinco años.",
+   "example_en": "I moved out at twenty-five."
+  },
+  {
+   "id": "v02-jubilarse",
+   "unit": 2,
+   "topic": "trayectoria personal",
+   "es": "jubilarse",
+   "en": "to retire",
+   "example_es": "Mi padre se jubila el año que viene.",
+   "example_en": "My father retires next year."
+  },
+  {
+   "id": "v02-mudarse-de-casa",
+   "unit": 2,
+   "topic": "trayectoria personal",
+   "es": "mudarse de casa",
+   "en": "to move house",
+   "example_es": "Nos mudamos de casa tres veces en dos años.",
+   "example_en": "We moved house three times in two years."
+  },
+  {
+   "id": "v02-quedarse-en-el-paro",
+   "unit": 2,
+   "topic": "trayectoria personal",
+   "es": "quedarse en el paro",
+   "en": "to become unemployed",
+   "example_es": "Se quedó en el paro cuando cerró la fábrica.",
+   "example_en": "He lost his job when the factory closed."
+  },
+  {
+   "id": "v02-cambiar-de-trabajo",
+   "unit": 2,
+   "topic": "cambios",
+   "es": "cambiar de trabajo",
+   "en": "to change jobs",
+   "example_es": "Este año he cambiado de trabajo.",
+   "example_en": "I've changed jobs this year.",
+   "collocation": "cambiar de + noun (no article)"
+  },
+  {
+   "id": "v02-el-cambio-de-aires",
+   "unit": 2,
+   "topic": "cambios",
+   "es": "el cambio de aires",
+   "en": "the change of scene",
+   "example_es": "Necesitaba un cambio de aires y me fui a Sevilla.",
+   "example_en": "I needed a change of scene, so I went to Seville.",
+   "gender": "m"
+  },
+  {
+   "id": "v02-el-cambio-radical",
+   "unit": 2,
+   "topic": "cambios",
+   "es": "el cambio radical",
+   "en": "the radical change",
+   "example_es": "Mudarse al campo fue un cambio radical.",
+   "example_en": "Moving to the countryside was a radical change.",
+   "gender": "m",
+   "collocation": "hacer un cambio"
+  },
+  {
+   "id": "v02-el-candidato-la-candidata",
+   "unit": 2,
+   "topic": "trabajo",
+   "es": "el candidato / la candidata",
+   "en": "the candidate",
+   "example_es": "Hay veinte candidatos para el puesto.",
+   "example_en": "There are twenty candidates for the job."
+  },
+  {
+   "id": "v02-el-companero-la-companera-de-tra",
+   "unit": 2,
+   "topic": "trabajo",
+   "es": "el compañero / la compañera de trabajo",
+   "en": "the colleague",
+   "example_es": "Como con mis compañeros de trabajo.",
+   "example_en": "I have lunch with my colleagues."
+  },
+  {
+   "id": "v02-el-contrato-indefinido",
+   "unit": 2,
+   "topic": "trabajo",
+   "es": "el contrato indefinido",
+   "en": "the permanent contract",
+   "example_es": "Por fin tengo un contrato indefinido.",
+   "example_en": "At last I have a permanent contract.",
+   "gender": "m",
+   "collocation": "contrato indefinido / temporal"
+  },
+  {
+   "id": "v02-el-contrato-temporal",
+   "unit": 2,
+   "topic": "trabajo",
+   "es": "el contrato temporal",
+   "en": "the temporary contract",
+   "example_es": "Me han hecho un contrato temporal de seis meses.",
+   "example_en": "They've given me a six-month temporary contract.",
+   "gender": "m"
+  },
+  {
+   "id": "v02-el-trabajo-a-tiempo-parcial",
+   "unit": 2,
+   "topic": "trabajo",
+   "es": "el trabajo a tiempo parcial",
+   "en": "the part-time job",
+   "example_es": "Muchos estudiantes tienen un trabajo a tiempo parcial.",
+   "example_en": "Many students have a part-time job.",
+   "gender": "m"
+  },
+  {
+   "id": "v02-el-trabajo-precario",
+   "unit": 2,
+   "topic": "trabajo",
+   "es": "el trabajo precario",
+   "en": "the insecure job",
+   "example_es": "El trabajo precario es un problema entre los jóvenes.",
+   "example_en": "Insecure work is a problem among young people.",
+   "gender": "m"
+  },
+  {
+   "id": "v02-coordinar-un-equipo",
+   "unit": 2,
+   "topic": "trabajo",
+   "es": "coordinar un equipo",
+   "en": "to coordinate a team",
+   "example_es": "Coordino un equipo de seis personas.",
+   "example_en": "I coordinate a team of six people."
+  },
+  {
+   "id": "v02-la-sede",
+   "unit": 2,
+   "topic": "empresas",
+   "es": "la sede",
+   "en": "the headquarters",
+   "example_es": "La sede de la empresa está en Madrid.",
+   "example_en": "The company's headquarters are in Madrid.",
+   "gender": "f"
+  },
+  {
+   "id": "v02-la-filial",
+   "unit": 2,
+   "topic": "empresas",
+   "es": "la filial",
+   "en": "the subsidiary, branch",
+   "example_es": "Trabajo en la filial de Sevilla.",
+   "example_en": "I work at the Seville branch.",
+   "gender": "f"
+  },
+  {
+   "id": "v02-montar-una-empresa",
+   "unit": 2,
+   "topic": "empresas",
+   "es": "montar una empresa",
+   "en": "to set up a company",
+   "example_es": "Quiere montar una empresa de turismo.",
+   "example_en": "She wants to set up a tourism company."
+  },
+  {
+   "id": "v02-hacer-un-master",
+   "unit": 2,
+   "topic": "formación",
+   "es": "hacer un máster",
+   "en": "to do a master's",
+   "example_es": "Hice un máster en Barcelona.",
+   "example_en": "I did a master's in Barcelona."
+  },
+  {
+   "id": "v02-hacer-unas-practicas",
+   "unit": 2,
+   "topic": "formación",
+   "es": "hacer unas prácticas",
+   "en": "to do an internship",
+   "example_es": "Hago unas prácticas en un hotel este verano.",
+   "example_en": "I'm doing an internship at a hotel this summer."
+  },
+  {
+   "id": "v02-solicitar-un-puesto",
+   "unit": 2,
+   "topic": "buscar trabajo",
+   "es": "solicitar un puesto",
+   "en": "to apply for a job",
+   "example_es": "He solicitado un puesto de recepcionista.",
+   "example_en": "I've applied for a receptionist job."
+  },
+  {
+   "id": "v02-la-carta-de-presentacion",
+   "unit": 2,
+   "topic": "buscar trabajo",
+   "es": "la carta de presentación",
+   "en": "the cover letter",
+   "example_es": "Envía el currículum con una carta de presentación.",
+   "example_en": "Send your CV with a cover letter.",
+   "gender": "f"
+  },
+  {
+   "id": "v02-la-entrevista-de-trabajo",
+   "unit": 2,
+   "topic": "buscar trabajo",
+   "es": "la entrevista de trabajo",
+   "en": "the job interview",
+   "example_es": "Mañana tengo una entrevista de trabajo.",
+   "example_en": "I have a job interview tomorrow.",
+   "gender": "f",
+   "collocation": "hacer una entrevista"
+  },
+  {
+   "id": "v02-la-experiencia-laboral",
+   "unit": 2,
+   "topic": "buscar trabajo",
+   "es": "la experiencia laboral",
+   "en": "the work experience",
+   "example_es": "Piden dos años de experiencia laboral.",
+   "example_en": "They ask for two years' work experience.",
+   "gender": "f"
+  },
+  {
+   "id": "v02-dejar-de-infinitivo",
+   "unit": 2,
+   "topic": "perífrasis",
+   "es": "dejar de + infinitivo",
+   "en": "to stop doing",
+   "example_es": "He dejado de tomar café por la tarde.",
+   "example_en": "I've stopped drinking coffee in the afternoon."
+  },
+  {
+   "id": "v02-acabar-de-infinitivo",
+   "unit": 2,
+   "topic": "perífrasis",
+   "es": "acabar de + infinitivo",
+   "en": "to have just done",
+   "example_es": "Acabo de llegar a casa.",
+   "example_en": "I've just got home."
+  },
+  {
+   "id": "v02-estimados-senores",
+   "unit": 2,
+   "topic": "carta formal",
+   "es": "Estimados señores:",
+   "en": "Dear Sirs (formal letter)",
+   "example_es": "Estimados señores: les escribo para solicitar información.",
+   "example_en": "Dear Sirs, I am writing to request information."
+  },
+  {
+   "id": "v02-atentamente",
+   "unit": 2,
+   "topic": "carta formal",
+   "es": "Atentamente",
+   "en": "Yours faithfully / sincerely",
+   "example_es": "Atentamente, Adam Nightingale.",
+   "example_en": "Yours faithfully, Adam Nightingale."
+  }
+ ]
+}

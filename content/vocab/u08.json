@@ -1,0 +1,289 @@
+{
+ "id": "vocab-u08",
+ "unit": 8,
+ "cards": [
+  {
+   "id": "v08-hacer-la-maleta",
+   "unit": 8,
+   "topic": "preparar un viaje",
+   "es": "hacer la maleta",
+   "en": "to pack (a suitcase)",
+   "example_es": "Siempre hago la maleta la noche antes.",
+   "example_en": "I always pack the night before."
+  },
+  {
+   "id": "v08-hacer-una-reserva",
+   "unit": 8,
+   "topic": "preparar un viaje",
+   "es": "hacer una reserva",
+   "en": "to make a booking",
+   "example_es": "Hice una reserva para dos noches.",
+   "example_en": "I made a booking for two nights."
+  },
+  {
+   "id": "v08-sacar-el-billete",
+   "unit": 8,
+   "topic": "preparar un viaje",
+   "es": "sacar el billete",
+   "en": "to buy the ticket",
+   "example_es": "Ya he sacado los billetes de tren.",
+   "example_en": "I've already bought the train tickets."
+  },
+  {
+   "id": "v08-el-visado",
+   "unit": 8,
+   "topic": "preparar un viaje",
+   "es": "el visado",
+   "en": "the visa",
+   "example_es": "Para ir a la India necesitas visado.",
+   "example_en": "You need a visa to go to India.",
+   "gender": "m",
+   "collocation": "sacar el visado"
+  },
+  {
+   "id": "v08-el-alojamiento",
+   "unit": 8,
+   "topic": "preparar un viaje",
+   "es": "el alojamiento",
+   "en": "the accommodation",
+   "example_es": "Buscamos alojamiento cerca de la playa.",
+   "example_en": "We're looking for accommodation near the beach.",
+   "gender": "m"
+  },
+  {
+   "id": "v08-facturar-el-equipaje",
+   "unit": 8,
+   "topic": "de viaje",
+   "es": "facturar el equipaje",
+   "en": "to check in luggage",
+   "example_es": "Facturé la maleta y fui a la puerta de embarque.",
+   "example_en": "I checked my case and went to the gate."
+  },
+  {
+   "id": "v08-el-seguro-de-viaje",
+   "unit": 8,
+   "topic": "preparar un viaje",
+   "es": "el seguro de viaje",
+   "en": "the travel insurance",
+   "example_es": "Contratamos un seguro de viaje por si acaso.",
+   "example_en": "We took out travel insurance just in case.",
+   "gender": "m"
+  },
+  {
+   "id": "v08-hacer-escala",
+   "unit": 8,
+   "topic": "de viaje",
+   "es": "hacer escala",
+   "en": "to have a stopover",
+   "example_es": "Hicimos escala en Lisboa.",
+   "example_en": "We had a stopover in Lisbon.",
+   "collocation": "hacer escala en"
+  },
+  {
+   "id": "v08-perder-el-avion",
+   "unit": 8,
+   "topic": "de viaje",
+   "es": "perder el avión",
+   "en": "to miss the plane",
+   "example_es": "Perdimos el avión por un atasco.",
+   "example_en": "We missed the plane because of a traffic jam."
+  },
+  {
+   "id": "v08-el-equipaje-de-mano",
+   "unit": 8,
+   "topic": "de viaje",
+   "es": "el equipaje de mano",
+   "en": "the hand luggage",
+   "example_es": "Solo llevo equipaje de mano.",
+   "example_en": "I'm only taking hand luggage.",
+   "gender": "m"
+  },
+  {
+   "id": "v08-salir-con-retraso",
+   "unit": 8,
+   "topic": "de viaje",
+   "es": "salir con retraso",
+   "en": "to be delayed (departure)",
+   "example_es": "El vuelo salió con dos horas de retraso.",
+   "example_en": "The flight left two hours late."
+  },
+  {
+   "id": "v08-el-viaje-organizado",
+   "unit": 8,
+   "topic": "tipos de viaje",
+   "es": "el viaje organizado",
+   "en": "the package tour",
+   "example_es": "Mis padres prefieren los viajes organizados.",
+   "example_en": "My parents prefer package tours.",
+   "gender": "m"
+  },
+  {
+   "id": "v08-el-viaje-de-negocios",
+   "unit": 8,
+   "topic": "tipos de viaje",
+   "es": "el viaje de negocios",
+   "en": "the business trip",
+   "example_es": "Estuvo en Milán en un viaje de negocios.",
+   "example_en": "He was in Milan on a business trip.",
+   "gender": "m"
+  },
+  {
+   "id": "v08-la-luna-de-miel",
+   "unit": 8,
+   "topic": "tipos de viaje",
+   "es": "la luna de miel",
+   "en": "the honeymoon",
+   "example_es": "Se fueron de luna de miel a Japón.",
+   "example_en": "They went to Japan on honeymoon.",
+   "gender": "f"
+  },
+  {
+   "id": "v08-el-crucero",
+   "unit": 8,
+   "topic": "tipos de viaje",
+   "es": "el crucero",
+   "en": "the cruise",
+   "example_es": "Nunca he hecho un crucero.",
+   "example_en": "I've never been on a cruise.",
+   "gender": "m"
+  },
+  {
+   "id": "v08-el-turismo-rural",
+   "unit": 8,
+   "topic": "tipos de turismo",
+   "es": "el turismo rural",
+   "en": "the rural tourism",
+   "example_es": "El turismo rural ha crecido mucho.",
+   "example_en": "Rural tourism has grown a lot.",
+   "gender": "m"
+  },
+  {
+   "id": "v08-el-albergue",
+   "unit": 8,
+   "topic": "alojamiento",
+   "es": "el albergue",
+   "en": "the hostel",
+   "example_es": "Dormimos en un albergue del Camino.",
+   "example_en": "We slept in a hostel on the Camino.",
+   "gender": "m"
+  },
+  {
+   "id": "v08-la-casa-rural",
+   "unit": 8,
+   "topic": "alojamiento",
+   "es": "la casa rural",
+   "en": "the holiday cottage",
+   "example_es": "Alquilamos una casa rural en la sierra.",
+   "example_en": "We rented a cottage in the mountains.",
+   "gender": "f"
+  },
+  {
+   "id": "v08-resulta-que",
+   "unit": 8,
+   "topic": "contar anécdotas",
+   "es": "resulta que",
+   "en": "it turns out that, so",
+   "example_es": "Resulta que el hotel no tenía nuestra reserva.",
+   "example_en": "It turned out the hotel didn't have our booking."
+  },
+  {
+   "id": "v08-total-que",
+   "unit": 8,
+   "topic": "contar anécdotas",
+   "es": "total, que",
+   "en": "so, in the end",
+   "example_es": "Total, que dormimos en el coche.",
+   "example_en": "So in the end we slept in the car."
+  },
+  {
+   "id": "v08-al-dia-siguiente",
+   "unit": 8,
+   "topic": "contar anécdotas",
+   "es": "al día siguiente",
+   "en": "the next day",
+   "example_es": "Al día siguiente fuimos a la playa.",
+   "example_en": "The next day we went to the beach."
+  },
+  {
+   "id": "v08-aquella-noche",
+   "unit": 8,
+   "topic": "contar anécdotas",
+   "es": "aquella noche",
+   "en": "that night",
+   "example_es": "Aquella noche no dormimos nada.",
+   "example_en": "We didn't sleep at all that night."
+  },
+  {
+   "id": "v08-no-me-digas",
+   "unit": 8,
+   "topic": "mostrar interés",
+   "es": "¡No me digas!",
+   "en": "No way! / You don't say!",
+   "example_es": "—Nos quedamos encerrados en el ascensor. —¡No me digas!",
+   "example_en": "—We got stuck in the lift. —No way!"
+  },
+  {
+   "id": "v08-menos-mal",
+   "unit": 8,
+   "topic": "mostrar interés",
+   "es": "¡Menos mal!",
+   "en": "Thank goodness!",
+   "example_es": "—Al final encontramos las llaves. —¡Menos mal!",
+   "example_en": "—In the end we found the keys. —Thank goodness!"
+  },
+  {
+   "id": "v08-que-mala-suerte",
+   "unit": 8,
+   "topic": "mostrar interés",
+   "es": "¡Qué mala suerte!",
+   "en": "What bad luck!",
+   "example_es": "—Llovió toda la semana. —¡Qué mala suerte!",
+   "example_en": "—It rained all week. —What bad luck!"
+  },
+  {
+   "id": "v08-pasar",
+   "unit": 8,
+   "topic": "contar anécdotas",
+   "es": "pasar",
+   "en": "to happen",
+   "example_es": "¿Qué te pasó en el aeropuerto?",
+   "example_en": "What happened to you at the airport?"
+  },
+  {
+   "id": "v08-asi-que",
+   "unit": 8,
+   "topic": "causa y consecuencia",
+   "es": "así que",
+   "en": "so (consequence)",
+   "example_es": "No había plazas, así que fuimos en tren.",
+   "example_en": "There were no seats, so we went by train."
+  },
+  {
+   "id": "v08-o-sea-que",
+   "unit": 8,
+   "topic": "causa y consecuencia",
+   "es": "o sea que",
+   "en": "so (conclusion)",
+   "example_es": "—Han cancelado el vuelo. —O sea que no volvéis hoy.",
+   "example_en": "—They've cancelled the flight. —So you're not coming back today."
+  },
+  {
+   "id": "v08-perderse",
+   "unit": 8,
+   "topic": "de viaje",
+   "es": "perderse",
+   "en": "to get lost",
+   "example_es": "Nos perdimos en el casco antiguo.",
+   "example_en": "We got lost in the old town."
+  },
+  {
+   "id": "v08-el-la-guia",
+   "unit": 8,
+   "topic": "preparar un viaje",
+   "es": "el / la guía",
+   "en": "the guide",
+   "example_es": "El guía nos explicó la historia del barrio.",
+   "example_en": "The guide explained the history of the neighbourhood."
+  }
+ ]
+}

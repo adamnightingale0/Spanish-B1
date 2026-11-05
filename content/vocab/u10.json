@@ -1,0 +1,278 @@
+{
+ "id": "vocab-u10",
+ "unit": 10,
+ "cards": [
+  {
+   "id": "v10-lujoso-lujosa",
+   "unit": 10,
+   "topic": "adjetivos",
+   "es": "lujoso, lujosa",
+   "en": "luxurious",
+   "example_es": "Es un hotel lujosísimo.",
+   "example_en": "It's an extremely luxurious hotel."
+  },
+  {
+   "id": "v10-sencillo-sencilla",
+   "unit": 10,
+   "topic": "adjetivos",
+   "es": "sencillo, sencilla",
+   "en": "simple",
+   "example_es": "Me gustan los diseños sencillos.",
+   "example_en": "I like simple designs."
+  },
+  {
+   "id": "v10-colorido-colorida",
+   "unit": 10,
+   "topic": "adjetivos",
+   "es": "colorido, colorida",
+   "en": "colourful",
+   "example_es": "La cocina tiene azulejos muy coloridos.",
+   "example_en": "The kitchen has very colourful tiles."
+  },
+  {
+   "id": "v10-util",
+   "unit": 10,
+   "topic": "adjetivos",
+   "es": "útil",
+   "en": "useful",
+   "example_es": "Este cuchillo es muy útil para el pan.",
+   "example_en": "This knife is very useful for bread."
+  },
+  {
+   "id": "v10-practico-practica",
+   "unit": 10,
+   "topic": "adjetivos",
+   "es": "práctico, práctica",
+   "en": "practical",
+   "example_es": "Una mochila es más práctica que un bolso.",
+   "example_en": "A backpack is more practical than a handbag."
+  },
+  {
+   "id": "v10-blando-blanda",
+   "unit": 10,
+   "topic": "adjetivos",
+   "es": "blando, blanda",
+   "en": "soft",
+   "example_es": "El colchón es demasiado blando.",
+   "example_en": "The mattress is too soft."
+  },
+  {
+   "id": "v10-duro-dura",
+   "unit": 10,
+   "topic": "adjetivos",
+   "es": "duro, dura",
+   "en": "hard",
+   "example_es": "Esta silla es durísima.",
+   "example_en": "This chair is really hard."
+  },
+  {
+   "id": "v10-fragil",
+   "unit": 10,
+   "topic": "adjetivos",
+   "es": "frágil",
+   "en": "fragile",
+   "example_es": "Cuidado con la caja, que es frágil.",
+   "example_en": "Careful with the box, it's fragile."
+  },
+  {
+   "id": "v10-llamativo-llamativa",
+   "unit": 10,
+   "topic": "adjetivos",
+   "es": "llamativo, llamativa",
+   "en": "eye-catching, flashy",
+   "example_es": "Lleva unas gafas muy llamativas.",
+   "example_en": "She wears very eye-catching glasses."
+  },
+  {
+   "id": "v10-suave",
+   "unit": 10,
+   "topic": "adjetivos",
+   "es": "suave",
+   "en": "soft, smooth",
+   "example_es": "Esta toalla es suavísima.",
+   "example_en": "This towel is really soft."
+  },
+  {
+   "id": "v10-de-madera",
+   "unit": 10,
+   "topic": "materiales",
+   "es": "de madera",
+   "en": "wooden",
+   "example_es": "Quiero una mesa de madera.",
+   "example_en": "I want a wooden table."
+  },
+  {
+   "id": "v10-de-piedra",
+   "unit": 10,
+   "topic": "materiales",
+   "es": "de piedra",
+   "en": "(made of) stone",
+   "example_es": "El suelo es de piedra.",
+   "example_en": "The floor is stone."
+  },
+  {
+   "id": "v10-de-cristal",
+   "unit": 10,
+   "topic": "materiales",
+   "es": "de cristal",
+   "en": "(made of) glass",
+   "example_es": "Prefiero las botellas de cristal.",
+   "example_en": "I prefer glass bottles.",
+   "collocation": "de cristal / de vidrio"
+  },
+  {
+   "id": "v10-de-algodon",
+   "unit": 10,
+   "topic": "materiales",
+   "es": "de algodón",
+   "en": "cotton",
+   "example_es": "Es una camiseta de algodón orgánico.",
+   "example_en": "It's an organic cotton T-shirt."
+  },
+  {
+   "id": "v10-de-lana",
+   "unit": 10,
+   "topic": "materiales",
+   "es": "de lana",
+   "en": "woollen",
+   "example_es": "Mi abuela me hizo una bufanda de lana.",
+   "example_en": "My grandmother made me a woollen scarf."
+  },
+  {
+   "id": "v10-de-ceramica",
+   "unit": 10,
+   "topic": "materiales",
+   "es": "de cerámica",
+   "en": "ceramic",
+   "example_es": "En Triana venden platos de cerámica.",
+   "example_en": "They sell ceramic plates in Triana."
+  },
+  {
+   "id": "v10-redondo-redonda",
+   "unit": 10,
+   "topic": "formas",
+   "es": "redondo, redonda",
+   "en": "round",
+   "example_es": "Busco un espejo redondo.",
+   "example_en": "I'm looking for a round mirror."
+  },
+  {
+   "id": "v10-cuadrado-cuadrada",
+   "unit": 10,
+   "topic": "formas",
+   "es": "cuadrado, cuadrada",
+   "en": "square",
+   "example_es": "Tiene una mesa cuadrada en la cocina.",
+   "example_en": "She has a square table in the kitchen."
+  },
+  {
+   "id": "v10-alargado-alargada",
+   "unit": 10,
+   "topic": "formas",
+   "es": "alargado, alargada",
+   "en": "elongated, long",
+   "example_es": "Es un objeto alargado, como un bolígrafo.",
+   "example_en": "It's a long object, like a pen."
+  },
+  {
+   "id": "v10-estrecho-estrecha",
+   "unit": 10,
+   "topic": "formas",
+   "es": "estrecho, estrecha",
+   "en": "narrow",
+   "example_es": "El pasillo es muy estrecho.",
+   "example_en": "The corridor is very narrow."
+  },
+  {
+   "id": "v10-servir-para",
+   "unit": 10,
+   "topic": "funcionamiento",
+   "es": "servir para",
+   "en": "to be used for",
+   "example_es": "¿Para qué sirve este botón?",
+   "example_en": "What's this button for?"
+  },
+  {
+   "id": "v10-funcionar-con-pilas",
+   "unit": 10,
+   "topic": "funcionamiento",
+   "es": "funcionar con pilas",
+   "en": "to run on batteries",
+   "example_es": "El mando funciona con pilas.",
+   "example_en": "The remote runs on batteries."
+  },
+  {
+   "id": "v10-estropearse",
+   "unit": 10,
+   "topic": "funcionamiento",
+   "es": "estropearse",
+   "en": "to break down",
+   "example_es": "Se ha estropeado la lavadora.",
+   "example_en": "The washing machine has broken down."
+  },
+  {
+   "id": "v10-arrugarse",
+   "unit": 10,
+   "topic": "funcionamiento",
+   "es": "arrugarse",
+   "en": "to crease",
+   "example_es": "Esta camisa no se arruga.",
+   "example_en": "This shirt doesn't crease."
+  },
+  {
+   "id": "v10-caber",
+   "unit": 10,
+   "topic": "funcionamiento",
+   "es": "caber",
+   "en": "to fit",
+   "example_es": "La maleta no cabe en el maletero.",
+   "example_en": "The suitcase doesn't fit in the boot."
+  },
+  {
+   "id": "v10-ocupar-espacio",
+   "unit": 10,
+   "topic": "funcionamiento",
+   "es": "ocupar espacio",
+   "en": "to take up space",
+   "example_es": "La bici plegable ocupa muy poco espacio.",
+   "example_en": "The folding bike takes up very little space."
+  },
+  {
+   "id": "v10-estar-de-moda",
+   "unit": 10,
+   "topic": "diseño y moda",
+   "es": "estar de moda",
+   "en": "to be in fashion",
+   "example_es": "Las zapatillas blancas están de moda.",
+   "example_en": "White trainers are in fashion."
+  },
+  {
+   "id": "v10-pasado-de-moda",
+   "unit": 10,
+   "topic": "diseño y moda",
+   "es": "pasado de moda",
+   "en": "out of fashion",
+   "example_es": "Ese peinado está pasado de moda.",
+   "example_en": "That hairstyle is out of fashion."
+  },
+  {
+   "id": "v10-el-diseno-de-interiores",
+   "unit": 10,
+   "topic": "diseño y moda",
+   "es": "el diseño de interiores",
+   "en": "the interior design",
+   "example_es": "Estudia diseño de interiores.",
+   "example_en": "She studies interior design.",
+   "gender": "m"
+  },
+  {
+   "id": "v10-no-me-convence",
+   "unit": 10,
+   "topic": "valorar",
+   "es": "no me convence",
+   "en": "I'm not convinced (by it)",
+   "example_es": "El color no me convence.",
+   "example_en": "I'm not convinced by the colour."
+  }
+ ]
+}

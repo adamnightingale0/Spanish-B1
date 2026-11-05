@@ -73,7 +73,21 @@ export const ClozeItem = z
     { message: 'cloze {{n}} markers must match gaps[]' }
   );
 
-export const DrillItem = z.union([GapItem, TransformItem, ConjugateItem, ChoiceItem, ClozeItem]);
+/** error: tap the wrong word (token index in prompt.split(' ')), then type the correction. */
+export const ErrorItem = z
+  .object({ ...base, type: z.literal('error'), prompt: z.string(), errorIndex: z.number().int().min(0), answers })
+  .refine((i) => i.errorIndex < i.prompt.split(' ').length, { message: 'errorIndex out of range' });
+/** order: put the shuffled words of answers[0] in order. */
+export const OrderItem = z.object({ ...base, type: z.literal('order'), instruction: z.string(), answers });
+/** match: match each beginning to its ending. */
+export const MatchItem = z.object({
+  ...base,
+  type: z.literal('match'),
+  instruction: z.string(),
+  pairs: z.array(z.object({ left: z.string(), right: z.string() })).min(3).max(6)
+});
+
+export const DrillItem = z.union([GapItem, TransformItem, ConjugateItem, ChoiceItem, ClozeItem, ErrorItem, OrderItem, MatchItem]);
 
 export const UnitPack = z.object({
   id: z.string(),
@@ -138,12 +152,26 @@ export const ExamProfile = z.object({
   speakingCriteria: z.array(z.string())
 });
 
+export const VocabCard = z.object({
+  id: z.string().regex(/^v\d{2}-[a-z0-9-]+$/),
+  unit: z.number().int().min(1).max(12),
+  topic: z.string(),
+  es: z.string(),
+  en: z.string(),
+  gender: z.enum(['m', 'f']).optional(),
+  example_es: z.string(),
+  example_en: z.string(),
+  collocation: z.string().optional()
+});
+export const VocabPack = z.object({ id: z.string(), unit: z.number().int(), cards: z.array(VocabCard).min(1) });
+
 export const Manifest = z.object({
   version: z.string(),
   packs: z.array(z.string())
 });
 
 export type DrillItem = z.infer<typeof DrillItem>;
+export type VocabCard = z.infer<typeof VocabCard>;
 export type ClozeItem = z.infer<typeof ClozeItem>;
 export type UnitPack = z.infer<typeof UnitPack>;
 export type FocusPack = z.infer<typeof FocusPack>;

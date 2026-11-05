@@ -398,6 +398,60 @@
    ],
    "feedback": "A future request → cuando + subjunctive.",
    "contrast": "Siempre me avisa cuando empieza."
+  },
+  {
+   "id": "u06-err-001",
+   "type": "error",
+   "unit": 6,
+   "grammarPoint": "cuando-subjuntivo",
+   "difficulty": 1,
+   "prompt": "Cuando terminaré el curso, buscaré trabajo.",
+   "errorIndex": 1,
+   "answers": [
+    "termine"
+   ],
+   "feedback": "cuando + subjunctive for the future.",
+   "contrast": "Cuando terminé el curso, busqué trabajo."
+  },
+  {
+   "id": "u06-err-002",
+   "type": "error",
+   "unit": 6,
+   "grammarPoint": "querer-pedir-que",
+   "difficulty": 2,
+   "prompt": "Exigimos que el ayuntamiento limpia el parque.",
+   "errorIndex": 4,
+   "answers": [
+    "limpie"
+   ],
+   "feedback": "exigir que + subjunctive."
+  },
+  {
+   "id": "u06-match-001",
+   "type": "match",
+   "unit": 6,
+   "grammarPoint": "deberian-habria-que",
+   "difficulty": 2,
+   "instruction": "Relaciona cada principio con su final.",
+   "pairs": [
+    {
+     "left": "Habría que",
+     "right": "bajar el precio del transporte."
+    },
+    {
+     "left": "El Gobierno debería",
+     "right": "invertir en vivienda."
+    },
+    {
+     "left": "Es necesario que",
+     "right": "todos usemos menos plástico."
+    },
+    {
+     "left": "Exigimos que",
+     "right": "se cierre la central térmica."
+    }
+   ],
+   "feedback": "habría que / debería + infinitive; es necesario que / exigir que + subjunctive."
   }
  ]
 }

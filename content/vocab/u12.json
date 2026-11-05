@@ -1,0 +1,288 @@
+{
+ "id": "vocab-u12",
+ "unit": 12,
+ "cards": [
+  {
+   "id": "v12-la-teoria",
+   "unit": 12,
+   "topic": "hablar de una teoría",
+   "es": "la teoría",
+   "en": "the theory",
+   "example_es": "Existe la teoría de que hay vida en Marte.",
+   "example_en": "There's a theory that there's life on Mars.",
+   "gender": "f"
+  },
+  {
+   "id": "v12-sostener",
+   "unit": 12,
+   "topic": "hablar de una teoría",
+   "es": "sostener",
+   "en": "to maintain, claim",
+   "example_es": "Algunos científicos sostienen que es posible.",
+   "example_en": "Some scientists maintain that it's possible."
+  },
+  {
+   "id": "v12-afirmar",
+   "unit": 12,
+   "topic": "hablar de una teoría",
+   "es": "afirmar",
+   "en": "to state, claim",
+   "example_es": "El testigo afirma que vio una luz.",
+   "example_en": "The witness claims he saw a light."
+  },
+  {
+   "id": "v12-la-premonicion",
+   "unit": 12,
+   "topic": "fenómenos paranormales",
+   "es": "la premonición",
+   "en": "the premonition",
+   "example_es": "Tuve la premonición de que algo iba a pasar.",
+   "example_en": "I had a premonition that something was going to happen.",
+   "gender": "f",
+   "collocation": "tener una premonición"
+  },
+  {
+   "id": "v12-la-telepatia",
+   "unit": 12,
+   "topic": "fenómenos paranormales",
+   "es": "la telepatía",
+   "en": "the telepathy",
+   "example_es": "¿Crees en la telepatía?",
+   "example_en": "Do you believe in telepathy?",
+   "gender": "f"
+  },
+  {
+   "id": "v12-la-pesadilla",
+   "unit": 12,
+   "topic": "fenómenos paranormales",
+   "es": "la pesadilla",
+   "en": "the nightmare",
+   "example_es": "Anoche tuve una pesadilla horrible.",
+   "example_en": "Last night I had a horrible nightmare.",
+   "gender": "f"
+  },
+  {
+   "id": "v12-el-presentimiento",
+   "unit": 12,
+   "topic": "fenómenos paranormales",
+   "es": "el presentimiento",
+   "en": "the hunch, feeling",
+   "example_es": "Tengo el presentimiento de que vas a aprobar.",
+   "example_en": "I have a feeling you're going to pass.",
+   "gender": "m"
+  },
+  {
+   "id": "v12-el-fantasma",
+   "unit": 12,
+   "topic": "fenómenos paranormales",
+   "es": "el fantasma",
+   "en": "the ghost",
+   "example_es": "Dicen que hay un fantasma en el castillo.",
+   "example_en": "They say there's a ghost in the castle.",
+   "gender": "m",
+   "collocation": "ver un fantasma"
+  },
+  {
+   "id": "v12-el-ovni",
+   "unit": 12,
+   "topic": "fenómenos paranormales",
+   "es": "el ovni",
+   "en": "the UFO",
+   "example_es": "Varios vecinos dicen que vieron un ovni.",
+   "example_en": "Several neighbours say they saw a UFO.",
+   "gender": "m"
+  },
+  {
+   "id": "v12-oir-voces",
+   "unit": 12,
+   "topic": "fenómenos paranormales",
+   "es": "oír voces",
+   "en": "to hear voices",
+   "example_es": "En la casa abandonada se oyen voces.",
+   "example_en": "You can hear voices in the abandoned house."
+  },
+  {
+   "id": "v12-viajar-en-el-tiempo",
+   "unit": 12,
+   "topic": "fenómenos paranormales",
+   "es": "viajar en el tiempo",
+   "en": "to time travel",
+   "example_es": "Si pudieras viajar en el tiempo, ¿adónde irías?",
+   "example_en": "If you could travel in time, where would you go?"
+  },
+  {
+   "id": "v12-leer-el-pensamiento",
+   "unit": 12,
+   "topic": "fenómenos paranormales",
+   "es": "leer el pensamiento",
+   "en": "to read minds",
+   "example_es": "Parece que me lees el pensamiento.",
+   "example_en": "It's as if you can read my mind."
+  },
+  {
+   "id": "v12-notar-una-presencia",
+   "unit": 12,
+   "topic": "fenómenos paranormales",
+   "es": "notar una presencia",
+   "en": "to sense a presence",
+   "example_es": "Al entrar noté una presencia extraña.",
+   "example_en": "When I went in I sensed a strange presence."
+  },
+  {
+   "id": "v12-misterioso-misteriosa",
+   "unit": 12,
+   "topic": "describir sucesos",
+   "es": "misterioso, misteriosa",
+   "en": "mysterious",
+   "example_es": "Fue una desaparición muy misteriosa.",
+   "example_en": "It was a very mysterious disappearance."
+  },
+  {
+   "id": "v12-asombroso-asombrosa",
+   "unit": 12,
+   "topic": "describir sucesos",
+   "es": "asombroso, asombrosa",
+   "en": "amazing, astonishing",
+   "example_es": "Es asombroso lo que hace este mago.",
+   "example_en": "What this magician does is amazing."
+  },
+  {
+   "id": "v12-inexplicable",
+   "unit": 12,
+   "topic": "describir sucesos",
+   "es": "inexplicable",
+   "en": "inexplicable",
+   "example_es": "Pasó algo inexplicable aquella noche.",
+   "example_en": "Something inexplicable happened that night."
+  },
+  {
+   "id": "v12-impresionante",
+   "unit": 12,
+   "topic": "describir sucesos",
+   "es": "impresionante",
+   "en": "impressive",
+   "example_es": "Las líneas de Nazca son impresionantes.",
+   "example_en": "The Nazca lines are impressive."
+  },
+  {
+   "id": "v12-creer-en",
+   "unit": 12,
+   "topic": "creer",
+   "es": "creer en",
+   "en": "to believe in",
+   "example_es": "Mi abuela cree en el destino.",
+   "example_en": "My grandmother believes in fate."
+  },
+  {
+   "id": "v12-creerse-algo",
+   "unit": 12,
+   "topic": "creer",
+   "es": "creerse algo",
+   "en": "to believe (a story)",
+   "example_es": "No me creo nada de lo que dice.",
+   "example_en": "I don't believe anything he says."
+  },
+  {
+   "id": "v12-pensar-en",
+   "unit": 12,
+   "topic": "pensar",
+   "es": "pensar en",
+   "en": "to think about",
+   "example_es": "Siempre pienso en ti.",
+   "example_en": "I'm always thinking about you."
+  },
+  {
+   "id": "v12-pensar-de",
+   "unit": 12,
+   "topic": "pensar",
+   "es": "pensar de",
+   "en": "to think of (opinion)",
+   "example_es": "¿Qué piensas de esta teoría?",
+   "example_en": "What do you think of this theory?"
+  },
+  {
+   "id": "v12-acordarse-de",
+   "unit": 12,
+   "topic": "recordar",
+   "es": "acordarse de",
+   "en": "to remember",
+   "example_es": "¿Te acuerdas de aquel verano?",
+   "example_en": "Do you remember that summer?"
+  },
+  {
+   "id": "v12-recordar-a",
+   "unit": 12,
+   "topic": "recordar",
+   "es": "recordar a",
+   "en": "to remind of, look like",
+   "example_es": "Este pueblo me recuerda a mi infancia.",
+   "example_en": "This village reminds me of my childhood."
+  },
+  {
+   "id": "v12-estar-convencido-de",
+   "unit": 12,
+   "topic": "grados de seguridad",
+   "es": "estar convencido de",
+   "en": "to be convinced of",
+   "example_es": "Estoy convencida de que tiene razón.",
+   "example_en": "I'm convinced she's right."
+  },
+  {
+   "id": "v12-a-lo-mejor",
+   "unit": 12,
+   "topic": "hipótesis",
+   "es": "a lo mejor",
+   "en": "maybe",
+   "example_es": "A lo mejor ha perdido el móvil.",
+   "example_en": "Maybe he's lost his phone."
+  },
+  {
+   "id": "v12-puede-que",
+   "unit": 12,
+   "topic": "hipótesis",
+   "es": "puede que",
+   "en": "it may be that",
+   "example_es": "Puede que llegue tarde.",
+   "example_en": "He may arrive late."
+  },
+  {
+   "id": "v12-igual",
+   "unit": 12,
+   "topic": "hipótesis",
+   "es": "igual",
+   "en": "maybe (colloquial)",
+   "example_es": "Igual nos vemos en la fiesta.",
+   "example_en": "Maybe we'll see each other at the party."
+  },
+  {
+   "id": "v12-la-casualidad",
+   "unit": 12,
+   "topic": "describir sucesos",
+   "es": "la casualidad",
+   "en": "the coincidence",
+   "example_es": "¡Qué casualidad verte aquí!",
+   "example_en": "What a coincidence seeing you here!",
+   "gender": "f"
+  },
+  {
+   "id": "v12-el-enigma",
+   "unit": 12,
+   "topic": "describir sucesos",
+   "es": "el enigma",
+   "en": "the enigma, puzzle",
+   "example_es": "La muerte del faraón sigue siendo un enigma.",
+   "example_en": "The pharaoh's death is still a mystery.",
+   "gender": "m"
+  },
+  {
+   "id": "v12-la-investigacion",
+   "unit": 12,
+   "topic": "psicología y ciencia",
+   "es": "la investigación",
+   "en": "the research, investigation",
+   "example_es": "Recientes investigaciones sugieren que es falso.",
+   "example_en": "Recent research suggests it's false.",
+   "gender": "f"
+  }
+ ]
+}

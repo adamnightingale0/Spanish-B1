@@ -6,10 +6,14 @@ import { lastByItem, masteryByPoint, masteryBySubPoint, recentAccuracy } from '.
 export interface SessionSpec {
   title: string;
   items: DrillItem[];
+  /** Review up to this many vocabulary cards before the drills (Today's session). */
+  vocabCount?: number;
+  kind?: 'placement';
+  startedAt?: number;
 }
 
 /** Rough time cost per item, used to fill a session of N minutes. */
-export const itemSeconds = (i: DrillItem) => (i.type === 'cloze' ? 150 : i.type === 'transform' ? 45 : 30);
+export const itemSeconds = (i: DrillItem) => (i.type === 'cloze' ? 150 : i.type === 'match' ? 60 : i.type === 'transform' || i.type === 'order' || i.type === 'error' ? 45 : 30);
 
 /** Seeded-ish shuffle (Math.random is fine for practice order). */
 export function shuffle<T>(arr: T[]): T[] {
@@ -87,8 +91,15 @@ export function buildWeakSpots(attempts: Attempt[], count = 20): SessionSpec {
  * Today's session: Focus area ≥ 25% (40% while its mastery is under 80%), weakest grammar points,
  * the class unit, one cloze story, and spread review across all units (units idle for 10+ days first).
  */
-export function buildTodaySession(attempts: Attempt[], settings: Settings, now = Date.now()): SessionSpec {
-  const total = settings.sessionMinutes * 60;
+export const CARD_SECONDS = 10;
+
+/**
+ * vocabAvailable = flashcards due now plus new cards still allowed today. Up to a quarter of the
+ * session goes to them (reviewed first); the rest goes to the drills below.
+ */
+export function buildTodaySession(attempts: Attempt[], settings: Settings, now = Date.now(), vocabAvailable = 0): SessionSpec {
+  const vocabCount = Math.min(vocabAvailable, Math.floor((settings.sessionMinutes * 60 * 0.25) / CARD_SECONDS));
+  const total = settings.sessionMinutes * 60 - vocabCount * CARD_SECONDS;
   const used = new Set<string>();
   const out: DrillItem[] = [];
 
@@ -124,7 +135,7 @@ export function buildTodaySession(attempts: Attempt[], settings: Settings, now =
   // Interleave so the boost doesn't pull every item from one unit.
   out.push(...take(interleaveByUnit(rest), total - spent, used));
 
-  return { title: 'Sesión de hoy', items: interleaveFocus(out) };
+  return { title: 'Sesión de hoy', items: interleaveFocus(out), vocabCount };
 }
 
 function interleaveByUnit(items: DrillItem[]): DrillItem[] {

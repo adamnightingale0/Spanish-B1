@@ -1,0 +1,289 @@
+{
+ "id": "vocab-u07",
+ "unit": 7,
+ "cards": [
+  {
+   "id": "v07-el-mensaje",
+   "unit": 7,
+   "topic": "tipos de mensajes",
+   "es": "el mensaje",
+   "en": "the message",
+   "example_es": "Te he mandado un mensaje con la dirección.",
+   "example_en": "I've sent you a message with the address.",
+   "gender": "m"
+  },
+  {
+   "id": "v07-el-correo-electronico",
+   "unit": 7,
+   "topic": "tipos de mensajes",
+   "es": "el correo electrónico",
+   "en": "the email",
+   "example_es": "Contesto los correos electrónicos por la mañana.",
+   "example_en": "I answer emails in the morning.",
+   "gender": "m"
+  },
+  {
+   "id": "v07-la-postal",
+   "unit": 7,
+   "topic": "tipos de mensajes",
+   "es": "la postal",
+   "en": "the postcard",
+   "example_es": "Mi abuela todavía manda postales.",
+   "example_en": "My grandmother still sends postcards.",
+   "gender": "f"
+  },
+  {
+   "id": "v07-la-nota",
+   "unit": 7,
+   "topic": "tipos de mensajes",
+   "es": "la nota",
+   "en": "the note",
+   "example_es": "Te he dejado una nota en la nevera.",
+   "example_en": "I've left you a note on the fridge.",
+   "gender": "f",
+   "collocation": "dejar una nota"
+  },
+  {
+   "id": "v07-el-comentario",
+   "unit": 7,
+   "topic": "tipos de mensajes",
+   "es": "el comentario",
+   "en": "the comment",
+   "example_es": "Su comentario tuvo cientos de respuestas.",
+   "example_en": "Her comment got hundreds of replies.",
+   "gender": "m"
+  },
+  {
+   "id": "v07-comentar",
+   "unit": 7,
+   "topic": "verbos de comunicación",
+   "es": "comentar",
+   "en": "to comment (on)",
+   "example_es": "Nadie ha comentado mis fotos.",
+   "example_en": "Nobody has commented on my photos."
+  },
+  {
+   "id": "v07-publicar",
+   "unit": 7,
+   "topic": "verbos de comunicación",
+   "es": "publicar",
+   "en": "to post, publish",
+   "example_es": "Publicó una foto del concierto.",
+   "example_en": "He posted a photo of the concert."
+  },
+  {
+   "id": "v07-subir-una-foto",
+   "unit": 7,
+   "topic": "verbos de comunicación",
+   "es": "subir una foto",
+   "en": "to upload a photo",
+   "example_es": "¿Puedes subir las fotos al grupo?",
+   "example_en": "Can you upload the photos to the group?",
+   "collocation": "subir / colgar una foto"
+  },
+  {
+   "id": "v07-compartir",
+   "unit": 7,
+   "topic": "verbos de comunicación",
+   "es": "compartir",
+   "en": "to share",
+   "example_es": "Compartí la noticia con mis amigos.",
+   "example_en": "I shared the news with my friends."
+  },
+  {
+   "id": "v07-dar-tu-opinion",
+   "unit": 7,
+   "topic": "verbos de comunicación",
+   "es": "dar tu opinión",
+   "en": "to give your opinion",
+   "example_es": "Quiero dar mi opinión sobre el proyecto.",
+   "example_en": "I want to give my opinion on the project."
+  },
+  {
+   "id": "v07-el-recado",
+   "unit": 7,
+   "topic": "al teléfono",
+   "es": "el recado",
+   "en": "the message (verbal), errand",
+   "example_es": "¿Quiere dejar algún recado?",
+   "example_en": "Would you like to leave a message?",
+   "gender": "m",
+   "collocation": "dejar / tomar un recado"
+  },
+  {
+   "id": "v07-diga-digame",
+   "unit": 7,
+   "topic": "al teléfono",
+   "es": "¿Diga? / ¿Dígame?",
+   "en": "Hello? (answering the phone)",
+   "example_es": "—¿Dígame? —Hola, ¿está Marta?",
+   "example_en": "—Hello? —Hi, is Marta there?"
+  },
+  {
+   "id": "v07-de-parte-de-quien",
+   "unit": 7,
+   "topic": "al teléfono",
+   "es": "¿De parte de quién?",
+   "en": "Who's calling?",
+   "example_es": "—¿Está el director? —¿De parte de quién?",
+   "example_en": "—Is the director there? —Who's calling?"
+  },
+  {
+   "id": "v07-ahora-se-pone",
+   "unit": 7,
+   "topic": "al teléfono",
+   "es": "Ahora se pone",
+   "en": "He/She's just coming (to the phone)",
+   "example_es": "—¿Está Luis? —Sí, un momento, ahora se pone.",
+   "example_en": "—Is Luis there? —Yes, one moment, he's coming."
+  },
+  {
+   "id": "v07-pasar-una-llamada",
+   "unit": 7,
+   "topic": "al teléfono",
+   "es": "pasar (una llamada)",
+   "en": "to put (someone) through",
+   "example_es": "Le paso con el departamento de ventas.",
+   "example_en": "I'll put you through to the sales department.",
+   "collocation": "te / le paso con…"
+  },
+  {
+   "id": "v07-equivocarse-de-numero",
+   "unit": 7,
+   "topic": "al teléfono",
+   "es": "equivocarse (de número)",
+   "en": "to have the wrong number",
+   "example_es": "Perdone, creo que se ha equivocado de número.",
+   "example_en": "Sorry, I think you have the wrong number."
+  },
+  {
+   "id": "v07-pedir",
+   "unit": 7,
+   "topic": "pedir y preguntar",
+   "es": "pedir",
+   "en": "to ask for",
+   "example_es": "Le pedí ayuda a mi vecino.",
+   "example_en": "I asked my neighbour for help."
+  },
+  {
+   "id": "v07-preguntar",
+   "unit": 7,
+   "topic": "pedir y preguntar",
+   "es": "preguntar",
+   "en": "to ask (a question)",
+   "example_es": "Me preguntó dónde vivía.",
+   "example_en": "He asked me where I lived."
+  },
+  {
+   "id": "v07-preguntar-por",
+   "unit": 7,
+   "topic": "transmitir mensajes",
+   "es": "preguntar por",
+   "en": "to ask after / for (someone)",
+   "example_es": "Tu madre ha preguntado por ti.",
+   "example_en": "Your mother asked after you."
+  },
+  {
+   "id": "v07-dar-las-gracias-por",
+   "unit": 7,
+   "topic": "transmitir mensajes",
+   "es": "dar las gracias por",
+   "en": "to thank for",
+   "example_es": "Me ha dado las gracias por la ayuda.",
+   "example_en": "She thanked me for the help."
+  },
+  {
+   "id": "v07-despedirse-de",
+   "unit": 7,
+   "topic": "transmitir mensajes",
+   "es": "despedirse de",
+   "en": "to say goodbye to",
+   "example_es": "Se fue sin despedirse de nadie.",
+   "example_en": "He left without saying goodbye to anyone."
+  },
+  {
+   "id": "v07-felicitar",
+   "unit": 7,
+   "topic": "transmitir mensajes",
+   "es": "felicitar",
+   "en": "to congratulate",
+   "example_es": "Me han felicitado por el ascenso.",
+   "example_en": "They've congratulated me on the promotion.",
+   "collocation": "felicitar a alguien por algo"
+  },
+  {
+   "id": "v07-recordar-algo-a-alguien",
+   "unit": 7,
+   "topic": "transmitir mensajes",
+   "es": "recordar algo a alguien",
+   "en": "to remind someone of something",
+   "example_es": "Recuérdame la contraseña, por favor.",
+   "example_en": "Remind me of the password, please."
+  },
+  {
+   "id": "v07-sugerir",
+   "unit": 7,
+   "topic": "transmitir mensajes",
+   "es": "sugerir",
+   "en": "to suggest",
+   "example_es": "El médico me ha sugerido que descanse.",
+   "example_en": "The doctor has suggested I rest."
+  },
+  {
+   "id": "v07-proponer",
+   "unit": 7,
+   "topic": "transmitir mensajes",
+   "es": "proponer",
+   "en": "to propose, suggest",
+   "example_es": "Te propongo un plan para el sábado.",
+   "example_en": "I've got a plan to suggest for Saturday."
+  },
+  {
+   "id": "v07-saludar",
+   "unit": 7,
+   "topic": "transmitir mensajes",
+   "es": "saludar",
+   "en": "to greet, say hello",
+   "example_es": "Saluda a tus padres de mi parte.",
+   "example_en": "Say hello to your parents from me."
+  },
+  {
+   "id": "v07-de-mi-parte",
+   "unit": 7,
+   "topic": "transmitir mensajes",
+   "es": "de mi parte",
+   "en": "from me, on my behalf",
+   "example_es": "Dale un beso de mi parte.",
+   "example_en": "Give her a kiss from me."
+  },
+  {
+   "id": "v07-la-videollamada",
+   "unit": 7,
+   "topic": "comunicación",
+   "es": "la videollamada",
+   "en": "the video call",
+   "example_es": "Hacemos una videollamada cada domingo.",
+   "example_en": "We do a video call every Sunday.",
+   "gender": "f"
+  },
+  {
+   "id": "v07-el-buzon-de-voz",
+   "unit": 7,
+   "topic": "comunicación",
+   "es": "el buzón de voz",
+   "en": "the voicemail",
+   "example_es": "Te he dejado un mensaje en el buzón de voz.",
+   "example_en": "I've left you a voicemail.",
+   "gender": "m"
+  },
+  {
+   "id": "v07-contestar",
+   "unit": 7,
+   "topic": "comunicación",
+   "es": "contestar",
+   "en": "to answer, reply",
+   "example_es": "No contesta al teléfono.",
+   "example_en": "He isn't answering the phone."
+  }
+ ]
+}

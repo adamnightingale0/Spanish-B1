@@ -38,13 +38,34 @@ export function Speak({ text }: { text: string }) {
   );
 }
 
+/** "📖 Book: p. 28 · Más ejercicios p. 186". Page numbers open the viewer when a PDF is loaded. */
 export function BookRef({ page, masEjercicios, masGramatica, ejercicios }: { page?: number; masEjercicios?: number; masGramatica?: number; ejercicios?: string }) {
+  const app = useApp();
   if (!page) return null;
+  const P = ({ n }: { n: number }) =>
+    app.hasBook ? (
+      <button class="bookref-link" onClick={() => app.openBook(n)}>
+        p. {n}
+      </button>
+    ) : (
+      <>p. {n}</>
+    );
   return (
     <p class="small muted">
-      📖 Libro: p. {page}
-      {masEjercicios ? ` · Más ejercicios p. ${masEjercicios}${ejercicios ? ` (ej. ${ejercicios})` : ''}` : ''}
-      {masGramatica ? ` · Más gramática p. ${masGramatica}` : ''}
+      📖 Libro: <P n={page} />
+      {masEjercicios ? (
+        <>
+          {' · Más ejercicios '}
+          <P n={masEjercicios} />
+          {ejercicios ? ` (ej. ${ejercicios})` : ''}
+        </>
+      ) : null}
+      {masGramatica ? (
+        <>
+          {' · Más gramática '}
+          <P n={masGramatica} />
+        </>
+      ) : null}
     </p>
   );
 }

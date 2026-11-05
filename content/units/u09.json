@@ -347,6 +347,44 @@
    ],
    "feedback": "¡Qué + noun / adjective! intensifies a feeling.",
    "contrast": "¡Qué rabia!"
+  },
+  {
+   "id": "u09-err-001",
+   "type": "error",
+   "unit": 9,
+   "grammarPoint": "me-fascina-que",
+   "difficulty": 2,
+   "prompt": "Me molesta que mi compañero pone la música tan alta.",
+   "errorIndex": 5,
+   "answers": [
+    "ponga"
+   ],
+   "feedback": "Different subjects → que + subjunctive."
+  },
+  {
+   "id": "u09-err-002",
+   "type": "error",
+   "unit": 9,
+   "grammarPoint": "verbos-sentimiento",
+   "difficulty": 2,
+   "prompt": "Me pone muy nerviosa las colas del supermercado.",
+   "errorIndex": 1,
+   "answers": [
+    "ponen"
+   ],
+   "feedback": "poner nervioso agrees with what causes the feeling: las colas → ponen."
+  },
+  {
+   "id": "u09-ord-001",
+   "type": "order",
+   "unit": 9,
+   "grammarPoint": "me-fascina-que",
+   "difficulty": 2,
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "Me encanta que me escribas"
+   ],
+   "feedback": "me encanta que + subjunctive."
   }
  ]
 }
