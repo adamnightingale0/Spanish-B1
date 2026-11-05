@@ -4218,6 +4218,4040 @@
    ],
    "feedback": "haber (he, has, ha, hemos, habéis, han) + andado.",
    "contrast": "Indefinido: anduvo"
+  },
+  {
+   "id": "pt-conj-indef-138",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-indefinido",
+   "difficulty": 2,
+   "verb": "jugar",
+   "person": "él / ella / usted",
+   "tense": "pretérito indefinido",
+   "answers": [
+    "jugó"
+   ],
+   "feedback": "jugar (indefinido): jugué, jugaste, jugó, jugamos, jugasteis, jugaron. g → gu before e in yo: jugué.",
+   "contrast": "Imperfecto: jugaba"
+  },
+  {
+   "id": "pt-conj-indef-139",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-indefinido",
+   "difficulty": 2,
+   "verb": "jugar",
+   "person": "ellos / ellas / ustedes",
+   "tense": "pretérito indefinido",
+   "answers": [
+    "jugaron"
+   ],
+   "feedback": "jugar (indefinido): jugué, jugaste, jugó, jugamos, jugasteis, jugaron. g → gu before e in yo: jugué.",
+   "contrast": "Imperfecto: jugaban"
+  },
+  {
+   "id": "pt-conj-impf-140",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-imperfecto",
+   "difficulty": 1,
+   "verb": "jugar",
+   "person": "ellos / ellas / ustedes",
+   "tense": "pretérito imperfecto",
+   "answers": [
+    "jugaban"
+   ],
+   "feedback": "jugar (imperfecto): jugaba, jugabas, jugaba, jugábamos, jugabais, jugaban.",
+   "contrast": "Indefinido: jugaron"
+  },
+  {
+   "id": "pt-conj-perf-141",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-perfecto",
+   "difficulty": 1,
+   "verb": "jugar",
+   "person": "nosotros",
+   "tense": "pretérito perfecto",
+   "answers": [
+    "hemos jugado"
+   ],
+   "feedback": "haber (he, has, ha, hemos, habéis, han) + jugado.",
+   "contrast": "Indefinido: jugamos"
+  },
+  {
+   "id": "pt-conj-plus-142",
+   "type": "conjugate",
+   "unit": 8,
+   "grammarPoint": "pluscuamperfecto",
+   "subPoint": "pluscuamperfecto",
+   "difficulty": 2,
+   "verb": "jugar",
+   "person": "yo",
+   "tense": "pluscuamperfecto",
+   "answers": [
+    "había jugado"
+   ],
+   "feedback": "había, habías, había, habíamos, habíais, habían + jugado.",
+   "contrast": "Perfecto: he jugado"
+  },
+  {
+   "id": "pt-conj-indef-143",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-indefinido",
+   "difficulty": 2,
+   "verb": "pagar",
+   "person": "nosotros",
+   "tense": "pretérito indefinido",
+   "answers": [
+    "pagamos"
+   ],
+   "feedback": "pagar (indefinido): pagué, pagaste, pagó, pagamos, pagasteis, pagaron. g → gu before e in yo: pagué.",
+   "contrast": "Imperfecto: pagábamos"
+  },
+  {
+   "id": "pt-conj-indef-144",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-indefinido",
+   "difficulty": 2,
+   "verb": "pagar",
+   "person": "yo",
+   "tense": "pretérito indefinido",
+   "answers": [
+    "pagué"
+   ],
+   "feedback": "pagar (indefinido): pagué, pagaste, pagó, pagamos, pagasteis, pagaron. g → gu before e in yo: pagué.",
+   "contrast": "Imperfecto: pagaba"
+  },
+  {
+   "id": "pt-conj-impf-145",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-imperfecto",
+   "difficulty": 1,
+   "verb": "pagar",
+   "person": "yo",
+   "tense": "pretérito imperfecto",
+   "answers": [
+    "pagaba"
+   ],
+   "feedback": "pagar (imperfecto): pagaba, pagabas, pagaba, pagábamos, pagabais, pagaban.",
+   "contrast": "Indefinido: pagué"
+  },
+  {
+   "id": "pt-conj-perf-146",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-perfecto",
+   "difficulty": 1,
+   "verb": "pagar",
+   "person": "vosotros",
+   "tense": "pretérito perfecto",
+   "answers": [
+    "habéis pagado"
+   ],
+   "feedback": "haber (he, has, ha, hemos, habéis, han) + pagado.",
+   "contrast": "Indefinido: pagasteis"
+  },
+  {
+   "id": "pt-conj-indef-147",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-indefinido",
+   "difficulty": 2,
+   "verb": "sacar",
+   "person": "vosotros",
+   "tense": "pretérito indefinido",
+   "answers": [
+    "sacasteis"
+   ],
+   "feedback": "sacar (indefinido): saqué, sacaste, sacó, sacamos, sacasteis, sacaron. c → qu before e in yo: saqué.",
+   "contrast": "Imperfecto: sacabais"
+  },
+  {
+   "id": "pt-conj-indef-148",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-indefinido",
+   "difficulty": 2,
+   "verb": "sacar",
+   "person": "tú",
+   "tense": "pretérito indefinido",
+   "answers": [
+    "sacaste"
+   ],
+   "feedback": "sacar (indefinido): saqué, sacaste, sacó, sacamos, sacasteis, sacaron. c → qu before e in yo: saqué.",
+   "contrast": "Imperfecto: sacabas"
+  },
+  {
+   "id": "pt-conj-impf-149",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-imperfecto",
+   "difficulty": 1,
+   "verb": "sacar",
+   "person": "tú",
+   "tense": "pretérito imperfecto",
+   "answers": [
+    "sacabas"
+   ],
+   "feedback": "sacar (imperfecto): sacaba, sacabas, sacaba, sacábamos, sacabais, sacaban.",
+   "contrast": "Indefinido: sacaste"
+  },
+  {
+   "id": "pt-conj-perf-150",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-perfecto",
+   "difficulty": 1,
+   "verb": "sacar",
+   "person": "ellos / ellas / ustedes",
+   "tense": "pretérito perfecto",
+   "answers": [
+    "han sacado"
+   ],
+   "feedback": "haber (he, has, ha, hemos, habéis, han) + sacado.",
+   "contrast": "Indefinido: sacaron"
+  },
+  {
+   "id": "pt-conj-indef-151",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-indefinido",
+   "difficulty": 2,
+   "verb": "organizar",
+   "person": "ellos / ellas / ustedes",
+   "tense": "pretérito indefinido",
+   "answers": [
+    "organizaron"
+   ],
+   "feedback": "organizar (indefinido): organicé, organizaste, organizó, organizamos, organizasteis, organizaron. z → c before e in yo: organicé.",
+   "contrast": "Imperfecto: organizaban"
+  },
+  {
+   "id": "pt-conj-indef-152",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-indefinido",
+   "difficulty": 2,
+   "verb": "organizar",
+   "person": "él / ella / usted",
+   "tense": "pretérito indefinido",
+   "answers": [
+    "organizó"
+   ],
+   "feedback": "organizar (indefinido): organicé, organizaste, organizó, organizamos, organizasteis, organizaron. z → c before e in yo: organicé.",
+   "contrast": "Imperfecto: organizaba"
+  },
+  {
+   "id": "pt-conj-impf-153",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-imperfecto",
+   "difficulty": 1,
+   "verb": "organizar",
+   "person": "él / ella / usted",
+   "tense": "pretérito imperfecto",
+   "answers": [
+    "organizaba"
+   ],
+   "feedback": "organizar (imperfecto): organizaba, organizabas, organizaba, organizábamos, organizabais, organizaban.",
+   "contrast": "Indefinido: organizó"
+  },
+  {
+   "id": "pt-conj-perf-154",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-perfecto",
+   "difficulty": 1,
+   "verb": "organizar",
+   "person": "yo",
+   "tense": "pretérito perfecto",
+   "answers": [
+    "he organizado"
+   ],
+   "feedback": "haber (he, has, ha, hemos, habéis, han) + organizado.",
+   "contrast": "Indefinido: organicé"
+  },
+  {
+   "id": "pt-conj-indef-155",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-indefinido",
+   "difficulty": 2,
+   "verb": "sentir",
+   "person": "yo",
+   "tense": "pretérito indefinido",
+   "answers": [
+    "sentí"
+   ],
+   "feedback": "sentir (indefinido): sentí, sentiste, sintió, sentimos, sentisteis, sintieron. e → i in 3rd persons: sintió, sintieron.",
+   "contrast": "Imperfecto: sentía"
+  },
+  {
+   "id": "pt-conj-indef-156",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-indefinido",
+   "difficulty": 2,
+   "verb": "sentir",
+   "person": "nosotros",
+   "tense": "pretérito indefinido",
+   "answers": [
+    "sentimos"
+   ],
+   "feedback": "sentir (indefinido): sentí, sentiste, sintió, sentimos, sentisteis, sintieron. e → i in 3rd persons: sintió, sintieron.",
+   "contrast": "Imperfecto: sentíamos"
+  },
+  {
+   "id": "pt-conj-impf-157",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-imperfecto",
+   "difficulty": 1,
+   "verb": "sentir",
+   "person": "nosotros",
+   "tense": "pretérito imperfecto",
+   "answers": [
+    "sentíamos"
+   ],
+   "feedback": "sentir (imperfecto): sentía, sentías, sentía, sentíamos, sentíais, sentían.",
+   "contrast": "Indefinido: sentimos"
+  },
+  {
+   "id": "pt-conj-perf-158",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-perfecto",
+   "difficulty": 1,
+   "verb": "sentir",
+   "person": "tú",
+   "tense": "pretérito perfecto",
+   "answers": [
+    "has sentido"
+   ],
+   "feedback": "haber (he, has, ha, hemos, habéis, han) + sentido.",
+   "contrast": "Indefinido: sentiste"
+  },
+  {
+   "id": "pt-conj-plus-159",
+   "type": "conjugate",
+   "unit": 8,
+   "grammarPoint": "pluscuamperfecto",
+   "subPoint": "pluscuamperfecto",
+   "difficulty": 2,
+   "verb": "sentir",
+   "person": "vosotros",
+   "tense": "pluscuamperfecto",
+   "answers": [
+    "habíais sentido"
+   ],
+   "feedback": "había, habías, había, habíamos, habíais, habían + sentido.",
+   "contrast": "Perfecto: habéis sentido"
+  },
+  {
+   "id": "pt-conj-indef-160",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-indefinido",
+   "difficulty": 2,
+   "verb": "preferir",
+   "person": "tú",
+   "tense": "pretérito indefinido",
+   "answers": [
+    "preferiste"
+   ],
+   "feedback": "preferir (indefinido): preferí, preferiste, prefirió, preferimos, preferisteis, prefirieron. e → i in 3rd persons.",
+   "contrast": "Imperfecto: preferías"
+  },
+  {
+   "id": "pt-conj-indef-161",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-indefinido",
+   "difficulty": 2,
+   "verb": "preferir",
+   "person": "vosotros",
+   "tense": "pretérito indefinido",
+   "answers": [
+    "preferisteis"
+   ],
+   "feedback": "preferir (indefinido): preferí, preferiste, prefirió, preferimos, preferisteis, prefirieron. e → i in 3rd persons.",
+   "contrast": "Imperfecto: preferíais"
+  },
+  {
+   "id": "pt-conj-impf-162",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-imperfecto",
+   "difficulty": 1,
+   "verb": "preferir",
+   "person": "vosotros",
+   "tense": "pretérito imperfecto",
+   "answers": [
+    "preferíais"
+   ],
+   "feedback": "preferir (imperfecto): prefería, preferías, prefería, preferíamos, preferíais, preferían.",
+   "contrast": "Indefinido: preferisteis"
+  },
+  {
+   "id": "pt-conj-perf-163",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-perfecto",
+   "difficulty": 1,
+   "verb": "preferir",
+   "person": "él / ella / usted",
+   "tense": "pretérito perfecto",
+   "answers": [
+    "ha preferido"
+   ],
+   "feedback": "haber (he, has, ha, hemos, habéis, han) + preferido.",
+   "contrast": "Indefinido: prefirió"
+  },
+  {
+   "id": "pt-conj-indef-164",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-indefinido",
+   "difficulty": 2,
+   "verb": "servir",
+   "person": "él / ella / usted",
+   "tense": "pretérito indefinido",
+   "answers": [
+    "sirvió"
+   ],
+   "feedback": "servir (indefinido): serví, serviste, sirvió, servimos, servisteis, sirvieron. e → i in 3rd persons.",
+   "contrast": "Imperfecto: servía"
+  },
+  {
+   "id": "pt-conj-indef-165",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-indefinido",
+   "difficulty": 2,
+   "verb": "servir",
+   "person": "ellos / ellas / ustedes",
+   "tense": "pretérito indefinido",
+   "answers": [
+    "sirvieron"
+   ],
+   "feedback": "servir (indefinido): serví, serviste, sirvió, servimos, servisteis, sirvieron. e → i in 3rd persons.",
+   "contrast": "Imperfecto: servían"
+  },
+  {
+   "id": "pt-conj-impf-166",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-imperfecto",
+   "difficulty": 1,
+   "verb": "servir",
+   "person": "ellos / ellas / ustedes",
+   "tense": "pretérito imperfecto",
+   "answers": [
+    "servían"
+   ],
+   "feedback": "servir (imperfecto): servía, servías, servía, servíamos, servíais, servían.",
+   "contrast": "Indefinido: sirvieron"
+  },
+  {
+   "id": "pt-conj-perf-167",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-perfecto",
+   "difficulty": 1,
+   "verb": "servir",
+   "person": "nosotros",
+   "tense": "pretérito perfecto",
+   "answers": [
+    "hemos servido"
+   ],
+   "feedback": "haber (he, has, ha, hemos, habéis, han) + servido.",
+   "contrast": "Indefinido: servimos"
+  },
+  {
+   "id": "pt-conj-indef-168",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-indefinido",
+   "difficulty": 2,
+   "verb": "elegir",
+   "person": "nosotros",
+   "tense": "pretérito indefinido",
+   "answers": [
+    "elegimos"
+   ],
+   "feedback": "elegir (indefinido): elegí, elegiste, eligió, elegimos, elegisteis, eligieron. e → i in 3rd persons.",
+   "contrast": "Imperfecto: elegíamos"
+  },
+  {
+   "id": "pt-conj-indef-169",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-indefinido",
+   "difficulty": 2,
+   "verb": "elegir",
+   "person": "yo",
+   "tense": "pretérito indefinido",
+   "answers": [
+    "elegí"
+   ],
+   "feedback": "elegir (indefinido): elegí, elegiste, eligió, elegimos, elegisteis, eligieron. e → i in 3rd persons.",
+   "contrast": "Imperfecto: elegía"
+  },
+  {
+   "id": "pt-conj-impf-170",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-imperfecto",
+   "difficulty": 1,
+   "verb": "elegir",
+   "person": "yo",
+   "tense": "pretérito imperfecto",
+   "answers": [
+    "elegía"
+   ],
+   "feedback": "elegir (imperfecto): elegía, elegías, elegía, elegíamos, elegíais, elegían.",
+   "contrast": "Indefinido: elegí"
+  },
+  {
+   "id": "pt-conj-perf-171",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-perfecto",
+   "difficulty": 1,
+   "verb": "elegir",
+   "person": "vosotros",
+   "tense": "pretérito perfecto",
+   "answers": [
+    "habéis elegido"
+   ],
+   "feedback": "haber (he, has, ha, hemos, habéis, han) + elegido.",
+   "contrast": "Indefinido: elegisteis"
+  },
+  {
+   "id": "pt-conj-indef-172",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-indefinido",
+   "difficulty": 2,
+   "verb": "morir",
+   "person": "vosotros",
+   "tense": "pretérito indefinido",
+   "answers": [
+    "moristeis"
+   ],
+   "feedback": "morir (indefinido): morí, moriste, murió, morimos, moristeis, murieron. o → u in 3rd persons; participle muerto.",
+   "contrast": "Imperfecto: moríais"
+  },
+  {
+   "id": "pt-conj-indef-173",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-indefinido",
+   "difficulty": 2,
+   "verb": "morir",
+   "person": "tú",
+   "tense": "pretérito indefinido",
+   "answers": [
+    "moriste"
+   ],
+   "feedback": "morir (indefinido): morí, moriste, murió, morimos, moristeis, murieron. o → u in 3rd persons; participle muerto.",
+   "contrast": "Imperfecto: morías"
+  },
+  {
+   "id": "pt-conj-impf-174",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-imperfecto",
+   "difficulty": 1,
+   "verb": "morir",
+   "person": "tú",
+   "tense": "pretérito imperfecto",
+   "answers": [
+    "morías"
+   ],
+   "feedback": "morir (imperfecto): moría, morías, moría, moríamos, moríais, morían.",
+   "contrast": "Indefinido: moriste"
+  },
+  {
+   "id": "pt-conj-perf-175",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-perfecto",
+   "difficulty": 2,
+   "verb": "morir",
+   "person": "ellos / ellas / ustedes",
+   "tense": "pretérito perfecto",
+   "answers": [
+    "han muerto"
+   ],
+   "feedback": "haber (he, has, ha, hemos, habéis, han) + muerto. Irregular participle: muerto.",
+   "contrast": "Indefinido: murieron"
+  },
+  {
+   "id": "pt-conj-plus-176",
+   "type": "conjugate",
+   "unit": 8,
+   "grammarPoint": "pluscuamperfecto",
+   "subPoint": "pluscuamperfecto",
+   "difficulty": 2,
+   "verb": "morir",
+   "person": "él / ella / usted",
+   "tense": "pluscuamperfecto",
+   "answers": [
+    "había muerto"
+   ],
+   "feedback": "había, habías, había, habíamos, habíais, habían + muerto.",
+   "contrast": "Perfecto: ha muerto"
+  },
+  {
+   "id": "pt-conj-indef-177",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-indefinido",
+   "difficulty": 2,
+   "verb": "oír",
+   "person": "ellos / ellas / ustedes",
+   "tense": "pretérito indefinido",
+   "answers": [
+    "oyeron"
+   ],
+   "feedback": "oír (indefinido): oí, oíste, oyó, oímos, oísteis, oyeron. i → y in 3rd persons: oyó, oyeron.",
+   "contrast": "Imperfecto: oían"
+  },
+  {
+   "id": "pt-conj-indef-178",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-indefinido",
+   "difficulty": 2,
+   "verb": "oír",
+   "person": "él / ella / usted",
+   "tense": "pretérito indefinido",
+   "answers": [
+    "oyó"
+   ],
+   "feedback": "oír (indefinido): oí, oíste, oyó, oímos, oísteis, oyeron. i → y in 3rd persons: oyó, oyeron.",
+   "contrast": "Imperfecto: oía"
+  },
+  {
+   "id": "pt-conj-impf-179",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-imperfecto",
+   "difficulty": 2,
+   "verb": "oír",
+   "person": "ellos / ellas / ustedes",
+   "tense": "pretérito imperfecto",
+   "answers": [
+    "oían"
+   ],
+   "feedback": "oír (imperfecto): oía, oías, oía, oíamos, oíais, oían.",
+   "contrast": "Indefinido: oyeron"
+  },
+  {
+   "id": "pt-conj-impf-180",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-imperfecto",
+   "difficulty": 2,
+   "verb": "oír",
+   "person": "él / ella / usted",
+   "tense": "pretérito imperfecto",
+   "answers": [
+    "oía"
+   ],
+   "feedback": "oír (imperfecto): oía, oías, oía, oíamos, oíais, oían.",
+   "contrast": "Indefinido: oyó"
+  },
+  {
+   "id": "pt-conj-perf-181",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-perfecto",
+   "difficulty": 2,
+   "verb": "oír",
+   "person": "yo",
+   "tense": "pretérito perfecto",
+   "answers": [
+    "he oído"
+   ],
+   "feedback": "haber (he, has, ha, hemos, habéis, han) + oído. Irregular participle: oído.",
+   "contrast": "Indefinido: oí"
+  },
+  {
+   "id": "pt-conj-plus-182",
+   "type": "conjugate",
+   "unit": 8,
+   "grammarPoint": "pluscuamperfecto",
+   "subPoint": "pluscuamperfecto",
+   "difficulty": 2,
+   "verb": "oír",
+   "person": "nosotros",
+   "tense": "pluscuamperfecto",
+   "answers": [
+    "habíamos oído"
+   ],
+   "feedback": "había, habías, había, habíamos, habíais, habían + oído.",
+   "contrast": "Perfecto: hemos oído"
+  },
+  {
+   "id": "pt-conj-indef-183",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-indefinido",
+   "difficulty": 2,
+   "verb": "caer",
+   "person": "yo",
+   "tense": "pretérito indefinido",
+   "answers": [
+    "caí"
+   ],
+   "feedback": "caer (indefinido): caí, caíste, cayó, caímos, caísteis, cayeron. i → y in 3rd persons: cayó.",
+   "contrast": "Imperfecto: caía"
+  },
+  {
+   "id": "pt-conj-indef-184",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-indefinido",
+   "difficulty": 2,
+   "verb": "caer",
+   "person": "nosotros",
+   "tense": "pretérito indefinido",
+   "answers": [
+    "caímos"
+   ],
+   "feedback": "caer (indefinido): caí, caíste, cayó, caímos, caísteis, cayeron. i → y in 3rd persons: cayó.",
+   "contrast": "Imperfecto: caíamos"
+  },
+  {
+   "id": "pt-conj-impf-185",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-imperfecto",
+   "difficulty": 1,
+   "verb": "caer",
+   "person": "nosotros",
+   "tense": "pretérito imperfecto",
+   "answers": [
+    "caíamos"
+   ],
+   "feedback": "caer (imperfecto): caía, caías, caía, caíamos, caíais, caían.",
+   "contrast": "Indefinido: caímos"
+  },
+  {
+   "id": "pt-conj-perf-186",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-perfecto",
+   "difficulty": 2,
+   "verb": "caer",
+   "person": "tú",
+   "tense": "pretérito perfecto",
+   "answers": [
+    "has caído"
+   ],
+   "feedback": "haber (he, has, ha, hemos, habéis, han) + caído. Irregular participle: caído.",
+   "contrast": "Indefinido: caíste"
+  },
+  {
+   "id": "pt-conj-plus-187",
+   "type": "conjugate",
+   "unit": 8,
+   "grammarPoint": "pluscuamperfecto",
+   "subPoint": "pluscuamperfecto",
+   "difficulty": 2,
+   "verb": "caer",
+   "person": "vosotros",
+   "tense": "pluscuamperfecto",
+   "answers": [
+    "habíais caído"
+   ],
+   "feedback": "había, habías, había, habíamos, habíais, habían + caído.",
+   "contrast": "Perfecto: habéis caído"
+  },
+  {
+   "id": "pt-conj-indef-188",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-indefinido",
+   "difficulty": 2,
+   "verb": "construir",
+   "person": "tú",
+   "tense": "pretérito indefinido",
+   "answers": [
+    "construiste"
+   ],
+   "feedback": "construir (indefinido): construí, construiste, construyó, construimos, construisteis, construyeron. i → y in 3rd persons: construyó.",
+   "contrast": "Imperfecto: construías"
+  },
+  {
+   "id": "pt-conj-indef-189",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-indefinido",
+   "difficulty": 2,
+   "verb": "construir",
+   "person": "vosotros",
+   "tense": "pretérito indefinido",
+   "answers": [
+    "construisteis"
+   ],
+   "feedback": "construir (indefinido): construí, construiste, construyó, construimos, construisteis, construyeron. i → y in 3rd persons: construyó.",
+   "contrast": "Imperfecto: construíais"
+  },
+  {
+   "id": "pt-conj-impf-190",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-imperfecto",
+   "difficulty": 1,
+   "verb": "construir",
+   "person": "vosotros",
+   "tense": "pretérito imperfecto",
+   "answers": [
+    "construíais"
+   ],
+   "feedback": "construir (imperfecto): construía, construías, construía, construíamos, construíais, construían.",
+   "contrast": "Indefinido: construisteis"
+  },
+  {
+   "id": "pt-conj-perf-191",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-perfecto",
+   "difficulty": 1,
+   "verb": "construir",
+   "person": "él / ella / usted",
+   "tense": "pretérito perfecto",
+   "answers": [
+    "ha construido"
+   ],
+   "feedback": "haber (he, has, ha, hemos, habéis, han) + construido.",
+   "contrast": "Indefinido: construyó"
+  },
+  {
+   "id": "pt-conj-indef-192",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-indefinido",
+   "difficulty": 2,
+   "verb": "traducir",
+   "person": "él / ella / usted",
+   "tense": "pretérito indefinido",
+   "answers": [
+    "tradujo"
+   ],
+   "feedback": "traducir (indefinido): traduje, tradujiste, tradujo, tradujimos, tradujisteis, tradujeron. Stem traduj-; ellos tradujeron.",
+   "contrast": "Imperfecto: traducía"
+  },
+  {
+   "id": "pt-conj-indef-193",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-indefinido",
+   "difficulty": 2,
+   "verb": "traducir",
+   "person": "ellos / ellas / ustedes",
+   "tense": "pretérito indefinido",
+   "answers": [
+    "tradujeron"
+   ],
+   "feedback": "traducir (indefinido): traduje, tradujiste, tradujo, tradujimos, tradujisteis, tradujeron. Stem traduj-; ellos tradujeron.",
+   "contrast": "Imperfecto: traducían"
+  },
+  {
+   "id": "pt-conj-impf-194",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-imperfecto",
+   "difficulty": 1,
+   "verb": "traducir",
+   "person": "ellos / ellas / ustedes",
+   "tense": "pretérito imperfecto",
+   "answers": [
+    "traducían"
+   ],
+   "feedback": "traducir (imperfecto): traducía, traducías, traducía, traducíamos, traducíais, traducían.",
+   "contrast": "Indefinido: tradujeron"
+  },
+  {
+   "id": "pt-conj-perf-195",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-perfecto",
+   "difficulty": 1,
+   "verb": "traducir",
+   "person": "nosotros",
+   "tense": "pretérito perfecto",
+   "answers": [
+    "hemos traducido"
+   ],
+   "feedback": "haber (he, has, ha, hemos, habéis, han) + traducido.",
+   "contrast": "Indefinido: tradujimos"
+  },
+  {
+   "id": "pt-conj-plus-196",
+   "type": "conjugate",
+   "unit": 8,
+   "grammarPoint": "pluscuamperfecto",
+   "subPoint": "pluscuamperfecto",
+   "difficulty": 2,
+   "verb": "traducir",
+   "person": "yo",
+   "tense": "pluscuamperfecto",
+   "answers": [
+    "había traducido"
+   ],
+   "feedback": "había, habías, había, habíamos, habíais, habían + traducido.",
+   "contrast": "Perfecto: he traducido"
+  },
+  {
+   "id": "pt-conj-indef-197",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-indefinido",
+   "difficulty": 1,
+   "verb": "descubrir",
+   "person": "nosotros",
+   "tense": "pretérito indefinido",
+   "answers": [
+    "descubrimos"
+   ],
+   "feedback": "descubrir (indefinido): descubrí, descubriste, descubrió, descubrimos, descubristeis, descubrieron. Irregular participle: descubierto.",
+   "contrast": "Imperfecto: descubríamos"
+  },
+  {
+   "id": "pt-conj-impf-198",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-imperfecto",
+   "difficulty": 1,
+   "verb": "descubrir",
+   "person": "yo",
+   "tense": "pretérito imperfecto",
+   "answers": [
+    "descubría"
+   ],
+   "feedback": "descubrir (imperfecto): descubría, descubrías, descubría, descubríamos, descubríais, descubrían.",
+   "contrast": "Indefinido: descubrí"
+  },
+  {
+   "id": "pt-conj-perf-199",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-perfecto",
+   "difficulty": 2,
+   "verb": "descubrir",
+   "person": "vosotros",
+   "tense": "pretérito perfecto",
+   "answers": [
+    "habéis descubierto"
+   ],
+   "feedback": "haber (he, has, ha, hemos, habéis, han) + descubierto. Irregular participle: descubierto.",
+   "contrast": "Indefinido: descubristeis"
+  },
+  {
+   "id": "pt-conj-plus-200",
+   "type": "conjugate",
+   "unit": 8,
+   "grammarPoint": "pluscuamperfecto",
+   "subPoint": "pluscuamperfecto",
+   "difficulty": 2,
+   "verb": "descubrir",
+   "person": "tú",
+   "tense": "pluscuamperfecto",
+   "answers": [
+    "habías descubierto"
+   ],
+   "feedback": "había, habías, había, habíamos, habíais, habían + descubierto.",
+   "contrast": "Perfecto: has descubierto"
+  },
+  {
+   "id": "pt-conj-indef-201",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-indefinido",
+   "difficulty": 1,
+   "verb": "resolver",
+   "person": "vosotros",
+   "tense": "pretérito indefinido",
+   "answers": [
+    "resolvisteis"
+   ],
+   "feedback": "resolver (indefinido): resolví, resolviste, resolvió, resolvimos, resolvisteis, resolvieron. Irregular participle: resuelto.",
+   "contrast": "Imperfecto: resolvíais"
+  },
+  {
+   "id": "pt-conj-impf-202",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-imperfecto",
+   "difficulty": 1,
+   "verb": "resolver",
+   "person": "tú",
+   "tense": "pretérito imperfecto",
+   "answers": [
+    "resolvías"
+   ],
+   "feedback": "resolver (imperfecto): resolvía, resolvías, resolvía, resolvíamos, resolvíais, resolvían.",
+   "contrast": "Indefinido: resolviste"
+  },
+  {
+   "id": "pt-conj-perf-203",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "forms-perfecto",
+   "difficulty": 2,
+   "verb": "resolver",
+   "person": "ellos / ellas / ustedes",
+   "tense": "pretérito perfecto",
+   "answers": [
+    "han resuelto"
+   ],
+   "feedback": "haber (he, has, ha, hemos, habéis, han) + resuelto. Irregular participle: resuelto.",
+   "contrast": "Indefinido: resolvieron"
+  },
+  {
+   "id": "pt-conj-plus-204",
+   "type": "conjugate",
+   "unit": 8,
+   "grammarPoint": "pluscuamperfecto",
+   "subPoint": "pluscuamperfecto",
+   "difficulty": 2,
+   "verb": "resolver",
+   "person": "él / ella / usted",
+   "tense": "pluscuamperfecto",
+   "answers": [
+    "había resuelto"
+   ],
+   "feedback": "había, habías, había, habíamos, habíais, habían + resuelto.",
+   "contrast": "Perfecto: ha resuelto"
+  },
+  {
+   "id": "pt-f-001",
+   "type": "gap",
+   "grammarPoint": "past-review",
+   "difficulty": 1,
+   "feedback": "esta tarde (today) → perfecto.",
+   "contrast": "Ayer vi a tu hermano.",
+   "why": "time-marker-open",
+   "subPoint": "perfecto-vs-indefinido",
+   "prompt": "Esta tarde ___ (ver, yo) a tu hermano en el supermercado.",
+   "answers": [
+    "he visto"
+   ],
+   "unit": 2
+  },
+  {
+   "id": "pt-f-002",
+   "type": "gap",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "Closed period → indefinido.",
+   "contrast": "Esta tarde lo he visto.",
+   "why": "time-marker-closed",
+   "subPoint": "perfecto-vs-indefinido",
+   "prompt": "El jueves pasado ___ (ver, yo) a tu hermano en el supermercado.",
+   "answers": [
+    "vi"
+   ],
+   "unit": 2
+  },
+  {
+   "id": "pt-f-003",
+   "type": "gap",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "alguna vez → perfecto.",
+   "contrast": "Lo perdí en 2020.",
+   "why": "time-marker-open",
+   "subPoint": "perfecto-vs-indefinido",
+   "prompt": "¿Alguna vez ___ (perder, tú) un avión?",
+   "answers": [
+    "has perdido"
+   ],
+   "unit": 2
+  },
+  {
+   "id": "pt-f-004",
+   "type": "gap",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "hace + time → indefinido.",
+   "contrast": "Este mes hemos empezado un curso.",
+   "why": "time-marker-closed",
+   "subPoint": "perfecto-vs-indefinido",
+   "prompt": "Hace un mes ___ (empezar, nosotros) un curso de cocina.",
+   "answers": [
+    "empezamos"
+   ],
+   "unit": 2
+  },
+  {
+   "id": "pt-f-005",
+   "type": "gap",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "últimamente (up to now) → perfecto.",
+   "contrast": "El mes pasado dormí poco.",
+   "why": "time-marker-open",
+   "subPoint": "perfecto-vs-indefinido",
+   "prompt": "Últimamente ___ (dormir, yo) muy poco por el trabajo.",
+   "answers": [
+    "he dormido"
+   ],
+   "unit": 2
+  },
+  {
+   "id": "pt-f-006",
+   "type": "choice",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "anoche → indefinido, even after a perfecto question.",
+   "contrast": "Lo he terminado hoy.",
+   "why": "time-marker-closed",
+   "subPoint": "perfecto-vs-indefinido",
+   "prompt": "—¿Ya has terminado el libro? —Sí, lo ___ anoche.",
+   "options": [
+    "terminé",
+    "he terminado",
+    "terminaba"
+   ],
+   "answers": [
+    "terminé"
+   ],
+   "unit": 2
+  },
+  {
+   "id": "pt-f-007",
+   "type": "choice",
+   "grammarPoint": "past-review",
+   "difficulty": 3,
+   "feedback": "esta semana (still open) → perfecto.",
+   "contrast": "La semana pasada fui tres veces.",
+   "why": "time-marker-open",
+   "subPoint": "perfecto-vs-indefinido",
+   "prompt": "(Es domingo.) Esta semana ___ al gimnasio cuatro veces.",
+   "options": [
+    "he ido",
+    "fui",
+    "iba"
+   ],
+   "answers": [
+    "he ido"
+   ],
+   "unit": 2
+  },
+  {
+   "id": "pt-f-008",
+   "type": "error",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "este verano (still part of this year, said in summer) → perfecto in Spain.",
+   "contrast": "El verano pasado viajamos a Italia.",
+   "why": "time-marker-open",
+   "subPoint": "perfecto-vs-indefinido",
+   "prompt": "Este verano viajamos a Italia y nos ha encantado.",
+   "errorIndex": 2,
+   "answers": [
+    "hemos viajado"
+   ],
+   "unit": 2
+  },
+  {
+   "id": "pt-f-009",
+   "type": "error",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "alguna vez → perfecto.",
+   "contrast": "¿Estuviste en Marruecos el año pasado?",
+   "why": "time-marker-open",
+   "subPoint": "perfecto-vs-indefinido",
+   "prompt": "¿Estuviste alguna vez en Marruecos?",
+   "errorIndex": 0,
+   "answers": [
+    "Has estado"
+   ],
+   "unit": 2
+  },
+  {
+   "id": "pt-f-010",
+   "type": "gap",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "A past situation as background → imperfecto.",
+   "contrast": "Viví en Londres cinco años.",
+   "why": "background-description",
+   "subPoint": "indefinido-vs-imperfecto",
+   "prompt": "Cuando ___ (vivir, yo) en Londres, iba al trabajo en bicicleta.",
+   "answers": [
+    "vivía"
+   ],
+   "unit": 2
+  },
+  {
+   "id": "pt-f-011",
+   "type": "gap",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "todos los domingos → habit → imperfecto.",
+   "contrast": "Un domingo cocinó cocido.",
+   "why": "habit",
+   "subPoint": "indefinido-vs-imperfecto",
+   "prompt": "Mi abuela ___ (cocinar) paella todos los domingos.",
+   "answers": [
+    "cocinaba"
+   ],
+   "unit": 2
+  },
+  {
+   "id": "pt-f-012",
+   "type": "gap",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "One specific occasion → indefinido.",
+   "contrast": "Siempre cocinaba paella.",
+   "why": "completed-action",
+   "subPoint": "indefinido-vs-imperfecto",
+   "prompt": "Aquel domingo, mi abuela ___ (cocinar) un cocido buenísimo.",
+   "answers": [
+    "cocinó"
+   ],
+   "unit": 2
+  },
+  {
+   "id": "pt-f-013",
+   "type": "gap",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "Description → imperfecto.",
+   "contrast": "Vivimos allí dos años.",
+   "why": "background-description",
+   "subPoint": "indefinido-vs-imperfecto",
+   "prompt": "El piso ___ (tener) tres habitaciones y una terraza enorme.",
+   "answers": [
+    "tenía"
+   ],
+   "unit": 2
+  },
+  {
+   "id": "pt-f-014",
+   "type": "choice",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "Habit in a past stage → imperfecto.",
+   "contrast": "Trabajé en un bar en 2015.",
+   "why": "habit",
+   "subPoint": "indefinido-vs-imperfecto",
+   "prompt": "Cuando era estudiante, ___ en un bar los fines de semana.",
+   "options": [
+    "trabajaba",
+    "trabajé",
+    "he trabajado"
+   ],
+   "answers": [
+    "trabajaba"
+   ],
+   "unit": 2
+  },
+  {
+   "id": "pt-f-015",
+   "type": "choice",
+   "grammarPoint": "past-review",
+   "difficulty": 3,
+   "feedback": "A closed, measured period (una semana) → indefinido.",
+   "contrast": "Llovía cuando llegué.",
+   "why": "time-marker-closed",
+   "subPoint": "indefinido-vs-imperfecto",
+   "prompt": "Estuve en París una semana y ___ todos los días.",
+   "options": [
+    "llovió",
+    "llovía",
+    "ha llovido"
+   ],
+   "answers": [
+    "llovió"
+   ],
+   "unit": 2
+  },
+  {
+   "id": "pt-f-016",
+   "type": "error",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "Habit → imperfecto.",
+   "contrast": "Un día jugué un partido importante.",
+   "why": "habit",
+   "subPoint": "indefinido-vs-imperfecto",
+   "prompt": "De niño jugué al fútbol todas las tardes.",
+   "errorIndex": 2,
+   "answers": [
+    "jugaba"
+   ],
+   "unit": 2
+  },
+  {
+   "id": "pt-f-017",
+   "type": "error",
+   "grammarPoint": "past-review",
+   "difficulty": 3,
+   "feedback": "Describing the car → imperfecto.",
+   "contrast": "Mi primer coche fue un regalo de mi padre.",
+   "why": "background-description",
+   "subPoint": "indefinido-vs-imperfecto",
+   "prompt": "Mi primer coche fue rojo y muy pequeño.",
+   "errorIndex": 3,
+   "answers": [
+    "era"
+   ],
+   "unit": 2
+  },
+  {
+   "id": "pt-f-018",
+   "type": "gap",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "mientras + action in progress → imperfecto.",
+   "contrast": "Me duché y salí.",
+   "why": "interrupted-action",
+   "subPoint": "interrupted-action",
+   "prompt": "Mientras ___ (ducharse, yo), sonó el teléfono.",
+   "answers": [
+    "me duchaba",
+    "me estaba duchando",
+    "estaba duchándome"
+   ],
+   "unit": 2
+  },
+  {
+   "id": "pt-f-019",
+   "type": "gap",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "The interrupting event → indefinido.",
+   "contrast": "La noticia llegaba tarde.",
+   "why": "completed-action",
+   "subPoint": "interrupted-action",
+   "prompt": "Estábamos cenando cuando ___ (llegar) la noticia.",
+   "answers": [
+    "llegó"
+   ],
+   "unit": 2
+  },
+  {
+   "id": "pt-f-020",
+   "type": "choice",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "What was going on when I came in → estaban + gerund.",
+   "contrast": "Cuando entré, todos se callaron.",
+   "why": "interrupted-action",
+   "subPoint": "interrupted-action",
+   "prompt": "Cuando entré en la sala, todos ___.",
+   "options": [
+    "estaban hablando",
+    "estuvieron hablando",
+    "hablaron"
+   ],
+   "answers": [
+    "estaban hablando"
+   ],
+   "unit": 2
+  },
+  {
+   "id": "pt-f-021",
+   "type": "transform",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "Background in progress + interrupting event.",
+   "contrast": "Cociné y llegaron.",
+   "why": "interrupted-action",
+   "subPoint": "interrupted-action",
+   "instruction": "Une las frases con «cuando» (estar + gerundio).",
+   "prompt": "Yo cocinaba. Llegaron los invitados.",
+   "answers": [
+    "Estaba cocinando cuando llegaron los invitados",
+    "Yo estaba cocinando cuando llegaron los invitados"
+   ],
+   "unit": 2
+  },
+  {
+   "id": "pt-f-022",
+   "type": "gap",
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 2,
+   "feedback": "Before another past event → pluscuamperfecto.",
+   "contrast": "Mi hermano arregló la lavadora.",
+   "why": "prior-past",
+   "subPoint": "pluscuamperfecto",
+   "prompt": "Cuando llegó el técnico, mi hermano ya ___ (arreglar) la lavadora.",
+   "answers": [
+    "había arreglado"
+   ],
+   "unit": 2
+  },
+  {
+   "id": "pt-f-023",
+   "type": "gap",
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 2,
+   "feedback": "Growing the beard came first.",
+   "contrast": "Se ha dejado barba.",
+   "why": "prior-past",
+   "subPoint": "pluscuamperfecto",
+   "prompt": "No reconocí a Pedro porque se ___ (dejar) barba.",
+   "answers": [
+    "había dejado"
+   ],
+   "unit": 2
+  },
+  {
+   "id": "pt-f-024",
+   "type": "choice",
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 3,
+   "feedback": "Experience before a past moment.",
+   "contrast": "Nunca he probado el sushi.",
+   "why": "prior-past",
+   "subPoint": "pluscuamperfecto",
+   "prompt": "Aquel día comí sushi por primera vez: nunca lo ___.",
+   "options": [
+    "había probado",
+    "he probado",
+    "probé"
+   ],
+   "answers": [
+    "había probado"
+   ],
+   "unit": 2
+  },
+  {
+   "id": "pt-f-025",
+   "type": "error",
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 2,
+   "feedback": "ya + earlier event → pluscuamperfecto.",
+   "contrast": "La película empezó a las ocho.",
+   "why": "prior-past",
+   "subPoint": "pluscuamperfecto",
+   "prompt": "Cuando llegamos al cine, la película ya empezó.",
+   "errorIndex": 7,
+   "answers": [
+    "había empezado"
+   ],
+   "unit": 2
+  },
+  {
+   "id": "pt-f-026",
+   "type": "match",
+   "grammarPoint": "past-review",
+   "difficulty": 3,
+   "feedback": "Open period → perfecto; closed → indefinido; habit → imperfecto; earlier → pluscuamperfecto.",
+   "subPoint": "perfecto-vs-indefinido",
+   "instruction": "Relaciona cada principio con su final.",
+   "pairs": [
+    {
+     "left": "Esta mañana",
+     "right": "he tenido una reunión."
+    },
+    {
+     "left": "El lunes pasado",
+     "right": "tuve una reunión."
+    },
+    {
+     "left": "Antes",
+     "right": "tenía reuniones todos los días."
+    },
+    {
+     "left": "Cuando llegué, ya",
+     "right": "había empezado la reunión."
+    }
+   ],
+   "unit": 2
+  },
+  {
+   "id": "pt-f-027",
+   "type": "match",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "Time markers and the tense they usually go with (in Spain).",
+   "subPoint": "perfecto-vs-indefinido",
+   "instruction": "Relaciona cada marcador con el tiempo que suele llevar.",
+   "pairs": [
+    {
+     "left": "ayer",
+     "right": "indefinido"
+    },
+    {
+     "left": "este año",
+     "right": "perfecto"
+    },
+    {
+     "left": "de pequeño",
+     "right": "imperfecto"
+    },
+    {
+     "left": "ya … cuando llegué",
+     "right": "pluscuamperfecto"
+    }
+   ],
+   "unit": 2
+  },
+  {
+   "id": "pt-f-028",
+   "type": "order",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "hoy → perfecto.",
+   "why": "time-marker-open",
+   "subPoint": "perfecto-vs-indefinido",
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "Hoy me he levantado muy temprano"
+   ],
+   "unit": 2
+  },
+  {
+   "id": "pt-f-029",
+   "type": "order",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "Stage of life + description → imperfecto.",
+   "why": "background-description",
+   "subPoint": "indefinido-vs-imperfecto",
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "Cuando era pequeño vivía en un pueblo"
+   ],
+   "unit": 2
+  },
+  {
+   "id": "pt-f-030",
+   "type": "order",
+   "grammarPoint": "past-review",
+   "difficulty": 3,
+   "feedback": "Action in progress + interrupting event.",
+   "why": "interrupted-action",
+   "subPoint": "interrupted-action",
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "Estaba leyendo cuando se fue la luz"
+   ],
+   "unit": 2
+  },
+  {
+   "id": "pt-f-031",
+   "type": "gap",
+   "grammarPoint": "past-review",
+   "difficulty": 3,
+   "feedback": "todavía no → perfecto.",
+   "contrast": "Lo decidimos ayer.",
+   "why": "time-marker-open",
+   "subPoint": "perfecto-vs-indefinido",
+   "prompt": "Todavía no ___ (decidir, nosotros) adónde ir de vacaciones.",
+   "answers": [
+    "hemos decidido"
+   ],
+   "unit": 2
+  },
+  {
+   "id": "pt-f-032",
+   "type": "choice",
+   "grammarPoint": "past-review",
+   "difficulty": 3,
+   "feedback": "The night before ayer → pluscuamperfecto.",
+   "contrast": "Anoche dormí poco.",
+   "why": "prior-past",
+   "subPoint": "pluscuamperfecto",
+   "prompt": "Ayer estaba muy cansado porque la noche anterior ___ muy poco.",
+   "options": [
+    "había dormido",
+    "dormía",
+    "he dormido"
+   ],
+   "answers": [
+    "había dormido"
+   ],
+   "unit": 2
+  },
+  {
+   "id": "pt-f-033",
+   "type": "cloze",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "A day that is still «today»: perfecto for the events, with imperfecto and pluscuamperfecto for background.",
+   "subPoint": "perfecto-vs-indefinido",
+   "unit": 2,
+   "title": "Una mañana complicada",
+   "text": "Hoy {{1}} (ser) un día horrible. Primero, el despertador no {{2}} (sonar) y me {{3}} (levantar) tardísimo. Luego, en el metro, me {{4}} (dar) cuenta de que me {{5}} (olvidar) el móvil en casa. Cuando por fin {{6}} (llegar) a la oficina, mi jefa me {{7}} (esperar) en la puerta con cara de pocos amigos. Menos mal que, al final, la reunión {{8}} (salir) bien. Ahora estoy en el sofá, agotado, y solo quiero que este día termine de una vez. Mañana pondré dos despertadores.",
+   "gaps": [
+    {
+     "n": 1,
+     "answers": [
+      "ha sido"
+     ],
+     "why": "time-marker-open",
+     "feedback": "hoy → perfecto."
+    },
+    {
+     "n": 2,
+     "answers": [
+      "ha sonado"
+     ],
+     "why": "time-marker-open",
+     "feedback": "Still today → perfecto."
+    },
+    {
+     "n": 3,
+     "answers": [
+      "he levantado"
+     ],
+     "why": "time-marker-open",
+     "feedback": "Still today → perfecto (me he levantado)."
+    },
+    {
+     "n": 4,
+     "answers": [
+      "he dado"
+     ],
+     "why": "time-marker-open",
+     "feedback": "Today → me he dado cuenta."
+    },
+    {
+     "n": 5,
+     "answers": [
+      "había olvidado",
+      "he olvidado"
+     ],
+     "why": "prior-past",
+     "feedback": "Forgetting it came before noticing → pluscuamperfecto (he olvidado is also heard)."
+    },
+    {
+     "n": 6,
+     "answers": [
+      "he llegado"
+     ],
+     "why": "time-marker-open",
+     "feedback": "Today → perfecto."
+    },
+    {
+     "n": 7,
+     "answers": [
+      "esperaba",
+      "estaba esperando"
+     ],
+     "why": "background-description",
+     "feedback": "She was already waiting → imperfecto."
+    },
+    {
+     "n": 8,
+     "answers": [
+      "ha salido"
+     ],
+     "why": "time-marker-open",
+     "feedback": "Today → perfecto."
+    }
+   ]
+  },
+  {
+   "id": "pt-f-034",
+   "type": "cloze",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "Habits and description → imperfecto; the one summer's events → indefinido.",
+   "subPoint": "indefinido-vs-imperfecto",
+   "unit": 2,
+   "title": "El verano en el pueblo",
+   "text": "Cuando {{1}} (ser, yo) niño, todos los veranos {{2}} (ir, nosotros) al pueblo de mis abuelos. Allí no {{3}} (haber) televisión, así que {{4}} (pasar, nosotros) el día en la calle. Un verano, mi primo y yo {{5}} (encontrar) un perro abandonado y lo {{6}} (llevar) a casa. Mi abuela, que {{7}} (odiar) los animales, al final se {{8}} (enamorar) de él. Le puso de nombre Canela y lo llevaba con ella a todas partes, incluso a misa. Cuando volvimos a la ciudad en septiembre, el perro se quedó con ella.",
+   "gaps": [
+    {
+     "n": 1,
+     "answers": [
+      "era"
+     ],
+     "why": "background-description",
+     "feedback": "Stage of life → imperfecto."
+    },
+    {
+     "n": 2,
+     "answers": [
+      "íbamos"
+     ],
+     "why": "habit",
+     "feedback": "todos los veranos → habit."
+    },
+    {
+     "n": 3,
+     "answers": [
+      "había"
+     ],
+     "why": "background-description",
+     "feedback": "Description of the place."
+    },
+    {
+     "n": 4,
+     "answers": [
+      "pasábamos"
+     ],
+     "why": "habit",
+     "feedback": "Habit."
+    },
+    {
+     "n": 5,
+     "answers": [
+      "encontramos"
+     ],
+     "why": "completed-action",
+     "feedback": "Un verano → single event."
+    },
+    {
+     "n": 6,
+     "answers": [
+      "llevamos"
+     ],
+     "why": "completed-action",
+     "feedback": "Event in the sequence."
+    },
+    {
+     "n": 7,
+     "answers": [
+      "odiaba"
+     ],
+     "why": "background-description",
+     "feedback": "A state / feature of the grandmother."
+    },
+    {
+     "n": 8,
+     "answers": [
+      "enamoró"
+     ],
+     "why": "completed-action",
+     "feedback": "al final + outcome → indefinido."
+    }
+   ]
+  },
+  {
+   "id": "pt-f-035",
+   "type": "cloze",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "Background (age, feelings, place) → imperfecto; events → indefinido.",
+   "subPoint": "indefinido-vs-imperfecto",
+   "unit": 2,
+   "title": "Mi primera entrevista",
+   "text": "Mi primera entrevista de trabajo {{1}} (ser) en 2016. {{2}} (Tener, yo) veintidós años y {{3}} (estar) nerviosísimo. La empresa {{4}} (estar) en un edificio enorme del centro. Cuando {{5}} (entrar) en el despacho, {{6}} (ver) que había cinco personas esperándome. Me {{7}} (hacer, ellos) preguntas durante una hora. Dos días después me {{8}} (llamar) para ofrecerme el puesto. Todavía recuerdo la alegría que sentí al colgar el teléfono. Fue el principio de mi carrera y, aunque ya no trabajo allí, guardo muy buen recuerdo de aquella empresa.",
+   "gaps": [
+    {
+     "n": 1,
+     "answers": [
+      "fue"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "en 2016 → indefinido."
+    },
+    {
+     "n": 2,
+     "answers": [
+      "Tenía"
+     ],
+     "why": "background-description",
+     "feedback": "Age as background."
+    },
+    {
+     "n": 3,
+     "answers": [
+      "estaba"
+     ],
+     "why": "background-description",
+     "feedback": "State of mind."
+    },
+    {
+     "n": 4,
+     "answers": [
+      "estaba"
+     ],
+     "why": "background-description",
+     "feedback": "Describing the place."
+    },
+    {
+     "n": 5,
+     "answers": [
+      "entré"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 6,
+     "answers": [
+      "vi"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 7,
+     "answers": [
+      "hicieron"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "Closed, measured period (una hora)."
+    },
+    {
+     "n": 8,
+     "answers": [
+      "llamaron"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    }
+   ]
+  },
+  {
+   "id": "pt-f-036",
+   "type": "cloze",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "Scene and actions in progress → imperfecto; the accident → indefinido.",
+   "subPoint": "interrupted-action",
+   "unit": 2,
+   "title": "El accidente de bici",
+   "text": "El sábado pasado {{1}} (salir, yo) en bici por el parque del Alamillo. {{2}} (Hacer) un día precioso y {{3}} (haber) muchísima gente. Mientras {{4}} (bajar) por una cuesta, un niño {{5}} (cruzar) delante de mí sin mirar. {{6}} (Frenar, yo) de golpe y me {{7}} (caer) al suelo. Por suerte, solo me {{8}} (hacer) un pequeño corte en la rodilla. El niño se acercó con su madre a pedirme perdón y yo, aunque me dolía bastante, le dije que no pasaba nada. Desde entonces bajo esa cuesta mucho más despacio.",
+   "gaps": [
+    {
+     "n": 1,
+     "answers": [
+      "salí"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "El sábado pasado → indefinido."
+    },
+    {
+     "n": 2,
+     "answers": [
+      "Hacía"
+     ],
+     "why": "background-description",
+     "feedback": "Weather → imperfecto."
+    },
+    {
+     "n": 3,
+     "answers": [
+      "había"
+     ],
+     "why": "background-description",
+     "feedback": "Scene."
+    },
+    {
+     "n": 4,
+     "answers": [
+      "bajaba"
+     ],
+     "why": "interrupted-action",
+     "feedback": "mientras + action in progress."
+    },
+    {
+     "n": 5,
+     "answers": [
+      "cruzó"
+     ],
+     "why": "completed-action",
+     "feedback": "Interrupting event."
+    },
+    {
+     "n": 6,
+     "answers": [
+      "Frené"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 7,
+     "answers": [
+      "caí"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 8,
+     "answers": [
+      "hice"
+     ],
+     "why": "completed-action",
+     "feedback": "Result → indefinido."
+    }
+   ]
+  },
+  {
+   "id": "pt-f-037",
+   "type": "cloze",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "Open periods (este año, ya, todavía no) → perfecto; specific months and el verano pasado → indefinido.",
+   "subPoint": "perfecto-vs-indefinido",
+   "unit": 2,
+   "title": "Este año, por fin",
+   "text": "(Es diciembre.) Este año {{1}} (cambiar) muchas cosas en mi vida. En enero {{2}} (mudarse, yo) a Sevilla y en marzo {{3}} (encontrar) trabajo en una escuela de idiomas. Desde entonces {{4}} (conocer) a muchísima gente. Todavía no {{5}} (aprender) a bailar sevillanas, pero ya {{6}} (ir) a la Feria. El verano pasado, en cambio, {{7}} (estar) en Londres y {{8}} (echar) mucho de menos el sol. Por eso, cuando mis amigos ingleses me preguntan si echo de menos mi país, siempre les digo que un poco, pero que el sol de Sevilla no lo cambio por nada.",
+   "gaps": [
+    {
+     "n": 1,
+     "answers": [
+      "han cambiado"
+     ],
+     "why": "time-marker-open",
+     "feedback": "este año → perfecto."
+    },
+    {
+     "n": 2,
+     "answers": [
+      "me mudé"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "en enero (specific month) → indefinido."
+    },
+    {
+     "n": 3,
+     "answers": [
+      "encontré"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "en marzo → indefinido."
+    },
+    {
+     "n": 4,
+     "answers": [
+      "he conocido"
+     ],
+     "why": "time-marker-open",
+     "feedback": "desde entonces (up to now) → perfecto."
+    },
+    {
+     "n": 5,
+     "answers": [
+      "he aprendido"
+     ],
+     "why": "time-marker-open",
+     "feedback": "todavía no → perfecto."
+    },
+    {
+     "n": 6,
+     "answers": [
+      "he ido"
+     ],
+     "why": "time-marker-open",
+     "feedback": "ya → perfecto."
+    },
+    {
+     "n": 7,
+     "answers": [
+      "estuve"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "el verano pasado → indefinido."
+    },
+    {
+     "n": 8,
+     "answers": [
+      "eché"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "Same closed period → indefinido."
+    }
+   ]
+  },
+  {
+   "id": "pt-f-038",
+   "type": "cloze",
+   "grammarPoint": "past-review",
+   "difficulty": 3,
+   "feedback": "Scene → imperfecto; the surprise and reactions → indefinido.",
+   "subPoint": "indefinido-vs-imperfecto",
+   "unit": 2,
+   "title": "La cena sorpresa",
+   "text": "El viernes {{1}} (ser) el cumpleaños de Marta y sus amigos le {{2}} (preparar) una cena sorpresa. Ella no {{3}} (saber) nada. Cuando {{4}} (abrir) la puerta de casa, la luz {{5}} (estar) apagada y no se {{6}} (oír) nada. De repente, todos {{7}} (gritar) «¡Sorpresa!». Marta se {{8}} (asustar) muchísimo, pero luego se {{9}} (reír) toda la noche. Todavía hoy, cuando alguien le dice que va a organizar algo para su cumpleaños, ella le contesta que prefiere saberlo antes.",
+   "gaps": [
+    {
+     "n": 1,
+     "answers": [
+      "fue"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "El viernes → indefinido."
+    },
+    {
+     "n": 2,
+     "answers": [
+      "prepararon"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 3,
+     "answers": [
+      "sabía"
+     ],
+     "why": "background-description",
+     "feedback": "State."
+    },
+    {
+     "n": 4,
+     "answers": [
+      "abrió"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 5,
+     "answers": [
+      "estaba"
+     ],
+     "why": "background-description",
+     "feedback": "Scene."
+    },
+    {
+     "n": 6,
+     "answers": [
+      "oía"
+     ],
+     "why": "background-description",
+     "feedback": "Scene."
+    },
+    {
+     "n": 7,
+     "answers": [
+      "gritaron"
+     ],
+     "why": "completed-action",
+     "feedback": "Sudden event."
+    },
+    {
+     "n": 8,
+     "answers": [
+      "asustó"
+     ],
+     "why": "completed-action",
+     "feedback": "Reaction → indefinido."
+    },
+    {
+     "n": 9,
+     "answers": [
+      "rio",
+      "rió"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "toda la noche (closed period) → indefinido. Since 2010 the RAE writes rio without an accent."
+    }
+   ]
+  },
+  {
+   "id": "pt-f-039",
+   "type": "cloze",
+   "grammarPoint": "past-combined",
+   "difficulty": 3,
+   "feedback": "Story events → indefinido; things that happened earlier → pluscuamperfecto.",
+   "subPoint": "pluscuamperfecto",
+   "unit": 8,
+   "title": "El tren de Granada",
+   "text": "El año pasado {{1}} (ir, yo) a Granada en tren para ver a una amiga. Cuando {{2}} (llegar) a la estación, me {{3}} (dar) cuenta de que me {{4}} (dejar) la maleta en el tren. {{5}} (Correr, yo) al andén, pero el tren ya se {{6}} (ir). Un empleado muy amable {{7}} (llamar) a la siguiente estación y, dos horas después, me la {{8}} (devolver, ellos). Desde aquel día, antes de bajar de cualquier tren, miro dos veces debajo del asiento y en el portaequipajes.",
+   "gaps": [
+    {
+     "n": 1,
+     "answers": [
+      "fui"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "El año pasado → indefinido."
+    },
+    {
+     "n": 2,
+     "answers": [
+      "llegué"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 3,
+     "answers": [
+      "di"
+     ],
+     "why": "completed-action",
+     "feedback": "Event (me di cuenta)."
+    },
+    {
+     "n": 4,
+     "answers": [
+      "había dejado"
+     ],
+     "why": "prior-past",
+     "feedback": "Before noticing → pluscuamperfecto."
+    },
+    {
+     "n": 5,
+     "answers": [
+      "Corrí"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 6,
+     "answers": [
+      "había ido"
+     ],
+     "why": "prior-past",
+     "feedback": "Before I got there → pluscuamperfecto."
+    },
+    {
+     "n": 7,
+     "answers": [
+      "llamó"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 8,
+     "answers": [
+      "devolvieron"
+     ],
+     "why": "completed-action",
+     "feedback": "Outcome."
+    }
+   ]
+  },
+  {
+   "id": "pt-f-040",
+   "type": "cloze",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "Today and ya / todavía no → perfecto; ayer → indefinido.",
+   "subPoint": "perfecto-vs-indefinido",
+   "unit": 2,
+   "title": "¿Qué has hecho hoy?",
+   "text": "—¿Qué tal el día? —Muy bien. Esta mañana {{1}} (ir, yo) a clase de español y {{2}} (hacer, nosotros) un examen. Luego {{3}} (comer) con unos compañeros. —¿Y ya {{4}} (estudiar, tú) para mañana? —Todavía no. Ayer {{5}} (estudiar) tres horas, así que hoy {{6}} (descansar) un poco. —Pues yo esta semana no {{7}} (abrir) un libro. —Pues ten cuidado, que el examen es el viernes y la profesora dice que va a ser difícil.",
+   "gaps": [
+    {
+     "n": 1,
+     "answers": [
+      "he ido"
+     ],
+     "why": "time-marker-open",
+     "feedback": "esta mañana → perfecto."
+    },
+    {
+     "n": 2,
+     "answers": [
+      "hemos hecho"
+     ],
+     "why": "time-marker-open",
+     "feedback": "Still today."
+    },
+    {
+     "n": 3,
+     "answers": [
+      "he comido"
+     ],
+     "why": "time-marker-open",
+     "feedback": "Still today."
+    },
+    {
+     "n": 4,
+     "answers": [
+      "has estudiado"
+     ],
+     "why": "time-marker-open",
+     "feedback": "ya → perfecto."
+    },
+    {
+     "n": 5,
+     "answers": [
+      "estudié"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "ayer → indefinido."
+    },
+    {
+     "n": 6,
+     "answers": [
+      "he descansado"
+     ],
+     "why": "time-marker-open",
+     "feedback": "hoy → perfecto."
+    },
+    {
+     "n": 7,
+     "answers": [
+      "he abierto"
+     ],
+     "why": "time-marker-open",
+     "feedback": "esta semana → perfecto; participle abierto."
+    }
+   ]
+  },
+  {
+   "id": "pt-f-041",
+   "type": "cloze",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "Biography: events and dates → indefinido; description and habits → imperfecto.",
+   "subPoint": "indefinido-vs-imperfecto",
+   "unit": 2,
+   "title": "Mi abuelo",
+   "text": "Mi abuelo {{1}} (nacer) en 1940 en un pueblo de Jaén. Su familia {{2}} (ser) muy pobre y él {{3}} (trabajar) en el campo desde los diez años. Todos los días se {{4}} (levantar) antes del amanecer. A los veinte años {{5}} (emigrar) a Alemania, donde {{6}} (conocer) a mi abuela. {{7}} (Volver, ellos) a España en 1975 y {{8}} (abrir) una pequeña tienda. La tienda todavía existe: ahora la lleva mi tía, y en la pared sigue colgada una foto de mis abuelos el día de la inauguración.",
+   "gaps": [
+    {
+     "n": 1,
+     "answers": [
+      "nació"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "en 1940 → indefinido."
+    },
+    {
+     "n": 2,
+     "answers": [
+      "era"
+     ],
+     "why": "background-description",
+     "feedback": "Description."
+    },
+    {
+     "n": 3,
+     "answers": [
+      "trabajaba"
+     ],
+     "why": "habit",
+     "feedback": "Ongoing situation / habit."
+    },
+    {
+     "n": 4,
+     "answers": [
+      "levantaba"
+     ],
+     "why": "habit",
+     "feedback": "Todos los días → habit."
+    },
+    {
+     "n": 5,
+     "answers": [
+      "emigró"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 6,
+     "answers": [
+      "conoció"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 7,
+     "answers": [
+      "Volvieron"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "en 1975 → indefinido."
+    },
+    {
+     "n": 8,
+     "answers": [
+      "abrieron"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    }
+   ]
+  },
+  {
+   "id": "pt-f-042",
+   "type": "cloze",
+   "grammarPoint": "past-review",
+   "difficulty": 3,
+   "feedback": "Actions in progress → imperfecto; the blackout and what we did → indefinido.",
+   "subPoint": "interrupted-action",
+   "unit": 2,
+   "title": "El apagón",
+   "text": "Anoche {{1}} (haber) un apagón en todo el barrio. Yo {{2}} (estar) viendo una película y mi compañera {{3}} (ducharse). De repente, todo se {{4}} (quedar) a oscuras. Como no {{5}} (tener, nosotros) velas, {{6}} (usar, nosotros) la linterna del móvil. Al final, la luz {{7}} (volver) a las dos horas, justo cuando ya nos {{8}} (ir) a la cama. Al día siguiente, los vecinos no hablaban de otra cosa en el ascensor, y el ayuntamiento explicó que la culpa había sido de una avería en la red.",
+   "gaps": [
+    {
+     "n": 1,
+     "answers": [
+      "hubo"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "Anoche → indefinido (hubo = there was, event)."
+    },
+    {
+     "n": 2,
+     "answers": [
+      "estaba"
+     ],
+     "why": "interrupted-action",
+     "feedback": "Action in progress."
+    },
+    {
+     "n": 3,
+     "answers": [
+      "se duchaba",
+      "se estaba duchando",
+      "estaba duchándose"
+     ],
+     "why": "interrupted-action",
+     "feedback": "Action in progress."
+    },
+    {
+     "n": 4,
+     "answers": [
+      "quedó"
+     ],
+     "why": "completed-action",
+     "feedback": "Sudden event."
+    },
+    {
+     "n": 5,
+     "answers": [
+      "teníamos"
+     ],
+     "why": "background-description",
+     "feedback": "Circumstance (cause)."
+    },
+    {
+     "n": 6,
+     "answers": [
+      "usamos"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 7,
+     "answers": [
+      "volvió"
+     ],
+     "why": "completed-action",
+     "feedback": "Outcome."
+    },
+    {
+     "n": 8,
+     "answers": [
+      "íbamos"
+     ],
+     "why": "interrupted-action",
+     "feedback": "About to go / in progress → imperfecto."
+    }
+   ]
+  },
+  {
+   "id": "pt-f-043",
+   "type": "cloze",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "Description → imperfecto; events of that day → indefinido.",
+   "subPoint": "indefinido-vs-imperfecto",
+   "unit": 2,
+   "title": "Mi primer día en la academia",
+   "text": "Recuerdo perfectamente mi primer día en la academia. {{1}} (Llover) muchísimo y yo {{2}} (llegar) empapado. La profesora, que {{3}} (llamarse) Lola, me {{4}} (presentar) a toda la clase. Los demás alumnos {{5}} (ser) de seis países diferentes. Ese día {{6}} (aprender, nosotros) a pedir en un bar y, al terminar, {{7}} (ir, nosotros) todos juntos a practicar. El camarero tuvo mucha paciencia con nosotros. Aquel día empecé a sentir que, poco a poco, Sevilla se iba a convertir en mi casa.",
+   "gaps": [
+    {
+     "n": 1,
+     "answers": [
+      "Llovía"
+     ],
+     "why": "background-description",
+     "feedback": "Weather → imperfecto."
+    },
+    {
+     "n": 2,
+     "answers": [
+      "llegué"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 3,
+     "answers": [
+      "se llamaba"
+     ],
+     "why": "background-description",
+     "feedback": "Description."
+    },
+    {
+     "n": 4,
+     "answers": [
+      "presentó"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 5,
+     "answers": [
+      "eran"
+     ],
+     "why": "background-description",
+     "feedback": "Description."
+    },
+    {
+     "n": 6,
+     "answers": [
+      "aprendimos"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "Ese día → indefinido."
+    },
+    {
+     "n": 7,
+     "answers": [
+      "fuimos"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    }
+   ]
+  },
+  {
+   "id": "pt-f-044",
+   "type": "cloze",
+   "grammarPoint": "past-combined",
+   "difficulty": 3,
+   "feedback": "Mix of all past tenses in an anecdote.",
+   "subPoint": "pluscuamperfecto",
+   "unit": 8,
+   "title": "Una noche en el aeropuerto",
+   "text": "Hace dos años {{1}} (pasar, yo) una noche entera en el aeropuerto de Barajas. Mi vuelo {{2}} (salir) a las once, pero lo {{3}} (cancelar, ellos) por la niebla. {{4}} (Ser) casi medianoche y ya no {{5}} (haber) hoteles libres. Como antes ya {{6}} (dormir) en aeropuertos, no me {{7}} (preocupar) mucho. {{8}} (Leer, yo) un libro entero y a las seis de la mañana por fin {{9}} (despegar, nosotros). Llegué a Londres cansadísimo, pero con una buena historia para contar.",
+   "gaps": [
+    {
+     "n": 1,
+     "answers": [
+      "pasé"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "Hace dos años → indefinido."
+    },
+    {
+     "n": 2,
+     "answers": [
+      "salía"
+     ],
+     "why": "background-description",
+     "feedback": "Scheduled time (description) → imperfecto."
+    },
+    {
+     "n": 3,
+     "answers": [
+      "cancelaron"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 4,
+     "answers": [
+      "Era"
+     ],
+     "why": "background-description",
+     "feedback": "Time → imperfecto."
+    },
+    {
+     "n": 5,
+     "answers": [
+      "había"
+     ],
+     "why": "background-description",
+     "feedback": "Situation."
+    },
+    {
+     "n": 6,
+     "answers": [
+      "había dormido"
+     ],
+     "why": "prior-past",
+     "feedback": "Earlier experience → pluscuamperfecto."
+    },
+    {
+     "n": 7,
+     "answers": [
+      "preocupé"
+     ],
+     "why": "completed-action",
+     "feedback": "Reaction (me preocupé)."
+    },
+    {
+     "n": 8,
+     "answers": [
+      "Leí"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 9,
+     "answers": [
+      "despegamos"
+     ],
+     "why": "completed-action",
+     "feedback": "Outcome."
+    }
+   ]
+  },
+  {
+   "id": "pt-f-045",
+   "type": "cloze",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "Past habits → imperfecto; the turning point → indefinido; up to now → perfecto; now → present.",
+   "subPoint": "indefinido-vs-imperfecto",
+   "unit": 2,
+   "title": "Antes y ahora",
+   "text": "Antes {{1}} (fumar, yo) un paquete al día y nunca {{2}} (hacer) deporte. {{3}} (Estar) siempre cansado y {{4}} (subir) las escaleras con dificultad. Un día, hace tres años, mi médico me {{5}} (decir) que tenía que cambiar. Ese mismo día {{6}} (dejar) de fumar. Desde entonces {{7}} (correr) tres maratones y me {{8}} (sentir) mejor que nunca. Mi médico no se lo cree cuando me ve: dice que parezco otra persona.",
+   "gaps": [
+    {
+     "n": 1,
+     "answers": [
+      "fumaba"
+     ],
+     "why": "habit",
+     "feedback": "antes + habit → imperfecto."
+    },
+    {
+     "n": 2,
+     "answers": [
+      "hacía"
+     ],
+     "why": "habit",
+     "feedback": "Habit."
+    },
+    {
+     "n": 3,
+     "answers": [
+      "Estaba"
+     ],
+     "why": "background-description",
+     "feedback": "State."
+    },
+    {
+     "n": 4,
+     "answers": [
+      "subía"
+     ],
+     "why": "habit",
+     "feedback": "Habit."
+    },
+    {
+     "n": 5,
+     "answers": [
+      "dijo"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "hace tres años → indefinido."
+    },
+    {
+     "n": 6,
+     "answers": [
+      "dejé"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 7,
+     "answers": [
+      "he corrido"
+     ],
+     "why": "time-marker-open",
+     "feedback": "desde entonces (up to now) → perfecto."
+    },
+    {
+     "n": 8,
+     "answers": [
+      "siento"
+     ],
+     "why": "time-marker-open",
+     "feedback": "Present: me siento mejor que nunca (now)."
+    }
+   ]
+  },
+  {
+   "id": "pt-f-046",
+   "type": "cloze",
+   "grammarPoint": "past-review",
+   "difficulty": 3,
+   "feedback": "Scene → imperfecto; events → indefinido.",
+   "subPoint": "interrupted-action",
+   "unit": 2,
+   "title": "La boda de mi prima",
+   "text": "El mes pasado {{1}} (casarse) mi prima Elena. La boda {{2}} (ser) en un cortijo cerca de Carmona. {{3}} (Hacer) muchísimo calor y todos los invitados {{4}} (buscar) la sombra. Durante la cena, mientras el novio {{5}} (dar) un discurso, {{6}} (empezar) a llover. ¡Nadie se lo {{7}} (esperar)! Al final {{8}} (bailar, nosotros) bajo la lluvia hasta las cuatro de la mañana. Mi prima dice que fue la mejor boda del mundo, precisamente porque nada salió como estaba previsto.",
+   "gaps": [
+    {
+     "n": 1,
+     "answers": [
+      "se casó"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "El mes pasado → indefinido."
+    },
+    {
+     "n": 2,
+     "answers": [
+      "fue"
+     ],
+     "why": "completed-action",
+     "feedback": "Event (where it took place)."
+    },
+    {
+     "n": 3,
+     "answers": [
+      "Hacía"
+     ],
+     "why": "background-description",
+     "feedback": "Weather."
+    },
+    {
+     "n": 4,
+     "answers": [
+      "buscaban"
+     ],
+     "why": "background-description",
+     "feedback": "Scene (what everyone was doing)."
+    },
+    {
+     "n": 5,
+     "answers": [
+      "daba"
+     ],
+     "why": "interrupted-action",
+     "feedback": "mientras + action in progress."
+    },
+    {
+     "n": 6,
+     "answers": [
+      "empezó"
+     ],
+     "why": "completed-action",
+     "feedback": "Interrupting event."
+    },
+    {
+     "n": 7,
+     "answers": [
+      "esperaba"
+     ],
+     "why": "background-description",
+     "feedback": "State (nobody expected it)."
+    },
+    {
+     "n": 8,
+     "answers": [
+      "bailamos"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "hasta las cuatro (closed) → indefinido."
+    }
+   ]
+  },
+  {
+   "id": "pt-f-047",
+   "type": "cloze",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "Scene → imperfecto; events → indefinido.",
+   "subPoint": "interrupted-action",
+   "unit": 2,
+   "title": "Un domingo en el Rastro",
+   "text": "El domingo pasado {{1}} (ir, yo) al Rastro de Madrid con mi amiga Pilar. {{2}} (Haber) muchísima gente y {{3}} (hacer) un frío terrible. Mientras {{4}} (mirar, nosotros) unos libros antiguos, Pilar {{5}} (encontrar) una cámara de fotos de los años sesenta. El vendedor le {{6}} (pedir) cincuenta euros, pero ella {{7}} (conseguir) pagar solo treinta. Al llegar a casa {{8}} (descubrir, nosotros) que la cámara todavía tenía un carrete dentro, con fotos de una familia en la playa. Ahora queremos encontrar a esa familia.",
+   "gaps": [
+    {
+     "n": 1,
+     "answers": [
+      "fui"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "El domingo pasado → indefinido."
+    },
+    {
+     "n": 2,
+     "answers": [
+      "Había"
+     ],
+     "why": "background-description",
+     "feedback": "Scene."
+    },
+    {
+     "n": 3,
+     "answers": [
+      "hacía"
+     ],
+     "why": "background-description",
+     "feedback": "Weather."
+    },
+    {
+     "n": 4,
+     "answers": [
+      "mirábamos"
+     ],
+     "why": "interrupted-action",
+     "feedback": "mientras + action in progress."
+    },
+    {
+     "n": 5,
+     "answers": [
+      "encontró"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 6,
+     "answers": [
+      "pidió"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 7,
+     "answers": [
+      "consiguió"
+     ],
+     "why": "completed-action",
+     "feedback": "Event (e → i in 3rd person)."
+    },
+    {
+     "n": 8,
+     "answers": [
+      "descubrimos"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    }
+   ]
+  },
+  {
+   "id": "pt-f-048",
+   "type": "cloze",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "Everything happens today, or is life experience up to now → perfecto.",
+   "subPoint": "perfecto-vs-indefinido",
+   "unit": 2,
+   "title": "Hoy en la oficina",
+   "text": "Hoy {{1}} (llegar, yo) a la oficina a las ocho, como siempre. Pero esta mañana todo {{2}} (ser) diferente: mis compañeros me {{3}} (preparar) un desayuno porque es mi último día en la empresa. Les {{4}} (dar, yo) las gracias y {{5}} (llorar) un poco, la verdad. Esta tarde {{6}} (recoger) mis cosas y {{7}} (despedirse) de todos. Llevo cinco años aquí y nunca {{8}} (tener) unos compañeros tan buenos. Voy a echarlos muchísimo de menos.",
+   "gaps": [
+    {
+     "n": 1,
+     "answers": [
+      "he llegado"
+     ],
+     "why": "time-marker-open",
+     "feedback": "hoy → perfecto."
+    },
+    {
+     "n": 2,
+     "answers": [
+      "ha sido"
+     ],
+     "why": "time-marker-open",
+     "feedback": "esta mañana → perfecto."
+    },
+    {
+     "n": 3,
+     "answers": [
+      "han preparado"
+     ],
+     "why": "time-marker-open",
+     "feedback": "Still today."
+    },
+    {
+     "n": 4,
+     "answers": [
+      "he dado"
+     ],
+     "why": "time-marker-open",
+     "feedback": "Still today."
+    },
+    {
+     "n": 5,
+     "answers": [
+      "he llorado"
+     ],
+     "why": "time-marker-open",
+     "feedback": "Still today."
+    },
+    {
+     "n": 6,
+     "answers": [
+      "he recogido"
+     ],
+     "why": "time-marker-open",
+     "feedback": "esta tarde → perfecto."
+    },
+    {
+     "n": 7,
+     "answers": [
+      "me he despedido"
+     ],
+     "why": "time-marker-open",
+     "feedback": "Still today."
+    },
+    {
+     "n": 8,
+     "answers": [
+      "he tenido"
+     ],
+     "why": "time-marker-open",
+     "feedback": "nunca (up to now) → perfecto."
+    }
+   ]
+  },
+  {
+   "id": "pt-f-049",
+   "type": "cloze",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "Habits and descriptions → imperfecto; the storm year → indefinido.",
+   "subPoint": "indefinido-vs-imperfecto",
+   "unit": 2,
+   "title": "La casa de la playa",
+   "text": "Cuando {{1}} (ser, yo) pequeña, mis padres {{2}} (alquilar) cada agosto una casa en la playa de Mazagón. La casa {{3}} (ser) vieja y pequeña, pero {{4}} (tener) un jardín lleno de flores. Por las tardes, mi hermano y yo {{5}} (construir) castillos de arena hasta que {{6}} (oscurecer). Un año, una tormenta {{7}} (romper) el tejado y {{8}} (tener, nosotros) que volver a casa antes de tiempo. Nunca más {{9}} (volver, nosotros) a aquella casa, pero sigo soñando con ella.",
+   "gaps": [
+    {
+     "n": 1,
+     "answers": [
+      "era"
+     ],
+     "why": "background-description",
+     "feedback": "Stage of life."
+    },
+    {
+     "n": 2,
+     "answers": [
+      "alquilaban"
+     ],
+     "why": "habit",
+     "feedback": "cada agosto → habit."
+    },
+    {
+     "n": 3,
+     "answers": [
+      "era"
+     ],
+     "why": "background-description",
+     "feedback": "Description."
+    },
+    {
+     "n": 4,
+     "answers": [
+      "tenía"
+     ],
+     "why": "background-description",
+     "feedback": "Description."
+    },
+    {
+     "n": 5,
+     "answers": [
+      "construíamos"
+     ],
+     "why": "habit",
+     "feedback": "Habit."
+    },
+    {
+     "n": 6,
+     "answers": [
+      "oscurecía"
+     ],
+     "why": "habit",
+     "feedback": "Part of the habitual scene."
+    },
+    {
+     "n": 7,
+     "answers": [
+      "rompió"
+     ],
+     "why": "completed-action",
+     "feedback": "Un año → single event."
+    },
+    {
+     "n": 8,
+     "answers": [
+      "tuvimos"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 9,
+     "answers": [
+      "volvimos"
+     ],
+     "why": "completed-action",
+     "feedback": "A completed past fact (nunca más)."
+    }
+   ]
+  },
+  {
+   "id": "pt-f-050",
+   "type": "cloze",
+   "grammarPoint": "past-combined",
+   "difficulty": 3,
+   "feedback": "All the past tenses in one anecdote.",
+   "subPoint": "interrupted-action",
+   "unit": 8,
+   "title": "El concierto",
+   "text": "Hace un mes {{1}} (ir, yo) a un concierto de mi grupo favorito en Barcelona. {{2}} (Comprar, yo) las entradas medio año antes y {{3}} (esperar) ese día con muchísima ilusión. Cuando {{4}} (llegar, yo) al estadio, ya {{5}} (haber) una cola enorme. Mientras {{6}} (esperar, nosotros), {{7}} (empezar) a llover. Pero no nos {{8}} (importar): cuando el grupo {{9}} (salir) al escenario, todo el mundo se {{10}} (olvidar) del agua y cantó hasta quedarse sin voz.",
+   "gaps": [
+    {
+     "n": 1,
+     "answers": [
+      "fui"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "Hace un mes → indefinido."
+    },
+    {
+     "n": 2,
+     "answers": [
+      "Había comprado",
+      "Compré"
+     ],
+     "why": "prior-past",
+     "feedback": "Bought before the concert → pluscuamperfecto (compré is also possible)."
+    },
+    {
+     "n": 3,
+     "answers": [
+      "esperaba"
+     ],
+     "why": "background-description",
+     "feedback": "State / feeling."
+    },
+    {
+     "n": 4,
+     "answers": [
+      "llegué"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 5,
+     "answers": [
+      "había"
+     ],
+     "why": "background-description",
+     "feedback": "Scene."
+    },
+    {
+     "n": 6,
+     "answers": [
+      "esperábamos"
+     ],
+     "why": "interrupted-action",
+     "feedback": "mientras + action in progress."
+    },
+    {
+     "n": 7,
+     "answers": [
+      "empezó"
+     ],
+     "why": "completed-action",
+     "feedback": "Interrupting event."
+    },
+    {
+     "n": 8,
+     "answers": [
+      "importó"
+     ],
+     "why": "completed-action",
+     "feedback": "Reaction."
+    },
+    {
+     "n": 9,
+     "answers": [
+      "salió"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 10,
+     "answers": [
+      "olvidó"
+     ],
+     "why": "completed-action",
+     "feedback": "Event (todo el mundo = singular)."
+    }
+   ]
+  },
+  {
+   "id": "pt-f-051",
+   "type": "cloze",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "Open periods → perfecto; specific months and la semana pasada → indefinido.",
+   "subPoint": "perfecto-vs-indefinido",
+   "unit": 2,
+   "title": "Este curso",
+   "text": "(Es junio.) Este curso {{1}} (ser) muy importante para mí. En septiembre {{2}} (empezar, yo) a estudiar español en serio y en noviembre {{3}} (hacer) mi primer examen. Desde entonces {{4}} (leer) tres novelas en español y {{5}} (ver) muchísimas series. La semana pasada {{6}} (tener) una entrevista de trabajo en español y me {{7}} (salir) bastante bien. Todavía no {{8}} (recibir) la respuesta, pero estoy contento.",
+   "gaps": [
+    {
+     "n": 1,
+     "answers": [
+      "ha sido"
+     ],
+     "why": "time-marker-open",
+     "feedback": "este curso (still open) → perfecto."
+    },
+    {
+     "n": 2,
+     "answers": [
+      "empecé"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "en septiembre → indefinido."
+    },
+    {
+     "n": 3,
+     "answers": [
+      "hice"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "en noviembre → indefinido."
+    },
+    {
+     "n": 4,
+     "answers": [
+      "he leído"
+     ],
+     "why": "time-marker-open",
+     "feedback": "desde entonces → perfecto."
+    },
+    {
+     "n": 5,
+     "answers": [
+      "he visto"
+     ],
+     "why": "time-marker-open",
+     "feedback": "Same period up to now."
+    },
+    {
+     "n": 6,
+     "answers": [
+      "tuve"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "la semana pasada → indefinido."
+    },
+    {
+     "n": 7,
+     "answers": [
+      "salió"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "Same closed period."
+    },
+    {
+     "n": 8,
+     "answers": [
+      "he recibido"
+     ],
+     "why": "time-marker-open",
+     "feedback": "todavía no → perfecto."
+    }
+   ]
+  },
+  {
+   "id": "pt-f-052",
+   "type": "cloze",
+   "grammarPoint": "past-review",
+   "difficulty": 3,
+   "feedback": "Actions in progress and states → imperfecto; events → indefinido; today → perfecto.",
+   "subPoint": "interrupted-action",
+   "unit": 2,
+   "title": "El robo",
+   "text": "Ayer por la tarde, mientras {{1}} (tomar, yo) un café en una terraza de la plaza Nueva, alguien me {{2}} (robar) el bolso. Yo {{3}} (estar) hablando por teléfono y no {{4}} (ver) nada. Cuando {{5}} (colgar), el bolso ya no {{6}} (estar) en la silla. {{7}} (Ir, yo) a la comisaría, donde me {{8}} (atender) una policía muy amable. Lo peor es que dentro {{9}} (llevar) el pasaporte. Hoy {{10}} (pedir) uno nuevo en la embajada.",
+   "gaps": [
+    {
+     "n": 1,
+     "answers": [
+      "tomaba"
+     ],
+     "why": "interrupted-action",
+     "feedback": "mientras + action in progress."
+    },
+    {
+     "n": 2,
+     "answers": [
+      "robó"
+     ],
+     "why": "completed-action",
+     "feedback": "Interrupting event."
+    },
+    {
+     "n": 3,
+     "answers": [
+      "estaba"
+     ],
+     "why": "interrupted-action",
+     "feedback": "In progress."
+    },
+    {
+     "n": 4,
+     "answers": [
+      "vi",
+      "veía"
+     ],
+     "why": "completed-action",
+     "feedback": "I didn't see anything: vi (event) or veía (situation)."
+    },
+    {
+     "n": 5,
+     "answers": [
+      "colgué"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 6,
+     "answers": [
+      "estaba"
+     ],
+     "why": "background-description",
+     "feedback": "State at that moment."
+    },
+    {
+     "n": 7,
+     "answers": [
+      "Fui"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 8,
+     "answers": [
+      "atendió"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 9,
+     "answers": [
+      "llevaba"
+     ],
+     "why": "background-description",
+     "feedback": "What was in the bag (description)."
+    },
+    {
+     "n": 10,
+     "answers": [
+      "he pedido"
+     ],
+     "why": "time-marker-open",
+     "feedback": "hoy → perfecto."
+    }
+   ]
+  },
+  {
+   "id": "pt-f-053",
+   "type": "cloze",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "Before the blackout → imperfecto; that day → indefinido; now → present.",
+   "subPoint": "indefinido-vs-imperfecto",
+   "unit": 2,
+   "title": "Cómo conocí a mis vecinos",
+   "text": "Cuando {{1}} (mudarse, yo) a este edificio, no {{2}} (conocer) a nadie. Los vecinos {{3}} (saludar) en el ascensor, pero nadie {{4}} (hablar) mucho. Todo {{5}} (cambiar) un día de verano: {{6}} (haber) un apagón y todos {{7}} (bajar) al patio porque dentro {{8}} (hacer) un calor insoportable. Esa noche {{9}} (cenar, nosotros) juntos con velas. Desde entonces, cada año {{10}} (organizar) una cena en el patio.",
+   "gaps": [
+    {
+     "n": 1,
+     "answers": [
+      "me mudé"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 2,
+     "answers": [
+      "conocía"
+     ],
+     "why": "background-description",
+     "feedback": "State."
+    },
+    {
+     "n": 3,
+     "answers": [
+      "saludaban"
+     ],
+     "why": "habit",
+     "feedback": "Habit."
+    },
+    {
+     "n": 4,
+     "answers": [
+      "hablaba"
+     ],
+     "why": "habit",
+     "feedback": "Habit (nadie = singular)."
+    },
+    {
+     "n": 5,
+     "answers": [
+      "cambió"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 6,
+     "answers": [
+      "hubo"
+     ],
+     "why": "completed-action",
+     "feedback": "Event (there was a blackout)."
+    },
+    {
+     "n": 7,
+     "answers": [
+      "bajamos"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 8,
+     "answers": [
+      "hacía"
+     ],
+     "why": "background-description",
+     "feedback": "Weather / cause."
+    },
+    {
+     "n": 9,
+     "answers": [
+      "cenamos"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "Esa noche → indefinido."
+    },
+    {
+     "n": 10,
+     "answers": [
+      "organizamos",
+      "hemos organizado"
+     ],
+     "why": "habit",
+     "feedback": "Since then, every year → present (or perfecto)."
+    }
+   ]
+  },
+  {
+   "id": "pt-f-054",
+   "type": "cloze",
+   "grammarPoint": "past-review",
+   "difficulty": 3,
+   "feedback": "Age and intention → imperfecto; earlier experience → pluscuamperfecto; events → indefinido.",
+   "subPoint": "pluscuamperfecto",
+   "unit": 8,
+   "title": "La primera vez que cociné",
+   "text": "La primera vez que {{1}} (cocinar, yo) para mi familia {{2}} (tener) quince años. {{3}} (Querer, yo) preparar una paella, aunque nunca {{4}} (hacer) una. {{5}} (Seguir) una receta de internet, pero me {{6}} (equivocar) con la cantidad de agua. Cuando mi madre {{7}} (probar) el arroz, {{8}} (poner) una cara muy rara. Al final {{9}} (pedir, nosotros) pizza. Todavía hoy, cuando hago una paella, mi familia se ríe de aquel día.",
+   "gaps": [
+    {
+     "n": 1,
+     "answers": [
+      "cociné"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 2,
+     "answers": [
+      "tenía"
+     ],
+     "why": "background-description",
+     "feedback": "Age → imperfecto."
+    },
+    {
+     "n": 3,
+     "answers": [
+      "Quería"
+     ],
+     "why": "background-description",
+     "feedback": "Intention / state."
+    },
+    {
+     "n": 4,
+     "answers": [
+      "había hecho"
+     ],
+     "why": "prior-past",
+     "feedback": "Before that day → pluscuamperfecto."
+    },
+    {
+     "n": 5,
+     "answers": [
+      "Seguí"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 6,
+     "answers": [
+      "equivoqué"
+     ],
+     "why": "completed-action",
+     "feedback": "Event (c → qu)."
+    },
+    {
+     "n": 7,
+     "answers": [
+      "probó"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 8,
+     "answers": [
+      "puso"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 9,
+     "answers": [
+      "pedimos"
+     ],
+     "why": "completed-action",
+     "feedback": "Outcome."
+    }
+   ]
+  },
+  {
+   "id": "pt-f-055",
+   "type": "cloze",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "Este fin de semana → perfecto for the frame; the narrated events within it often take indefinido.",
+   "subPoint": "perfecto-vs-indefinido",
+   "unit": 2,
+   "title": "Un fin de semana en Cádiz",
+   "text": "Este fin de semana {{1}} (estar, nosotros) en Cádiz. El sábado {{2}} (hacer) un tiempo estupendo, así que {{3}} (pasar, nosotros) el día en la playa de la Caleta. Por la noche {{4}} (cenar) en un bar del barrio de Santa María, donde {{5}} (haber) música en directo. El domingo, en cambio, {{6}} (llover) y {{7}} (volver, nosotros) pronto. Ha sido un fin de semana muy bonito, aunque {{8}} (dormir, yo) muy poco.",
+   "gaps": [
+    {
+     "n": 1,
+     "answers": [
+      "hemos estado"
+     ],
+     "why": "time-marker-open",
+     "feedback": "este fin de semana (just finished, still «this») → perfecto."
+    },
+    {
+     "n": 2,
+     "answers": [
+      "hizo",
+      "hacía"
+     ],
+     "why": "completed-action",
+     "feedback": "The weather that day: hizo (as a whole) or hacía (as background)."
+    },
+    {
+     "n": 3,
+     "answers": [
+      "pasamos"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 4,
+     "answers": [
+      "cenamos"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 5,
+     "answers": [
+      "había"
+     ],
+     "why": "background-description",
+     "feedback": "Description of the bar."
+    },
+    {
+     "n": 6,
+     "answers": [
+      "llovió"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 7,
+     "answers": [
+      "volvimos"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 8,
+     "answers": [
+      "he dormido"
+     ],
+     "why": "time-marker-open",
+     "feedback": "Back to the open period (este fin de semana)."
+    }
+   ]
+  },
+  {
+   "id": "pt-f-056",
+   "type": "cloze",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "Habits and description → imperfecto; that day → indefinido; earlier → pluscuamperfecto.",
+   "subPoint": "indefinido-vs-imperfecto",
+   "unit": 2,
+   "title": "La biblioteca de mi barrio",
+   "text": "Cuando {{1}} (ser, yo) estudiante, {{2}} (pasar) las tardes en la biblioteca de mi barrio. {{3}} (Ser) un edificio antiguo y muy silencioso, y la bibliotecaria, una señora mayor, siempre me {{4}} (guardar) el mismo sitio junto a la ventana. Un día {{5}} (llegar, yo) y {{6}} (ver) que la biblioteca {{7}} (cerrar) para siempre. Me {{8}} (dar) muchísima pena. Hoy, en su lugar, hay una tienda de móviles.",
+   "gaps": [
+    {
+     "n": 1,
+     "answers": [
+      "era"
+     ],
+     "why": "background-description",
+     "feedback": "Stage of life."
+    },
+    {
+     "n": 2,
+     "answers": [
+      "pasaba"
+     ],
+     "why": "habit",
+     "feedback": "Habit."
+    },
+    {
+     "n": 3,
+     "answers": [
+      "Era"
+     ],
+     "why": "background-description",
+     "feedback": "Description."
+    },
+    {
+     "n": 4,
+     "answers": [
+      "guardaba"
+     ],
+     "why": "habit",
+     "feedback": "siempre → habit."
+    },
+    {
+     "n": 5,
+     "answers": [
+      "llegué"
+     ],
+     "why": "completed-action",
+     "feedback": "Un día → event."
+    },
+    {
+     "n": 6,
+     "answers": [
+      "vi"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 7,
+     "answers": [
+      "había cerrado"
+     ],
+     "why": "prior-past",
+     "feedback": "It had closed before I arrived."
+    },
+    {
+     "n": 8,
+     "answers": [
+      "dio"
+     ],
+     "why": "completed-action",
+     "feedback": "Reaction."
+    }
+   ]
+  },
+  {
+   "id": "pt-f-057",
+   "type": "cloze",
+   "grammarPoint": "past-review",
+   "difficulty": 3,
+   "feedback": "Earlier events → pluscuamperfecto; the exam → indefinido and imperfecto.",
+   "subPoint": "pluscuamperfecto",
+   "unit": 8,
+   "title": "El examen de conducir",
+   "text": "Ayer {{1}} (hacer, yo) el examen práctico de conducir por tercera vez. Las dos veces anteriores {{2}} (suspender) por los nervios. Esta vez {{3}} (dormir) bien la noche anterior y {{4}} (desayunar) tranquilamente. Al principio todo {{5}} (ir) muy bien. Pero mientras {{6}} (aparcar), un perro {{7}} (cruzar) la calle y yo {{8}} (frenar) de golpe. El examinador {{9}} (sonreír) y me {{10}} (decir): «Muy bien, has reaccionado perfectamente». ¡Por fin he aprobado!",
+   "gaps": [
+    {
+     "n": 1,
+     "answers": [
+      "hice"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "Ayer → indefinido."
+    },
+    {
+     "n": 2,
+     "answers": [
+      "había suspendido"
+     ],
+     "why": "prior-past",
+     "feedback": "Before yesterday → pluscuamperfecto."
+    },
+    {
+     "n": 3,
+     "answers": [
+      "había dormido",
+      "dormí"
+     ],
+     "why": "prior-past",
+     "feedback": "The night before the exam → pluscuamperfecto (or indefinido)."
+    },
+    {
+     "n": 4,
+     "answers": [
+      "había desayunado",
+      "desayuné"
+     ],
+     "why": "prior-past",
+     "feedback": "Before the exam → pluscuamperfecto (or indefinido)."
+    },
+    {
+     "n": 5,
+     "answers": [
+      "iba"
+     ],
+     "why": "background-description",
+     "feedback": "Description of how things were going."
+    },
+    {
+     "n": 6,
+     "answers": [
+      "aparcaba"
+     ],
+     "why": "interrupted-action",
+     "feedback": "mientras + in progress."
+    },
+    {
+     "n": 7,
+     "answers": [
+      "cruzó"
+     ],
+     "why": "completed-action",
+     "feedback": "Interrupting event."
+    },
+    {
+     "n": 8,
+     "answers": [
+      "frené"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 9,
+     "answers": [
+      "sonrió"
+     ],
+     "why": "completed-action",
+     "feedback": "Event (e → i)."
+    },
+    {
+     "n": 10,
+     "answers": [
+      "dijo"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    }
+   ]
+  },
+  {
+   "id": "pt-f-058",
+   "type": "cloze",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "Childhood habits → imperfecto; the move → indefinido; up to now → perfecto.",
+   "subPoint": "indefinido-vs-imperfecto",
+   "unit": 2,
+   "title": "Mi mejor amiga",
+   "text": "Conocí a Inés en el colegio, cuando {{1}} (tener, nosotras) seis años. {{2}} (Ser, nosotras) inseparables: {{3}} (sentarse) juntas en clase, {{4}} (jugar) juntas en el recreo y los fines de semana {{5}} (dormir) una en casa de la otra. A los dieciocho años, ella {{6}} (irse) a estudiar a Madrid y yo me {{7}} (quedar) en Sevilla. Pero nunca {{8}} (perder, nosotras) el contacto. Este año {{9}} (celebrar) juntas treinta años de amistad.",
+   "gaps": [
+    {
+     "n": 1,
+     "answers": [
+      "teníamos"
+     ],
+     "why": "background-description",
+     "feedback": "Age."
+    },
+    {
+     "n": 2,
+     "answers": [
+      "Éramos"
+     ],
+     "why": "background-description",
+     "feedback": "Description of the relationship."
+    },
+    {
+     "n": 3,
+     "answers": [
+      "nos sentábamos"
+     ],
+     "why": "habit",
+     "feedback": "Habit."
+    },
+    {
+     "n": 4,
+     "answers": [
+      "jugábamos"
+     ],
+     "why": "habit",
+     "feedback": "Habit."
+    },
+    {
+     "n": 5,
+     "answers": [
+      "dormíamos"
+     ],
+     "why": "habit",
+     "feedback": "Habit."
+    },
+    {
+     "n": 6,
+     "answers": [
+      "se fue"
+     ],
+     "why": "completed-action",
+     "feedback": "Event at a specific age."
+    },
+    {
+     "n": 7,
+     "answers": [
+      "quedé"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 8,
+     "answers": [
+      "hemos perdido",
+      "perdimos"
+     ],
+     "why": "time-marker-open",
+     "feedback": "nunca (up to now) → perfecto; perdimos is also possible in a narrative."
+    },
+    {
+     "n": 9,
+     "answers": [
+      "hemos celebrado"
+     ],
+     "why": "time-marker-open",
+     "feedback": "este año → perfecto."
+    }
+   ]
+  },
+  {
+   "id": "pt-f-059",
+   "type": "cloze",
+   "grammarPoint": "past-combined",
+   "difficulty": 3,
+   "feedback": "A full anecdote with every past tense.",
+   "subPoint": "interrupted-action",
+   "unit": 8,
+   "title": "Perdidos en la montaña",
+   "text": "El otoño pasado mi novio y yo {{1}} (hacer) una ruta por Sierra Nevada. Por la mañana {{2}} (hacer) sol, pero por la tarde, mientras {{3}} (bajar, nosotros), {{4}} (llegar) la niebla y no {{5}} (ver, nosotros) el camino. {{6}} (Estar, nosotros) muy asustados porque el móvil no {{7}} (tener) cobertura. Por suerte, {{8}} (encontrar, nosotros) un refugio que otros excursionistas nos {{9}} (recomendar) unos días antes. Allí {{10}} (pasar) la noche.",
+   "gaps": [
+    {
+     "n": 1,
+     "answers": [
+      "hicimos"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "El otoño pasado → indefinido."
+    },
+    {
+     "n": 2,
+     "answers": [
+      "hacía"
+     ],
+     "why": "background-description",
+     "feedback": "Weather."
+    },
+    {
+     "n": 3,
+     "answers": [
+      "bajábamos"
+     ],
+     "why": "interrupted-action",
+     "feedback": "mientras + in progress."
+    },
+    {
+     "n": 4,
+     "answers": [
+      "llegó"
+     ],
+     "why": "completed-action",
+     "feedback": "Interrupting event."
+    },
+    {
+     "n": 5,
+     "answers": [
+      "veíamos",
+      "vimos"
+     ],
+     "why": "background-description",
+     "feedback": "We couldn't see the path: veíamos (situation) or vimos."
+    },
+    {
+     "n": 6,
+     "answers": [
+      "Estábamos"
+     ],
+     "why": "background-description",
+     "feedback": "State."
+    },
+    {
+     "n": 7,
+     "answers": [
+      "tenía"
+     ],
+     "why": "background-description",
+     "feedback": "State."
+    },
+    {
+     "n": 8,
+     "answers": [
+      "encontramos"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 9,
+     "answers": [
+      "habían recomendado"
+     ],
+     "why": "prior-past",
+     "feedback": "Days before → pluscuamperfecto."
+    },
+    {
+     "n": 10,
+     "answers": [
+      "pasamos"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    }
+   ]
+  },
+  {
+   "id": "pt-f-060",
+   "type": "cloze",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "Experience up to now → perfecto; dated trips → indefinido.",
+   "subPoint": "perfecto-vs-indefinido",
+   "unit": 2,
+   "title": "¿Has estado alguna vez…?",
+   "text": "—¿Has estado alguna vez en Marruecos? —Sí, {{1}} (ir, yo) dos veces. La primera vez {{2}} (ser) en 2018, con mis padres. La segunda, hace un año, con unos amigos. —¿Y qué tal? —Me {{3}} (encantar). Nunca {{4}} (comer) tan bien. ¿Y tú? —Yo nunca {{5}} (salir) de Europa. Este año {{6}} (ahorrar) un poco y quiero ir en primavera. —Pues ya me {{7}} (convencer, tú): ¡voy contigo!",
+   "gaps": [
+    {
+     "n": 1,
+     "answers": [
+      "he ido"
+     ],
+     "why": "time-marker-open",
+     "feedback": "Life experience (alguna vez) → perfecto."
+    },
+    {
+     "n": 2,
+     "answers": [
+      "fue"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "en 2018 → indefinido."
+    },
+    {
+     "n": 3,
+     "answers": [
+      "encantó"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "Evaluating finished trips → indefinido."
+    },
+    {
+     "n": 4,
+     "answers": [
+      "había comido",
+      "he comido"
+     ],
+     "why": "prior-past",
+     "feedback": "Never before those trips → había comido (or never in my life → he comido)."
+    },
+    {
+     "n": 5,
+     "answers": [
+      "he salido"
+     ],
+     "why": "time-marker-open",
+     "feedback": "nunca (up to now) → perfecto."
+    },
+    {
+     "n": 6,
+     "answers": [
+      "he ahorrado"
+     ],
+     "why": "time-marker-open",
+     "feedback": "este año → perfecto."
+    },
+    {
+     "n": 7,
+     "answers": [
+      "has convencido"
+     ],
+     "why": "time-marker-open",
+     "feedback": "Just now → perfecto."
+    }
+   ]
+  },
+  {
+   "id": "pt-f-061",
+   "type": "cloze",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "Description and habits → imperfecto; the day that changed things → indefinido.",
+   "subPoint": "indefinido-vs-imperfecto",
+   "unit": 2,
+   "title": "Un jefe muy especial",
+   "text": "Mi primer jefe se {{1}} (llamar) don Ernesto. {{2}} (Ser) un hombre muy serio que siempre {{3}} (llegar) a la oficina antes que nadie. {{4}} (Llevar) traje todos los días, incluso en agosto. Al principio me {{5}} (dar) un poco de miedo. Pero un día, cuando {{6}} (cometer, yo) un error muy grave con un cliente, él me {{7}} (defender) delante de todos. Aquel día {{8}} (entender, yo) que detrás de su seriedad había una persona muy generosa.",
+   "gaps": [
+    {
+     "n": 1,
+     "answers": [
+      "llamaba"
+     ],
+     "why": "background-description",
+     "feedback": "Description."
+    },
+    {
+     "n": 2,
+     "answers": [
+      "Era"
+     ],
+     "why": "background-description",
+     "feedback": "Description."
+    },
+    {
+     "n": 3,
+     "answers": [
+      "llegaba"
+     ],
+     "why": "habit",
+     "feedback": "siempre → habit."
+    },
+    {
+     "n": 4,
+     "answers": [
+      "Llevaba"
+     ],
+     "why": "habit",
+     "feedback": "Habit."
+    },
+    {
+     "n": 5,
+     "answers": [
+      "daba"
+     ],
+     "why": "background-description",
+     "feedback": "Feeling over a period (al principio)."
+    },
+    {
+     "n": 6,
+     "answers": [
+      "cometí"
+     ],
+     "why": "completed-action",
+     "feedback": "Un día → event."
+    },
+    {
+     "n": 7,
+     "answers": [
+      "defendió"
+     ],
+     "why": "completed-action",
+     "feedback": "Event."
+    },
+    {
+     "n": 8,
+     "answers": [
+      "entendí"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "Aquel día → indefinido."
+    }
+   ]
+  },
+  {
+   "id": "pt-f-062",
+   "type": "cloze",
+   "grammarPoint": "past-review",
+   "difficulty": 3,
+   "feedback": "This week as a frame → perfecto; specific days within it → indefinido (common in Spain); today → perfecto.",
+   "subPoint": "perfecto-vs-indefinido",
+   "unit": 2,
+   "title": "Una semana de locos",
+   "text": "(Es viernes.) Esta semana {{1}} (ser) agotadora. El lunes se me {{2}} (romper) el ordenador y {{3}} (perder) un trabajo que {{4}} (terminar) el domingo. El martes {{5}} (tener, yo) que repetirlo todo. Hoy, por fin, {{6}} (entregar) el trabajo y mi profesora me {{7}} (felicitar). Ahora mismo estoy en el sofá y no pienso moverme en todo el fin de semana.",
+   "gaps": [
+    {
+     "n": 1,
+     "answers": [
+      "ha sido"
+     ],
+     "why": "time-marker-open",
+     "feedback": "esta semana → perfecto."
+    },
+    {
+     "n": 2,
+     "answers": [
+      "rompió",
+      "ha roto"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "El lunes (a finished day) → indefinido; inside «esta semana» the perfecto is also heard."
+    },
+    {
+     "n": 3,
+     "answers": [
+      "perdí",
+      "he perdido"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "Same day: indefinido (or perfecto within this week)."
+    },
+    {
+     "n": 4,
+     "answers": [
+      "había terminado"
+     ],
+     "why": "prior-past",
+     "feedback": "Before Monday → pluscuamperfecto."
+    },
+    {
+     "n": 5,
+     "answers": [
+      "tuve",
+      "he tenido"
+     ],
+     "why": "time-marker-closed",
+     "feedback": "El martes → indefinido (or perfecto within this week)."
+    },
+    {
+     "n": 6,
+     "answers": [
+      "he entregado"
+     ],
+     "why": "time-marker-open",
+     "feedback": "hoy → perfecto."
+    },
+    {
+     "n": 7,
+     "answers": [
+      "ha felicitado"
+     ],
+     "why": "time-marker-open",
+     "feedback": "Still today."
+    }
+   ]
   }
  ]
 }

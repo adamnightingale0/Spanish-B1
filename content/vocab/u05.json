@@ -289,6 +289,291 @@
    "example_es": "Lee las instrucciones antes de montarlo.",
    "example_en": "Read the instructions before assembling it.",
    "gender": "f"
+  },
+  {
+   "id": "v05-el-anunciante",
+   "unit": 5,
+   "topic": "publicidad",
+   "es": "el anunciante",
+   "en": "the advertiser",
+   "example_es": "El anunciante paga por cada clic.",
+   "example_en": "The advertiser pays for each click.",
+   "gender": "m"
+  },
+  {
+   "id": "v05-el-patrocinador",
+   "unit": 5,
+   "topic": "publicidad",
+   "es": "el patrocinador",
+   "en": "the sponsor",
+   "example_es": "El banco es el patrocinador del festival.",
+   "example_en": "The bank is the festival's sponsor.",
+   "gender": "m"
+  },
+  {
+   "id": "v05-la-publicidad-enganosa",
+   "unit": 5,
+   "topic": "publicidad",
+   "es": "la publicidad engañosa",
+   "en": "the misleading advertising",
+   "example_es": "Esa oferta es publicidad engañosa.",
+   "example_en": "That offer is misleading advertising.",
+   "gender": "f"
+  },
+  {
+   "id": "v05-el-producto",
+   "unit": 5,
+   "topic": "publicidad",
+   "es": "el producto",
+   "en": "the product",
+   "example_es": "Es un producto ecológico.",
+   "example_en": "It's an eco-friendly product.",
+   "gender": "m"
+  },
+  {
+   "id": "v05-lanzar",
+   "unit": 5,
+   "topic": "publicidad",
+   "es": "lanzar",
+   "en": "to launch",
+   "example_es": "Lanzarán el nuevo modelo en enero.",
+   "example_en": "They'll launch the new model in January."
+  },
+  {
+   "id": "v05-el-lanzamiento",
+   "unit": 5,
+   "topic": "publicidad",
+   "es": "el lanzamiento",
+   "en": "the launch",
+   "example_es": "El lanzamiento fue un éxito.",
+   "example_en": "The launch was a success.",
+   "gender": "m"
+  },
+  {
+   "id": "v05-la-muestra-gratuita",
+   "unit": 5,
+   "topic": "publicidad",
+   "es": "la muestra gratuita",
+   "en": "the free sample",
+   "example_es": "En la farmacia me dieron una muestra gratuita.",
+   "example_en": "At the chemist's they gave me a free sample.",
+   "gender": "f"
+  },
+  {
+   "id": "v05-las-rebajas",
+   "unit": 5,
+   "topic": "publicidad",
+   "es": "las rebajas",
+   "en": "the sales",
+   "example_es": "En enero empiezan las rebajas.",
+   "example_en": "The sales start in January.",
+   "gender": "f"
+  },
+  {
+   "id": "v05-el-precio",
+   "unit": 5,
+   "topic": "publicidad",
+   "es": "el precio",
+   "en": "the price",
+   "example_es": "El precio incluye el envío.",
+   "example_en": "The price includes delivery.",
+   "gender": "m"
+  },
+  {
+   "id": "v05-ahorrar",
+   "unit": 5,
+   "topic": "publicidad",
+   "es": "ahorrar",
+   "en": "to save (money)",
+   "example_es": "Con esta tarjeta ahorras un diez por ciento.",
+   "example_en": "With this card you save ten per cent."
+  },
+  {
+   "id": "v05-la-garantia",
+   "unit": 5,
+   "topic": "publicidad",
+   "es": "la garantía",
+   "en": "the guarantee, warranty",
+   "example_es": "Tiene dos años de garantía.",
+   "example_en": "It has a two-year guarantee.",
+   "gender": "f"
+  },
+  {
+   "id": "v05-devolver",
+   "unit": 5,
+   "topic": "publicidad",
+   "es": "devolver",
+   "en": "to return (an item), give back",
+   "example_es": "Si no le gusta, puede devolverlo.",
+   "example_en": "If you don't like it, you can return it."
+  },
+  {
+   "id": "v05-el-la-cliente-a",
+   "unit": 5,
+   "topic": "publicidad",
+   "es": "el / la cliente/a",
+   "en": "the customer",
+   "example_es": "El cliente siempre tiene razón.",
+   "example_en": "The customer is always right."
+  },
+  {
+   "id": "v05-la-imagen-de-marca",
+   "unit": 5,
+   "topic": "publicidad",
+   "es": "la imagen de marca",
+   "en": "the brand image",
+   "example_es": "La empresa cuida mucho su imagen de marca.",
+   "example_en": "The company takes great care of its brand image.",
+   "gender": "f"
+  },
+  {
+   "id": "v05-el-logotipo",
+   "unit": 5,
+   "topic": "publicidad",
+   "es": "el logotipo",
+   "en": "the logo",
+   "example_es": "El logotipo es una manzana.",
+   "example_en": "The logo is an apple.",
+   "gender": "m"
+  },
+  {
+   "id": "v05-las-redes-sociales",
+   "unit": 5,
+   "topic": "publicidad",
+   "es": "las redes sociales",
+   "en": "the social media",
+   "example_es": "Anuncian sus productos en las redes sociales.",
+   "example_en": "They advertise their products on social media.",
+   "gender": "f"
+  },
+  {
+   "id": "v05-el-la-influencer",
+   "unit": 5,
+   "topic": "publicidad",
+   "es": "el / la influencer",
+   "en": "the influencer",
+   "example_es": "La marca contrató a una influencer famosa.",
+   "example_en": "The brand hired a famous influencer."
+  },
+  {
+   "id": "v05-seducir",
+   "unit": 5,
+   "topic": "objetivos",
+   "es": "seducir",
+   "en": "to seduce, appeal to",
+   "example_es": "El anuncio quiere seducir a los jóvenes.",
+   "example_en": "The advert wants to appeal to young people."
+  },
+  {
+   "id": "v05-emocionar",
+   "unit": 5,
+   "topic": "objetivos",
+   "es": "emocionar",
+   "en": "to move, touch",
+   "example_es": "El anuncio de Navidad me emocionó.",
+   "example_en": "The Christmas advert moved me."
+  },
+  {
+   "id": "v05-informar",
+   "unit": 5,
+   "topic": "objetivos",
+   "es": "informar",
+   "en": "to inform",
+   "example_es": "La campaña informa sobre los riesgos del alcohol.",
+   "example_en": "The campaign informs about the risks of alcohol."
+  },
+  {
+   "id": "v05-el-escaparate",
+   "unit": 5,
+   "topic": "publicidad",
+   "es": "el escaparate",
+   "en": "the shop window",
+   "example_es": "El escaparate de Navidad es precioso.",
+   "example_en": "The Christmas shop window is beautiful.",
+   "gender": "m"
+  },
+  {
+   "id": "v05-la-belleza",
+   "unit": 5,
+   "topic": "valores",
+   "es": "la belleza",
+   "en": "the beauty",
+   "example_es": "Muchos anuncios venden belleza.",
+   "example_en": "Many adverts sell beauty.",
+   "gender": "f"
+  },
+  {
+   "id": "v05-la-libertad",
+   "unit": 5,
+   "topic": "valores",
+   "es": "la libertad",
+   "en": "the freedom",
+   "example_es": "El coche representa la libertad.",
+   "example_en": "The car stands for freedom.",
+   "gender": "f"
+  },
+  {
+   "id": "v05-divertido-a",
+   "unit": 5,
+   "topic": "adjetivos",
+   "es": "divertido/a",
+   "en": "fun, funny",
+   "example_es": "Es un anuncio muy divertido.",
+   "example_en": "It's a very funny advert."
+  },
+  {
+   "id": "v05-original",
+   "unit": 5,
+   "topic": "adjetivos",
+   "es": "original",
+   "en": "original",
+   "example_es": "La idea es muy original.",
+   "example_en": "The idea is very original."
+  },
+  {
+   "id": "v05-pruebalo",
+   "unit": 5,
+   "topic": "instrucciones",
+   "es": "pruébalo",
+   "en": "try it",
+   "example_es": "¡Pruébalo gratis durante un mes!",
+   "example_en": "Try it free for a month!"
+  },
+  {
+   "id": "v05-no-te-lo-pierdas",
+   "unit": 5,
+   "topic": "instrucciones",
+   "es": "no te lo pierdas",
+   "en": "don't miss it",
+   "example_es": "Concierto el sábado: ¡no te lo pierdas!",
+   "example_en": "Concert on Saturday: don't miss it!"
+  },
+  {
+   "id": "v05-anadir",
+   "unit": 5,
+   "topic": "instrucciones",
+   "es": "añadir",
+   "en": "to add",
+   "example_es": "Añade una cucharada de azúcar.",
+   "example_en": "Add a spoonful of sugar."
+  },
+  {
+   "id": "v05-mezclar",
+   "unit": 5,
+   "topic": "instrucciones",
+   "es": "mezclar",
+   "en": "to mix",
+   "example_es": "Mezcla bien todos los ingredientes.",
+   "example_en": "Mix all the ingredients well."
+  },
+  {
+   "id": "v05-encender-apagar",
+   "unit": 5,
+   "topic": "instrucciones",
+   "es": "encender / apagar",
+   "en": "to switch on / off",
+   "example_es": "Apague el móvil durante la película.",
+   "example_en": "Switch off your phone during the film."
   }
  ]
 }

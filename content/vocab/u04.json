@@ -284,6 +284,287 @@
    "en": "suddenly",
    "example_es": "De repente, se apagaron todas las luces.",
    "example_en": "Suddenly all the lights went out."
+  },
+  {
+   "id": "v04-el-la-director-a-de-cine",
+   "unit": 4,
+   "topic": "cine",
+   "es": "el / la director/a de cine",
+   "en": "the film director",
+   "example_es": "Almodóvar es mi director de cine favorito.",
+   "example_en": "Almodóvar is my favourite film director."
+  },
+  {
+   "id": "v04-el-reparto",
+   "unit": 4,
+   "topic": "cine",
+   "es": "el reparto",
+   "en": "the cast",
+   "example_es": "La película tiene un reparto excelente.",
+   "example_en": "The film has an excellent cast.",
+   "gender": "m"
+  },
+  {
+   "id": "v04-la-banda-sonora",
+   "unit": 4,
+   "topic": "cine",
+   "es": "la banda sonora",
+   "en": "the soundtrack",
+   "example_es": "Me encanta la banda sonora de esa película.",
+   "example_en": "I love that film's soundtrack.",
+   "gender": "f"
+  },
+  {
+   "id": "v04-los-efectos-especiales",
+   "unit": 4,
+   "topic": "cine",
+   "es": "los efectos especiales",
+   "en": "the special effects",
+   "example_es": "Los efectos especiales son impresionantes.",
+   "example_en": "The special effects are impressive.",
+   "gender": "m"
+  },
+  {
+   "id": "v04-la-escena",
+   "unit": 4,
+   "topic": "cine",
+   "es": "la escena",
+   "en": "the scene",
+   "example_es": "La última escena es muy emocionante.",
+   "example_en": "The last scene is very moving.",
+   "gender": "f"
+  },
+  {
+   "id": "v04-rodar",
+   "unit": 4,
+   "topic": "cine",
+   "es": "rodar",
+   "en": "to shoot, film",
+   "example_es": "Rodaron la serie en Sevilla.",
+   "example_en": "They shot the series in Seville."
+  },
+  {
+   "id": "v04-estrenar",
+   "unit": 4,
+   "topic": "cine",
+   "es": "estrenar",
+   "en": "to release, premiere",
+   "example_es": "La estrenan en los cines el viernes.",
+   "example_en": "It comes out in cinemas on Friday."
+  },
+  {
+   "id": "v04-la-version-original",
+   "unit": 4,
+   "topic": "cine",
+   "es": "la versión original",
+   "en": "the original-language version",
+   "example_es": "Prefiero ver las películas en versión original.",
+   "example_en": "I prefer watching films in the original language.",
+   "gender": "f"
+  },
+  {
+   "id": "v04-los-subtitulos",
+   "unit": 4,
+   "topic": "cine",
+   "es": "los subtítulos",
+   "en": "the subtitles",
+   "example_es": "Veo las series con subtítulos en español.",
+   "example_en": "I watch series with Spanish subtitles.",
+   "gender": "m"
+  },
+  {
+   "id": "v04-el-capitulo",
+   "unit": 4,
+   "topic": "series",
+   "es": "el capítulo",
+   "en": "the episode, chapter",
+   "example_es": "Ayer vi tres capítulos seguidos.",
+   "example_en": "Yesterday I watched three episodes in a row.",
+   "gender": "m"
+  },
+  {
+   "id": "v04-la-temporada",
+   "unit": 4,
+   "topic": "series",
+   "es": "la temporada",
+   "en": "the season (of a series)",
+   "example_es": "Ya ha salido la segunda temporada.",
+   "example_en": "The second season is already out.",
+   "gender": "f"
+  },
+  {
+   "id": "v04-el-la-personaje",
+   "unit": 4,
+   "topic": "obras",
+   "es": "el / la personaje",
+   "en": "the character",
+   "example_es": "El personaje principal es un detective.",
+   "example_en": "The main character is a detective."
+  },
+  {
+   "id": "v04-el-la-escritor-a",
+   "unit": 4,
+   "topic": "literatura",
+   "es": "el / la escritor/a",
+   "en": "the writer",
+   "example_es": "Es la escritora más leída del año.",
+   "example_en": "She's the most-read writer of the year."
+  },
+  {
+   "id": "v04-el-la-lector-a",
+   "unit": 4,
+   "topic": "literatura",
+   "es": "el / la lector/a",
+   "en": "the reader",
+   "example_es": "El libro ha enganchado a miles de lectores.",
+   "example_en": "The book has hooked thousands of readers."
+  },
+  {
+   "id": "v04-engancharse-a",
+   "unit": 4,
+   "topic": "series",
+   "es": "engancharse a",
+   "en": "to get hooked on",
+   "example_es": "Me he enganchado a una serie coreana.",
+   "example_en": "I've got hooked on a Korean series."
+  },
+  {
+   "id": "v04-el-chiste",
+   "unit": 4,
+   "topic": "chistes",
+   "es": "el chiste",
+   "en": "the joke",
+   "example_es": "Mi padre cuenta chistes malísimos.",
+   "example_en": "My father tells terrible jokes.",
+   "gender": "m"
+  },
+  {
+   "id": "v04-hacer-gracia",
+   "unit": 4,
+   "topic": "chistes",
+   "es": "hacer gracia",
+   "en": "to amuse, be funny",
+   "example_es": "Ese chiste no me hace ninguna gracia.",
+   "example_en": "That joke isn't funny to me at all."
+  },
+  {
+   "id": "v04-gracioso-a",
+   "unit": 4,
+   "topic": "chistes",
+   "es": "gracioso/a",
+   "en": "funny",
+   "example_es": "Es una comedia muy graciosa.",
+   "example_en": "It's a very funny comedy."
+  },
+  {
+   "id": "v04-aburrido-a",
+   "unit": 4,
+   "topic": "valorar",
+   "es": "aburrido/a",
+   "en": "boring",
+   "example_es": "La película me pareció muy aburrida.",
+   "example_en": "I found the film very boring."
+  },
+  {
+   "id": "v04-emocionante",
+   "unit": 4,
+   "topic": "valorar",
+   "es": "emocionante",
+   "en": "exciting, moving",
+   "example_es": "El final es emocionante.",
+   "example_en": "The ending is moving."
+  },
+  {
+   "id": "v04-recomendar",
+   "unit": 4,
+   "topic": "valorar",
+   "es": "recomendar",
+   "en": "to recommend",
+   "example_es": "Te recomiendo esta novela.",
+   "example_en": "I recommend this novel to you."
+  },
+  {
+   "id": "v04-la-critica",
+   "unit": 4,
+   "topic": "valorar",
+   "es": "la crítica",
+   "en": "the review, criticism",
+   "example_es": "La película ha tenido muy buenas críticas.",
+   "example_en": "The film has had very good reviews.",
+   "gender": "f"
+  },
+  {
+   "id": "v04-el-desenlace",
+   "unit": 4,
+   "topic": "hablar de una obra",
+   "es": "el desenlace",
+   "en": "the ending, outcome (of a plot)",
+   "example_es": "El desenlace de la novela me sorprendió.",
+   "example_en": "The novel's ending surprised me.",
+   "gender": "m"
+  },
+  {
+   "id": "v04-ocurrir",
+   "unit": 4,
+   "topic": "hablar de una obra",
+   "es": "ocurrir",
+   "en": "to happen",
+   "example_es": "La historia ocurre en el siglo XIX.",
+   "example_en": "The story takes place in the 19th century."
+  },
+  {
+   "id": "v04-en-aquel-momento",
+   "unit": 4,
+   "topic": "conectores",
+   "es": "en aquel momento",
+   "en": "at that moment",
+   "example_es": "En aquel momento entró la policía.",
+   "example_en": "At that moment the police came in."
+  },
+  {
+   "id": "v04-al-final",
+   "unit": 4,
+   "topic": "conectores",
+   "es": "al final",
+   "en": "in the end",
+   "example_es": "Al final, el protagonista vuelve a casa.",
+   "example_en": "In the end, the main character goes home."
+  },
+  {
+   "id": "v04-sin-embargo",
+   "unit": 4,
+   "topic": "conectores",
+   "es": "sin embargo",
+   "en": "however",
+   "example_es": "Es larga; sin embargo, no aburre.",
+   "example_en": "It's long; however, it's not boring."
+  },
+  {
+   "id": "v04-aunque",
+   "unit": 4,
+   "topic": "conectores",
+   "es": "aunque",
+   "en": "although",
+   "example_es": "Aunque es cara, la recomiendo.",
+   "example_en": "Although it's expensive, I recommend it."
+  },
+  {
+   "id": "v04-como",
+   "unit": 4,
+   "topic": "conectores",
+   "es": "como",
+   "en": "as, since (cause)",
+   "example_es": "Como estaba cansado, no fui al cine.",
+   "example_en": "As I was tired, I didn't go to the cinema."
+  },
+  {
+   "id": "v04-de-pronto",
+   "unit": 4,
+   "topic": "conectores",
+   "es": "de pronto",
+   "en": "suddenly",
+   "example_es": "De pronto, se oyó un grito.",
+   "example_en": "Suddenly, a scream was heard."
   }
  ]
 }

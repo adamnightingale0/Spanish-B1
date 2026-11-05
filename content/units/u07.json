@@ -292,6 +292,1013 @@
     }
    ],
    "feedback": "Statement → decir que; yes/no → preguntar si; wh- → preguntar dónde…; request → pedir que + subj."
+  },
+  {
+   "id": "u07-f-001",
+   "type": "transform",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 1,
+   "feedback": "estoy → está (yo → ella).",
+   "contrast": "«Estoy cansada» → Dice que está cansada.",
+   "instruction": "Transmite: «Mi hermana me ha dicho que…».",
+   "prompt": "Mi hermana: «Estoy cansada.»",
+   "answers": [
+    "Mi hermana me ha dicho que está cansada"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-002",
+   "type": "transform",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 1,
+   "feedback": "puedo → puede.",
+   "contrast": "Pedro dice que no puede.",
+   "instruction": "Transmite: «Pedro me ha dicho que…».",
+   "prompt": "Pedro: «No puedo ir a la cena.»",
+   "answers": [
+    "Pedro me ha dicho que no puede ir a la cena"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-003",
+   "type": "transform",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "vamos → van.",
+   "contrast": "Dicen que llegan el viernes.",
+   "instruction": "Transmite: «Mis padres me han dicho que…».",
+   "prompt": "Mis padres: «Vamos a llegar el viernes.»",
+   "answers": [
+    "Mis padres me han dicho que van a llegar el viernes"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-004",
+   "type": "transform",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "Yes/no question → si; tienes → tengo.",
+   "contrast": "Me ha preguntado qué coche tengo.",
+   "instruction": "Transmite: «Carmen me ha preguntado…».",
+   "prompt": "Carmen: «¿Tienes coche?»",
+   "answers": [
+    "Carmen me ha preguntado si tengo coche"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-005",
+   "type": "transform",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "habéis → hemos (vosotros → nosotros).",
+   "contrast": "Nos ha preguntado si…",
+   "instruction": "Transmite: «El profesor nos ha preguntado…».",
+   "prompt": "El profesor: «¿Habéis hecho los deberes?»",
+   "answers": [
+    "El profesor nos ha preguntado si hemos hecho los deberes"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-006",
+   "type": "transform",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "Wh- question keeps the question word; vuelves → vuelvo.",
+   "contrast": "Me ha preguntado si vuelvo tarde.",
+   "instruction": "Transmite: «Mi madre me ha preguntado…».",
+   "prompt": "Mi madre: «¿A qué hora vuelves?»",
+   "answers": [
+    "Mi madre me ha preguntado a qué hora vuelvo"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-007",
+   "type": "transform",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "Command → pedir que + subjuntivo; ayúdame → que la ayude.",
+   "contrast": "Luisa me ha dicho que se muda.",
+   "instruction": "Transmite: «Luisa me ha pedido que…».",
+   "prompt": "Luisa: «Ayúdame con la mudanza.»",
+   "answers": [
+    "Luisa me ha pedido que la ayude con la mudanza"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-008",
+   "type": "transform",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "Command reported with decir que → subjuntivo.",
+   "contrast": "El médico me ha dicho que el jarabe es bueno.",
+   "instruction": "Transmite: «El médico me ha dicho que…».",
+   "prompt": "El médico: «Toma este jarabe tres veces al día.»",
+   "answers": [
+    "El médico me ha dicho que tome este jarabe tres veces al día"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-009",
+   "type": "transform",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 3,
+   "feedback": "nos → los; no esperes → que no los espere.",
+   "contrast": "Esperadnos → que los espere.",
+   "instruction": "Transmite: «Mis amigos me han pedido que…».",
+   "prompt": "Mis amigos: «No nos esperes para cenar.»",
+   "answers": [
+    "Mis amigos me han pedido que no los espere para cenar"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-010",
+   "type": "choice",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 1,
+   "feedback": "Yes/no question → si.",
+   "contrast": "Me ha preguntado qué película vemos.",
+   "prompt": "Ana: «¿Vienes al cine?» → Ana me ha preguntado ___ voy al cine.",
+   "options": [
+    "si",
+    "que",
+    "qué"
+   ],
+   "answers": [
+    "si"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-011",
+   "type": "choice",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 1,
+   "feedback": "Information → indicative; yo → él.",
+   "contrast": "Me ha pedido que esté en casa.",
+   "prompt": "Jorge: «Estoy en casa.» → Jorge me ha dicho que ___ en casa.",
+   "options": [
+    "está",
+    "estoy",
+    "esté"
+   ],
+   "answers": [
+    "está"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-012",
+   "type": "choice",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "Command → que + subjuntivo.",
+   "contrast": "Me ha dicho que me llama mañana (information).",
+   "prompt": "Tu jefa: «Llámame mañana.» → Mi jefa me ha dicho que la ___ mañana.",
+   "options": [
+    "llame",
+    "llamo",
+    "llama"
+   ],
+   "answers": [
+    "llame"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-013",
+   "type": "choice",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "Keep the question word (with accent).",
+   "contrast": "Nos ha preguntado si nos vamos.",
+   "prompt": "Tu vecino: «¿Cuándo os vais de vacaciones?» → Mi vecino nos ha preguntado ___ nos vamos de vacaciones.",
+   "options": [
+    "cuándo",
+    "si",
+    "que"
+   ],
+   "answers": [
+    "cuándo"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-014",
+   "type": "choice",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "mi coche (Raúl's) → su coche.",
+   "contrast": "Mi coche está roto (my car).",
+   "prompt": "Raúl: «Mi coche está roto.» → Raúl me ha dicho que ___ coche está roto.",
+   "options": [
+    "su",
+    "mi",
+    "tu"
+   ],
+   "answers": [
+    "su"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-015",
+   "type": "choice",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "tu bici (my bike, from my point of view) → mi bici.",
+   "contrast": "Me ha pedido la bici.",
+   "prompt": "Elena: «¿Me prestas tu bici?» → Elena me ha pedido ___ bici.",
+   "options": [
+    "mi",
+    "su",
+    "tu"
+   ],
+   "answers": [
+    "mi"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-016",
+   "type": "choice",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "voy a tu casa → viene a mi casa (perspective of ir/venir).",
+   "contrast": "Dice que va a casa de su madre.",
+   "prompt": "Pablo: «Esta tarde voy a tu casa.» → Pablo me ha dicho que esta tarde ___ a mi casa.",
+   "options": [
+    "viene",
+    "venga",
+    "vino"
+   ],
+   "answers": [
+    "viene"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-017",
+   "type": "choice",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 3,
+   "feedback": "traed (to her place) → que llevemos; subjunctive.",
+   "contrast": "Nos ha dicho que trae bebidas.",
+   "prompt": "Teresa: «Traed bebidas.» → Teresa nos ha pedido que ___ bebidas.",
+   "options": [
+    "llevemos",
+    "traemos",
+    "llevamos"
+   ],
+   "answers": [
+    "llevemos"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-018",
+   "type": "gap",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "me gusta → le gusta.",
+   "contrast": "Dice que no le gustan las gambas.",
+   "prompt": "Sergio: «No me gusta el pescado.» → Sergio dice que no le ___ (gustar) el pescado.",
+   "answers": [
+    "gusta"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-019",
+   "type": "gap",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "hemos → han (ellos).",
+   "contrast": "Laura dice que lo terminan mañana.",
+   "prompt": "Laura: «Hemos terminado el proyecto.» → Laura me ha dicho que ___ (terminar) el proyecto.",
+   "answers": [
+    "han terminado"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-020",
+   "type": "gap",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "van (ustedes) → vamos (nosotros).",
+   "contrast": "Nos ha preguntado si queremos algo.",
+   "prompt": "El camarero: «¿Qué van a tomar?» → El camarero nos ha preguntado qué ___ (ir) a tomar.",
+   "answers": [
+    "vamos"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-021",
+   "type": "gap",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "pedir que + subjuntivo.",
+   "contrast": "Me ha dicho que la llamo (information).",
+   "prompt": "Tu amiga: «Llámame cuando llegues.» → Me ha pedido que la ___ (llamar) cuando llegue.",
+   "answers": [
+    "llame"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-022",
+   "type": "gap",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 3,
+   "feedback": "Negative command → que no + subjuntivo (c → qu).",
+   "contrast": "Marta dice que su ordenador es nuevo.",
+   "prompt": "Marta: «No toques mi ordenador.» → Marta me ha dicho que no ___ (tocar) su ordenador.",
+   "answers": [
+    "toque"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-023",
+   "type": "error",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 1,
+   "feedback": "Yes/no question → si.",
+   "contrast": "Me ha preguntado cómo estoy.",
+   "prompt": "Ana: «¿Estás bien?» → Ana me ha preguntado que estoy bien.",
+   "errorIndex": 8,
+   "answers": [
+    "si"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-024",
+   "type": "error",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "pedir que + subjuntivo.",
+   "contrast": "Me ha dicho que el informe está bien.",
+   "prompt": "Mi jefe: «Envíame el informe.» → Mi jefe me ha pedido que le envío el informe.",
+   "errorIndex": 13,
+   "answers": [
+    "envíe"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-025",
+   "type": "error",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "yo → él: está.",
+   "contrast": "Pedro dice que está en Madrid.",
+   "prompt": "Pedro: «Estoy en Madrid.» → Pedro me ha dicho que estoy en Madrid.",
+   "errorIndex": 10,
+   "answers": [
+    "está"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-026",
+   "type": "error",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "tú (to me) → yo: vivo.",
+   "contrast": "Me ha preguntado si vivo cerca.",
+   "prompt": "Rosa: «¿Dónde vives?» → Rosa me ha preguntado dónde vives.",
+   "errorIndex": 9,
+   "answers": [
+    "vivo"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-027",
+   "type": "error",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "ven → que vaya (subjunctive; venir → ir).",
+   "contrast": "Me ha dicho que hace una fiesta.",
+   "prompt": "Javi: «Ven a mi fiesta.» → Javi me ha pedido que voy a su fiesta.",
+   "errorIndex": 11,
+   "answers": [
+    "vaya"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-028",
+   "type": "error",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 3,
+   "feedback": "mi (Lucía's) → su.",
+   "contrast": "Tu hermano está enfermo (yours).",
+   "prompt": "Lucía: «Mi hermano está enfermo.» → Lucía me ha dicho que mi hermano está enfermo.",
+   "errorIndex": 11,
+   "answers": [
+    "su"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-029",
+   "type": "match",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "Statement → decir que; yes/no → si; wh- → question word; command → pedir que + subjuntivo.",
+   "instruction": "Relaciona cada mensaje con su transmisión.",
+   "pairs": [
+    {
+     "left": "«¿Tienes hambre?» →",
+     "right": "Me ha preguntado si tengo hambre."
+    },
+    {
+     "left": "«Cierra la puerta.» →",
+     "right": "Me ha pedido que cierre la puerta."
+    },
+    {
+     "left": "«Tengo hambre.» →",
+     "right": "Me ha dicho que tiene hambre."
+    },
+    {
+     "left": "«¿Quién ha llamado?» →",
+     "right": "Me ha preguntado quién ha llamado."
+    }
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-030",
+   "type": "match",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "Verbs that summarise the intention of a message.",
+   "instruction": "¿Qué verbo resume cada mensaje?",
+   "pairs": [
+    {
+     "left": "«¡Gracias por el regalo!» →",
+     "right": "Me ha dado las gracias por el regalo."
+    },
+    {
+     "left": "«¡Feliz cumpleaños!» →",
+     "right": "Me ha felicitado por mi cumpleaños."
+    },
+    {
+     "left": "«Adiós, me voy.» →",
+     "right": "Se ha despedido."
+    },
+    {
+     "left": "«¿Está Andrés?» →",
+     "right": "Ha preguntado por Andrés."
+    }
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-031",
+   "type": "choice",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 1,
+   "feedback": "A yes/no question → preguntar si.",
+   "contrast": "Me ha pedido que le riegue las plantas.",
+   "prompt": "Mi vecino me ha ___ si puedo regarle las plantas.",
+   "options": [
+    "preguntado",
+    "pedido",
+    "dicho"
+   ],
+   "answers": [
+    "preguntado"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-032",
+   "type": "choice",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 1,
+   "feedback": "A request → pedir que + subjuntivo.",
+   "contrast": "Me ha preguntado si puedo regarlas.",
+   "prompt": "Mi vecino me ha ___ que le riegue las plantas.",
+   "options": [
+    "pedido",
+    "preguntado",
+    "contado"
+   ],
+   "answers": [
+    "pedido"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-033",
+   "type": "choice",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "Asking for something → pedir.",
+   "contrast": "Le he preguntado si tiene cambio.",
+   "prompt": "Le he ___ a mi compañera cinco euros para el café.",
+   "options": [
+    "pedido",
+    "preguntado",
+    "dicho"
+   ],
+   "answers": [
+    "pedido"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-034",
+   "type": "choice",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "preguntar por alguien = ask after someone.",
+   "contrast": "Me ha preguntado si estás bien.",
+   "prompt": "Tu abuela ha llamado y ha preguntado ___ ti.",
+   "options": [
+    "por",
+    "a",
+    "de"
+   ],
+   "answers": [
+    "por"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-035",
+   "type": "choice",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "dar las gracias por + infinitive / noun.",
+   "contrast": "Me ha agradecido la ayuda.",
+   "prompt": "Rocío me ha dado las gracias ___ ayudarla con la mudanza.",
+   "options": [
+    "por",
+    "para",
+    "de"
+   ],
+   "answers": [
+    "por"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-036",
+   "type": "choice",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "despedirse de alguien.",
+   "contrast": "Ha dicho adiós a todos.",
+   "prompt": "Luis se ha despedido ___ todos antes de irse.",
+   "options": [
+    "de",
+    "a",
+    "con"
+   ],
+   "answers": [
+    "de"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-037",
+   "type": "choice",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "felicitar a alguien por algo.",
+   "contrast": "¡Enhorabuena por el trabajo!",
+   "prompt": "Mis compañeros me han felicitado ___ el nuevo trabajo.",
+   "options": [
+    "por",
+    "para",
+    "de"
+   ],
+   "answers": [
+    "por"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-038",
+   "type": "choice",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 3,
+   "feedback": "A request for something → pedir algo.",
+   "contrast": "Me ha preguntado si se lo dejo.",
+   "prompt": "Silvia: «¿Me dejas tu coche este fin de semana?» → Silvia me ha ___ el coche para el fin de semana.",
+   "options": [
+    "pedido",
+    "preguntado",
+    "dicho"
+   ],
+   "answers": [
+    "pedido"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-039",
+   "type": "choice",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "sugerir que + subjuntivo.",
+   "contrast": "Me ha dicho que llama él.",
+   "prompt": "El agente me ha sugerido que ___ a mi compañía de seguros.",
+   "options": [
+    "llame",
+    "llamo",
+    "llamar"
+   ],
+   "answers": [
+    "llame"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-040",
+   "type": "choice",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "recomendar que + subjuntivo.",
+   "contrast": "Me ha recomendado ver series.",
+   "prompt": "Mi profesora me ha recomendado que ___ series en español.",
+   "options": [
+    "vea",
+    "veo",
+    "ver"
+   ],
+   "answers": [
+    "vea"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-041",
+   "type": "gap",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "aconsejar que + subjuntivo.",
+   "contrast": "Me han aconsejado ahorrar.",
+   "prompt": "Mis padres me han aconsejado que ___ (ahorrar) un poco cada mes.",
+   "answers": [
+    "ahorre"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-042",
+   "type": "gap",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "vienes (to him) → voy.",
+   "contrast": "Me ha preguntado si voy.",
+   "prompt": "Juan: «¿Por qué no vienes?» → Juan me ha preguntado por qué no ___ (ir).",
+   "answers": [
+    "voy"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-043",
+   "type": "gap",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 3,
+   "feedback": "invitar summarises the message.",
+   "contrast": "Clara dice que nos invita.",
+   "prompt": "Clara: «Os invito a cenar el sábado.» → Clara nos ha ___ (invitar) a cenar el sábado.",
+   "answers": [
+    "invitado"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-044",
+   "type": "gap",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "¿De parte de quién? = Who's calling?",
+   "contrast": "¿Quién es?",
+   "prompt": "Al teléfono: «¿De parte de ___?» —De Marta.",
+   "answers": [
+    "quién"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-045",
+   "type": "choice",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 1,
+   "feedback": "ponerse (al teléfono) = come to the phone.",
+   "contrast": "Ahora te paso con él.",
+   "prompt": "Al teléfono: —¿Está Andrés? —Sí, un momento, ahora ___.",
+   "options": [
+    "se pone",
+    "se va",
+    "pone"
+   ],
+   "answers": [
+    "se pone"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-046",
+   "type": "choice",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "dejar un recado = leave a message.",
+   "contrast": "Dígale que he llamado.",
+   "prompt": "—Hola, ¿está la señora Ruiz? —No, ahora no está. ¿Quiere dejarle algún ___?",
+   "options": [
+    "recado",
+    "pedido",
+    "cuento"
+   ],
+   "answers": [
+    "recado"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-047",
+   "type": "choice",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "Se equivoca (de número) = wrong number.",
+   "contrast": "Creo que se ha equivocado.",
+   "prompt": "—¿Es el 954 12 34 56? —No, lo siento, se ___.",
+   "options": [
+    "equivoca",
+    "equivoco",
+    "confunde de"
+   ],
+   "answers": [
+    "equivoca"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-048",
+   "type": "gap",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "Leaving a message: dile que…",
+   "contrast": "Dígale que… (usted).",
+   "prompt": "Si llama Juan, ___ (decir, tú + le) que lo llamo más tarde.",
+   "answers": [
+    "dile"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-049",
+   "type": "order",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "preguntar si + indicative.",
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "Me ha preguntado si quiero ir al cine"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-050",
+   "type": "order",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "pedir que + subjuntivo; pronoun before the verb.",
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "Mi madre me ha pedido que la llame"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-051",
+   "type": "order",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 3,
+   "feedback": "Negative command reported: que no + subjuntivo.",
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "Nos han dicho que no lleguemos tarde"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-052",
+   "type": "transform",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "Wh- question: keep cuánto, verb unchanged.",
+   "contrast": "Me ha preguntado si el billete es caro.",
+   "instruction": "Transmite: «Me ha preguntado…».",
+   "prompt": "Paco: «¿Cuánto cuesta el billete?»",
+   "answers": [
+    "Me ha preguntado cuánto cuesta el billete"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-053",
+   "type": "transform",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 3,
+   "feedback": "no dejes → que no deje.",
+   "contrast": "Me ha dicho que deja los platos.",
+   "instruction": "Transmite: «Me ha pedido que…».",
+   "prompt": "Mi compañera: «No dejes los platos en el fregadero.»",
+   "answers": [
+    "Me ha pedido que no deje los platos en el fregadero"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-054",
+   "type": "transform",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 3,
+   "feedback": "He is in the group: salimos stays salimos.",
+   "contrast": "Nos ha pedido que salgamos a las ocho.",
+   "instruction": "Transmite: «Nos ha dicho que…».",
+   "prompt": "El guía: «Mañana salimos a las ocho.»",
+   "answers": [
+    "Nos ha dicho que mañana salimos a las ocho"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-055",
+   "type": "choice",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 3,
+   "feedback": "Command → subjunctive; traed (to where he is) → llevemos.",
+   "contrast": "Nos ha dicho que lleva agua él.",
+   "prompt": "El guía: «Traed agua.» → El guía nos ha dicho que ___ agua.",
+   "options": [
+    "llevemos",
+    "llevamos",
+    "traemos"
+   ],
+   "answers": [
+    "llevemos"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-056",
+   "type": "choice",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 3,
+   "feedback": "Information → indicative; yo → él.",
+   "contrast": "Me ha pedido que lo eche de menos.",
+   "prompt": "Ignacio: «Te echo de menos.» → Ignacio me ha dicho que me ___ de menos.",
+   "options": [
+    "echa",
+    "eche",
+    "echo"
+   ],
+   "answers": [
+    "echa"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-057",
+   "type": "gap",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 3,
+   "feedback": "esperar que + subjuntivo is kept; os → nos.",
+   "contrast": "Ana dice que la tarta está buena.",
+   "prompt": "Ana: «Espero que os guste la tarta.» → Ana dice que espera que nos ___ (gustar) la tarta.",
+   "answers": [
+    "guste"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-058",
+   "type": "error",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 3,
+   "feedback": "yo → él: devuelve.",
+   "contrast": "Me ha pedido que le devuelva el libro.",
+   "prompt": "Mi amigo: «Mañana te devuelvo el libro.» → Mi amigo me ha dicho que mañana me devuelvo el libro.",
+   "errorIndex": 16,
+   "answers": [
+    "devuelve"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-059",
+   "type": "choice",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "pasar a alguien con alguien = put through.",
+   "contrast": "Ahora se pone.",
+   "prompt": "Al teléfono: —Quería hablar con el señor Díaz. —Un momento, le ___ con él.",
+   "options": [
+    "paso",
+    "pongo",
+    "doy"
+   ],
+   "answers": [
+    "paso"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-060",
+   "type": "match",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 3,
+   "feedback": "Verbs that summarise a message.",
+   "instruction": "Relaciona cada verbo con un ejemplo.",
+   "pairs": [
+    {
+     "left": "Invitar",
+     "right": "Me ha invitado a su boda."
+    },
+    {
+     "left": "Recomendar",
+     "right": "Me ha recomendado un restaurante."
+    },
+    {
+     "left": "Proponer",
+     "right": "Nos ha propuesto ir a la playa."
+    },
+    {
+     "left": "Saludar",
+     "right": "Te ha saludado desde lejos."
+    }
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-061",
+   "type": "choice",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 1,
+   "feedback": "Reporting information in the present → indicative.",
+   "contrast": "Me pide que vaya a verla.",
+   "prompt": "Mi madre dice que ___ a vernos en Navidad.",
+   "options": [
+    "viene",
+    "venga",
+    "vengo"
+   ],
+   "answers": [
+    "viene"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-062",
+   "type": "gap",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 2,
+   "feedback": "A request (¿puedes…?) → pedir que + subjuntivo (e→ie).",
+   "contrast": "Me ha preguntado si puedo cerrarla.",
+   "prompt": "Andrés: «¿Puedes cerrar la ventana?» → Andrés me ha pedido que ___ (cerrar) la ventana.",
+   "answers": [
+    "cierre"
+   ],
+   "unit": 7
+  },
+  {
+   "id": "u07-f-063",
+   "type": "choice",
+   "grammarPoint": "estilo-indirecto",
+   "difficulty": 3,
+   "feedback": "Wh- question: por qué (two words, accent).",
+   "contrast": "Me han dicho que es porque…",
+   "prompt": "Mis vecinos me han preguntado ___ hacemos tanto ruido por las noches.",
+   "options": [
+    "por qué",
+    "porque",
+    "si qué"
+   ],
+   "answers": [
+    "por qué"
+   ],
+   "unit": 7
   }
  ]
 }

@@ -60,7 +60,22 @@ const VERBS: Verb[] = [
   { inf: 'dormir', indef: ['dormí', 'dormiste', 'durmió', 'dormimos', 'dormisteis', 'durmieron'], note: 'o → u in 3rd persons: durmió, durmieron.' },
   { inf: 'pedir', indef: ['pedí', 'pediste', 'pidió', 'pedimos', 'pedisteis', 'pidieron'], note: 'e → i in 3rd persons: pidió, pidieron.' },
   { inf: 'leer', indef: ['leí', 'leíste', 'leyó', 'leímos', 'leísteis', 'leyeron'], part: 'leído', note: 'i → y in 3rd persons: leyó, leyeron; participle leído.' },
-  { inf: 'andar', indef: ['anduve', 'anduviste', 'anduvo', 'anduvimos', 'anduvisteis', 'anduvieron'], note: 'Irregular stem anduv-.' }
+  { inf: 'andar', indef: ['anduve', 'anduviste', 'anduvo', 'anduvimos', 'anduvisteis', 'anduvieron'], note: 'Irregular stem anduv-.' },
+  { inf: 'jugar', note: 'g → gu before e in yo: jugué.' },
+  { inf: 'pagar', note: 'g → gu before e in yo: pagué.' },
+  { inf: 'sacar', note: 'c → qu before e in yo: saqué.' },
+  { inf: 'organizar', note: 'z → c before e in yo: organicé.' },
+  { inf: 'sentir', indef: ['sentí', 'sentiste', 'sintió', 'sentimos', 'sentisteis', 'sintieron'], note: 'e → i in 3rd persons: sintió, sintieron.' },
+  { inf: 'preferir', indef: ['preferí', 'preferiste', 'prefirió', 'preferimos', 'preferisteis', 'prefirieron'], note: 'e → i in 3rd persons.' },
+  { inf: 'servir', indef: ['serví', 'serviste', 'sirvió', 'servimos', 'servisteis', 'sirvieron'], note: 'e → i in 3rd persons.' },
+  { inf: 'elegir', indef: ['elegí', 'elegiste', 'eligió', 'elegimos', 'elegisteis', 'eligieron'], note: 'e → i in 3rd persons.' },
+  { inf: 'morir', indef: ['morí', 'moriste', 'murió', 'morimos', 'moristeis', 'murieron'], part: 'muerto', note: 'o → u in 3rd persons; participle muerto.' },
+  { inf: 'oír', indef: ['oí', 'oíste', 'oyó', 'oímos', 'oísteis', 'oyeron'], impf: ['oía', 'oías', 'oía', 'oíamos', 'oíais', 'oían'], part: 'oído', note: 'i → y in 3rd persons: oyó, oyeron.' },
+  { inf: 'caer', indef: ['caí', 'caíste', 'cayó', 'caímos', 'caísteis', 'cayeron'], part: 'caído', note: 'i → y in 3rd persons: cayó.' },
+  { inf: 'construir', indef: ['construí', 'construiste', 'construyó', 'construimos', 'construisteis', 'construyeron'], note: 'i → y in 3rd persons: construyó.' },
+  { inf: 'traducir', indef: ['traduje', 'tradujiste', 'tradujo', 'tradujimos', 'tradujisteis', 'tradujeron'], note: 'Stem traduj-; ellos tradujeron.' },
+  { inf: 'descubrir', part: 'descubierto', note: 'Irregular participle: descubierto.' },
+  { inf: 'resolver', part: 'resuelto', note: 'Irregular participle: resuelto.' }
 ];
 
 type Item = Record<string, unknown>;

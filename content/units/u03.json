@@ -514,6 +514,772 @@
     }
    ],
    "feedback": "si + present + future / imperative / present."
+  },
+  {
+   "id": "u03-g-001",
+   "type": "conjugate",
+   "unit": 3,
+   "grammarPoint": "futuro-simple",
+   "difficulty": 1,
+   "verb": "vivir",
+   "person": "tú",
+   "tense": "futuro simple",
+   "answers": [
+    "vivirás"
+   ],
+   "feedback": "vivir (futuro): viviré, vivirás, vivirá, viviremos, viviréis, vivirán.",
+   "contrast": "Condicional: vivirías"
+  },
+  {
+   "id": "u03-g-002",
+   "type": "conjugate",
+   "unit": 3,
+   "grammarPoint": "futuro-simple",
+   "difficulty": 2,
+   "verb": "poder",
+   "person": "yo",
+   "tense": "futuro simple",
+   "answers": [
+    "podré"
+   ],
+   "feedback": "poder (futuro): podré, podrás, podrá, podremos, podréis, podrán. Irregular stem podr-.",
+   "contrast": "Condicional: podría"
+  },
+  {
+   "id": "u03-g-003",
+   "type": "conjugate",
+   "unit": 3,
+   "grammarPoint": "futuro-simple",
+   "difficulty": 2,
+   "verb": "saber",
+   "person": "ellos / ellas / ustedes",
+   "tense": "futuro simple",
+   "answers": [
+    "sabrán"
+   ],
+   "feedback": "saber (futuro): sabré, sabrás, sabrá, sabremos, sabréis, sabrán. Irregular stem sabr-.",
+   "contrast": "Condicional: sabrían"
+  },
+  {
+   "id": "u03-g-004",
+   "type": "conjugate",
+   "unit": 3,
+   "grammarPoint": "futuro-simple",
+   "difficulty": 2,
+   "verb": "venir",
+   "person": "vosotros",
+   "tense": "futuro simple",
+   "answers": [
+    "vendréis"
+   ],
+   "feedback": "venir (futuro): vendré, vendrás, vendrá, vendremos, vendréis, vendrán. Irregular stem vendr-.",
+   "contrast": "Condicional: vendríais"
+  },
+  {
+   "id": "u03-g-005",
+   "type": "conjugate",
+   "unit": 3,
+   "grammarPoint": "futuro-simple",
+   "difficulty": 2,
+   "verb": "poner",
+   "person": "nosotros",
+   "tense": "futuro simple",
+   "answers": [
+    "pondremos"
+   ],
+   "feedback": "poner (futuro): pondré, pondrás, pondrá, pondremos, pondréis, pondrán. Irregular stem pondr-.",
+   "contrast": "Condicional: pondríamos"
+  },
+  {
+   "id": "u03-g-006",
+   "type": "conjugate",
+   "unit": 3,
+   "grammarPoint": "futuro-simple",
+   "difficulty": 2,
+   "verb": "querer",
+   "person": "él / ella / usted",
+   "tense": "futuro simple",
+   "answers": [
+    "querrá"
+   ],
+   "feedback": "querer (futuro): querré, querrás, querrá, querremos, querréis, querrán. Irregular stem querr-.",
+   "contrast": "Condicional: querría"
+  },
+  {
+   "id": "u03-g-007",
+   "type": "conjugate",
+   "unit": 3,
+   "grammarPoint": "futuro-simple",
+   "difficulty": 2,
+   "verb": "haber",
+   "person": "tú",
+   "tense": "futuro simple",
+   "answers": [
+    "habrás"
+   ],
+   "feedback": "haber (futuro): habré, habrás, habrá, habremos, habréis, habrán. Irregular stem habr-.",
+   "contrast": "Condicional: habrías"
+  },
+  {
+   "id": "u03-g-008",
+   "type": "conjugate",
+   "unit": 3,
+   "grammarPoint": "futuro-simple",
+   "difficulty": 2,
+   "verb": "salir",
+   "person": "yo",
+   "tense": "futuro simple",
+   "answers": [
+    "saldré"
+   ],
+   "feedback": "salir (futuro): saldré, saldrás, saldrá, saldremos, saldréis, saldrán. Irregular stem saldr-.",
+   "contrast": "Condicional: saldría"
+  },
+  {
+   "id": "u03-g-009",
+   "type": "conjugate",
+   "unit": 3,
+   "grammarPoint": "futuro-simple",
+   "difficulty": 1,
+   "verb": "estudiar",
+   "person": "ellos / ellas / ustedes",
+   "tense": "futuro simple",
+   "answers": [
+    "estudiarán"
+   ],
+   "feedback": "estudiar (futuro): estudiaré, estudiarás, estudiará, estudiaremos, estudiaréis, estudiarán.",
+   "contrast": "Condicional: estudiarían"
+  },
+  {
+   "id": "u03-g-010",
+   "type": "conjugate",
+   "unit": 3,
+   "grammarPoint": "futuro-simple",
+   "difficulty": 2,
+   "verb": "tener",
+   "person": "vosotros",
+   "tense": "futuro simple",
+   "answers": [
+    "tendréis"
+   ],
+   "feedback": "tener (futuro): tendré, tendrás, tendrá, tendremos, tendréis, tendrán. Irregular stem tendr-.",
+   "contrast": "Condicional: tendríais"
+  },
+  {
+   "id": "u03-g-011",
+   "type": "conjugate",
+   "unit": 3,
+   "grammarPoint": "futuro-simple",
+   "difficulty": 2,
+   "verb": "hacer",
+   "person": "nosotros",
+   "tense": "futuro simple",
+   "answers": [
+    "haremos"
+   ],
+   "feedback": "hacer (futuro): haré, harás, hará, haremos, haréis, harán. Irregular stem har-.",
+   "contrast": "Condicional: haríamos"
+  },
+  {
+   "id": "u03-g-012",
+   "type": "conjugate",
+   "unit": 3,
+   "grammarPoint": "futuro-simple",
+   "difficulty": 2,
+   "verb": "decir",
+   "person": "él / ella / usted",
+   "tense": "futuro simple",
+   "answers": [
+    "dirá"
+   ],
+   "feedback": "decir (futuro): diré, dirás, dirá, diremos, diréis, dirán. Irregular stem dir-.",
+   "contrast": "Condicional: diría"
+  },
+  {
+   "id": "u03-g-013",
+   "type": "conjugate",
+   "unit": 3,
+   "grammarPoint": "futuro-simple",
+   "difficulty": 1,
+   "verb": "ir",
+   "person": "tú",
+   "tense": "futuro simple",
+   "answers": [
+    "irás"
+   ],
+   "feedback": "ir (futuro): iré, irás, irá, iremos, iréis, irán.",
+   "contrast": "Condicional: irías"
+  },
+  {
+   "id": "u03-g-014",
+   "type": "conjugate",
+   "unit": 3,
+   "grammarPoint": "futuro-simple",
+   "difficulty": 1,
+   "verb": "ser",
+   "person": "yo",
+   "tense": "futuro simple",
+   "answers": [
+    "seré"
+   ],
+   "feedback": "ser (futuro): seré, serás, será, seremos, seréis, serán.",
+   "contrast": "Condicional: sería"
+  },
+  {
+   "id": "u03-g-015",
+   "type": "conjugate",
+   "unit": 3,
+   "grammarPoint": "futuro-simple",
+   "difficulty": 2,
+   "verb": "valer",
+   "person": "ellos / ellas / ustedes",
+   "tense": "futuro simple",
+   "answers": [
+    "valdrán"
+   ],
+   "feedback": "valer (futuro): valdré, valdrás, valdrá, valdremos, valdréis, valdrán. Irregular stem valdr-.",
+   "contrast": "Condicional: valdrían"
+  },
+  {
+   "id": "u03-g-016",
+   "type": "conjugate",
+   "unit": 3,
+   "grammarPoint": "futuro-simple",
+   "difficulty": 2,
+   "verb": "caber",
+   "person": "vosotros",
+   "tense": "futuro simple",
+   "answers": [
+    "cabréis"
+   ],
+   "feedback": "caber (futuro): cabré, cabrás, cabrá, cabremos, cabréis, cabrán. Irregular stem cabr-.",
+   "contrast": "Condicional: cabríais"
+  },
+  {
+   "id": "u03-f-001",
+   "type": "gap",
+   "grammarPoint": "si-presente",
+   "difficulty": 1,
+   "feedback": "si + present, never future.",
+   "contrast": "Si hace buen tiempo, vamos.",
+   "prompt": "Si ___ (hacer) buen tiempo el domingo, iremos a la sierra.",
+   "answers": [
+    "hace"
+   ],
+   "unit": 3
+  },
+  {
+   "id": "u03-f-002",
+   "type": "gap",
+   "grammarPoint": "si-presente",
+   "difficulty": 2,
+   "feedback": "si + present → future.",
+   "contrast": "Si reservamos, tendremos mesa.",
+   "prompt": "Si no ___ (reservar, nosotros) hoy, no habrá mesa.",
+   "answers": [
+    "reservamos"
+   ],
+   "unit": 3
+  },
+  {
+   "id": "u03-f-003",
+   "type": "choice",
+   "grammarPoint": "si-presente",
+   "difficulty": 1,
+   "feedback": "si + present + imperative.",
+   "contrast": "Si estás cansado, descansa.",
+   "prompt": "Si ___ cansado, quédate en casa.",
+   "options": [
+    "estás",
+    "estarás",
+    "estés"
+   ],
+   "answers": [
+    "estás"
+   ],
+   "unit": 3
+  },
+  {
+   "id": "u03-f-004",
+   "type": "choice",
+   "grammarPoint": "si-presente",
+   "difficulty": 2,
+   "feedback": "si + present (o→ue).",
+   "contrast": "Si suena, me levanto.",
+   "prompt": "Si mañana no ___ el despertador, llegaré tarde.",
+   "options": [
+    "suena",
+    "sonará",
+    "suene"
+   ],
+   "answers": [
+    "suena"
+   ],
+   "unit": 3
+  },
+  {
+   "id": "u03-f-005",
+   "type": "error",
+   "grammarPoint": "si-presente",
+   "difficulty": 1,
+   "feedback": "Never the future after si.",
+   "contrast": "Cuando tengas tiempo, llámame.",
+   "prompt": "Si tendrás tiempo, llámame.",
+   "errorIndex": 1,
+   "answers": [
+    "tienes"
+   ],
+   "unit": 3
+  },
+  {
+   "id": "u03-f-006",
+   "type": "match",
+   "grammarPoint": "si-presente",
+   "difficulty": 2,
+   "feedback": "si + present, then imperative, future or present.",
+   "instruction": "Relaciona cada principio con su final.",
+   "pairs": [
+    {
+     "left": "Si pierdes el tren,",
+     "right": "coge un taxi."
+    },
+    {
+     "left": "Si llueve,",
+     "right": "nos quedaremos en casa."
+    },
+    {
+     "left": "Si me llamas,",
+     "right": "te lo explico."
+    },
+    {
+     "left": "Si comes tanto,",
+     "right": "te dolerá la barriga."
+    }
+   ],
+   "unit": 3
+  },
+  {
+   "id": "u03-f-007",
+   "type": "transform",
+   "grammarPoint": "si-presente",
+   "difficulty": 2,
+   "feedback": "Si + present, future.",
+   "contrast": "Suspenderás si no estudias.",
+   "instruction": "Une las frases con «si».",
+   "prompt": "No estudias. Suspenderás.",
+   "answers": [
+    "Si no estudias, suspenderás",
+    "Si no estudias suspenderás"
+   ],
+   "unit": 3
+  },
+  {
+   "id": "u03-f-008",
+   "type": "gap",
+   "grammarPoint": "futuro-simple",
+   "difficulty": 1,
+   "feedback": "Infinitive + -emos.",
+   "contrast": "Ahora vivimos en Sevilla.",
+   "prompt": "El año que viene ___ (vivir, nosotros) en Madrid.",
+   "answers": [
+    "viviremos"
+   ],
+   "unit": 3
+  },
+  {
+   "id": "u03-f-009",
+   "type": "gap",
+   "grammarPoint": "futuro-simple",
+   "difficulty": 2,
+   "feedback": "haber → habr- + á.",
+   "contrast": "Hoy hay pocos.",
+   "prompt": "Dentro de unos años ___ (haber) coches que conduzcan solos.",
+   "answers": [
+    "habrá"
+   ],
+   "unit": 3
+  },
+  {
+   "id": "u03-f-010",
+   "type": "gap",
+   "grammarPoint": "futuro-simple",
+   "difficulty": 2,
+   "feedback": "decir → dir-.",
+   "contrast": "Te lo digo ahora.",
+   "prompt": "Mañana te ___ (decir, yo) lo que he decidido.",
+   "answers": [
+    "diré"
+   ],
+   "unit": 3
+  },
+  {
+   "id": "u03-f-011",
+   "type": "gap",
+   "grammarPoint": "futuro-simple",
+   "difficulty": 2,
+   "feedback": "poder → podr-.",
+   "contrast": "Podemos terminarlo.",
+   "prompt": "¿Crees que ___ (poder, nosotros) terminar el proyecto a tiempo?",
+   "answers": [
+    "podremos"
+   ],
+   "unit": 3
+  },
+  {
+   "id": "u03-f-012",
+   "type": "choice",
+   "grammarPoint": "futuro-simple",
+   "difficulty": 2,
+   "feedback": "la gente is singular: vivirá.",
+   "contrast": "Las personas vivirán más.",
+   "prompt": "En 2050 la gente ___ más años.",
+   "options": [
+    "vivirá",
+    "vivirán",
+    "viverá"
+   ],
+   "answers": [
+    "vivirá"
+   ],
+   "unit": 3
+  },
+  {
+   "id": "u03-f-013",
+   "type": "error",
+   "grammarPoint": "futuro-simple",
+   "difficulty": 2,
+   "feedback": "salir → saldr-.",
+   "contrast": "El tren sale a las ocho.",
+   "prompt": "El tren saliará a las ocho.",
+   "errorIndex": 2,
+   "answers": [
+    "saldrá"
+   ],
+   "unit": 3
+  },
+  {
+   "id": "u03-f-014",
+   "type": "error",
+   "grammarPoint": "futuro-simple",
+   "difficulty": 2,
+   "feedback": "hacer → har-.",
+   "contrast": "Hago una fiesta.",
+   "prompt": "No sé si haceré la fiesta este año.",
+   "errorIndex": 3,
+   "answers": [
+    "haré"
+   ],
+   "unit": 3
+  },
+  {
+   "id": "u03-f-015",
+   "type": "order",
+   "grammarPoint": "futuro-simple",
+   "difficulty": 2,
+   "feedback": "dentro de + time + futuro.",
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "Dentro de diez años habrá más coches eléctricos"
+   ],
+   "unit": 3
+  },
+  {
+   "id": "u03-f-016",
+   "type": "choice",
+   "grammarPoint": "probabilidad-adverbios",
+   "difficulty": 1,
+   "feedback": "seguramente + futuro (indicative).",
+   "contrast": "Puede que lleguemos tarde.",
+   "prompt": "Seguramente ___ tarde, porque hay mucho tráfico.",
+   "options": [
+    "llegaremos",
+    "lleguemos"
+   ],
+   "answers": [
+    "llegaremos"
+   ],
+   "unit": 3
+  },
+  {
+   "id": "u03-f-017",
+   "type": "choice",
+   "grammarPoint": "probabilidad-adverbios",
+   "difficulty": 2,
+   "feedback": "es posible que + subjuntivo.",
+   "contrast": "Seguro que es fácil.",
+   "prompt": "Es posible que el examen ___ más fácil de lo que pensamos.",
+   "options": [
+    "sea",
+    "es",
+    "será"
+   ],
+   "answers": [
+    "sea"
+   ],
+   "unit": 3
+  },
+  {
+   "id": "u03-f-018",
+   "type": "choice",
+   "grammarPoint": "probabilidad-adverbios",
+   "difficulty": 2,
+   "feedback": "supongo que + futuro.",
+   "contrast": "Dudo que venga.",
+   "prompt": "Supongo que Ana ___ a la reunión mañana.",
+   "options": [
+    "vendrá",
+    "venga"
+   ],
+   "answers": [
+    "vendrá"
+   ],
+   "unit": 3
+  },
+  {
+   "id": "u03-f-019",
+   "type": "choice",
+   "grammarPoint": "probabilidad-adverbios",
+   "difficulty": 2,
+   "feedback": "a lo mejor + indicative.",
+   "contrast": "Quizás busquemos un piso.",
+   "prompt": "A lo mejor ___ un piso más grande el año que viene.",
+   "options": [
+    "buscamos",
+    "busquemos"
+   ],
+   "answers": [
+    "buscamos"
+   ],
+   "unit": 3
+  },
+  {
+   "id": "u03-f-020",
+   "type": "gap",
+   "grammarPoint": "probabilidad-adverbios",
+   "difficulty": 2,
+   "feedback": "probablemente + futuro.",
+   "contrast": "Es probable que suba.",
+   "prompt": "Probablemente ___ (subir) el precio de la gasolina este verano.",
+   "answers": [
+    "subirá"
+   ],
+   "unit": 3
+  },
+  {
+   "id": "u03-f-021",
+   "type": "gap",
+   "grammarPoint": "probabilidad-adverbios",
+   "difficulty": 3,
+   "feedback": "es probable que + subjunctive (e→ie).",
+   "contrast": "Seguramente nevará.",
+   "prompt": "Es probable que mañana ___ (nevar) en la sierra.",
+   "answers": [
+    "nieve"
+   ],
+   "unit": 3
+  },
+  {
+   "id": "u03-f-022",
+   "type": "match",
+   "grammarPoint": "probabilidad-adverbios",
+   "difficulty": 2,
+   "feedback": "seguro que / a lo mejor / supongo que + indicative; es posible que + subjunctive.",
+   "instruction": "Relaciona cada principio con su final.",
+   "pairs": [
+    {
+     "left": "Seguro que",
+     "right": "apruebas el examen."
+    },
+    {
+     "left": "Es posible que",
+     "right": "llueva esta tarde."
+    },
+    {
+     "left": "A lo mejor",
+     "right": "vamos al cine."
+    },
+    {
+     "left": "Supongo que",
+     "right": "tendrás razón."
+    }
+   ],
+   "unit": 3
+  },
+  {
+   "id": "u03-f-023",
+   "type": "choice",
+   "grammarPoint": "marcadores-futuro",
+   "difficulty": 1,
+   "feedback": "dentro de + time = in (from now).",
+   "contrast": "Hace un mes empecé.",
+   "prompt": "___ un mes empiezo el curso de inglés.",
+   "options": [
+    "Dentro de",
+    "Hace",
+    "Desde"
+   ],
+   "answers": [
+    "Dentro de"
+   ],
+   "unit": 3
+  },
+  {
+   "id": "u03-f-024",
+   "type": "choice",
+   "grammarPoint": "marcadores-futuro",
+   "difficulty": 1,
+   "feedback": "el mes que viene = next month.",
+   "contrast": "el próximo mes",
+   "prompt": "El ___ que viene cambio de trabajo.",
+   "options": [
+    "mes",
+    "mes pasado",
+    "próximo"
+   ],
+   "answers": [
+    "mes"
+   ],
+   "unit": 3
+  },
+  {
+   "id": "u03-f-025",
+   "type": "choice",
+   "grammarPoint": "marcadores-futuro",
+   "difficulty": 2,
+   "feedback": "a finales de + month.",
+   "contrast": "a principios de mes",
+   "prompt": "A ___ de mes cobro el sueldo.",
+   "options": [
+    "finales",
+    "final",
+    "fines"
+   ],
+   "answers": [
+    "finales"
+   ],
+   "unit": 3
+  },
+  {
+   "id": "u03-f-026",
+   "type": "gap",
+   "grammarPoint": "marcadores-futuro",
+   "difficulty": 2,
+   "feedback": "próximas agrees with décadas (f. pl.).",
+   "contrast": "en los próximos años",
+   "prompt": "En las ___ (próximo) décadas cambiará mucho el clima.",
+   "answers": [
+    "próximas"
+   ],
+   "unit": 3
+  },
+  {
+   "id": "u03-f-027",
+   "type": "choice",
+   "grammarPoint": "marcadores-futuro",
+   "difficulty": 2,
+   "feedback": "cada vez menos + noun.",
+   "contrast": "Cada vez más personas pagan con el móvil.",
+   "prompt": "Cada vez ___ personas usan dinero en efectivo.",
+   "options": [
+    "menos",
+    "poco",
+    "menor"
+   ],
+   "answers": [
+    "menos"
+   ],
+   "unit": 3
+  },
+  {
+   "id": "u03-f-028",
+   "type": "error",
+   "grammarPoint": "marcadores-futuro",
+   "difficulty": 2,
+   "feedback": "cada vez más = more and more.",
+   "contrast": "Cada vez menos coches.",
+   "prompt": "En el futuro habrá cada vez muchos robots en las casas.",
+   "errorIndex": 6,
+   "answers": [
+    "más"
+   ],
+   "unit": 3
+  },
+  {
+   "id": "u03-f-029",
+   "type": "transform",
+   "grammarPoint": "marcadores-futuro",
+   "difficulty": 2,
+   "feedback": "dentro de + period = in (from now).",
+   "contrast": "Hace tres semanas me mudé.",
+   "instruction": "Reescribe con «dentro de».",
+   "prompt": "Me mudo en tres semanas.",
+   "answers": [
+    "Dentro de tres semanas me mudo",
+    "Me mudo dentro de tres semanas"
+   ],
+   "unit": 3
+  },
+  {
+   "id": "u03-f-030",
+   "type": "gap",
+   "grammarPoint": "si-presente",
+   "difficulty": 3,
+   "feedback": "si + present.",
+   "contrast": "Si me lo ofrecen, lo acepto.",
+   "prompt": "Si la empresa me ___ (ofrecer) el puesto, lo aceptaré sin dudar.",
+   "answers": [
+    "ofrece"
+   ],
+   "unit": 3
+  },
+  {
+   "id": "u03-f-031",
+   "type": "choice",
+   "grammarPoint": "futuro-simple",
+   "difficulty": 3,
+   "feedback": "tener → tendr-.",
+   "contrast": "Tienes que estudiar.",
+   "prompt": "Si sigues así, al final ___ que repetir el curso.",
+   "options": [
+    "tendrás",
+    "tenderás",
+    "tengas"
+   ],
+   "answers": [
+    "tendrás"
+   ],
+   "unit": 3
+  },
+  {
+   "id": "u03-f-032",
+   "type": "choice",
+   "grammarPoint": "probabilidad-adverbios",
+   "difficulty": 3,
+   "feedback": "es probable que + subjuntivo.",
+   "contrast": "Seguramente vendrán.",
+   "prompt": "Es probable que mis primos ___ a vernos en verano.",
+   "options": [
+    "vengan",
+    "vienen",
+    "vendrán"
+   ],
+   "answers": [
+    "vengan"
+   ],
+   "unit": 3
+  },
+  {
+   "id": "u03-f-033",
+   "type": "gap",
+   "grammarPoint": "marcadores-futuro",
+   "difficulty": 3,
+   "feedback": "de aquí a + date = between now and.",
+   "contrast": "hasta 2030",
+   "prompt": "De aquí ___ 2030 se quieren plantar un millón de árboles.",
+   "answers": [
+    "a"
+   ],
+   "unit": 3
   }
  ]
 }

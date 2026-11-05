@@ -294,6 +294,298 @@
    "en": "I hope so! / If only!",
    "example_es": "Ojalá bajen los alquileres.",
    "example_en": "I hope rents come down."
+  },
+  {
+   "id": "v06-denunciar",
+   "unit": 6,
+   "topic": "activismo",
+   "es": "denunciar",
+   "en": "to report, denounce",
+   "example_es": "Los vecinos denunciaron el ruido a la policía.",
+   "example_en": "The residents reported the noise to the police."
+  },
+  {
+   "id": "v06-manifestarse",
+   "unit": 6,
+   "topic": "activismo",
+   "es": "manifestarse",
+   "en": "to demonstrate",
+   "example_es": "Miles de personas se manifestaron en el centro.",
+   "example_en": "Thousands of people demonstrated in the centre."
+  },
+  {
+   "id": "v06-la-pancarta",
+   "unit": 6,
+   "topic": "activismo",
+   "es": "la pancarta",
+   "en": "the banner, placard",
+   "example_es": "Hicimos una pancarta para la protesta.",
+   "example_en": "We made a banner for the protest.",
+   "gender": "f"
+  },
+  {
+   "id": "v06-la-protesta",
+   "unit": 6,
+   "topic": "activismo",
+   "es": "la protesta",
+   "en": "the protest",
+   "example_es": "La protesta fue pacífica.",
+   "example_en": "The protest was peaceful.",
+   "gender": "f"
+  },
+  {
+   "id": "v06-reclamar",
+   "unit": 6,
+   "topic": "activismo",
+   "es": "reclamar",
+   "en": "to demand, claim",
+   "example_es": "Reclaman mejores condiciones de trabajo.",
+   "example_en": "They're demanding better working conditions."
+  },
+  {
+   "id": "v06-la-reclamacion",
+   "unit": 6,
+   "topic": "activismo",
+   "es": "la reclamación",
+   "en": "the complaint, claim",
+   "example_es": "Hice una reclamación en el ayuntamiento.",
+   "example_en": "I made a complaint at the town hall.",
+   "gender": "f"
+  },
+  {
+   "id": "v06-la-peticion",
+   "unit": 6,
+   "topic": "activismo",
+   "es": "la petición",
+   "en": "the petition, request",
+   "example_es": "Firmé una petición en internet.",
+   "example_en": "I signed an online petition.",
+   "gender": "f",
+   "collocation": "firmar una petición"
+  },
+  {
+   "id": "v06-firmar",
+   "unit": 6,
+   "topic": "activismo",
+   "es": "firmar",
+   "en": "to sign",
+   "example_es": "Ya han firmado más de diez mil personas.",
+   "example_en": "More than ten thousand people have already signed."
+  },
+  {
+   "id": "v06-la-asociacion",
+   "unit": 6,
+   "topic": "activismo",
+   "es": "la asociación",
+   "en": "the association",
+   "example_es": "La asociación de vecinos se reúne los lunes.",
+   "example_en": "The residents' association meets on Mondays.",
+   "gender": "f"
+  },
+  {
+   "id": "v06-la-ong",
+   "unit": 6,
+   "topic": "activismo",
+   "es": "la ONG",
+   "en": "the NGO",
+   "example_es": "Colaboro con una ONG de ayuda a refugiados.",
+   "example_en": "I work with an NGO that helps refugees.",
+   "gender": "f"
+  },
+  {
+   "id": "v06-los-derechos",
+   "unit": 6,
+   "topic": "activismo",
+   "es": "los derechos",
+   "en": "the rights",
+   "example_es": "Defienden los derechos de los animales.",
+   "example_en": "They defend animal rights.",
+   "gender": "m"
+  },
+  {
+   "id": "v06-la-igualdad",
+   "unit": 6,
+   "topic": "activismo",
+   "es": "la igualdad",
+   "en": "the equality",
+   "example_es": "Luchamos por la igualdad salarial.",
+   "example_en": "We fight for equal pay.",
+   "gender": "f"
+  },
+  {
+   "id": "v06-la-desigualdad",
+   "unit": 6,
+   "topic": "activismo",
+   "es": "la desigualdad",
+   "en": "the inequality",
+   "example_es": "La desigualdad ha aumentado.",
+   "example_en": "Inequality has increased.",
+   "gender": "f"
+  },
+  {
+   "id": "v06-la-pobreza",
+   "unit": 6,
+   "topic": "problemas sociales",
+   "es": "la pobreza",
+   "en": "the poverty",
+   "example_es": "La pobreza infantil es un problema grave.",
+   "example_en": "Child poverty is a serious problem.",
+   "gender": "f"
+  },
+  {
+   "id": "v06-el-paro",
+   "unit": 6,
+   "topic": "problemas sociales",
+   "es": "el paro",
+   "en": "the unemployment",
+   "example_es": "El paro juvenil es muy alto.",
+   "example_en": "Youth unemployment is very high.",
+   "gender": "m"
+  },
+  {
+   "id": "v06-el-alquiler",
+   "unit": 6,
+   "topic": "problemas sociales",
+   "es": "el alquiler",
+   "en": "the rent",
+   "example_es": "El alquiler se lleva la mitad de mi sueldo.",
+   "example_en": "Rent takes half my salary.",
+   "gender": "m"
+  },
+  {
+   "id": "v06-la-vivienda-digna",
+   "unit": 6,
+   "topic": "problemas sociales",
+   "es": "la vivienda digna",
+   "en": "the decent housing",
+   "example_es": "Todos tenemos derecho a una vivienda digna.",
+   "example_en": "We all have the right to decent housing.",
+   "gender": "f"
+  },
+  {
+   "id": "v06-la-contaminacion",
+   "unit": 6,
+   "topic": "problemas sociales",
+   "es": "la contaminación",
+   "en": "the pollution",
+   "example_es": "La contaminación en el centro es alta.",
+   "example_en": "Pollution in the centre is high.",
+   "gender": "f"
+  },
+  {
+   "id": "v06-el-la-ciudadano-a",
+   "unit": 6,
+   "topic": "vida administrativa",
+   "es": "el / la ciudadano/a",
+   "en": "the citizen",
+   "example_es": "Los ciudadanos pueden votar en las elecciones.",
+   "example_en": "Citizens can vote in the elections."
+  },
+  {
+   "id": "v06-el-gobierno",
+   "unit": 6,
+   "topic": "vida administrativa",
+   "es": "el gobierno",
+   "en": "the government",
+   "example_es": "El gobierno ha anunciado nuevas ayudas.",
+   "example_en": "The government has announced new aid.",
+   "gender": "m"
+  },
+  {
+   "id": "v06-las-elecciones",
+   "unit": 6,
+   "topic": "vida administrativa",
+   "es": "las elecciones",
+   "en": "the elections",
+   "example_es": "Las elecciones son en mayo.",
+   "example_en": "The elections are in May.",
+   "gender": "f"
+  },
+  {
+   "id": "v06-votar",
+   "unit": 6,
+   "topic": "vida administrativa",
+   "es": "votar",
+   "en": "to vote",
+   "example_es": "Voto en el colegio de mi barrio.",
+   "example_en": "I vote at the school in my neighbourhood."
+  },
+  {
+   "id": "v06-empadronarse",
+   "unit": 6,
+   "topic": "vida administrativa",
+   "es": "empadronarse",
+   "en": "to register as a resident",
+   "example_es": "Para empadronarte necesitas el contrato de alquiler.",
+   "example_en": "To register as a resident you need your rental contract."
+  },
+  {
+   "id": "v06-el-tramite",
+   "unit": 6,
+   "topic": "vida administrativa",
+   "es": "el trámite",
+   "en": "the paperwork, procedure",
+   "example_es": "Hay muchos trámites para abrir un negocio.",
+   "example_en": "There's a lot of paperwork to open a business.",
+   "gender": "m"
+  },
+  {
+   "id": "v06-pedir-cita",
+   "unit": 6,
+   "topic": "vida administrativa",
+   "es": "pedir cita",
+   "en": "to make an appointment",
+   "example_es": "Hay que pedir cita por internet.",
+   "example_en": "You have to make an appointment online."
+  },
+  {
+   "id": "v06-la-solicitud",
+   "unit": 6,
+   "topic": "vida administrativa",
+   "es": "la solicitud",
+   "en": "the application (form)",
+   "example_es": "Rellené la solicitud de la beca.",
+   "example_en": "I filled in the grant application.",
+   "gender": "f"
+  },
+  {
+   "id": "v06-la-ayuda",
+   "unit": 6,
+   "topic": "vida administrativa",
+   "es": "la ayuda",
+   "en": "the aid, subsidy",
+   "example_es": "Hay ayudas para el alquiler de jóvenes.",
+   "example_en": "There's rent aid for young people.",
+   "gender": "f"
+  },
+  {
+   "id": "v06-los-impuestos",
+   "unit": 6,
+   "topic": "vida administrativa",
+   "es": "los impuestos",
+   "en": "the taxes",
+   "example_es": "Han subido los impuestos.",
+   "example_en": "Taxes have gone up.",
+   "gender": "m"
+  },
+  {
+   "id": "v06-la-carta-abierta",
+   "unit": 6,
+   "topic": "activismo",
+   "es": "la carta abierta",
+   "en": "the open letter",
+   "example_es": "Publicaron una carta abierta en el periódico.",
+   "example_en": "They published an open letter in the newspaper.",
+   "gender": "f"
+  },
+  {
+   "id": "v06-exigir-que",
+   "unit": 6,
+   "topic": "deseos",
+   "es": "exigir que",
+   "en": "to demand that",
+   "example_es": "Exigimos que nos escuchen.",
+   "example_en": "We demand that they listen to us."
   }
  ]
 }

@@ -284,6 +284,286 @@
    "en": "if I were you",
    "example_es": "Yo que tú, iría en tren.",
    "example_en": "If I were you, I'd go by train."
+  },
+  {
+   "id": "v11-el-problema",
+   "unit": 11,
+   "topic": "problemas",
+   "es": "el problema",
+   "en": "the problem",
+   "example_es": "El principal problema es el tráfico.",
+   "example_en": "The main problem is traffic.",
+   "gender": "m"
+  },
+  {
+   "id": "v11-la-solucion",
+   "unit": 11,
+   "topic": "problemas",
+   "es": "la solución",
+   "en": "the solution",
+   "example_es": "Hay que buscar una solución.",
+   "example_en": "We have to find a solution.",
+   "gender": "f"
+  },
+  {
+   "id": "v11-proponer",
+   "unit": 11,
+   "topic": "problemas",
+   "es": "proponer",
+   "en": "to propose",
+   "example_es": "Propongo crear más carriles bici.",
+   "example_en": "I propose creating more cycle lanes."
+  },
+  {
+   "id": "v11-la-propuesta",
+   "unit": 11,
+   "topic": "problemas",
+   "es": "la propuesta",
+   "en": "the proposal",
+   "example_es": "Es una propuesta interesante.",
+   "example_en": "It's an interesting proposal.",
+   "gender": "f"
+  },
+  {
+   "id": "v11-mejorar",
+   "unit": 11,
+   "topic": "acciones",
+   "es": "mejorar",
+   "en": "to improve",
+   "example_es": "Queremos mejorar la calidad del aire.",
+   "example_en": "We want to improve air quality."
+  },
+  {
+   "id": "v11-empeorar",
+   "unit": 11,
+   "topic": "problemas",
+   "es": "empeorar",
+   "en": "to get worse",
+   "example_es": "La situación ha empeorado.",
+   "example_en": "The situation has got worse."
+  },
+  {
+   "id": "v11-evitar",
+   "unit": 11,
+   "topic": "acciones",
+   "es": "evitar",
+   "en": "to avoid",
+   "example_es": "Evito coger el coche en el centro.",
+   "example_en": "I avoid taking the car in the centre."
+  },
+  {
+   "id": "v11-tirar",
+   "unit": 11,
+   "topic": "acciones",
+   "es": "tirar",
+   "en": "to throw (away)",
+   "example_es": "No tires las pilas a la basura.",
+   "example_en": "Don't throw batteries in the bin."
+  },
+  {
+   "id": "v11-separar-la-basura",
+   "unit": 11,
+   "topic": "acciones",
+   "es": "separar la basura",
+   "en": "to sort the rubbish",
+   "example_es": "En casa separamos la basura.",
+   "example_en": "At home we sort our rubbish."
+  },
+  {
+   "id": "v11-el-contenedor",
+   "unit": 11,
+   "topic": "acciones",
+   "es": "el contenedor",
+   "en": "the bin (street container)",
+   "example_es": "El contenedor amarillo es para plásticos.",
+   "example_en": "The yellow bin is for plastics.",
+   "gender": "m"
+  },
+  {
+   "id": "v11-el-plastico",
+   "unit": 11,
+   "topic": "materiales",
+   "es": "el plástico",
+   "en": "the plastic",
+   "example_es": "Usamos demasiado plástico.",
+   "example_en": "We use too much plastic.",
+   "gender": "m"
+  },
+  {
+   "id": "v11-la-bolsa-de-tela",
+   "unit": 11,
+   "topic": "materiales",
+   "es": "la bolsa de tela",
+   "en": "the cloth bag",
+   "example_es": "Siempre llevo una bolsa de tela.",
+   "example_en": "I always carry a cloth bag.",
+   "gender": "f"
+  },
+  {
+   "id": "v11-el-gasto",
+   "unit": 11,
+   "topic": "acciones",
+   "es": "el gasto",
+   "en": "the expense, consumption",
+   "example_es": "Hay que reducir el gasto de agua.",
+   "example_en": "We need to reduce water consumption.",
+   "gender": "m"
+  },
+  {
+   "id": "v11-desperdiciar",
+   "unit": 11,
+   "topic": "acciones",
+   "es": "desperdiciar",
+   "en": "to waste",
+   "example_es": "No desperdicies la comida.",
+   "example_en": "Don't waste food."
+  },
+  {
+   "id": "v11-el-desperdicio",
+   "unit": 11,
+   "topic": "acciones",
+   "es": "el desperdicio",
+   "en": "the waste",
+   "example_es": "El desperdicio de alimentos es enorme.",
+   "example_en": "Food waste is enormous.",
+   "gender": "m"
+  },
+  {
+   "id": "v11-el-transporte-publico",
+   "unit": 11,
+   "topic": "acciones",
+   "es": "el transporte público",
+   "en": "the public transport",
+   "example_es": "Uso el transporte público todos los días.",
+   "example_en": "I use public transport every day.",
+   "gender": "m"
+  },
+  {
+   "id": "v11-compartir-coche",
+   "unit": 11,
+   "topic": "acciones",
+   "es": "compartir coche",
+   "en": "to car-share",
+   "example_es": "Compartimos coche para ir al trabajo.",
+   "example_en": "We car-share to get to work."
+  },
+  {
+   "id": "v11-la-energia-solar",
+   "unit": 11,
+   "topic": "acciones",
+   "es": "la energía solar",
+   "en": "the solar energy",
+   "example_es": "El edificio funciona con energía solar.",
+   "example_en": "The building runs on solar power.",
+   "gender": "f"
+  },
+  {
+   "id": "v11-sostenible",
+   "unit": 11,
+   "topic": "valorar",
+   "es": "sostenible",
+   "en": "sustainable",
+   "example_es": "Es un hotel sostenible.",
+   "example_en": "It's a sustainable hotel."
+  },
+  {
+   "id": "v11-necesario-a",
+   "unit": 11,
+   "topic": "valorar",
+   "es": "necesario/a",
+   "en": "necessary",
+   "example_es": "Es necesario actuar ya.",
+   "example_en": "It's necessary to act now."
+  },
+  {
+   "id": "v11-injusto-a",
+   "unit": 11,
+   "topic": "valorar",
+   "es": "injusto/a",
+   "en": "unfair",
+   "example_es": "Me parece injusto.",
+   "example_en": "I think it's unfair."
+  },
+  {
+   "id": "v11-me-parece-bien-mal",
+   "unit": 11,
+   "topic": "valorar",
+   "es": "me parece bien / mal",
+   "en": "I think it's fine / wrong",
+   "example_es": "Me parece bien que cierren el centro al tráfico.",
+   "example_en": "I think it's good they're closing the centre to traffic."
+  },
+  {
+   "id": "v11-es-una-pena",
+   "unit": 11,
+   "topic": "valorar",
+   "es": "es una pena",
+   "en": "it's a shame",
+   "example_es": "Es una pena que cierren la biblioteca.",
+   "example_en": "It's a shame they're closing the library."
+  },
+  {
+   "id": "v11-es-logico",
+   "unit": 11,
+   "topic": "valorar",
+   "es": "es lógico",
+   "en": "it's logical, understandable",
+   "example_es": "Es lógico que la gente proteste.",
+   "example_en": "It's understandable that people protest."
+  },
+  {
+   "id": "v11-esta-claro",
+   "unit": 11,
+   "topic": "veracidad",
+   "es": "está claro",
+   "en": "it's clear",
+   "example_es": "Está claro que hay que cambiar.",
+   "example_en": "It's clear we have to change."
+  },
+  {
+   "id": "v11-es-verdad",
+   "unit": 11,
+   "topic": "veracidad",
+   "es": "es verdad",
+   "en": "it's true",
+   "example_es": "Es verdad que reciclamos más que antes.",
+   "example_en": "It's true we recycle more than before."
+  },
+  {
+   "id": "v11-es-falso",
+   "unit": 11,
+   "topic": "veracidad",
+   "es": "es falso",
+   "en": "it's false",
+   "example_es": "Es falso que el reciclaje no sirva.",
+   "example_en": "It's false that recycling is useless."
+  },
+  {
+   "id": "v11-lo-de",
+   "unit": 11,
+   "topic": "lo neutro",
+   "es": "lo de",
+   "en": "the thing about",
+   "example_es": "¿Has oído lo de la nueva ley?",
+   "example_en": "Have you heard about the new law?"
+  },
+  {
+   "id": "v11-lo-mejor-lo-peor",
+   "unit": 11,
+   "topic": "lo neutro",
+   "es": "lo mejor / lo peor",
+   "en": "the best / worst thing",
+   "example_es": "Lo peor es el ruido.",
+   "example_en": "The worst thing is the noise."
+  },
+  {
+   "id": "v11-deberiamos",
+   "unit": 11,
+   "topic": "consejos",
+   "es": "deberíamos",
+   "en": "we should",
+   "example_es": "Deberíamos consumir menos.",
+   "example_en": "We should consume less."
   }
  ]
 }

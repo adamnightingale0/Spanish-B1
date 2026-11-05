@@ -283,6 +283,291 @@
    "example_es": "Recientes investigaciones sugieren que es falso.",
    "example_en": "Recent research suggests it's false.",
    "gender": "f"
+  },
+  {
+   "id": "v12-el-misterio",
+   "unit": 12,
+   "topic": "sucesos misteriosos",
+   "es": "el misterio",
+   "en": "the mystery",
+   "example_es": "Es uno de los grandes misterios de la historia.",
+   "example_en": "It's one of the great mysteries of history.",
+   "gender": "m"
+  },
+  {
+   "id": "v12-el-fenomeno",
+   "unit": 12,
+   "topic": "sucesos misteriosos",
+   "es": "el fenómeno",
+   "en": "the phenomenon",
+   "example_es": "Es un fenómeno que nadie puede explicar.",
+   "example_en": "It's a phenomenon nobody can explain.",
+   "gender": "m"
+  },
+  {
+   "id": "v12-paranormal",
+   "unit": 12,
+   "topic": "sucesos misteriosos",
+   "es": "paranormal",
+   "en": "paranormal",
+   "example_es": "No creo en los fenómenos paranormales.",
+   "example_en": "I don't believe in paranormal phenomena."
+  },
+  {
+   "id": "v12-la-leyenda-urbana",
+   "unit": 12,
+   "topic": "sucesos misteriosos",
+   "es": "la leyenda urbana",
+   "en": "the urban legend",
+   "example_es": "Es solo una leyenda urbana.",
+   "example_en": "It's just an urban legend.",
+   "gender": "f"
+  },
+  {
+   "id": "v12-el-la-testigo",
+   "unit": 12,
+   "topic": "sucesos misteriosos",
+   "es": "el / la testigo",
+   "en": "the witness",
+   "example_es": "Varios testigos vieron las luces.",
+   "example_en": "Several witnesses saw the lights."
+  },
+  {
+   "id": "v12-desaparecer",
+   "unit": 12,
+   "topic": "sucesos misteriosos",
+   "es": "desaparecer",
+   "en": "to disappear",
+   "example_es": "El avión desapareció sin dejar rastro.",
+   "example_en": "The plane disappeared without a trace."
+  },
+  {
+   "id": "v12-la-desaparicion",
+   "unit": 12,
+   "topic": "sucesos misteriosos",
+   "es": "la desaparición",
+   "en": "the disappearance",
+   "example_es": "Su desaparición sigue siendo un misterio.",
+   "example_en": "His disappearance is still a mystery.",
+   "gender": "f"
+  },
+  {
+   "id": "v12-la-explicacion",
+   "unit": 12,
+   "topic": "hipótesis",
+   "es": "la explicación",
+   "en": "the explanation",
+   "example_es": "Tiene que haber una explicación lógica.",
+   "example_en": "There must be a logical explanation.",
+   "gender": "f"
+  },
+  {
+   "id": "v12-explicar",
+   "unit": 12,
+   "topic": "hipótesis",
+   "es": "explicar",
+   "en": "to explain",
+   "example_es": "La ciencia no puede explicarlo todo.",
+   "example_en": "Science can't explain everything."
+  },
+  {
+   "id": "v12-la-hipotesis",
+   "unit": 12,
+   "topic": "hipótesis",
+   "es": "la hipótesis",
+   "en": "the hypothesis",
+   "example_es": "Hay varias hipótesis sobre su origen.",
+   "example_en": "There are several hypotheses about its origin.",
+   "gender": "f"
+  },
+  {
+   "id": "v12-la-coincidencia",
+   "unit": 12,
+   "topic": "hipótesis",
+   "es": "la coincidencia",
+   "en": "the coincidence",
+   "example_es": "No creo que sea una coincidencia.",
+   "example_en": "I don't think it's a coincidence.",
+   "gender": "f"
+  },
+  {
+   "id": "v12-el-destino",
+   "unit": 12,
+   "topic": "creencias",
+   "es": "el destino",
+   "en": "the fate, destiny",
+   "example_es": "Cree que todo depende del destino.",
+   "example_en": "She believes everything depends on fate.",
+   "gender": "m"
+  },
+  {
+   "id": "v12-la-supersticion",
+   "unit": 12,
+   "topic": "creencias",
+   "es": "la superstición",
+   "en": "the superstition",
+   "example_es": "Mi abuela tiene muchas supersticiones.",
+   "example_en": "My grandmother has a lot of superstitions.",
+   "gender": "f"
+  },
+  {
+   "id": "v12-supersticioso-a",
+   "unit": 12,
+   "topic": "creencias",
+   "es": "supersticioso/a",
+   "en": "superstitious",
+   "example_es": "No soy nada supersticioso.",
+   "example_en": "I'm not superstitious at all."
+  },
+  {
+   "id": "v12-traer-mala-suerte",
+   "unit": 12,
+   "topic": "creencias",
+   "es": "traer mala suerte",
+   "en": "to bring bad luck",
+   "example_es": "Dicen que romper un espejo trae mala suerte.",
+   "example_en": "They say breaking a mirror brings bad luck."
+  },
+  {
+   "id": "v12-el-horoscopo",
+   "unit": 12,
+   "topic": "creencias",
+   "es": "el horóscopo",
+   "en": "the horoscope",
+   "example_es": "Leo el horóscopo por diversión.",
+   "example_en": "I read my horoscope for fun.",
+   "gender": "m"
+  },
+  {
+   "id": "v12-el-la-vidente",
+   "unit": 12,
+   "topic": "creencias",
+   "es": "el / la vidente",
+   "en": "the psychic, fortune-teller",
+   "example_es": "Fue a ver a una vidente.",
+   "example_en": "She went to see a psychic."
+  },
+  {
+   "id": "v12-adivinar",
+   "unit": 12,
+   "topic": "hipótesis",
+   "es": "adivinar",
+   "en": "to guess",
+   "example_es": "¡Adivina a quién he visto!",
+   "example_en": "Guess who I've seen!"
+  },
+  {
+   "id": "v12-sospechar",
+   "unit": 12,
+   "topic": "hipótesis",
+   "es": "sospechar",
+   "en": "to suspect",
+   "example_es": "Sospecho que no dice la verdad.",
+   "example_en": "I suspect he isn't telling the truth."
+  },
+  {
+   "id": "v12-dudar",
+   "unit": 12,
+   "topic": "hipótesis",
+   "es": "dudar",
+   "en": "to doubt",
+   "example_es": "Dudo que sea verdad.",
+   "example_en": "I doubt it's true."
+  },
+  {
+   "id": "v12-demostrar",
+   "unit": 12,
+   "topic": "psicología y ciencia",
+   "es": "demostrar",
+   "en": "to prove",
+   "example_es": "Nadie ha podido demostrarlo.",
+   "example_en": "Nobody has been able to prove it."
+  },
+  {
+   "id": "v12-el-experimento",
+   "unit": 12,
+   "topic": "psicología y ciencia",
+   "es": "el experimento",
+   "en": "the experiment",
+   "example_es": "Hicieron un experimento con cien personas.",
+   "example_en": "They did an experiment with a hundred people.",
+   "gender": "m"
+  },
+  {
+   "id": "v12-el-cerebro",
+   "unit": 12,
+   "topic": "psicología y ciencia",
+   "es": "el cerebro",
+   "en": "the brain",
+   "example_es": "El cerebro nos engaña a veces.",
+   "example_en": "Our brain sometimes tricks us.",
+   "gender": "m"
+  },
+  {
+   "id": "v12-la-memoria",
+   "unit": 12,
+   "topic": "psicología y ciencia",
+   "es": "la memoria",
+   "en": "the memory",
+   "example_es": "Tengo muy mala memoria para los nombres.",
+   "example_en": "I have a very bad memory for names.",
+   "gender": "f"
+  },
+  {
+   "id": "v12-sonar-con",
+   "unit": 12,
+   "topic": "psicología y ciencia",
+   "es": "soñar con",
+   "en": "to dream about",
+   "example_es": "Anoche soñé con mi abuela.",
+   "example_en": "Last night I dreamt about my grandmother."
+  },
+  {
+   "id": "v12-el-sueno",
+   "unit": 12,
+   "topic": "psicología y ciencia",
+   "es": "el sueño",
+   "en": "the dream, sleep",
+   "example_es": "Tuve un sueño muy raro.",
+   "example_en": "I had a very strange dream.",
+   "gender": "m"
+  },
+  {
+   "id": "v12-el-escalofrio",
+   "unit": 12,
+   "topic": "describir sucesos",
+   "es": "el escalofrío",
+   "en": "the shiver",
+   "example_es": "Me dio un escalofrío al entrar.",
+   "example_en": "I shivered when I went in.",
+   "gender": "m"
+  },
+  {
+   "id": "v12-dar-miedo",
+   "unit": 12,
+   "topic": "describir sucesos",
+   "es": "dar miedo",
+   "en": "to be scary",
+   "example_es": "Esa casa da miedo.",
+   "example_en": "That house is scary."
+  },
+  {
+   "id": "v12-raro-a",
+   "unit": 12,
+   "topic": "describir sucesos",
+   "es": "raro/a",
+   "en": "strange, weird",
+   "example_es": "Pasó algo muy raro.",
+   "example_en": "Something very strange happened."
+  },
+  {
+   "id": "v12-extrano-a",
+   "unit": 12,
+   "topic": "describir sucesos",
+   "es": "extraño/a",
+   "en": "strange",
+   "example_es": "Oímos un ruido extraño.",
+   "example_en": "We heard a strange noise."
   }
  ]
 }

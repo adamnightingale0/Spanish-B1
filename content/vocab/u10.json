@@ -273,6 +273,287 @@
    "en": "I'm not convinced (by it)",
    "example_es": "El color no me convence.",
    "example_en": "I'm not convinced by the colour."
+  },
+  {
+   "id": "v10-el-objeto",
+   "unit": 10,
+   "topic": "objetos",
+   "es": "el objeto",
+   "en": "the object",
+   "example_es": "Es un objeto muy útil para la cocina.",
+   "example_en": "It's a very useful object for the kitchen.",
+   "gender": "m"
+  },
+  {
+   "id": "v10-el-aparato",
+   "unit": 10,
+   "topic": "objetos",
+   "es": "el aparato",
+   "en": "the device, appliance",
+   "example_es": "Este aparato sirve para hacer zumos.",
+   "example_en": "This appliance is for making juice.",
+   "gender": "m"
+  },
+  {
+   "id": "v10-el-mueble",
+   "unit": 10,
+   "topic": "objetos",
+   "es": "el mueble",
+   "en": "the piece of furniture",
+   "example_es": "Compré muebles de segunda mano.",
+   "example_en": "I bought second-hand furniture.",
+   "gender": "m"
+  },
+  {
+   "id": "v10-la-estanteria",
+   "unit": 10,
+   "topic": "objetos",
+   "es": "la estantería",
+   "en": "the shelves, bookcase",
+   "example_es": "Necesito una estantería para los libros.",
+   "example_en": "I need a bookcase for my books.",
+   "gender": "f"
+  },
+  {
+   "id": "v10-la-lampara",
+   "unit": 10,
+   "topic": "objetos",
+   "es": "la lámpara",
+   "en": "the lamp",
+   "example_es": "Esta lámpara da muy poca luz.",
+   "example_en": "This lamp gives very little light.",
+   "gender": "f"
+  },
+  {
+   "id": "v10-el-cojin",
+   "unit": 10,
+   "topic": "objetos",
+   "es": "el cojín",
+   "en": "the cushion",
+   "example_es": "El sofá tiene cojines de colores.",
+   "example_en": "The sofa has colourful cushions.",
+   "gender": "m"
+  },
+  {
+   "id": "v10-el-enchufe",
+   "unit": 10,
+   "topic": "objetos",
+   "es": "el enchufe",
+   "en": "the plug, socket",
+   "example_es": "No hay ningún enchufe cerca de la cama.",
+   "example_en": "There's no socket near the bed.",
+   "gender": "m"
+  },
+  {
+   "id": "v10-el-cargador",
+   "unit": 10,
+   "topic": "objetos",
+   "es": "el cargador",
+   "en": "the charger",
+   "example_es": "¿Me dejas el cargador del móvil?",
+   "example_en": "Can I borrow your phone charger?",
+   "gender": "m"
+  },
+  {
+   "id": "v10-las-pilas",
+   "unit": 10,
+   "topic": "funcionamiento",
+   "es": "las pilas",
+   "en": "the batteries",
+   "example_es": "El mando necesita pilas nuevas.",
+   "example_en": "The remote needs new batteries.",
+   "gender": "f"
+  },
+  {
+   "id": "v10-funcionar",
+   "unit": 10,
+   "topic": "funcionamiento",
+   "es": "funcionar",
+   "en": "to work (machine)",
+   "example_es": "La lavadora no funciona.",
+   "example_en": "The washing machine doesn't work."
+  },
+  {
+   "id": "v10-el-mando-a-distancia",
+   "unit": 10,
+   "topic": "objetos",
+   "es": "el mando a distancia",
+   "en": "the remote control",
+   "example_es": "¿Dónde está el mando a distancia?",
+   "example_en": "Where's the remote control?",
+   "gender": "m"
+  },
+  {
+   "id": "v10-arreglar",
+   "unit": 10,
+   "topic": "funcionamiento",
+   "es": "arreglar",
+   "en": "to fix, repair",
+   "example_es": "Mi hermano me arregló la bici.",
+   "example_en": "My brother fixed my bike."
+  },
+  {
+   "id": "v10-plegable",
+   "unit": 10,
+   "topic": "características",
+   "es": "plegable",
+   "en": "folding",
+   "example_es": "Tengo una bici plegable.",
+   "example_en": "I have a folding bike."
+  },
+  {
+   "id": "v10-ligero-a",
+   "unit": 10,
+   "topic": "características",
+   "es": "ligero/a",
+   "en": "light (weight)",
+   "example_es": "Esta maleta es muy ligera.",
+   "example_en": "This suitcase is very light."
+  },
+  {
+   "id": "v10-pesado-a",
+   "unit": 10,
+   "topic": "características",
+   "es": "pesado/a",
+   "en": "heavy",
+   "example_es": "La mesa es demasiado pesada.",
+   "example_en": "The table is too heavy."
+  },
+  {
+   "id": "v10-resistente",
+   "unit": 10,
+   "topic": "características",
+   "es": "resistente",
+   "en": "tough, hard-wearing",
+   "example_es": "Es un material muy resistente.",
+   "example_en": "It's a very hard-wearing material."
+  },
+  {
+   "id": "v10-impermeable",
+   "unit": 10,
+   "topic": "características",
+   "es": "impermeable",
+   "en": "waterproof",
+   "example_es": "Necesito una chaqueta impermeable.",
+   "example_en": "I need a waterproof jacket."
+  },
+  {
+   "id": "v10-de-cuero",
+   "unit": 10,
+   "topic": "materiales",
+   "es": "de cuero",
+   "en": "leather",
+   "example_es": "Tengo un bolso de cuero.",
+   "example_en": "I have a leather bag."
+  },
+  {
+   "id": "v10-de-acero",
+   "unit": 10,
+   "topic": "materiales",
+   "es": "de acero",
+   "en": "steel",
+   "example_es": "Los cuchillos son de acero.",
+   "example_en": "The knives are steel."
+  },
+  {
+   "id": "v10-de-papel",
+   "unit": 10,
+   "topic": "materiales",
+   "es": "de papel",
+   "en": "paper",
+   "example_es": "Prefiero las bolsas de papel.",
+   "example_en": "I prefer paper bags."
+  },
+  {
+   "id": "v10-el-tamano",
+   "unit": 10,
+   "topic": "características",
+   "es": "el tamaño",
+   "en": "the size",
+   "example_es": "¿De qué tamaño es la caja?",
+   "example_en": "What size is the box?",
+   "gender": "m"
+  },
+  {
+   "id": "v10-medir",
+   "unit": 10,
+   "topic": "características",
+   "es": "medir",
+   "en": "to measure",
+   "example_es": "La mesa mide dos metros.",
+   "example_en": "The table is two metres long."
+  },
+  {
+   "id": "v10-pesar",
+   "unit": 10,
+   "topic": "características",
+   "es": "pesar",
+   "en": "to weigh",
+   "example_es": "La maleta pesa veinte kilos.",
+   "example_en": "The suitcase weighs twenty kilos."
+  },
+  {
+   "id": "v10-el-la-disenador-a",
+   "unit": 10,
+   "topic": "diseño y moda",
+   "es": "el / la diseñador/a",
+   "en": "the designer",
+   "example_es": "Es diseñador de muebles.",
+   "example_en": "He's a furniture designer."
+  },
+  {
+   "id": "v10-elegante",
+   "unit": 10,
+   "topic": "valorar",
+   "es": "elegante",
+   "en": "elegant, smart",
+   "example_es": "Es un diseño muy elegante.",
+   "example_en": "It's a very elegant design."
+  },
+  {
+   "id": "v10-feo-a",
+   "unit": 10,
+   "topic": "valorar",
+   "es": "feo/a",
+   "en": "ugly",
+   "example_es": "Me parece un poco feo.",
+   "example_en": "I think it's a bit ugly."
+  },
+  {
+   "id": "v10-cursi",
+   "unit": 10,
+   "topic": "valorar",
+   "es": "cursi",
+   "en": "twee, tacky",
+   "example_es": "Esa decoración es muy cursi.",
+   "example_en": "That decoration is very twee."
+  },
+  {
+   "id": "v10-moderno-a",
+   "unit": 10,
+   "topic": "valorar",
+   "es": "moderno/a",
+   "en": "modern",
+   "example_es": "Tienen una cocina muy moderna.",
+   "example_en": "They have a very modern kitchen."
+  },
+  {
+   "id": "v10-anticuado-a",
+   "unit": 10,
+   "topic": "valorar",
+   "es": "anticuado/a",
+   "en": "old-fashioned",
+   "example_es": "Ese sofá está un poco anticuado.",
+   "example_en": "That sofa is a bit old-fashioned."
+  },
+  {
+   "id": "v10-que-maravilla",
+   "unit": 10,
+   "topic": "exclamativas",
+   "es": "¡Qué maravilla!",
+   "en": "How wonderful!",
+   "example_es": "¡Qué maravilla de vistas!",
+   "example_en": "What a wonderful view!"
   }
  ]
 }

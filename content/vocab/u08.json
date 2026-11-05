@@ -284,6 +284,291 @@
    "en": "the guide",
    "example_es": "El guía nos explicó la historia del barrio.",
    "example_en": "The guide explained the history of the neighbourhood."
+  },
+  {
+   "id": "v08-el-destino",
+   "unit": 8,
+   "topic": "viajes",
+   "es": "el destino",
+   "en": "the destination",
+   "example_es": "Mi destino favorito es Lisboa.",
+   "example_en": "My favourite destination is Lisbon.",
+   "gender": "m"
+  },
+  {
+   "id": "v08-la-escapada",
+   "unit": 8,
+   "topic": "viajes",
+   "es": "la escapada",
+   "en": "the short break, getaway",
+   "example_es": "Hicimos una escapada de fin de semana a Cádiz.",
+   "example_en": "We had a weekend getaway to Cádiz.",
+   "gender": "f"
+  },
+  {
+   "id": "v08-el-equipaje",
+   "unit": 8,
+   "topic": "de viaje",
+   "es": "el equipaje",
+   "en": "the luggage",
+   "example_es": "Perdieron mi equipaje en el aeropuerto.",
+   "example_en": "They lost my luggage at the airport.",
+   "gender": "m"
+  },
+  {
+   "id": "v08-la-tarjeta-de-embarque",
+   "unit": 8,
+   "topic": "de viaje",
+   "es": "la tarjeta de embarque",
+   "en": "the boarding pass",
+   "example_es": "Tengo la tarjeta de embarque en el móvil.",
+   "example_en": "I have my boarding pass on my phone.",
+   "gender": "f"
+  },
+  {
+   "id": "v08-la-puerta-de-embarque",
+   "unit": 8,
+   "topic": "de viaje",
+   "es": "la puerta de embarque",
+   "en": "the boarding gate",
+   "example_es": "Vamos a la puerta de embarque 23.",
+   "example_en": "We're going to boarding gate 23.",
+   "gender": "f"
+  },
+  {
+   "id": "v08-embarcar",
+   "unit": 8,
+   "topic": "de viaje",
+   "es": "embarcar",
+   "en": "to board",
+   "example_es": "Empezamos a embarcar a las ocho.",
+   "example_en": "We start boarding at eight."
+  },
+  {
+   "id": "v08-aterrizar",
+   "unit": 8,
+   "topic": "de viaje",
+   "es": "aterrizar",
+   "en": "to land",
+   "example_es": "El avión aterrizó con retraso.",
+   "example_en": "The plane landed late."
+  },
+  {
+   "id": "v08-despegar",
+   "unit": 8,
+   "topic": "de viaje",
+   "es": "despegar",
+   "en": "to take off",
+   "example_es": "El avión despegó a su hora.",
+   "example_en": "The plane took off on time."
+  },
+  {
+   "id": "v08-el-retraso",
+   "unit": 8,
+   "topic": "de viaje",
+   "es": "el retraso",
+   "en": "the delay",
+   "example_es": "El tren lleva una hora de retraso.",
+   "example_en": "The train is an hour late.",
+   "gender": "m"
+  },
+  {
+   "id": "v08-la-huelga",
+   "unit": 8,
+   "topic": "de viaje",
+   "es": "la huelga",
+   "en": "the strike",
+   "example_es": "Hubo huelga de controladores aéreos.",
+   "example_en": "There was an air traffic controllers' strike.",
+   "gender": "f"
+  },
+  {
+   "id": "v08-la-temporada-alta",
+   "unit": 8,
+   "topic": "viajes",
+   "es": "la temporada alta",
+   "en": "the high season",
+   "example_es": "En temporada alta los hoteles son carísimos.",
+   "example_en": "In high season hotels are very expensive.",
+   "gender": "f"
+  },
+  {
+   "id": "v08-la-mochila",
+   "unit": 8,
+   "topic": "de viaje",
+   "es": "la mochila",
+   "en": "the backpack",
+   "example_es": "Viajé un mes con una mochila.",
+   "example_en": "I travelled for a month with a backpack.",
+   "gender": "f"
+  },
+  {
+   "id": "v08-hacer-autostop",
+   "unit": 8,
+   "topic": "de viaje",
+   "es": "hacer autostop",
+   "en": "to hitchhike",
+   "example_es": "De joven hice autostop por Francia.",
+   "example_en": "When I was young I hitchhiked around France."
+  },
+  {
+   "id": "v08-el-la-mochilero-a",
+   "unit": 8,
+   "topic": "tipos de viaje",
+   "es": "el / la mochilero/a",
+   "en": "the backpacker",
+   "example_es": "El albergue estaba lleno de mochileros.",
+   "example_en": "The hostel was full of backpackers."
+  },
+  {
+   "id": "v08-la-pension",
+   "unit": 8,
+   "topic": "alojamiento",
+   "es": "la pensión",
+   "en": "the guesthouse",
+   "example_es": "Dormimos en una pensión muy barata.",
+   "example_en": "We slept in a very cheap guesthouse.",
+   "gender": "f"
+  },
+  {
+   "id": "v08-la-media-pension",
+   "unit": 8,
+   "topic": "alojamiento",
+   "es": "la media pensión",
+   "en": "the half board",
+   "example_es": "Reservamos con media pensión.",
+   "example_en": "We booked half board.",
+   "gender": "f"
+  },
+  {
+   "id": "v08-el-recuerdo",
+   "unit": 8,
+   "topic": "viajes",
+   "es": "el recuerdo",
+   "en": "the souvenir, memory",
+   "example_es": "Te he traído un recuerdo de Roma.",
+   "example_en": "I've brought you a souvenir from Rome.",
+   "gender": "m"
+  },
+  {
+   "id": "v08-el-la-turista",
+   "unit": 8,
+   "topic": "viajes",
+   "es": "el / la turista",
+   "en": "the tourist",
+   "example_es": "En agosto la ciudad está llena de turistas.",
+   "example_en": "In August the city is full of tourists."
+  },
+  {
+   "id": "v08-el-monumento",
+   "unit": 8,
+   "topic": "viajes",
+   "es": "el monumento",
+   "en": "the monument",
+   "example_es": "Visitamos todos los monumentos.",
+   "example_en": "We visited all the monuments.",
+   "gender": "m"
+  },
+  {
+   "id": "v08-la-oficina-de-turismo",
+   "unit": 8,
+   "topic": "viajes",
+   "es": "la oficina de turismo",
+   "en": "the tourist office",
+   "example_es": "En la oficina de turismo nos dieron un mapa.",
+   "example_en": "At the tourist office they gave us a map.",
+   "gender": "f"
+  },
+  {
+   "id": "v08-una-vez",
+   "unit": 8,
+   "topic": "contar anécdotas",
+   "es": "una vez",
+   "en": "once (opening a story)",
+   "example_es": "Una vez me quedé encerrado en un ascensor.",
+   "example_en": "Once I got stuck in a lift."
+  },
+  {
+   "id": "v08-de-repente",
+   "unit": 8,
+   "topic": "contar anécdotas",
+   "es": "de repente",
+   "en": "suddenly",
+   "example_es": "De repente se apagaron las luces.",
+   "example_en": "Suddenly the lights went out."
+  },
+  {
+   "id": "v08-al-final",
+   "unit": 8,
+   "topic": "contar anécdotas",
+   "es": "al final",
+   "en": "in the end",
+   "example_es": "Al final todo salió bien.",
+   "example_en": "In the end everything turned out fine."
+  },
+  {
+   "id": "v08-la-semana-anterior",
+   "unit": 8,
+   "topic": "contar anécdotas",
+   "es": "la semana anterior",
+   "en": "the week before",
+   "example_es": "La semana anterior había llovido mucho.",
+   "example_en": "The week before it had rained a lot.",
+   "gender": "f"
+  },
+  {
+   "id": "v08-que-rabia",
+   "unit": 8,
+   "topic": "mostrar interés",
+   "es": "¡Qué rabia!",
+   "en": "How annoying!",
+   "example_es": "—Perdí el tren por un minuto. —¡Qué rabia!",
+   "example_en": "—I missed the train by a minute. —How annoying!"
+  },
+  {
+   "id": "v08-que-susto",
+   "unit": 8,
+   "topic": "mostrar interés",
+   "es": "¡Qué susto!",
+   "en": "What a fright!",
+   "example_es": "—Casi me atropella un coche. —¡Qué susto!",
+   "example_en": "—A car nearly ran me over. —What a fright!"
+  },
+  {
+   "id": "v08-y-que-paso",
+   "unit": 8,
+   "topic": "mostrar interés",
+   "es": "¿Y qué pasó?",
+   "en": "And what happened?",
+   "example_es": "—Entonces llamaron a la puerta. —¿Y qué pasó?",
+   "example_en": "—Then someone knocked at the door. —And what happened?"
+  },
+  {
+   "id": "v08-en-serio",
+   "unit": 8,
+   "topic": "mostrar interés",
+   "es": "¿En serio?",
+   "en": "Really?",
+   "example_es": "—Me han dado el trabajo. —¿En serio? ¡Qué bien!",
+   "example_en": "—I've got the job. —Really? Great!"
+  },
+  {
+   "id": "v08-por-eso",
+   "unit": 8,
+   "topic": "causa y consecuencia",
+   "es": "por eso",
+   "en": "that's why",
+   "example_es": "Llovía; por eso no salimos.",
+   "example_en": "It was raining; that's why we didn't go out."
+  },
+  {
+   "id": "v08-ya-que",
+   "unit": 8,
+   "topic": "causa y consecuencia",
+   "es": "ya que",
+   "en": "since (cause)",
+   "example_es": "Ya que estás aquí, ayúdame.",
+   "example_en": "Since you're here, help me."
   }
  ]
 }

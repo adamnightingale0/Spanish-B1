@@ -481,6 +481,807 @@
     "Lo que necesitamos es más transporte público"
    ],
    "feedback": "lo que + verb + es + what you emphasise."
+  },
+  {
+   "id": "u11-g-001",
+   "type": "conjugate",
+   "unit": 11,
+   "grammarPoint": "condicional",
+   "difficulty": 1,
+   "verb": "comer",
+   "person": "él / ella / usted",
+   "tense": "condicional",
+   "answers": [
+    "comería"
+   ],
+   "feedback": "comer (condicional): comería, comerías, comería, comeríamos, comeríais, comerían.",
+   "contrast": "Futuro: comerá"
+  },
+  {
+   "id": "u11-g-002",
+   "type": "conjugate",
+   "unit": 11,
+   "grammarPoint": "condicional",
+   "difficulty": 2,
+   "verb": "tener",
+   "person": "tú",
+   "tense": "condicional",
+   "answers": [
+    "tendrías"
+   ],
+   "feedback": "tener (condicional): tendría, tendrías, tendría, tendríamos, tendríais, tendrían. Same irregular stem as the future: tendr-.",
+   "contrast": "Futuro: tendrás"
+  },
+  {
+   "id": "u11-g-003",
+   "type": "conjugate",
+   "unit": 11,
+   "grammarPoint": "condicional",
+   "difficulty": 2,
+   "verb": "poder",
+   "person": "yo",
+   "tense": "condicional",
+   "answers": [
+    "podría"
+   ],
+   "feedback": "poder (condicional): podría, podrías, podría, podríamos, podríais, podrían. Same irregular stem as the future: podr-.",
+   "contrast": "Futuro: podré"
+  },
+  {
+   "id": "u11-g-004",
+   "type": "conjugate",
+   "unit": 11,
+   "grammarPoint": "condicional",
+   "difficulty": 2,
+   "verb": "decir",
+   "person": "ellos / ellas / ustedes",
+   "tense": "condicional",
+   "answers": [
+    "dirían"
+   ],
+   "feedback": "decir (condicional): diría, dirías, diría, diríamos, diríais, dirían. Same irregular stem as the future: dir-.",
+   "contrast": "Futuro: dirán"
+  },
+  {
+   "id": "u11-g-005",
+   "type": "conjugate",
+   "unit": 11,
+   "grammarPoint": "condicional",
+   "difficulty": 2,
+   "verb": "venir",
+   "person": "vosotros",
+   "tense": "condicional",
+   "answers": [
+    "vendríais"
+   ],
+   "feedback": "venir (condicional): vendría, vendrías, vendría, vendríamos, vendríais, vendrían. Same irregular stem as the future: vendr-.",
+   "contrast": "Futuro: vendréis"
+  },
+  {
+   "id": "u11-g-006",
+   "type": "conjugate",
+   "unit": 11,
+   "grammarPoint": "condicional",
+   "difficulty": 2,
+   "verb": "saber",
+   "person": "nosotros",
+   "tense": "condicional",
+   "answers": [
+    "sabríamos"
+   ],
+   "feedback": "saber (condicional): sabría, sabrías, sabría, sabríamos, sabríais, sabrían. Same irregular stem as the future: sabr-.",
+   "contrast": "Futuro: sabremos"
+  },
+  {
+   "id": "u11-g-007",
+   "type": "conjugate",
+   "unit": 11,
+   "grammarPoint": "condicional",
+   "difficulty": 2,
+   "verb": "querer",
+   "person": "él / ella / usted",
+   "tense": "condicional",
+   "answers": [
+    "querría"
+   ],
+   "feedback": "querer (condicional): querría, querrías, querría, querríamos, querríais, querrían. Same irregular stem as the future: querr-.",
+   "contrast": "Futuro: querrá"
+  },
+  {
+   "id": "u11-g-008",
+   "type": "conjugate",
+   "unit": 11,
+   "grammarPoint": "condicional",
+   "difficulty": 2,
+   "verb": "poner",
+   "person": "tú",
+   "tense": "condicional",
+   "answers": [
+    "pondrías"
+   ],
+   "feedback": "poner (condicional): pondría, pondrías, pondría, pondríamos, pondríais, pondrían. Same irregular stem as the future: pondr-.",
+   "contrast": "Futuro: pondrás"
+  },
+  {
+   "id": "u11-g-009",
+   "type": "conjugate",
+   "unit": 11,
+   "grammarPoint": "condicional",
+   "difficulty": 2,
+   "verb": "hacer",
+   "person": "yo",
+   "tense": "condicional",
+   "answers": [
+    "haría"
+   ],
+   "feedback": "hacer (condicional): haría, harías, haría, haríamos, haríais, harían. Same irregular stem as the future: har-.",
+   "contrast": "Futuro: haré"
+  },
+  {
+   "id": "u11-g-010",
+   "type": "conjugate",
+   "unit": 11,
+   "grammarPoint": "condicional",
+   "difficulty": 1,
+   "verb": "ir",
+   "person": "ellos / ellas / ustedes",
+   "tense": "condicional",
+   "answers": [
+    "irían"
+   ],
+   "feedback": "ir (condicional): iría, irías, iría, iríamos, iríais, irían.",
+   "contrast": "Futuro: irán"
+  },
+  {
+   "id": "u11-g-011",
+   "type": "conjugate",
+   "unit": 11,
+   "grammarPoint": "condicional",
+   "difficulty": 1,
+   "verb": "ser",
+   "person": "vosotros",
+   "tense": "condicional",
+   "answers": [
+    "seríais"
+   ],
+   "feedback": "ser (condicional): sería, serías, sería, seríamos, seríais, serían.",
+   "contrast": "Futuro: seréis"
+  },
+  {
+   "id": "u11-g-012",
+   "type": "conjugate",
+   "unit": 11,
+   "grammarPoint": "condicional",
+   "difficulty": 1,
+   "verb": "gustar",
+   "person": "nosotros",
+   "tense": "condicional",
+   "answers": [
+    "gustaríamos"
+   ],
+   "feedback": "gustar (condicional): gustaría, gustarías, gustaría, gustaríamos, gustaríais, gustarían.",
+   "contrast": "Futuro: gustaremos"
+  },
+  {
+   "id": "u11-g-013",
+   "type": "conjugate",
+   "unit": 11,
+   "grammarPoint": "condicional",
+   "difficulty": 2,
+   "verb": "haber",
+   "person": "él / ella / usted",
+   "tense": "condicional",
+   "answers": [
+    "habría"
+   ],
+   "feedback": "haber (condicional): habría, habrías, habría, habríamos, habríais, habrían. Same irregular stem as the future: habr-.",
+   "contrast": "Futuro: habrá"
+  },
+  {
+   "id": "u11-g-014",
+   "type": "conjugate",
+   "unit": 11,
+   "grammarPoint": "condicional",
+   "difficulty": 2,
+   "verb": "valer",
+   "person": "tú",
+   "tense": "condicional",
+   "answers": [
+    "valdrías"
+   ],
+   "feedback": "valer (condicional): valdría, valdrías, valdría, valdríamos, valdríais, valdrían. Same irregular stem as the future: valdr-.",
+   "contrast": "Futuro: valdrás"
+  },
+  {
+   "id": "u11-f-001",
+   "type": "choice",
+   "grammarPoint": "valorar-inf-subj",
+   "difficulty": 1,
+   "feedback": "es injusto que + subjuntivo.",
+   "contrast": "Es injusto trabajar doce horas.",
+   "prompt": "Es injusto que algunas personas ___ que trabajar doce horas al día.",
+   "options": [
+    "tengan",
+    "tienen",
+    "tener"
+   ],
+   "answers": [
+    "tengan"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-002",
+   "type": "choice",
+   "grammarPoint": "valorar-inf-subj",
+   "difficulty": 1,
+   "feedback": "General → infinitive.",
+   "contrast": "Está bien que uses el autobús.",
+   "prompt": "Está bien ___ el transporte público, pero no siempre es posible.",
+   "options": [
+    "usar",
+    "que usa",
+    "usas"
+   ],
+   "answers": [
+    "usar"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-003",
+   "type": "choice",
+   "grammarPoint": "valorar-inf-subj",
+   "difficulty": 2,
+   "feedback": "me parece genial que + subjuntivo (crear → cree).",
+   "contrast": "Me parece genial crear huertos.",
+   "prompt": "Me parece genial que el ayuntamiento ___ huertos urbanos.",
+   "options": [
+    "cree",
+    "crea",
+    "crear"
+   ],
+   "answers": [
+    "cree"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-004",
+   "type": "choice",
+   "grammarPoint": "valorar-inf-subj",
+   "difficulty": 2,
+   "feedback": "es una pena que + subjuntivo.",
+   "contrast": "Hay pocas bibliotecas.",
+   "prompt": "Es una pena que no ___ más bibliotecas en el barrio.",
+   "options": [
+    "haya",
+    "hay",
+    "haber"
+   ],
+   "answers": [
+    "haya"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-005",
+   "type": "gap",
+   "grammarPoint": "valorar-inf-subj",
+   "difficulty": 2,
+   "feedback": "es una vergüenza que + subjuntivo.",
+   "contrast": "Es una vergüenza desperdiciar comida.",
+   "prompt": "Es una vergüenza que se ___ (desperdiciar) tanta comida.",
+   "answers": [
+    "desperdicie"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-006",
+   "type": "gap",
+   "grammarPoint": "valorar-inf-subj",
+   "difficulty": 2,
+   "feedback": "g → gu: paguen.",
+   "contrast": "Me parece mal no pagar.",
+   "prompt": "Me parece mal que las empresas no ___ (pagar) las horas extra.",
+   "answers": [
+    "paguen"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-007",
+   "type": "gap",
+   "grammarPoint": "valorar-inf-subj",
+   "difficulty": 3,
+   "feedback": "es lógico que + subjuntivo.",
+   "contrast": "Está claro que están enfadados.",
+   "prompt": "Es lógico que los vecinos ___ (estar) enfadados con el ruido.",
+   "answers": [
+    "estén"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-008",
+   "type": "gap",
+   "grammarPoint": "valorar-inf-subj",
+   "difficulty": 3,
+   "feedback": "o→ue: cueste.",
+   "contrast": "Un café cuesta cuatro euros.",
+   "prompt": "No me parece normal que un café ___ (costar) cuatro euros.",
+   "answers": [
+    "cueste"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-009",
+   "type": "error",
+   "grammarPoint": "valorar-inf-subj",
+   "difficulty": 2,
+   "feedback": "Value judgment + que → subjuntivo.",
+   "contrast": "Existe una ley.",
+   "prompt": "Es increíble que todavía no existe una ley contra esto.",
+   "errorIndex": 5,
+   "answers": [
+    "exista"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-010",
+   "type": "error",
+   "grammarPoint": "valorar-inf-subj",
+   "difficulty": 2,
+   "feedback": "me parece fatal que + subjuntivo.",
+   "contrast": "Me parece fatal tirar papeles.",
+   "prompt": "Me parece fatal que la gente tira papeles al suelo.",
+   "errorIndex": 6,
+   "answers": [
+    "tire"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-011",
+   "type": "transform",
+   "grammarPoint": "valorar-inf-subj",
+   "difficulty": 2,
+   "feedback": "reciclamos → reciclemos.",
+   "contrast": "Es necesario reciclar más.",
+   "instruction": "Valora con «Es necesario que…».",
+   "prompt": "Todos reciclamos más.",
+   "answers": [
+    "Es necesario que todos reciclemos más"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-012",
+   "type": "match",
+   "grammarPoint": "valorar-inf-subj",
+   "difficulty": 2,
+   "feedback": "Value judgments + infinitive (general) or que + subjuntivo.",
+   "instruction": "Relaciona cada principio con su final.",
+   "pairs": [
+    {
+     "left": "Es injusto",
+     "right": "que cobren menos por el mismo trabajo."
+    },
+    {
+     "left": "Está bien",
+     "right": "compartir coche para ir al trabajo."
+    },
+    {
+     "left": "Me parece fatal",
+     "right": "que se maltrate a los animales."
+    },
+    {
+     "left": "Es una tontería",
+     "right": "coger el coche para ir a la esquina."
+    }
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-013",
+   "type": "choice",
+   "grammarPoint": "condicional",
+   "difficulty": 1,
+   "feedback": "Wishes → condicional: me gustaría.",
+   "contrast": "Me gusta mi casa.",
+   "prompt": "Me ___ vivir en una casa con jardín.",
+   "options": [
+    "gustaría",
+    "gustará",
+    "gusto"
+   ],
+   "answers": [
+    "gustaría"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-014",
+   "type": "choice",
+   "grammarPoint": "condicional",
+   "difficulty": 2,
+   "feedback": "Advice with yo que tú → condicional.",
+   "contrast": "No lo alquiles.",
+   "prompt": "Yo que tú, no ___ ese piso: es demasiado caro.",
+   "options": [
+    "alquilaría",
+    "alquilaré",
+    "alquile"
+   ],
+   "answers": [
+    "alquilaría"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-015",
+   "type": "choice",
+   "grammarPoint": "condicional",
+   "difficulty": 2,
+   "feedback": "Polite request → condicional.",
+   "contrast": "¿Puedes ayudarme?",
+   "prompt": "¿___ ayudarme con estas cajas, por favor?",
+   "options": [
+    "Podrías",
+    "Puedes que",
+    "Podrás"
+   ],
+   "answers": [
+    "Podrías"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-016",
+   "type": "gap",
+   "grammarPoint": "condicional",
+   "difficulty": 2,
+   "feedback": "Hypothetical situation → condicional.",
+   "contrast": "El ayuntamiento puede arreglarlas.",
+   "prompt": "Con más dinero, el ayuntamiento ___ (poder) arreglar las calles.",
+   "answers": [
+    "podría"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-017",
+   "type": "gap",
+   "grammarPoint": "condicional",
+   "difficulty": 2,
+   "feedback": "hacer → har- + ías.",
+   "contrast": "¿Qué haces?",
+   "prompt": "¿Qué ___ (hacer, tú) para mejorar el barrio?",
+   "answers": [
+    "harías"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-018",
+   "type": "gap",
+   "grammarPoint": "condicional",
+   "difficulty": 3,
+   "feedback": "Advice / suggestion → deberíamos + infinitive.",
+   "contrast": "Debemos consumir menos.",
+   "prompt": "Todos ___ (deber, nosotros, condicional) consumir menos y reutilizar más.",
+   "answers": [
+    "deberíamos"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-019",
+   "type": "gap",
+   "grammarPoint": "condicional",
+   "difficulty": 3,
+   "feedback": "Opinion on behaviour → condicional.",
+   "contrast": "Nunca abandono a mis animales.",
+   "prompt": "Yo nunca ___ (abandonar) a un animal: me parece muy cruel.",
+   "answers": [
+    "abandonaría"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-020",
+   "type": "error",
+   "grammarPoint": "condicional",
+   "difficulty": 2,
+   "feedback": "Advice → condicional.",
+   "contrast": "Mañana hablaré con mi jefa.",
+   "prompt": "Yo en tu lugar hablaré con tu jefa.",
+   "errorIndex": 4,
+   "answers": [
+    "hablaría"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-021",
+   "type": "choice",
+   "grammarPoint": "condicional",
+   "difficulty": 2,
+   "feedback": "The conditional softens a request.",
+   "contrast": "¿Te importa abrir la ventana? (less formal)",
+   "prompt": "¿Qué pregunta es más cortés?",
+   "options": [
+    "¿Te importaría abrir la ventana?",
+    "¿Abres la ventana?",
+    "¿Te importa que abras la ventana?"
+   ],
+   "answers": [
+    "¿Te importaría abrir la ventana?"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-022",
+   "type": "transform",
+   "grammarPoint": "condicional",
+   "difficulty": 2,
+   "feedback": "yo que tú + condicional.",
+   "contrast": "Ve al médico.",
+   "instruction": "Da un consejo con «Yo que tú…».",
+   "prompt": "Deberías ir al médico.",
+   "answers": [
+    "Yo que tú, iría al médico",
+    "Yo que tú iría al médico"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-023",
+   "type": "order",
+   "grammarPoint": "condicional",
+   "difficulty": 2,
+   "feedback": "Wishes → me encantaría + infinitive.",
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "Me encantaría trabajar en una ONG"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-024",
+   "type": "choice",
+   "grammarPoint": "lo-neutro",
+   "difficulty": 1,
+   "feedback": "lo + adjective.",
+   "contrast": "El mejor mercado…",
+   "prompt": "___ mejor del barrio es el mercado.",
+   "options": [
+    "Lo",
+    "El",
+    "La"
+   ],
+   "answers": [
+    "Lo"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-025",
+   "type": "choice",
+   "grammarPoint": "lo-neutro",
+   "difficulty": 2,
+   "feedback": "lo que = what.",
+   "contrast": "La luz me gusta mucho.",
+   "prompt": "___ que más me gusta de Sevilla es la luz.",
+   "options": [
+    "Lo",
+    "El",
+    "Que"
+   ],
+   "answers": [
+    "Lo"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-026",
+   "type": "choice",
+   "grammarPoint": "lo-neutro",
+   "difficulty": 2,
+   "feedback": "lo de + noun = the matter of.",
+   "contrast": "lo que han hecho",
+   "prompt": "¿Te has enterado de ___ las obras en la plaza?",
+   "options": [
+    "lo de",
+    "lo que",
+    "el de"
+   ],
+   "answers": [
+    "lo de"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-027",
+   "type": "choice",
+   "grammarPoint": "lo-neutro",
+   "difficulty": 2,
+   "feedback": "lo que + verb.",
+   "contrast": "Lo importante es…",
+   "prompt": "No entiendo ___ quieres decir.",
+   "options": [
+    "lo que",
+    "lo",
+    "que lo"
+   ],
+   "answers": [
+    "lo que"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-028",
+   "type": "choice",
+   "grammarPoint": "lo-neutro",
+   "difficulty": 3,
+   "feedback": "eso de + infinitive (neuter).",
+   "contrast": "Lo de compartir coche…",
+   "prompt": "___ de compartir coche me parece una idea genial.",
+   "options": [
+    "Eso",
+    "Ese",
+    "Esa"
+   ],
+   "answers": [
+    "Eso"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-029",
+   "type": "gap",
+   "grammarPoint": "lo-neutro",
+   "difficulty": 2,
+   "feedback": "lo + adjective stays masculine singular.",
+   "contrast": "La parte mala es…",
+   "prompt": "Lo ___ (malo) es que nadie hace nada.",
+   "answers": [
+    "malo"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-030",
+   "type": "error",
+   "grammarPoint": "lo-neutro",
+   "difficulty": 2,
+   "feedback": "Neuter lo + adjective.",
+   "contrast": "La parte más importante…",
+   "prompt": "La más importante es que todos colaboremos.",
+   "errorIndex": 0,
+   "answers": [
+    "Lo"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-031",
+   "type": "transform",
+   "grammarPoint": "lo-neutro",
+   "difficulty": 2,
+   "feedback": "lo que + verb + es + emphasised element.",
+   "contrast": "Me preocupa la contaminación.",
+   "instruction": "Reescribe con «Lo que…».",
+   "prompt": "Me preocupa mucho la contaminación.",
+   "answers": [
+    "Lo que más me preocupa es la contaminación",
+    "Lo que me preocupa es la contaminación"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-032",
+   "type": "choice",
+   "grammarPoint": "veracidad-ind-subj",
+   "difficulty": 1,
+   "feedback": "es verdad que + indicative.",
+   "contrast": "No es verdad que esté más caro.",
+   "prompt": "Es verdad que el transporte ___ más caro este año.",
+   "options": [
+    "está",
+    "esté"
+   ],
+   "answers": [
+    "está"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-033",
+   "type": "choice",
+   "grammarPoint": "veracidad-ind-subj",
+   "difficulty": 2,
+   "feedback": "Denying the truth → subjuntivo.",
+   "contrast": "Es cierto que leen poco.",
+   "prompt": "No es cierto que los jóvenes no ___ leer.",
+   "options": [
+    "quieran",
+    "quieren"
+   ],
+   "answers": [
+    "quieran"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-034",
+   "type": "gap",
+   "grammarPoint": "veracidad-ind-subj",
+   "difficulty": 2,
+   "feedback": "es obvio que + indicative.",
+   "contrast": "No es obvio que haga falta.",
+   "prompt": "Es obvio que ___ (hacer) falta más vivienda pública.",
+   "answers": [
+    "hace"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-035",
+   "type": "gap",
+   "grammarPoint": "veracidad-ind-subj",
+   "difficulty": 3,
+   "feedback": "es falso que + subjuntivo (e→i).",
+   "contrast": "Es verdad que sirve.",
+   "prompt": "Es falso que el reciclaje no ___ (servir) para nada.",
+   "answers": [
+    "sirva"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-036",
+   "type": "error",
+   "grammarPoint": "veracidad-ind-subj",
+   "difficulty": 2,
+   "feedback": "está claro que + indicative.",
+   "contrast": "No está claro que haya que cambiarlas.",
+   "prompt": "Está claro que haya que cambiar las cosas.",
+   "errorIndex": 3,
+   "answers": [
+    "hay"
+   ],
+   "unit": 11
+  },
+  {
+   "id": "u11-f-037",
+   "type": "match",
+   "grammarPoint": "veracidad-ind-subj",
+   "difficulty": 3,
+   "feedback": "Certainty → indicative; denial → subjunctive.",
+   "instruction": "Relaciona cada principio con su final.",
+   "pairs": [
+    {
+     "left": "Es evidente que",
+     "right": "el clima está cambiando."
+    },
+    {
+     "left": "No es verdad que",
+     "right": "los coches eléctricos no contaminen."
+    },
+    {
+     "left": "Está claro que",
+     "right": "necesitamos más árboles."
+    },
+    {
+     "left": "Es mentira que",
+     "right": "el agua sea infinita."
+    }
+   ],
+   "unit": 11
   }
  ]
 }

@@ -25,3 +25,23 @@ describe('skill content reaches the spec targets', () => {
     for (const c of count) expect(c / total).toBeGreaterThan(0.28);
   });
 });
+
+import { units, focus, vocabCards, grammarPoints, allItems } from '../src/lib/content';
+
+describe('drill and vocabulary content reaches the spec targets', () => {
+  it('each unit pack and programa has at least 80 drill items, ≥ 6 per grammar point', () => {
+    for (const u of units) expect(u.items.length, u.id).toBeGreaterThanOrEqual(80);
+    for (const g of grammarPoints) expect(allItems.filter((i) => i.grammarPoint === g.id).length, g.id).toBeGreaterThanOrEqual(6);
+  });
+  it('the past-tenses pack has 300 items plus 40 stories', () => {
+    expect(focus.items.filter((i) => i.type !== 'cloze').length).toBeGreaterThanOrEqual(300);
+    expect(focus.items.filter((i) => i.type === 'cloze').length).toBeGreaterThanOrEqual(40);
+  });
+  it('60 vocabulary cards per unit, with unique words', () => {
+    for (let u = 1; u <= 12; u++) expect(vocabCards.filter((c) => c.unit === u)).toHaveLength(60);
+    expect(new Set(vocabCards.map((c) => c.id)).size).toBe(vocabCards.length);
+  });
+  it('every gap prompt names the verb or gives enough context', () => {
+    for (const i of allItems) if (i.type === 'gap') expect(i.prompt.includes('___'), i.id).toBe(true);
+  });
+});

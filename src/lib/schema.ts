@@ -75,8 +75,11 @@ export const ClozeItem = z
 
 /** error: tap the wrong word (token index in prompt.split(' ')), then type the correction. */
 export const ErrorItem = z
-  .object({ ...base, type: z.literal('error'), prompt: z.string(), errorIndex: z.number().int().min(0), answers })
-  .refine((i) => i.errorIndex < i.prompt.split(' ').length, { message: 'errorIndex out of range' });
+  .object({ ...base, type: z.literal('error'), prompt: z.string(), errorIndex: z.number().int().min(0), errorLength: z.number().int().min(1).max(4).optional(), answers })
+  .refine((i) => i.errorIndex + (i.errorLength ?? 1) <= i.prompt.split(' ').length, { message: 'error span out of range' });
+/** The words of an error item that are wrong (errorIndex … errorIndex + errorLength − 1). */
+export const inErrorSpan = (i: { errorIndex: number; errorLength?: number }, k: number) => k >= i.errorIndex && k < i.errorIndex + (i.errorLength ?? 1);
+export const errorSpanText = (i: { prompt: string; errorIndex: number; errorLength?: number }) => i.prompt.split(' ').slice(i.errorIndex, i.errorIndex + (i.errorLength ?? 1)).join(' ');
 /** order: put the shuffled words of answers[0] in order. */
 export const OrderItem = z.object({ ...base, type: z.literal('order'), instruction: z.string(), answers });
 /** match: match each beginning to its ending. */

@@ -385,6 +385,936 @@
     "Me encanta que me escribas"
    ],
    "feedback": "me encanta que + subjunctive."
+  },
+  {
+   "id": "u09-f-001",
+   "type": "choice",
+   "grammarPoint": "me-fascina-que",
+   "difficulty": 1,
+   "feedback": "Different subject → que + subjuntivo.",
+   "contrast": "Me encanta visitar a mis amigos.",
+   "prompt": "Me encanta que mis amigos me ___ por sorpresa.",
+   "options": [
+    "visiten",
+    "visitan",
+    "visitar"
+   ],
+   "answers": [
+    "visiten"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-002",
+   "type": "choice",
+   "grammarPoint": "me-fascina-que",
+   "difficulty": 1,
+   "feedback": "Same subject → infinitive.",
+   "contrast": "Le molesta que la hagan esperar.",
+   "prompt": "A Laura le molesta ___ en el metro.",
+   "options": [
+    "esperar",
+    "que espere",
+    "espera"
+   ],
+   "answers": [
+    "esperar"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-003",
+   "type": "choice",
+   "grammarPoint": "me-fascina-que",
+   "difficulty": 1,
+   "feedback": "The verb agrees with what is liked: los perros.",
+   "contrast": "Me encanta mi perro.",
+   "prompt": "Me ___ los perros pequeños.",
+   "options": [
+    "encantan",
+    "encanta",
+    "encanto"
+   ],
+   "answers": [
+    "encantan"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-004",
+   "type": "choice",
+   "grammarPoint": "me-fascina-que",
+   "difficulty": 2,
+   "feedback": "preocupar que + subjuntivo.",
+   "contrast": "Nos preocupa la subida.",
+   "prompt": "Nos preocupa que los alquileres ___ tanto.",
+   "options": [
+    "suban",
+    "suben",
+    "subir"
+   ],
+   "answers": [
+    "suban"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-005",
+   "type": "choice",
+   "grammarPoint": "me-fascina-que",
+   "difficulty": 2,
+   "feedback": "¿Te/Os importa que + subjuntivo? asks permission.",
+   "contrast": "¿Os importa ir solos?",
+   "prompt": "¿Os importa que ___ con vosotros al concierto?",
+   "options": [
+    "vaya",
+    "voy",
+    "ir"
+   ],
+   "answers": [
+    "vaya"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-006",
+   "type": "choice",
+   "grammarPoint": "me-fascina-que",
+   "difficulty": 2,
+   "feedback": "las historias (f. pl.).",
+   "contrast": "Le fascina la historia.",
+   "prompt": "A mi abuelo le fascinan ___ historias de la guerra.",
+   "options": [
+    "las",
+    "los",
+    "la"
+   ],
+   "answers": [
+    "las"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-007",
+   "type": "gap",
+   "grammarPoint": "me-fascina-que",
+   "difficulty": 2,
+   "feedback": "Different subject → subjuntivo.",
+   "contrast": "Le encanta preparar el desayuno.",
+   "prompt": "A mi pareja le encanta que le ___ (preparar, yo) el desayuno.",
+   "answers": [
+    "prepare"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-008",
+   "type": "gap",
+   "grammarPoint": "me-fascina-que",
+   "difficulty": 2,
+   "feedback": "recoger → recojo → recoja.",
+   "contrast": "Me fastidia recoger la basura.",
+   "prompt": "Me fastidia que la gente no ___ (recoger) la basura de su perro.",
+   "answers": [
+    "recoja"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-009",
+   "type": "gap",
+   "grammarPoint": "me-fascina-que",
+   "difficulty": 2,
+   "feedback": "Same subject → infinitive.",
+   "contrast": "Me interesa que aprendas.",
+   "prompt": "Me interesa ___ (aprender) a cocinar platos de otros países.",
+   "answers": [
+    "aprender"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-010",
+   "type": "gap",
+   "grammarPoint": "me-fascina-que",
+   "difficulty": 3,
+   "feedback": "sorprender que + subjuntivo.",
+   "contrast": "Les sorprende leer tan poco.",
+   "prompt": "A los profesores les sorprende que los alumnos no ___ (leer) más.",
+   "answers": [
+    "lean"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-011",
+   "type": "gap",
+   "grammarPoint": "me-fascina-que",
+   "difficulty": 3,
+   "feedback": "hacer → hago → hagan.",
+   "contrast": "Me molesta hacer ruido.",
+   "prompt": "¿A ti no te molesta que tus vecinos ___ (hacer) fiestas entre semana?",
+   "answers": [
+    "hagan"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-012",
+   "type": "error",
+   "grammarPoint": "me-fascina-que",
+   "difficulty": 2,
+   "feedback": "Different subject → subjuntivo.",
+   "contrast": "Me encanta venir a verte.",
+   "prompt": "Me encanta que vienes a verme.",
+   "errorIndex": 3,
+   "answers": [
+    "vengas"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-013",
+   "type": "error",
+   "grammarPoint": "me-fascina-que",
+   "difficulty": 2,
+   "feedback": "The verb agrees with las personas.",
+   "contrast": "Me molesta la gente que no saluda.",
+   "prompt": "Me molesta las personas que no saludan.",
+   "errorIndex": 1,
+   "answers": [
+    "molestan"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-014",
+   "type": "error",
+   "grammarPoint": "me-fascina-que",
+   "difficulty": 3,
+   "feedback": "poner nervioso que + subjuntivo.",
+   "contrast": "Le pone nerviosa conducir de noche.",
+   "prompt": "A mi madre le pone nerviosa que yo conduzco de noche.",
+   "errorIndex": 8,
+   "answers": [
+    "conduzca"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-015",
+   "type": "transform",
+   "grammarPoint": "me-fascina-que",
+   "difficulty": 2,
+   "feedback": "deja → deje.",
+   "contrast": "Me molesta dejar platos sucios.",
+   "instruction": "Une con «Me molesta que…».",
+   "prompt": "Mi compañero deja los platos sucios.",
+   "answers": [
+    "Me molesta que mi compañero deje los platos sucios"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-016",
+   "type": "transform",
+   "grammarPoint": "me-fascina-que",
+   "difficulty": 2,
+   "feedback": "encantar already means «like a lot»: no mucho.",
+   "contrast": "Me gusta mucho pasear.",
+   "instruction": "Reescribe con «Me encanta…».",
+   "prompt": "Me gusta mucho pasear por la playa.",
+   "answers": [
+    "Me encanta pasear por la playa"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-017",
+   "type": "order",
+   "grammarPoint": "me-fascina-que",
+   "difficulty": 2,
+   "feedback": "molestar que + subjuntivo.",
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "Me molesta que me interrumpan"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-018",
+   "type": "match",
+   "grammarPoint": "me-fascina-que",
+   "difficulty": 2,
+   "feedback": "Plural noun → encantan; singular noun / infinitive → encanta; que + subjuntivo.",
+   "instruction": "Relaciona cada principio con su final.",
+   "pairs": [
+    {
+     "left": "Me encantan",
+     "right": "las películas de terror."
+    },
+    {
+     "left": "Me encanta",
+     "right": "el cine francés."
+    },
+    {
+     "left": "Me encanta",
+     "right": "salir los viernes."
+    },
+    {
+     "left": "Me encanta que",
+     "right": "me invites al cine."
+    }
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-019",
+   "type": "choice",
+   "grammarPoint": "me-fascina-que",
+   "difficulty": 2,
+   "feedback": "apasionar, encantar, adorar don't take mucho.",
+   "contrast": "Me gusta mucho la fotografía.",
+   "prompt": "¿Qué frase es correcta?",
+   "options": [
+    "Me apasiona la fotografía.",
+    "Me apasiona mucho la fotografía.",
+    "Me apasiono la fotografía."
+   ],
+   "answers": [
+    "Me apasiona la fotografía."
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-020",
+   "type": "choice",
+   "grammarPoint": "verbos-sentimiento",
+   "difficulty": 1,
+   "feedback": "soportar is a regular verb: yo soporto.",
+   "contrast": "Me molesta el ruido.",
+   "prompt": "Yo no ___ el ruido de las motos.",
+   "options": [
+    "soporto",
+    "me soporta",
+    "soporta"
+   ],
+   "answers": [
+    "soporto"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-021",
+   "type": "choice",
+   "grammarPoint": "verbos-sentimiento",
+   "difficulty": 1,
+   "feedback": "odiar: él odia.",
+   "contrast": "No le gustan las verduras.",
+   "prompt": "Mi hermano ___ las verduras: no come ni una.",
+   "options": [
+    "odia",
+    "le odia",
+    "odian"
+   ],
+   "answers": [
+    "odia"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-022",
+   "type": "choice",
+   "grammarPoint": "verbos-sentimiento",
+   "difficulty": 2,
+   "feedback": "ponerse contento (reflexive): yo me pongo.",
+   "contrast": "Me ponen contenta las cartas.",
+   "prompt": "Me ___ muy contenta cuando recibo cartas.",
+   "options": [
+    "pongo",
+    "pone",
+    "pongo a"
+   ],
+   "answers": [
+    "pongo"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-023",
+   "type": "choice",
+   "grammarPoint": "verbos-sentimiento",
+   "difficulty": 2,
+   "feedback": "poner (like gustar): las entrevistas → ponen.",
+   "contrast": "Me pongo nerviosa en las entrevistas.",
+   "prompt": "Me ___ nerviosa las entrevistas de trabajo.",
+   "options": [
+    "ponen",
+    "pone",
+    "pongo"
+   ],
+   "answers": [
+    "ponen"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-024",
+   "type": "choice",
+   "grammarPoint": "verbos-sentimiento",
+   "difficulty": 2,
+   "feedback": "dar vergüenza = to be embarrassed.",
+   "contrast": "Le da miedo hablar en público.",
+   "prompt": "Le da ___ hablar en público: se pone rojo enseguida.",
+   "options": [
+    "vergüenza",
+    "pena",
+    "asco"
+   ],
+   "answers": [
+    "vergüenza"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-025",
+   "type": "choice",
+   "grammarPoint": "verbos-sentimiento",
+   "difficulty": 2,
+   "feedback": "dar pena = to make sad (in Spain).",
+   "contrast": "Me da pena irme.",
+   "prompt": "Me da ___ que te vayas a vivir tan lejos.",
+   "options": [
+    "pena",
+    "asco",
+    "pereza"
+   ],
+   "answers": [
+    "pena"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-026",
+   "type": "choice",
+   "grammarPoint": "verbos-sentimiento",
+   "difficulty": 2,
+   "feedback": "dar pereza = can't be bothered.",
+   "contrast": "Me da rabia perderme la clase.",
+   "prompt": "Hoy no voy al gimnasio, me da muchísima ___.",
+   "options": [
+    "pereza",
+    "vergüenza",
+    "rabia"
+   ],
+   "answers": [
+    "pereza"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-027",
+   "type": "choice",
+   "grammarPoint": "verbos-sentimiento",
+   "difficulty": 2,
+   "feedback": "estar harto/a de + noun / infinitive / que + subj.",
+   "contrast": "Estoy harta de las llamadas.",
+   "prompt": "Estoy ___ de que me llamen para venderme cosas.",
+   "options": [
+    "harta",
+    "harto de",
+    "hartas"
+   ],
+   "answers": [
+    "harta"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-028",
+   "type": "gap",
+   "grammarPoint": "verbos-sentimiento",
+   "difficulty": 2,
+   "feedback": "no aguantar que + subjuntivo.",
+   "contrast": "No aguanto gritar.",
+   "prompt": "No aguanto que la gente ___ (gritar) en los restaurantes.",
+   "answers": [
+    "grite"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-029",
+   "type": "gap",
+   "grammarPoint": "verbos-sentimiento",
+   "difficulty": 2,
+   "feedback": "dar rabia que + subjuntivo (e→ie).",
+   "contrast": "Me da rabia perder.",
+   "prompt": "Me da rabia que mi equipo ___ (perder) siempre en casa.",
+   "answers": [
+    "pierda"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-030",
+   "type": "gap",
+   "grammarPoint": "verbos-sentimiento",
+   "difficulty": 2,
+   "feedback": "Same subject → infinitive.",
+   "contrast": "Le da miedo que yo viaje.",
+   "prompt": "A mi madre le da miedo ___ (viajar) en avión.",
+   "answers": [
+    "viajar"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-031",
+   "type": "gap",
+   "grammarPoint": "verbos-sentimiento",
+   "difficulty": 3,
+   "feedback": "odiar que + subjuntivo.",
+   "contrast": "Odio decir que no.",
+   "prompt": "Odio que me ___ (decir, ellos) lo que tengo que hacer.",
+   "answers": [
+    "digan"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-032",
+   "type": "gap",
+   "grammarPoint": "verbos-sentimiento",
+   "difficulty": 3,
+   "feedback": "sentar mal que + subjuntivo.",
+   "contrast": "Me sienta mal contestar tarde.",
+   "prompt": "Me sienta fatal que no me ___ (contestar, tú) los mensajes.",
+   "answers": [
+    "contestes"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-033",
+   "type": "error",
+   "grammarPoint": "verbos-sentimiento",
+   "difficulty": 2,
+   "feedback": "odiar is not like gustar: yo odio.",
+   "contrast": "Me molesta que me despierten.",
+   "prompt": "Yo me odio que me despierten temprano.",
+   "errorIndex": 1,
+   "answers": [
+    "odio"
+   ],
+   "errorLength": 2,
+   "unit": 9
+  },
+  {
+   "id": "u09-f-034",
+   "type": "error",
+   "grammarPoint": "verbos-sentimiento",
+   "difficulty": 2,
+   "feedback": "no soportar que + subjuntivo.",
+   "contrast": "No soporta hacer ruido.",
+   "prompt": "Mi compañera no soporta que hago ruido por la noche.",
+   "errorIndex": 5,
+   "answers": [
+    "haga"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-035",
+   "type": "error",
+   "grammarPoint": "verbos-sentimiento",
+   "difficulty": 3,
+   "feedback": "With «a mí me»: me pone triste (la lluvia); or «me pongo triste».",
+   "contrast": "Me pongo triste cuando llueve.",
+   "prompt": "A mí me pongo triste cuando llueve.",
+   "errorIndex": 3,
+   "answers": [
+    "pone"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-036",
+   "type": "transform",
+   "grammarPoint": "verbos-sentimiento",
+   "difficulty": 2,
+   "feedback": "¡Qué + noun! intensifies.",
+   "contrast": "¡Qué pena!",
+   "instruction": "Intensifica con «¡Qué…!».",
+   "prompt": "Me da mucha rabia.",
+   "answers": [
+    "¡Qué rabia me da!",
+    "¡Qué rabia!",
+    "Qué rabia me da"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-037",
+   "type": "transform",
+   "grammarPoint": "verbos-sentimiento",
+   "difficulty": 2,
+   "feedback": "tener miedo de = dar miedo (like gustar).",
+   "contrast": "La oscuridad me asusta.",
+   "instruction": "Reescribe con «dar miedo».",
+   "prompt": "Tengo miedo de la oscuridad.",
+   "answers": [
+    "Me da miedo la oscuridad"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-038",
+   "type": "match",
+   "grammarPoint": "verbos-sentimiento",
+   "difficulty": 2,
+   "feedback": "Expressing feelings.",
+   "instruction": "Relaciona cada principio con su final.",
+   "pairs": [
+    {
+     "left": "Me da pena",
+     "right": "que te vayas."
+    },
+    {
+     "left": "Me pongo nervioso",
+     "right": "antes de un examen."
+    },
+    {
+     "left": "Estoy harto de",
+     "right": "esperar el autobús."
+    },
+    {
+     "left": "No soporto",
+     "right": "el olor a tabaco."
+    }
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-039",
+   "type": "match",
+   "grammarPoint": "verbos-sentimiento",
+   "difficulty": 2,
+   "feedback": "Nouns and verbs of feeling.",
+   "instruction": "Relaciona cada sentimiento con una expresión.",
+   "pairs": [
+    {
+     "left": "el miedo",
+     "right": "Me da miedo."
+    },
+    {
+     "left": "la alegría",
+     "right": "Me alegra."
+    },
+    {
+     "left": "la ilusión",
+     "right": "Me hace ilusión."
+    },
+    {
+     "left": "el aburrimiento",
+     "right": "Me aburre."
+    }
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-040",
+   "type": "order",
+   "grammarPoint": "verbos-sentimiento",
+   "difficulty": 2,
+   "feedback": "hacer ilusión + infinitive.",
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "Me hace mucha ilusión verte"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-041",
+   "type": "order",
+   "grammarPoint": "verbos-sentimiento",
+   "difficulty": 3,
+   "feedback": "no aguantar que + subjuntivo.",
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "No aguanto que me hablen mientras leo"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-042",
+   "type": "choice",
+   "grammarPoint": "desacuerdo-contraargumentar",
+   "difficulty": 1,
+   "feedback": "Echo question with que (no accent).",
+   "contrast": "¿Qué? = rejection.",
+   "prompt": "—Siempre llegas tarde. —¿___ siempre llego tarde? ¡Si hoy he llegado antes que tú!",
+   "options": [
+    "Que",
+    "Qué",
+    "Cuándo"
+   ],
+   "answers": [
+    "Que"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-043",
+   "type": "choice",
+   "grammarPoint": "desacuerdo-contraargumentar",
+   "difficulty": 2,
+   "feedback": "Yo no diría tanto / eso softens disagreement.",
+   "contrast": "¡Qué dices!",
+   "prompt": "—Eres un desordenado. —Hombre, yo no ___ tanto.",
+   "options": [
+    "diría",
+    "digo",
+    "dije"
+   ],
+   "answers": [
+    "diría"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-044",
+   "type": "choice",
+   "grammarPoint": "desacuerdo-contraargumentar",
+   "difficulty": 2,
+   "feedback": "pues introduces a contrasting view.",
+   "contrast": "¡Pero si es buenísima!",
+   "prompt": "—Esta película es aburridísima. —___ a mí me está gustando mucho.",
+   "options": [
+    "Pues",
+    "Si",
+    "Que"
+   ],
+   "answers": [
+    "Pues"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-045",
+   "type": "choice",
+   "grammarPoint": "desacuerdo-contraargumentar",
+   "difficulty": 2,
+   "feedback": "(pero) si… counter-argues with surprise (no accent).",
+   "contrast": "Pues yo hice la compra.",
+   "prompt": "—Nunca me ayudas en casa. —¡Pero ___ ayer hice yo la compra!",
+   "options": [
+    "si",
+    "sí",
+    "que"
+   ],
+   "answers": [
+    "si"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-046",
+   "type": "choice",
+   "grammarPoint": "desacuerdo-contraargumentar",
+   "difficulty": 2,
+   "feedback": "¡Qué va! = not at all.",
+   "contrast": "¡Qué dices! = what are you talking about.",
+   "prompt": "—¿Te has enfadado? —¡Qué ___! Estoy perfectamente.",
+   "options": [
+    "va",
+    "dices",
+    "pasa"
+   ],
+   "answers": [
+    "va"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-047",
+   "type": "choice",
+   "grammarPoint": "desacuerdo-contraargumentar",
+   "difficulty": 2,
+   "feedback": "¡Qué dices! rejects an accusation.",
+   "contrast": "¡Qué va!",
+   "prompt": "—Me has mentido. —¡(Pero) qué ___! Yo nunca te miento.",
+   "options": [
+    "dices",
+    "va",
+    "sí"
+   ],
+   "answers": [
+    "dices"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-048",
+   "type": "choice",
+   "grammarPoint": "desacuerdo-contraargumentar",
+   "difficulty": 2,
+   "feedback": "a mi modo de ver = the way I see it.",
+   "contrast": "En mi opinión…",
+   "prompt": "A mi modo ___ ver, el problema es la falta de comunicación.",
+   "options": [
+    "de",
+    "a",
+    "para"
+   ],
+   "answers": [
+    "de"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-049",
+   "type": "choice",
+   "grammarPoint": "desacuerdo-contraargumentar",
+   "difficulty": 2,
+   "feedback": "no estar del todo de acuerdo = not completely agree.",
+   "contrast": "No estoy de acuerdo.",
+   "prompt": "No estoy del ___ de acuerdo contigo.",
+   "options": [
+    "todo",
+    "tanto",
+    "mucho"
+   ],
+   "answers": [
+    "todo"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-050",
+   "type": "choice",
+   "grammarPoint": "desacuerdo-contraargumentar",
+   "difficulty": 3,
+   "feedback": "Lo que pasa es que… reframes softly.",
+   "contrast": "El problema es que…",
+   "prompt": "—Tu hermana es muy antipática. —No creo. Lo que ___ es que es muy tímida.",
+   "options": [
+    "pasa",
+    "pasó",
+    "pase"
+   ],
+   "answers": [
+    "pasa"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-051",
+   "type": "gap",
+   "grammarPoint": "desacuerdo-contraargumentar",
+   "difficulty": 2,
+   "feedback": "Echo question repeats the other person's words.",
+   "contrast": "—No me llamaste.",
+   "prompt": "—¿Que no te ___ (llamar, yo)? ¡Te llamé tres veces!",
+   "answers": [
+    "llamé"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-052",
+   "type": "error",
+   "grammarPoint": "desacuerdo-contraargumentar",
+   "difficulty": 2,
+   "feedback": "Echo question uses que without an accent.",
+   "contrast": "¿Qué dices?",
+   "prompt": "—No has fregado. —¿Qué no he fregado? ¡Si está todo limpio!",
+   "errorIndex": 3,
+   "answers": [
+    "Que"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-053",
+   "type": "error",
+   "grammarPoint": "desacuerdo-contraargumentar",
+   "difficulty": 3,
+   "feedback": "(pero) si… without an accent.",
+   "contrast": "Sí, salimos (yes).",
+   "prompt": "—Nunca sales conmigo. —¡Pero sí salimos el sábado!",
+   "errorIndex": 4,
+   "answers": [
+    "si"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-054",
+   "type": "match",
+   "grammarPoint": "desacuerdo-contraargumentar",
+   "difficulty": 3,
+   "feedback": "Ways of disagreeing, from soft to strong.",
+   "instruction": "Relaciona cada principio con su final.",
+   "pairs": [
+    {
+     "left": "Para suavizar:",
+     "right": "Yo no diría eso."
+    },
+    {
+     "left": "Para rechazar con fuerza:",
+     "right": "¡Qué dices!"
+    },
+    {
+     "left": "Para negar con énfasis:",
+     "right": "¡Qué va!"
+    },
+    {
+     "left": "Para contraargumentar:",
+     "right": "Pues a mí me parece…"
+    }
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-055",
+   "type": "transform",
+   "grammarPoint": "desacuerdo-contraargumentar",
+   "difficulty": 2,
+   "feedback": "Repeat the words with que + rising intonation.",
+   "contrast": "¿Qué? (rejection).",
+   "instruction": "Responde con una pregunta eco.",
+   "prompt": "—Ayer no viniste a clase.",
+   "answers": [
+    "¿Que no vine a clase?",
+    "Que no vine a clase"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-056",
+   "type": "order",
+   "grammarPoint": "desacuerdo-contraargumentar",
+   "difficulty": 2,
+   "feedback": "Softening disagreement.",
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "No estoy del todo de acuerdo contigo"
+   ],
+   "unit": 9
+  },
+  {
+   "id": "u09-f-057",
+   "type": "gap",
+   "grammarPoint": "me-fascina-que",
+   "difficulty": 1,
+   "feedback": "Infinitive subject → singular verb.",
+   "contrast": "Les encantan los trenes.",
+   "prompt": "A mis padres les ___ (encantar) viajar en tren.",
+   "answers": [
+    "encanta"
+   ],
+   "unit": 9
   }
  ]
 }
