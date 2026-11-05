@@ -47,41 +47,41 @@
   {
    "q": "Sobre el alojamiento, los expertos aconsejan…",
    "options": [
-    "pagar la fianza cuanto antes por internet.",
     "empezar a buscar con mucho tiempo.",
-    "quedarse en un albergue todo el curso."
+    "quedarse en un albergue todo el curso.",
+    "pagar la fianza cuanto antes por internet."
    ],
-   "answer": 1,
+   "answer": 0,
    "evidence": "empezar a buscar con al menos tres meses de antelación"
   },
   {
    "q": "En cuanto al dinero, el texto dice que las becas…",
    "options": [
+    "hacen innecesario trabajar.",
     "normalmente no pagan todos los gastos.",
-    "llegan siempre antes de empezar el curso.",
-    "hacen innecesario trabajar."
+    "llegan siempre antes de empezar el curso."
    ],
-   "answer": 0,
+   "answer": 1,
    "evidence": "rara vez cubren todos los gastos"
   },
   {
    "q": "Para Diego, lo más importante del año en Polonia fue…",
    "options": [
+    "conseguir trabajo en una empresa polaca.",
     "lo que aprendió en Ingeniería.",
-    "aprender a ser independiente.",
-    "conseguir trabajo en una empresa polaca."
+    "aprender a ser independiente."
    ],
-   "answer": 1,
+   "answer": 2,
    "evidence": "Aprendí a resolver problemas yo solo"
   },
   {
    "q": "El «choque cultural inverso» se refiere a…",
    "options": [
-    "las dificultades de los primeros días fuera.",
     "la sensación rara al volver a casa.",
-    "los problemas con los amigos extranjeros."
+    "los problemas con los amigos extranjeros.",
+    "las dificultades de los primeros días fuera."
    ],
-   "answer": 1,
+   "answer": 0,
    "evidence": "volver a la rutina de antes produce una sensación extraña"
   }
  ]

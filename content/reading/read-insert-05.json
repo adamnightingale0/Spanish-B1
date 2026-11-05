@@ -1,0 +1,102 @@
+{
+ "id": "read-insert-05",
+ "unit": 0,
+ "taskFormat": "read-insert",
+ "topic": "salud",
+ "title": "El táper vuelve a la oficina",
+ "text": [
+  "Durante años, comer en un restaurante cerca del trabajo era lo normal para muchos españoles. El menú del día, con primero, segundo, postre y bebida por unos diez euros, formaba parte de la rutina. {{1}}",
+  "La primera razón es económica. {{2}} Para una persona que come fuera cinco días a la semana, eso supone más de sesenta euros al mes solo en la comida del mediodía. Con los alquileres cada vez más altos, muchas familias buscan ahorrar donde pueden.",
+  "La segunda razón tiene que ver con la salud. {{3}} Muchos trabajadores prefieren saber exactamente lo que comen y controlar las cantidades, la sal o el aceite. Además, quien sigue una dieta especial, por ejemplo vegetariana o sin gluten, no siempre encuentra opciones en los menús de la zona.",
+  "Las empresas se han dado cuenta de este cambio. {{4}} Algunas han instalado microondas, neveras y mesas amplias; otras incluso ofrecen fruta gratis a sus empleados. Comer juntos en la oficina, dicen, también mejora la relación entre compañeros.",
+  "Sin embargo, llevar la comida de casa también exige organización. {{5}} Para ahorrar tiempo, muchas personas cocinan el domingo para toda la semana y guardan los platos en la nevera o en el congelador.",
+  "Los nutricionistas dan algunos consejos para que el táper sea equilibrado. {{6}} También recomiendan no comer delante del ordenador, sino aprovechar la pausa para desconectar y, si es posible, dar un pequeño paseo.",
+  "Los restaurantes, por su parte, intentan adaptarse. {{7}} Otros han empezado a vender platos para llevar a precios más bajos que el menú tradicional. Y es que, como dice el dueño de un bar del centro de Sevilla, «o te adaptas, o te quedas con las mesas vacías»."
+ ],
+ "fragments": [
+  {
+   "id": "A",
+   "text": "Sin embargo, en los últimos años cada vez más personas llevan la comida de casa en un táper."
+  },
+  {
+   "id": "B",
+   "text": "El precio del menú del día ha subido casi un treinta por ciento desde 2020."
+  },
+  {
+   "id": "C",
+   "text": "La comida de los restaurantes suele tener más grasa y más sal de lo que pensamos."
+  },
+  {
+   "id": "D",
+   "text": "Por eso, cada vez más oficinas tienen una zona para comer."
+  },
+  {
+   "id": "E",
+   "text": "Hay que planificar los menús, hacer la compra y, sobre todo, encontrar tiempo para cocinar."
+  },
+  {
+   "id": "F",
+   "text": "Lo ideal es combinar verdura, una proteína, como carne, pescado o legumbres, y un poco de pan o arroz."
+  },
+  {
+   "id": "G",
+   "text": "Algunos ofrecen descuentos a los clientes que comen allí todos los días."
+  },
+  {
+   "id": "H",
+   "text": "Por eso, comer en el restaurante es hoy más barato que cocinar."
+  },
+  {
+   "id": "I",
+   "text": "Ninguna empresa, en cambio, permite comer en la oficina."
+  },
+  {
+   "id": "J",
+   "text": "Además, los nutricionistas aconsejan comer siempre fuera de casa."
+  }
+ ],
+ "gaps": [
+  {
+   "n": 1,
+   "answer": "A",
+   "clue": "Sin embargo",
+   "why": "«Sin embargo» contrasts with the old routine; the next paragraphs give the reasons for the change."
+  },
+  {
+   "n": 2,
+   "answer": "B",
+   "clue": "ha subido",
+   "why": "The price rise is the economic reason, and «eso supone» calculates its cost."
+  },
+  {
+   "n": 3,
+   "answer": "C",
+   "clue": "más sal",
+   "why": "It explains the health reason; the next sentence mentions controlling salt and oil."
+  },
+  {
+   "n": 4,
+   "answer": "D",
+   "clue": "zona para comer",
+   "why": "«Por eso» follows from companies noticing the change; «Algunas… otras…» describe those areas."
+  },
+  {
+   "n": 5,
+   "answer": "E",
+   "clue": "encontrar tiempo para cocinar",
+   "why": "It develops «exige organización»; the next sentence shows how to save time."
+  },
+  {
+   "n": 6,
+   "answer": "F",
+   "clue": "Lo ideal",
+   "why": "It gives the nutritionists' first advice; «También» adds another."
+  },
+  {
+   "n": 7,
+   "answer": "G",
+   "clue": "Algunos",
+   "why": "«Algunos» (restaurantes) pairs with «Otros» in the next sentence."
+  }
+ ]
+}

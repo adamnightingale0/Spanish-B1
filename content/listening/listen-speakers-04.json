@@ -1,0 +1,100 @@
+{
+ "id": "listen-speakers-04",
+ "unit": 11,
+ "taskFormat": "listen-speakers",
+ "title": "Un regalo para Pilar",
+ "voiceRate": 1,
+ "context": "Vas a escuchar una conversación entre tres compañeros de trabajo, Alba, Bernardo y César, que organizan un regalo para una compañera que se jubila.",
+ "speakers": {
+  "A": "Alba",
+  "B": "Bernardo",
+  "C": "César"
+ },
+ "script": [
+  {
+   "speaker": "A",
+   "line": "Bueno, Pilar se jubila el viernes y todavía no tenemos regalo. Tenemos que decidirlo hoy."
+  },
+  {
+   "speaker": "B",
+   "line": "Yo había pensado en un reloj bonito, algo para que se acuerde de nosotros."
+  },
+  {
+   "speaker": "C",
+   "line": "¿Un reloj? ¿Para una persona que se jubila? ¡Si precisamente ya no va a tener horarios!"
+  },
+  {
+   "speaker": "A",
+   "line": "Ja, ja, tiene razón César. Además, Pilar nunca lleva reloj, mira la hora en el móvil."
+  },
+  {
+   "speaker": "B",
+   "line": "Vale, vale. ¿Y qué le gusta? Yo la conozco poco, solo llevo un año en la empresa."
+  },
+  {
+   "speaker": "C",
+   "line": "Le encanta viajar. Siempre nos enseña fotos de sus viajes con su marido."
+  },
+  {
+   "speaker": "A",
+   "line": "¡Pues ya está! Le regalamos un fin de semana en un hotel con encanto. Entre todos los del departamento, sale a unos veinte euros por persona."
+  },
+  {
+   "speaker": "B",
+   "line": "Me parece estupendo. Yo puedo encargarme de buscar el hotel, que tengo tiempo esta tarde."
+  },
+  {
+   "speaker": "C",
+   "line": "Y yo recojo el dinero. Mañana paso por todas las mesas."
+  },
+  {
+   "speaker": "A",
+   "line": "Perfecto. Yo escribo la tarjeta y le pido a todo el mundo que firme."
+  },
+  {
+   "speaker": "B",
+   "line": "Oye, ¿y si además organizamos una comida el viernes? Así nos despedimos de ella como se merece."
+  },
+  {
+   "speaker": "C",
+   "line": "Buena idea, pero que no sea muy cara, que este mes vamos todos justos."
+  }
+ ],
+ "statements": [
+  {
+   "s": "Quería regalarle un reloj.",
+   "answer": "B",
+   "evidence": "Yo había pensado en un reloj bonito"
+  },
+  {
+   "s": "Piensa que un reloj no es buena idea para alguien que se jubila.",
+   "answer": "C",
+   "evidence": "¿Un reloj? ¿Para una persona que se jubila?"
+  },
+  {
+   "s": "Lleva poco tiempo trabajando en la empresa.",
+   "answer": "B",
+   "evidence": "solo llevo un año en la empresa"
+  },
+  {
+   "s": "Propone el regalo final.",
+   "answer": "A",
+   "evidence": "Le regalamos un fin de semana en un hotel con encanto."
+  },
+  {
+   "s": "Va a reservar los billetes de avión.",
+   "answer": "N",
+   "evidence": "Yo puedo encargarme de buscar el hotel"
+  },
+  {
+   "s": "Va a recoger el dinero de los compañeros.",
+   "answer": "C",
+   "evidence": "Y yo recojo el dinero."
+  },
+  {
+   "s": "Sugiere una comida de despedida.",
+   "answer": "B",
+   "evidence": "¿y si además organizamos una comida el viernes?"
+  }
+ ]
+}

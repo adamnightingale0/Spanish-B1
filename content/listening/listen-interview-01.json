@@ -85,51 +85,51 @@
   {
    "q": "¿Cómo reaccionaron sus padres?",
    "options": [
+    "Le ofrecieron dinero para el negocio.",
     "La apoyaron desde el principio.",
-    "No estaban de acuerdo con su decisión.",
-    "Le ofrecieron dinero para el negocio."
+    "No estaban de acuerdo con su decisión."
    ],
-   "answer": 1,
+   "answer": 2,
    "evidence": "Mis padres, en cambio, pensaban que me había vuelto loca."
   },
   {
    "q": "Antes de abrir la panadería, Teresa…",
    "options": [
-    "no tenía ninguna experiencia práctica.",
     "estudió y trabajó en el sector.",
-    "trabajó doce años en un obrador."
+    "trabajó doce años en un obrador.",
+    "no tenía ninguna experiencia práctica."
    ],
-   "answer": 1,
+   "answer": 0,
    "evidence": "hice un curso de un año en una escuela de panadería de Barcelona y luego trabajé seis meses en un obrador de Valencia"
   },
   {
    "q": "Eligió Sevilla, entre otras razones, porque…",
    "options": [
+    "había menos panaderías.",
     "los alquileres eran más bajos.",
-    "allí vivían sus padres.",
-    "había menos panaderías."
+    "allí vivían sus padres."
    ],
-   "answer": 0,
+   "answer": 1,
    "evidence": "aquí los locales eran mucho más baratos que en Madrid"
   },
   {
    "q": "El primer año del negocio…",
    "options": [
+    "tuvo el triple de clientes.",
     "fue un gran éxito.",
-    "estuvo a punto de cerrarlo.",
-    "tuvo el triple de clientes."
+    "estuvo a punto de cerrarlo."
    ],
-   "answer": 1,
+   "answer": 2,
    "evidence": "pensé muchas veces en cerrar"
   },
   {
    "q": "¿Qué ayudó a que el negocio creciera?",
    "options": [
-    "La publicidad en las redes sociales.",
     "Las recomendaciones de los vecinos.",
-    "Un premio de panadería."
+    "Un premio de panadería.",
+    "La publicidad en las redes sociales."
    ],
-   "answer": 1,
+   "answer": 0,
    "evidence": "los vecinos empezaron a recomendarnos"
   },
   {

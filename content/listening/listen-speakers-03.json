@@ -1,0 +1,104 @@
+{
+ "id": "listen-speakers-03",
+ "unit": 4,
+ "taskFormat": "listen-speakers",
+ "title": "¿Qué vemos esta noche?",
+ "voiceRate": 1,
+ "context": "Vas a escuchar una conversación entre tres amigos, Andrés, Bea y Carmen, que deciden qué ver en el cine esta noche.",
+ "speakers": {
+  "A": "Andrés",
+  "B": "Bea",
+  "C": "Carmen"
+ },
+ "script": [
+  {
+   "speaker": "A",
+   "line": "Venga, chicas, ¿qué película vemos? Yo voto por la nueva de ciencia ficción, la de la nave que se pierde en el espacio."
+  },
+  {
+   "speaker": "B",
+   "line": "Uf, otra vez naves espaciales… La semana pasada ya vimos una de esas y me aburrí muchísimo."
+  },
+  {
+   "speaker": "C",
+   "line": "Pues yo he leído que la nueva de Almodóvar está muy bien. Dicen que la actriz principal está increíble."
+  },
+  {
+   "speaker": "A",
+   "line": "¿Almodóvar? Es que sus películas me parecen un poco raras, la verdad."
+  },
+  {
+   "speaker": "B",
+   "line": "A mí me encanta Almodóvar, pero hoy me apetece algo más ligero. ¿No hay ninguna comedia?"
+  },
+  {
+   "speaker": "C",
+   "line": "Hay una comedia francesa, pero es en versión original con subtítulos."
+  },
+  {
+   "speaker": "A",
+   "line": "Por mí no hay problema, así practico el francés. Lo estudié en el instituto."
+  },
+  {
+   "speaker": "B",
+   "line": "Vale, pero ¿a qué hora es? Porque mañana empiezo a trabajar muy temprano."
+  },
+  {
+   "speaker": "C",
+   "line": "Hay una sesión a las ocho y otra a las diez y media."
+  },
+  {
+   "speaker": "B",
+   "line": "La de las ocho, por favor. Si no, mañana no hay quien me levante."
+  },
+  {
+   "speaker": "A",
+   "line": "Perfecto. Yo compro las entradas por internet, que así nos sale más barato."
+  },
+  {
+   "speaker": "C",
+   "line": "Y después, si queréis, cenamos algo rápido en el bar de al lado. Invito yo, que el otro día pagasteis vosotros."
+  },
+  {
+   "speaker": "B",
+   "line": "¡Genial! Pero algo ligero, ¿eh?"
+  }
+ ],
+ "statements": [
+  {
+   "s": "Propone una película de ciencia ficción.",
+   "answer": "A",
+   "evidence": "Yo voto por la nueva de ciencia ficción"
+  },
+  {
+   "s": "Se aburrió con una película reciente.",
+   "answer": "B",
+   "evidence": "me aburrí muchísimo"
+  },
+  {
+   "s": "Ha leído buenas críticas de una película.",
+   "answer": "C",
+   "evidence": "Pues yo he leído que la nueva de Almodóvar está muy bien."
+  },
+  {
+   "s": "Estudió francés en el colegio o instituto.",
+   "answer": "A",
+   "evidence": "Lo estudié en el instituto."
+  },
+  {
+   "s": "Prefiere la primera sesión porque madruga.",
+   "answer": "B",
+   "evidence": "La de las ocho, por favor."
+  },
+  {
+   "s": "Ya ha comprado las entradas.",
+   "answer": "N",
+   "evidence": "Yo compro las entradas por internet"
+  },
+  {
+   "s": "Va a pagar la cena.",
+   "answer": "C",
+   "evidence": "Invito yo"
+  }
+ ]
+}

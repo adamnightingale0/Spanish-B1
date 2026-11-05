@@ -1,0 +1,90 @@
+{
+ "id": "read-mcq-05",
+ "unit": 11,
+ "taskFormat": "read-mcq",
+ "topic": "vida en la ciudad",
+ "title": "Vecinos y turistas: convivir en el centro",
+ "text": [
+  "Quien pasea hoy por el centro de Sevilla, Málaga o Valencia oye hablar inglés, francés o italiano casi tanto como español. El turismo es una de las principales fuentes de riqueza del país y da trabajo a millones de personas. Pero en algunos barrios históricos los vecinos empiezan a sentir que la ciudad ya no es para ellos.",
+  "El principal motivo de queja son los pisos turísticos. En el barrio de Santa Cruz, en Sevilla, más de la mitad de las viviendas se alquilan hoy a visitantes. «Cuando llegué, hace treinta años, conocía a todos mis vecinos. Ahora en mi edificio solo quedamos dos familias. El resto son maletas que entran y salen», cuenta Mercedes, una jubilada de 74 años.",
+  "Las cifras ayudan a entender el problema. Sevilla recibió en 2024 más de tres millones de visitantes, una cifra récord. En los barrios del centro, el número de habitantes ha bajado casi un quince por ciento en diez años, mientras que el de plazas turísticas no ha dejado de crecer.",
+  "Los efectos se notan en el día a día. Las tiendas tradicionales cierran y en su lugar abren heladerías, tiendas de recuerdos y bares para turistas. Los alquileres suben tanto que los jóvenes del barrio tienen que irse a vivir a las afueras. Y el ruido de las maletas por la mañana temprano o de las fiestas por la noche se ha convertido en una pesadilla para muchos.",
+  "Los propietarios de los pisos turísticos ven la situación de otra manera. Para muchos, alquilar a visitantes es una forma de completar un sueldo bajo o una pensión. «Yo heredé el piso de mis padres y con lo que gano pago los estudios de mi hija. No soy una gran empresa, soy una persona normal», explica Luis, que alquila un apartamento en el centro de Málaga.",
+  "Las administraciones han empezado a reaccionar. Varios ayuntamientos han dejado de dar licencias para nuevos pisos turísticos en el centro, y otros han subido los impuestos a los que ya existen. Algunas ciudades cobran también una tasa a cada turista por noche, con la que pagan la limpieza de las calles y el mantenimiento de los monumentos.",
+  "Los expertos creen que la solución no es estar en contra del turismo, sino buscar un equilibrio. «El turista no es el enemigo», dice la urbanista Carmen Vidal. «El problema aparece cuando un barrio solo vive para los visitantes. Hay que proteger la vivienda para los vecinos, apoyar el comercio local y repartir mejor a los turistas por toda la ciudad, no solo por tres calles».",
+  "Algunos turistas también son conscientes del problema. Cada vez más viajeros prefieren alojarse en hoteles o en barrios menos céntricos, comprar en mercados locales y visitar la ciudad fuera de la temporada alta. «Venimos a conocer cómo vive la gente de aquí. Si en el centro solo hay turistas como nosotros, ¿qué sentido tiene?», comenta una pareja holandesa en la plaza del Salvador.",
+  "Mientras tanto, algunos vecinos se organizan. En Santa Cruz, una asociación ha colgado carteles en los balcones con el mensaje «Aquí vive gente». No quieren que se vayan los turistas, explican, sino que no se vayan los vecinos."
+ ],
+ "questions": [
+  {
+   "q": "Según el primer párrafo, el turismo…",
+   "options": [
+    "crea mucho empleo, pero causa problemas en algunos barrios.",
+    "solo afecta a Sevilla.",
+    "es poco importante para la economía."
+   ],
+   "answer": 0,
+   "evidence": "da trabajo a millones de personas"
+  },
+  {
+   "q": "Mercedes cuenta que en su edificio…",
+   "options": [
+    "hay demasiadas tiendas tradicionales.",
+    "ya casi no viven familias.",
+    "viven muchos jóvenes del barrio."
+   ],
+   "answer": 1,
+   "evidence": "Ahora en mi edificio solo quedamos dos familias."
+  },
+  {
+   "q": "¿Qué consecuencia del turismo se menciona en el tercer párrafo?",
+   "options": [
+    "Abren más tiendas tradicionales.",
+    "Los alquileres bajan.",
+    "Los jóvenes tienen que mudarse lejos del centro."
+   ],
+   "answer": 2,
+   "evidence": "los jóvenes del barrio tienen que irse a vivir a las afueras"
+  },
+  {
+   "q": "Luis alquila su piso a turistas porque…",
+   "options": [
+    "así paga los estudios de su hija.",
+    "no le gusta vivir en el centro.",
+    "es el dueño de una gran empresa."
+   ],
+   "answer": 0,
+   "evidence": "con lo que gano pago los estudios de mi hija"
+  },
+  {
+   "q": "¿Qué han hecho algunos ayuntamientos?",
+   "options": [
+    "Prohibir el turismo los fines de semana.",
+    "Dejar de dar licencias nuevas en el centro.",
+    "Dar más licencias en el centro."
+   ],
+   "answer": 1,
+   "evidence": "Varios ayuntamientos han dejado de dar licencias para nuevos pisos turísticos en el centro"
+  },
+  {
+   "q": "Para la urbanista Carmen Vidal, la solución es…",
+   "options": [
+    "concentrar a los turistas en pocas calles.",
+    "reducir el número de turistas a la mitad.",
+    "encontrar un equilibrio entre vecinos y visitantes."
+   ],
+   "answer": 2,
+   "evidence": "buscar un equilibrio"
+  },
+  {
+   "q": "Con sus carteles, la asociación de Santa Cruz quiere…",
+   "options": [
+    "que los vecinos puedan quedarse en el barrio.",
+    "atraer a más visitantes.",
+    "que los turistas se marchen."
+   ],
+   "answer": 0,
+   "evidence": "sino que no se vayan los vecinos"
+  }
+ ]
+}

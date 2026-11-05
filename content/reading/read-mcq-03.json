@@ -27,21 +27,21 @@
   {
    "q": "¿Por qué presta herramientas la biblioteca de San Jerónimo?",
    "options": [
-    "Porque son objetos que se usan poco y es absurdo que todos los compren.",
     "Porque los vecinos las donaron a la biblioteca.",
-    "Porque organiza talleres de bricolaje cada semana."
+    "Porque organiza talleres de bricolaje cada semana.",
+    "Porque son objetos que se usan poco y es absurdo que todos los compren."
    ],
-   "answer": 0,
+   "answer": 2,
    "evidence": "Mucha gente necesita un taladro una vez al año. No tiene sentido que cada vecino compre uno"
   },
   {
    "q": "En la biblioteca de San Jerónimo…",
    "options": [
-    "está prohibido hablar en todo el edificio.",
     "hay una zona para hablar y otra para estudiar en silencio.",
-    "no se puede comer en ninguna sala."
+    "no se puede comer en ninguna sala.",
+    "está prohibido hablar en todo el edificio."
    ],
-   "answer": 1,
+   "answer": 0,
    "evidence": "el silencio total solo se exige en la sala de estudio del primer piso"
   },
   {
@@ -57,21 +57,21 @@
   {
    "q": "En verano, algunos ayuntamientos han decidido…",
    "options": [
+    "instalar aire acondicionado en las casas.",
     "cerrar las bibliotecas por el calor.",
-    "abrir más horas las bibliotecas.",
-    "instalar aire acondicionado en las casas."
+    "abrir más horas las bibliotecas."
    ],
-   "answer": 1,
+   "answer": 2,
    "evidence": "Varios ayuntamientos han decidido ampliar el horario en julio y agosto"
   },
   {
    "q": "¿Qué problema menciona el bibliotecario de Zaragoza?",
    "options": [
-    "Que hay demasiados trabajadores.",
     "Que tienen que hacer más con los mismos recursos.",
-    "Que la gente ya no lee libros en papel."
+    "Que la gente ya no lee libros en papel.",
+    "Que hay demasiados trabajadores."
    ],
-   "answer": 1,
+   "answer": 0,
    "evidence": "Hacemos muchas más cosas con el mismo número de trabajadores, o incluso con menos"
   },
   {

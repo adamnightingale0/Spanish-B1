@@ -1,0 +1,130 @@
+{
+ "id": "listen-interview-04",
+ "unit": 6,
+ "taskFormat": "listen-interview",
+ "title": "Entrevista: un maestro rural",
+ "voiceRate": 1,
+ "context": "Vas a escuchar una entrevista de radio con Ramón Gil, maestro en una escuela de un pueblo pequeño de la sierra de Huelva.",
+ "script": [
+  {
+   "speaker": "Entrevistadora",
+   "line": "Ramón, usted da clase en una escuela con solo once alumnos. ¿Cómo es un día normal?"
+  },
+  {
+   "speaker": "Ramón",
+   "line": "Pues muy variado. Tengo niños de tres a doce años en la misma aula. Mientras los mayores hacen problemas de matemáticas, yo leo un cuento con los pequeños. Y muchas veces son los mayores los que ayudan a los pequeños."
+  },
+  {
+   "speaker": "Entrevistadora",
+   "line": "¿Llegó al pueblo por elección o por obligación?"
+  },
+  {
+   "speaker": "Ramón",
+   "line": "Por obligación, la verdad. Era mi primer destino, hace quince años, y pensaba quedarme solo un curso. Pero me enamoré del pueblo y de la gente, y aquí sigo."
+  },
+  {
+   "speaker": "Entrevistadora",
+   "line": "¿Cuáles son las ventajas de una escuela tan pequeña?"
+  },
+  {
+   "speaker": "Ramón",
+   "line": "Conozco a cada niño perfectamente: sé qué le cuesta, qué le gusta, cómo está su familia. Además, salimos mucho al campo. La naturaleza es nuestro mejor laboratorio."
+  },
+  {
+   "speaker": "Entrevistadora",
+   "line": "¿Y los inconvenientes?"
+  },
+  {
+   "speaker": "Ramón",
+   "line": "El mayor problema es que cada año hay menos niños. Las familias jóvenes se van a la ciudad porque aquí no hay trabajo. Si bajamos de cinco alumnos, la Junta puede cerrar la escuela."
+  },
+  {
+   "speaker": "Entrevistadora",
+   "line": "Han hecho una campaña para atraer familias, ¿verdad?"
+  },
+  {
+   "speaker": "Ramón",
+   "line": "Sí. El ayuntamiento ofrece casas a un precio muy bajo a familias con hijos que quieran venir a vivir aquí. El año pasado llegaron dos familias, una de Madrid y otra de Argentina, y gracias a ellas tenemos cuatro alumnos más."
+  },
+  {
+   "speaker": "Entrevistadora",
+   "line": "¿Qué pediría usted a las administraciones?"
+  },
+  {
+   "speaker": "Ramón",
+   "line": "Que no miren solo los números. Una escuela en un pueblo es mucho más que un edificio: si se cierra la escuela, el pueblo muere. Necesitamos buena conexión a internet y transporte para que la gente pueda quedarse."
+  }
+ ],
+ "questions": [
+  {
+   "q": "En la escuela de Ramón…",
+   "options": [
+    "cada edad tiene su propia clase.",
+    "niños de distintas edades estudian juntos.",
+    "solo hay alumnos de primaria."
+   ],
+   "answer": 1,
+   "evidence": "Tengo niños de tres a doce años en la misma aula."
+  },
+  {
+   "q": "¿Por qué llegó Ramón al pueblo?",
+   "options": [
+    "Porque su familia vivía allí.",
+    "Porque buscaba una vida tranquila.",
+    "Porque era su primer destino como maestro."
+   ],
+   "answer": 2,
+   "evidence": "Era mi primer destino"
+  },
+  {
+   "q": "Al principio, Ramón pensaba…",
+   "options": [
+    "quedarse solo un año.",
+    "abrir una escuela nueva.",
+    "quedarse para siempre."
+   ],
+   "answer": 0,
+   "evidence": "pensaba quedarme solo un curso"
+  },
+  {
+   "q": "Una ventaja de la escuela pequeña es que…",
+   "options": [
+    "tiene un laboratorio muy moderno.",
+    "el maestro conoce muy bien a cada alumno.",
+    "los niños no tienen deberes."
+   ],
+   "answer": 1,
+   "evidence": "Conozco a cada niño perfectamente"
+  },
+  {
+   "q": "La escuela podría cerrar si…",
+   "options": [
+    "Ramón se va del pueblo.",
+    "no hay internet.",
+    "tiene menos de cinco alumnos."
+   ],
+   "answer": 2,
+   "evidence": "Si bajamos de cinco alumnos, la Junta puede cerrar la escuela."
+  },
+  {
+   "q": "Gracias a la campaña del ayuntamiento…",
+   "options": [
+    "la escuela tiene más alumnos.",
+    "se ha construido una escuela nueva.",
+    "Ramón ha conseguido una casa."
+   ],
+   "answer": 0,
+   "evidence": "gracias a ellas tenemos cuatro alumnos más"
+  },
+  {
+   "q": "Ramón pide a las administraciones que…",
+   "options": [
+    "cierren las escuelas pequeñas.",
+    "tengan en cuenta algo más que las cifras.",
+    "paguen más a los maestros rurales."
+   ],
+   "answer": 1,
+   "evidence": "Que no miren solo los números."
+  }
+ ]
+}

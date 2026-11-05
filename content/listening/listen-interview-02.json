@@ -67,51 +67,51 @@
   {
    "q": "¿Por qué empezó Marcos su viaje?",
    "options": [
+    "Porque un periódico le pagó el viaje.",
     "Porque había ganado un premio.",
-    "Porque se quedó sin trabajo.",
-    "Porque un periódico le pagó el viaje."
+    "Porque se quedó sin trabajo."
    ],
-   "answer": 1,
+   "answer": 2,
    "evidence": "empezó con un despido"
   },
   {
    "q": "¿Cómo consiguió dinero durante el viaje?",
    "options": [
-    "Trabajando en hoteles.",
     "Con fotos y clases de fotografía.",
-    "Con la ayuda de su familia."
+    "Con la ayuda de su familia.",
+    "Trabajando en hoteles."
    ],
-   "answer": 1,
+   "answer": 0,
    "evidence": "vendiendo fotos a revistas y dando talleres de fotografía"
   },
   {
    "q": "En Bolivia, Marcos…",
    "options": [
+    "se quedó un año con una familia.",
     "perdió las fotos de varios meses.",
-    "ganó un concurso de fotografía.",
-    "se quedó un año con una familia."
+    "ganó un concurso de fotografía."
    ],
-   "answer": 0,
+   "answer": 1,
    "evidence": "Había perdido las fotos de tres meses"
   },
   {
    "q": "Después del robo, Marcos…",
    "options": [
+    "se compró una cámara nueva.",
     "volvió a España.",
-    "siguió viajando con una cámara prestada.",
-    "se compró una cámara nueva."
+    "siguió viajando con una cámara prestada."
    ],
-   "answer": 1,
+   "answer": 2,
    "evidence": "me prestó una cámara vieja"
   },
   {
    "q": "De Vietnam, lo que más le impresionó fue…",
    "options": [
+    "las personas.",
     "las playas.",
-    "los templos.",
-    "las personas."
+    "los templos."
    ],
-   "answer": 2,
+   "answer": 0,
    "evidence": "lo que más me impresionó fue la gente"
   },
   {
@@ -127,11 +127,11 @@
   {
    "q": "¿Qué ha aprendido Marcos en el viaje?",
    "options": [
+    "Que es mejor viajar acompañado.",
     "Que viajar es muy caro.",
-    "Que necesitamos menos de lo que pensamos.",
-    "Que es mejor viajar acompañado."
+    "Que necesitamos menos de lo que pensamos."
    ],
-   "answer": 1,
+   "answer": 2,
    "evidence": "se necesitan muchas menos cosas de las que creemos"
   }
  ]

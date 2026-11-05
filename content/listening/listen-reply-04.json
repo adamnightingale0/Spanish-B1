@@ -1,0 +1,75 @@
+{
+ "id": "listen-reply-04",
+ "unit": 0,
+ "taskFormat": "listen-reply",
+ "title": "Mensajes y comentarios (4)",
+ "voiceRate": 1,
+ "items": [
+  {
+   "speaker": "M",
+   "script": "Hola, soy el fontanero. Llego un poco tarde porque hay muchísimo tráfico. Estaré en su casa en unos veinte minutos.",
+   "options": [
+    "De acuerdo, no se preocupe, aquí le espero.",
+    "¡Feliz viaje!",
+    "No, gracias, no necesito un fontanero."
+   ],
+   "answer": 0,
+   "why": "A professional says he's late → accept politely (usted)."
+  },
+  {
+   "speaker": "F",
+   "script": "Mañana es el cumpleaños de Lucía y todavía no tengo regalo. ¿Se te ocurre algo?",
+   "options": [
+    "¡Que cumplas muchos más!",
+    "¿Por qué no le regalas unas entradas para un concierto?",
+    "Sí, ayer fue mi cumpleaños."
+   ],
+   "answer": 1,
+   "why": "She asks for ideas → suggest something (¿por qué no…?)."
+  },
+  {
+   "speaker": "M",
+   "script": "No me puedo creer que el Betis haya perdido otra vez. Es el tercer partido seguido.",
+   "options": [
+    "¡Enhorabuena por la victoria!",
+    "Sí, mañana juego al tenis.",
+    "Bueno, hombre, ya ganarán el próximo."
+   ],
+   "answer": 2,
+   "why": "He's disappointed → console him."
+  },
+  {
+   "speaker": "F",
+   "script": "¿Te importaría bajar un poco la música? Es que mañana tengo un examen a las ocho y necesito dormir.",
+   "options": [
+    "Claro, perdona, la bajo ahora mismo.",
+    "Sí, me importa mucho el examen.",
+    "No, la música es de un grupo inglés."
+   ],
+   "answer": 0,
+   "why": "A polite request → agree and apologise."
+  },
+  {
+   "speaker": "M",
+   "script": "Al final me han dado la beca para estudiar en Alemania. Me voy en septiembre para un año entero.",
+   "options": [
+    "No, yo prefiero Italia.",
+    "¡Qué alegría! Te voy a echar de menos.",
+    "¡Qué pena! Otra vez será."
+   ],
+   "answer": 1,
+   "why": "Good news that means goodbye → be happy for him and say you'll miss him."
+  },
+  {
+   "speaker": "F",
+   "script": "He probado tu receta de tortilla y me ha salido fatal: se me ha roto al darle la vuelta.",
+   "options": [
+    "¡Que aproveche!",
+    "Sí, yo también he comprado huevos.",
+    "No pasa nada, al principio a todo el mundo le pasa. Usa un plato grande."
+   ],
+   "answer": 2,
+   "why": "She's disappointed → reassure her and give a tip."
+  }
+ ]
+}

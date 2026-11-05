@@ -1,0 +1,90 @@
+{
+ "id": "read-mcq-04",
+ "unit": 2,
+ "taskFormat": "read-mcq",
+ "topic": "trabajo",
+ "title": "La semana de cuatro días, a prueba",
+ "text": [
+  "Trabajar cuatro días y descansar tres. Lo que hace unos años parecía un sueño se está probando ya en empresas de varios países europeos, y también en España. En 2023, una empresa de software de Valencia decidió reducir la jornada de sus sesenta empleados a 32 horas semanales sin bajar los sueldos. Dos años después, sus responsables aseguran que no piensan volver atrás.",
+  "«Al principio teníamos mucho miedo», reconoce Begoña Llorens, la directora de recursos humanos. «Pensábamos que los clientes se iban a quejar o que no íbamos a terminar los proyectos a tiempo. Pero pasó lo contrario: la gente se organizaba mejor, había menos reuniones inútiles y casi nadie se ponía enfermo». Según los datos de la empresa, la productividad subió un 8 % el primer año y las bajas por enfermedad se redujeron a la mitad.",
+  "Para que el cambio funcionara, la empresa tuvo que cambiar algunas costumbres. Las reuniones duran como máximo treinta minutos y siempre tienen un orden del día. Además, hay dos horas cada mañana en las que nadie puede enviar mensajes internos, para que todos puedan concentrarse. «El secreto no es trabajar más rápido, sino perder menos tiempo», resume Llorens.",
+  "Los trabajadores, como es lógico, están encantados. Javier, programador de 38 años y padre de dos niños, cuenta que ahora puede llevar a sus hijos al colegio los viernes y apuntarse a un club de ciclismo. «Antes llegaba al fin de semana agotado. Ahora el lunes empiezo con energía». Otros empleados aprovechan el día libre para estudiar, cuidar de sus padres o simplemente descansar.",
+  "La experiencia no es única. En el Reino Unido, más de setenta empresas participaron en 2022 en una prueba similar durante seis meses, y casi todas decidieron continuar después. Islandia, por su parte, redujo la jornada de miles de funcionarios sin que empeorara el servicio público. Estos resultados han animado a sindicatos y a algunos partidos políticos a pedir que la semana de cuatro días se convierta en ley.",
+  "Sin embargo, el modelo tiene también sus críticos. Muchos economistas señalan que no todos los sectores pueden aplicarlo. «En un hospital, en una tienda o en un restaurante no puedes cerrar un día a la semana. Habría que contratar a más personas, y eso cuesta dinero», explica el economista Andrés Pardo. También advierte de un riesgo: que los trabajadores acaben haciendo en cuatro días el trabajo de cinco y terminen más estresados.",
+  "El Gobierno español lanzó en 2024 un programa de ayudas para que las pequeñas empresas probaran la semana de cuatro días durante un año. Participaron unas doscientas, pero los resultados han sido desiguales: algunas han mantenido el nuevo horario y otras han vuelto a la semana tradicional porque no conseguían atender a todos sus clientes.",
+  "Para la socióloga Marta Quintero, el debate no debería centrarse solo en las horas. «Lo importante es cómo trabajamos. Hay oficinas donde se pasan ocho horas, pero se trabaja de verdad cinco. Si reducimos el tiempo perdido, todos ganamos: la empresa, el trabajador y su familia». Quintero recuerda además que, hace un siglo, la semana de cuarenta horas también parecía imposible.",
+  "Lo que parece claro es que la manera de trabajar está cambiando. El teletrabajo, los horarios flexibles y ahora la semana de cuatro días muestran que muchas personas ya no quieren vivir para trabajar. Como dice Javier: «Nadie se ha muerto deseando haber pasado más horas en la oficina»."
+ ],
+ "questions": [
+  {
+   "q": "La empresa de Valencia redujo la jornada…",
+   "options": [
+    "solo para los empleados nuevos.",
+    "y bajó un poco los sueldos.",
+    "manteniendo los mismos sueldos."
+   ],
+   "answer": 2,
+   "evidence": "sin bajar los sueldos"
+  },
+  {
+   "q": "Al principio, a la empresa le preocupaba…",
+   "options": [
+    "la reacción de los clientes y los plazos.",
+    "que los empleados no quisieran el cambio.",
+    "el precio de la nueva oficina."
+   ],
+   "answer": 0,
+   "evidence": "Pensábamos que los clientes se iban a quejar o que no íbamos a terminar los proyectos a tiempo."
+  },
+  {
+   "q": "Según los datos de la empresa, el primer año…",
+   "options": [
+    "la productividad bajó un poco.",
+    "la gente trabajó mejor y enfermó menos.",
+    "hubo más bajas por enfermedad."
+   ],
+   "answer": 1,
+   "evidence": "la productividad subió un 8 % el primer año y las bajas por enfermedad se redujeron a la mitad"
+  },
+  {
+   "q": "¿Qué cambio de costumbres se menciona?",
+   "options": [
+    "Los empleados trabajan desde casa los viernes.",
+    "Hay más reuniones, pero más cortas.",
+    "Hay unas horas sin mensajes internos."
+   ],
+   "answer": 2,
+   "evidence": "hay dos horas cada mañana en las que nadie puede enviar mensajes internos"
+  },
+  {
+   "q": "Para Javier, el principal cambio ha sido…",
+   "options": [
+    "tener más tiempo para su familia y sus aficiones.",
+    "ganar más dinero.",
+    "poder trabajar más horas los lunes."
+   ],
+   "answer": 0,
+   "evidence": "ahora puede llevar a sus hijos al colegio los viernes y apuntarse a un club de ciclismo"
+  },
+  {
+   "q": "El economista Andrés Pardo piensa que…",
+   "options": [
+    "todas las empresas deberían aplicar el modelo.",
+    "en algunos sectores el modelo es difícil de aplicar.",
+    "el modelo reduce siempre el estrés."
+   ],
+   "answer": 1,
+   "evidence": "no todos los sectores pueden aplicarlo"
+  },
+  {
+   "q": "Sobre el programa del Gobierno, el texto dice que…",
+   "options": [
+    "fue un fracaso total.",
+    "todas las empresas mantuvieron el nuevo horario.",
+    "los resultados variaron según la empresa."
+   ],
+   "answer": 2,
+   "evidence": "los resultados han sido desiguales"
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "id": "write-u02",
+ "unit": 2,
+ "examTask": 1,
+ "genre": "carta de presentación",
+ "register": "formal",
+ "title": "Carta de presentación",
+ "prompt": "Has visto este anuncio: «Escuela de idiomas de Sevilla busca recepcionista con inglés nativo, buen nivel de español y experiencia de atención al público». Escribe tu carta de presentación.",
+ "contentPoints": [
+  "Di qué puesto solicitas y dónde viste el anuncio.",
+  "Resume tu formación y tu experiencia laboral.",
+  "Explica por qué eres la persona adecuada.",
+  "Indica tu disponibilidad y despídete."
+ ],
+ "targets": [
+  {
+   "label": "Saludo y despedida formales",
+   "pattern": "(?:estimad[oa]s?|distinguid[oa]s?)[\\s\\S]*(?:atentamente|un cordial saludo|saludos cordiales|reciba un saludo)",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Pretérito indefinido (2 veces)",
+   "pattern": "(?:^|[^\\p{L}])(?:fui|fue|fuimos|fueron|estuve|estuvo|estuvimos|tuve|tuvo|tuvimos|hice|hizo|hicimos|pude|pudo|dije|dijo|vine|vino|vi|vio|di|dio|\\p{L}{2,}(?:é|ó|aron|ieron|aste|iste|asteis|isteis))(?![\\p{L}])",
+   "min": 2,
+   "distinct": false
+  },
+  {
+   "label": "Perífrasis (empecé a, llevo… -ando, dejé de, volví a…)",
+   "pattern": "(?:^|[^\\p{L}])(?:empecé a|empezó a|acabo de|acabé de|dejé de|volví a|llevo|sigo|terminé de)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Pretérito perfecto",
+   "pattern": "(?:^|[^\\p{L}])(?:he|has|ha|hemos|habéis|han) \\p{L}+(?:ado|ido|to|cho|so)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  }
+ ],
+ "usefulPhrases": [
+  "Estimados señores:",
+  "Me dirijo a ustedes para…",
+  "Les escribo para informarles de que…",
+  "Me pongo en contacto con ustedes en relación con…",
+  "Tengo experiencia en…",
+  "Llevo… años trabajando como…",
+  "Estoy disponible a partir de…",
+  "Quedo a la espera de su respuesta.",
+  "Atentamente,"
+ ],
+ "modelAnswer": "Estimados señores:\nLes escribo en relación con el puesto de recepcionista que he visto anunciado en su página web. Soy inglés, tengo treinta y dos años y vivo en Sevilla desde hace dos años. Estudié Turismo en la Universidad de Brighton y después trabajé cinco años en la recepción de un hotel de Londres, donde atendía a clientes de todo el mundo. En 2023 me mudé a España y empecé a estudiar español en una academia; actualmente llevo un año preparando el examen B1. Creo que soy la persona adecuada para el puesto porque tengo mucha experiencia de atención al público, soy organizado y me encanta el mundo de los idiomas. Estoy disponible para empezar inmediatamente. Les adjunto mi currículum y quedo a su disposición para una entrevista.\nAtentamente,\nAdam Nightingale",
+ "taskFormat": "write-compulsory",
+ "wordRange": [
+  120,
+  150
+ ]
+}

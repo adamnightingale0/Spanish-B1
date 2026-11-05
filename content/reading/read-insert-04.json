@@ -1,0 +1,102 @@
+{
+ "id": "read-insert-04",
+ "unit": 0,
+ "taskFormat": "read-insert",
+ "topic": "aprender idiomas",
+ "title": "Aprender idiomas con series",
+ "text": [
+  "Hace no tanto tiempo, aprender un idioma significaba pasar horas con un libro de gramática y un diccionario. Hoy, millones de personas en todo el mundo mejoran su inglés, su español o su coreano viendo series en el sofá. {{1}} Pero ¿funciona de verdad?",
+  "Los profesores de idiomas coinciden en que las series son una herramienta muy útil, pero no milagrosa. {{2}} Además, permiten conocer expresiones coloquiales, chistes y costumbres que rara vez aparecen en los libros de texto.",
+  "El problema es que muchas personas ven las series de forma pasiva, como si fueran a la vez una clase y un entretenimiento. {{3}} Por eso, los expertos recomiendan hacer algo más que mirar la pantalla: pausar, repetir las frases en voz alta o apuntar las palabras nuevas en un cuaderno.",
+  "Los subtítulos son otro tema de debate. Para los principiantes, verlos en su propia lengua puede ser una ayuda al principio. {{4}} La mayoría de los especialistas aconseja pasar cuanto antes a los subtítulos en el idioma que se está aprendiendo.",
+  "También es importante elegir bien. {{5}} Una comedia de situación con diálogos cortos y vocabulario cotidiano suele ser más útil, al menos al principio, que un drama histórico lleno de palabras antiguas.",
+  "Algunas plataformas y aplicaciones ofrecen ya herramientas pensadas para estudiantes. {{6}} Con un solo toque en la pantalla se puede ver la traducción de una palabra o volver a escuchar una frase difícil.",
+  "Al final, lo más importante es la constancia. {{7}} Veinte minutos cada día dan mejores resultados que una maratón de diez capítulos el domingo."
+ ],
+ "fragments": [
+  {
+   "id": "A",
+   "text": "Gracias a ellas, el alumno escucha la lengua real, con distintos acentos y a la velocidad normal de los hablantes."
+  },
+  {
+   "id": "B",
+   "text": "De este modo, el cerebro disfruta de la historia, pero no se esfuerza por aprender."
+  },
+  {
+   "id": "C",
+   "text": "Sin embargo, si se usan siempre, el oído deja de trabajar y se lee más de lo que se escucha."
+  },
+  {
+   "id": "D",
+   "text": "No todas las series son igual de adecuadas para aprender."
+  },
+  {
+   "id": "E",
+   "text": "Es el caso de las extensiones que muestran dos subtítulos a la vez, uno en cada idioma."
+  },
+  {
+   "id": "F",
+   "text": "Como con cualquier otra actividad, aprender un poco cada día es la clave."
+  },
+  {
+   "id": "G",
+   "text": "Las plataformas de vídeo lo han hecho posible: basta con cambiar el idioma del audio y de los subtítulos."
+  },
+  {
+   "id": "H",
+   "text": "Por eso, las series no sirven para nada a los principiantes."
+  },
+  {
+   "id": "I",
+   "text": "Los libros de gramática, en cambio, se venden más que nunca."
+  },
+  {
+   "id": "J",
+   "text": "Las películas de acción son, sin duda, las mejores para empezar."
+  }
+ ],
+ "gaps": [
+  {
+   "n": 1,
+   "answer": "G",
+   "clue": "lo han hecho posible",
+   "why": "«lo» refers to improving a language by watching series; the question «¿funciona de verdad?» follows."
+  },
+  {
+   "n": 2,
+   "answer": "A",
+   "clue": "Gracias a ellas",
+   "why": "«ellas» refers to «las series»; «Además» then adds a second advantage."
+  },
+  {
+   "n": 3,
+   "answer": "B",
+   "clue": "De este modo",
+   "why": "«De este modo» refers to watching passively; «Por eso» then introduces the experts' advice."
+  },
+  {
+   "n": 4,
+   "answer": "C",
+   "clue": "Sin embargo",
+   "why": "It contrasts with «puede ser una ayuda al principio» and explains why to switch subtitles."
+  },
+  {
+   "n": 5,
+   "answer": "D",
+   "clue": "No todas las series",
+   "why": "It develops «elegir bien», and the next sentence compares two kinds of series."
+  },
+  {
+   "n": 6,
+   "answer": "E",
+   "clue": "Es el caso de",
+   "why": "It gives an example of the tools for students mentioned just before."
+  },
+  {
+   "n": 7,
+   "answer": "F",
+   "clue": "un poco cada día",
+   "why": "It develops «la constancia», illustrated by twenty minutes a day."
+  }
+ ]
+}
