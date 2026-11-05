@@ -127,7 +127,7 @@ export function Practice() {
       <h2>Destrezas</h2>
       <div class="card">
         <p class="small muted">
-          Lectura y audición con el formato del examen de la Universidad de Sevilla. La expresión escrita y oral llegan en las fases 4 y 5, con el formato del examen de la
+          Lectura y audición con el formato del examen de la Universidad de Sevilla. La expresión oral llega en la fase 5, con el formato del examen de la
           Universidad de Sevilla.
         </p>
         <div class="row wrap">
@@ -140,7 +140,10 @@ export function Practice() {
           <button class="grow btn-small btn-primary" onClick={() => navigate('listening')}>
             Audición
           </button>
-          {['Escritura', 'Oral'].map((s) => (
+          <button class="grow btn-small btn-primary" onClick={() => navigate('writing')}>
+            Escritura
+          </button>
+          {['Oral'].map((s) => (
             <button class="grow btn-small" disabled>
               {s}
             </button>

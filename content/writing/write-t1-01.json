@@ -1,0 +1,57 @@
+{
+ "id": "write-t1-01",
+ "set": 1,
+ "examTask": 1,
+ "genre": "testimonio para una web",
+ "register": "neutro",
+ "title": "Un voluntariado en el extranjero",
+ "prompt": "La web de una ONG que organiza voluntariados internacionales busca testimonios de personas que han participado en sus programas. Escribe tu testimonio.",
+ "contentPoints": [
+  "Dónde estuviste, cuándo y durante cuánto tiempo.",
+  "Qué hacías un día normal.",
+  "Una experiencia concreta que recuerdas especialmente.",
+  "Qué aprendiste.",
+  "Consejos para futuros voluntarios."
+ ],
+ "targets": [
+  {
+   "label": "Pretérito indefinido (2 veces)",
+   "pattern": "(?:^|[^\\p{L}])(?:fui|fue|fuimos|fueron|estuve|estuvo|estuvimos|tuve|tuvo|tuvimos|hice|hizo|hicimos|pude|pudo|dije|dijo|vine|vino|vi|vio|di|dio|\\p{L}{2,}(?:é|ó|aron|ieron|aste|iste|asteis|isteis))(?![\\p{L}])",
+   "min": 2,
+   "distinct": false
+  },
+  {
+   "label": "Pretérito imperfecto (2 veces)",
+   "pattern": "(?:^|[^\\p{L}])(?:era|eran|éramos|iba|iban|íbamos|había|\\p{L}{2,}(?:aba|abas|ábamos|aban|ía|ías|íamos|ían))(?![\\p{L}])",
+   "min": 2,
+   "distinct": false
+  },
+  {
+   "label": "Dar un consejo (te aconsejo que…, yo que tú…, deberías…)",
+   "pattern": "(?:^|[^\\p{L}])(?:(?:te|os|le|les) (?:aconsejo|recomiendo|sugiero|propongo) que|yo que tú|yo en tu lugar|deberías|deberíais|es mejor que|no te olvides de)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Tres conectores distintos (además, sin embargo, por eso…)",
+   "pattern": "(?:^|[^\\p{L}])(?:además|sin embargo|por eso|así que|aunque|en primer lugar|por último|por un lado|por otro lado|en cambio|de hecho|al final|de repente|entonces|porque|como|también|por lo tanto|ya que)(?![\\p{L}])",
+   "min": 3,
+   "distinct": true
+  }
+ ],
+ "usefulPhrases": [
+  "Todo empezó cuando…",
+  "Recuerdo que aquel día…",
+  "De repente, …",
+  "En ese momento me di cuenta de que…",
+  "Os recomiendo que + subjuntivo",
+  "Si tenéis la oportunidad, no lo dudéis."
+ ],
+ "modelAnswer": "Hace dos años pasé tres meses en un pueblo de Guatemala con vuestro programa de educación. Por las mañanas ayudaba al maestro en la escuela y por las tardes organizábamos juegos y talleres de lectura para los niños. Al principio todo era difícil: no entendía bien el acento y echaba de menos a mi familia. Sin embargo, nunca olvidaré el último día. Los niños prepararon una pequeña fiesta y me regalaron un cuaderno con dibujos y mensajes. Me puse a llorar delante de todos. Aprendí muchísimo: a tener paciencia, a adaptarme y a valorar las cosas pequeñas. Además, mi español mejoró mucho. A los futuros voluntarios les aconsejo que vayan con la mente abierta y que no tengan miedo de equivocarse. Y, sobre todo, que disfruten de cada momento, porque pasa muy rápido.",
+ "unit": 0,
+ "taskFormat": "write-compulsory",
+ "wordRange": [
+  120,
+  150
+ ]
+}

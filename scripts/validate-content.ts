@@ -3,7 +3,8 @@
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { z } from 'zod';
-import { UnitPack, FocusPack, GrammarPoints, ExamProfile, Manifest, VocabPack, ReadingTask, ListeningTask } from '../src/lib/schema';
+import { UnitPack, FocusPack, GrammarPoints, ExamProfile, Manifest, VocabPack, ReadingTask, ListeningTask, WritingTask } from '../src/lib/schema';
+import { countWords, targetHits } from '../src/lib/writing';
 
 const root = join(import.meta.dirname, '..', 'content');
 const errors: string[] = [];
@@ -124,6 +125,24 @@ for (const f of readdirSync(join(root, 'listening')).filter((f: string) => f.end
         if (line && line.speaker !== st.answer) errors.push(`${rel}: "${st.s}" evidence is said by ${line.speaker}, not ${st.answer}`);
       }
     }
+  }
+}
+
+for (const f of readdirSync(join(root, 'writing')).filter((f: string) => f.endsWith('.json'))) {
+  const t = load(`writing/${f}`, WritingTask);
+  if (!t) continue;
+  skillCounts[t.taskFormat] = (skillCounts[t.taskFormat] ?? 0) + 1;
+  const n = countWords(t.modelAnswer);
+  if (n < t.wordRange[0] || n > t.wordRange[1]) errors.push(`writing/${f}: model answer has ${n} words (${t.wordRange.join('–')})`);
+  for (const tg of t.targets) {
+    try {
+      new RegExp(tg.pattern, 'giu');
+    } catch (e) {
+      errors.push(`writing/${f}: bad pattern for "${tg.label}": ${(e as Error).message}`);
+      continue;
+    }
+    const hits = targetHits(t.modelAnswer, tg);
+    if (hits < tg.min) errors.push(`writing/${f}: model answer doesn't meet its own target "${tg.label}" (${hits}/${tg.min})`);
   }
 }
 

@@ -1,4 +1,4 @@
-import type { DrillItem, UnitPack, FocusPack, GrammarPoint, ExamProfile, WhyId, VocabCard, ReadingTask, ListeningTask } from './schema';
+import type { DrillItem, UnitPack, FocusPack, GrammarPoint, ExamProfile, WhyId, VocabCard, ReadingTask, ListeningTask, WritingTask } from './schema';
 import gpData from '../../content/grammar-points.json';
 import focusData from '../../content/focus/past-tenses.json';
 import usb1 from '../../content/exam-profiles/us-b1.json';
@@ -69,7 +69,17 @@ export const FORMAT_LABELS: Record<string, { title: string; short: string; minut
   'read-insert': { title: 'Tarea 3 · Completar con fragmentos', short: 'Fragmentos', minutes: 20, items: 7 },
   'listen-reply': { title: 'Tarea 1 · Monólogos breves', short: 'Reacciones', minutes: 8, items: 6 },
   'listen-speakers': { title: 'Tarea 2 · Conversación entre amigos', short: '¿Quién lo dice?', minutes: 10, items: 7 },
-  'listen-interview': { title: 'Tarea 3 · Entrevista de radio', short: 'Entrevista', minutes: 12, items: 7 }
+  'listen-interview': { title: 'Tarea 3 · Entrevista de radio', short: 'Entrevista', minutes: 12, items: 7 },
+  'write-compulsory': { title: 'Tarea 1 · Texto obligatorio', short: 'Tarea 1 (obligatoria)', minutes: 35, items: 1 },
+  'write-choice': { title: 'Tarea 2 · Texto a elegir', short: 'Tarea 2 (a elegir)', minutes: 35, items: 1 }
 };
+const writingModules = import.meta.glob('../../content/writing/*.json', { eager: true, import: 'default' });
+export const writingTasks = Object.values(writingModules as Record<string, WritingTask>).sort((a, b) => a.id.localeCompare(b.id));
+export const writingById = new Map(writingTasks.map((t) => [t.id, t]));
+/** Exam-style sets: Task 1 (compulsory) + two Task 2 options. */
+export const writingSets = [...new Set(writingTasks.map((t) => t.set).filter((s): s is number => s !== undefined))]
+  .sort((a, b) => a - b)
+  .map((set) => ({ set, t1: writingTasks.find((t) => t.set === set && t.examTask === 1)!, t2: writingTasks.filter((t) => t.set === set && t.examTask === 2) }));
+
 export const READING_FORMATS = ['read-mcq', 'read-match', 'read-insert'] as const;
 export const LISTENING_FORMATS = ['listen-reply', 'listen-speakers', 'listen-interview'] as const;

@@ -268,3 +268,24 @@ export type ReadInsert = z.infer<typeof ReadInsert>;
 export type ListenReply = z.infer<typeof ListenReply>;
 export type ListenSpeakers = z.infer<typeof ListenSpeakers>;
 export type ListenInterview = z.infer<typeof ListenInterview>;
+
+/* ---------- Writing (Phase 4) ---------- */
+export const WritingTarget = z.object({ label: z.string(), pattern: z.string(), min: z.number().int().min(1).default(1), distinct: z.boolean().default(false) });
+export const WritingTask = z.object({
+  id: z.string(),
+  unit: z.number().int().min(0).max(12),
+  set: z.number().int().optional(),
+  examTask: z.union([z.literal(1), z.literal(2)]),
+  taskFormat: z.enum(['write-compulsory', 'write-choice']),
+  genre: z.string(),
+  register: z.enum(['formal', 'informal', 'neutro']),
+  title: z.string(),
+  prompt: z.string(),
+  contentPoints: z.array(z.string()).min(4).max(5),
+  wordRange: z.tuple([z.number(), z.number()]),
+  targets: z.array(WritingTarget).min(3).max(6),
+  modelAnswer: z.string(),
+  usefulPhrases: z.array(z.string()).min(3)
+});
+export type WritingTask = z.infer<typeof WritingTask>;
+export type WritingTarget = z.infer<typeof WritingTarget>;

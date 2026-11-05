@@ -1,0 +1,60 @@
+{
+ "id": "write-t1-04",
+ "set": 4,
+ "examTask": 1,
+ "genre": "carta formal de petición",
+ "register": "formal",
+ "title": "Una carta al ayuntamiento",
+ "prompt": "En tu barrio hay un parque abandonado. Escribe una carta al ayuntamiento para pedir que lo arreglen.",
+ "contentPoints": [
+  "Preséntate y explica dónde vives.",
+  "Explica cómo era el parque antes y cómo está ahora.",
+  "Cuenta un problema concreto que ha ocurrido.",
+  "Propón al menos dos mejoras.",
+  "Despídete de forma adecuada."
+ ],
+ "targets": [
+  {
+   "label": "Saludo y despedida formales",
+   "pattern": "(?:estimad[oa]s?|distinguid[oa]s?)[\\s\\S]*(?:atentamente|un cordial saludo|saludos cordiales|reciba un saludo)",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Pretérito imperfecto (2 veces)",
+   "pattern": "(?:^|[^\\p{L}])(?:era|eran|éramos|iba|iban|íbamos|había|\\p{L}{2,}(?:aba|abas|ábamos|aban|ía|ías|íamos|ían))(?![\\p{L}])",
+   "min": 2,
+   "distinct": false
+  },
+  {
+   "label": "Pretérito perfecto",
+   "pattern": "(?:^|[^\\p{L}])(?:he|has|ha|hemos|habéis|han) \\p{L}+(?:ado|ido|to|cho|so)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Petición formal (les pido que…, me gustaría que…)",
+   "pattern": "(?:^|[^\\p{L}])(?:(?:les|le) (?:pido|pedimos|ruego|rogamos|agradecería|agradeceríamos)|solicito|solicitamos|me gustaría que|quisiera)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  }
+ ],
+ "usefulPhrases": [
+  "Estimados señores:",
+  "Me dirijo a ustedes para…",
+  "Les escribo para informarles de que…",
+  "Me gustaría que + subjuntivo",
+  "Les agradecería que + subjuntivo",
+  "Quedo a la espera de su respuesta.",
+  "Atentamente,",
+  "Es una vergüenza que…",
+  "Habría que…"
+ ],
+ "modelAnswer": "Estimados señores:\nMe llamo Adam Nightingale y vivo en la calle Feria, junto al parque de los Naranjos. Les escribo en nombre de varios vecinos del barrio. Hace unos años, el parque era un lugar muy agradable: había bancos nuevos, una fuente y los niños jugaban allí todas las tardes. Ahora, en cambio, se ha convertido en un lugar casi abandonado. Los columpios están rotos, no hay luz por la noche y la basura se acumula en las esquinas. La semana pasada, una vecina mayor se cayó porque el suelo está lleno de agujeros. Nos parece una vergüenza que un espacio público esté en estas condiciones. Por eso, les pedimos que arreglen el suelo y los columpios y que instalen farolas. Además, les agradeceríamos que pusieran más papeleras. Quedamos a la espera de su respuesta.\nAtentamente,\nAdam Nightingale",
+ "unit": 0,
+ "taskFormat": "write-compulsory",
+ "wordRange": [
+  120,
+  150
+ ]
+}

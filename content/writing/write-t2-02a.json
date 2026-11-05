@@ -1,0 +1,56 @@
+{
+ "id": "write-t2-02a",
+ "set": 2,
+ "examTask": 2,
+ "genre": "artículo de opinión",
+ "register": "neutro",
+ "title": "¿Teletrabajo para todos?",
+ "prompt": "Un periódico local ha abierto un debate: «¿Debería el teletrabajo ser un derecho para todos los trabajadores?». Escribe un artículo de opinión para la sección de los lectores.",
+ "contentPoints": [
+  "Tu experiencia con el teletrabajo o la de alguien que conoces.",
+  "Las ventajas del teletrabajo.",
+  "Los inconvenientes.",
+  "Tu opinión final y una propuesta."
+ ],
+ "targets": [
+  {
+   "label": "Expresar opinión (creo que, en mi opinión…)",
+   "pattern": "(?:^|[^\\p{L}])(?:creo que|pienso que|en mi opinión|me parece que|desde mi punto de vista|para mí|no creo que)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Tres conectores distintos (además, sin embargo, por eso…)",
+   "pattern": "(?:^|[^\\p{L}])(?:además|sin embargo|por eso|así que|aunque|en primer lugar|por último|por un lado|por otro lado|en cambio|de hecho|al final|de repente|entonces|porque|como|también|por lo tanto|ya que)(?![\\p{L}])",
+   "min": 3,
+   "distinct": true
+  },
+  {
+   "label": "Pretérito perfecto",
+   "pattern": "(?:^|[^\\p{L}])(?:he|has|ha|hemos|habéis|han) \\p{L}+(?:ado|ido|to|cho|so)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Condicional (me gustaría, podría…)",
+   "pattern": "(?:^|[^\\p{L}])\\p{L}{2,}(?:ría|rías|ríamos|ríais|rían)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  }
+ ],
+ "usefulPhrases": [
+  "En mi opinión, …",
+  "Por un lado, … Por otro lado, …",
+  "Es verdad que…, pero…",
+  "Lo que más me preocupa es…",
+  "Por eso, creo que…",
+  "En conclusión, …"
+ ],
+ "modelAnswer": "Durante la pandemia trabajé desde casa casi un año, y la experiencia me hizo cambiar de opinión sobre muchas cosas. En mi opinión, el teletrabajo tiene ventajas muy claras. Por un lado, ahorramos tiempo y dinero en transporte, y las ciudades tienen menos tráfico y contaminación. Por otro lado, podemos organizar mejor el día y pasar más tiempo con la familia. Sin embargo, no todo es positivo. Muchas personas se sienten solas y les cuesta separar el trabajo de la vida personal. Yo mismo he contestado correos a las once de la noche más de una vez. Además, no todos los trabajos se pueden hacer a distancia. Por eso, creo que el teletrabajo no debería ser obligatorio, pero sí un derecho para quien pueda y quiera hacerlo. Lo ideal sería un modelo mixto: dos o tres días en casa y el resto en la oficina.",
+ "unit": 0,
+ "taskFormat": "write-choice",
+ "wordRange": [
+  120,
+  150
+ ]
+}

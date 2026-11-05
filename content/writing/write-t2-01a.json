@@ -1,0 +1,58 @@
+{
+ "id": "write-t2-01a",
+ "set": 1,
+ "examTask": 2,
+ "genre": "correo informal con consejos",
+ "register": "informal",
+ "title": "Una amiga quiere vivir en Sevilla",
+ "prompt": "Has recibido este correo de tu amiga Clara: «¡Hola! Me han ofrecido un trabajo en Sevilla y estoy pensando en aceptarlo, pero tengo un poco de miedo. Tú llevas un tiempo viviendo allí. ¿Qué tal es la vida en la ciudad? ¿Qué me recomiendas?». Responde a Clara.",
+ "contentPoints": [
+  "Salúdala y reacciona a su noticia.",
+  "Cuéntale cómo fueron tus primeras semanas en Sevilla.",
+  "Explícale lo mejor y lo peor de vivir allí.",
+  "Dale consejos para buscar piso y conocer gente.",
+  "Despídete."
+ ],
+ "targets": [
+  {
+   "label": "Saludo y despedida informales",
+   "pattern": "(?:hola|querid[oa]s?)[\\s\\S]*(?:un abrazo|besos|un beso|hasta pronto|escríbeme|nos vemos)",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Pretérito indefinido (2 veces)",
+   "pattern": "(?:^|[^\\p{L}])(?:fui|fue|fuimos|fueron|estuve|estuvo|estuvimos|tuve|tuvo|tuvimos|hice|hizo|hicimos|pude|pudo|dije|dijo|vine|vino|vi|vio|di|dio|\\p{L}{2,}(?:é|ó|aron|ieron|aste|iste|asteis|isteis))(?![\\p{L}])",
+   "min": 2,
+   "distinct": false
+  },
+  {
+   "label": "Dar un consejo (te aconsejo que…, yo que tú…, deberías…)",
+   "pattern": "(?:^|[^\\p{L}])(?:(?:te|os|le|les) (?:aconsejo|recomiendo|sugiero|propongo) que|yo que tú|yo en tu lugar|deberías|deberíais|es mejor que|no te olvides de)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Que + subjuntivo (te aconsejo que vayas, espero que…)",
+   "pattern": "(?:^|[^\\p{L}])(?:que|ojalá|cuando|para que) (?:te |os |le |no |me |se |lo |la )?(?:sea|seas|sean|vaya|vayas|vayáis|tenga|tengas|haga|hagas|pueda|puedas|esté|estés|\\p{L}{2,}(?:es|éis|en|as|áis|an))(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  }
+ ],
+ "usefulPhrases": [
+  "¡Hola, …! ¿Qué tal todo?",
+  "Perdona por no escribirte antes, es que…",
+  "Me alegro mucho de que…",
+  "Te aconsejo que + subjuntivo",
+  "Yo que tú, + condicional",
+  "Bueno, te dejo, que…",
+  "¡Escríbeme pronto! Un abrazo,"
+ ],
+ "modelAnswer": "¡Hola, Clara! ¡Qué noticia tan buena! Me alegro muchísimo de que te hayan ofrecido ese trabajo. Mis primeras semanas aquí fueron un poco raras: no conocía a nadie y me costó acostumbrarme a cenar a las diez. Pero enseguida me enamoré de la ciudad. Lo mejor es el ambiente: la gente es muy abierta y siempre hay algo que hacer. Lo peor, sin duda, es el calor de julio y agosto. Para buscar piso, te aconsejo que mires en barrios como Triana o la Macarena, que son bonitos y no tan caros como el centro. Y para conocer gente, yo que tú me apuntaría a un intercambio de idiomas o a un club de deporte. Así conocí yo a mis mejores amigos aquí. ¡Acepta el trabajo, que te va a encantar! Escríbeme pronto. Un abrazo,\nAdam",
+ "unit": 0,
+ "taskFormat": "write-choice",
+ "wordRange": [
+  120,
+  150
+ ]
+}

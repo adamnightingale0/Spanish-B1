@@ -2,7 +2,7 @@
 
 An offline-first iPhone PWA for the University of Seville Instituto de Idiomas B1 exam (written exam 18 Jan 2027), built on the syllabus of *Aula Internacional Plus 3*. See [`SPEC.md`](SPEC.md) for the full spec and build phases.
 
-**Status: Phase 3** (reading and listening trainers) on top of Phases 1–2.
+**Status: Phase 4** (writing trainer and full written mock) on top of Phases 1–3.
 
 ## What's in Phase 1
 
@@ -34,6 +34,14 @@ An offline-first iPhone PWA for the University of Seville Instituto de Idiomas B
 - Full listening paper (the three tasks in a row, ~30 min). Every result is stored per skill; Progress shows reading and listening estimates (last 5 timed tasks per format) against the 50% and 60% lines; Home suggests a "lectura / audición del día".
 - Content source in `scripts/skills-src/`, built with `python3 -I scripts/build-skills.py`; `validate-content` checks that every evidence sentence and clue really appears in its text.
 
+## What's in Phase 4
+
+- Writing trainer in the Seville format: 12 original prompts in 4 exam sets (Task 1 compulsory + choose 1 of 2 for Task 2), rotating genres (testimonial, informal email with advice, magazine story, formal complaint, opinion article, review, forum post, formal request, blog), most combining past narration with advice or opinion.
+- Live word count with a warning outside 120–150; content-point checklist; "structures to show off" ticked automatically by pattern matching; drafts autosaved (at most 400 ms behind, and on leaving the app).
+- After writing: model answer, useful phrases, self-assessment on the four official criteria (0–3), adjusted down when a content point is missed or the length is far off; "Export for marking" copies the prompt, the text and the rubric for Claude or a teacher.
+- Full timed written mock with the `us-b1` profile: reading 60' → listening 30' → 20' break → writing 70', then self-assessment and the pass rules (≥ 50 % overall and ≥ 50 % in each skill, otherwise SUSPENSO, 3). Resumes where it was if the app is closed. Results and history in the Exam tab.
+- Skill diagnosis: writing estimate from self-assessment; skills under 60 % flagged at the top of Home; the "task of the day" comes from the skill with the biggest (1 − estimate) × weight; placement check part 2 (one short reading and one short listening task); weekly 15-minute check on Sundays with a trend line on Progress, switching to a full mock every 2 weeks from 15 December.
+
 ## Commands
 
 ```bash
@@ -48,6 +56,7 @@ node tests/e2e/phase2.mjs http://localhost:4173/ some.pdf   # vocab, new drill t
 python3 -I scripts/build-vocab.py   # rebuild content/vocab from scripts/vocab-src
 python3 -I scripts/build-skills.py  # rebuild content/reading and content/listening
 node tests/e2e/phase3.mjs http://localhost:4173/   # reading, listening (fake TTS), papers
+node tests/e2e/phase4.mjs http://localhost:4173/   # writing trainer and a full written mock
 ```
 
 ## Deploy (GitHub Pages)

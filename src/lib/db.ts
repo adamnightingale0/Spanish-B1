@@ -51,17 +51,57 @@ const metaStore = createStore('b1-meta', 'meta');
 const srsStore = createStore('b1-srs', 'srs');
 const bookStore = createStore('b1-book', 'book');
 const skillStore = createStore('b1-skills', 'results');
+const writingStore = createStore('b1-writing', 'drafts');
+const examStore = createStore('b1-exams', 'exams');
+
+/** A writing draft, kept per task (and per mock) so nothing is lost if the app closes. */
+export interface WritingDraft {
+  key: string; // task id, or `mock:<ts>:<task id>`
+  taskId: string;
+  text: string;
+  covered: boolean[];
+  ts: number;
+  self?: number[];
+  submitted?: boolean;
+}
+export const loadDraft = (key: string) => get<WritingDraft>(key, writingStore);
+export const saveDraft = (d: WritingDraft) => set(d.key, d, writingStore);
+export async function loadDrafts(): Promise<WritingDraft[]> {
+  return (await entries<string, WritingDraft>(writingStore)).map(([, v]) => v);
+}
+
+/** A finished mock exam (written part). Scores are fractions 0–1. */
+export interface ExamRecord {
+  key: string;
+  profileId: string;
+  ts: number;
+  scores: { reading?: number; listening?: number; writing?: number; speaking?: number };
+  overall: number;
+  passed: boolean;
+  kind: 'written' | 'weekly';
+}
+export async function loadExams(): Promise<ExamRecord[]> {
+  return (await entries<string, ExamRecord>(examStore)).map(([, v]) => v).sort((a, b) => a.ts - b.ts);
+}
+export const saveExam = (e: ExamRecord) => set(e.key, e, examStore);
+
+/** The mock in progress (so a 3-hour exam survives the app being closed). */
+export const loadMockState = <T>() => get<T>('mock', metaStore);
+export const saveMockState = (m: unknown) => set('mock', m, metaStore);
+export const clearMockState = () => del('mock', metaStore);
 
 /** One completed reading or listening task. */
 export interface SkillResult {
   key: string;
   taskId: string;
-  skill: 'reading' | 'listening';
+  skill: 'reading' | 'listening' | 'writing' | 'speaking';
   format: string;
   correct: number;
   total: number;
   timed: boolean;
   paper?: boolean; // part of a full timed paper
+  mock?: boolean; // part of a full written mock
+  weekly?: boolean; // part of the weekly check
   ms: number;
   ts: number;
   answers: (string | number | null)[];
@@ -120,6 +160,8 @@ export interface Backup {
   attempts: Attempt[];
   srs?: SrsRecord[];
   skills?: SkillResult[];
+  writing?: WritingDraft[];
+  exams?: ExamRecord[];
 }
 
 export async function exportBackup(): Promise<Backup> {
@@ -130,7 +172,9 @@ export async function exportBackup(): Promise<Backup> {
     settings: await loadSettings(),
     attempts: await loadAttempts(),
     srs: await loadSrs(),
-    skills: await loadSkillResults()
+    skills: await loadSkillResults(),
+    writing: await loadDrafts(),
+    exams: await loadExams()
   };
 }
 
@@ -140,6 +184,8 @@ export async function importBackup(data: unknown): Promise<number> {
   await setMany(b.attempts.map((a) => [a.key, a]), attemptsStore);
   if (Array.isArray(b.srs)) await setMany(b.srs.map((r) => [r.cardId, r]), srsStore);
   if (Array.isArray(b.skills)) await setMany(b.skills.map((r) => [r.key, r]), skillStore);
+  if (Array.isArray(b.writing)) await setMany(b.writing.map((r) => [r.key, r]), writingStore);
+  if (Array.isArray(b.exams)) await setMany(b.exams.map((r) => [r.key, r]), examStore);
   await saveSettings({ ...DEFAULT_SETTINGS, ...b.settings });
   return b.attempts.length;
 }
@@ -149,4 +195,6 @@ export async function resetAll() {
   await clear(metaStore);
   await clear(srsStore);
   await clear(skillStore);
+  await clear(writingStore);
+  await clear(examStore);
 }

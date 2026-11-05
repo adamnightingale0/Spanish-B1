@@ -1,0 +1,58 @@
+{
+ "id": "write-t1-02",
+ "set": 2,
+ "examTask": 1,
+ "genre": "correo formal de reclamación",
+ "register": "formal",
+ "title": "Una reclamación a un hotel",
+ "prompt": "Pasaste un fin de semana en un hotel de Granada y la estancia fue un desastre. Escribe un correo electrónico al director del hotel.",
+ "contentPoints": [
+  "Preséntate y explica cuándo estuviste en el hotel.",
+  "Describe cómo era la habitación.",
+  "Cuenta qué problemas tuviste y cómo reaccionó el personal.",
+  "Explica qué esperabas de un hotel de esa categoría.",
+  "Di qué solución pides."
+ ],
+ "targets": [
+  {
+   "label": "Saludo y despedida formales",
+   "pattern": "(?:estimad[oa]s?|distinguid[oa]s?)[\\s\\S]*(?:atentamente|un cordial saludo|saludos cordiales|reciba un saludo)",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Pretérito indefinido (2 veces)",
+   "pattern": "(?:^|[^\\p{L}])(?:fui|fue|fuimos|fueron|estuve|estuvo|estuvimos|tuve|tuvo|tuvimos|hice|hizo|hicimos|pude|pudo|dije|dijo|vine|vino|vi|vio|di|dio|\\p{L}{2,}(?:é|ó|aron|ieron|aste|iste|asteis|isteis))(?![\\p{L}])",
+   "min": 2,
+   "distinct": false
+  },
+  {
+   "label": "Pretérito imperfecto (2 veces)",
+   "pattern": "(?:^|[^\\p{L}])(?:era|eran|éramos|iba|iban|íbamos|había|\\p{L}{2,}(?:aba|abas|ábamos|aban|ía|ías|íamos|ían))(?![\\p{L}])",
+   "min": 2,
+   "distinct": false
+  },
+  {
+   "label": "Petición formal (les pido que…, me gustaría que…)",
+   "pattern": "(?:^|[^\\p{L}])(?:(?:les|le) (?:pido|pedimos|ruego|rogamos|agradecería|agradeceríamos)|solicito|solicitamos|me gustaría que|quisiera)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  }
+ ],
+ "usefulPhrases": [
+  "Estimados señores:",
+  "Me dirijo a ustedes para…",
+  "Les escribo para informarles de que…",
+  "Me gustaría que + subjuntivo",
+  "Les agradecería que + subjuntivo",
+  "Quedo a la espera de su respuesta.",
+  "Atentamente,"
+ ],
+ "modelAnswer": "Estimado señor director:\nMe dirijo a usted para quejarme de mi estancia en su hotel el fin de semana del 8 de noviembre. Había reservado una habitación doble con vistas a la Alhambra, pero me dieron una habitación interior, pequeña y bastante sucia. Además, el aire acondicionado no funcionaba y por la noche había mucho ruido en la calle. Cuando bajé a recepción para explicar el problema, el recepcionista me dijo que el hotel estaba completo y que no podía hacer nada. Su actitud me pareció muy poco profesional. Elegí su hotel porque en su web dice que es un hotel de cuatro estrellas, con un servicio excelente, y desde luego no fue así. Por todo ello, le agradecería que me devolviera el cincuenta por ciento del precio de la reserva. Quedo a la espera de su respuesta.\nAtentamente,\nAdam Nightingale",
+ "unit": 0,
+ "taskFormat": "write-compulsory",
+ "wordRange": [
+  120,
+  150
+ ]
+}

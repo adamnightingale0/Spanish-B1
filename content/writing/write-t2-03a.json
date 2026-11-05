@@ -1,0 +1,58 @@
+{
+ "id": "write-t2-03a",
+ "set": 3,
+ "examTask": 2,
+ "genre": "correo informal con consejos",
+ "register": "informal",
+ "title": "Un amigo quiere aprender español",
+ "prompt": "Tu amigo Tom te escribe: «Quiero aprender español para mi trabajo, pero no tengo mucho tiempo. Tú lo has aprendido bastante rápido. ¿Cómo lo hiciste? ¿Qué me aconsejas?». Responde a Tom.",
+ "contentPoints": [
+  "Salúdalo y reacciona a su idea.",
+  "Explícale cómo aprendiste tú.",
+  "Cuéntale qué fue lo más difícil para ti.",
+  "Dale al menos dos consejos prácticos.",
+  "Despídete."
+ ],
+ "targets": [
+  {
+   "label": "Saludo y despedida informales",
+   "pattern": "(?:hola|querid[oa]s?)[\\s\\S]*(?:un abrazo|besos|un beso|hasta pronto|escríbeme|nos vemos)",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Pretérito indefinido (2 veces)",
+   "pattern": "(?:^|[^\\p{L}])(?:fui|fue|fuimos|fueron|estuve|estuvo|estuvimos|tuve|tuvo|tuvimos|hice|hizo|hicimos|pude|pudo|dije|dijo|vine|vino|vi|vio|di|dio|\\p{L}{2,}(?:é|ó|aron|ieron|aste|iste|asteis|isteis))(?![\\p{L}])",
+   "min": 2,
+   "distinct": false
+  },
+  {
+   "label": "Dar un consejo (te aconsejo que…, yo que tú…, deberías…)",
+   "pattern": "(?:^|[^\\p{L}])(?:(?:te|os|le|les) (?:aconsejo|recomiendo|sugiero|propongo) que|yo que tú|yo en tu lugar|deberías|deberíais|es mejor que|no te olvides de)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Que + subjuntivo (te aconsejo que vayas, espero que…)",
+   "pattern": "(?:^|[^\\p{L}])(?:que|ojalá|cuando|para que) (?:te |os |le |no |me |se |lo |la )?(?:sea|seas|sean|vaya|vayas|vayáis|tenga|tengas|haga|hagas|pueda|puedas|esté|estés|\\p{L}{2,}(?:es|éis|en|as|áis|an))(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  }
+ ],
+ "usefulPhrases": [
+  "¡Hola, …! ¿Qué tal todo?",
+  "Perdona por no escribirte antes, es que…",
+  "Me alegro mucho de que…",
+  "Te aconsejo que + subjuntivo",
+  "Yo que tú, + condicional",
+  "Bueno, te dejo, que…",
+  "¡Escríbeme pronto! Un abrazo,"
+ ],
+ "modelAnswer": "¡Hola, Tom! ¡Qué buena idea! Seguro que el español te va a ser muy útil en el trabajo. Yo empecé con una aplicación en el móvil, diez minutos al día, pero lo que más me ayudó fue mudarme a Sevilla y apuntarme a una academia. También veía series en español con subtítulos y, poco a poco, empecé a entender sin ellos. Lo más difícil para mí fueron los tiempos del pasado: todavía me equivoco a veces entre el indefinido y el imperfecto. Como tienes poco tiempo, te aconsejo que estudies un poco cada día en lugar de muchas horas el fin de semana. Además, yo que tú buscaría un intercambio de idiomas: es gratis y practicas la conversación, que es lo más importante. ¡Ánimo, que tú puedes! Ya me contarás qué tal. Un abrazo,\nAdam",
+ "unit": 0,
+ "taskFormat": "write-choice",
+ "wordRange": [
+  120,
+  150
+ ]
+}

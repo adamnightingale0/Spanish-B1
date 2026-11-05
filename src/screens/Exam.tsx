@@ -34,7 +34,43 @@ export function Exam() {
         <p class="small muted">Escrito el 18 de enero de 2027 (mañana). Oral entre el 4 y el 10 de febrero. Si no, la siguiente convocatoria escrita es el 7 de junio de 2027.</p>
       </div>
 
-      <h2>Pruebas cronometradas</h2>
+      <button class="btn-primary btn-big" onClick={() => navigate('mock')}>
+        ⏱ Simulacro escrito completo · 3 h
+      </button>
+      <p class="tiny muted" style={{ textAlign: 'center' }}>
+        Lectura 60' + audición 30' + descanso 20' + escritura 70', con las reglas reales: 50 % de media y 50 % en cada destreza.
+      </p>
+      {app.exams.filter((e) => e.kind === 'written').length > 0 && (
+        <>
+          <h2>Historial de simulacros</h2>
+          {app.exams
+            .filter((e) => e.kind === 'written')
+            .reverse()
+            .map((e) => (
+              <div class="card">
+                <div class="row spread">
+                  <b>{new Date(e.ts).toLocaleDateString('es-ES')}</b>
+                  <span class={`pill ${e.passed ? '' : 'accent'}`}>{e.passed ? 'APTO' : 'SUSPENSO'} · {Math.round(e.overall * 100)} %</span>
+                </div>
+                {(['reading', 'listening', 'writing'] as const).map((s) => {
+                  const v = e.scores[s] ?? 0;
+                  return (
+                    <div class="row small" style={{ margin: '4px 0' }}>
+                      <span style={{ width: 70 }}>{s === 'reading' ? 'Lectura' : s === 'listening' ? 'Audición' : 'Escritura'}</span>
+                      <div class={`bar skill-bar grow ${v >= 0.6 ? '' : v >= 0.5 ? 'mid' : 'low'}`}>
+                        <i style={{ width: `${Math.max(4, v * 100)}%` }} />
+                        <span class="line50" />
+                      </div>
+                      <span style={{ width: 40, textAlign: 'right' }}>{Math.round(v * 100)} %</span>
+                    </div>
+                  );
+                })}
+              </div>
+            ))}
+        </>
+      )}
+
+      <h2>Pruebas por destreza</h2>
       <div class="row">
         <button class="btn-primary grow" onClick={() => navigate('paper/reading')}>
           Lectura · 60 min
@@ -44,8 +80,7 @@ export function Exam() {
         </button>
       </div>
       <p class="small muted">
-        Estimación actual: lectura {pct(skillEstimate(app.skills, 'reading').pct)}, audición {pct(skillEstimate(app.skills, 'listening').pct)}. El simulacro
-        escrito completo (con la expresión escrita) llega en la fase 4.
+        Estimación actual: lectura {pct(skillEstimate(app.skills, 'reading').pct)}, audición {pct(skillEstimate(app.skills, 'listening').pct)}. Escritura {pct(skillEstimate(app.skills, 'writing').pct)}.
       </p>
 
       <h2>Estructura</h2>

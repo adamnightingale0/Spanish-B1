@@ -1,0 +1,57 @@
+{
+ "id": "write-t2-04b",
+ "set": 4,
+ "examTask": 2,
+ "genre": "entrada de blog",
+ "register": "neutro",
+ "title": "Una fiesta que no olvidaré",
+ "prompt": "Tienes un blog sobre tu vida en España. Escribe una entrada sobre una fiesta o celebración a la que fuiste.",
+ "contentPoints": [
+  "Qué fiesta era, dónde y con quién fuiste.",
+  "Cómo era el ambiente.",
+  "Algo que te sorprendió o te pasó.",
+  "Tu opinión sobre la fiesta y si volverías."
+ ],
+ "targets": [
+  {
+   "label": "Pretérito indefinido (2 veces)",
+   "pattern": "(?:^|[^\\p{L}])(?:fui|fue|fuimos|fueron|estuve|estuvo|estuvimos|tuve|tuvo|tuvimos|hice|hizo|hicimos|pude|pudo|dije|dijo|vine|vino|vi|vio|di|dio|\\p{L}{2,}(?:é|ó|aron|ieron|aste|iste|asteis|isteis))(?![\\p{L}])",
+   "min": 2,
+   "distinct": false
+  },
+  {
+   "label": "Pretérito imperfecto (2 veces)",
+   "pattern": "(?:^|[^\\p{L}])(?:era|eran|éramos|iba|iban|íbamos|había|\\p{L}{2,}(?:aba|abas|ábamos|aban|ía|ías|íamos|ían))(?![\\p{L}])",
+   "min": 2,
+   "distinct": false
+  },
+  {
+   "label": "Expresar opinión (creo que, en mi opinión…)",
+   "pattern": "(?:^|[^\\p{L}])(?:creo que|pienso que|en mi opinión|me parece que|desde mi punto de vista|para mí|no creo que)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  },
+  {
+   "label": "Valorar (es increíble que…, me parece fatal que…)",
+   "pattern": "(?:^|[^\\p{L}])(?:es (?:injusto|increíble|una vergüenza|importante|necesario|normal|lógico|una pena) que|me (?:parece|pareció|parecía) (?:bien|mal|fatal|increíble|genial|injusto) que|está (?:bien|mal) que)(?![\\p{L}])",
+   "min": 1,
+   "distinct": false
+  }
+ ],
+ "usefulPhrases": [
+  "Todo empezó cuando…",
+  "Recuerdo que aquel día…",
+  "De repente, …",
+  "En ese momento me di cuenta de que…",
+  "Al final, …",
+  "Me pareció increíble que…",
+  "Sin duda, volveré."
+ ],
+ "modelAnswer": "Este año, por fin, fui a la Feria de Abril con mis compañeros de clase. Una amiga sevillana nos invitó a la caseta de su familia y nos prestó trajes de flamenca y chaquetas cortas. El ambiente era increíble: había farolillos de colores por todas partes, música en cada caseta y gente bailando sevillanas a todas horas. Lo que más me sorprendió fue que personas de todas las edades bailaban juntas, desde niños de cinco años hasta abuelos de ochenta. Intenté aprender a bailar, pero me equivoqué tantas veces que al final todos se reían conmigo. Me pareció increíble que la fiesta durara hasta las seis de la mañana durante una semana entera. En mi opinión, es una experiencia que todo el mundo debería vivir al menos una vez. Sin duda, volveré el año que viene.",
+ "unit": 0,
+ "taskFormat": "write-choice",
+ "wordRange": [
+  120,
+  150
+ ]
+}

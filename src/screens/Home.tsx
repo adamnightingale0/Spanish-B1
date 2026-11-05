@@ -4,8 +4,7 @@ import { daysUntil, streak, todayCount, lastByItem } from '../lib/stats';
 import { focus, gpById, allItems, vocabCards } from '../lib/content';
 import { buildQueue } from '../lib/srs';
 import { buildPlacement } from '../lib/placement';
-import { suggestTask } from '../lib/skills';
-import { FORMAT_LABELS } from '../lib/content';
+import { suggestTask, skillsAtRisk, checkDue, SKILL_SHORT } from '../lib/skills';
 import { MasteryBar } from '../components/common';
 
 const isStandalone = () =>
@@ -53,6 +52,30 @@ export function Home() {
           </button>
         </div>
       )}
+
+      {(() => {
+        const due = checkDue(app.exams);
+        if (!due || !settings.placementDone) return null;
+        return due === 'mock' ? (
+          <div class="card highlight tap" onClick={() => navigate('mock')}>
+            <b>⏱ Toca simulacro escrito completo</b>
+            <p class="small muted">Desde mediados de diciembre: un simulacro completo cronometrado cada dos semanas (unas 3 horas).</p>
+          </div>
+        ) : (
+          <div class="card highlight tap" onClick={() => navigate('weekly')}>
+            <b>📈 Control semanal (15 min)</b>
+            <p class="small muted">Una lectura y una audición para actualizar tus estimaciones y ver tu evolución.</p>
+          </div>
+        );
+      })()}
+
+      {skillsAtRisk(app.skills).map((r) => (
+        <div class="banner">
+          ⚠︎ <b>{SKILL_SHORT[r.skill]}: {Math.round(r.pct * 100)} %</b> — por debajo del 60 % de seguridad. Una sola destreza bajo el 50 % suspende todo el
+          escrito.{' '}
+          <a href={`#/${r.skill}`}>Practicar</a>
+        </div>
+      ))}
 
       {!isStandalone() && (
         <div class="banner">
@@ -121,14 +144,13 @@ export function Home() {
         const t = suggestTask(app.skills);
         if (!t) return null;
         return (
-          <div class="card tap" onClick={() => navigate(`task/${t.id}`)}>
+          <div class="card tap" onClick={() => navigate(t.route)}>
             <div class="row spread">
-              <b>{t.taskFormat.startsWith('read') ? '📖 Lectura' : '🎧 Audición'} del día</b>
-              <span class="pill">{FORMAT_LABELS[t.taskFormat].minutes} min</span>
+              <b>{t.label}</b>
+              <span class="pill">{t.minutes} min</span>
             </div>
-            <p class="small">
-              {FORMAT_LABELS[t.taskFormat].title}: {t.title}
-            </p>
+            <p class="small">{t.title}</p>
+            <p class="tiny muted">Elegida según tu destreza más débil.</p>
           </div>
         );
       })()}
