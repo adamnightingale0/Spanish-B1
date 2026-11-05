@@ -1,0 +1,310 @@
+{
+ "id": "u12",
+ "unit": 12,
+ "title": "Misterios y enigmas",
+ "theme": "Misterios e hipótesis",
+ "vocabAreas": [
+  "Fenómenos paranormales y extraños",
+  "Psicología y ciencia"
+ ],
+ "writingTask": "Blog sobre misterios científicos",
+ "bookRef": {
+  "page": 164
+ },
+ "grammarPoints": [
+  "futuro-compuesto",
+  "hipotesis-ind-subj",
+  "creer-creerse"
+ ],
+ "items": [
+  {
+   "id": "u12-fcomp-001",
+   "type": "conjugate",
+   "unit": 12,
+   "grammarPoint": "futuro-compuesto",
+   "difficulty": 1,
+   "verb": "salir",
+   "person": "él",
+   "tense": "futuro compuesto",
+   "answers": [
+    "habrá salido"
+   ],
+   "feedback": "habrá + participle.",
+   "contrast": "ha salido (perfecto)"
+  },
+  {
+   "id": "u12-fcomp-002",
+   "type": "gap",
+   "unit": 12,
+   "grammarPoint": "futuro-compuesto",
+   "difficulty": 2,
+   "prompt": "Marta no contesta al teléfono. Se ___ (quedar) sin batería.",
+   "answers": [
+    "habrá quedado"
+   ],
+   "feedback": "A guess about something that has just happened → futuro compuesto.",
+   "contrast": "Se ha quedado sin batería (certain)."
+  },
+  {
+   "id": "u12-fcomp-003",
+   "type": "gap",
+   "unit": 12,
+   "grammarPoint": "futuro-compuesto",
+   "difficulty": 2,
+   "prompt": "Todavía no han llegado. ___ (perder, ellos) el tren.",
+   "answers": [
+    "Habrán perdido"
+   ],
+   "feedback": "habrán + participle = they have probably…",
+   "contrast": "Han perdido el tren (certain)."
+  },
+  {
+   "id": "u12-fcomp-004",
+   "type": "choice",
+   "unit": 12,
+   "grammarPoint": "futuro-compuesto",
+   "difficulty": 2,
+   "prompt": "—¿Dónde está Luis ahora? —No sé, ___ en el gimnasio.",
+   "options": [
+    "estará",
+    "habrá estado",
+    "estaría"
+   ],
+   "answers": [
+    "estará"
+   ],
+   "feedback": "A guess about the present → futuro simple.",
+   "contrast": "Habrá ido al gimnasio (guess about the recent past)."
+  },
+  {
+   "id": "u12-fcomp-005",
+   "type": "choice",
+   "unit": 12,
+   "grammarPoint": "futuro-compuesto",
+   "difficulty": 3,
+   "prompt": "—¿Por qué no vino Ana a la fiesta el sábado? —No sé, ___ cansada.",
+   "options": [
+    "estaría",
+    "habrá estado",
+    "estará"
+   ],
+   "answers": [
+    "estaría"
+   ],
+   "feedback": "A guess about an indefinido-type past (el sábado) → condicional.",
+   "contrast": "Hoy no ha venido: habrá estado cansada."
+  },
+  {
+   "id": "u12-fcomp-006",
+   "type": "gap",
+   "unit": 12,
+   "grammarPoint": "futuro-compuesto",
+   "difficulty": 2,
+   "prompt": "El suelo está mojado: ___ (llover) esta noche.",
+   "answers": [
+    "habrá llovido"
+   ],
+   "feedback": "Guess about a recent past (esta noche) → futuro compuesto.",
+   "contrast": "Ha llovido esta noche."
+  },
+  {
+   "id": "u12-hip-001",
+   "type": "choice",
+   "unit": 12,
+   "grammarPoint": "hipotesis-ind-subj",
+   "difficulty": 1,
+   "prompt": "Puede que ___ una explicación científica.",
+   "options": [
+    "haya",
+    "hay"
+   ],
+   "answers": [
+    "haya"
+   ],
+   "feedback": "puede que + subjunctive.",
+   "contrast": "Seguro que hay una explicación."
+  },
+  {
+   "id": "u12-hip-002",
+   "type": "choice",
+   "unit": 12,
+   "grammarPoint": "hipotesis-ind-subj",
+   "difficulty": 1,
+   "prompt": "Supongo que ___ un fenómeno natural.",
+   "options": [
+    "es",
+    "sea"
+   ],
+   "answers": [
+    "es"
+   ],
+   "feedback": "suponer que + indicative.",
+   "contrast": "Es posible que sea un fenómeno natural."
+  },
+  {
+   "id": "u12-hip-003",
+   "type": "gap",
+   "unit": 12,
+   "grammarPoint": "hipotesis-ind-subj",
+   "difficulty": 2,
+   "prompt": "No creo que los fantasmas ___ (existir).",
+   "answers": [
+    "existan"
+   ],
+   "feedback": "no creer que + subjunctive.",
+   "contrast": "Creo que existen."
+  },
+  {
+   "id": "u12-hip-004",
+   "type": "gap",
+   "unit": 12,
+   "grammarPoint": "hipotesis-ind-subj",
+   "difficulty": 2,
+   "prompt": "Me imagino que ___ (ser) una ilusión óptica.",
+   "answers": [
+    "es"
+   ],
+   "feedback": "imaginarse que + indicative.",
+   "contrast": "Dudo que sea una ilusión óptica."
+  },
+  {
+   "id": "u12-hip-005",
+   "type": "choice",
+   "unit": 12,
+   "grammarPoint": "hipotesis-ind-subj",
+   "difficulty": 2,
+   "prompt": "Dudo que el testigo ___ la verdad.",
+   "options": [
+    "diga",
+    "dice",
+    "dirá"
+   ],
+   "answers": [
+    "diga"
+   ],
+   "feedback": "dudar que + subjunctive.",
+   "contrast": "Creo que dice la verdad."
+  },
+  {
+   "id": "u12-hip-006",
+   "type": "choice",
+   "unit": 12,
+   "grammarPoint": "hipotesis-ind-subj",
+   "difficulty": 3,
+   "prompt": "Es posible que las luces ___ de un avión militar.",
+   "options": [
+    "sean",
+    "son",
+    "fueron"
+   ],
+   "answers": [
+    "sean"
+   ],
+   "feedback": "es posible que + subjunctive.",
+   "contrast": "A lo mejor son de un avión."
+  },
+  {
+   "id": "u12-creer-001",
+   "type": "choice",
+   "unit": 12,
+   "grammarPoint": "creer-creerse",
+   "difficulty": 1,
+   "prompt": "¿Tú crees ___ los extraterrestres?",
+   "options": [
+    "en",
+    "a",
+    "de"
+   ],
+   "answers": [
+    "en"
+   ],
+   "feedback": "creer en = believe in.",
+   "contrast": "Creo que hay vida en otros planetas."
+  },
+  {
+   "id": "u12-creer-002",
+   "type": "choice",
+   "unit": 12,
+   "grammarPoint": "creer-creerse",
+   "difficulty": 2,
+   "prompt": "Me han dicho que Pablo ha ganado la lotería, pero no ___ creo.",
+   "options": [
+    "me lo",
+    "lo",
+    "me"
+   ],
+   "answers": [
+    "me lo"
+   ],
+   "feedback": "creerse algo → no me lo creo (I don't believe it).",
+   "contrast": "No creo que sea verdad."
+  },
+  {
+   "id": "u12-creer-003",
+   "type": "choice",
+   "unit": 12,
+   "grammarPoint": "creer-creerse",
+   "difficulty": 2,
+   "prompt": "Mi tío ___ todo lo que lee en internet.",
+   "options": [
+    "se cree",
+    "cree en",
+    "cree que"
+   ],
+   "answers": [
+    "se cree"
+   ],
+   "feedback": "creerse algo = accept it as true (often naively).",
+   "contrast": "Cree en la astrología."
+  },
+  {
+   "id": "u12-creer-004",
+   "type": "gap",
+   "unit": 12,
+   "grammarPoint": "creer-creerse",
+   "difficulty": 2,
+   "prompt": "Mi abuela ___ (creer) en el mal de ojo.",
+   "answers": [
+    "cree"
+   ],
+   "feedback": "creer en + noun.",
+   "contrast": "Se cree las historias."
+  },
+  {
+   "id": "u12-creer-005",
+   "type": "choice",
+   "unit": 12,
+   "grammarPoint": "creer-creerse",
+   "difficulty": 2,
+   "prompt": "___ que tienes razón: es solo una coincidencia.",
+   "options": [
+    "Creo",
+    "Me creo",
+    "Creo en"
+   ],
+   "answers": [
+    "Creo"
+   ],
+   "feedback": "creer que = think (opinion).",
+   "contrast": "¡No me lo creo!"
+  },
+  {
+   "id": "u12-creer-006",
+   "type": "choice",
+   "unit": 12,
+   "grammarPoint": "creer-creerse",
+   "difficulty": 3,
+   "prompt": "Mis amigos ___ que vieron un ovni, pero yo no me lo creo.",
+   "options": [
+    "dicen",
+    "creen en",
+    "se lo creen"
+   ],
+   "answers": [
+    "dicen"
+   ],
+   "feedback": "decir que reports the claim; no me lo creo shows disbelief.",
+   "contrast": "Ellos se lo creen."
+  }
+ ]
+}

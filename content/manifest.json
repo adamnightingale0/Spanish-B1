@@ -1,0 +1,11 @@
+{
+  "version": "2026.11.05-phase1",
+  "packs": [
+    "grammar-points.json",
+    "focus/past-tenses.json",
+    "units/u01.json", "units/u02.json", "units/u03.json", "units/u04.json", "units/u05.json", "units/u06.json",
+    "units/u07.json", "units/u08.json", "units/u09.json", "units/u10.json", "units/u11.json", "units/u12.json",
+    "units/programa.json",
+    "exam-profiles/us-b1.json"
+  ]
+}

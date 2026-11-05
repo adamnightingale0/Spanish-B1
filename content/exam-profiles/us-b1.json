@@ -1,0 +1,25 @@
+{
+  "id": "us-b1",
+  "name": "Universidad de Sevilla · Instituto de Idiomas · B1 (ACLES)",
+  "papers": [
+    { "id": "reading", "label": "Comprensión de lectura", "skill": "reading", "minutes": 60, "weight": 0.25, "maxScore": 22, "written": true, "tasks": [
+      { "format": "read-mcq", "count": 7, "description": "Artículo informativo (~600 palabras), 7 preguntas de 3 opciones" },
+      { "format": "read-match", "count": 8, "description": "8 textos breves y 10 perfiles (2 distractores)" },
+      { "format": "read-insert", "count": 7, "description": "Artículo (~400 palabras) con 7 huecos y 10 fragmentos" } ] },
+    { "id": "listening", "label": "Comprensión auditiva", "skill": "listening", "minutes": 30, "weight": 0.25, "maxScore": 20, "written": true, "tasks": [
+      { "format": "listen-reply", "count": 6, "description": "6 monólogos breves: elegir la reacción adecuada" },
+      { "format": "listen-speakers", "count": 7, "description": "Conversación entre 3 amigos: 7 enunciados (A, B, C o ninguno)" },
+      { "format": "listen-interview", "count": 7, "description": "Entrevista de radio: 7 preguntas de 3 opciones" } ] },
+    { "id": "break", "label": "Descanso", "skill": "break", "minutes": 20, "weight": 0, "maxScore": 0, "written": true, "tasks": [] },
+    { "id": "writing", "label": "Expresión e interacción escritas", "skill": "writing", "minutes": 70, "weight": 0.25, "maxScore": 24, "written": true, "tasks": [
+      { "format": "write-compulsory", "count": 1, "description": "Texto obligatorio, 120–150 palabras, 4–5 puntos de contenido" },
+      { "format": "write-choice", "count": 1, "description": "Elegir 1 de 2 propuestas, 120–150 palabras" } ] },
+    { "id": "speaking", "label": "Expresión e interacción orales", "skill": "speaking", "minutes": 15, "prepMinutes": 0, "weight": 0.25, "maxScore": 15, "written": false, "tasks": [
+      { "format": "speak-pair", "count": 1, "description": "Actividad comunicativa con el compañero" },
+      { "format": "speak-photo", "count": 1, "description": "Descripción de fotografías" },
+      { "format": "speak-conversation", "count": 1, "description": "Conversación con el tribunal sobre los temas de las fotos" } ] }
+  ],
+  "passRule": { "minOverall": 0.5, "minPerSkill": 0.5, "oralRequiresWrittenPass": true, "carryWrittenPass": true },
+  "writingCriteria": ["Cumplimiento de la tarea", "Coherencia y cohesión", "Vocabulario (alcance y control)", "Gramática (alcance y control)"],
+  "speakingCriteria": ["Interacción", "Fluidez", "Pronunciación", "Coherencia", "Corrección y alcance"]
+}

@@ -1,0 +1,765 @@
+{
+ "id": "programa",
+ "unit": 0,
+ "title": "Programa B1 (Universidad de Sevilla)",
+ "theme": "Puntos del programa que no destacan en las unidades",
+ "vocabAreas": [],
+ "grammarPoints": [
+  "cual-vs-que",
+  "gustar-preferir",
+  "presente-valor-futuro",
+  "creo-que-ind",
+  "ser-estar-adj-que",
+  "que-subj-deseos",
+  "para-inf",
+  "sugerir-recomendar-quejarse-proponer"
+ ],
+ "items": [
+  {
+   "id": "prog-cual-001",
+   "type": "choice",
+   "unit": 0,
+   "grammarPoint": "cual-vs-que",
+   "difficulty": 1,
+   "prompt": "¿___ es tu número de teléfono?",
+   "options": [
+    "Cuál",
+    "Qué"
+   ],
+   "answers": [
+    "Cuál"
+   ],
+   "feedback": "¿Cuál es…? for data (number, address, name).",
+   "contrast": "¿Qué número tienes? (qué + noun)"
+  },
+  {
+   "id": "prog-cual-002",
+   "type": "choice",
+   "unit": 0,
+   "grammarPoint": "cual-vs-que",
+   "difficulty": 1,
+   "prompt": "¿___ libro estás leyendo?",
+   "options": [
+    "Qué",
+    "Cuál"
+   ],
+   "answers": [
+    "Qué"
+   ],
+   "feedback": "qué + noun.",
+   "contrast": "¿Cuál estás leyendo?"
+  },
+  {
+   "id": "prog-cual-003",
+   "type": "choice",
+   "unit": 0,
+   "grammarPoint": "cual-vs-que",
+   "difficulty": 2,
+   "prompt": "¿___ es el gazpacho? —Una sopa fría de tomate.",
+   "options": [
+    "Qué",
+    "Cuál"
+   ],
+   "answers": [
+    "Qué"
+   ],
+   "feedback": "¿Qué es…? asks for a definition.",
+   "contrast": "¿Cuál es tu sopa favorita?"
+  },
+  {
+   "id": "prog-cual-004",
+   "type": "choice",
+   "unit": 0,
+   "grammarPoint": "cual-vs-que",
+   "difficulty": 2,
+   "prompt": "Tengo dos camisas. ¿___ prefieres?",
+   "options": [
+    "Cuál",
+    "Qué"
+   ],
+   "answers": [
+    "Cuál"
+   ],
+   "feedback": "Choosing from a known set → cuál.",
+   "contrast": "¿Qué camisa prefieres?"
+  },
+  {
+   "id": "prog-cual-005",
+   "type": "choice",
+   "unit": 0,
+   "grammarPoint": "cual-vs-que",
+   "difficulty": 2,
+   "prompt": "¿___ de estos dos pisos está más cerca del centro?",
+   "options": [
+    "Cuál",
+    "Qué"
+   ],
+   "answers": [
+    "Cuál"
+   ],
+   "feedback": "cuál de + plural.",
+   "contrast": "¿Qué piso está más cerca?"
+  },
+  {
+   "id": "prog-cual-006",
+   "type": "choice",
+   "unit": 0,
+   "grammarPoint": "cual-vs-que",
+   "difficulty": 3,
+   "prompt": "¿___ es la capital de Andalucía?",
+   "options": [
+    "Cuál",
+    "Qué"
+   ],
+   "answers": [
+    "Cuál"
+   ],
+   "feedback": "One item from a set (cities) + ser → cuál.",
+   "contrast": "¿Qué ciudad es la capital?"
+  },
+  {
+   "id": "prog-gust-001",
+   "type": "choice",
+   "unit": 0,
+   "grammarPoint": "gustar-preferir",
+   "difficulty": 1,
+   "prompt": "A mis compañeros les ___ las series coreanas.",
+   "options": [
+    "gustan",
+    "gusta",
+    "gustamos"
+   ],
+   "answers": [
+    "gustan"
+   ],
+   "feedback": "gustar agrees with what is liked: las series → gustan.",
+   "contrast": "Les gusta el cine."
+  },
+  {
+   "id": "prog-gust-002",
+   "type": "gap",
+   "unit": 0,
+   "grammarPoint": "gustar-preferir",
+   "difficulty": 1,
+   "prompt": "Nosotros ___ (preferir) el tren porque es más cómodo.",
+   "answers": [
+    "preferimos"
+   ],
+   "feedback": "No stem change in nosotros: preferimos.",
+   "contrast": "Yo prefiero el tren."
+  },
+  {
+   "id": "prog-gust-003",
+   "type": "choice",
+   "unit": 0,
+   "grammarPoint": "gustar-preferir",
+   "difficulty": 2,
+   "prompt": "—Me gusta mucho el flamenco. —A ___ también.",
+   "options": [
+    "mí",
+    "yo",
+    "me"
+   ],
+   "answers": [
+    "mí"
+   ],
+   "feedback": "A mí también (with gustar).",
+   "contrast": "—Yo bailo flamenco. —Yo también."
+  },
+  {
+   "id": "prog-gust-004",
+   "type": "choice",
+   "unit": 0,
+   "grammarPoint": "gustar-preferir",
+   "difficulty": 2,
+   "prompt": "—No me gustan los toros. —A mí ___.",
+   "options": [
+    "tampoco",
+    "también",
+    "sí"
+   ],
+   "answers": [
+    "tampoco"
+   ],
+   "feedback": "Agreeing with a negative → tampoco.",
+   "contrast": "A mí sí (disagreeing)."
+  },
+  {
+   "id": "prog-gust-005",
+   "type": "gap",
+   "unit": 0,
+   "grammarPoint": "gustar-preferir",
+   "difficulty": 2,
+   "prompt": "¿Vosotros qué ___ (preferir): playa o montaña?",
+   "answers": [
+    "preferís"
+   ],
+   "feedback": "vosotros: preferís (no diphthong).",
+   "contrast": "¿Tú qué prefieres?"
+  },
+  {
+   "id": "prog-gust-006",
+   "type": "gap",
+   "unit": 0,
+   "grammarPoint": "gustar-preferir",
+   "difficulty": 2,
+   "prompt": "A Ana le ___ (gustar, indefinido) mucho la película de anoche.",
+   "answers": [
+    "gustó"
+   ],
+   "feedback": "la película → singular; anoche → indefinido.",
+   "contrast": "Le gustaron las canciones."
+  },
+  {
+   "id": "prog-pres-001",
+   "type": "choice",
+   "unit": 0,
+   "grammarPoint": "presente-valor-futuro",
+   "difficulty": 1,
+   "prompt": "El tren a Madrid ___ mañana a las 7:15.",
+   "options": [
+    "sale",
+    "salga",
+    "salía"
+   ],
+   "answers": [
+    "sale"
+   ],
+   "feedback": "Present for scheduled future events.",
+   "contrast": "El tren saldrá con retraso."
+  },
+  {
+   "id": "prog-pres-002",
+   "type": "gap",
+   "unit": 0,
+   "grammarPoint": "presente-valor-futuro",
+   "difficulty": 1,
+   "prompt": "Esta noche ___ (cenar, yo) con mis compañeros de clase.",
+   "answers": [
+    "ceno"
+   ],
+   "feedback": "Arranged plan + time marker → present.",
+   "contrast": "Voy a cenar con ellos."
+  },
+  {
+   "id": "prog-pres-003",
+   "type": "choice",
+   "unit": 0,
+   "grammarPoint": "presente-valor-futuro",
+   "difficulty": 2,
+   "prompt": "¿Qué ___ este fin de semana? ¿Te vienes a la sierra?",
+   "options": [
+    "haces",
+    "hiciste",
+    "hacías"
+   ],
+   "answers": [
+    "haces"
+   ],
+   "feedback": "Asking about plans: ¿qué haces + future time?",
+   "contrast": "¿Qué hiciste el fin de semana pasado?"
+  },
+  {
+   "id": "prog-pres-004",
+   "type": "gap",
+   "unit": 0,
+   "grammarPoint": "presente-valor-futuro",
+   "difficulty": 2,
+   "prompt": "El curso ___ (empezar) el lunes que viene.",
+   "answers": [
+    "empieza"
+   ],
+   "feedback": "Present (e→ie) for a scheduled event.",
+   "contrast": "El curso empezó el lunes pasado."
+  },
+  {
+   "id": "prog-pres-005",
+   "type": "choice",
+   "unit": 0,
+   "grammarPoint": "presente-valor-futuro",
+   "difficulty": 2,
+   "prompt": "Mañana te ___ el libro, ¿vale?",
+   "options": [
+    "devuelvo",
+    "devolvía",
+    "devolví"
+   ],
+   "answers": [
+    "devuelvo"
+   ],
+   "feedback": "A promise about tomorrow can use the present.",
+   "contrast": "Ayer te devolví el libro."
+  },
+  {
+   "id": "prog-pres-006",
+   "type": "gap",
+   "unit": 0,
+   "grammarPoint": "presente-valor-futuro",
+   "difficulty": 2,
+   "prompt": "El examen escrito ___ (ser) el 18 de enero por la mañana.",
+   "answers": [
+    "es"
+   ],
+   "feedback": "Scheduled event → present.",
+   "contrast": "Será difícil (prediction)."
+  },
+  {
+   "id": "prog-creo-001",
+   "type": "choice",
+   "unit": 0,
+   "grammarPoint": "creo-que-ind",
+   "difficulty": 1,
+   "prompt": "Creo que el examen ___ difícil.",
+   "options": [
+    "es",
+    "sea"
+   ],
+   "answers": [
+    "es"
+   ],
+   "feedback": "creo que + indicative.",
+   "contrast": "No creo que sea difícil."
+  },
+  {
+   "id": "prog-creo-002",
+   "type": "choice",
+   "unit": 0,
+   "grammarPoint": "creo-que-ind",
+   "difficulty": 1,
+   "prompt": "No creo que ___ tiempo de visitar Córdoba.",
+   "options": [
+    "tengamos",
+    "tenemos"
+   ],
+   "answers": [
+    "tengamos"
+   ],
+   "feedback": "no creo que + subjunctive.",
+   "contrast": "Creo que tenemos tiempo."
+  },
+  {
+   "id": "prog-creo-003",
+   "type": "gap",
+   "unit": 0,
+   "grammarPoint": "creo-que-ind",
+   "difficulty": 2,
+   "prompt": "Pienso que ___ (ser) mejor alquilar que comprar.",
+   "answers": [
+    "es"
+   ],
+   "feedback": "pensar que + indicative.",
+   "contrast": "No pienso que sea mejor."
+  },
+  {
+   "id": "prog-creo-004",
+   "type": "gap",
+   "unit": 0,
+   "grammarPoint": "creo-que-ind",
+   "difficulty": 2,
+   "prompt": "No me parece que ___ (haber) suficientes zonas verdes en mi barrio.",
+   "answers": [
+    "haya"
+   ],
+   "feedback": "no me parece que + subjunctive.",
+   "contrast": "Me parece que hay pocas."
+  },
+  {
+   "id": "prog-creo-005",
+   "type": "transform",
+   "unit": 0,
+   "grammarPoint": "creo-que-ind",
+   "difficulty": 2,
+   "instruction": "Escribe la frase en negativo.",
+   "prompt": "Creo que Juan viene a la fiesta.",
+   "answers": [
+    "No creo que Juan venga a la fiesta"
+   ],
+   "feedback": "no creo que + subjunctive: viene → venga.",
+   "contrast": "Creo que viene."
+  },
+  {
+   "id": "prog-creo-006",
+   "type": "choice",
+   "unit": 0,
+   "grammarPoint": "creo-que-ind",
+   "difficulty": 3,
+   "prompt": "No pienso que el alquiler ___ a bajar este año.",
+   "options": [
+    "vaya",
+    "va"
+   ],
+   "answers": [
+    "vaya"
+   ],
+   "feedback": "no pensar que + subjunctive: ir → vaya.",
+   "contrast": "Pienso que va a subir."
+  },
+  {
+   "id": "prog-adj-001",
+   "type": "choice",
+   "unit": 0,
+   "grammarPoint": "ser-estar-adj-que",
+   "difficulty": 1,
+   "prompt": "Está claro que el transporte público ___ más barato.",
+   "options": [
+    "es",
+    "sea"
+   ],
+   "answers": [
+    "es"
+   ],
+   "feedback": "Certainty (está claro que) → indicative.",
+   "contrast": "No está claro que sea más barato."
+  },
+  {
+   "id": "prog-adj-002",
+   "type": "choice",
+   "unit": 0,
+   "grammarPoint": "ser-estar-adj-que",
+   "difficulty": 1,
+   "prompt": "Es importante que ___ a tiempo al examen.",
+   "options": [
+    "llegues",
+    "llegas",
+    "llegar"
+   ],
+   "answers": [
+    "llegues"
+   ],
+   "feedback": "es importante que + subjunctive.",
+   "contrast": "Es importante llegar a tiempo."
+  },
+  {
+   "id": "prog-adj-003",
+   "type": "choice",
+   "unit": 0,
+   "grammarPoint": "ser-estar-adj-que",
+   "difficulty": 2,
+   "prompt": "Es mejor ___ el tren: es más rápido.",
+   "options": [
+    "coger",
+    "que coges",
+    "cojas"
+   ],
+   "answers": [
+    "coger"
+   ],
+   "feedback": "General advice with no subject → infinitive.",
+   "contrast": "Es mejor que cojas el tren."
+  },
+  {
+   "id": "prog-adj-004",
+   "type": "gap",
+   "unit": 0,
+   "grammarPoint": "ser-estar-adj-que",
+   "difficulty": 2,
+   "prompt": "Es verdad que Sevilla ___ (tener) muchísimas terrazas.",
+   "answers": [
+    "tiene"
+   ],
+   "feedback": "es verdad que + indicative.",
+   "contrast": "No es verdad que tenga pocas."
+  },
+  {
+   "id": "prog-adj-005",
+   "type": "gap",
+   "unit": 0,
+   "grammarPoint": "ser-estar-adj-que",
+   "difficulty": 2,
+   "prompt": "Es necesario que los estudiantes ___ (practicar) la expresión oral.",
+   "answers": [
+    "practiquen"
+   ],
+   "feedback": "c → qu before e: practiquen.",
+   "contrast": "Es necesario practicar."
+  },
+  {
+   "id": "prog-adj-006",
+   "type": "gap",
+   "unit": 0,
+   "grammarPoint": "ser-estar-adj-que",
+   "difficulty": 3,
+   "prompt": "Es evidente que el alquiler ___ (subir, perfecto) este año.",
+   "answers": [
+    "ha subido"
+   ],
+   "feedback": "es evidente que + indicative; este año → perfecto.",
+   "contrast": "No es evidente que haya subido."
+  },
+  {
+   "id": "prog-deseo-001",
+   "type": "choice",
+   "unit": 0,
+   "grammarPoint": "que-subj-deseos",
+   "difficulty": 1,
+   "prompt": "Tu amiga tiene gripe. Le dices: «¡Que te ___!»",
+   "options": [
+    "mejores",
+    "mejoras",
+    "mejorar"
+   ],
+   "answers": [
+    "mejores"
+   ],
+   "feedback": "¡Que + subjunctive! for wishes.",
+   "contrast": "Espero que te mejores."
+  },
+  {
+   "id": "prog-deseo-002",
+   "type": "choice",
+   "unit": 0,
+   "grammarPoint": "que-subj-deseos",
+   "difficulty": 1,
+   "prompt": "Antes de comer, en España se dice: «¡Que ___!»",
+   "options": [
+    "aproveche",
+    "aprovecha",
+    "aprovechar"
+   ],
+   "answers": [
+    "aproveche"
+   ],
+   "feedback": "Fixed expression: ¡Que aproveche!",
+   "contrast": "Buen provecho."
+  },
+  {
+   "id": "prog-deseo-003",
+   "type": "gap",
+   "unit": 0,
+   "grammarPoint": "que-subj-deseos",
+   "difficulty": 2,
+   "prompt": "Mañana tienes el examen, ¿no? ¡Que te ___ (ir) muy bien!",
+   "answers": [
+    "vaya"
+   ],
+   "feedback": "ir → vaya: ¡Que te vaya bien!",
+   "contrast": "¿Cómo te ha ido?"
+  },
+  {
+   "id": "prog-deseo-004",
+   "type": "gap",
+   "unit": 0,
+   "grammarPoint": "que-subj-deseos",
+   "difficulty": 2,
+   "prompt": "¿Os vais de vacaciones? ¡Que lo ___ (pasar, vosotros) bien!",
+   "answers": [
+    "paséis"
+   ],
+   "feedback": "vosotros subjunctive: paséis.",
+   "contrast": "Pasadlo bien (imperative)."
+  },
+  {
+   "id": "prog-deseo-005",
+   "type": "gap",
+   "unit": 0,
+   "grammarPoint": "que-subj-deseos",
+   "difficulty": 2,
+   "prompt": "Es tu cumpleaños: ¡que ___ (cumplir, tú) muchos más!",
+   "answers": [
+    "cumplas"
+   ],
+   "feedback": "Fixed birthday wish: ¡Que cumplas muchos más!",
+   "contrast": "¡Feliz cumpleaños!"
+  },
+  {
+   "id": "prog-deseo-006",
+   "type": "gap",
+   "unit": 0,
+   "grammarPoint": "que-subj-deseos",
+   "difficulty": 3,
+   "prompt": "Ojalá ___ (hacer) buen tiempo el día de la boda.",
+   "answers": [
+    "haga"
+   ],
+   "feedback": "ojalá + subjunctive: hacer → haga.",
+   "contrast": "Hace buen tiempo (fact)."
+  },
+  {
+   "id": "prog-para-001",
+   "type": "choice",
+   "unit": 0,
+   "grammarPoint": "para-inf",
+   "difficulty": 1,
+   "prompt": "Estudio cada día para ___ el B1.",
+   "options": [
+    "aprobar",
+    "que apruebe",
+    "apruebo"
+   ],
+   "answers": [
+    "aprobar"
+   ],
+   "feedback": "Same subject → para + infinitive.",
+   "contrast": "Estudio para que mis padres estén orgullosos."
+  },
+  {
+   "id": "prog-para-002",
+   "type": "choice",
+   "unit": 0,
+   "grammarPoint": "para-inf",
+   "difficulty": 1,
+   "prompt": "Hablo despacio para que me ___.",
+   "options": [
+    "entiendan",
+    "entienden",
+    "entender"
+   ],
+   "answers": [
+    "entiendan"
+   ],
+   "feedback": "Different subject → para que + subjunctive.",
+   "contrast": "Hablo despacio para entenderme mejor."
+  },
+  {
+   "id": "prog-para-003",
+   "type": "gap",
+   "unit": 0,
+   "grammarPoint": "para-inf",
+   "difficulty": 2,
+   "prompt": "Te mando el enlace para que ___ (ver, tú) el piso.",
+   "answers": [
+    "veas"
+   ],
+   "feedback": "ver → veo → veas.",
+   "contrast": "Te lo mando para verlo juntos."
+  },
+  {
+   "id": "prog-para-004",
+   "type": "gap",
+   "unit": 0,
+   "grammarPoint": "para-inf",
+   "difficulty": 2,
+   "prompt": "Mis padres ahorran para que mi hermana ___ (poder) estudiar fuera.",
+   "answers": [
+    "pueda"
+   ],
+   "feedback": "para que + subjunctive: pueda.",
+   "contrast": "Ahorran para viajar."
+  },
+  {
+   "id": "prog-para-005",
+   "type": "transform",
+   "unit": 0,
+   "grammarPoint": "para-inf",
+   "difficulty": 2,
+   "instruction": "Une con «para que».",
+   "prompt": "Te dejo las llaves. Tú entras cuando quieras.",
+   "answers": [
+    "Te dejo las llaves para que entres cuando quieras"
+   ],
+   "feedback": "Different subjects (yo / tú) → para que + subjunctive.",
+   "contrast": "Cojo las llaves para entrar."
+  },
+  {
+   "id": "prog-para-006",
+   "type": "choice",
+   "unit": 0,
+   "grammarPoint": "para-inf",
+   "difficulty": 2,
+   "prompt": "Uso esta aplicación para ___ vocabulario.",
+   "options": [
+    "repasar",
+    "que repase",
+    "repaso"
+   ],
+   "answers": [
+    "repasar"
+   ],
+   "feedback": "Same subject → para + infinitive.",
+   "contrast": "Mi profesora me la recomendó para que repase."
+  },
+  {
+   "id": "prog-sug-001",
+   "type": "choice",
+   "unit": 0,
+   "grammarPoint": "sugerir-recomendar-quejarse-proponer",
+   "difficulty": 1,
+   "prompt": "Te recomiendo que ___ el AVE: es rapidísimo.",
+   "options": [
+    "cojas",
+    "coges",
+    "coger"
+   ],
+   "answers": [
+    "cojas"
+   ],
+   "feedback": "recomendar que + subjunctive. coger → cojo → cojas.",
+   "contrast": "Te recomiendo coger el AVE."
+  },
+  {
+   "id": "prog-sug-002",
+   "type": "gap",
+   "unit": 0,
+   "grammarPoint": "sugerir-recomendar-quejarse-proponer",
+   "difficulty": 2,
+   "prompt": "Te aconsejo que no ___ (alquilar) un piso sin verlo antes.",
+   "answers": [
+    "alquiles"
+   ],
+   "feedback": "aconsejar que + subjunctive.",
+   "contrast": "Te aconsejo no alquilar…"
+  },
+  {
+   "id": "prog-sug-003",
+   "type": "choice",
+   "unit": 0,
+   "grammarPoint": "sugerir-recomendar-quejarse-proponer",
+   "difficulty": 2,
+   "prompt": "Le escribo para quejarme ___ ruido de las obras.",
+   "options": [
+    "del",
+    "por el",
+    "sobre"
+   ],
+   "answers": [
+    "del"
+   ],
+   "feedback": "quejarse de + noun (de + el → del).",
+   "contrast": "Me quejo de que no hay agua."
+  },
+  {
+   "id": "prog-sug-004",
+   "type": "gap",
+   "unit": 0,
+   "grammarPoint": "sugerir-recomendar-quejarse-proponer",
+   "difficulty": 2,
+   "prompt": "Os propongo que ___ (quedar, nosotros) el sábado para estudiar juntos.",
+   "answers": [
+    "quedemos"
+   ],
+   "feedback": "proponer que + subjunctive.",
+   "contrast": "Propongo quedar el sábado."
+  },
+  {
+   "id": "prog-sug-005",
+   "type": "gap",
+   "unit": 0,
+   "grammarPoint": "sugerir-recomendar-quejarse-proponer",
+   "difficulty": 3,
+   "prompt": "El médico me ha sugerido que ___ (hacer) más ejercicio.",
+   "answers": [
+    "haga"
+   ],
+   "feedback": "sugerir que + subjunctive: haga.",
+   "contrast": "Me ha sugerido hacer más ejercicio."
+  },
+  {
+   "id": "prog-sug-006",
+   "type": "choice",
+   "unit": 0,
+   "grammarPoint": "sugerir-recomendar-quejarse-proponer",
+   "difficulty": 2,
+   "prompt": "Mis vecinos siempre se ___ de todo.",
+   "options": [
+    "quejan",
+    "quejen",
+    "queja"
+   ],
+   "answers": [
+    "quejan"
+   ],
+   "feedback": "quejarse (pronominal): se quejan; a fact → indicative.",
+   "contrast": "No quiero que se quejen."
+  }
+ ]
+}

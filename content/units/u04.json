@@ -1,0 +1,334 @@
+{
+ "id": "u04",
+ "unit": 4,
+ "title": "Va y le dice…",
+ "theme": "Relatos, películas y chistes",
+ "vocabAreas": [
+  "Cine, televisión y libros",
+  "Verbos para contar"
+ ],
+ "writingTask": "Sinopsis de una película",
+ "bookRef": {
+  "page": 52
+ },
+ "grammarPoints": [
+  "conectores-relato",
+  "causa-contraste",
+  "pronombres-od-oi"
+ ],
+ "items": [
+  {
+   "id": "u04-conec-001",
+   "type": "choice",
+   "unit": 4,
+   "grammarPoint": "conectores-relato",
+   "difficulty": 1,
+   "prompt": "Estábamos cenando tranquilamente y, ___, se fue la luz.",
+   "options": [
+    "de repente",
+    "al final",
+    "al principio"
+   ],
+   "answers": [
+    "de repente"
+   ],
+   "feedback": "de repente / de pronto introduces a sudden event.",
+   "contrast": "Al final volvió la luz."
+  },
+  {
+   "id": "u04-conec-002",
+   "type": "choice",
+   "unit": 4,
+   "grammarPoint": "conectores-relato",
+   "difficulty": 1,
+   "prompt": "___ la película es un poco lenta, pero luego se pone muy interesante.",
+   "options": [
+    "Al principio",
+    "De repente",
+    "Por fin"
+   ],
+   "answers": [
+    "Al principio"
+   ],
+   "feedback": "al principio = at first (contrast with luego / después).",
+   "contrast": "Al final es muy emocionante."
+  },
+  {
+   "id": "u04-conec-003",
+   "type": "choice",
+   "unit": 4,
+   "grammarPoint": "conectores-relato",
+   "difficulty": 2,
+   "prompt": "Esperamos el autobús media hora y ___ de un rato decidimos coger un taxi.",
+   "options": [
+    "al cabo",
+    "de repente",
+    "por fin"
+   ],
+   "answers": [
+    "al cabo"
+   ],
+   "feedback": "al cabo de + time = after (a period of time).",
+   "contrast": "Media hora después cogimos un taxi."
+  },
+  {
+   "id": "u04-conec-004",
+   "type": "choice",
+   "unit": 4,
+   "grammarPoint": "conectores-relato",
+   "difficulty": 2,
+   "prompt": "Buscamos el hotel durante dos horas y ___ lo encontramos.",
+   "options": [
+    "por fin",
+    "de repente",
+    "en cambio"
+   ],
+   "answers": [
+    "por fin"
+   ],
+   "feedback": "por fin = at last, after effort or waiting.",
+   "contrast": "De repente lo vimos."
+  },
+  {
+   "id": "u04-conec-005",
+   "type": "choice",
+   "unit": 4,
+   "grammarPoint": "conectores-relato",
+   "difficulty": 2,
+   "prompt": "El protagonista abre la puerta. ___ ve que no hay nadie en la casa.",
+   "options": [
+    "Entonces",
+    "Al principio",
+    "Una vez"
+   ],
+   "answers": [
+    "Entonces"
+   ],
+   "feedback": "entonces = then, next in the sequence.",
+   "contrast": "Al principio no ve nada."
+  },
+  {
+   "id": "u04-conec-006",
+   "type": "choice",
+   "unit": 4,
+   "grammarPoint": "conectores-relato",
+   "difficulty": 2,
+   "prompt": "___, en un pueblo de la sierra, vivía un pastor muy listo.",
+   "options": [
+    "Una vez",
+    "Al final",
+    "Por fin"
+   ],
+   "answers": [
+    "Una vez"
+   ],
+   "feedback": "una vez / un día open a story.",
+   "contrast": "Al final, el pastor se hizo rico."
+  },
+  {
+   "id": "u04-causa-001",
+   "type": "choice",
+   "unit": 4,
+   "grammarPoint": "causa-contraste",
+   "difficulty": 1,
+   "prompt": "___ no había entradas, nos fuimos a cenar.",
+   "options": [
+    "Como",
+    "Porque",
+    "Pero"
+   ],
+   "answers": [
+    "Como"
+   ],
+   "feedback": "Como + cause goes at the start of the sentence.",
+   "contrast": "Nos fuimos a cenar porque no había entradas."
+  },
+  {
+   "id": "u04-causa-002",
+   "type": "choice",
+   "unit": 4,
+   "grammarPoint": "causa-contraste",
+   "difficulty": 1,
+   "prompt": "No vi el final de la serie ___ me quedé dormido.",
+   "options": [
+    "porque",
+    "como",
+    "aunque"
+   ],
+   "answers": [
+    "porque"
+   ],
+   "feedback": "porque introduces the cause after the main clause.",
+   "contrast": "Como me quedé dormido, no vi el final."
+  },
+  {
+   "id": "u04-causa-003",
+   "type": "choice",
+   "unit": 4,
+   "grammarPoint": "causa-contraste",
+   "difficulty": 2,
+   "prompt": "La novela tiene 800 páginas. ___, se lee en una semana.",
+   "options": [
+    "Sin embargo",
+    "Porque",
+    "Como"
+   ],
+   "answers": [
+    "Sin embargo"
+   ],
+   "feedback": "Sin embargo + comma introduces a contrast in a new sentence.",
+   "contrast": "Aunque tiene 800 páginas, se lee rápido."
+  },
+  {
+   "id": "u04-causa-004",
+   "type": "choice",
+   "unit": 4,
+   "grammarPoint": "causa-contraste",
+   "difficulty": 2,
+   "prompt": "___ los actores son buenos, el guion es muy flojo.",
+   "options": [
+    "Aunque",
+    "Como",
+    "Porque"
+   ],
+   "answers": [
+    "Aunque"
+   ],
+   "feedback": "aunque + indicative = although (a known fact).",
+   "contrast": "Los actores son buenos, pero el guion es flojo."
+  },
+  {
+   "id": "u04-causa-005",
+   "type": "choice",
+   "unit": 4,
+   "grammarPoint": "causa-contraste",
+   "difficulty": 1,
+   "prompt": "Me gusta el cine de terror, ___ no lo veo solo.",
+   "options": [
+    "pero",
+    "como",
+    "porque"
+   ],
+   "answers": [
+    "pero"
+   ],
+   "feedback": "pero joins two contrasting clauses.",
+   "contrast": "Aunque me gusta, no lo veo solo."
+  },
+  {
+   "id": "u04-causa-006",
+   "type": "transform",
+   "unit": 4,
+   "grammarPoint": "causa-contraste",
+   "difficulty": 2,
+   "instruction": "Reescribe empezando con «Como».",
+   "prompt": "Nos perdimos porque no teníamos mapa.",
+   "answers": [
+    "Como no teníamos mapa, nos perdimos",
+    "Como no teníamos mapa nos perdimos"
+   ],
+   "feedback": "Como + cause, then the result.",
+   "contrast": "Nos perdimos porque no teníamos mapa."
+  },
+  {
+   "id": "u04-pron-001",
+   "type": "choice",
+   "unit": 4,
+   "grammarPoint": "pronombres-od-oi",
+   "difficulty": 1,
+   "prompt": "—¿Has visto la última película de Almodóvar? —Sí, ___ vi el domingo.",
+   "options": [
+    "la",
+    "lo",
+    "le"
+   ],
+   "answers": [
+    "la"
+   ],
+   "feedback": "la película → direct object la.",
+   "contrast": "El documental lo vi ayer."
+  },
+  {
+   "id": "u04-pron-002",
+   "type": "choice",
+   "unit": 4,
+   "grammarPoint": "pronombres-od-oi",
+   "difficulty": 2,
+   "prompt": "—¿Le has dado el libro a Juan? —Sí, ya ___ he dado.",
+   "options": [
+    "se lo",
+    "le lo",
+    "lo le"
+   ],
+   "answers": [
+    "se lo"
+   ],
+   "feedback": "le + lo → se lo.",
+   "contrast": "Te lo he dado."
+  },
+  {
+   "id": "u04-pron-003",
+   "type": "gap",
+   "unit": 4,
+   "grammarPoint": "pronombres-od-oi",
+   "difficulty": 2,
+   "prompt": "—¿Qué les contaste a tus padres? —___ conté toda la verdad. (pronombre OI)",
+   "answers": [
+    "les"
+   ],
+   "feedback": "a tus padres → indirect object les.",
+   "contrast": "Se la conté."
+  },
+  {
+   "id": "u04-pron-004",
+   "type": "choice",
+   "unit": 4,
+   "grammarPoint": "pronombres-od-oi",
+   "difficulty": 2,
+   "prompt": "Las fotos del viaje, ¿___ enviamos a la abuela?",
+   "options": [
+    "se las",
+    "les las",
+    "se los"
+   ],
+   "answers": [
+    "se las"
+   ],
+   "feedback": "a la abuela (le) + las fotos (las) → se las.",
+   "contrast": "¿Le enviamos las fotos?"
+  },
+  {
+   "id": "u04-pron-005",
+   "type": "transform",
+   "unit": 4,
+   "grammarPoint": "pronombres-od-oi",
+   "difficulty": 3,
+   "instruction": "Sustituye los complementos por pronombres.",
+   "prompt": "Voy a contar el chiste a mis amigos.",
+   "answers": [
+    "Voy a contárselo",
+    "Se lo voy a contar"
+   ],
+   "feedback": "les + lo → se lo, before the conjugated verb or attached to the infinitive (with an accent).",
+   "contrast": "Se lo cuento."
+  },
+  {
+   "id": "u04-pron-006",
+   "type": "choice",
+   "unit": 4,
+   "grammarPoint": "pronombres-od-oi",
+   "difficulty": 2,
+   "prompt": "—¿Y las llaves? —___ he dejado encima de la mesa.",
+   "options": [
+    "Te las",
+    "Te los",
+    "Las te"
+   ],
+   "answers": [
+    "Te las"
+   ],
+   "feedback": "Indirect (te) before direct (las).",
+   "contrast": "Me las has dejado."
+  }
+ ]
+}

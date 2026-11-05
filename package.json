@@ -1,0 +1,28 @@
+{
+  "name": "spanish-b1-practice",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run validate-content && tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "validate-content": "tsx scripts/validate-content.ts",
+    "gen:conjugations": "tsx scripts/generate-conjugations.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "idb-keyval": "^6.3.0",
+    "preact": "^11.1.1"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.6",
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.6",
+    "vite-plugin-pwa": "^2.0.0",
+    "vitest": "^5.1.0",
+    "zod": "^4.6.7"
+  }
+}

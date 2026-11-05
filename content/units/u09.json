@@ -1,0 +1,22 @@
+{
+  "id": "u09", "unit": 9, "title": "Tenemos que hablar", "theme": "Relaciones personales y sentimientos",
+  "vocabAreas": ["Sentimientos", "Manías", "Expresar desacuerdo"],
+  "writingTask": "Representar una discusión",
+  "bookRef": { "page": 122 },
+  "grammarPoints": ["me-fascina-que", "verbos-sentimiento"],
+  "items": [
+    { "id": "u09-fasc-001", "type": "choice", "unit": 9, "grammarPoint": "me-fascina-que", "difficulty": 1, "prompt": "Me molesta que mi compañero de piso ___ la música tan alta.", "options": ["ponga", "pone", "poner"], "answers": ["ponga"], "feedback": "Different subject → que + subjunctive.", "contrast": "Me molesta poner la música alta." },
+    { "id": "u09-fasc-002", "type": "choice", "unit": 9, "grammarPoint": "me-fascina-que", "difficulty": 1, "prompt": "Me encanta ___ el desayuno en la terraza.", "options": ["tomar", "que tome", "tomo"], "answers": ["tomar"], "feedback": "Same subject → infinitive.", "contrast": "Me encanta que tomes el desayuno conmigo." },
+    { "id": "u09-fasc-003", "type": "gap", "unit": 9, "grammarPoint": "me-fascina-que", "difficulty": 2, "prompt": "A mi pareja le fascina que yo ___ (saber) cocinar platos de mi país.", "answers": ["sepa"], "feedback": "Irregular subjunctive: saber → sepa.", "contrast": "Le fascina saber cocinar." },
+    { "id": "u09-fasc-004", "type": "choice", "unit": 9, "grammarPoint": "me-fascina-que", "difficulty": 2, "prompt": "Me ___ las personas que hablan mal de los demás.", "options": ["molestan", "molesta", "molesto"], "answers": ["molestan"], "feedback": "The verb agrees with what bothers you: las personas → molestan.", "contrast": "Me molesta la gente que…" },
+    { "id": "u09-fasc-005", "type": "gap", "unit": 9, "grammarPoint": "me-fascina-que", "difficulty": 2, "prompt": "¿Te importa que ___ (abrir, yo) la ventana?", "answers": ["abra"], "feedback": "¿Te importa que + subjunctive? asks for permission.", "contrast": "¿Te importa abrir la ventana? (asks you to do it)" },
+    { "id": "u09-fasc-006", "type": "gap", "unit": 9, "grammarPoint": "me-fascina-que", "difficulty": 3, "prompt": "A mis padres les preocupa que mi hermano no ___ (tener) trabajo fijo.", "answers": ["tenga"], "feedback": "preocupar que + subjunctive: tener → tenga.", "contrast": "Les preocupa no tener trabajo." },
+
+    { "id": "u09-sent-001", "type": "choice", "unit": 9, "grammarPoint": "verbos-sentimiento", "difficulty": 1, "prompt": "Yo ___ que la gente llegue tarde a las citas.", "options": ["odio", "me odia", "odia"], "answers": ["odio"], "feedback": "odiar is a regular verb: yo odio.", "contrast": "Me molesta que la gente llegue tarde." },
+    { "id": "u09-sent-002", "type": "gap", "unit": 9, "grammarPoint": "verbos-sentimiento", "difficulty": 2, "prompt": "No soporto que me ___ (interrumpir, ellos) cuando hablo.", "answers": ["interrumpan"], "feedback": "no soportar que + subjunctive.", "contrast": "No soporto interrumpir." },
+    { "id": "u09-sent-003", "type": "choice", "unit": 9, "grammarPoint": "verbos-sentimiento", "difficulty": 2, "prompt": "Me ___ muy nerviosa las colas del supermercado.", "options": ["ponen", "pone", "pongo"], "answers": ["ponen"], "feedback": "poner nervioso works like gustar: las colas → ponen.", "contrast": "Me pone nerviosa esperar." },
+    { "id": "u09-sent-004", "type": "gap", "unit": 9, "grammarPoint": "verbos-sentimiento", "difficulty": 2, "prompt": "Me da pena que ___ (irse, tú) de Sevilla.", "answers": ["te vayas"], "feedback": "dar pena que + subjunctive. irse → te vayas.", "contrast": "Me da pena irme." },
+    { "id": "u09-sent-005", "type": "choice", "unit": 9, "grammarPoint": "verbos-sentimiento", "difficulty": 2, "prompt": "Mi hermana no aguanta ___ sola en casa por la noche.", "options": ["estar", "que esté", "está"], "answers": ["estar"], "feedback": "Same subject → infinitive.", "contrast": "No aguanta que su hermano esté solo." },
+    { "id": "u09-sent-006", "type": "gap", "unit": 9, "grammarPoint": "verbos-sentimiento", "difficulty": 3, "prompt": "A Pedro le da vergüenza que sus padres ___ (bailar) en las bodas.", "answers": ["bailen"], "feedback": "dar vergüenza que + subjunctive.", "contrast": "Le da vergüenza bailar." }
+  ]
+}

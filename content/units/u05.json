@@ -1,0 +1,305 @@
+{
+ "id": "u05",
+ "unit": 5,
+ "title": "Busque y compare",
+ "theme": "La publicidad",
+ "vocabAreas": [
+  "Publicidad",
+  "Describir un anuncio"
+ ],
+ "writingTask": "Diseñar y presentar una campaña publicitaria",
+ "bookRef": {
+  "page": 66
+ },
+ "grammarPoints": [
+  "imperativo-afirmativo",
+  "imperativo-negativo",
+  "pronombres-posicion"
+ ],
+ "items": [
+  {
+   "id": "u05-imp-001",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-afirmativo",
+   "difficulty": 1,
+   "verb": "probar",
+   "person": "tú",
+   "tense": "imperativo afirmativo",
+   "answers": [
+    "prueba"
+   ],
+   "feedback": "tú imperative = 3rd-person present: prueba (o→ue).",
+   "contrast": "no pruebes"
+  },
+  {
+   "id": "u05-imp-002",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-afirmativo",
+   "difficulty": 2,
+   "verb": "venir",
+   "person": "tú",
+   "tense": "imperativo afirmativo",
+   "answers": [
+    "ven"
+   ],
+   "feedback": "Irregular tú: ven.",
+   "contrast": "no vengas"
+  },
+  {
+   "id": "u05-imp-003",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-afirmativo",
+   "difficulty": 2,
+   "verb": "comprar",
+   "person": "usted",
+   "tense": "imperativo afirmativo",
+   "answers": [
+    "compre"
+   ],
+   "feedback": "usted takes the present subjunctive: compre.",
+   "contrast": "compra (tú)"
+  },
+  {
+   "id": "u05-imp-004",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-afirmativo",
+   "difficulty": 2,
+   "verb": "descubrir",
+   "person": "vosotros",
+   "tense": "imperativo afirmativo",
+   "answers": [
+    "descubrid"
+   ],
+   "feedback": "vosotros: infinitive, -r → -d.",
+   "contrast": "no descubráis"
+  },
+  {
+   "id": "u05-imp-005",
+   "type": "gap",
+   "unit": 5,
+   "grammarPoint": "imperativo-afirmativo",
+   "difficulty": 2,
+   "prompt": "¡___ (hacer, tú) deporte con nosotros y siéntete mejor!",
+   "answers": [
+    "Haz"
+   ],
+   "feedback": "Irregular tú: hacer → haz.",
+   "contrast": "Haced deporte (vosotros)."
+  },
+  {
+   "id": "u05-imp-006",
+   "type": "gap",
+   "unit": 5,
+   "grammarPoint": "imperativo-afirmativo",
+   "difficulty": 2,
+   "prompt": "Señores pasajeros, ___ (tener, ustedes) preparada la tarjeta de embarque.",
+   "answers": [
+    "tengan"
+   ],
+   "feedback": "ustedes: present subjunctive. tener → tengo → tengan.",
+   "contrast": "Ten preparada la tarjeta (tú)."
+  },
+  {
+   "id": "u05-imp-007",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-afirmativo",
+   "difficulty": 2,
+   "verb": "decir",
+   "person": "tú",
+   "tense": "imperativo afirmativo",
+   "answers": [
+    "di"
+   ],
+   "feedback": "Irregular tú: decir → di.",
+   "contrast": "decid (vosotros)"
+  },
+  {
+   "id": "u05-neg-001",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-negativo",
+   "difficulty": 1,
+   "verb": "esperar",
+   "person": "tú",
+   "tense": "imperativo negativo",
+   "answers": [
+    "no esperes",
+    "esperes"
+   ],
+   "feedback": "no + present subjunctive: -ar → -es.",
+   "contrast": "espera"
+  },
+  {
+   "id": "u05-neg-002",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-negativo",
+   "difficulty": 2,
+   "verb": "ir",
+   "person": "tú",
+   "tense": "imperativo negativo",
+   "answers": [
+    "no vayas",
+    "vayas"
+   ],
+   "feedback": "ir → vaya: no vayas.",
+   "contrast": "ve"
+  },
+  {
+   "id": "u05-neg-003",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-negativo",
+   "difficulty": 2,
+   "verb": "comer",
+   "person": "vosotros",
+   "tense": "imperativo negativo",
+   "answers": [
+    "no comáis",
+    "comáis"
+   ],
+   "feedback": "vosotros negative: no comáis.",
+   "contrast": "comed"
+  },
+  {
+   "id": "u05-neg-004",
+   "type": "gap",
+   "unit": 5,
+   "grammarPoint": "imperativo-negativo",
+   "difficulty": 2,
+   "prompt": "No ___ (dejar, vosotros) para mañana lo que podéis comprar hoy.",
+   "answers": [
+    "dejéis"
+   ],
+   "feedback": "vosotros negative: -ar → -éis.",
+   "contrast": "Dejad…"
+  },
+  {
+   "id": "u05-neg-005",
+   "type": "gap",
+   "unit": 5,
+   "grammarPoint": "imperativo-negativo",
+   "difficulty": 2,
+   "prompt": "No ___ (pagar, usted) más por su seguro de coche.",
+   "answers": [
+    "pague"
+   ],
+   "feedback": "g → gu before e: pague.",
+   "contrast": "Pague menos."
+  },
+  {
+   "id": "u05-neg-006",
+   "type": "transform",
+   "unit": 5,
+   "grammarPoint": "imperativo-negativo",
+   "difficulty": 2,
+   "instruction": "Escribe la orden en negativo.",
+   "prompt": "Sal de casa sin paraguas.",
+   "answers": [
+    "No salgas de casa sin paraguas"
+   ],
+   "feedback": "salir → salgo → no salgas.",
+   "contrast": "Sal (affirmative)."
+  },
+  {
+   "id": "u05-pos-001",
+   "type": "choice",
+   "unit": 5,
+   "grammarPoint": "pronombres-posicion",
+   "difficulty": 1,
+   "prompt": "¿Te gusta este perfume? ¡___ hoy con un 20 % de descuento!",
+   "options": [
+    "Pruébalo",
+    "Lo prueba",
+    "Prúebalo"
+   ],
+   "answers": [
+    "Pruébalo"
+   ],
+   "feedback": "Affirmative command: the pronoun is attached, and the stress keeps its place (prué-ba-lo).",
+   "contrast": "No lo pruebes."
+  },
+  {
+   "id": "u05-pos-002",
+   "type": "choice",
+   "unit": 5,
+   "grammarPoint": "pronombres-posicion",
+   "difficulty": 1,
+   "prompt": "Es una oferta única: no ___.",
+   "options": [
+    "la dejes escapar",
+    "déjala escapar",
+    "dejes la escapar"
+   ],
+   "answers": [
+    "la dejes escapar"
+   ],
+   "feedback": "Negative command: the pronoun goes before the verb.",
+   "contrast": "No la dejes escapar = don't let it slip away."
+  },
+  {
+   "id": "u05-pos-003",
+   "type": "transform",
+   "unit": 5,
+   "grammarPoint": "pronombres-posicion",
+   "difficulty": 2,
+   "instruction": "Escribe la orden en afirmativo.",
+   "prompt": "No me lo digas.",
+   "answers": [
+    "Dímelo"
+   ],
+   "feedback": "di + me + lo → dímelo (an accent is added).",
+   "contrast": "No me lo digas."
+  },
+  {
+   "id": "u05-pos-004",
+   "type": "transform",
+   "unit": 5,
+   "grammarPoint": "pronombres-posicion",
+   "difficulty": 2,
+   "instruction": "Escribe la orden en negativo.",
+   "prompt": "Cómpralo ahora.",
+   "answers": [
+    "No lo compres ahora"
+   ],
+   "feedback": "Negative: no + pronoun + subjunctive.",
+   "contrast": "Cómpralo."
+  },
+  {
+   "id": "u05-pos-005",
+   "type": "choice",
+   "unit": 5,
+   "grammarPoint": "pronombres-posicion",
+   "difficulty": 3,
+   "prompt": "Chicos, ___ que empieza la presentación.",
+   "options": [
+    "sentaos",
+    "sentados",
+    "sentados os"
+   ],
+   "answers": [
+    "sentaos"
+   ],
+   "feedback": "vosotros + os: the -d drops: sentad + os → sentaos.",
+   "contrast": "No os sentéis."
+  },
+  {
+   "id": "u05-pos-006",
+   "type": "gap",
+   "unit": 5,
+   "grammarPoint": "pronombres-posicion",
+   "difficulty": 2,
+   "prompt": "Si tiene dudas, ___ (llamar, usted + nos) al 900 123 456.",
+   "answers": [
+    "llámenos"
+   ],
+   "feedback": "usted affirmative: llame + nos → llámenos.",
+   "contrast": "No nos llame después de las ocho."
+  }
+ ]
+}

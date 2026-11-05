@@ -1,0 +1,17 @@
+{
+  "id": "u07", "unit": 7, "title": "Mensajes", "theme": "Mensajes y comunicación",
+  "vocabAreas": ["Tipos de mensajes", "Verbos para transmitir mensajes"],
+  "writingTask": "Crear y transmitir distintos mensajes",
+  "bookRef": { "page": 94 },
+  "grammarPoints": ["estilo-indirecto"],
+  "items": [
+    { "id": "u07-ind-001", "type": "transform", "unit": 7, "grammarPoint": "estilo-indirecto", "difficulty": 1, "instruction": "Transmite el mensaje: «Ana me ha dicho que…».", "prompt": "Ana: «Llego tarde.»", "answers": ["Ana me ha dicho que llega tarde"], "feedback": "Reporting now/recently (me ha dicho) → the present stays the same; yo → ella.", "contrast": "Ana: «Llego tarde.» → Dice que llega tarde." },
+    { "id": "u07-ind-002", "type": "transform", "unit": 7, "grammarPoint": "estilo-indirecto", "difficulty": 2, "instruction": "Transmite la pregunta: «Luis me ha preguntado…».", "prompt": "Luis: «¿Vienes a la cena?»", "answers": ["Luis me ha preguntado si voy a la cena"], "feedback": "Yes/no question → preguntar si. Perspective: vienes → voy (venir → ir).", "contrast": "Me ha preguntado dónde es la cena." },
+    { "id": "u07-ind-003", "type": "transform", "unit": 7, "grammarPoint": "estilo-indirecto", "difficulty": 2, "instruction": "Transmite la petición: «Mi jefa me ha pedido que…».", "prompt": "Mi jefa: «Envíame el informe.»", "answers": ["Mi jefa me ha pedido que le envíe el informe"], "feedback": "Request → pedir que + subjunctive; envíame → que le envíe.", "contrast": "Me ha dicho que el informe está bien." },
+    { "id": "u07-ind-004", "type": "choice", "unit": 7, "grammarPoint": "estilo-indirecto", "difficulty": 1, "prompt": "Carlos: «¿Dónde vives?» → Carlos me ha preguntado ___ vivo.", "options": ["dónde", "si", "que"], "answers": ["dónde"], "feedback": "Wh- questions keep the question word (with its accent).", "contrast": "Me ha preguntado si vivo cerca." },
+    { "id": "u07-ind-005", "type": "choice", "unit": 7, "grammarPoint": "estilo-indirecto", "difficulty": 2, "prompt": "Tu madre: «Llama a tu abuela.» → Mi madre me ha dicho que ___ a mi abuela.", "options": ["llame", "llamo", "llama"], "answers": ["llame"], "feedback": "A command reported with decir que → subjunctive.", "contrast": "Me ha dicho que la abuela llama mañana (information)." },
+    { "id": "u07-ind-006", "type": "gap", "unit": 7, "grammarPoint": "estilo-indirecto", "difficulty": 2, "prompt": "Elena: «Mañana no puedo ir.» → Elena dice que mañana no ___ (poder) ir.", "answers": ["puede"], "feedback": "yo puedo → ella puede (present unchanged).", "contrast": "Elena: «No puedo» → Dice que no puede." },
+    { "id": "u07-ind-007", "type": "transform", "unit": 7, "grammarPoint": "estilo-indirecto", "difficulty": 3, "instruction": "Transmite: «Mis compañeros me han pedido que…».", "prompt": "Mis compañeros: «Tráenos café.»", "answers": ["Mis compañeros me han pedido que les traiga café"], "feedback": "tráenos → que les traiga (nos → les, imperative → subjunctive).", "contrast": "No nos traigas café → me han pedido que no les traiga café." },
+    { "id": "u07-ind-008", "type": "choice", "unit": 7, "grammarPoint": "estilo-indirecto", "difficulty": 2, "prompt": "Marta: «¿Has visto mis gafas?» → Marta me ha preguntado si he visto ___ gafas.", "options": ["sus", "mis", "tus"], "answers": ["sus"], "feedback": "Possessives change perspective: mis gafas (Marta's) → sus gafas.", "contrast": "Me ha preguntado si he visto mis gafas = my glasses." }
+  ]
+}
