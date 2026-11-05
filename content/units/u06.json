@@ -452,6 +452,812 @@
     }
    ],
    "feedback": "habría que / debería + infinitive; es necesario que / exigir que + subjunctive."
+  },
+  {
+   "id": "u06-g-001",
+   "type": "conjugate",
+   "unit": 6,
+   "grammarPoint": "subjuntivo-presente",
+   "difficulty": 1,
+   "verb": "estudiar",
+   "person": "nosotros",
+   "tense": "presente de subjuntivo",
+   "answers": [
+    "estudiemos"
+   ],
+   "feedback": "estudiar (subjuntivo): estudie, estudies, estudie, estudiemos, estudiéis, estudien.",
+   "contrast": "Ejemplo: Quiero que estudies…"
+  },
+  {
+   "id": "u06-g-002",
+   "type": "conjugate",
+   "unit": 6,
+   "grammarPoint": "subjuntivo-presente",
+   "difficulty": 1,
+   "verb": "vivir",
+   "person": "él / ella / usted",
+   "tense": "presente de subjuntivo",
+   "answers": [
+    "viva"
+   ],
+   "feedback": "vivir (subjuntivo): viva, vivas, viva, vivamos, viváis, vivan.",
+   "contrast": "Ejemplo: Quiero que vivas…"
+  },
+  {
+   "id": "u06-g-003",
+   "type": "conjugate",
+   "unit": 6,
+   "grammarPoint": "subjuntivo-presente",
+   "difficulty": 2,
+   "verb": "hacer",
+   "person": "tú",
+   "tense": "presente de subjuntivo",
+   "answers": [
+    "hagas"
+   ],
+   "feedback": "hacer (subjuntivo): haga, hagas, haga, hagamos, hagáis, hagan.",
+   "contrast": "Ejemplo: Quiero que hagas…"
+  },
+  {
+   "id": "u06-g-004",
+   "type": "conjugate",
+   "unit": 6,
+   "grammarPoint": "subjuntivo-presente",
+   "difficulty": 2,
+   "verb": "decir",
+   "person": "yo",
+   "tense": "presente de subjuntivo",
+   "answers": [
+    "diga"
+   ],
+   "feedback": "decir (subjuntivo): diga, digas, diga, digamos, digáis, digan.",
+   "contrast": "Ejemplo: Quiero que digas…"
+  },
+  {
+   "id": "u06-g-005",
+   "type": "conjugate",
+   "unit": 6,
+   "grammarPoint": "subjuntivo-presente",
+   "difficulty": 2,
+   "verb": "salir",
+   "person": "ellos / ellas / ustedes",
+   "tense": "presente de subjuntivo",
+   "answers": [
+    "salgan"
+   ],
+   "feedback": "salir (subjuntivo): salga, salgas, salga, salgamos, salgáis, salgan.",
+   "contrast": "Ejemplo: Quiero que salgas…"
+  },
+  {
+   "id": "u06-g-006",
+   "type": "conjugate",
+   "unit": 6,
+   "grammarPoint": "subjuntivo-presente",
+   "difficulty": 2,
+   "verb": "conocer",
+   "person": "vosotros",
+   "tense": "presente de subjuntivo",
+   "answers": [
+    "conozcáis"
+   ],
+   "feedback": "conocer (subjuntivo): conozca, conozcas, conozca, conozcamos, conozcáis, conozcan.",
+   "contrast": "Ejemplo: Quiero que conozcas…"
+  },
+  {
+   "id": "u06-g-007",
+   "type": "conjugate",
+   "unit": 6,
+   "grammarPoint": "subjuntivo-presente",
+   "difficulty": 2,
+   "verb": "querer",
+   "person": "nosotros",
+   "tense": "presente de subjuntivo",
+   "answers": [
+    "queramos"
+   ],
+   "feedback": "querer (subjuntivo): quiera, quieras, quiera, queramos, queráis, quieran.",
+   "contrast": "Ejemplo: Quiero que quieras…"
+  },
+  {
+   "id": "u06-g-008",
+   "type": "conjugate",
+   "unit": 6,
+   "grammarPoint": "subjuntivo-presente",
+   "difficulty": 2,
+   "verb": "dormir",
+   "person": "él / ella / usted",
+   "tense": "presente de subjuntivo",
+   "answers": [
+    "duerma"
+   ],
+   "feedback": "dormir (subjuntivo): duerma, duermas, duerma, durmamos, durmáis, duerman.",
+   "contrast": "Ejemplo: Quiero que duermas…"
+  },
+  {
+   "id": "u06-g-009",
+   "type": "conjugate",
+   "unit": 6,
+   "grammarPoint": "subjuntivo-presente",
+   "difficulty": 2,
+   "verb": "pedir",
+   "person": "tú",
+   "tense": "presente de subjuntivo",
+   "answers": [
+    "pidas"
+   ],
+   "feedback": "pedir (subjuntivo): pida, pidas, pida, pidamos, pidáis, pidan.",
+   "contrast": "Ejemplo: Quiero que pidas…"
+  },
+  {
+   "id": "u06-g-010",
+   "type": "conjugate",
+   "unit": 6,
+   "grammarPoint": "subjuntivo-presente",
+   "difficulty": 2,
+   "verb": "sentir",
+   "person": "yo",
+   "tense": "presente de subjuntivo",
+   "answers": [
+    "sienta"
+   ],
+   "feedback": "sentir (subjuntivo): sienta, sientas, sienta, sintamos, sintáis, sientan.",
+   "contrast": "Ejemplo: Quiero que sientas…"
+  },
+  {
+   "id": "u06-g-011",
+   "type": "conjugate",
+   "unit": 6,
+   "grammarPoint": "subjuntivo-presente",
+   "difficulty": 2,
+   "verb": "empezar",
+   "person": "ellos / ellas / ustedes",
+   "tense": "presente de subjuntivo",
+   "answers": [
+    "empiecen"
+   ],
+   "feedback": "empezar (subjuntivo): empiece, empieces, empiece, empecemos, empecéis, empiecen.",
+   "contrast": "Ejemplo: Quiero que empieces…"
+  },
+  {
+   "id": "u06-g-012",
+   "type": "conjugate",
+   "unit": 6,
+   "grammarPoint": "subjuntivo-presente",
+   "difficulty": 2,
+   "verb": "buscar",
+   "person": "vosotros",
+   "tense": "presente de subjuntivo",
+   "answers": [
+    "busquéis"
+   ],
+   "feedback": "buscar (subjuntivo): busque, busques, busque, busquemos, busquéis, busquen.",
+   "contrast": "Ejemplo: Quiero que busques…"
+  },
+  {
+   "id": "u06-g-013",
+   "type": "conjugate",
+   "unit": 6,
+   "grammarPoint": "subjuntivo-presente",
+   "difficulty": 2,
+   "verb": "llegar",
+   "person": "nosotros",
+   "tense": "presente de subjuntivo",
+   "answers": [
+    "lleguemos"
+   ],
+   "feedback": "llegar (subjuntivo): llegue, llegues, llegue, lleguemos, lleguéis, lleguen.",
+   "contrast": "Ejemplo: Quiero que llegues…"
+  },
+  {
+   "id": "u06-g-014",
+   "type": "conjugate",
+   "unit": 6,
+   "grammarPoint": "subjuntivo-presente",
+   "difficulty": 2,
+   "verb": "coger",
+   "person": "él / ella / usted",
+   "tense": "presente de subjuntivo",
+   "answers": [
+    "coja"
+   ],
+   "feedback": "coger (subjuntivo): coja, cojas, coja, cojamos, cojáis, cojan.",
+   "contrast": "Ejemplo: Quiero que cojas…"
+  },
+  {
+   "id": "u06-g-015",
+   "type": "conjugate",
+   "unit": 6,
+   "grammarPoint": "subjuntivo-presente",
+   "difficulty": 2,
+   "verb": "seguir",
+   "person": "tú",
+   "tense": "presente de subjuntivo",
+   "answers": [
+    "sigas"
+   ],
+   "feedback": "seguir (subjuntivo): siga, sigas, siga, sigamos, sigáis, sigan.",
+   "contrast": "Ejemplo: Quiero que sigas…"
+  },
+  {
+   "id": "u06-g-016",
+   "type": "conjugate",
+   "unit": 6,
+   "grammarPoint": "subjuntivo-presente",
+   "difficulty": 2,
+   "verb": "estar",
+   "person": "yo",
+   "tense": "presente de subjuntivo",
+   "answers": [
+    "esté"
+   ],
+   "feedback": "estar (subjuntivo): esté, estés, esté, estemos, estéis, estén.",
+   "contrast": "Ejemplo: Quiero que estés…"
+  },
+  {
+   "id": "u06-g-017",
+   "type": "conjugate",
+   "unit": 6,
+   "grammarPoint": "subjuntivo-presente",
+   "difficulty": 2,
+   "verb": "dar",
+   "person": "ellos / ellas / ustedes",
+   "tense": "presente de subjuntivo",
+   "answers": [
+    "den"
+   ],
+   "feedback": "dar (subjuntivo): dé, des, dé, demos, deis, den.",
+   "contrast": "Ejemplo: Quiero que des…"
+  },
+  {
+   "id": "u06-g-018",
+   "type": "conjugate",
+   "unit": 6,
+   "grammarPoint": "subjuntivo-presente",
+   "difficulty": 2,
+   "verb": "saber",
+   "person": "vosotros",
+   "tense": "presente de subjuntivo",
+   "answers": [
+    "sepáis"
+   ],
+   "feedback": "saber (subjuntivo): sepa, sepas, sepa, sepamos, sepáis, sepan.",
+   "contrast": "Ejemplo: Quiero que sepas…"
+  },
+  {
+   "id": "u06-g-019",
+   "type": "conjugate",
+   "unit": 6,
+   "grammarPoint": "subjuntivo-presente",
+   "difficulty": 2,
+   "verb": "ver",
+   "person": "nosotros",
+   "tense": "presente de subjuntivo",
+   "answers": [
+    "veamos"
+   ],
+   "feedback": "ver (subjuntivo): vea, veas, vea, veamos, veáis, vean.",
+   "contrast": "Ejemplo: Quiero que veas…"
+  },
+  {
+   "id": "u06-g-020",
+   "type": "conjugate",
+   "unit": 6,
+   "grammarPoint": "subjuntivo-presente",
+   "difficulty": 2,
+   "verb": "haber",
+   "person": "él / ella / usted",
+   "tense": "presente de subjuntivo",
+   "answers": [
+    "haya"
+   ],
+   "feedback": "haber (subjuntivo): haya, hayas, haya, hayamos, hayáis, hayan.",
+   "contrast": "Ejemplo: Quiero que hayas…"
+  },
+  {
+   "id": "u06-f-001",
+   "type": "gap",
+   "grammarPoint": "subjuntivo-presente",
+   "difficulty": 2,
+   "feedback": "esperar que + subjuntivo.",
+   "contrast": "Espero cumplir mis promesas.",
+   "prompt": "Espero que el nuevo alcalde ___ (cumplir) sus promesas.",
+   "answers": [
+    "cumpla"
+   ],
+   "unit": 6
+  },
+  {
+   "id": "u06-f-002",
+   "type": "gap",
+   "grammarPoint": "subjuntivo-presente",
+   "difficulty": 2,
+   "feedback": "ojalá + subjuntivo; haber → haya.",
+   "contrast": "Hay pocas zonas verdes.",
+   "prompt": "Ojalá ___ (haber) más zonas verdes en el barrio.",
+   "answers": [
+    "haya"
+   ],
+   "unit": 6
+  },
+  {
+   "id": "u06-f-003",
+   "type": "gap",
+   "grammarPoint": "subjuntivo-presente",
+   "difficulty": 2,
+   "feedback": "-ar → -en.",
+   "contrast": "Escuchan poco.",
+   "prompt": "Ojalá los políticos ___ (escuchar) más a los jóvenes.",
+   "answers": [
+    "escuchen"
+   ],
+   "unit": 6
+  },
+  {
+   "id": "u06-f-004",
+   "type": "choice",
+   "grammarPoint": "subjuntivo-presente",
+   "difficulty": 1,
+   "feedback": "¡Que + subjuntivo! for wishes.",
+   "contrast": "Las guerras se acaban.",
+   "prompt": "¡Que ___ las guerras de una vez!",
+   "options": [
+    "se acaben",
+    "se acaban",
+    "se acabarán"
+   ],
+   "answers": [
+    "se acaben"
+   ],
+   "unit": 6
+  },
+  {
+   "id": "u06-f-005",
+   "type": "error",
+   "grammarPoint": "subjuntivo-presente",
+   "difficulty": 2,
+   "feedback": "ojalá + subjuntivo.",
+   "contrast": "Mañana hará buen tiempo.",
+   "prompt": "Ojalá mañana hace buen tiempo para la manifestación.",
+   "errorIndex": 2,
+   "answers": [
+    "haga"
+   ],
+   "unit": 6
+  },
+  {
+   "id": "u06-f-006",
+   "type": "error",
+   "grammarPoint": "subjuntivo-presente",
+   "difficulty": 2,
+   "feedback": "querer que + subjuntivo (e→ie).",
+   "contrast": "El gobierno invierte poco.",
+   "prompt": "Queremos que el gobierno invierte más en educación.",
+   "errorIndex": 4,
+   "answers": [
+    "invierta"
+   ],
+   "unit": 6
+  },
+  {
+   "id": "u06-f-007",
+   "type": "match",
+   "grammarPoint": "subjuntivo-presente",
+   "difficulty": 2,
+   "feedback": "Present subjunctive (yo): from the yo present or irregular.",
+   "instruction": "Relaciona cada verbo con su forma de subjuntivo (yo).",
+   "pairs": [
+    {
+     "left": "tener",
+     "right": "tenga"
+    },
+    {
+     "left": "ir",
+     "right": "vaya"
+    },
+    {
+     "left": "saber",
+     "right": "sepa"
+    },
+    {
+     "left": "conocer",
+     "right": "conozca"
+    }
+   ],
+   "unit": 6
+  },
+  {
+   "id": "u06-f-008",
+   "type": "choice",
+   "grammarPoint": "querer-pedir-que",
+   "difficulty": 1,
+   "feedback": "pedir que + subjuntivo.",
+   "contrast": "Pedimos poner más autobuses.",
+   "prompt": "Pedimos que ___ más autobuses por la noche.",
+   "options": [
+    "pongan",
+    "ponen",
+    "poner"
+   ],
+   "answers": [
+    "pongan"
+   ],
+   "unit": 6
+  },
+  {
+   "id": "u06-f-009",
+   "type": "choice",
+   "grammarPoint": "querer-pedir-que",
+   "difficulty": 1,
+   "feedback": "Same subject → infinitive.",
+   "contrast": "Necesito que me llames.",
+   "prompt": "Necesito ___ con alguien del ayuntamiento.",
+   "options": [
+    "hablar",
+    "que hable",
+    "hablo"
+   ],
+   "answers": [
+    "hablar"
+   ],
+   "unit": 6
+  },
+  {
+   "id": "u06-f-010",
+   "type": "gap",
+   "grammarPoint": "querer-pedir-que",
+   "difficulty": 2,
+   "feedback": "reducir → reduzco → reduzca.",
+   "contrast": "Exigen reducir el ruido.",
+   "prompt": "Los vecinos exigen que la empresa ___ (reducir) el ruido.",
+   "answers": [
+    "reduzca"
+   ],
+   "unit": 6
+  },
+  {
+   "id": "u06-f-011",
+   "type": "gap",
+   "grammarPoint": "querer-pedir-que",
+   "difficulty": 2,
+   "feedback": "Different subject → que + subjuntivo.",
+   "contrast": "Yo quiero estudiar Arte.",
+   "prompt": "Mis padres quieren que yo ___ (estudiar) Medicina.",
+   "answers": [
+    "estudie"
+   ],
+   "unit": 6
+  },
+  {
+   "id": "u06-f-012",
+   "type": "gap",
+   "grammarPoint": "querer-pedir-que",
+   "difficulty": 3,
+   "feedback": "pedir que + subjuntivo (g → gu).",
+   "contrast": "Te pido puntualidad.",
+   "prompt": "Te pido por favor que no ___ (llegar) tarde mañana.",
+   "answers": [
+    "llegues"
+   ],
+   "unit": 6
+  },
+  {
+   "id": "u06-f-013",
+   "type": "transform",
+   "grammarPoint": "querer-pedir-que",
+   "difficulty": 2,
+   "feedback": "esperar que + subjuntivo: abre → abra.",
+   "contrast": "El centro abre en mayo.",
+   "instruction": "Une con «Esperamos que…».",
+   "prompt": "El nuevo centro de salud abre pronto.",
+   "answers": [
+    "Esperamos que el nuevo centro de salud abra pronto"
+   ],
+   "unit": 6
+  },
+  {
+   "id": "u06-f-014",
+   "type": "transform",
+   "grammarPoint": "querer-pedir-que",
+   "difficulty": 2,
+   "feedback": "venir → venga → vengas.",
+   "contrast": "Quiero venir a la reunión.",
+   "instruction": "Reescribe con «Quiero que…».",
+   "prompt": "Tú vienes a la reunión.",
+   "answers": [
+    "Quiero que vengas a la reunión"
+   ],
+   "unit": 6
+  },
+  {
+   "id": "u06-f-015",
+   "type": "order",
+   "grammarPoint": "querer-pedir-que",
+   "difficulty": 2,
+   "feedback": "exigir que + subjuntivo.",
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "Exigimos que el ayuntamiento limpie el río"
+   ],
+   "unit": 6
+  },
+  {
+   "id": "u06-f-016",
+   "type": "choice",
+   "grammarPoint": "deberian-habria-que",
+   "difficulty": 1,
+   "feedback": "habría que + infinitivo.",
+   "contrast": "Hay que limitarlo.",
+   "prompt": "Habría que ___ el uso del coche en el centro.",
+   "options": [
+    "limitar",
+    "limite",
+    "limitamos"
+   ],
+   "answers": [
+    "limitar"
+   ],
+   "unit": 6
+  },
+  {
+   "id": "u06-f-017",
+   "type": "choice",
+   "grammarPoint": "deberian-habria-que",
+   "difficulty": 2,
+   "feedback": "deberían + infinitivo.",
+   "contrast": "Habría que contratar.",
+   "prompt": "Para reducir el paro, las empresas ___ contratar a más jóvenes.",
+   "options": [
+    "deberían",
+    "habría que",
+    "deben que"
+   ],
+   "answers": [
+    "deberían"
+   ],
+   "unit": 6
+  },
+  {
+   "id": "u06-f-018",
+   "type": "gap",
+   "grammarPoint": "deberian-habria-que",
+   "difficulty": 2,
+   "feedback": "deberíamos + infinitivo.",
+   "contrast": "Debemos consumir menos.",
+   "prompt": "Nosotros también ___ (deber, condicional) consumir menos.",
+   "answers": [
+    "deberíamos"
+   ],
+   "unit": 6
+  },
+  {
+   "id": "u06-f-019",
+   "type": "gap",
+   "grammarPoint": "deberian-habria-que",
+   "difficulty": 2,
+   "feedback": "se debería + infinitivo (impersonal).",
+   "contrast": "Habría que prohibirlos.",
+   "prompt": "Se ___ (deber, condicional) prohibir los plásticos de un solo uso.",
+   "answers": [
+    "debería"
+   ],
+   "unit": 6
+  },
+  {
+   "id": "u06-f-020",
+   "type": "choice",
+   "grammarPoint": "deberian-habria-que",
+   "difficulty": 2,
+   "feedback": "deber + infinitive, with no que.",
+   "contrast": "Habría que bajarlos.",
+   "prompt": "El gobierno ___ bajar los impuestos.",
+   "options": [
+    "debería",
+    "debería que",
+    "habría"
+   ],
+   "answers": [
+    "debería"
+   ],
+   "unit": 6
+  },
+  {
+   "id": "u06-f-021",
+   "type": "transform",
+   "grammarPoint": "deberian-habria-que",
+   "difficulty": 2,
+   "feedback": "habría que = it would be necessary to (softer).",
+   "contrast": "Tenemos que protegerlos.",
+   "instruction": "Reescribe con «Habría que…».",
+   "prompt": "Tenemos que proteger los parques.",
+   "answers": [
+    "Habría que proteger los parques"
+   ],
+   "unit": 6
+  },
+  {
+   "id": "u06-f-022",
+   "type": "match",
+   "grammarPoint": "deberian-habria-que",
+   "difficulty": 2,
+   "feedback": "habría que / deberían / tenemos que + infinitive; es necesario que + subjunctive.",
+   "instruction": "Relaciona cada principio con su final.",
+   "pairs": [
+    {
+     "left": "Habría que",
+     "right": "mejorar el transporte."
+    },
+    {
+     "left": "Es necesario que",
+     "right": "se construyan más viviendas."
+    },
+    {
+     "left": "Los bancos deberían",
+     "right": "bajar las comisiones."
+    },
+    {
+     "left": "Tenemos que",
+     "right": "exigir nuestros derechos."
+    }
+   ],
+   "unit": 6
+  },
+  {
+   "id": "u06-f-023",
+   "type": "choice",
+   "grammarPoint": "cuando-subjuntivo",
+   "difficulty": 1,
+   "feedback": "cuando + subjuntivo for the future.",
+   "contrast": "Cuando apruebo, lo celebro.",
+   "prompt": "Cuando ___ el examen, lo celebraremos.",
+   "options": [
+    "apruebes",
+    "apruebas",
+    "aprobarás"
+   ],
+   "answers": [
+    "apruebes"
+   ],
+   "unit": 6
+  },
+  {
+   "id": "u06-f-024",
+   "type": "choice",
+   "grammarPoint": "cuando-subjuntivo",
+   "difficulty": 2,
+   "feedback": "Past → cuando + indicative.",
+   "contrast": "Cuando llegue, hablaré con ellos.",
+   "prompt": "Cuando ___ a Sevilla, nunca hablaba con mis vecinos.",
+   "options": [
+    "llegué",
+    "llegue",
+    "llegaré"
+   ],
+   "answers": [
+    "llegué"
+   ],
+   "unit": 6
+  },
+  {
+   "id": "u06-f-025",
+   "type": "gap",
+   "grammarPoint": "cuando-subjuntivo",
+   "difficulty": 2,
+   "feedback": "Future → cuando + subjuntivo.",
+   "contrast": "Cuando era niño, vivía en el campo.",
+   "prompt": "Cuando ___ (ser, yo) mayor, quiero vivir en el campo.",
+   "answers": [
+    "sea"
+   ],
+   "unit": 6
+  },
+  {
+   "id": "u06-f-026",
+   "type": "gap",
+   "grammarPoint": "cuando-subjuntivo",
+   "difficulty": 2,
+   "feedback": "Habit → indicative.",
+   "contrast": "Cuando vaya a Madrid, visitaré el Prado.",
+   "prompt": "Siempre que ___ (ir, yo) a Madrid, visito el Prado.",
+   "answers": [
+    "voy"
+   ],
+   "unit": 6
+  },
+  {
+   "id": "u06-f-027",
+   "type": "gap",
+   "grammarPoint": "cuando-subjuntivo",
+   "difficulty": 3,
+   "feedback": "en cuanto (future) + subjuntivo.",
+   "contrast": "En cuanto lo supimos, os avisamos.",
+   "prompt": "En cuanto ___ (saber, nosotros) algo, os avisamos.",
+   "answers": [
+    "sepamos"
+   ],
+   "unit": 6
+  },
+  {
+   "id": "u06-f-028",
+   "type": "error",
+   "grammarPoint": "cuando-subjuntivo",
+   "difficulty": 2,
+   "feedback": "Never the future after cuando.",
+   "contrast": "Cuando tengo vacaciones, viajo.",
+   "prompt": "Cuando tendré vacaciones, iré a Japón.",
+   "errorIndex": 1,
+   "answers": [
+    "tenga"
+   ],
+   "unit": 6
+  },
+  {
+   "id": "u06-f-029",
+   "type": "error",
+   "grammarPoint": "cuando-subjuntivo",
+   "difficulty": 2,
+   "feedback": "In questions with ¿cuándo?, use the indicative.",
+   "contrast": "Cuando vuelvas, llámame.",
+   "prompt": "¿Cuándo vuelvas de Londres?",
+   "errorIndex": 1,
+   "answers": [
+    "vuelves",
+    "volverás"
+   ],
+   "unit": 6
+  },
+  {
+   "id": "u06-f-030",
+   "type": "transform",
+   "grammarPoint": "cuando-subjuntivo",
+   "difficulty": 2,
+   "feedback": "Future → cuando + subjuntivo.",
+   "contrast": "Cuando terminé, te lo envié.",
+   "instruction": "Une con «cuando».",
+   "prompt": "Terminaré el informe. Te lo enviaré.",
+   "answers": [
+    "Cuando termine el informe, te lo enviaré",
+    "Te enviaré el informe cuando lo termine"
+   ],
+   "unit": 6
+  },
+  {
+   "id": "u06-f-031",
+   "type": "order",
+   "grammarPoint": "cuando-subjuntivo",
+   "difficulty": 2,
+   "feedback": "cuando + subjuntivo, futuro.",
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "Cuando tenga más tiempo haré voluntariado"
+   ],
+   "unit": 6
+  },
+  {
+   "id": "u06-f-032",
+   "type": "match",
+   "grammarPoint": "cuando-subjuntivo",
+   "difficulty": 3,
+   "feedback": "Past and habits → indicative; future → subjunctive.",
+   "instruction": "Relaciona cada principio con su final.",
+   "pairs": [
+    {
+     "left": "Cuando era pequeño,",
+     "right": "jugaba en la calle."
+    },
+    {
+     "left": "Cuando llego a casa,",
+     "right": "me ducho."
+    },
+    {
+     "left": "Cuando llegue a casa,",
+     "right": "te llamaré."
+    },
+    {
+     "left": "Cuando llegué a casa,",
+     "right": "no había nadie."
+    }
+   ],
+   "unit": 6
   }
  ]
 }

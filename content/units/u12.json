@@ -468,6 +468,835 @@
     "Se habrá quedado sin batería"
    ],
    "feedback": "Guess about the recent past → futuro compuesto."
+  },
+  {
+   "id": "u12-g-001",
+   "type": "conjugate",
+   "unit": 12,
+   "grammarPoint": "futuro-compuesto",
+   "difficulty": 1,
+   "verb": "salir",
+   "person": "él / ella / usted",
+   "tense": "futuro compuesto",
+   "answers": [
+    "habrá salido"
+   ],
+   "feedback": "habré, habrás, habrá, habremos, habréis, habrán + salido.",
+   "contrast": "Pluscuamperfecto: había salido"
+  },
+  {
+   "id": "u12-g-002",
+   "type": "conjugate",
+   "unit": 12,
+   "grammarPoint": "futuro-compuesto",
+   "difficulty": 1,
+   "verb": "llegar",
+   "person": "tú",
+   "tense": "futuro compuesto",
+   "answers": [
+    "habrás llegado"
+   ],
+   "feedback": "habré, habrás, habrá, habremos, habréis, habrán + llegado.",
+   "contrast": "Pluscuamperfecto: habías llegado"
+  },
+  {
+   "id": "u12-g-003",
+   "type": "conjugate",
+   "unit": 12,
+   "grammarPoint": "futuro-compuesto",
+   "difficulty": 1,
+   "verb": "perder",
+   "person": "yo",
+   "tense": "futuro compuesto",
+   "answers": [
+    "habré perdido"
+   ],
+   "feedback": "habré, habrás, habrá, habremos, habréis, habrán + perdido.",
+   "contrast": "Pluscuamperfecto: había perdido"
+  },
+  {
+   "id": "u12-g-004",
+   "type": "conjugate",
+   "unit": 12,
+   "grammarPoint": "futuro-compuesto",
+   "difficulty": 1,
+   "verb": "olvidar",
+   "person": "ellos / ellas / ustedes",
+   "tense": "futuro compuesto",
+   "answers": [
+    "habrán olvidado"
+   ],
+   "feedback": "habré, habrás, habrá, habremos, habréis, habrán + olvidado.",
+   "contrast": "Pluscuamperfecto: habían olvidado"
+  },
+  {
+   "id": "u12-g-005",
+   "type": "conjugate",
+   "unit": 12,
+   "grammarPoint": "futuro-compuesto",
+   "difficulty": 2,
+   "verb": "ver",
+   "person": "vosotros",
+   "tense": "futuro compuesto",
+   "answers": [
+    "habréis visto"
+   ],
+   "feedback": "habré, habrás, habrá, habremos, habréis, habrán + visto.",
+   "contrast": "Pluscuamperfecto: habíais visto"
+  },
+  {
+   "id": "u12-g-006",
+   "type": "conjugate",
+   "unit": 12,
+   "grammarPoint": "futuro-compuesto",
+   "difficulty": 2,
+   "verb": "hacer",
+   "person": "nosotros",
+   "tense": "futuro compuesto",
+   "answers": [
+    "habremos hecho"
+   ],
+   "feedback": "habré, habrás, habrá, habremos, habréis, habrán + hecho.",
+   "contrast": "Pluscuamperfecto: habíamos hecho"
+  },
+  {
+   "id": "u12-g-007",
+   "type": "conjugate",
+   "unit": 12,
+   "grammarPoint": "futuro-compuesto",
+   "difficulty": 2,
+   "verb": "decir",
+   "person": "él / ella / usted",
+   "tense": "futuro compuesto",
+   "answers": [
+    "habrá dicho"
+   ],
+   "feedback": "habré, habrás, habrá, habremos, habréis, habrán + dicho.",
+   "contrast": "Pluscuamperfecto: había dicho"
+  },
+  {
+   "id": "u12-g-008",
+   "type": "conjugate",
+   "unit": 12,
+   "grammarPoint": "futuro-compuesto",
+   "difficulty": 2,
+   "verb": "escribir",
+   "person": "tú",
+   "tense": "futuro compuesto",
+   "answers": [
+    "habrás escrito"
+   ],
+   "feedback": "habré, habrás, habrá, habremos, habréis, habrán + escrito.",
+   "contrast": "Pluscuamperfecto: habías escrito"
+  },
+  {
+   "id": "u12-g-009",
+   "type": "conjugate",
+   "unit": 12,
+   "grammarPoint": "futuro-compuesto",
+   "difficulty": 2,
+   "verb": "poner",
+   "person": "yo",
+   "tense": "futuro compuesto",
+   "answers": [
+    "habré puesto"
+   ],
+   "feedback": "habré, habrás, habrá, habremos, habréis, habrán + puesto.",
+   "contrast": "Pluscuamperfecto: había puesto"
+  },
+  {
+   "id": "u12-g-010",
+   "type": "conjugate",
+   "unit": 12,
+   "grammarPoint": "futuro-compuesto",
+   "difficulty": 2,
+   "verb": "volver",
+   "person": "ellos / ellas / ustedes",
+   "tense": "futuro compuesto",
+   "answers": [
+    "habrán vuelto"
+   ],
+   "feedback": "habré, habrás, habrá, habremos, habréis, habrán + vuelto.",
+   "contrast": "Pluscuamperfecto: habían vuelto"
+  },
+  {
+   "id": "u12-f-001",
+   "type": "gap",
+   "grammarPoint": "futuro-compuesto",
+   "difficulty": 2,
+   "feedback": "Guess about the recent past → futuro compuesto (puesto).",
+   "contrast": "¿Dónde las he puesto?",
+   "prompt": "No encuentro mis llaves. ¿Dónde las ___ (poner, yo)?",
+   "answers": [
+    "habré puesto"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-002",
+   "type": "gap",
+   "grammarPoint": "futuro-compuesto",
+   "difficulty": 2,
+   "feedback": "Speculation → habrá + participle.",
+   "contrast": "Ha perdido el autobús (certain).",
+   "prompt": "Juan todavía no ha llegado. ___ (perder) el autobús.",
+   "answers": [
+    "Habrá perdido"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-003",
+   "type": "gap",
+   "grammarPoint": "futuro-compuesto",
+   "difficulty": 2,
+   "feedback": "Guess based on evidence.",
+   "contrast": "Ha llovido esta noche.",
+   "prompt": "El suelo está mojado: ___ (llover) esta noche.",
+   "answers": [
+    "habrá llovido"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-004",
+   "type": "choice",
+   "grammarPoint": "futuro-compuesto",
+   "difficulty": 2,
+   "feedback": "Guess about a recent event → futuro compuesto.",
+   "contrast": "Le ha pasado algo bueno.",
+   "prompt": "—¿Por qué está tan contenta Ana? —No sé, le ___ algo bueno.",
+   "options": [
+    "habrá pasado",
+    "pasará",
+    "pasaría"
+   ],
+   "answers": [
+    "habrá pasado"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-005",
+   "type": "choice",
+   "grammarPoint": "futuro-compuesto",
+   "difficulty": 2,
+   "feedback": "Guess about the present → futuro simple.",
+   "contrast": "Habrá salido.",
+   "prompt": "—¿Dónde estará Luis? —___ en su casa.",
+   "options": [
+    "Estará",
+    "Habrá estado",
+    "Estaría"
+   ],
+   "answers": [
+    "Estará"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-006",
+   "type": "choice",
+   "grammarPoint": "futuro-compuesto",
+   "difficulty": 3,
+   "feedback": "A noise happening now → futuro simple.",
+   "contrast": "Habrá sido el viento (it just stopped).",
+   "prompt": "—¿Qué será ese ruido? —___ el gato del vecino.",
+   "options": [
+    "Será",
+    "Habrá sido",
+    "Fue"
+   ],
+   "answers": [
+    "Será"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-007",
+   "type": "error",
+   "grammarPoint": "futuro-compuesto",
+   "difficulty": 2,
+   "feedback": "Recent past guess → habrá + participle.",
+   "contrast": "Se ha quedado dormida.",
+   "prompt": "Mi hermana no contesta: se habría quedado dormida.",
+   "errorIndex": 5,
+   "answers": [
+    "habrá"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-008",
+   "type": "transform",
+   "grammarPoint": "futuro-compuesto",
+   "difficulty": 2,
+   "feedback": "probablemente + perfecto → futuro compuesto.",
+   "contrast": "Ha salido a comprar.",
+   "instruction": "Reescribe como hipótesis con el futuro compuesto.",
+   "prompt": "Probablemente ha salido a comprar.",
+   "answers": [
+    "Habrá salido a comprar"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-009",
+   "type": "order",
+   "grammarPoint": "futuro-compuesto",
+   "difficulty": 2,
+   "feedback": "habrán + participle for a guess.",
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "Se habrán olvidado de la reunión"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-010",
+   "type": "choice",
+   "grammarPoint": "hipotesis-ind-subj",
+   "difficulty": 1,
+   "feedback": "puede que + subjuntivo.",
+   "contrast": "A lo mejor llegamos tarde.",
+   "prompt": "Puede que ___ tarde por el tráfico.",
+   "options": [
+    "lleguemos",
+    "llegamos",
+    "llegaremos"
+   ],
+   "answers": [
+    "lleguemos"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-011",
+   "type": "choice",
+   "grammarPoint": "hipotesis-ind-subj",
+   "difficulty": 1,
+   "feedback": "estar seguro de que + indicative.",
+   "contrast": "Dudo que haya una explicación.",
+   "prompt": "Estoy seguro de que ___ una explicación lógica.",
+   "options": [
+    "hay",
+    "haya"
+   ],
+   "answers": [
+    "hay"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-012",
+   "type": "choice",
+   "grammarPoint": "hipotesis-ind-subj",
+   "difficulty": 2,
+   "feedback": "lo más seguro es que + subjuntivo.",
+   "contrast": "Seguro que es el wifi.",
+   "prompt": "Lo más seguro es que ___ el wifi.",
+   "options": [
+    "sea",
+    "es",
+    "será"
+   ],
+   "answers": [
+    "sea"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-013",
+   "type": "choice",
+   "grammarPoint": "hipotesis-ind-subj",
+   "difficulty": 2,
+   "feedback": "igual (colloquial) + indicative.",
+   "contrast": "Puede que te lo hayas dejado.",
+   "prompt": "Igual ___ tu móvil en el coche.",
+   "options": [
+    "te has dejado",
+    "te hayas dejado"
+   ],
+   "answers": [
+    "te has dejado"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-014",
+   "type": "choice",
+   "grammarPoint": "hipotesis-ind-subj",
+   "difficulty": 2,
+   "feedback": "tal vez + subjuntivo (indicative also possible: tienes).",
+   "contrast": "Seguro que tienes razón.",
+   "prompt": "Tal vez ___ razón, no lo sé.",
+   "options": [
+    "tengas",
+    "tener",
+    "tendrías"
+   ],
+   "answers": [
+    "tengas"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-015",
+   "type": "gap",
+   "grammarPoint": "hipotesis-ind-subj",
+   "difficulty": 2,
+   "feedback": "es posible que + subjuntivo.",
+   "contrast": "Seguramente vienen de un avión.",
+   "prompt": "Es posible que las luces ___ (venir) de un avión.",
+   "answers": [
+    "vengan"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-016",
+   "type": "gap",
+   "grammarPoint": "hipotesis-ind-subj",
+   "difficulty": 2,
+   "feedback": "dicen que + indicative.",
+   "contrast": "Dudo que ocurran.",
+   "prompt": "Dicen que en esa casa ___ (ocurrir) cosas extrañas.",
+   "answers": [
+    "ocurren"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-017",
+   "type": "gap",
+   "grammarPoint": "hipotesis-ind-subj",
+   "difficulty": 3,
+   "feedback": "creo que + indicative.",
+   "contrast": "No creo que sea una ilusión.",
+   "prompt": "No estoy muy seguro, pero creo que ___ (ser) una ilusión óptica.",
+   "answers": [
+    "es"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-018",
+   "type": "error",
+   "grammarPoint": "hipotesis-ind-subj",
+   "difficulty": 2,
+   "feedback": "a lo mejor always takes the indicative.",
+   "contrast": "Puede que sea natural.",
+   "prompt": "A lo mejor sea un fenómeno natural.",
+   "errorIndex": 3,
+   "answers": [
+    "es"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-019",
+   "type": "error",
+   "grammarPoint": "hipotesis-ind-subj",
+   "difficulty": 2,
+   "feedback": "dudar que + subjuntivo.",
+   "contrast": "Creo que existen.",
+   "prompt": "Dudo que existen los fantasmas.",
+   "errorIndex": 2,
+   "answers": [
+    "existan"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-020",
+   "type": "transform",
+   "grammarPoint": "hipotesis-ind-subj",
+   "difficulty": 2,
+   "feedback": "puede que + subjuntivo.",
+   "contrast": "A lo mejor está enfermo.",
+   "instruction": "Reescribe con «Puede que…».",
+   "prompt": "A lo mejor está enfermo.",
+   "answers": [
+    "Puede que esté enfermo"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-021",
+   "type": "match",
+   "grammarPoint": "hipotesis-ind-subj",
+   "difficulty": 3,
+   "feedback": "Indicative vs subjunctive after expressions of certainty and doubt.",
+   "instruction": "Relaciona cada principio con su final.",
+   "pairs": [
+    {
+     "left": "Seguro que",
+     "right": "es una broma."
+    },
+    {
+     "left": "Puede que",
+     "right": "sea una broma."
+    },
+    {
+     "left": "He leído que",
+     "right": "han descubierto agua en Marte."
+    },
+    {
+     "left": "Estoy convencida de",
+     "right": "que tiene razón."
+    }
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-022",
+   "type": "choice",
+   "grammarPoint": "creer-creerse",
+   "difficulty": 1,
+   "feedback": "creer en + noun.",
+   "contrast": "Se cree lo que dicen.",
+   "prompt": "Mi tía ___ en los horóscopos: los lee cada día.",
+   "options": [
+    "cree",
+    "se cree",
+    "creer"
+   ],
+   "answers": [
+    "cree"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-023",
+   "type": "choice",
+   "grammarPoint": "creer-creerse",
+   "difficulty": 2,
+   "feedback": "No me lo creo = I don't believe it.",
+   "contrast": "Creo que es verdad.",
+   "prompt": "¿Que te ha tocado la lotería? ¡No ___ lo creo!",
+   "options": [
+    "me",
+    "te",
+    "se"
+   ],
+   "answers": [
+    "me"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-024",
+   "type": "choice",
+   "grammarPoint": "creer-creerse",
+   "difficulty": 2,
+   "feedback": "creerse algo = believe (naively).",
+   "contrast": "Cree en los ovnis.",
+   "prompt": "Mi primo es muy ingenuo: ___ todo lo que le dicen.",
+   "options": [
+    "se cree",
+    "cree en",
+    "cree de"
+   ],
+   "answers": [
+    "se cree"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-025",
+   "type": "choice",
+   "grammarPoint": "creer-creerse",
+   "difficulty": 2,
+   "feedback": "no creer que + subjuntivo (opinion).",
+   "contrast": "No me lo creo.",
+   "prompt": "No ___ que sea verdad lo que cuenta.",
+   "options": [
+    "creo",
+    "me creo",
+    "creo en"
+   ],
+   "answers": [
+    "creo"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-026",
+   "type": "error",
+   "grammarPoint": "creer-creerse",
+   "difficulty": 2,
+   "feedback": "creer en.",
+   "contrast": "Creo que la astrología no funciona.",
+   "prompt": "Yo no creo a la astrología.",
+   "errorIndex": 3,
+   "answers": [
+    "en"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-027",
+   "type": "order",
+   "grammarPoint": "creer-creerse",
+   "difficulty": 2,
+   "feedback": "creerse algo.",
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "No me creo nada de lo que dice"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-028",
+   "type": "choice",
+   "grammarPoint": "pensar-recordar",
+   "difficulty": 1,
+   "feedback": "pensar en = think about.",
+   "contrast": "¿Qué piensas de esto?",
+   "prompt": "¿En qué ___? Estás muy callado.",
+   "options": [
+    "piensas",
+    "recuerdas",
+    "crees"
+   ],
+   "answers": [
+    "piensas"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-029",
+   "type": "choice",
+   "grammarPoint": "pensar-recordar",
+   "difficulty": 2,
+   "feedback": "pensar de = opinion.",
+   "contrast": "¿En qué piensas?",
+   "prompt": "¿Qué ___ de la nueva profesora?",
+   "options": [
+    "piensas",
+    "piensas en",
+    "recuerdas"
+   ],
+   "answers": [
+    "piensas"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-030",
+   "type": "choice",
+   "grammarPoint": "pensar-recordar",
+   "difficulty": 2,
+   "feedback": "acordarse de (reflexive + de).",
+   "contrast": "¿Recuerdas mi nombre?",
+   "prompt": "¿Te ___ de mi nombre? Nos conocimos en la boda de Ana.",
+   "options": [
+    "acuerdas",
+    "recuerdas",
+    "piensas"
+   ],
+   "answers": [
+    "acuerdas"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-031",
+   "type": "choice",
+   "grammarPoint": "pensar-recordar",
+   "difficulty": 2,
+   "feedback": "recordar a = remind of / look like.",
+   "contrast": "Me acuerdo de ti.",
+   "prompt": "Tu hijo me ___ muchísimo a ti cuando eras pequeño.",
+   "options": [
+    "recuerda",
+    "acuerda",
+    "piensa"
+   ],
+   "answers": [
+    "recuerda"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-032",
+   "type": "choice",
+   "grammarPoint": "pensar-recordar",
+   "difficulty": 2,
+   "feedback": "pensar + infinitive = intend.",
+   "contrast": "Pienso en el viaje.",
+   "prompt": "Este fin de semana ___ ir a la sierra con mis amigos.",
+   "options": [
+    "pienso",
+    "pienso en",
+    "me acuerdo"
+   ],
+   "answers": [
+    "pienso"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-033",
+   "type": "gap",
+   "grammarPoint": "pensar-recordar",
+   "difficulty": 2,
+   "feedback": "acordarse (o→ue): me acuerdo.",
+   "contrast": "No recuerdo dónde aparqué.",
+   "prompt": "No me ___ (acordar, presente) de dónde aparqué el coche.",
+   "answers": [
+    "acuerdo"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-034",
+   "type": "error",
+   "grammarPoint": "pensar-recordar",
+   "difficulty": 2,
+   "feedback": "recordar algo (no de) or acordarse de algo.",
+   "contrast": "No me acuerdo de su número.",
+   "prompt": "No recuerdo de su número de teléfono.",
+   "errorIndex": 1,
+   "answers": [
+    "recuerdo",
+    "me acuerdo de"
+   ],
+   "errorLength": 2,
+   "unit": 12
+  },
+  {
+   "id": "u12-f-035",
+   "type": "transform",
+   "grammarPoint": "pensar-recordar",
+   "difficulty": 2,
+   "feedback": "recordar algo = acordarse de algo.",
+   "contrast": "Recuerdo aquel verano.",
+   "instruction": "Reescribe con «acordarse de».",
+   "prompt": "Recuerdo perfectamente aquel verano.",
+   "answers": [
+    "Me acuerdo perfectamente de aquel verano"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-036",
+   "type": "match",
+   "grammarPoint": "pensar-recordar",
+   "difficulty": 3,
+   "feedback": "pensar en / de / + infinitive / que.",
+   "instruction": "Relaciona cada principio con su final.",
+   "pairs": [
+    {
+     "left": "Pienso en",
+     "right": "ti todos los días."
+    },
+    {
+     "left": "¿Qué piensas de",
+     "right": "esta teoría?"
+    },
+    {
+     "left": "Pienso",
+     "right": "estudiar Medicina."
+    },
+    {
+     "left": "Pienso que",
+     "right": "tienes razón."
+    }
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-037",
+   "type": "order",
+   "grammarPoint": "pensar-recordar",
+   "difficulty": 2,
+   "feedback": "recordar a = remind of.",
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "Esta canción me recuerda a mi infancia"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-038",
+   "type": "gap",
+   "grammarPoint": "hipotesis-ind-subj",
+   "difficulty": 3,
+   "feedback": "puede que + subjuntivo (e→ie).",
+   "contrast": "Seguramente nevará.",
+   "prompt": "No estoy muy seguro, pero puede que mañana ___ (nevar) en la sierra.",
+   "answers": [
+    "nieve"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-039",
+   "type": "choice",
+   "grammarPoint": "futuro-compuesto",
+   "difficulty": 3,
+   "feedback": "Guess about something completed by now → futuro compuesto.",
+   "contrast": "Ya ha aterrizado.",
+   "prompt": "A estas horas, el avión ya ___ en Londres.",
+   "options": [
+    "habrá aterrizado",
+    "aterrizaría",
+    "aterriza"
+   ],
+   "answers": [
+    "habrá aterrizado"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-040",
+   "type": "gap",
+   "grammarPoint": "creer-creerse",
+   "difficulty": 3,
+   "feedback": "creer en + noun.",
+   "contrast": "Se lo creen todo.",
+   "prompt": "Los budistas ___ (creer) en la reencarnación.",
+   "answers": [
+    "creen"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-041",
+   "type": "choice",
+   "grammarPoint": "hipotesis-ind-subj",
+   "difficulty": 2,
+   "feedback": "seguramente + indicative (here a recent past).",
+   "contrast": "Puede que haya habido un apagón.",
+   "prompt": "Seguramente ___ un apagón: todo el barrio está a oscuras.",
+   "options": [
+    "ha habido",
+    "haya habido",
+    "hubiera"
+   ],
+   "answers": [
+    "ha habido"
+   ],
+   "unit": 12
+  },
+  {
+   "id": "u12-f-042",
+   "type": "choice",
+   "grammarPoint": "pensar-recordar",
+   "difficulty": 3,
+   "feedback": "recordar + question word (no de).",
+   "contrast": "¿Te acuerdas de cuándo nos conocimos?",
+   "prompt": "¿Recuerdas ___ nos conocimos?",
+   "options": [
+    "cuándo",
+    "de cuándo",
+    "en cuándo"
+   ],
+   "answers": [
+    "cuándo"
+   ],
+   "unit": 12
   }
  ]
 }

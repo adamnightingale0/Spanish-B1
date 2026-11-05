@@ -525,6 +525,834 @@
     "Cuando me robaron la cartera estaba haciendo fotos"
    ],
    "feedback": "Action in progress (estaba haciendo) + interrupting event (robaron)."
+  },
+  {
+   "id": "u08-g-001",
+   "type": "conjugate",
+   "unit": 8,
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 1,
+   "verb": "llegar",
+   "person": "yo",
+   "tense": "pluscuamperfecto",
+   "answers": [
+    "había llegado"
+   ],
+   "feedback": "había, habías, había, habíamos, habíais, habían + llegado.",
+   "contrast": "Perfecto: he llegado"
+  },
+  {
+   "id": "u08-g-002",
+   "type": "conjugate",
+   "unit": 8,
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 1,
+   "verb": "comer",
+   "person": "ellos / ellas / ustedes",
+   "tense": "pluscuamperfecto",
+   "answers": [
+    "habían comido"
+   ],
+   "feedback": "había, habías, había, habíamos, habíais, habían + comido.",
+   "contrast": "Perfecto: han comido"
+  },
+  {
+   "id": "u08-g-003",
+   "type": "conjugate",
+   "unit": 8,
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 1,
+   "verb": "salir",
+   "person": "vosotros",
+   "tense": "pluscuamperfecto",
+   "answers": [
+    "habíais salido"
+   ],
+   "feedback": "había, habías, había, habíamos, habíais, habían + salido.",
+   "contrast": "Perfecto: habéis salido"
+  },
+  {
+   "id": "u08-g-004",
+   "type": "conjugate",
+   "unit": 8,
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 2,
+   "verb": "hacer",
+   "person": "nosotros",
+   "tense": "pluscuamperfecto",
+   "answers": [
+    "habíamos hecho"
+   ],
+   "feedback": "había, habías, había, habíamos, habíais, habían + hecho. Irregular participle.",
+   "contrast": "Perfecto: hemos hecho"
+  },
+  {
+   "id": "u08-g-005",
+   "type": "conjugate",
+   "unit": 8,
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 2,
+   "verb": "decir",
+   "person": "él / ella / usted",
+   "tense": "pluscuamperfecto",
+   "answers": [
+    "había dicho"
+   ],
+   "feedback": "había, habías, había, habíamos, habíais, habían + dicho. Irregular participle.",
+   "contrast": "Perfecto: ha dicho"
+  },
+  {
+   "id": "u08-g-006",
+   "type": "conjugate",
+   "unit": 8,
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 2,
+   "verb": "volver",
+   "person": "tú",
+   "tense": "pluscuamperfecto",
+   "answers": [
+    "habías vuelto"
+   ],
+   "feedback": "había, habías, había, habíamos, habíais, habían + vuelto. Irregular participle.",
+   "contrast": "Perfecto: has vuelto"
+  },
+  {
+   "id": "u08-g-007",
+   "type": "conjugate",
+   "unit": 8,
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 2,
+   "verb": "romper",
+   "person": "yo",
+   "tense": "pluscuamperfecto",
+   "answers": [
+    "había roto"
+   ],
+   "feedback": "había, habías, había, habíamos, habíais, habían + roto. Irregular participle.",
+   "contrast": "Perfecto: he roto"
+  },
+  {
+   "id": "u08-g-008",
+   "type": "conjugate",
+   "unit": 8,
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 2,
+   "verb": "poner",
+   "person": "ellos / ellas / ustedes",
+   "tense": "pluscuamperfecto",
+   "answers": [
+    "habían puesto"
+   ],
+   "feedback": "había, habías, había, habíamos, habíais, habían + puesto. Irregular participle.",
+   "contrast": "Perfecto: han puesto"
+  },
+  {
+   "id": "u08-g-009",
+   "type": "conjugate",
+   "unit": 8,
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 2,
+   "verb": "abrir",
+   "person": "vosotros",
+   "tense": "pluscuamperfecto",
+   "answers": [
+    "habíais abierto"
+   ],
+   "feedback": "había, habías, había, habíamos, habíais, habían + abierto. Irregular participle.",
+   "contrast": "Perfecto: habéis abierto"
+  },
+  {
+   "id": "u08-g-010",
+   "type": "conjugate",
+   "unit": 8,
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 2,
+   "verb": "descubrir",
+   "person": "nosotros",
+   "tense": "pluscuamperfecto",
+   "answers": [
+    "habíamos descubierto"
+   ],
+   "feedback": "había, habías, había, habíamos, habíais, habían + descubierto. Irregular participle.",
+   "contrast": "Perfecto: hemos descubierto"
+  },
+  {
+   "id": "u08-f-001",
+   "type": "choice",
+   "grammarPoint": "conectores-causa-consecuencia",
+   "difficulty": 1,
+   "feedback": "así que + consequence.",
+   "contrast": "Fuimos en autobús porque había huelga.",
+   "prompt": "Había huelga de trenes, ___ fuimos en autobús.",
+   "options": [
+    "así que",
+    "porque",
+    "como"
+   ],
+   "answers": [
+    "así que"
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-002",
+   "type": "choice",
+   "grammarPoint": "conectores-causa-consecuencia",
+   "difficulty": 2,
+   "feedback": "por eso = that's why.",
+   "contrast": "Como salió tarde, la perdimos.",
+   "prompt": "El vuelo salió con tres horas de retraso. ___, perdimos la conexión en Madrid.",
+   "options": [
+    "Por eso",
+    "Porque",
+    "Como"
+   ],
+   "answers": [
+    "Por eso"
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-003",
+   "type": "choice",
+   "grammarPoint": "conectores-causa-consecuencia",
+   "difficulty": 2,
+   "feedback": "o sea que = so (conclusion).",
+   "contrast": "Así que no te bañas.",
+   "prompt": "—No has traído el bañador, ¿no? —No. ___ no te bañas.",
+   "options": [
+    "O sea que",
+    "Ya que",
+    "Como"
+   ],
+   "answers": [
+    "O sea que"
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-004",
+   "type": "choice",
+   "grammarPoint": "conectores-causa-consecuencia",
+   "difficulty": 2,
+   "feedback": "como + cause at the start.",
+   "contrast": "El hotel estaba lejos; por eso alquilamos bicis.",
+   "prompt": "___ el hotel estaba lejos del centro, alquilamos bicis.",
+   "options": [
+    "Como",
+    "Así que",
+    "Por eso"
+   ],
+   "answers": [
+    "Como"
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-005",
+   "type": "error",
+   "grammarPoint": "conectores-causa-consecuencia",
+   "difficulty": 2,
+   "feedback": "The cause goes first with como.",
+   "contrast": "Llovía, así que nos quedamos.",
+   "prompt": "Así que llovía, nos quedamos en el hotel.",
+   "errorIndex": 0,
+   "answers": [
+    "Como"
+   ],
+   "errorLength": 2,
+   "unit": 8
+  },
+  {
+   "id": "u08-f-006",
+   "type": "transform",
+   "grammarPoint": "conectores-causa-consecuencia",
+   "difficulty": 2,
+   "feedback": "cause, así que + consequence.",
+   "contrast": "Como no teníamos mapa, nos perdimos.",
+   "instruction": "Une con «así que».",
+   "prompt": "No teníamos mapa. Nos perdimos.",
+   "answers": [
+    "No teníamos mapa, así que nos perdimos"
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-007",
+   "type": "match",
+   "grammarPoint": "conectores-causa-consecuencia",
+   "difficulty": 2,
+   "feedback": "Cause and consequence connectors.",
+   "instruction": "Relaciona cada principio con su final.",
+   "pairs": [
+    {
+     "left": "Perdí el pasaporte,",
+     "right": "así que no pude volar."
+    },
+    {
+     "left": "Como no hablaba el idioma,",
+     "right": "usé el traductor del móvil."
+    },
+    {
+     "left": "Hacía mucho calor.",
+     "right": "Por eso nos bañamos en el río."
+    },
+    {
+     "left": "—Se ha acabado el dinero.",
+     "right": "—O sea que volvemos a casa."
+    }
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-008",
+   "type": "gap",
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 2,
+   "feedback": "Before another past moment → pluscuamperfecto.",
+   "contrast": "Se fueron cuando llegamos.",
+   "why": "prior-past",
+   "prompt": "Cuando llegamos a la fiesta, todos los invitados ya se ___ (ir).",
+   "answers": [
+    "habían ido"
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-009",
+   "type": "gap",
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 2,
+   "feedback": "Experience before that trip → pluscuamperfecto.",
+   "contrast": "Nunca he estado en Asia.",
+   "why": "prior-past",
+   "prompt": "Me encantó Japón: nunca ___ (estar, yo) en Asia.",
+   "answers": [
+    "había estado"
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-010",
+   "type": "gap",
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 2,
+   "feedback": "Closing happened before we arrived.",
+   "contrast": "Cierra a las seis.",
+   "why": "prior-past",
+   "prompt": "No pudimos entrar al museo porque ___ (cerrar) a las seis.",
+   "answers": [
+    "había cerrado"
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-011",
+   "type": "gap",
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 3,
+   "feedback": "Irregular participle: roto.",
+   "contrast": "Se me rompió el perfume.",
+   "why": "prior-past",
+   "prompt": "Cuando abrí la maleta, descubrí que se me ___ (romper) el perfume.",
+   "answers": [
+    "había roto"
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-012",
+   "type": "choice",
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 2,
+   "feedback": "Leaving them came first → pluscuamperfecto.",
+   "contrast": "Me he dejado las gafas (today).",
+   "why": "prior-past",
+   "prompt": "Al día siguiente me di cuenta de que ___ las gafas en el hotel.",
+   "options": [
+    "me había dejado",
+    "me he dejado",
+    "me dejaba"
+   ],
+   "answers": [
+    "me había dejado"
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-013",
+   "type": "error",
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 2,
+   "feedback": "Earlier past (before being a hotel) → había sido.",
+   "contrast": "El castillo fue una cárcel.",
+   "why": "prior-past",
+   "prompt": "El guía nos contó que el castillo ha sido una cárcel antes de ser un hotel.",
+   "errorIndex": 7,
+   "answers": [
+    "había sido"
+   ],
+   "errorLength": 2,
+   "unit": 8
+  },
+  {
+   "id": "u08-f-014",
+   "type": "error",
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 3,
+   "feedback": "ya + earlier action → pluscuamperfecto.",
+   "contrast": "El avión despegó a las diez.",
+   "why": "prior-past",
+   "prompt": "Cuando llegué al aeropuerto, el avión ya despegó.",
+   "errorIndex": 7,
+   "answers": [
+    "había despegado"
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-015",
+   "type": "order",
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 2,
+   "feedback": "nunca + pluscuamperfecto.",
+   "why": "prior-past",
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "Nunca había visto un paisaje tan bonito"
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-016",
+   "type": "gap",
+   "grammarPoint": "past-combined",
+   "difficulty": 2,
+   "feedback": "el año pasado → indefinido.",
+   "contrast": "Este año hemos hecho el Camino.",
+   "why": "time-marker-closed",
+   "prompt": "El año pasado ___ (hacer, nosotros) el Camino de Santiago.",
+   "answers": [
+    "hicimos"
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-017",
+   "type": "gap",
+   "grammarPoint": "past-combined",
+   "difficulty": 2,
+   "feedback": "Description → imperfecto.",
+   "contrast": "El viaje fue precioso.",
+   "why": "background-description",
+   "prompt": "El pueblo ___ (ser) precioso: tenía casas blancas y calles estrechas.",
+   "answers": [
+    "era"
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-018",
+   "type": "gap",
+   "grammarPoint": "past-combined",
+   "difficulty": 2,
+   "feedback": "mientras + background action → imperfecto.",
+   "contrast": "Cenamos y nos fuimos.",
+   "why": "interrupted-action",
+   "prompt": "Mientras ___ (cenar, nosotros) en la terraza, empezó a llover.",
+   "answers": [
+    "cenábamos"
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-019",
+   "type": "gap",
+   "grammarPoint": "past-combined",
+   "difficulty": 2,
+   "feedback": "Sudden event → indefinido.",
+   "contrast": "Siempre entraban perros.",
+   "why": "completed-action",
+   "prompt": "De repente, un perro ___ (entrar) en el restaurante.",
+   "answers": [
+    "entró"
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-020",
+   "type": "choice",
+   "grammarPoint": "past-combined",
+   "difficulty": 2,
+   "feedback": "esta mañana → perfecto.",
+   "contrast": "Ayer recibí un mensaje.",
+   "why": "time-marker-open",
+   "prompt": "Esta mañana ___ un mensaje del hotel: han encontrado mi cartera.",
+   "options": [
+    "he recibido",
+    "recibí",
+    "recibía"
+   ],
+   "answers": [
+    "he recibido"
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-021",
+   "type": "choice",
+   "grammarPoint": "past-combined",
+   "difficulty": 3,
+   "feedback": "Time / scene → imperfecto.",
+   "contrast": "Llegamos de noche.",
+   "why": "background-description",
+   "prompt": "Cuando por fin llegamos a la cima, ___ de noche y hacía muchísimo frío.",
+   "options": [
+    "era",
+    "fue",
+    "había sido"
+   ],
+   "answers": [
+    "era"
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-022",
+   "type": "choice",
+   "grammarPoint": "past-combined",
+   "difficulty": 3,
+   "feedback": "The walking happened before being tired.",
+   "contrast": "Caminamos todo el día.",
+   "why": "prior-past",
+   "prompt": "Estábamos agotados porque ___ todo el día.",
+   "options": [
+    "habíamos caminado",
+    "caminábamos",
+    "hemos caminado"
+   ],
+   "answers": [
+    "habíamos caminado"
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-023",
+   "type": "error",
+   "grammarPoint": "past-combined",
+   "difficulty": 2,
+   "feedback": "Stage of life → imperfecto.",
+   "contrast": "Fui a la playa ayer.",
+   "why": "background-description",
+   "prompt": "Cuando fui pequeño, mis padres me llevaban a la playa cada verano.",
+   "errorIndex": 1,
+   "answers": [
+    "era"
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-024",
+   "type": "error",
+   "grammarPoint": "past-combined",
+   "difficulty": 3,
+   "feedback": "ayer → indefinido.",
+   "contrast": "Hoy hemos visitado la catedral.",
+   "why": "time-marker-closed",
+   "prompt": "Ayer hemos visitado la catedral de Toledo.",
+   "errorIndex": 1,
+   "answers": [
+    "visitamos"
+   ],
+   "errorLength": 2,
+   "unit": 8
+  },
+  {
+   "id": "u08-f-025",
+   "type": "match",
+   "grammarPoint": "past-combined",
+   "difficulty": 3,
+   "feedback": "Scene → imperfecto; event → indefinido; earlier → pluscuamperfecto; today → perfecto.",
+   "instruction": "Relaciona cada principio con su final.",
+   "pairs": [
+    {
+     "left": "Hacía sol y",
+     "right": "la playa estaba llena."
+    },
+    {
+     "left": "De repente",
+     "right": "apareció un delfín."
+    },
+    {
+     "left": "Nunca había",
+     "right": "visto uno tan cerca."
+    },
+    {
+     "left": "Esta tarde",
+     "right": "he subido las fotos."
+    }
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-026",
+   "type": "order",
+   "grammarPoint": "past-combined",
+   "difficulty": 2,
+   "feedback": "Background (imperfecto) + event (indefinido).",
+   "why": "interrupted-action",
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "Estábamos en la playa cuando empezó la tormenta"
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-027",
+   "type": "choice",
+   "grammarPoint": "recursos-anecdota",
+   "difficulty": 1,
+   "feedback": "Resulta que… opens an anecdote.",
+   "contrast": "Total, que llegué tarde.",
+   "prompt": "___ que el otro día me quedé encerrado en el baño de un tren.",
+   "options": [
+    "Resulta",
+    "Total",
+    "Pasa"
+   ],
+   "answers": [
+    "Resulta"
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-028",
+   "type": "choice",
+   "grammarPoint": "recursos-anecdota",
+   "difficulty": 1,
+   "feedback": "Total, que… sums up the outcome.",
+   "contrast": "Al final perdí el vuelo.",
+   "prompt": "Llamé a mil sitios, nadie contestaba… ___, que perdí el vuelo.",
+   "options": [
+    "Total",
+    "Resulta",
+    "Por fin"
+   ],
+   "answers": [
+    "Total"
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-029",
+   "type": "choice",
+   "grammarPoint": "recursos-anecdota",
+   "difficulty": 2,
+   "feedback": "¡No me digas! = surprise.",
+   "contrast": "¡Menos mal! = relief.",
+   "prompt": "—Y entonces se cayó al agua con el móvil. —¡___!",
+   "options": [
+    "No me digas",
+    "Menos mal",
+    "Qué bien"
+   ],
+   "answers": [
+    "No me digas"
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-030",
+   "type": "choice",
+   "grammarPoint": "recursos-anecdota",
+   "difficulty": 2,
+   "feedback": "Good outcome → relief.",
+   "contrast": "¡Qué rabia! = annoyance.",
+   "prompt": "—Al final el hotel nos devolvió el dinero. —¡___!",
+   "options": [
+    "Menos mal",
+    "Qué rabia",
+    "Qué mala suerte"
+   ],
+   "answers": [
+    "Menos mal"
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-031",
+   "type": "choice",
+   "grammarPoint": "recursos-anecdota",
+   "difficulty": 2,
+   "feedback": "¡Qué rollo! = how boring / annoying.",
+   "contrast": "¡Qué suerte!",
+   "prompt": "—Estuvimos tres horas esperando en el aeropuerto. —¡Qué ___!",
+   "options": [
+    "rollo",
+    "suerte",
+    "bien"
+   ],
+   "answers": [
+    "rollo"
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-032",
+   "type": "choice",
+   "grammarPoint": "recursos-anecdota",
+   "difficulty": 2,
+   "feedback": "In a past story: al día siguiente, not mañana.",
+   "contrast": "Mañana vamos a Sintra.",
+   "prompt": "Llegamos a Lisboa el viernes y ___ fuimos a Sintra.",
+   "options": [
+    "al día siguiente",
+    "mañana",
+    "pasado mañana"
+   ],
+   "answers": [
+    "al día siguiente"
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-033",
+   "type": "choice",
+   "grammarPoint": "recursos-anecdota",
+   "difficulty": 2,
+   "feedback": "entonces = at that time.",
+   "contrast": "Ahora tengo treinta.",
+   "prompt": "Aquel verano conocí a mi mejor amiga. ___ yo tenía quince años.",
+   "options": [
+    "Entonces",
+    "Mañana",
+    "Ahora"
+   ],
+   "answers": [
+    "Entonces"
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-034",
+   "type": "choice",
+   "grammarPoint": "recursos-anecdota",
+   "difficulty": 3,
+   "feedback": "Showing interest: ¿Y qué hiciste?",
+   "contrast": "¿Y qué pasó?",
+   "prompt": "—Pues el camarero me trajo la cuenta de otra mesa. —¿Y qué ___?",
+   "options": [
+    "hiciste",
+    "haces",
+    "harás"
+   ],
+   "answers": [
+    "hiciste"
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-035",
+   "type": "match",
+   "grammarPoint": "recursos-anecdota",
+   "difficulty": 2,
+   "feedback": "Resources for telling and reacting to anecdotes.",
+   "instruction": "Relaciona cada principio con su final.",
+   "pairs": [
+    {
+     "left": "Para empezar:",
+     "right": "Resulta que…"
+    },
+    {
+     "left": "Para terminar:",
+     "right": "Total, que…"
+    },
+    {
+     "left": "Para mostrar sorpresa:",
+     "right": "¡No me digas!"
+    },
+    {
+     "left": "Para mostrar alivio:",
+     "right": "¡Menos mal!"
+    }
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-036",
+   "type": "choice",
+   "grammarPoint": "recursos-anecdota",
+   "difficulty": 2,
+   "feedback": "In a past story: la noche anterior (the night before).",
+   "contrast": "Anoche llovió (from today).",
+   "prompt": "Aquel día había llovido mucho, y la noche ___ también.",
+   "options": [
+    "anterior",
+    "pasada",
+    "de ayer"
+   ],
+   "answers": [
+    "anterior"
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-037",
+   "type": "order",
+   "grammarPoint": "recursos-anecdota",
+   "difficulty": 2,
+   "feedback": "Total, que… to end an anecdote.",
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "Total que al final no fuimos a la playa"
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-038",
+   "type": "error",
+   "grammarPoint": "recursos-anecdota",
+   "difficulty": 2,
+   "feedback": "In a past story: al mes siguiente.",
+   "contrast": "El mes próximo (from now).",
+   "prompt": "Nos casamos en mayo y al mes próximo nos fuimos de luna de miel.",
+   "errorIndex": 7,
+   "answers": [
+    "siguiente"
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-039",
+   "type": "gap",
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 3,
+   "feedback": "nunca + pluscuamperfecto; participle visto.",
+   "contrast": "Nunca he visto una cocina así.",
+   "why": "prior-past",
+   "prompt": "Me sorprendió el piso: nunca ___ (ver, yo) una cocina tan pequeña.",
+   "answers": [
+    "había visto"
+   ],
+   "unit": 8
+  },
+  {
+   "id": "u08-f-040",
+   "type": "choice",
+   "grammarPoint": "conectores-causa-consecuencia",
+   "difficulty": 3,
+   "feedback": "ya que + indicative (a known cause).",
+   "contrast": "Como estás en Granada…",
+   "prompt": "Ya que ___ en Granada, ¿por qué no visitas la Alhambra?",
+   "options": [
+    "estás",
+    "estés",
+    "estarás"
+   ],
+   "answers": [
+    "estás"
+   ],
+   "unit": 8
   }
  ]
 }

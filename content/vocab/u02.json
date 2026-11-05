@@ -288,6 +288,286 @@
    "en": "Yours faithfully / sincerely",
    "example_es": "Atentamente, Adam Nightingale.",
    "example_en": "Yours faithfully, Adam Nightingale."
+  },
+  {
+   "id": "v02-nacer",
+   "unit": 2,
+   "topic": "trayectoria personal",
+   "es": "nacer",
+   "en": "to be born",
+   "example_es": "Nací en Brighton en 1994.",
+   "example_en": "I was born in Brighton in 1994."
+  },
+  {
+   "id": "v02-criarse",
+   "unit": 2,
+   "topic": "trayectoria personal",
+   "es": "criarse",
+   "en": "to grow up, be brought up",
+   "example_es": "Me crie en un pueblo cerca del mar.",
+   "example_en": "I grew up in a village near the sea."
+  },
+  {
+   "id": "v02-tener-un-hijo",
+   "unit": 2,
+   "topic": "trayectoria personal",
+   "es": "tener un hijo",
+   "en": "to have a child",
+   "example_es": "Tuvieron su primer hijo a los treinta.",
+   "example_en": "They had their first child at thirty."
+  },
+  {
+   "id": "v02-terminar-la-carrera",
+   "unit": 2,
+   "topic": "trayectoria personal",
+   "es": "terminar la carrera",
+   "en": "to finish one's degree",
+   "example_es": "Terminé la carrera en 2016.",
+   "example_en": "I finished my degree in 2016."
+  },
+  {
+   "id": "v02-aprobar",
+   "unit": 2,
+   "topic": "formación",
+   "es": "aprobar",
+   "en": "to pass (an exam)",
+   "example_es": "Aprobé el examen a la primera.",
+   "example_en": "I passed the exam first time."
+  },
+  {
+   "id": "v02-suspender",
+   "unit": 2,
+   "topic": "formación",
+   "es": "suspender",
+   "en": "to fail (an exam)",
+   "example_es": "Suspendí matemáticas en el instituto.",
+   "example_en": "I failed maths at school."
+  },
+  {
+   "id": "v02-la-beca",
+   "unit": 2,
+   "topic": "formación",
+   "es": "la beca",
+   "en": "the grant, scholarship",
+   "example_es": "Me dieron una beca para estudiar en Francia.",
+   "example_en": "I got a grant to study in France.",
+   "gender": "f"
+  },
+  {
+   "id": "v02-el-titulo",
+   "unit": 2,
+   "topic": "formación",
+   "es": "el título",
+   "en": "the qualification, degree",
+   "example_es": "Tengo el título de Turismo.",
+   "example_en": "I have a degree in Tourism.",
+   "gender": "m"
+  },
+  {
+   "id": "v02-la-formacion",
+   "unit": 2,
+   "topic": "formación",
+   "es": "la formación",
+   "en": "the training, education",
+   "example_es": "Busca a alguien con formación en marketing.",
+   "example_en": "They're looking for someone with training in marketing.",
+   "gender": "f"
+  },
+  {
+   "id": "v02-el-curriculum",
+   "unit": 2,
+   "topic": "buscar trabajo",
+   "es": "el currículum",
+   "en": "the CV",
+   "example_es": "He actualizado mi currículum.",
+   "example_en": "I've updated my CV.",
+   "gender": "m"
+  },
+  {
+   "id": "v02-la-oferta-de-trabajo",
+   "unit": 2,
+   "topic": "buscar trabajo",
+   "es": "la oferta de trabajo",
+   "en": "the job offer / vacancy",
+   "example_es": "He visto una oferta de trabajo interesante.",
+   "example_en": "I've seen an interesting job vacancy.",
+   "gender": "f"
+  },
+  {
+   "id": "v02-contratar",
+   "unit": 2,
+   "topic": "buscar trabajo",
+   "es": "contratar",
+   "en": "to hire",
+   "example_es": "La empresa va a contratar a diez personas.",
+   "example_en": "The company is going to hire ten people."
+  },
+  {
+   "id": "v02-despedir",
+   "unit": 2,
+   "topic": "trabajo",
+   "es": "despedir",
+   "en": "to fire, dismiss",
+   "example_es": "Despidieron a cien trabajadores.",
+   "example_en": "They laid off a hundred workers."
+  },
+  {
+   "id": "v02-el-ascenso",
+   "unit": 2,
+   "topic": "trabajo",
+   "es": "el ascenso",
+   "en": "the promotion",
+   "example_es": "Me han dado un ascenso.",
+   "example_en": "I've been promoted.",
+   "gender": "m"
+  },
+  {
+   "id": "v02-el-la-autonomo-a",
+   "unit": 2,
+   "topic": "trabajo",
+   "es": "el / la autónomo/a",
+   "en": "the self-employed person",
+   "example_es": "Trabajo como autónoma desde 2020.",
+   "example_en": "I've been self-employed since 2020."
+  },
+  {
+   "id": "v02-la-jornada",
+   "unit": 2,
+   "topic": "trabajo",
+   "es": "la jornada",
+   "en": "the working day",
+   "example_es": "Tengo jornada intensiva en verano.",
+   "example_en": "In summer I work a continuous day (no lunch break).",
+   "gender": "f"
+  },
+  {
+   "id": "v02-ganar-dinero",
+   "unit": 2,
+   "topic": "trabajo",
+   "es": "ganar dinero",
+   "en": "to earn money",
+   "example_es": "Gana poco dinero, pero le encanta su trabajo.",
+   "example_en": "She earns little, but she loves her job."
+  },
+  {
+   "id": "v02-el-sueldo-bruto-neto",
+   "unit": 2,
+   "topic": "trabajo",
+   "es": "el sueldo bruto / neto",
+   "en": "the gross / net salary",
+   "example_es": "El sueldo neto es lo que cobras de verdad.",
+   "example_en": "The net salary is what you actually get."
+  },
+  {
+   "id": "v02-la-empresa",
+   "unit": 2,
+   "topic": "empresas",
+   "es": "la empresa",
+   "en": "the company",
+   "example_es": "Trabaja en una empresa de transporte.",
+   "example_en": "He works for a transport company.",
+   "gender": "f"
+  },
+  {
+   "id": "v02-el-la-director-a",
+   "unit": 2,
+   "topic": "personas",
+   "es": "el / la director/a",
+   "en": "the director, manager",
+   "example_es": "La directora quiere hablar contigo.",
+   "example_en": "The director wants to talk to you."
+  },
+  {
+   "id": "v02-el-la-jefe-a-de-equipo",
+   "unit": 2,
+   "topic": "personas",
+   "es": "el / la jefe/a de equipo",
+   "en": "the team leader",
+   "example_es": "Ahora soy jefa de equipo.",
+   "example_en": "I'm a team leader now."
+  },
+  {
+   "id": "v02-las-practicas",
+   "unit": 2,
+   "topic": "formación",
+   "es": "las prácticas",
+   "en": "the internship",
+   "example_es": "Hice las prácticas en un hotel de Marbella.",
+   "example_en": "I did my internship at a hotel in Marbella.",
+   "gender": "f"
+  },
+  {
+   "id": "v02-cambiar-de-vida",
+   "unit": 2,
+   "topic": "cambios",
+   "es": "cambiar de vida",
+   "en": "to change one's life",
+   "example_es": "Dejó la ciudad y cambió de vida.",
+   "example_en": "She left the city and changed her life."
+  },
+  {
+   "id": "v02-la-zona-de-confort",
+   "unit": 2,
+   "topic": "cambios",
+   "es": "la zona de confort",
+   "en": "the comfort zone",
+   "example_es": "Hay que salir de la zona de confort.",
+   "example_en": "You have to step out of your comfort zone.",
+   "gender": "f"
+  },
+  {
+   "id": "v02-empezar-de-cero",
+   "unit": 2,
+   "topic": "cambios",
+   "es": "empezar de cero",
+   "en": "to start from scratch",
+   "example_es": "Tuve que empezar de cero en otro país.",
+   "example_en": "I had to start from scratch in another country."
+  },
+  {
+   "id": "v02-volver-a-infinitivo",
+   "unit": 2,
+   "topic": "perífrasis",
+   "es": "volver a + infinitivo",
+   "en": "to do again",
+   "example_es": "He vuelto a estudiar después de diez años.",
+   "example_en": "I've gone back to studying after ten years."
+  },
+  {
+   "id": "v02-seguir-gerundio",
+   "unit": 2,
+   "topic": "perífrasis",
+   "es": "seguir + gerundio",
+   "en": "to still be doing",
+   "example_es": "Sigo viviendo en el mismo barrio.",
+   "example_en": "I'm still living in the same neighbourhood."
+  },
+  {
+   "id": "v02-llevar-tiempo-gerundio",
+   "unit": 2,
+   "topic": "perífrasis",
+   "es": "llevar + tiempo + gerundio",
+   "en": "to have been doing (for)",
+   "example_es": "Llevo dos años estudiando español.",
+   "example_en": "I've been studying Spanish for two years."
+  },
+  {
+   "id": "v02-distinguidos-senores",
+   "unit": 2,
+   "topic": "carta formal",
+   "es": "Distinguidos señores:",
+   "en": "Dear Sirs (very formal)",
+   "example_es": "Distinguidos señores: les escribo en relación con…",
+   "example_en": "Dear Sirs, I am writing regarding…"
+  },
+  {
+   "id": "v02-cordialmente",
+   "unit": 2,
+   "topic": "carta formal",
+   "es": "Cordialmente",
+   "en": "Kind regards",
+   "example_es": "Cordialmente, Adam Nightingale.",
+   "example_en": "Kind regards, Adam Nightingale."
   }
  ]
 }

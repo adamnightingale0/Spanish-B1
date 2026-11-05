@@ -284,6 +284,284 @@
    "en": "to answer, reply",
    "example_es": "No contesta al teléfono.",
    "example_en": "He isn't answering the phone."
+  },
+  {
+   "id": "v07-el-mensaje-de-voz",
+   "unit": 7,
+   "topic": "tipos de mensajes",
+   "es": "el mensaje de voz",
+   "en": "the voice message",
+   "example_es": "Te he mandado un mensaje de voz.",
+   "example_en": "I've sent you a voice message.",
+   "gender": "m"
+  },
+  {
+   "id": "v07-el-grupo-de-whatsapp",
+   "unit": 7,
+   "topic": "tipos de mensajes",
+   "es": "el grupo (de WhatsApp)",
+   "en": "the group chat",
+   "example_es": "Lo he puesto en el grupo de la familia.",
+   "example_en": "I've posted it in the family group chat.",
+   "gender": "m"
+  },
+  {
+   "id": "v07-el-aviso",
+   "unit": 7,
+   "topic": "tipos de mensajes",
+   "es": "el aviso",
+   "en": "the notice, warning",
+   "example_es": "Hay un aviso en el portal del edificio.",
+   "example_en": "There's a notice in the building's entrance.",
+   "gender": "m"
+  },
+  {
+   "id": "v07-la-nota-de-voz",
+   "unit": 7,
+   "topic": "tipos de mensajes",
+   "es": "la nota de voz",
+   "en": "the voice note",
+   "example_es": "Prefiero escribir a mandar notas de voz.",
+   "example_en": "I prefer writing to sending voice notes.",
+   "gender": "f"
+  },
+  {
+   "id": "v07-el-la-remitente",
+   "unit": 7,
+   "topic": "tipos de mensajes",
+   "es": "el / la remitente",
+   "en": "the sender",
+   "example_es": "No conozco al remitente de esta carta.",
+   "example_en": "I don't know the sender of this letter."
+  },
+  {
+   "id": "v07-el-la-destinatario-a",
+   "unit": 7,
+   "topic": "tipos de mensajes",
+   "es": "el / la destinatario/a",
+   "en": "the recipient",
+   "example_es": "Escribe el nombre del destinatario.",
+   "example_en": "Write the recipient's name."
+  },
+  {
+   "id": "v07-el-asunto",
+   "unit": 7,
+   "topic": "tipos de mensajes",
+   "es": "el asunto",
+   "en": "the subject (of an email)",
+   "example_es": "Pon «Reunión» en el asunto del correo.",
+   "example_en": "Put «Meeting» in the email's subject line.",
+   "gender": "m"
+  },
+  {
+   "id": "v07-adjuntar",
+   "unit": 7,
+   "topic": "tipos de mensajes",
+   "es": "adjuntar",
+   "en": "to attach",
+   "example_es": "Te adjunto el documento.",
+   "example_en": "I'm attaching the document."
+  },
+  {
+   "id": "v07-reenviar",
+   "unit": 7,
+   "topic": "verbos de comunicación",
+   "es": "reenviar",
+   "en": "to forward",
+   "example_es": "¿Me puedes reenviar ese correo?",
+   "example_en": "Can you forward me that email?"
+  },
+  {
+   "id": "v07-el-emoticono",
+   "unit": 7,
+   "topic": "tipos de mensajes",
+   "es": "el emoticono",
+   "en": "the emoji",
+   "example_es": "Me contestó solo con un emoticono.",
+   "example_en": "She replied with just an emoji.",
+   "gender": "m"
+  },
+  {
+   "id": "v07-avisar",
+   "unit": 7,
+   "topic": "verbos de comunicación",
+   "es": "avisar",
+   "en": "to let know, warn",
+   "example_es": "Avísame cuando llegues.",
+   "example_en": "Let me know when you arrive."
+  },
+  {
+   "id": "v07-contar",
+   "unit": 7,
+   "topic": "verbos de comunicación",
+   "es": "contar",
+   "en": "to tell",
+   "example_es": "Me ha contado que se casa.",
+   "example_en": "He's told me he's getting married."
+  },
+  {
+   "id": "v07-mandar-un-mensaje",
+   "unit": 7,
+   "topic": "verbos de comunicación",
+   "es": "mandar un mensaje",
+   "en": "to send a message",
+   "example_es": "Mándame un mensaje cuando salgas.",
+   "example_en": "Send me a message when you leave."
+  },
+  {
+   "id": "v07-explicar",
+   "unit": 7,
+   "topic": "verbos de comunicación",
+   "es": "explicar",
+   "en": "to explain",
+   "example_es": "Me explicó cómo funcionaba la máquina.",
+   "example_en": "He explained how the machine worked."
+  },
+  {
+   "id": "v07-aconsejar",
+   "unit": 7,
+   "topic": "transmitir mensajes",
+   "es": "aconsejar",
+   "en": "to advise",
+   "example_es": "Me ha aconsejado que descanse.",
+   "example_en": "She's advised me to rest."
+  },
+  {
+   "id": "v07-prometer",
+   "unit": 7,
+   "topic": "transmitir mensajes",
+   "es": "prometer",
+   "en": "to promise",
+   "example_es": "Me prometió que vendría.",
+   "example_en": "He promised me he would come."
+  },
+  {
+   "id": "v07-invitar-a",
+   "unit": 7,
+   "topic": "transmitir mensajes",
+   "es": "invitar a",
+   "en": "to invite to",
+   "example_es": "Nos ha invitado a su cumpleaños.",
+   "example_en": "She's invited us to her birthday."
+  },
+  {
+   "id": "v07-dar-recuerdos",
+   "unit": 7,
+   "topic": "transmitir mensajes",
+   "es": "dar recuerdos",
+   "en": "to send regards",
+   "example_es": "Dale recuerdos a tu madre de mi parte.",
+   "example_en": "Give my regards to your mother."
+  },
+  {
+   "id": "v07-agradecer",
+   "unit": 7,
+   "topic": "transmitir mensajes",
+   "es": "agradecer",
+   "en": "to thank, be grateful for",
+   "example_es": "Te agradezco mucho la ayuda.",
+   "example_en": "I'm very grateful for your help."
+  },
+  {
+   "id": "v07-pedir-perdon",
+   "unit": 7,
+   "topic": "transmitir mensajes",
+   "es": "pedir perdón",
+   "en": "to apologise",
+   "example_es": "Me pidió perdón por llegar tarde.",
+   "example_en": "He apologised for being late."
+  },
+  {
+   "id": "v07-quejarse-de",
+   "unit": 7,
+   "topic": "transmitir mensajes",
+   "es": "quejarse de",
+   "en": "to complain about",
+   "example_es": "Se queja de todo.",
+   "example_en": "He complains about everything."
+  },
+  {
+   "id": "v07-la-llamada-perdida",
+   "unit": 7,
+   "topic": "al teléfono",
+   "es": "la llamada perdida",
+   "en": "the missed call",
+   "example_es": "Tengo tres llamadas perdidas de mi madre.",
+   "example_en": "I've got three missed calls from my mum.",
+   "gender": "f"
+  },
+  {
+   "id": "v07-colgar",
+   "unit": 7,
+   "topic": "al teléfono",
+   "es": "colgar",
+   "en": "to hang up",
+   "example_es": "Me colgó sin despedirse.",
+   "example_en": "He hung up on me without saying goodbye."
+  },
+  {
+   "id": "v07-estar-comunicando",
+   "unit": 7,
+   "topic": "al teléfono",
+   "es": "estar comunicando",
+   "en": "to be engaged (phone)",
+   "example_es": "Llevo una hora llamando y siempre está comunicando.",
+   "example_en": "I've been calling for an hour and it's always engaged."
+  },
+  {
+   "id": "v07-no-tener-cobertura",
+   "unit": 7,
+   "topic": "al teléfono",
+   "es": "no tener cobertura",
+   "en": "to have no signal",
+   "example_es": "En el metro no tengo cobertura.",
+   "example_en": "I have no signal on the metro."
+  },
+  {
+   "id": "v07-quedarse-sin-bateria",
+   "unit": 7,
+   "topic": "al teléfono",
+   "es": "quedarse sin batería",
+   "en": "to run out of battery",
+   "example_es": "Me quedé sin batería y no pude llamarte.",
+   "example_en": "My battery died and I couldn't call you."
+  },
+  {
+   "id": "v07-me-oyes",
+   "unit": 7,
+   "topic": "al teléfono",
+   "es": "¿Me oyes?",
+   "en": "Can you hear me?",
+   "example_es": "¿Me oyes? Se corta la llamada.",
+   "example_en": "Can you hear me? The call is breaking up."
+  },
+  {
+   "id": "v07-digale-que",
+   "unit": 7,
+   "topic": "al teléfono",
+   "es": "dígale que",
+   "en": "tell him / her that (formal)",
+   "example_es": "Dígale que he llamado, por favor.",
+   "example_en": "Please tell him I called."
+  },
+  {
+   "id": "v07-de-parte-de",
+   "unit": 7,
+   "topic": "al teléfono",
+   "es": "de parte de",
+   "en": "on behalf of, from",
+   "example_es": "Llamo de parte de la clínica dental.",
+   "example_en": "I'm calling from the dental clinic."
+  },
+  {
+   "id": "v07-la-videoconferencia",
+   "unit": 7,
+   "topic": "comunicación",
+   "es": "la videoconferencia",
+   "en": "the video conference",
+   "example_es": "Tenemos una videoconferencia con Madrid.",
+   "example_en": "We have a video conference with Madrid.",
+   "gender": "f"
   }
  ]
 }

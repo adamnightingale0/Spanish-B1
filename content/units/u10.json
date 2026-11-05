@@ -590,6 +590,739 @@
     }
    ],
    "feedback": "preposition + article + que; the article agrees with the noun."
+  },
+  {
+   "id": "u10-f-001",
+   "type": "gap",
+   "grammarPoint": "superlativo-isimo",
+   "difficulty": 1,
+   "feedback": "bueno → buenísimo.",
+   "contrast": "muy bueno",
+   "prompt": "Este café está ___ (bueno, -ísimo).",
+   "answers": [
+    "buenísimo"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-002",
+   "type": "gap",
+   "grammarPoint": "superlativo-isimo",
+   "difficulty": 2,
+   "feedback": "Agrees with las calles.",
+   "contrast": "muy estrechas",
+   "prompt": "Las calles del centro son ___ (estrecho, -ísimo).",
+   "answers": [
+    "estrechísimas"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-003",
+   "type": "gap",
+   "grammarPoint": "superlativo-isimo",
+   "difficulty": 2,
+   "feedback": "fácil → facilísimo (one accent).",
+   "contrast": "muy fácil",
+   "prompt": "El examen fue ___ (fácil, -ísimo).",
+   "answers": [
+    "facilísimo"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-004",
+   "type": "gap",
+   "grammarPoint": "superlativo-isimo",
+   "difficulty": 2,
+   "feedback": "c → qu: práctico → practiquísimo.",
+   "contrast": "muy práctica",
+   "prompt": "Esta mochila es ___ (práctico, -ísimo).",
+   "answers": [
+    "practiquísima"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-005",
+   "type": "gap",
+   "grammarPoint": "superlativo-isimo",
+   "difficulty": 3,
+   "feedback": "g → gu: largo → larguísimo.",
+   "contrast": "muy largas",
+   "prompt": "Me he comprado unas botas ___ (largo, -ísimo).",
+   "answers": [
+    "larguísimas"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-006",
+   "type": "error",
+   "grammarPoint": "superlativo-isimo",
+   "difficulty": 2,
+   "feedback": "Agrees with la cena.",
+   "contrast": "El postre estaba riquísimo.",
+   "prompt": "La cena estaba riquísimo.",
+   "errorIndex": 3,
+   "answers": [
+    "riquísima"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-007",
+   "type": "error",
+   "grammarPoint": "superlativo-isimo",
+   "difficulty": 2,
+   "feedback": "-ísimo already means «very»: no muy.",
+   "contrast": "muy caro",
+   "prompt": "El vestido es muy carísimo.",
+   "errorIndex": 3,
+   "answers": [
+    "carísimo"
+   ],
+   "errorLength": 2,
+   "unit": 10
+  },
+  {
+   "id": "u10-f-008",
+   "type": "choice",
+   "grammarPoint": "superlativo-isimo",
+   "difficulty": 2,
+   "feedback": "super- as a colloquial intensifier.",
+   "contrast": "practiquísimo",
+   "prompt": "Es un aparato ___ práctico (lengua coloquial).",
+   "options": [
+    "super",
+    "muy -ísimo",
+    "más"
+   ],
+   "answers": [
+    "super"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-009",
+   "type": "choice",
+   "grammarPoint": "superlativo-isimo",
+   "difficulty": 2,
+   "feedback": "demasiado = too.",
+   "contrast": "Es poco práctico.",
+   "prompt": "Es un móvil bonito, pero ___ caro para lo que hace.",
+   "options": [
+    "demasiado",
+    "nada",
+    "poco"
+   ],
+   "answers": [
+    "demasiado"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-010",
+   "type": "choice",
+   "grammarPoint": "superlativo-isimo",
+   "difficulty": 3,
+   "feedback": "no es nada + adjective = not at all.",
+   "contrast": "Es poco interesante.",
+   "prompt": "No es ___ interesante: me aburrí muchísimo.",
+   "options": [
+    "nada",
+    "poco",
+    "un poco"
+   ],
+   "answers": [
+    "nada"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-011",
+   "type": "choice",
+   "grammarPoint": "exclamativas",
+   "difficulty": 1,
+   "feedback": "¡Qué + adjective!",
+   "contrast": "¡Qué casa tan bonita!",
+   "prompt": "¡___ bonita es tu casa!",
+   "options": [
+    "Qué",
+    "Cuánto",
+    "Cómo"
+   ],
+   "answers": [
+    "Qué"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-012",
+   "type": "choice",
+   "grammarPoint": "exclamativas",
+   "difficulty": 1,
+   "feedback": "cuántos agrees with coches.",
+   "contrast": "¡Cuánta gente!",
+   "prompt": "¡___ coches hay en la calle!",
+   "options": [
+    "Cuántos",
+    "Cuántas",
+    "Qué tan"
+   ],
+   "answers": [
+    "Cuántos"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-013",
+   "type": "choice",
+   "grammarPoint": "exclamativas",
+   "difficulty": 2,
+   "feedback": "¡Qué + noun + tan / más + adjective!",
+   "contrast": "¡Qué lámpara más original!",
+   "prompt": "¡Qué lámpara ___ original!",
+   "options": [
+    "tan",
+    "muy",
+    "mucho"
+   ],
+   "answers": [
+    "tan"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-014",
+   "type": "choice",
+   "grammarPoint": "exclamativas",
+   "difficulty": 2,
+   "feedback": "¡Cómo + verb!",
+   "contrast": "¡Cuánto come!",
+   "prompt": "¡___ come este niño!",
+   "options": [
+    "Cómo",
+    "Qué",
+    "Cuánta"
+   ],
+   "answers": [
+    "Cómo"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-015",
+   "type": "choice",
+   "grammarPoint": "exclamativas",
+   "difficulty": 2,
+   "feedback": "¡Qué + noun! (horror, maravilla, rollo…).",
+   "contrast": "¡Qué maravilla!",
+   "prompt": "¡Qué ___! Se me ha olvidado la cartera.",
+   "options": [
+    "horror",
+    "horrible tan",
+    "tan horror"
+   ],
+   "answers": [
+    "horror"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-016",
+   "type": "error",
+   "grammarPoint": "exclamativas",
+   "difficulty": 2,
+   "feedback": "Exclamatory qué has an accent.",
+   "contrast": "¡Que te mejores! (wish, no accent).",
+   "prompt": "¡Que diseño tan elegante!",
+   "errorIndex": 0,
+   "answers": [
+    "Qué"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-017",
+   "type": "error",
+   "grammarPoint": "exclamativas",
+   "difficulty": 2,
+   "feedback": "cuánta agrees with gente (or: ¡Cuántas personas!).",
+   "contrast": "¡Cuántas personas!",
+   "prompt": "¡Cuánta personas hay en la cola!",
+   "errorIndex": 1,
+   "answers": [
+    "gente"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-018",
+   "type": "transform",
+   "grammarPoint": "exclamativas",
+   "difficulty": 2,
+   "feedback": "¡Qué + noun + más + adjective!",
+   "contrast": "¡Qué incómoda!",
+   "instruction": "Escribe una exclamación con «¡Qué … más …!».",
+   "prompt": "Esta silla es muy incómoda.",
+   "answers": [
+    "¡Qué silla más incómoda!",
+    "Qué silla más incómoda"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-019",
+   "type": "order",
+   "grammarPoint": "exclamativas",
+   "difficulty": 2,
+   "feedback": "¡Qué + noun + tan + adjective!",
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "Qué vestido tan bonito llevas"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-020",
+   "type": "choice",
+   "grammarPoint": "relativas-preposicion",
+   "difficulty": 1,
+   "feedback": "el cuaderno → en el que.",
+   "contrast": "la libreta en la que…",
+   "prompt": "Este es el cuaderno en ___ apunto las palabras nuevas.",
+   "options": [
+    "el que",
+    "la que",
+    "que"
+   ],
+   "answers": [
+    "el que"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-021",
+   "type": "choice",
+   "grammarPoint": "relativas-preposicion",
+   "difficulty": 2,
+   "feedback": "la chica → con la que (or con quien).",
+   "contrast": "el chico con el que…",
+   "prompt": "La chica con ___ comparto piso es de Italia.",
+   "options": [
+    "la que",
+    "el que",
+    "que"
+   ],
+   "answers": [
+    "la que"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-022",
+   "type": "choice",
+   "grammarPoint": "relativas-preposicion",
+   "difficulty": 2,
+   "feedback": "hablar de → de los que.",
+   "contrast": "Las amigas de las que te hablé.",
+   "prompt": "Los amigos de ___ te hablé llegan mañana.",
+   "options": [
+    "los que",
+    "que",
+    "las que"
+   ],
+   "answers": [
+    "los que"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-023",
+   "type": "choice",
+   "grammarPoint": "relativas-preposicion",
+   "difficulty": 2,
+   "feedback": "donde = en la que for places.",
+   "contrast": "La ciudad en la que nací.",
+   "prompt": "La ciudad ___ nací es muy pequeña.",
+   "options": [
+    "donde",
+    "que",
+    "la que"
+   ],
+   "answers": [
+    "donde"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-024",
+   "type": "choice",
+   "grammarPoint": "relativas-preposicion",
+   "difficulty": 2,
+   "feedback": "algo → con lo que (neuter).",
+   "contrast": "un cuchillo con el que…",
+   "prompt": "Necesito algo con ___ pueda abrir esta lata.",
+   "options": [
+    "lo que",
+    "el que",
+    "que"
+   ],
+   "answers": [
+    "lo que"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-025",
+   "type": "choice",
+   "grammarPoint": "relativas-preposicion",
+   "difficulty": 3,
+   "feedback": "For people: preposition + quien (or + la que).",
+   "contrast": "en la que confío",
+   "prompt": "Es una persona en ___ confío totalmente.",
+   "options": [
+    "quien",
+    "que",
+    "la cual que"
+   ],
+   "answers": [
+    "quien"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-026",
+   "type": "error",
+   "grammarPoint": "relativas-preposicion",
+   "difficulty": 2,
+   "feedback": "After a preposition: con la que.",
+   "contrast": "Es la llave que perdí.",
+   "prompt": "Es la llave con que cerré la puerta.",
+   "errorIndex": 4,
+   "answers": [
+    "la que"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-027",
+   "type": "error",
+   "grammarPoint": "relativas-preposicion",
+   "difficulty": 2,
+   "feedback": "el hotel → en el que.",
+   "contrast": "La casa en la que…",
+   "prompt": "El hotel en la que nos alojamos era precioso.",
+   "errorIndex": 3,
+   "answers": [
+    "el que"
+   ],
+   "errorLength": 2,
+   "unit": 10
+  },
+  {
+   "id": "u10-f-028",
+   "type": "transform",
+   "grammarPoint": "relativas-preposicion",
+   "difficulty": 2,
+   "feedback": "con + el + que.",
+   "contrast": "la pluma con la que…",
+   "instruction": "Une las frases con una relativa con preposición.",
+   "prompt": "Este es el bolígrafo. Firmé el contrato con este bolígrafo.",
+   "answers": [
+    "Este es el bolígrafo con el que firmé el contrato"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-029",
+   "type": "match",
+   "grammarPoint": "relativas-preposicion",
+   "difficulty": 2,
+   "feedback": "preposition + article + que, agreeing with the noun.",
+   "instruction": "Relaciona cada principio con su final.",
+   "pairs": [
+    {
+     "left": "La silla en",
+     "right": "la que me siento es de madera."
+    },
+    {
+     "left": "El cuchillo con",
+     "right": "el que cortas el pan está nuevo."
+    },
+    {
+     "left": "Las amigas de",
+     "right": "las que te hablé viven en Cádiz."
+    },
+    {
+     "left": "El pueblo en",
+     "right": "el que veraneo es muy tranquilo."
+    }
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-030",
+   "type": "choice",
+   "grammarPoint": "relativas-ind-subj",
+   "difficulty": 1,
+   "feedback": "Desired, unknown → subjuntivo.",
+   "contrast": "Vivo en una casa que tiene jardín.",
+   "prompt": "Quiero una casa que ___ jardín.",
+   "options": [
+    "tenga",
+    "tiene",
+    "tener"
+   ],
+   "answers": [
+    "tenga"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-031",
+   "type": "choice",
+   "grammarPoint": "relativas-ind-subj",
+   "difficulty": 1,
+   "feedback": "Existing, specific → indicativo.",
+   "contrast": "Busco un coche que gaste poca gasolina.",
+   "prompt": "Mi hermano tiene un coche que ___ muy poca gasolina.",
+   "options": [
+    "gasta",
+    "gaste"
+   ],
+   "answers": [
+    "gasta"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-032",
+   "type": "choice",
+   "grammarPoint": "relativas-ind-subj",
+   "difficulty": 2,
+   "feedback": "Asking whether such a person exists → subjuntivo.",
+   "contrast": "Conozco a alguien que sabe.",
+   "prompt": "¿Conoces a alguien que ___ arreglar ordenadores?",
+   "options": [
+    "sepa",
+    "sabe",
+    "saber"
+   ],
+   "answers": [
+    "sepa"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-033",
+   "type": "choice",
+   "grammarPoint": "relativas-ind-subj",
+   "difficulty": 2,
+   "feedback": "no hay nada que + subjuntivo.",
+   "contrast": "Hay algo que me gusta.",
+   "prompt": "En esta tienda no hay nada que me ___.",
+   "options": [
+    "guste",
+    "gusta",
+    "gustar"
+   ],
+   "answers": [
+    "guste"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-034",
+   "type": "gap",
+   "grammarPoint": "relativas-ind-subj",
+   "difficulty": 2,
+   "feedback": "Looking for → subjuntivo.",
+   "contrast": "El piso está cerca.",
+   "prompt": "Buscamos un piso que ___ (estar) cerca del metro.",
+   "answers": [
+    "esté"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-035",
+   "type": "gap",
+   "grammarPoint": "relativas-ind-subj",
+   "difficulty": 2,
+   "feedback": "Already found → indicativo.",
+   "contrast": "Busco una academia que ofrezca clases.",
+   "prompt": "He encontrado una academia que ___ (ofrecer) clases los sábados.",
+   "answers": [
+    "ofrece"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-036",
+   "type": "gap",
+   "grammarPoint": "relativas-ind-subj",
+   "difficulty": 3,
+   "feedback": "caber → quepa.",
+   "contrast": "Esta maleta cabe.",
+   "prompt": "Necesito una maleta que ___ (caber) en el compartimento del avión.",
+   "answers": [
+    "quepa"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-037",
+   "type": "error",
+   "grammarPoint": "relativas-ind-subj",
+   "difficulty": 2,
+   "feedback": "Not yet found → subjuntivo.",
+   "contrast": "Vivo con alguien que no fuma.",
+   "prompt": "Busco un compañero de piso que no fuma.",
+   "errorIndex": 7,
+   "answers": [
+    "fume"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-038",
+   "type": "error",
+   "grammarPoint": "relativas-ind-subj",
+   "difficulty": 3,
+   "feedback": "no hay nadie que + subjuntivo.",
+   "contrast": "Hay alguien que habla japonés.",
+   "prompt": "No hay nadie en mi clase que habla japonés.",
+   "errorIndex": 7,
+   "answers": [
+    "hable"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-039",
+   "type": "choice",
+   "grammarPoint": "valorar-objetos",
+   "difficulty": 1,
+   "feedback": "Yo los encuentro + adjective.",
+   "contrast": "Me parecen preciosos.",
+   "prompt": "Estos pendientes los ___ preciosos.",
+   "options": [
+    "encuentro",
+    "encuentra",
+    "encontré a"
+   ],
+   "answers": [
+    "encuentro"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-040",
+   "type": "choice",
+   "grammarPoint": "valorar-objetos",
+   "difficulty": 2,
+   "feedback": "no me acaba de convencer = I'm not quite convinced.",
+   "contrast": "No me convence.",
+   "prompt": "La mesa es bonita, pero la verdad es que no me ___ de convencer.",
+   "options": [
+    "acaba",
+    "termina",
+    "deja"
+   ],
+   "answers": [
+    "acaba"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-041",
+   "type": "choice",
+   "grammarPoint": "valorar-objetos",
+   "difficulty": 2,
+   "feedback": "parecer (like gustar): la lámpara → parece.",
+   "contrast": "Me parecen cursis.",
+   "prompt": "A mí esa lámpara me ___ un poco cursi.",
+   "options": [
+    "parece",
+    "parecen",
+    "parezco"
+   ],
+   "answers": [
+    "parece"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-042",
+   "type": "gap",
+   "grammarPoint": "valorar-objetos",
+   "difficulty": 2,
+   "feedback": "The adjective agrees with the object (sofá).",
+   "contrast": "Estas sillas las veo incómodas.",
+   "prompt": "Este sofá lo veo muy ___ (incómodo) para un salón tan pequeño.",
+   "answers": [
+    "incómodo"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-043",
+   "type": "choice",
+   "grammarPoint": "valorar-objetos",
+   "difficulty": 3,
+   "feedback": "No está mal, pero… softens a negative opinion.",
+   "contrast": "No me convence.",
+   "prompt": "No está mal, ___ no es lo que estoy buscando.",
+   "options": [
+    "pero",
+    "porque",
+    "aunque es"
+   ],
+   "answers": [
+    "pero"
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-044",
+   "type": "match",
+   "grammarPoint": "valorar-objetos",
+   "difficulty": 2,
+   "feedback": "Describing how an object works.",
+   "instruction": "Relaciona cada principio con su final.",
+   "pairs": [
+    {
+     "left": "Sirve para",
+     "right": "cortar verduras."
+    },
+    {
+     "left": "Funciona con",
+     "right": "pilas."
+    },
+    {
+     "left": "No se arruga",
+     "right": "aunque la metas en la maleta."
+    },
+    {
+     "left": "Cabe en",
+     "right": "cualquier bolsillo."
+    }
+   ],
+   "unit": 10
+  },
+  {
+   "id": "u10-f-045",
+   "type": "order",
+   "grammarPoint": "valorar-objetos",
+   "difficulty": 2,
+   "feedback": "Object first + pronoun + encontrar + adjective.",
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "Estas sillas las encuentro muy incómodas"
+   ],
+   "unit": 10
   }
  ]
 }

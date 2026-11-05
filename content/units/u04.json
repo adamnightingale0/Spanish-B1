@@ -528,6 +528,831 @@
     }
    ],
    "feedback": "como + cause first; porque + cause second; aunque / sin embargo for contrast."
+  },
+  {
+   "id": "u04-f-001",
+   "type": "choice",
+   "grammarPoint": "conectores-relato",
+   "difficulty": 1,
+   "feedback": "Sudden event → de repente.",
+   "contrast": "Al final abrí la puerta.",
+   "prompt": "Estaba leyendo en el sofá y ___ sonó el timbre.",
+   "options": [
+    "de repente",
+    "al principio",
+    "por fin"
+   ],
+   "answers": [
+    "de repente"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-002",
+   "type": "choice",
+   "grammarPoint": "conectores-relato",
+   "difficulty": 1,
+   "feedback": "al principio = at the beginning.",
+   "contrast": "Al final se va a la ciudad.",
+   "prompt": "___, la protagonista vive tranquila en un pueblo; luego todo cambia.",
+   "options": [
+    "Al principio",
+    "De repente",
+    "Al final"
+   ],
+   "answers": [
+    "Al principio"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-003",
+   "type": "choice",
+   "grammarPoint": "conectores-relato",
+   "difficulty": 2,
+   "feedback": "en aquel momento = at that moment.",
+   "contrast": "De pronto llegó la policía.",
+   "prompt": "El ladrón salió corriendo. ___ llegó la policía.",
+   "options": [
+    "En aquel momento",
+    "Al principio",
+    "Una vez"
+   ],
+   "answers": [
+    "En aquel momento"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-004",
+   "type": "choice",
+   "grammarPoint": "conectores-relato",
+   "difficulty": 2,
+   "feedback": "al final = in the end.",
+   "contrast": "Por fin la abrimos.",
+   "prompt": "Lo intentamos muchas veces y ___ conseguimos abrir la puerta.",
+   "options": [
+    "al final",
+    "al principio",
+    "de pronto"
+   ],
+   "answers": [
+    "al final"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-005",
+   "type": "choice",
+   "grammarPoint": "conectores-relato",
+   "difficulty": 2,
+   "feedback": "al cabo de + time.",
+   "contrast": "Dos horas después despegó.",
+   "prompt": "Esperamos dos horas. ___ de un rato, el avión despegó.",
+   "options": [
+    "Al cabo",
+    "Después",
+    "Luego"
+   ],
+   "answers": [
+    "Al cabo"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-006",
+   "type": "match",
+   "grammarPoint": "conectores-relato",
+   "difficulty": 2,
+   "feedback": "Story connectors: start, sudden event, sequence, end.",
+   "instruction": "Relaciona cada principio con su final.",
+   "pairs": [
+    {
+     "left": "Al principio",
+     "right": "no entendía nada."
+    },
+    {
+     "left": "De repente",
+     "right": "se apagó la luz."
+    },
+    {
+     "left": "Entonces",
+     "right": "decidimos irnos."
+    },
+    {
+     "left": "Al final",
+     "right": "todo salió bien."
+    }
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-007",
+   "type": "order",
+   "grammarPoint": "conectores-relato",
+   "difficulty": 2,
+   "feedback": "de repente + sudden event.",
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "De repente se apagaron todas las luces"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-008",
+   "type": "error",
+   "grammarPoint": "conectores-relato",
+   "difficulty": 2,
+   "feedback": "Sequence → entonces / luego.",
+   "contrast": "Al principio no había nadie.",
+   "prompt": "Llegamos al cine a las nueve y al principio compramos las entradas.",
+   "errorIndex": 7,
+   "answers": [
+    "entonces",
+    "luego",
+    "después"
+   ],
+   "errorLength": 2,
+   "unit": 4
+  },
+  {
+   "id": "u04-f-009",
+   "type": "choice",
+   "grammarPoint": "causa-contraste",
+   "difficulty": 1,
+   "feedback": "como + cause at the start.",
+   "contrast": "Nos quedamos porque hacía frío.",
+   "prompt": "___ hacía frío, nos quedamos en casa.",
+   "options": [
+    "Como",
+    "Porque",
+    "Aunque"
+   ],
+   "answers": [
+    "Como"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-010",
+   "type": "choice",
+   "grammarPoint": "causa-contraste",
+   "difficulty": 1,
+   "feedback": "porque after the main clause.",
+   "contrast": "Como estaba enfermo, no fui.",
+   "prompt": "No fui a la fiesta ___ estaba enfermo.",
+   "options": [
+    "porque",
+    "como",
+    "sin embargo"
+   ],
+   "answers": [
+    "porque"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-011",
+   "type": "choice",
+   "grammarPoint": "causa-contraste",
+   "difficulty": 2,
+   "feedback": "sin embargo = however.",
+   "contrast": "Aunque es largo, no me aburrí.",
+   "prompt": "El libro es muy largo; ___, no me aburrí ni un momento.",
+   "options": [
+    "sin embargo",
+    "porque",
+    "como"
+   ],
+   "answers": [
+    "sin embargo"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-012",
+   "type": "choice",
+   "grammarPoint": "causa-contraste",
+   "difficulty": 2,
+   "feedback": "aunque = although.",
+   "contrast": "No tengo tiempo, pero te ayudo.",
+   "prompt": "___ no tengo mucho tiempo, te ayudo con la mudanza.",
+   "options": [
+    "Aunque",
+    "Como",
+    "Porque"
+   ],
+   "answers": [
+    "Aunque"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-013",
+   "type": "error",
+   "grammarPoint": "causa-contraste",
+   "difficulty": 2,
+   "feedback": "At the start of the sentence, use como.",
+   "contrast": "No fui de viaje porque no tenía dinero.",
+   "prompt": "Porque no tenía dinero, no fui de viaje.",
+   "errorIndex": 0,
+   "answers": [
+    "Como"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-014",
+   "type": "transform",
+   "grammarPoint": "causa-contraste",
+   "difficulty": 2,
+   "feedback": "aunque + indicative (a fact).",
+   "contrast": "Estaba cansado, pero fui.",
+   "instruction": "Une las frases con «aunque».",
+   "prompt": "Estaba cansado. Fui al gimnasio.",
+   "answers": [
+    "Aunque estaba cansado, fui al gimnasio",
+    "Fui al gimnasio aunque estaba cansado"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-015",
+   "type": "transform",
+   "grammarPoint": "causa-contraste",
+   "difficulty": 2,
+   "feedback": "como + cause, result.",
+   "contrast": "Cogimos un taxi porque llovía.",
+   "instruction": "Une las frases con «como».",
+   "prompt": "Llovía. Cogimos un taxi.",
+   "answers": [
+    "Como llovía, cogimos un taxi",
+    "Como llovía cogimos un taxi"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-016",
+   "type": "match",
+   "grammarPoint": "causa-contraste",
+   "difficulty": 2,
+   "feedback": "como / porque = cause; sin embargo / aunque = contrast.",
+   "instruction": "Relaciona cada principio con su final.",
+   "pairs": [
+    {
+     "left": "Como era tarde,",
+     "right": "cogimos un taxi."
+    },
+    {
+     "left": "Cogimos un taxi",
+     "right": "porque era tarde."
+    },
+    {
+     "left": "Era tarde.",
+     "right": "Sin embargo, fuimos andando."
+    },
+    {
+     "left": "Aunque era tarde,",
+     "right": "fuimos andando."
+    }
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-017",
+   "type": "choice",
+   "grammarPoint": "causa-contraste",
+   "difficulty": 3,
+   "feedback": "pero joins two contrasting ideas.",
+   "contrast": "Aunque es caro, la comida es excelente.",
+   "prompt": "El restaurante es caro, ___ la comida es excelente.",
+   "options": [
+    "pero",
+    "como",
+    "porque"
+   ],
+   "answers": [
+    "pero"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-018",
+   "type": "choice",
+   "grammarPoint": "pronombres-od-oi",
+   "difficulty": 1,
+   "feedback": "IO (te) before DO (las).",
+   "contrast": "Te las he dado.",
+   "prompt": "—¿Has visto mis gafas? —Sí, ___ he dejado en la mesa.",
+   "options": [
+    "te las",
+    "te los",
+    "las te"
+   ],
+   "answers": [
+    "te las"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-019",
+   "type": "choice",
+   "grammarPoint": "pronombres-od-oi",
+   "difficulty": 1,
+   "feedback": "el pan → lo.",
+   "contrast": "La leche la compré ayer.",
+   "prompt": "—¿Compraste el pan? —Sí, ___ compré esta mañana.",
+   "options": [
+    "lo",
+    "la",
+    "le"
+   ],
+   "answers": [
+    "lo"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-020",
+   "type": "choice",
+   "grammarPoint": "pronombres-od-oi",
+   "difficulty": 2,
+   "feedback": "le + lo → se lo.",
+   "contrast": "Te lo he devuelto.",
+   "prompt": "—¿Le has devuelto el libro a Rosa? —Sí, ya ___ he devuelto.",
+   "options": [
+    "se lo",
+    "le lo",
+    "se la"
+   ],
+   "answers": [
+    "se lo"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-021",
+   "type": "gap",
+   "grammarPoint": "pronombres-od-oi",
+   "difficulty": 2,
+   "feedback": "las entradas → las.",
+   "contrast": "El dinero lo tiene Pablo.",
+   "prompt": "—¿Y las entradas? —___ tiene Pablo. (pronombre OD)",
+   "answers": [
+    "Las"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-022",
+   "type": "gap",
+   "grammarPoint": "pronombres-od-oi",
+   "difficulty": 2,
+   "feedback": "a mis padres → les.",
+   "contrast": "A mi madre le encanta.",
+   "prompt": "A mis padres ___ encanta este restaurante. (pronombre OI)",
+   "answers": [
+    "les"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-023",
+   "type": "transform",
+   "grammarPoint": "pronombres-od-oi",
+   "difficulty": 2,
+   "feedback": "le + la → se la; attached to the affirmative command.",
+   "contrast": "No se la digas.",
+   "instruction": "Sustituye los complementos por pronombres.",
+   "prompt": "Di la verdad a tu jefa.",
+   "answers": [
+    "Dísela"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-024",
+   "type": "transform",
+   "grammarPoint": "pronombres-od-oi",
+   "difficulty": 3,
+   "feedback": "les + lo → se lo; before estar or attached to the gerund.",
+   "contrast": "Se lo expliqué ayer.",
+   "instruction": "Sustituye los complementos por pronombres.",
+   "prompt": "Estoy explicando el problema a los clientes.",
+   "answers": [
+    "Se lo estoy explicando",
+    "Estoy explicándoselo"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-025",
+   "type": "error",
+   "grammarPoint": "pronombres-od-oi",
+   "difficulty": 2,
+   "feedback": "le + lo → se lo.",
+   "contrast": "Se lo di ayer.",
+   "prompt": "—¿Le diste el regalo a Ana? —Sí, le lo di ayer.",
+   "errorIndex": 7,
+   "answers": [
+    "se"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-026",
+   "type": "error",
+   "grammarPoint": "pronombres-od-oi",
+   "difficulty": 2,
+   "feedback": "la novela → la.",
+   "contrast": "El libro no lo he leído.",
+   "prompt": "—¿Has leído la novela? —No, todavía no lo he leído.",
+   "errorIndex": 7,
+   "answers": [
+    "la"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-027",
+   "type": "order",
+   "grammarPoint": "pronombres-od-oi",
+   "difficulty": 2,
+   "feedback": "IO before DO, both before the conjugated verb.",
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "Te lo cuento mañana"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-028",
+   "type": "choice",
+   "grammarPoint": "pronombres-od-oi",
+   "difficulty": 2,
+   "feedback": "lo replaces a whole idea.",
+   "contrast": "Ya me lo ha dicho.",
+   "prompt": "—¿Sabes que Juan se casa? —Sí, ya ___ sé.",
+   "options": [
+    "lo",
+    "le",
+    "la"
+   ],
+   "answers": [
+    "lo"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-029",
+   "type": "choice",
+   "grammarPoint": "pronombres-od-oi",
+   "difficulty": 3,
+   "feedback": "When the DO comes first, it is repeated with a pronoun: a la protagonista → la.",
+   "contrast": "Despiden a la protagonista.",
+   "prompt": "A la protagonista de la serie ___ despiden en el primer capítulo.",
+   "options": [
+    "la",
+    "le",
+    "se"
+   ],
+   "answers": [
+    "la"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-030",
+   "type": "gap",
+   "grammarPoint": "presente-relato",
+   "difficulty": 1,
+   "feedback": "Plot summary → present: cuenta (o→ue).",
+   "contrast": "La novela contaba…",
+   "prompt": "La novela ___ (contar) la historia de dos hermanas que viven en Cádiz.",
+   "answers": [
+    "cuenta"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-031",
+   "type": "gap",
+   "grammarPoint": "presente-relato",
+   "difficulty": 2,
+   "feedback": "Summaries in the present (o→ue).",
+   "contrast": "El niño encontró un perro.",
+   "prompt": "En la película, un niño ___ (encontrar) un perro abandonado y decide cuidarlo.",
+   "answers": [
+    "encuentra"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-032",
+   "type": "choice",
+   "grammarPoint": "presente-relato",
+   "difficulty": 1,
+   "feedback": "ir de = to be about.",
+   "contrast": "Trata de un grupo de amigos.",
+   "prompt": "La serie ___ de un grupo de amigos que abren un restaurante.",
+   "options": [
+    "va",
+    "es",
+    "hace"
+   ],
+   "answers": [
+    "va"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-033",
+   "type": "choice",
+   "grammarPoint": "presente-relato",
+   "difficulty": 2,
+   "feedback": "ocurrir / pasar / estar ambientada en = set in.",
+   "contrast": "Está ambientada en Barcelona.",
+   "prompt": "La historia ___ en Barcelona durante los años veinte.",
+   "options": [
+    "ocurre",
+    "trata",
+    "va"
+   ],
+   "answers": [
+    "ocurre"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-034",
+   "type": "choice",
+   "grammarPoint": "presente-relato",
+   "difficulty": 2,
+   "feedback": "Jokes are told in the present.",
+   "contrast": "Fue un hombre y le dijo…",
+   "prompt": "Va un hombre a una tienda y le ___ al dependiente: «Quiero un regalo para mi suegra».",
+   "options": [
+    "dice",
+    "dijo",
+    "decía"
+   ],
+   "answers": [
+    "dice"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-035",
+   "type": "error",
+   "grammarPoint": "presente-relato",
+   "difficulty": 2,
+   "feedback": "Plot summaries use the present.",
+   "contrast": "La película que vi trataba de…",
+   "prompt": "La película trató de una familia que gana la lotería.",
+   "errorIndex": 2,
+   "answers": [
+    "trata"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-036",
+   "type": "transform",
+   "grammarPoint": "presente-relato",
+   "difficulty": 2,
+   "feedback": "Summary → present.",
+   "contrast": "Perdió su trabajo (anecdote in past).",
+   "instruction": "Resume en presente.",
+   "prompt": "El protagonista perdió su trabajo y se fue a vivir al campo.",
+   "answers": [
+    "El protagonista pierde su trabajo y se va a vivir al campo"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-037",
+   "type": "choice",
+   "grammarPoint": "presente-relato",
+   "difficulty": 2,
+   "feedback": "Anecdote opened in the past, continued in the present (me encuentro).",
+   "contrast": "Entré y me encontré…",
+   "prompt": "¿Sabes qué me pasó ayer? Pues nada, que ___ en el ascensor y me encuentro a mi exnovio.",
+   "options": [
+    "entro",
+    "entré",
+    "entraba"
+   ],
+   "answers": [
+    "entro"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-038",
+   "type": "gap",
+   "grammarPoint": "presente-relato",
+   "difficulty": 3,
+   "feedback": "Present for plot: se dan cuenta.",
+   "contrast": "Se dieron cuenta.",
+   "prompt": "Al final de la película, los dos protagonistas se ___ (dar) cuenta de que están enamorados.",
+   "answers": [
+    "dan"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-039",
+   "type": "match",
+   "grammarPoint": "presente-relato",
+   "difficulty": 2,
+   "feedback": "Resources for talking about a book or film.",
+   "instruction": "Relaciona cada principio con su final.",
+   "pairs": [
+    {
+     "left": "La novela trata de",
+     "right": "una mujer que busca a su hijo."
+    },
+    {
+     "left": "Está basada en",
+     "right": "hechos reales."
+    },
+    {
+     "left": "La historia ocurre",
+     "right": "en México en los años cincuenta."
+    },
+    {
+     "left": "La protagonista es",
+     "right": "una periodista valiente."
+    }
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-040",
+   "type": "gap",
+   "grammarPoint": "conectores-relato",
+   "difficulty": 3,
+   "feedback": "de pronto = de repente.",
+   "contrast": "De repente oímos un ruido.",
+   "prompt": "Entramos en la casa y, ___ pronto, oímos un ruido arriba.",
+   "answers": [
+    "de"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-041",
+   "type": "choice",
+   "grammarPoint": "causa-contraste",
+   "difficulty": 3,
+   "feedback": "sin embargo introduces a contrast in a new sentence.",
+   "contrast": "Aunque me gusta el cine…",
+   "prompt": "Me gusta mucho el cine. ___, este año casi no he ido.",
+   "options": [
+    "Sin embargo",
+    "Como",
+    "Porque"
+   ],
+   "answers": [
+    "Sin embargo"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-042",
+   "type": "choice",
+   "grammarPoint": "pronombres-od-oi",
+   "difficulty": 3,
+   "feedback": "IO (me) before DO (la, la bufanda).",
+   "contrast": "Te la ha regalado.",
+   "prompt": "—¿Quién te ha regalado esa bufanda? —___ ha regalado mi abuela.",
+   "options": [
+    "Me la",
+    "Me lo",
+    "La me"
+   ],
+   "answers": [
+    "Me la"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-043",
+   "type": "gap",
+   "grammarPoint": "pronombres-od-oi",
+   "difficulty": 3,
+   "feedback": "les + las → se las.",
+   "contrast": "Se las enviamos ayer.",
+   "prompt": "—¿Habéis enviado las invitaciones a los invitados? —Sí, ya ___ hemos enviado.",
+   "answers": [
+    "se las"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-044",
+   "type": "choice",
+   "grammarPoint": "presente-relato",
+   "difficulty": 3,
+   "feedback": "se trata de = it is (a matter of).",
+   "contrast": "La película trata de un banco.",
+   "prompt": "No sé qué ha pasado, pero creo que ___ de un error del banco.",
+   "options": [
+    "se trata",
+    "trata",
+    "va"
+   ],
+   "answers": [
+    "se trata"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-045",
+   "type": "order",
+   "grammarPoint": "causa-contraste",
+   "difficulty": 2,
+   "feedback": "como + cause at the start.",
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "Como no había entradas nos fuimos a cenar"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-046",
+   "type": "order",
+   "grammarPoint": "presente-relato",
+   "difficulty": 2,
+   "feedback": "tratar de + plot summary in the present.",
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "La película trata de una chica que quiere ser bailarina"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-047",
+   "type": "error",
+   "grammarPoint": "causa-contraste",
+   "difficulty": 3,
+   "feedback": "A new sentence + comma → Sin embargo (aunque introduces a clause).",
+   "contrast": "Aunque no me gusta, lo tomo.",
+   "prompt": "No me gusta mucho el café. Aunque, lo tomo todas las mañanas.",
+   "errorIndex": 6,
+   "answers": [
+    "Sin embargo"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-048",
+   "type": "choice",
+   "grammarPoint": "conectores-relato",
+   "difficulty": 3,
+   "feedback": "entonces = so / then (next step).",
+   "contrast": "De repente…",
+   "prompt": "Al llegar al hotel nos dijeron que no había habitaciones. ___ buscamos otro.",
+   "options": [
+    "Entonces",
+    "Al principio",
+    "Una vez"
+   ],
+   "answers": [
+    "Entonces"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-049",
+   "type": "gap",
+   "grammarPoint": "pronombres-od-oi",
+   "difficulty": 1,
+   "feedback": "Laura (DO, feminine) → la.",
+   "contrast": "A Pablo lo conocí en el trabajo.",
+   "prompt": "—¿Conoces a Laura? —Sí, ___ conocí en la universidad.",
+   "answers": [
+    "la"
+   ],
+   "unit": 4
+  },
+  {
+   "id": "u04-f-050",
+   "type": "choice",
+   "grammarPoint": "presente-relato",
+   "difficulty": 1,
+   "feedback": "Jokes → present.",
+   "contrast": "Le preguntó a su madre.",
+   "prompt": "En el chiste, un niño ___ a su madre: «¿Por qué el mar es azul?».",
+   "options": [
+    "pregunta",
+    "preguntó",
+    "preguntaba"
+   ],
+   "answers": [
+    "pregunta"
+   ],
+   "unit": 4
   }
  ]
 }

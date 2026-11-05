@@ -295,6 +295,295 @@
    "example_es": "Mis padres no me dejaban salir entre semana.",
    "example_en": "My parents didn't let me go out on weekdays.",
    "collocation": "dejar + infinitivo"
+  },
+  {
+   "id": "v01-saludar",
+   "unit": 1,
+   "topic": "costumbres sociales",
+   "es": "saludar",
+   "en": "to greet",
+   "example_es": "En España se saluda con dos besos.",
+   "example_en": "In Spain people greet each other with two kisses."
+  },
+  {
+   "id": "v01-dar-dos-besos",
+   "unit": 1,
+   "topic": "costumbres sociales",
+   "es": "dar dos besos",
+   "en": "to kiss on both cheeks",
+   "example_es": "Al presentarnos, nos dimos dos besos.",
+   "example_en": "When we were introduced, we kissed on both cheeks."
+  },
+  {
+   "id": "v01-la-propina",
+   "unit": 1,
+   "topic": "costumbres sociales",
+   "es": "la propina",
+   "en": "the tip",
+   "example_es": "No es obligatorio dejar propina.",
+   "example_en": "Leaving a tip isn't compulsory.",
+   "gender": "f"
+  },
+  {
+   "id": "v01-la-sobremesa",
+   "unit": 1,
+   "topic": "costumbres sociales",
+   "es": "la sobremesa",
+   "en": "the after-lunch chat at the table",
+   "example_es": "Las sobremesas de los domingos duran horas.",
+   "example_en": "Sunday after-lunch chats last for hours.",
+   "gender": "f"
+  },
+  {
+   "id": "v01-puntual",
+   "unit": 1,
+   "topic": "costumbres sociales",
+   "es": "puntual",
+   "en": "punctual, on time",
+   "example_es": "En mi país la gente es muy puntual.",
+   "example_en": "In my country people are very punctual."
+  },
+  {
+   "id": "v01-la-cola",
+   "unit": 1,
+   "topic": "costumbres sociales",
+   "es": "la cola",
+   "en": "the queue",
+   "example_es": "Hay una cola enorme en la panadería.",
+   "example_en": "There's a huge queue at the bakery.",
+   "gender": "f",
+   "collocation": "hacer cola"
+  },
+  {
+   "id": "v01-colarse",
+   "unit": 1,
+   "topic": "costumbres sociales",
+   "es": "colarse",
+   "en": "to jump the queue",
+   "example_es": "Un señor se ha colado en la cola del cine.",
+   "example_en": "A man jumped the queue at the cinema."
+  },
+  {
+   "id": "v01-tutear",
+   "unit": 1,
+   "topic": "costumbres sociales",
+   "es": "tutear",
+   "en": "to use «tú» with someone",
+   "example_es": "En el trabajo todo el mundo se tutea.",
+   "example_en": "At work everyone uses «tú»."
+  },
+  {
+   "id": "v01-tratar-de-usted",
+   "unit": 1,
+   "topic": "costumbres sociales",
+   "es": "tratar de usted",
+   "en": "to address someone formally",
+   "example_es": "A los clientes los tratamos de usted.",
+   "example_en": "We address customers formally."
+  },
+  {
+   "id": "v01-el-horario",
+   "unit": 1,
+   "topic": "costumbres sociales",
+   "es": "el horario",
+   "en": "the timetable, schedule",
+   "example_es": "Los horarios españoles sorprenden a los extranjeros.",
+   "example_en": "Spanish schedules surprise foreigners.",
+   "gender": "m"
+  },
+  {
+   "id": "v01-la-siesta",
+   "unit": 1,
+   "topic": "costumbres sociales",
+   "es": "la siesta",
+   "en": "the siesta, nap",
+   "example_es": "En verano duermo la siesta después de comer.",
+   "example_en": "In summer I have a nap after lunch.",
+   "gender": "f",
+   "collocation": "dormir la siesta"
+  },
+  {
+   "id": "v01-el-regalo",
+   "unit": 1,
+   "topic": "costumbres sociales",
+   "es": "el regalo",
+   "en": "the present, gift",
+   "example_es": "Llevé un regalo a la cena.",
+   "example_en": "I took a present to the dinner.",
+   "gender": "m"
+  },
+  {
+   "id": "v01-quitarse-los-zapatos",
+   "unit": 1,
+   "topic": "costumbres sociales",
+   "es": "quitarse los zapatos",
+   "en": "to take one's shoes off",
+   "example_es": "En muchas casas hay que quitarse los zapatos al entrar.",
+   "example_en": "In many homes you have to take your shoes off when you go in."
+  },
+  {
+   "id": "v01-prohibir",
+   "unit": 1,
+   "topic": "normas",
+   "es": "prohibir",
+   "en": "to forbid, ban",
+   "example_es": "Han prohibido fumar en las terrazas.",
+   "example_en": "They've banned smoking on terraces."
+  },
+  {
+   "id": "v01-permitir",
+   "unit": 1,
+   "topic": "normas",
+   "es": "permitir",
+   "en": "to allow",
+   "example_es": "Mis padres no me permitían llegar tarde.",
+   "example_en": "My parents didn't allow me to get home late."
+  },
+  {
+   "id": "v01-obligar-a",
+   "unit": 1,
+   "topic": "normas",
+   "es": "obligar a",
+   "en": "to force to, make",
+   "example_es": "Nadie te obliga a venir.",
+   "example_en": "Nobody's making you come."
+  },
+  {
+   "id": "v01-la-norma",
+   "unit": 1,
+   "topic": "normas",
+   "es": "la norma",
+   "en": "the rule",
+   "example_es": "En esta casa hay normas para todo.",
+   "example_en": "In this house there are rules for everything.",
+   "gender": "f"
+  },
+  {
+   "id": "v01-respetar",
+   "unit": 1,
+   "topic": "normas",
+   "es": "respetar",
+   "en": "to respect",
+   "example_es": "Hay que respetar el silencio en la biblioteca.",
+   "example_en": "You must respect the silence in the library."
+  },
+  {
+   "id": "v01-el-respeto",
+   "unit": 1,
+   "topic": "normas",
+   "es": "el respeto",
+   "en": "the respect",
+   "example_es": "Quitarse el sombrero es una señal de respeto.",
+   "example_en": "Taking your hat off is a sign of respect.",
+   "gender": "m"
+  },
+  {
+   "id": "v01-la-multa",
+   "unit": 1,
+   "topic": "normas",
+   "es": "la multa",
+   "en": "the fine",
+   "example_es": "Me pusieron una multa por aparcar mal.",
+   "example_en": "I got a fine for parking badly.",
+   "gender": "f",
+   "collocation": "poner una multa"
+  },
+  {
+   "id": "v01-el-horario-laboral",
+   "unit": 1,
+   "topic": "trabajo",
+   "es": "el horario laboral",
+   "en": "the working hours",
+   "example_es": "Mi horario laboral es de nueve a cinco.",
+   "example_en": "My working hours are nine to five.",
+   "gender": "m"
+  },
+  {
+   "id": "v01-el-teletrabajo",
+   "unit": 1,
+   "topic": "trabajo",
+   "es": "el teletrabajo",
+   "en": "the remote working",
+   "example_es": "Hago teletrabajo dos días a la semana.",
+   "example_en": "I work from home two days a week.",
+   "gender": "m"
+  },
+  {
+   "id": "v01-el-la-companero-a",
+   "unit": 1,
+   "topic": "trabajo",
+   "es": "el / la compañero/a",
+   "en": "the colleague",
+   "example_es": "Mis compañeros son muy simpáticos.",
+   "example_en": "My colleagues are very nice."
+  },
+  {
+   "id": "v01-la-reunion",
+   "unit": 1,
+   "topic": "trabajo",
+   "es": "la reunión",
+   "en": "the meeting",
+   "example_es": "Tengo una reunión a las diez.",
+   "example_en": "I have a meeting at ten.",
+   "gender": "f"
+  },
+  {
+   "id": "v01-el-uniforme",
+   "unit": 1,
+   "topic": "trabajo",
+   "es": "el uniforme",
+   "en": "the uniform",
+   "example_es": "En el hotel hay que llevar uniforme.",
+   "example_en": "In the hotel you have to wear a uniform.",
+   "gender": "m"
+  },
+  {
+   "id": "v01-el-sindicato",
+   "unit": 1,
+   "topic": "trabajo",
+   "es": "el sindicato",
+   "en": "the trade union",
+   "example_es": "El sindicato ha convocado una huelga.",
+   "example_en": "The union has called a strike.",
+   "gender": "m"
+  },
+  {
+   "id": "v01-la-huelga",
+   "unit": 1,
+   "topic": "trabajo",
+   "es": "la huelga",
+   "en": "the strike",
+   "example_es": "Hoy hay huelga de metro.",
+   "example_en": "There's a metro strike today.",
+   "gender": "f",
+   "collocation": "hacer huelga"
+  },
+  {
+   "id": "v01-dejar-infinitivo",
+   "unit": 1,
+   "topic": "verbo dejar",
+   "es": "dejar + infinitivo",
+   "en": "to let (someone) do",
+   "example_es": "Mi jefe me deja salir antes los viernes.",
+   "example_en": "My boss lets me leave early on Fridays."
+  },
+  {
+   "id": "v01-dejar-algo-en-un-sitio",
+   "unit": 1,
+   "topic": "verbo dejar",
+   "es": "dejar (algo en un sitio)",
+   "en": "to leave (something somewhere)",
+   "example_es": "He dejado las llaves en la mesa.",
+   "example_en": "I've left the keys on the table."
+  },
+  {
+   "id": "v01-dejar-plantado",
+   "unit": 1,
+   "topic": "verbo dejar",
+   "es": "dejar plantado",
+   "en": "to stand someone up",
+   "example_es": "Me dejó plantado en el restaurante.",
+   "example_en": "He stood me up at the restaurant."
   }
  ]
 }

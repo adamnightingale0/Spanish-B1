@@ -297,6 +297,293 @@
    "en": "probably, most likely",
    "example_es": "Seguramente lloverá el fin de semana.",
    "example_en": "It'll most likely rain at the weekend."
+  },
+  {
+   "id": "v03-el-reto",
+   "unit": 3,
+   "topic": "retos del futuro",
+   "es": "el reto",
+   "en": "the challenge",
+   "example_es": "El cambio climático es el gran reto de este siglo.",
+   "example_en": "Climate change is this century's great challenge.",
+   "gender": "m"
+  },
+  {
+   "id": "v03-el-medioambiente",
+   "unit": 3,
+   "topic": "retos del futuro",
+   "es": "el medioambiente",
+   "en": "the environment",
+   "example_es": "Debemos cuidar el medioambiente.",
+   "example_en": "We must look after the environment.",
+   "gender": "m"
+  },
+  {
+   "id": "v03-las-energias-renovables",
+   "unit": 3,
+   "topic": "retos del futuro",
+   "es": "las energías renovables",
+   "en": "the renewable energy",
+   "example_es": "España produce mucha energía renovable.",
+   "example_en": "Spain produces a lot of renewable energy.",
+   "gender": "f"
+  },
+  {
+   "id": "v03-el-combustible-fosil",
+   "unit": 3,
+   "topic": "retos del futuro",
+   "es": "el combustible fósil",
+   "en": "the fossil fuel",
+   "example_es": "Hay que dejar los combustibles fósiles.",
+   "example_en": "We have to stop using fossil fuels.",
+   "gender": "m"
+  },
+  {
+   "id": "v03-la-sequia",
+   "unit": 3,
+   "topic": "retos del futuro",
+   "es": "la sequía",
+   "en": "the drought",
+   "example_es": "La sequía afecta a la agricultura.",
+   "example_en": "The drought affects farming.",
+   "gender": "f"
+  },
+  {
+   "id": "v03-la-escasez",
+   "unit": 3,
+   "topic": "retos del futuro",
+   "es": "la escasez",
+   "en": "the shortage",
+   "example_es": "Habrá escasez de agua en el sur.",
+   "example_en": "There will be water shortages in the south.",
+   "gender": "f"
+  },
+  {
+   "id": "v03-la-superpoblacion",
+   "unit": 3,
+   "topic": "retos del futuro",
+   "es": "la superpoblación",
+   "en": "the overpopulation",
+   "example_es": "La superpoblación es un problema en algunas ciudades.",
+   "example_en": "Overpopulation is a problem in some cities.",
+   "gender": "f"
+  },
+  {
+   "id": "v03-la-vacuna",
+   "unit": 3,
+   "topic": "tecnología y ciencia",
+   "es": "la vacuna",
+   "en": "the vaccine",
+   "example_es": "Han descubierto una vacuna nueva.",
+   "example_en": "They've discovered a new vaccine.",
+   "gender": "f"
+  },
+  {
+   "id": "v03-el-avance",
+   "unit": 3,
+   "topic": "tecnología y ciencia",
+   "es": "el avance",
+   "en": "the advance, breakthrough",
+   "example_es": "Es un gran avance para la medicina.",
+   "example_en": "It's a great breakthrough for medicine.",
+   "gender": "m"
+  },
+  {
+   "id": "v03-el-invento",
+   "unit": 3,
+   "topic": "tecnología y ciencia",
+   "es": "el invento",
+   "en": "the invention",
+   "example_es": "El móvil es el invento más importante de mi vida.",
+   "example_en": "The mobile phone is the most important invention of my life.",
+   "gender": "m"
+  },
+  {
+   "id": "v03-el-la-cientifico-a",
+   "unit": 3,
+   "topic": "tecnología y ciencia",
+   "es": "el / la científico/a",
+   "en": "the scientist",
+   "example_es": "Los científicos alertan sobre el calor.",
+   "example_en": "Scientists are warning about the heat."
+  },
+  {
+   "id": "v03-investigar",
+   "unit": 3,
+   "topic": "tecnología y ciencia",
+   "es": "investigar",
+   "en": "to research, investigate",
+   "example_es": "Investiga nuevos tratamientos contra el cáncer.",
+   "example_en": "She researches new cancer treatments."
+  },
+  {
+   "id": "v03-la-aplicacion",
+   "unit": 3,
+   "topic": "tecnología y ciencia",
+   "es": "la aplicación",
+   "en": "the app",
+   "example_es": "Uso una aplicación para aprender idiomas.",
+   "example_en": "I use an app to learn languages.",
+   "gender": "f"
+  },
+  {
+   "id": "v03-el-algoritmo",
+   "unit": 3,
+   "topic": "tecnología y ciencia",
+   "es": "el algoritmo",
+   "en": "the algorithm",
+   "example_es": "Un algoritmo decide qué vídeos ves.",
+   "example_en": "An algorithm decides which videos you see.",
+   "gender": "m"
+  },
+  {
+   "id": "v03-los-datos",
+   "unit": 3,
+   "topic": "tecnología y ciencia",
+   "es": "los datos",
+   "en": "the data",
+   "example_es": "Las empresas guardan nuestros datos.",
+   "example_en": "Companies store our data.",
+   "gender": "m"
+  },
+  {
+   "id": "v03-conectado-a",
+   "unit": 3,
+   "topic": "tecnología y ciencia",
+   "es": "conectado/a",
+   "en": "connected",
+   "example_es": "Pasamos todo el día conectados.",
+   "example_en": "We're online all day long."
+  },
+  {
+   "id": "v03-la-nave-espacial",
+   "unit": 3,
+   "topic": "ciencia ficción",
+   "es": "la nave espacial",
+   "en": "the spaceship",
+   "example_es": "La nave espacial llegó a Marte.",
+   "example_en": "The spaceship reached Mars.",
+   "gender": "f"
+  },
+  {
+   "id": "v03-el-la-extraterrestre",
+   "unit": 3,
+   "topic": "ciencia ficción",
+   "es": "el / la extraterrestre",
+   "en": "the alien",
+   "example_es": "En la película, los extraterrestres son amables.",
+   "example_en": "In the film the aliens are friendly."
+  },
+  {
+   "id": "v03-el-planeta",
+   "unit": 3,
+   "topic": "ciencia ficción",
+   "es": "el planeta",
+   "en": "the planet",
+   "example_es": "Buscan planetas parecidos a la Tierra.",
+   "example_en": "They're looking for planets like Earth.",
+   "gender": "m"
+  },
+  {
+   "id": "v03-predecir",
+   "unit": 3,
+   "topic": "futuro",
+   "es": "predecir",
+   "en": "to predict",
+   "example_es": "Nadie puede predecir el futuro.",
+   "example_en": "Nobody can predict the future."
+  },
+  {
+   "id": "v03-la-prediccion",
+   "unit": 3,
+   "topic": "futuro",
+   "es": "la predicción",
+   "en": "the prediction",
+   "example_es": "Sus predicciones no se cumplieron.",
+   "example_en": "His predictions didn't come true.",
+   "gender": "f"
+  },
+  {
+   "id": "v03-cumplirse",
+   "unit": 3,
+   "topic": "futuro",
+   "es": "cumplirse",
+   "en": "to come true",
+   "example_es": "Ojalá se cumplan tus sueños.",
+   "example_en": "I hope your dreams come true."
+  },
+  {
+   "id": "v03-dentro-de-poco",
+   "unit": 3,
+   "topic": "marcadores temporales",
+   "es": "dentro de poco",
+   "en": "soon, before long",
+   "example_es": "Dentro de poco tendremos coches voladores.",
+   "example_en": "Before long we'll have flying cars."
+  },
+  {
+   "id": "v03-a-largo-plazo",
+   "unit": 3,
+   "topic": "marcadores temporales",
+   "es": "a largo plazo",
+   "en": "in the long term",
+   "example_es": "A largo plazo, es una buena inversión.",
+   "example_en": "In the long term, it's a good investment."
+  },
+  {
+   "id": "v03-de-aqui-a",
+   "unit": 3,
+   "topic": "marcadores temporales",
+   "es": "de aquí a",
+   "en": "between now and",
+   "example_es": "De aquí a 2030 cambiarán muchas cosas.",
+   "example_en": "Between now and 2030 a lot will change."
+  },
+  {
+   "id": "v03-probablemente",
+   "unit": 3,
+   "topic": "hipótesis",
+   "es": "probablemente",
+   "en": "probably",
+   "example_es": "Probablemente lloverá mañana.",
+   "example_en": "It will probably rain tomorrow."
+  },
+  {
+   "id": "v03-seguro-que",
+   "unit": 3,
+   "topic": "hipótesis",
+   "es": "seguro que",
+   "en": "surely, I bet",
+   "example_es": "Seguro que apruebas.",
+   "example_en": "I bet you'll pass."
+  },
+  {
+   "id": "v03-supongo-que",
+   "unit": 3,
+   "topic": "hipótesis",
+   "es": "supongo que",
+   "en": "I suppose that",
+   "example_es": "Supongo que vendrá más tarde.",
+   "example_en": "I suppose he'll come later."
+  },
+  {
+   "id": "v03-advertir",
+   "unit": 3,
+   "topic": "futuro",
+   "es": "advertir",
+   "en": "to warn",
+   "example_es": "Los expertos advierten del peligro.",
+   "example_en": "Experts warn about the danger."
+  },
+  {
+   "id": "v03-la-advertencia",
+   "unit": 3,
+   "topic": "futuro",
+   "es": "la advertencia",
+   "en": "the warning",
+   "example_es": "El cartel tiene una advertencia en rojo.",
+   "example_en": "The poster has a warning in red.",
+   "gender": "f"
   }
  ]
 }

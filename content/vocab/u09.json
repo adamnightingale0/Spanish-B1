@@ -294,6 +294,281 @@
    "en": "to be passionate about",
    "example_es": "Le apasiona la fotografía.",
    "example_en": "She's passionate about photography."
+  },
+  {
+   "id": "v09-enfadarse",
+   "unit": 9,
+   "topic": "emociones",
+   "es": "enfadarse",
+   "en": "to get angry",
+   "example_es": "Se enfada si llegas tarde.",
+   "example_en": "He gets angry if you're late.",
+   "collocation": "enfadarse con alguien"
+  },
+  {
+   "id": "v09-ponerse-de-mal-humor",
+   "unit": 9,
+   "topic": "emociones",
+   "es": "ponerse de mal humor",
+   "en": "to get in a bad mood",
+   "example_es": "El tráfico me pone de mal humor.",
+   "example_en": "Traffic puts me in a bad mood."
+  },
+  {
+   "id": "v09-estar-de-buen-humor",
+   "unit": 9,
+   "topic": "emociones",
+   "es": "estar de buen humor",
+   "en": "to be in a good mood",
+   "example_es": "Hoy estás de muy buen humor.",
+   "example_en": "You're in a very good mood today."
+  },
+  {
+   "id": "v09-alegrarse-de",
+   "unit": 9,
+   "topic": "emociones",
+   "es": "alegrarse de",
+   "en": "to be glad about",
+   "example_es": "Me alegro de verte.",
+   "example_en": "I'm glad to see you."
+  },
+  {
+   "id": "v09-echar-de-menos",
+   "unit": 9,
+   "topic": "emociones",
+   "es": "echar de menos",
+   "en": "to miss (someone)",
+   "example_es": "Echo de menos a mi familia.",
+   "example_en": "I miss my family."
+  },
+  {
+   "id": "v09-preocuparse-por",
+   "unit": 9,
+   "topic": "emociones",
+   "es": "preocuparse por",
+   "en": "to worry about",
+   "example_es": "No te preocupes por mí.",
+   "example_en": "Don't worry about me."
+  },
+  {
+   "id": "v09-tener-miedo-a-de",
+   "unit": 9,
+   "topic": "emociones",
+   "es": "tener miedo a / de",
+   "en": "to be afraid of",
+   "example_es": "Tengo miedo a las arañas.",
+   "example_en": "I'm afraid of spiders."
+  },
+  {
+   "id": "v09-sentir-verguenza",
+   "unit": 9,
+   "topic": "emociones",
+   "es": "sentir vergüenza",
+   "en": "to feel embarrassed",
+   "example_es": "Sentí mucha vergüenza cuando me caí.",
+   "example_en": "I felt very embarrassed when I fell."
+  },
+  {
+   "id": "v09-estar-celoso-a",
+   "unit": 9,
+   "topic": "emociones",
+   "es": "estar celoso/a",
+   "en": "to be jealous",
+   "example_es": "Está celoso de su hermano.",
+   "example_en": "He's jealous of his brother."
+  },
+  {
+   "id": "v09-el-orgullo",
+   "unit": 9,
+   "topic": "emociones",
+   "es": "el orgullo",
+   "en": "the pride",
+   "example_es": "Mis padres hablan de mí con orgullo.",
+   "example_en": "My parents talk about me with pride.",
+   "gender": "m"
+  },
+  {
+   "id": "v09-estar-orgulloso-a-de",
+   "unit": 9,
+   "topic": "emociones",
+   "es": "estar orgulloso/a de",
+   "en": "to be proud of",
+   "example_es": "Estoy muy orgullosa de ti.",
+   "example_en": "I'm very proud of you."
+  },
+  {
+   "id": "v09-ilusionarse",
+   "unit": 9,
+   "topic": "emociones",
+   "es": "ilusionarse",
+   "en": "to get excited, get one's hopes up",
+   "example_es": "Me ilusioné mucho con el viaje.",
+   "example_en": "I got very excited about the trip."
+  },
+  {
+   "id": "v09-decepcionar",
+   "unit": 9,
+   "topic": "emociones",
+   "es": "decepcionar",
+   "en": "to disappoint",
+   "example_es": "La película me decepcionó.",
+   "example_en": "The film disappointed me."
+  },
+  {
+   "id": "v09-agobiarse",
+   "unit": 9,
+   "topic": "emociones",
+   "es": "agobiarse",
+   "en": "to get stressed, overwhelmed",
+   "example_es": "Me agobio cuando tengo muchos exámenes.",
+   "example_en": "I get overwhelmed when I have lots of exams."
+  },
+  {
+   "id": "v09-relajarse",
+   "unit": 9,
+   "topic": "emociones",
+   "es": "relajarse",
+   "en": "to relax",
+   "example_es": "Me relajo leyendo.",
+   "example_en": "I relax by reading."
+  },
+  {
+   "id": "v09-la-convivencia",
+   "unit": 9,
+   "topic": "relaciones",
+   "es": "la convivencia",
+   "en": "the living together",
+   "example_es": "La convivencia con amigos no siempre es fácil.",
+   "example_en": "Living with friends isn't always easy.",
+   "gender": "f"
+  },
+  {
+   "id": "v09-compartir-piso",
+   "unit": 9,
+   "topic": "relaciones",
+   "es": "compartir piso",
+   "en": "to share a flat",
+   "example_es": "Comparto piso con dos chicas italianas.",
+   "example_en": "I share a flat with two Italian girls."
+  },
+  {
+   "id": "v09-el-companero-de-piso",
+   "unit": 9,
+   "topic": "relaciones",
+   "es": "el compañero de piso",
+   "en": "the flatmate",
+   "example_es": "Mi compañero de piso cocina muy bien.",
+   "example_en": "My flatmate cooks very well.",
+   "gender": "m"
+  },
+  {
+   "id": "v09-la-discusion",
+   "unit": 9,
+   "topic": "relaciones",
+   "es": "la discusión",
+   "en": "the argument",
+   "example_es": "Tuvimos una discusión por el dinero.",
+   "example_en": "We had an argument about money.",
+   "gender": "f"
+  },
+  {
+   "id": "v09-pedir-perdon",
+   "unit": 9,
+   "topic": "relaciones",
+   "es": "pedir perdón",
+   "en": "to say sorry",
+   "example_es": "Le pedí perdón y nos reconciliamos.",
+   "example_en": "I said sorry and we made up."
+  },
+  {
+   "id": "v09-perdonar",
+   "unit": 9,
+   "topic": "relaciones",
+   "es": "perdonar",
+   "en": "to forgive",
+   "example_es": "Te perdono, pero que no se repita.",
+   "example_en": "I forgive you, but don't let it happen again."
+  },
+  {
+   "id": "v09-romper-con",
+   "unit": 9,
+   "topic": "relaciones",
+   "es": "romper con",
+   "en": "to break up with",
+   "example_es": "Rompió con su novio el mes pasado.",
+   "example_en": "She broke up with her boyfriend last month."
+  },
+  {
+   "id": "v09-enamorarse-de",
+   "unit": 9,
+   "topic": "relaciones",
+   "es": "enamorarse de",
+   "en": "to fall in love with",
+   "example_es": "Se enamoró de una chica de Cádiz.",
+   "example_en": "He fell in love with a girl from Cádiz."
+  },
+  {
+   "id": "v09-tener-mania-a",
+   "unit": 9,
+   "topic": "manías",
+   "es": "tener manía a",
+   "en": "to dislike, have it in for",
+   "example_es": "Creo que el profesor me tiene manía.",
+   "example_en": "I think the teacher has it in for me."
+  },
+  {
+   "id": "v09-ser-un-a-maniatico-a",
+   "unit": 9,
+   "topic": "manías",
+   "es": "ser un/a maniático/a",
+   "en": "to be fussy, obsessive",
+   "example_es": "Es un maniático del orden.",
+   "example_en": "He's obsessive about tidiness."
+  },
+  {
+   "id": "v09-ponerse-nervioso-a",
+   "unit": 9,
+   "topic": "manías",
+   "es": "ponerse nervioso/a",
+   "en": "to get nervous",
+   "example_es": "Me pongo nervioso si alguien mira mi móvil.",
+   "example_en": "I get nervous if someone looks at my phone."
+  },
+  {
+   "id": "v09-fastidiar",
+   "unit": 9,
+   "topic": "manías",
+   "es": "fastidiar",
+   "en": "to annoy",
+   "example_es": "Me fastidia que me interrumpan.",
+   "example_en": "It annoys me when people interrupt me."
+  },
+  {
+   "id": "v09-tener-razon",
+   "unit": 9,
+   "topic": "desacuerdo",
+   "es": "tener razón",
+   "en": "to be right",
+   "example_es": "Tienes razón, lo siento.",
+   "example_en": "You're right, I'm sorry."
+  },
+  {
+   "id": "v09-estar-de-acuerdo-con",
+   "unit": 9,
+   "topic": "desacuerdo",
+   "es": "estar de acuerdo con",
+   "en": "to agree with",
+   "example_es": "Estoy de acuerdo contigo.",
+   "example_en": "I agree with you."
+  },
+  {
+   "id": "v09-ni-hablar",
+   "unit": 9,
+   "topic": "desacuerdo",
+   "es": "¡Ni hablar!",
+   "en": "No way!",
+   "example_es": "—¿Me dejas tu coche? —¡Ni hablar!",
+   "example_en": "—Will you lend me your car? —No way!"
   }
  ]
 }

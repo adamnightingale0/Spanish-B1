@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'preact/hooks';
 import type { DrillItem, WhyId, ClozeItem } from '../lib/schema';
+import { inErrorSpan, errorSpanText } from '../lib/schema';
 import { tagError } from '../lib/errors';
 import { shuffle, type SessionSpec } from '../lib/session';
 import { VocabReview } from './Vocab';
@@ -94,10 +95,10 @@ export function Drill({ spec }: { spec: SessionSpec }) {
       const tapped = picked ?? -1;
       const correction = given[0] ?? '';
       const res: CheckResult =
-        tapped === item.errorIndex
+        inErrorSpan(item, tapped)
           ? checkAnswer(correction, item.answers, settings.accent)
           : { correct: false, accentOnly: false, expected: item.answers[0] };
-      return [{ n: 0, given: tapped >= 0 ? `${tokens[tapped]} → ${correction}` : correction, res, answers: item.answers, feedback: item.feedback }];
+      return [{ n: 0, given: tapped >= 0 ? `${inErrorSpan(item, tapped) ? errorSpanText(item) : tokens[tapped]} → ${correction}` : correction, res, answers: item.answers, feedback: item.feedback }];
     }
     if (item.type === 'order') {
       const sentence = orderSel.map((i) => orderTokens[i]).join(' ');
@@ -164,7 +165,7 @@ export function Drill({ spec }: { spec: SessionSpec }) {
       if (!g.res.correct) {
         const given = item.type === 'error' ? (inputs[0] ?? '') : g.given;
         a.errorTag =
-          item.type === 'error' && picked !== item.errorIndex
+          item.type === 'error' && (picked === null || !inErrorSpan(item, picked))
             ? 'no encontró el error'
             : item.type === 'order'
               ? 'orden de palabras'
@@ -572,7 +573,7 @@ function Feedback({ item, results }: { item: DrillItem; results: GapResult[] }) 
         {ok && g.res.accentOnly && <p class="warn-line">Ojo con la tilde: {g.res.expected}</p>}
         {item.type === 'error' ? (
           <p>
-            Error: <s>{tokens[item.errorIndex]}</s> → <b>{item.answers[0]}</b>
+            Error: <s>{errorSpanText(item)}</s> → <b>{item.answers[0]}</b>
             {!ok && g.given && <span class="muted"> (tú: {g.given})</span>}
           </p>
         ) : (
@@ -731,8 +732,9 @@ function ErrorTask({ item, picked, setPicked, locked }: { item: Extract<DrillIte
       <div class="instruction">Toca la palabra incorrecta y escribe la corrección:</div>
       <div class="token-row">
         {tokens.map((t, i) => {
-          let cls = picked === i ? 'sel' : '';
-          if (locked) cls = i === item.errorIndex ? 'wrong' : picked === i ? 'sel' : '';
+          const span = picked !== null && inErrorSpan(item, picked) && inErrorSpan(item, i);
+          let cls = picked === i || span ? 'sel' : '';
+          if (locked) cls = inErrorSpan(item, i) ? 'wrong' : picked === i ? 'sel' : '';
           return (
             <button type="button" class={`token ${cls}`} disabled={locked} onClick={() => setPicked(i)}>
               {t}

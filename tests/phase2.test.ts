@@ -79,7 +79,7 @@ describe('error tagging', () => {
 
 describe('new drill types', () => {
   it('error items point at a real token', () => {
-    for (const i of allItems) if (i.type === 'error') expect(i.prompt.split(' ')[i.errorIndex]).toBeTruthy();
+    for (const i of allItems) if (i.type === 'error') expect(i.prompt.split(' ')[i.errorIndex + (i.errorLength ?? 1) - 1]).toBeTruthy();
   });
   it('every unit has error, order or match items', () => {
     const units = new Set(allItems.filter((i) => ['error', 'order', 'match'].includes(i.type)).map((i) => i.unit));

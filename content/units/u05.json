@@ -375,6 +375,859 @@
    ],
    "feedback": "Negative commands use the subjunctive: no dejéis.",
    "contrast": "Dejad la compra preparada."
+  },
+  {
+   "id": "u05-g-001",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-afirmativo",
+   "difficulty": 2,
+   "verb": "pensar",
+   "person": "tú",
+   "tense": "imperativo afirmativo",
+   "answers": [
+    "piensa"
+   ],
+   "feedback": "pensar: piensa (tú), pensad (vosotros), piense (usted), piensen (ustedes).",
+   "contrast": "Negativo: no pienses"
+  },
+  {
+   "id": "u05-g-002",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-afirmativo",
+   "difficulty": 2,
+   "verb": "volver",
+   "person": "vosotros",
+   "tense": "imperativo afirmativo",
+   "answers": [
+    "volved"
+   ],
+   "feedback": "volver: vuelve (tú), volved (vosotros), vuelva (usted), vuelvan (ustedes).",
+   "contrast": "Negativo: no volváis"
+  },
+  {
+   "id": "u05-g-003",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-afirmativo",
+   "difficulty": 2,
+   "verb": "poner",
+   "person": "usted",
+   "tense": "imperativo afirmativo",
+   "answers": [
+    "ponga"
+   ],
+   "feedback": "poner: pon (tú), poned (vosotros), ponga (usted), pongan (ustedes).",
+   "contrast": "Negativo: no ponga"
+  },
+  {
+   "id": "u05-g-004",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-afirmativo",
+   "difficulty": 2,
+   "verb": "salir",
+   "person": "ustedes",
+   "tense": "imperativo afirmativo",
+   "answers": [
+    "salgan"
+   ],
+   "feedback": "salir: sal (tú), salid (vosotros), salga (usted), salgan (ustedes).",
+   "contrast": "Negativo: no salgan"
+  },
+  {
+   "id": "u05-g-005",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-afirmativo",
+   "difficulty": 2,
+   "verb": "hacer",
+   "person": "tú",
+   "tense": "imperativo afirmativo",
+   "answers": [
+    "haz"
+   ],
+   "feedback": "hacer: haz (tú), haced (vosotros), haga (usted), hagan (ustedes).",
+   "contrast": "Negativo: no hagas"
+  },
+  {
+   "id": "u05-g-006",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-afirmativo",
+   "difficulty": 2,
+   "verb": "ir",
+   "person": "vosotros",
+   "tense": "imperativo afirmativo",
+   "answers": [
+    "id"
+   ],
+   "feedback": "ir: ve (tú), id (vosotros), vaya (usted), vayan (ustedes).",
+   "contrast": "Negativo: no vayáis"
+  },
+  {
+   "id": "u05-g-007",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-afirmativo",
+   "difficulty": 2,
+   "verb": "ser",
+   "person": "usted",
+   "tense": "imperativo afirmativo",
+   "answers": [
+    "sea"
+   ],
+   "feedback": "ser: sé (tú), sed (vosotros), sea (usted), sean (ustedes).",
+   "contrast": "Negativo: no sea"
+  },
+  {
+   "id": "u05-g-008",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-afirmativo",
+   "difficulty": 2,
+   "verb": "tener",
+   "person": "ustedes",
+   "tense": "imperativo afirmativo",
+   "answers": [
+    "tengan"
+   ],
+   "feedback": "tener: ten (tú), tened (vosotros), tenga (usted), tengan (ustedes).",
+   "contrast": "Negativo: no tengan"
+  },
+  {
+   "id": "u05-g-009",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-afirmativo",
+   "difficulty": 2,
+   "verb": "elegir",
+   "person": "tú",
+   "tense": "imperativo afirmativo",
+   "answers": [
+    "elige"
+   ],
+   "feedback": "elegir: elige (tú), elegid (vosotros), elija (usted), elijan (ustedes).",
+   "contrast": "Negativo: no elijas"
+  },
+  {
+   "id": "u05-g-010",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-afirmativo",
+   "difficulty": 2,
+   "verb": "seguir",
+   "person": "vosotros",
+   "tense": "imperativo afirmativo",
+   "answers": [
+    "seguid"
+   ],
+   "feedback": "seguir: sigue (tú), seguid (vosotros), siga (usted), sigan (ustedes).",
+   "contrast": "Negativo: no sigáis"
+  },
+  {
+   "id": "u05-g-011",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-afirmativo",
+   "difficulty": 2,
+   "verb": "cerrar",
+   "person": "usted",
+   "tense": "imperativo afirmativo",
+   "answers": [
+    "cierre"
+   ],
+   "feedback": "cerrar: cierra (tú), cerrad (vosotros), cierre (usted), cierren (ustedes).",
+   "contrast": "Negativo: no cierre"
+  },
+  {
+   "id": "u05-g-012",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-afirmativo",
+   "difficulty": 2,
+   "verb": "traer",
+   "person": "ustedes",
+   "tense": "imperativo afirmativo",
+   "answers": [
+    "traigan"
+   ],
+   "feedback": "traer: trae (tú), traed (vosotros), traiga (usted), traigan (ustedes).",
+   "contrast": "Negativo: no traigan"
+  },
+  {
+   "id": "u05-g-013",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-afirmativo",
+   "difficulty": 2,
+   "verb": "empezar",
+   "person": "tú",
+   "tense": "imperativo afirmativo",
+   "answers": [
+    "empieza"
+   ],
+   "feedback": "empezar: empieza (tú), empezad (vosotros), empiece (usted), empiecen (ustedes).",
+   "contrast": "Negativo: no empieces"
+  },
+  {
+   "id": "u05-g-014",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-afirmativo",
+   "difficulty": 2,
+   "verb": "probar",
+   "person": "vosotros",
+   "tense": "imperativo afirmativo",
+   "answers": [
+    "probad"
+   ],
+   "feedback": "probar: prueba (tú), probad (vosotros), pruebe (usted), prueben (ustedes).",
+   "contrast": "Negativo: no probéis"
+  },
+  {
+   "id": "u05-g-015",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-negativo",
+   "difficulty": 1,
+   "verb": "hablar",
+   "person": "vosotros",
+   "tense": "imperativo negativo",
+   "answers": [
+    "no habléis"
+   ],
+   "feedback": "no + presente de subjuntivo: no hables, no habléis, no hable, no hablen.",
+   "contrast": "Afirmativo: hablad"
+  },
+  {
+   "id": "u05-g-016",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-negativo",
+   "difficulty": 1,
+   "verb": "comer",
+   "person": "usted",
+   "tense": "imperativo negativo",
+   "answers": [
+    "no coma"
+   ],
+   "feedback": "no + presente de subjuntivo: no comas, no comáis, no coma, no coman.",
+   "contrast": "Afirmativo: coma"
+  },
+  {
+   "id": "u05-g-017",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-negativo",
+   "difficulty": 1,
+   "verb": "abrir",
+   "person": "ustedes",
+   "tense": "imperativo negativo",
+   "answers": [
+    "no abran"
+   ],
+   "feedback": "no + presente de subjuntivo: no abras, no abráis, no abra, no abran.",
+   "contrast": "Afirmativo: abran"
+  },
+  {
+   "id": "u05-g-018",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-negativo",
+   "difficulty": 2,
+   "verb": "hacer",
+   "person": "tú",
+   "tense": "imperativo negativo",
+   "answers": [
+    "no hagas"
+   ],
+   "feedback": "no + presente de subjuntivo: no hagas, no hagáis, no haga, no hagan.",
+   "contrast": "Afirmativo: haz"
+  },
+  {
+   "id": "u05-g-019",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-negativo",
+   "difficulty": 2,
+   "verb": "decir",
+   "person": "vosotros",
+   "tense": "imperativo negativo",
+   "answers": [
+    "no digáis"
+   ],
+   "feedback": "no + presente de subjuntivo: no digas, no digáis, no diga, no digan.",
+   "contrast": "Afirmativo: decid"
+  },
+  {
+   "id": "u05-g-020",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-negativo",
+   "difficulty": 2,
+   "verb": "ir",
+   "person": "usted",
+   "tense": "imperativo negativo",
+   "answers": [
+    "no vaya"
+   ],
+   "feedback": "no + presente de subjuntivo: no vayas, no vayáis, no vaya, no vayan.",
+   "contrast": "Afirmativo: vaya"
+  },
+  {
+   "id": "u05-g-021",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-negativo",
+   "difficulty": 2,
+   "verb": "ser",
+   "person": "ustedes",
+   "tense": "imperativo negativo",
+   "answers": [
+    "no sean"
+   ],
+   "feedback": "no + presente de subjuntivo: no seas, no seáis, no sea, no sean.",
+   "contrast": "Afirmativo: sean"
+  },
+  {
+   "id": "u05-g-022",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-negativo",
+   "difficulty": 2,
+   "verb": "poner",
+   "person": "tú",
+   "tense": "imperativo negativo",
+   "answers": [
+    "no pongas"
+   ],
+   "feedback": "no + presente de subjuntivo: no pongas, no pongáis, no ponga, no pongan.",
+   "contrast": "Afirmativo: pon"
+  },
+  {
+   "id": "u05-g-023",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-negativo",
+   "difficulty": 2,
+   "verb": "salir",
+   "person": "vosotros",
+   "tense": "imperativo negativo",
+   "answers": [
+    "no salgáis"
+   ],
+   "feedback": "no + presente de subjuntivo: no salgas, no salgáis, no salga, no salgan.",
+   "contrast": "Afirmativo: salid"
+  },
+  {
+   "id": "u05-g-024",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-negativo",
+   "difficulty": 2,
+   "verb": "tener",
+   "person": "usted",
+   "tense": "imperativo negativo",
+   "answers": [
+    "no tenga"
+   ],
+   "feedback": "no + presente de subjuntivo: no tengas, no tengáis, no tenga, no tengan.",
+   "contrast": "Afirmativo: tenga"
+  },
+  {
+   "id": "u05-g-025",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-negativo",
+   "difficulty": 2,
+   "verb": "pedir",
+   "person": "ustedes",
+   "tense": "imperativo negativo",
+   "answers": [
+    "no pidan"
+   ],
+   "feedback": "no + presente de subjuntivo: no pidas, no pidáis, no pida, no pidan.",
+   "contrast": "Afirmativo: pidan"
+  },
+  {
+   "id": "u05-g-026",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-negativo",
+   "difficulty": 2,
+   "verb": "jugar",
+   "person": "tú",
+   "tense": "imperativo negativo",
+   "answers": [
+    "no juegues"
+   ],
+   "feedback": "no + presente de subjuntivo: no juegues, no juguéis, no juegue, no jueguen.",
+   "contrast": "Afirmativo: juega"
+  },
+  {
+   "id": "u05-g-027",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-negativo",
+   "difficulty": 2,
+   "verb": "pagar",
+   "person": "vosotros",
+   "tense": "imperativo negativo",
+   "answers": [
+    "no paguéis"
+   ],
+   "feedback": "no + presente de subjuntivo: no pagues, no paguéis, no pague, no paguen.",
+   "contrast": "Afirmativo: pagad"
+  },
+  {
+   "id": "u05-g-028",
+   "type": "conjugate",
+   "unit": 5,
+   "grammarPoint": "imperativo-negativo",
+   "difficulty": 2,
+   "verb": "coger",
+   "person": "usted",
+   "tense": "imperativo negativo",
+   "answers": [
+    "no coja"
+   ],
+   "feedback": "no + presente de subjuntivo: no cojas, no cojáis, no coja, no cojan.",
+   "contrast": "Afirmativo: coja"
+  },
+  {
+   "id": "u05-f-001",
+   "type": "gap",
+   "grammarPoint": "imperativo-afirmativo",
+   "difficulty": 1,
+   "feedback": "Irregular tú: ven.",
+   "contrast": "Venid (vosotros).",
+   "prompt": "___ (venir, tú) a probar nuestras nuevas pizzas.",
+   "answers": [
+    "Ven"
+   ],
+   "unit": 5
+  },
+  {
+   "id": "u05-f-002",
+   "type": "gap",
+   "grammarPoint": "imperativo-afirmativo",
+   "difficulty": 2,
+   "feedback": "usted → present subjunctive: descargue (g → gu).",
+   "contrast": "Descarga (tú).",
+   "prompt": "___ (descargar, usted) nuestra aplicación y ahorre tiempo.",
+   "answers": [
+    "Descargue"
+   ],
+   "unit": 5
+  },
+  {
+   "id": "u05-f-003",
+   "type": "gap",
+   "grammarPoint": "imperativo-afirmativo",
+   "difficulty": 2,
+   "feedback": "vosotros: infinitive -r → -d.",
+   "contrast": "No encendáis el móvil.",
+   "prompt": "Chicos, ___ (apagar, vosotros) el móvil durante la película.",
+   "answers": [
+    "apagad"
+   ],
+   "unit": 5
+  },
+  {
+   "id": "u05-f-004",
+   "type": "choice",
+   "grammarPoint": "imperativo-afirmativo",
+   "difficulty": 1,
+   "feedback": "tú: ten (irregular).",
+   "contrast": "Tened cuidado (vosotros).",
+   "prompt": "___ cuidado, el suelo está mojado.",
+   "options": [
+    "Ten",
+    "Tiene",
+    "Tened"
+   ],
+   "answers": [
+    "Ten"
+   ],
+   "unit": 5
+  },
+  {
+   "id": "u05-f-005",
+   "type": "choice",
+   "grammarPoint": "imperativo-afirmativo",
+   "difficulty": 2,
+   "feedback": "ustedes → present subjunctive.",
+   "contrast": "Pagad aquí (vosotros).",
+   "prompt": "Señores clientes, ___ en la caja número tres.",
+   "options": [
+    "paguen",
+    "pagan",
+    "pagad"
+   ],
+   "answers": [
+    "paguen"
+   ],
+   "unit": 5
+  },
+  {
+   "id": "u05-f-006",
+   "type": "error",
+   "grammarPoint": "imperativo-afirmativo",
+   "difficulty": 2,
+   "feedback": "Irregular tú imperative: haz.",
+   "contrast": "Haced los deberes.",
+   "prompt": "¡Hace tus deberes antes de salir!",
+   "errorIndex": 0,
+   "answers": [
+    "Haz"
+   ],
+   "unit": 5
+  },
+  {
+   "id": "u05-f-007",
+   "type": "error",
+   "grammarPoint": "imperativo-afirmativo",
+   "difficulty": 2,
+   "feedback": "usted → subjunctive form: llame.",
+   "contrast": "Llama tú.",
+   "prompt": "Para más información, llama usted al 900 100 200.",
+   "errorIndex": 3,
+   "answers": [
+    "llame"
+   ],
+   "unit": 5
+  },
+  {
+   "id": "u05-f-008",
+   "type": "match",
+   "grammarPoint": "imperativo-afirmativo",
+   "difficulty": 2,
+   "feedback": "Four forms of the affirmative imperative.",
+   "instruction": "Relaciona cada persona con su imperativo.",
+   "pairs": [
+    {
+     "left": "tú",
+     "right": "pon la mesa"
+    },
+    {
+     "left": "vosotros",
+     "right": "poned la mesa"
+    },
+    {
+     "left": "usted",
+     "right": "ponga la mesa"
+    },
+    {
+     "left": "ustedes",
+     "right": "pongan la mesa"
+    }
+   ],
+   "unit": 5
+  },
+  {
+   "id": "u05-f-009",
+   "type": "transform",
+   "grammarPoint": "imperativo-afirmativo",
+   "difficulty": 2,
+   "feedback": "tú imperative = 3rd-person present.",
+   "contrast": "No añadas la sal al principio.",
+   "instruction": "Da la instrucción con imperativo (tú).",
+   "prompt": "Tienes que añadir la sal al final.",
+   "answers": [
+    "Añade la sal al final"
+   ],
+   "unit": 5
+  },
+  {
+   "id": "u05-f-010",
+   "type": "choice",
+   "grammarPoint": "imperativo-negativo",
+   "difficulty": 1,
+   "feedback": "no + subjuntivo.",
+   "contrast": "Abre la ventana.",
+   "prompt": "No ___ la ventana, que hace frío.",
+   "options": [
+    "abras",
+    "abres",
+    "abre"
+   ],
+   "answers": [
+    "abras"
+   ],
+   "unit": 5
+  },
+  {
+   "id": "u05-f-011",
+   "type": "choice",
+   "grammarPoint": "imperativo-negativo",
+   "difficulty": 2,
+   "feedback": "vosotros negative: no lleguéis (g → gu).",
+   "contrast": "Llegad pronto.",
+   "prompt": "No ___ tarde, que el tren sale a las ocho.",
+   "options": [
+    "lleguéis",
+    "llegáis",
+    "llegad"
+   ],
+   "answers": [
+    "lleguéis"
+   ],
+   "unit": 5
+  },
+  {
+   "id": "u05-f-012",
+   "type": "gap",
+   "grammarPoint": "imperativo-negativo",
+   "difficulty": 2,
+   "feedback": "no + subjuntivo (e→ie).",
+   "contrast": "No pierdas (tú).",
+   "prompt": "No ___ (perder, usted) esta oportunidad única.",
+   "answers": [
+    "pierda"
+   ],
+   "unit": 5
+  },
+  {
+   "id": "u05-f-013",
+   "type": "gap",
+   "grammarPoint": "imperativo-negativo",
+   "difficulty": 2,
+   "feedback": "ser → sea → no seas.",
+   "contrast": "Sé optimista.",
+   "prompt": "No ___ (ser, tú) tan pesimista, ya verás como todo sale bien.",
+   "answers": [
+    "seas"
+   ],
+   "unit": 5
+  },
+  {
+   "id": "u05-f-014",
+   "type": "error",
+   "grammarPoint": "imperativo-negativo",
+   "difficulty": 1,
+   "feedback": "Negative command → subjunctive (c → qu).",
+   "contrast": "Toca el timbre.",
+   "prompt": "No tocas el cuadro, por favor.",
+   "errorIndex": 1,
+   "answers": [
+    "toques"
+   ],
+   "unit": 5
+  },
+  {
+   "id": "u05-f-015",
+   "type": "error",
+   "grammarPoint": "imperativo-negativo",
+   "difficulty": 2,
+   "feedback": "vosotros negative: no digáis.",
+   "contrast": "Decídselo.",
+   "prompt": "¡No decid nada a nadie!",
+   "errorIndex": 1,
+   "answers": [
+    "digáis"
+   ],
+   "unit": 5
+  },
+  {
+   "id": "u05-f-016",
+   "type": "transform",
+   "grammarPoint": "imperativo-negativo",
+   "difficulty": 2,
+   "feedback": "no + compres.",
+   "contrast": "Compra en esta.",
+   "instruction": "Escribe la orden en negativo.",
+   "prompt": "Compra en esa tienda.",
+   "answers": [
+    "No compres en esa tienda"
+   ],
+   "unit": 5
+  },
+  {
+   "id": "u05-f-017",
+   "type": "transform",
+   "grammarPoint": "imperativo-negativo",
+   "difficulty": 2,
+   "feedback": "ustedes: no + dejen.",
+   "contrast": "Déjenlas allí.",
+   "instruction": "Escribe la orden en negativo (ustedes).",
+   "prompt": "Dejen las maletas aquí.",
+   "answers": [
+    "No dejen las maletas aquí"
+   ],
+   "unit": 5
+  },
+  {
+   "id": "u05-f-018",
+   "type": "order",
+   "grammarPoint": "imperativo-negativo",
+   "difficulty": 2,
+   "feedback": "Negative command: no + subjuntivo.",
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "No dejes para mañana lo que puedes hacer hoy"
+   ],
+   "unit": 5
+  },
+  {
+   "id": "u05-f-019",
+   "type": "choice",
+   "grammarPoint": "pronombres-posicion",
+   "difficulty": 1,
+   "feedback": "Affirmative: pronoun attached (accent on dú-).",
+   "contrast": "No te duches.",
+   "prompt": "El agua está muy fría: ___ antes de entrar.",
+   "options": [
+    "dúchate",
+    "te duchas",
+    "duchate"
+   ],
+   "answers": [
+    "dúchate"
+   ],
+   "unit": 5
+  },
+  {
+   "id": "u05-f-020",
+   "type": "choice",
+   "grammarPoint": "pronombres-posicion",
+   "difficulty": 2,
+   "feedback": "Negative: pronoun before the verb.",
+   "contrast": "Cómprala si está rebajada.",
+   "prompt": "¿Ves esta chaqueta? No ___, es carísima.",
+   "options": [
+    "la compres",
+    "cómprala",
+    "compres la"
+   ],
+   "answers": [
+    "la compres"
+   ],
+   "unit": 5
+  },
+  {
+   "id": "u05-f-021",
+   "type": "gap",
+   "grammarPoint": "pronombres-posicion",
+   "difficulty": 2,
+   "feedback": "envía + me + las → envíamelas.",
+   "contrast": "No me las envíes.",
+   "prompt": "¿Tienes las fotos? ___ (enviar, tú + me + las) por correo, por favor.",
+   "answers": [
+    "Envíamelas"
+   ],
+   "unit": 5
+  },
+  {
+   "id": "u05-f-022",
+   "type": "transform",
+   "grammarPoint": "pronombres-posicion",
+   "difficulty": 2,
+   "feedback": "di + se + lo → díselo.",
+   "contrast": "No se lo digas.",
+   "instruction": "Escribe la orden en afirmativo.",
+   "prompt": "No se lo digas.",
+   "answers": [
+    "Díselo"
+   ],
+   "unit": 5
+  },
+  {
+   "id": "u05-f-023",
+   "type": "transform",
+   "grammarPoint": "pronombres-posicion",
+   "difficulty": 2,
+   "feedback": "Negative: no te levantes.",
+   "contrast": "Levántate.",
+   "instruction": "Escribe la orden en negativo.",
+   "prompt": "Levántate temprano.",
+   "answers": [
+    "No te levantes temprano"
+   ],
+   "unit": 5
+  },
+  {
+   "id": "u05-f-024",
+   "type": "transform",
+   "grammarPoint": "pronombres-posicion",
+   "difficulty": 3,
+   "feedback": "sentad + os → sentaos.",
+   "contrast": "No os sentéis.",
+   "instruction": "Escribe la orden en afirmativo (vosotros).",
+   "prompt": "No os sentéis aquí.",
+   "answers": [
+    "Sentaos aquí"
+   ],
+   "unit": 5
+  },
+  {
+   "id": "u05-f-025",
+   "type": "error",
+   "grammarPoint": "pronombres-posicion",
+   "difficulty": 2,
+   "feedback": "Pronouns attach to the command as one word, with an accent: póntelo.",
+   "contrast": "No te lo pongas.",
+   "prompt": "¡Ponte lo, que hace frío!",
+   "errorIndex": 0,
+   "answers": [
+    "Póntelo"
+   ],
+   "errorLength": 2,
+   "unit": 5
+  },
+  {
+   "id": "u05-f-026",
+   "type": "error",
+   "grammarPoint": "pronombres-posicion",
+   "difficulty": 2,
+   "feedback": "Negative command: no me lo digas.",
+   "contrast": "Dímelo.",
+   "prompt": "No dímelo, quiero que sea una sorpresa.",
+   "errorIndex": 1,
+   "answers": [
+    "me lo digas"
+   ],
+   "unit": 5
+  },
+  {
+   "id": "u05-f-027",
+   "type": "order",
+   "grammarPoint": "pronombres-posicion",
+   "difficulty": 2,
+   "feedback": "Negative: no + IO + DO + subjuntivo.",
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "No me lo cuentes ahora"
+   ],
+   "unit": 5
+  },
+  {
+   "id": "u05-f-028",
+   "type": "match",
+   "grammarPoint": "pronombres-posicion",
+   "difficulty": 2,
+   "feedback": "Affirmative: pronouns attached; negative: before the verb.",
+   "instruction": "Relaciona cada principio con su final.",
+   "pairs": [
+    {
+     "left": "Pruébalo",
+     "right": "gratis durante un mes."
+    },
+    {
+     "left": "No lo dudes",
+     "right": "y llámanos hoy."
+    },
+    {
+     "left": "Llévatelo",
+     "right": "con un 20 % de descuento."
+    },
+    {
+     "left": "No te lo pierdas",
+     "right": "este sábado."
+    }
+   ],
+   "unit": 5
   }
  ]
 }

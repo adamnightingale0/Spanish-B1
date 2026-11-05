@@ -703,6 +703,579 @@
     "En España se cena muy tarde"
    ],
    "feedback": "se + 3rd person singular for general habits."
+  },
+  {
+   "id": "u01-f-001",
+   "type": "gap",
+   "grammarPoint": "soler-inf",
+   "difficulty": 1,
+   "feedback": "soler (o→ue): suelo, sueles, suele…",
+   "contrast": "Yo suelo levantarme tarde.",
+   "prompt": "Mi compañero de piso ___ (soler) levantarse a las seis para ir al gimnasio.",
+   "answers": [
+    "suele"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-002",
+   "type": "gap",
+   "grammarPoint": "soler-inf",
+   "difficulty": 2,
+   "feedback": "vosotros: soléis (no diphthong).",
+   "contrast": "Nosotros solemos ir en julio.",
+   "prompt": "¿Vosotros ___ (soler) ir a la playa en agosto?",
+   "answers": [
+    "soléis"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-003",
+   "type": "gap",
+   "grammarPoint": "soler-inf",
+   "difficulty": 2,
+   "feedback": "Past habit → imperfecto: solían.",
+   "contrast": "Ahora suelen ir al sur.",
+   "prompt": "Antes mis padres ___ (soler) veranear en Asturias, pero ahora prefieren el sur.",
+   "answers": [
+    "solían"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-004",
+   "type": "choice",
+   "grammarPoint": "soler-inf",
+   "difficulty": 1,
+   "feedback": "nosotros: solemos.",
+   "contrast": "Mis tíos suelen venir.",
+   "prompt": "Los domingos ___ comer paella con toda la familia.",
+   "options": [
+    "solemos",
+    "soléis",
+    "suelemos"
+   ],
+   "answers": [
+    "solemos"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-005",
+   "type": "transform",
+   "grammarPoint": "soler-inf",
+   "difficulty": 2,
+   "feedback": "normalmente + presente → soler + infinitivo.",
+   "contrast": "Normalmente ceno tarde → Suelo cenar tarde.",
+   "instruction": "Reescribe con soler + infinitivo.",
+   "prompt": "Normalmente cenamos a las diez.",
+   "answers": [
+    "Solemos cenar a las diez"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-006",
+   "type": "error",
+   "grammarPoint": "soler-inf",
+   "difficulty": 2,
+   "feedback": "A past habit → imperfecto: solía.",
+   "contrast": "Ahora suelo ir en agosto.",
+   "prompt": "Cuando era pequeño, suelo ir al pueblo en verano.",
+   "errorIndex": 3,
+   "answers": [
+    "solía"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-007",
+   "type": "choice",
+   "grammarPoint": "lo-normal-es",
+   "difficulty": 1,
+   "feedback": "lo + adjective = the normal thing.",
+   "contrast": "Lo raro es cenar a las once.",
+   "prompt": "___ en mi país es cenar antes de las ocho.",
+   "options": [
+    "Lo normal",
+    "El normal",
+    "Lo normalmente"
+   ],
+   "answers": [
+    "Lo normal"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-008",
+   "type": "choice",
+   "grammarPoint": "lo-normal-es",
+   "difficulty": 2,
+   "feedback": "lo habitual es que + subjuntivo.",
+   "contrast": "Lo habitual es comer en el colegio.",
+   "prompt": "Lo habitual es que los niños ___ en el colegio a mediodía.",
+   "options": [
+    "coman",
+    "comen",
+    "comer"
+   ],
+   "answers": [
+    "coman"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-009",
+   "type": "gap",
+   "grammarPoint": "lo-normal-es",
+   "difficulty": 2,
+   "feedback": "lo más común es que + subjuntivo: deje.",
+   "contrast": "Lo más común es dejar propina.",
+   "prompt": "Lo más común es que la gente ___ (dejar) una pequeña propina en los bares.",
+   "answers": [
+    "deje"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-010",
+   "type": "choice",
+   "grammarPoint": "lo-normal-es",
+   "difficulty": 2,
+   "feedback": "No specific subject → infinitive.",
+   "contrast": "Lo raro es que llegues antes de las nueve.",
+   "prompt": "En mi oficina, lo raro es ___ antes de las nueve.",
+   "options": [
+    "llegar",
+    "que llegar",
+    "llegando"
+   ],
+   "answers": [
+    "llegar"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-011",
+   "type": "transform",
+   "grammarPoint": "lo-normal-es",
+   "difficulty": 2,
+   "feedback": "lo + adjective + es + infinitive.",
+   "contrast": "Lo típico es que la gente coma churros.",
+   "instruction": "Empieza con «Lo típico es…».",
+   "prompt": "Típicamente, la gente come churros en Navidad.",
+   "answers": [
+    "Lo típico es comer churros en Navidad"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-012",
+   "type": "gap",
+   "grammarPoint": "lo-normal-es",
+   "difficulty": 3,
+   "feedback": "g → gu before e: pague.",
+   "contrast": "Lo normal es pagar a medias.",
+   "prompt": "En las cenas de empresa, lo normal es que el jefe ___ (pagar) la primera ronda.",
+   "answers": [
+    "pague"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-013",
+   "type": "choice",
+   "grammarPoint": "cuantificadores",
+   "difficulty": 1,
+   "feedback": "la mayoría de + group.",
+   "contrast": "Nadie se queda en la ciudad.",
+   "prompt": "En verano ___ de mis amigos se va de vacaciones a la costa.",
+   "options": [
+    "la mayoría",
+    "nadie",
+    "ningún"
+   ],
+   "answers": [
+    "la mayoría"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-014",
+   "type": "gap",
+   "grammarPoint": "cuantificadores",
+   "difficulty": 2,
+   "feedback": "nadie after the verb → no + verb + nadie (singular).",
+   "contrast": "Nadie conoce al vecino.",
+   "prompt": "En mi edificio no ___ (conocer) nadie al nuevo vecino.",
+   "answers": [
+    "conoce"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-015",
+   "type": "choice",
+   "grammarPoint": "cuantificadores",
+   "difficulty": 2,
+   "feedback": "todas + las + feminine plural noun.",
+   "contrast": "Todo el mundo cierra pronto.",
+   "prompt": "___ las tiendas del centro cierran a las nueve.",
+   "options": [
+    "Todas",
+    "Todo",
+    "Toda"
+   ],
+   "answers": [
+    "Todas"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-016",
+   "type": "choice",
+   "grammarPoint": "cuantificadores",
+   "difficulty": 2,
+   "feedback": "poca + gente (feminine singular).",
+   "contrast": "pocas personas",
+   "prompt": "En la reunión había muy ___ gente: solo cinco personas.",
+   "options": [
+    "poca",
+    "pocos",
+    "un poco"
+   ],
+   "answers": [
+    "poca"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-017",
+   "type": "choice",
+   "grammarPoint": "cuantificadores",
+   "difficulty": 1,
+   "feedback": "ninguno → ningún before a masculine noun.",
+   "contrast": "No hay ninguna farmacia abierta.",
+   "prompt": "No hay ___ restaurante abierto a esta hora.",
+   "options": [
+    "ningún",
+    "ninguno",
+    "ninguna"
+   ],
+   "answers": [
+    "ningún"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-018",
+   "type": "match",
+   "grammarPoint": "cuantificadores",
+   "difficulty": 2,
+   "feedback": "Singular verb after todo el mundo, nadie, la mitad de; plural after muchas personas.",
+   "instruction": "Relaciona cada principio con su final.",
+   "pairs": [
+    {
+     "left": "Todo el mundo",
+     "right": "conoce esta costumbre."
+    },
+    {
+     "left": "Casi nadie",
+     "right": "trabaja el día de Navidad."
+    },
+    {
+     "left": "La mitad de los alumnos",
+     "right": "vive en residencias."
+    },
+    {
+     "left": "Muchas personas",
+     "right": "dan dos besos al saludar."
+    }
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-019",
+   "type": "choice",
+   "grammarPoint": "esta-prohibido",
+   "difficulty": 1,
+   "feedback": "no se puede + infinitive (singular).",
+   "contrast": "Está prohibido fumar.",
+   "prompt": "En los hospitales no se ___ fumar.",
+   "options": [
+    "puede",
+    "pueden",
+    "prohíbe"
+   ],
+   "answers": [
+    "puede"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-020",
+   "type": "gap",
+   "grammarPoint": "esta-prohibido",
+   "difficulty": 2,
+   "feedback": "las fotos (f. pl.) → prohibidas.",
+   "contrast": "Está prohibido hacer fotos con flash.",
+   "prompt": "En este museo están ___ (prohibir) las fotos con flash.",
+   "answers": [
+    "prohibidas"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-021",
+   "type": "choice",
+   "grammarPoint": "esta-prohibido",
+   "difficulty": 2,
+   "feedback": "se + plural verb with a plural noun.",
+   "contrast": "Se permite entrar con perros.",
+   "prompt": "Se ___ las mascotas en el hotel, pero solo en algunas habitaciones.",
+   "options": [
+    "permiten",
+    "permite",
+    "permitido"
+   ],
+   "answers": [
+    "permiten"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-022",
+   "type": "error",
+   "grammarPoint": "esta-prohibido",
+   "difficulty": 2,
+   "feedback": "With an infinitive, es obligatorio stays masculine.",
+   "contrast": "Es obligatoria la ducha.",
+   "prompt": "En la piscina es obligatoria ducharse antes de entrar.",
+   "errorIndex": 4,
+   "answers": [
+    "obligatorio"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-023",
+   "type": "transform",
+   "grammarPoint": "esta-prohibido",
+   "difficulty": 2,
+   "feedback": "no se puede = no está permitido.",
+   "contrast": "Está prohibido comer en clase.",
+   "instruction": "Reescribe con «No está permitido».",
+   "prompt": "No se puede comer en clase.",
+   "answers": [
+    "No está permitido comer en clase"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-024",
+   "type": "gap",
+   "grammarPoint": "esta-prohibido",
+   "difficulty": 3,
+   "feedback": "obligar a + infinitive; past habit → imperfecto.",
+   "contrast": "Es obligatorio llevar uniforme.",
+   "prompt": "En mi trabajo nos ___ (obligar, imperfecto) a llevar uniforme.",
+   "answers": [
+    "obligaban"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-025",
+   "type": "gap",
+   "grammarPoint": "se-impersonal",
+   "difficulty": 1,
+   "feedback": "Impersonal se + singular verb.",
+   "contrast": "Se comen muchas gambas.",
+   "prompt": "En España ___ (comer) mucho pescado.",
+   "answers": [
+    "se come"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-026",
+   "type": "gap",
+   "grammarPoint": "se-impersonal",
+   "difficulty": 2,
+   "feedback": "las tapas (plural) → se sirven.",
+   "contrast": "Se sirve cerveza fría.",
+   "prompt": "En este bar ___ (servir) las mejores tapas del barrio.",
+   "answers": [
+    "se sirven"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-027",
+   "type": "choice",
+   "grammarPoint": "se-impersonal",
+   "difficulty": 2,
+   "feedback": "General statement → se + 3rd singular.",
+   "contrast": "Se comen platos caseros.",
+   "prompt": "Aquí ___ muy bien: la comida es barata y casera.",
+   "options": [
+    "se come",
+    "se comen",
+    "comen se"
+   ],
+   "answers": [
+    "se come"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-028",
+   "type": "transform",
+   "grammarPoint": "se-impersonal",
+   "difficulty": 2,
+   "feedback": "la gente + verb → se + verb.",
+   "contrast": "Se hablan varios idiomas.",
+   "instruction": "Reescribe con se impersonal.",
+   "prompt": "La gente habla muy alto en los bares.",
+   "answers": [
+    "Se habla muy alto en los bares",
+    "En los bares se habla muy alto"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-029",
+   "type": "choice",
+   "grammarPoint": "se-impersonal",
+   "difficulty": 3,
+   "feedback": "Pronominal verbs (levantarse) can't use impersonal se: use la gente.",
+   "contrast": "En mi pueblo se cena temprano.",
+   "prompt": "En mi pueblo ___ muy temprano.",
+   "options": [
+    "la gente se levanta",
+    "se levanta"
+   ],
+   "answers": [
+    "la gente se levanta"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-030",
+   "type": "order",
+   "grammarPoint": "se-impersonal",
+   "difficulty": 2,
+   "feedback": "se + 3rd singular for general habits.",
+   "instruction": "Ordena las palabras para formar una frase.",
+   "answers": [
+    "En Sevilla se sale mucho por la noche"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-031",
+   "type": "choice",
+   "grammarPoint": "ser-estar-normas",
+   "difficulty": 1,
+   "feedback": "es normal + infinitive.",
+   "contrast": "Está mal visto llegar tarde.",
+   "prompt": "___ normal llegar un poco tarde a una fiesta.",
+   "options": [
+    "Es",
+    "Está"
+   ],
+   "answers": [
+    "Es"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-032",
+   "type": "choice",
+   "grammarPoint": "ser-estar-normas",
+   "difficulty": 2,
+   "feedback": "bien / mal visto → estar.",
+   "contrast": "Es habitual llevar postre.",
+   "prompt": "___ muy bien visto llevar algo de postre cuando te invitan.",
+   "options": [
+    "Está",
+    "Es"
+   ],
+   "answers": [
+    "Está"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-033",
+   "type": "gap",
+   "grammarPoint": "ser-estar-normas",
+   "difficulty": 2,
+   "feedback": "es una falta de respeto + infinitive.",
+   "contrast": "Está mal visto llevar zapatos en casa.",
+   "prompt": "En muchos países ___ (ser) una falta de respeto no quitarse los zapatos en casa.",
+   "answers": [
+    "es"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-034",
+   "type": "gap",
+   "grammarPoint": "ser-estar-normas",
+   "difficulty": 2,
+   "feedback": "estar + participle (aceptado, permitido…).",
+   "contrast": "Es raro trabajar desde casa.",
+   "prompt": "En esta empresa no ___ (estar) aceptado trabajar desde casa.",
+   "answers": [
+    "está"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-035",
+   "type": "choice",
+   "grammarPoint": "ser-estar-normas",
+   "difficulty": 3,
+   "feedback": "es de mala educación + infinitive.",
+   "contrast": "Está mal visto no saludar.",
+   "prompt": "Para mí ___ de muy mala educación no saludar al entrar en un ascensor.",
+   "options": [
+    "es",
+    "está"
+   ],
+   "answers": [
+    "es"
+   ],
+   "unit": 1
+  },
+  {
+   "id": "u01-f-036",
+   "type": "match",
+   "grammarPoint": "ser-estar-normas",
+   "difficulty": 2,
+   "feedback": "ser + adjective/expression; estar + participle (prohibido, visto).",
+   "instruction": "Relaciona cada principio con su final.",
+   "pairs": [
+    {
+     "left": "Es de mala educación",
+     "right": "hablar con la boca llena."
+    },
+    {
+     "left": "Está prohibido",
+     "right": "fumar en el metro."
+    },
+    {
+     "left": "Está mal visto",
+     "right": "llegar tarde a una cita."
+    },
+    {
+     "left": "Es recomendable",
+     "right": "reservar mesa los sábados."
+    }
+   ],
+   "unit": 1
   }
  ]
 }
