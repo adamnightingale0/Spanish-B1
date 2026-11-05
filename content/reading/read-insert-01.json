@@ -1,0 +1,102 @@
+{
+ "id": "read-insert-01",
+ "unit": 2,
+ "taskFormat": "read-insert",
+ "topic": "trabajo",
+ "title": "Teletrabajar desde el pueblo",
+ "text": [
+  "Hace solo unos años, trabajar para una empresa de Madrid viviendo en un pueblo de cuatrocientos habitantes era impensable. {{1}} Hoy, gracias a la fibra óptica y a la generalización del teletrabajo, cada vez más profesionales están haciendo las maletas para irse al campo.",
+  "Es el caso de Sara Molina, diseñadora gráfica de 34 años, que en 2022 dejó su piso de Barcelona para instalarse en un pueblo de Teruel. {{2}} «Pagaba casi mil euros por un piso de cuarenta metros. Aquí, por la mitad, tengo una casa con jardín», explica.",
+  "Los ayuntamientos de muchas zonas despobladas han visto en este fenómeno una oportunidad. {{3}} Algunos ofrecen casas a precios muy bajos; otros han abierto espacios de trabajo compartido con buena conexión a internet, donde los recién llegados pueden trabajar y conocer a otros vecinos.",
+  "Sin embargo, la vida rural también tiene sus inconvenientes. {{4}} En muchos pueblos no hay farmacia, el médico pasa consulta solo dos días a la semana y el colegio más cercano está a veinte kilómetros. Para las familias con hijos, esto puede ser decisivo. Y aunque la conexión a internet ha mejorado mucho, todavía hay zonas donde falla cuando hace mal tiempo.",
+  "Además, no todos los trabajos se pueden hacer a distancia. {{5}} Por eso, la mayoría de los nuevos vecinos se dedica a sectores como la informática, el diseño, la traducción o la consultoría.",
+  "Tampoco es fácil adaptarse al ritmo del pueblo. {{6}} Sara reconoce que el primer invierno fue duro: «A las seis ya era de noche y no había nadie por la calle. Echaba de menos los cines, los conciertos, el ruido».",
+  "Aun así, ella no se arrepiente. {{7}} «He cambiado un poco de vida social por mucha calidad de vida. Y cuando necesito ciudad, cojo el tren y me voy un fin de semana»."
+ ],
+ "fragments": [
+  {
+   "id": "A",
+   "text": "Para atraer a estas personas, ponen en marcha distintas iniciativas."
+  },
+  {
+   "id": "B",
+   "text": "Lo que más le pesaba en la ciudad era el precio de la vivienda."
+  },
+  {
+   "id": "C",
+   "text": "Un enfermero o un camarero, por ejemplo, necesitan estar físicamente en su lugar de trabajo."
+  },
+  {
+   "id": "D",
+   "text": "La conexión a internet era lenta y las reuniones por vídeo, casi imposibles."
+  },
+  {
+   "id": "E",
+   "text": "El principal es la falta de servicios básicos."
+  },
+  {
+   "id": "F",
+   "text": "Al contrario, cree que ha sido la mejor decisión de su vida."
+  },
+  {
+   "id": "G",
+   "text": "La tranquilidad que muchos buscan puede convertirse, a veces, en soledad."
+  },
+  {
+   "id": "H",
+   "text": "Por eso, la población de los pueblos no ha dejado de crecer desde los años sesenta."
+  },
+  {
+   "id": "I",
+   "text": "Los vecinos, en cambio, prefieren que no lleguen personas de fuera."
+  },
+  {
+   "id": "J",
+   "text": "Además, el sueldo de los teletrabajadores suele ser más bajo."
+  }
+ ],
+ "gaps": [
+  {
+   "n": 1,
+   "answer": "D",
+   "clue": "era impensable",
+   "why": "The fragment explains why it was unthinkable (slow internet), and «Hoy» then contrasts with the past."
+  },
+  {
+   "n": 2,
+   "answer": "B",
+   "clue": "le pesaba en la ciudad",
+   "why": "«le» refers to Sara, and the quote about rent develops «el precio de la vivienda»."
+  },
+  {
+   "n": 3,
+   "answer": "A",
+   "clue": "estas personas",
+   "why": "«estas personas» refers back to the professionals; «distintas iniciativas» is developed by «Algunos… otros…»."
+  },
+  {
+   "n": 4,
+   "answer": "E",
+   "clue": "El principal",
+   "why": "«El principal» (inconveniente) picks up «inconvenientes», then the paragraph lists missing services."
+  },
+  {
+   "n": 5,
+   "answer": "C",
+   "clue": "por ejemplo",
+   "why": "It gives examples of jobs that can't be done remotely; «Por eso» then introduces the jobs that can."
+  },
+  {
+   "n": 6,
+   "answer": "G",
+   "clue": "soledad",
+   "why": "The idea of loneliness is illustrated by the empty streets in winter."
+  },
+  {
+   "n": 7,
+   "answer": "F",
+   "clue": "Al contrario",
+   "why": "«Al contrario» follows «no se arrepiente»: she thinks it was her best decision."
+  }
+ ]
+}

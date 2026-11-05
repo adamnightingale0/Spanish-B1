@@ -2,7 +2,7 @@
 
 An offline-first iPhone PWA for the University of Seville Instituto de Idiomas B1 exam (written exam 18 Jan 2027), built on the syllabus of *Aula Internacional Plus 3*. See [`SPEC.md`](SPEC.md) for the full spec and build phases.
 
-**Status: Phase 2** (vocabulary SRS, all drill types, diagnosis, book viewer) on top of Phase 1.
+**Status: Phase 3** (reading and listening trainers) on top of Phases 1–2.
 
 ## What's in Phase 1
 
@@ -24,6 +24,16 @@ An offline-first iPhone PWA for the University of Seville Instituto de Idiomas B
 - Placement check (~40 items from all units), offered on first run and repeatable from Progress
 - My book viewer: load your own PDF in Settings (stored only on the phone, never exported), one page rendered at a time, swipe, double-tap and pinch zoom, page box, unit list, page-offset check, and 📖 links that open over a drill and return to the same item
 
+## What's in Phase 3
+
+- Reading trainer in the three Seville formats: `read-mcq` (article ~600 words, 7 questions), `read-match` (8 short texts, 10 profiles, 2 distractors), `read-insert` (article ~400 words, 7 gaps, 10 fragments). 3 tasks of each.
+- Each task can be timed (20 min); full reading paper (one task of each format, 22 questions, 60 min, free to move between tasks, auto-submit when time runs out).
+- After correcting, the evidence sentence is highlighted in yellow; for `read-insert`, the cohesion clue (connector, pronoun, repeated word) in green, with a one-line explanation.
+- Listening trainer with text-to-speech in the three formats: `listen-reply` (6 monologues), `listen-speakers` (3 friends, 7 statements, A/B/C/none), `listen-interview` (radio interview, 7 questions). 2 of each.
+- Exam conditions: 30–45 s reading time, each recording played twice, 30 s to finish, then answers lock and the transcript is revealed with the evidence highlighted. Different voice or pitch per speaker; 0.8× / 1× speed; labelled "practice only".
+- Full listening paper (the three tasks in a row, ~30 min). Every result is stored per skill; Progress shows reading and listening estimates (last 5 timed tasks per format) against the 50% and 60% lines; Home suggests a "lectura / audición del día".
+- Content source in `scripts/skills-src/`, built with `python3 -I scripts/build-skills.py`; `validate-content` checks that every evidence sentence and clue really appears in its text.
+
 ## Commands
 
 ```bash
@@ -36,6 +46,8 @@ npm run build             # validate + typecheck + build to dist/
 node tests/e2e/smoke.mjs http://localhost:4173/   # Playwright smoke test (iPhone viewport) against `npm run preview`
 node tests/e2e/phase2.mjs http://localhost:4173/ some.pdf   # vocab, new drill types, book viewer offline
 python3 -I scripts/build-vocab.py   # rebuild content/vocab from scripts/vocab-src
+python3 -I scripts/build-skills.py  # rebuild content/reading and content/listening
+node tests/e2e/phase3.mjs http://localhost:4173/   # reading, listening (fake TTS), papers
 ```
 
 ## Deploy (GitHub Pages)

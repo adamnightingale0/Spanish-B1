@@ -4,6 +4,8 @@ import { daysUntil, streak, todayCount, lastByItem } from '../lib/stats';
 import { focus, gpById, allItems, vocabCards } from '../lib/content';
 import { buildQueue } from '../lib/srs';
 import { buildPlacement } from '../lib/placement';
+import { suggestTask } from '../lib/skills';
+import { FORMAT_LABELS } from '../lib/content';
 import { MasteryBar } from '../components/common';
 
 const isStandalone = () =>
@@ -114,6 +116,22 @@ export function Home() {
           </div>
         </div>
       )}
+
+      {(() => {
+        const t = suggestTask(app.skills);
+        if (!t) return null;
+        return (
+          <div class="card tap" onClick={() => navigate(`task/${t.id}`)}>
+            <div class="row spread">
+              <b>{t.taskFormat.startsWith('read') ? '📖 Lectura' : '🎧 Audición'} del día</b>
+              <span class="pill">{FORMAT_LABELS[t.taskFormat].minutes} min</span>
+            </div>
+            <p class="small">
+              {FORMAT_LABELS[t.taskFormat].title}: {t.title}
+            </p>
+          </div>
+        );
+      })()}
 
       {atRisk.length > 0 && (
         <>

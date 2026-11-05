@@ -1,0 +1,138 @@
+{
+ "id": "listen-interview-02",
+ "unit": 8,
+ "taskFormat": "listen-interview",
+ "title": "Entrevista: un fotógrafo que da la vuelta al mundo",
+ "voiceRate": 1,
+ "context": "Vas a escuchar una entrevista de radio con Marcos Peña, fotógrafo de viajes, que acaba de volver de un viaje de dos años por el mundo.",
+ "script": [
+  {
+   "speaker": "Entrevistadora",
+   "line": "Marcos, acabas de volver después de dos años viajando. ¿Cómo empezó todo?"
+  },
+  {
+   "speaker": "Marcos",
+   "line": "Pues, curiosamente, empezó con un despido. Trabajaba como fotógrafo en un periódico que cerró en 2022, y en lugar de buscar otro trabajo, decidí cumplir el sueño que tenía desde niño."
+  },
+  {
+   "speaker": "Entrevistadora",
+   "line": "¿Y cómo pagaste un viaje tan largo?"
+  },
+  {
+   "speaker": "Marcos",
+   "line": "Con mis ahorros al principio, y después vendiendo fotos a revistas y dando talleres de fotografía en los países que visitaba. No me he hecho rico, pero no he tenido que volver antes de tiempo."
+  },
+  {
+   "speaker": "Entrevistadora",
+   "line": "¿Cuál fue el momento más difícil?"
+  },
+  {
+   "speaker": "Marcos",
+   "line": "En Bolivia me robaron la mochila con dos cámaras y el ordenador. Había perdido las fotos de tres meses porque no había hecho copias. Fue horrible, pensé en dejarlo todo."
+  },
+  {
+   "speaker": "Entrevistadora",
+   "line": "Pero no lo dejaste."
+  },
+  {
+   "speaker": "Marcos",
+   "line": "No. Una familia que conocí allí me acogió en su casa una semana y me prestó una cámara vieja. Con esa cámara hice algunas de mis mejores fotos. Desde entonces, hago copias de seguridad todas las noches."
+  },
+  {
+   "speaker": "Entrevistadora",
+   "line": "¿Qué país te ha sorprendido más?"
+  },
+  {
+   "speaker": "Marcos",
+   "line": "Vietnam. Esperaba playas y templos, y los encontré, pero lo que más me impresionó fue la gente. En el norte, una señora mayor me enseñó a cocinar sopa en su casa sin que habláramos el mismo idioma."
+  },
+  {
+   "speaker": "Entrevistadora",
+   "line": "¿Y ahora qué? ¿Vas a quedarte en España?"
+  },
+  {
+   "speaker": "Marcos",
+   "line": "De momento, sí. Estoy preparando un libro con las fotos del viaje y en primavera haré una exposición en Sevilla. Después, ya veremos. Me gustaría recorrer África, pero con más calma."
+  },
+  {
+   "speaker": "Entrevistadora",
+   "line": "Una última pregunta: ¿qué has aprendido en estos dos años?"
+  },
+  {
+   "speaker": "Marcos",
+   "line": "Que se necesitan muchas menos cosas de las que creemos. Viajé dos años con una mochila de cuarenta litros y nunca eché nada de menos."
+  }
+ ],
+ "questions": [
+  {
+   "q": "¿Por qué empezó Marcos su viaje?",
+   "options": [
+    "Porque había ganado un premio.",
+    "Porque se quedó sin trabajo.",
+    "Porque un periódico le pagó el viaje."
+   ],
+   "answer": 1,
+   "evidence": "empezó con un despido"
+  },
+  {
+   "q": "¿Cómo consiguió dinero durante el viaje?",
+   "options": [
+    "Trabajando en hoteles.",
+    "Con fotos y clases de fotografía.",
+    "Con la ayuda de su familia."
+   ],
+   "answer": 1,
+   "evidence": "vendiendo fotos a revistas y dando talleres de fotografía"
+  },
+  {
+   "q": "En Bolivia, Marcos…",
+   "options": [
+    "perdió las fotos de varios meses.",
+    "ganó un concurso de fotografía.",
+    "se quedó un año con una familia."
+   ],
+   "answer": 0,
+   "evidence": "Había perdido las fotos de tres meses"
+  },
+  {
+   "q": "Después del robo, Marcos…",
+   "options": [
+    "volvió a España.",
+    "siguió viajando con una cámara prestada.",
+    "se compró una cámara nueva."
+   ],
+   "answer": 1,
+   "evidence": "me prestó una cámara vieja"
+  },
+  {
+   "q": "De Vietnam, lo que más le impresionó fue…",
+   "options": [
+    "las playas.",
+    "los templos.",
+    "las personas."
+   ],
+   "answer": 2,
+   "evidence": "lo que más me impresionó fue la gente"
+  },
+  {
+   "q": "En los próximos meses, Marcos va a…",
+   "options": [
+    "viajar por África.",
+    "preparar un libro y una exposición.",
+    "volver a trabajar en un periódico."
+   ],
+   "answer": 1,
+   "evidence": "Estoy preparando un libro con las fotos del viaje"
+  },
+  {
+   "q": "¿Qué ha aprendido Marcos en el viaje?",
+   "options": [
+    "Que viajar es muy caro.",
+    "Que necesitamos menos de lo que pensamos.",
+    "Que es mejor viajar acompañado."
+   ],
+   "answer": 1,
+   "evidence": "se necesitan muchas menos cosas de las que creemos"
+  }
+ ]
+}

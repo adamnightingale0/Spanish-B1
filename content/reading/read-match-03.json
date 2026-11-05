@@ -1,0 +1,100 @@
+{
+ "id": "read-match-03",
+ "unit": 6,
+ "taskFormat": "read-match",
+ "topic": "voluntariado",
+ "title": "Ofertas de voluntariado",
+ "instruction": "Lee ocho ofertas de voluntariado y los perfiles de diez personas. Elige la oferta más adecuada para cada persona. Hay dos personas que no tienen oferta.",
+ "profiles": [
+  {
+   "id": "A",
+   "text": "Iván es enfermero jubilado y quiere seguir ayudando a personas enfermas."
+  },
+  {
+   "id": "B",
+   "text": "Clara habla francés y árabe y quiere ayudar a personas que acaban de llegar a España."
+  },
+  {
+   "id": "C",
+   "text": "Mario es estudiante de Biología y le preocupa la contaminación de los ríos."
+  },
+  {
+   "id": "D",
+   "text": "Sofía tiene coche y dispone de dos mañanas libres a la semana."
+  },
+  {
+   "id": "E",
+   "text": "Antonio fue profesor de matemáticas y quiere ayudar a niños con dificultades en el colegio."
+  },
+  {
+   "id": "F",
+   "text": "Laura adora los animales, pero vive en un piso donde no puede tener mascotas."
+  },
+  {
+   "id": "G",
+   "text": "Raúl es informático y solo puede colaborar desde casa, a través de internet."
+  },
+  {
+   "id": "H",
+   "text": "Eva quiere hacer voluntariado en el extranjero durante el verano."
+  },
+  {
+   "id": "I",
+   "text": "Jorge es muy sociable y quiere hacer compañía a personas mayores que viven solas."
+  },
+  {
+   "id": "J",
+   "text": "Paula es cocinera y quiere ayudar a preparar comida para personas sin recursos."
+  }
+ ],
+ "texts": [
+  {
+   "title": "Comedor social San Juan",
+   "text": "Buscamos personas con experiencia en cocina para preparar unos doscientos menús diarios. Turnos de mañana, de 9:00 a 13:00.",
+   "answer": "J",
+   "evidence": "Buscamos personas con experiencia en cocina"
+  },
+  {
+   "title": "Refugio Cuatro Patas",
+   "text": "Necesitamos voluntarios para pasear a los perros, limpiar las instalaciones y dar cariño a los animales que esperan una familia.",
+   "answer": "F",
+   "evidence": "para pasear a los perros"
+  },
+  {
+   "title": "Acogida sin fronteras",
+   "text": "Acompaña a personas migrantes en sus primeros trámites: médico, empadronamiento, colegio de los niños. Se valora el conocimiento de idiomas.",
+   "answer": "B",
+   "evidence": "Se valora el conocimiento de idiomas."
+  },
+  {
+   "title": "Ríos limpios",
+   "text": "Proyecto de seguimiento de la calidad del agua del Guadalquivir. Tomamos muestras una vez al mes. Ideal para estudiantes de ciencias.",
+   "answer": "C",
+   "evidence": "Ideal para estudiantes de ciencias."
+  },
+  {
+   "title": "Deberes en compañía",
+   "text": "Apoyo escolar por las tardes para alumnos de primaria con dificultades en lengua y matemáticas. Imprescindible tener paciencia.",
+   "answer": "E",
+   "evidence": "Apoyo escolar por las tardes para alumnos de primaria con dificultades en lengua y matemáticas."
+  },
+  {
+   "title": "Conductores solidarios",
+   "text": "Llevamos a personas mayores al médico y al hospital. Si tienes vehículo propio y algunas mañanas libres, te necesitamos.",
+   "answer": "D",
+   "evidence": "Si tienes vehículo propio y algunas mañanas libres, te necesitamos."
+  },
+  {
+   "title": "Webs para ONG",
+   "text": "Pequeñas asociaciones necesitan ayuda con su página web y sus redes sociales. Colaboración cien por cien en línea, a tu ritmo.",
+   "answer": "G",
+   "evidence": "Colaboración cien por cien en línea, a tu ritmo."
+  },
+  {
+   "title": "Charlas de café",
+   "text": "Visita una vez a la semana a una persona mayor que vive sola: conversar, dar un paseo, tomar un café. Pequeños gestos que cambian el día.",
+   "answer": "I",
+   "evidence": "Visita una vez a la semana a una persona mayor que vive sola"
+  }
+ ]
+}

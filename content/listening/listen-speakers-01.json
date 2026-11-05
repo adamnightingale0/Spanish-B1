@@ -1,0 +1,108 @@
+{
+ "id": "listen-speakers-01",
+ "unit": 9,
+ "taskFormat": "listen-speakers",
+ "title": "Planes para el puente",
+ "voiceRate": 1,
+ "context": "Vas a escuchar una conversación entre tres amigos, Ana, Bruno y Carla, que organizan un viaje para el puente de diciembre.",
+ "speakers": {
+  "A": "Ana",
+  "B": "Bruno",
+  "C": "Carla"
+ },
+ "script": [
+  {
+   "speaker": "A",
+   "line": "Bueno, chicos, tenemos que decidir ya adónde vamos en el puente, que si no, nos quedamos sin alojamiento."
+  },
+  {
+   "speaker": "B",
+   "line": "Yo lo tengo clarísimo: a la sierra. Una casa rural, chimenea, rutas por el monte… Necesito desconectar del trabajo."
+  },
+  {
+   "speaker": "C",
+   "line": "Ay, Bruno, la sierra en diciembre… Hace un frío que pela. Yo prefiero una ciudad, con museos y restaurantes."
+  },
+  {
+   "speaker": "A",
+   "line": "A mí me da igual el sitio, pero el año pasado gastamos muchísimo. Esta vez tenemos que buscar algo barato."
+  },
+  {
+   "speaker": "B",
+   "line": "Pues una casa rural entre los tres sale muy bien de precio. Además, podemos cocinar nosotros."
+  },
+  {
+   "speaker": "C",
+   "line": "¿Cocinar en vacaciones? Ni hablar. Para eso me quedo en casa."
+  },
+  {
+   "speaker": "A",
+   "line": "¿Y si vamos a Granada? Hay ciudad, hay sierra cerca y los bares ponen tapa gratis con la bebida."
+  },
+  {
+   "speaker": "C",
+   "line": "¡Me encanta la idea! Nunca he visto la Alhambra, me da hasta vergüenza decirlo."
+  },
+  {
+   "speaker": "B",
+   "line": "Bueno, vale, pero con una condición: un día subimos a Sierra Nevada a caminar."
+  },
+  {
+   "speaker": "A",
+   "line": "Hecho. Yo me encargo de buscar un apartamento en el Albaicín."
+  },
+  {
+   "speaker": "C",
+   "line": "Y yo reservo las entradas de la Alhambra, que se agotan enseguida."
+  },
+  {
+   "speaker": "B",
+   "line": "Pues entonces yo llevo el coche. Eso sí, la gasolina la pagamos entre todos."
+  },
+  {
+   "speaker": "A",
+   "line": "Claro. Oye, Carla, ¿tú no tenías que trabajar el viernes?"
+  },
+  {
+   "speaker": "C",
+   "line": "Sí, pero he pedido el día libre. Mi jefa me ha dicho que no hay problema."
+  }
+ ],
+ "statements": [
+  {
+   "s": "Quiere ir al campo para olvidarse del trabajo.",
+   "answer": "B",
+   "evidence": "Necesito desconectar del trabajo."
+  },
+  {
+   "s": "Le preocupa sobre todo el dinero.",
+   "answer": "A",
+   "evidence": "Esta vez tenemos que buscar algo barato."
+  },
+  {
+   "s": "No quiere cocinar durante el viaje.",
+   "answer": "C",
+   "evidence": "¿Cocinar en vacaciones? Ni hablar."
+  },
+  {
+   "s": "Propone el destino final.",
+   "answer": "A",
+   "evidence": "¿Y si vamos a Granada?"
+  },
+  {
+   "s": "Nunca ha estado en la Alhambra.",
+   "answer": "C",
+   "evidence": "Nunca he visto la Alhambra"
+  },
+  {
+   "s": "Va a reservar el hotel en Sierra Nevada.",
+   "answer": "N",
+   "evidence": "Yo me encargo de buscar un apartamento en el Albaicín."
+  },
+  {
+   "s": "Va a conducir.",
+   "answer": "B",
+   "evidence": "Pues entonces yo llevo el coche."
+  }
+ ]
+}

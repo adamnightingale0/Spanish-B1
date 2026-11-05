@@ -1,12 +1,14 @@
 import { createContext } from 'preact';
 import { useContext } from 'preact/hooks';
-import type { Attempt, Settings, SrsRecord } from './lib/db';
+import type { Attempt, Settings, SrsRecord, SkillResult } from './lib/db';
 import type { SessionSpec } from './lib/session';
 
 export interface AppState {
   settings: Settings;
   attempts: Attempt[];
   srs: SrsRecord[];
+  skills: SkillResult[];
+  addSkillResult: (r: SkillResult) => void;
   saveSrsRecord: (r: SrsRecord) => void;
   hasBook: boolean;
   setHasBook: (b: boolean) => void;

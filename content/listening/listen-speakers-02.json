@@ -1,0 +1,104 @@
+{
+ "id": "listen-speakers-02",
+ "unit": 1,
+ "taskFormat": "listen-speakers",
+ "title": "Normas del piso compartido",
+ "voiceRate": 1,
+ "context": "Vas a escuchar una conversación entre tres compañeros de piso, Álvaro, Berta y Ciro, que hablan sobre las normas de la casa.",
+ "speakers": {
+  "A": "Álvaro",
+  "B": "Berta",
+  "C": "Ciro"
+ },
+ "script": [
+  {
+   "speaker": "B",
+   "line": "Chicos, tenemos que hablar. Llevo tres días sin poder usar la cocina porque el fregadero está lleno de platos."
+  },
+  {
+   "speaker": "A",
+   "line": "Ya, perdona, esos son míos. Esta semana he tenido exámenes y no he tenido tiempo para nada."
+  },
+  {
+   "speaker": "C",
+   "line": "Yo propongo hacer una lista de tareas y colgarla en la nevera. Cada semana, a cada uno le toca una cosa."
+  },
+  {
+   "speaker": "B",
+   "line": "Me parece bien. Pero también tenemos que hablar del ruido. Ciro, el otro día pusiste música a las dos de la mañana."
+  },
+  {
+   "speaker": "C",
+   "line": "¿Que puse música a las dos? Era la una, y era el cumpleaños de mi hermano…"
+  },
+  {
+   "speaker": "A",
+   "line": "Bueno, bueno, no discutáis. Podemos decidir que entre semana no hay ruido después de las once."
+  },
+  {
+   "speaker": "B",
+   "line": "Vale. Y los fines de semana, como mucho hasta la una."
+  },
+  {
+   "speaker": "C",
+   "line": "De acuerdo. Otra cosa: ¿quién se ha comido mis yogures? Los compré el lunes y han desaparecido."
+  },
+  {
+   "speaker": "A",
+   "line": "Uy, creo que fui yo. Pensaba que eran de todos. Mañana te compro otros."
+  },
+  {
+   "speaker": "B",
+   "line": "Pues para eso, cada uno debería tener su balda en la nevera, con su nombre."
+  },
+  {
+   "speaker": "C",
+   "line": "Buena idea. Y la compra común, aceite, sal, papel higiénico, la pagamos a medias entre los tres."
+  },
+  {
+   "speaker": "A",
+   "line": "Perfecto. Yo me ofrezco a hacer la lista de tareas esta noche."
+  },
+  {
+   "speaker": "B",
+   "line": "Genial. Y la semana que viene hablamos de las visitas, que eso también hay que organizarlo."
+  }
+ ],
+ "statements": [
+  {
+   "s": "Se queja de no poder usar la cocina.",
+   "answer": "B",
+   "evidence": "Llevo tres días sin poder usar la cocina"
+  },
+  {
+   "s": "Explica que ha estado muy ocupado con los estudios.",
+   "answer": "A",
+   "evidence": "Esta semana he tenido exámenes"
+  },
+  {
+   "s": "Sugiere poner las tareas por escrito.",
+   "answer": "C",
+   "evidence": "Yo propongo hacer una lista de tareas"
+  },
+  {
+   "s": "Niega la hora que dice su compañera.",
+   "answer": "C",
+   "evidence": "¿Que puse música a las dos? Era la una"
+  },
+  {
+   "s": "Propone prohibir las fiestas en el piso.",
+   "answer": "N",
+   "evidence": "Podemos decidir que entre semana no hay ruido después de las once."
+  },
+  {
+   "s": "Reconoce que se comió algo de otro.",
+   "answer": "A",
+   "evidence": "Uy, creo que fui yo."
+  },
+  {
+   "s": "Quiere hablar de las visitas más adelante.",
+   "answer": "B",
+   "evidence": "la semana que viene hablamos de las visitas"
+  }
+ ]
+}

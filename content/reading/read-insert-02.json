@@ -1,0 +1,102 @@
+{
+ "id": "read-insert-02",
+ "unit": 3,
+ "taskFormat": "read-insert",
+ "topic": "deporte",
+ "title": "Correr: de moda pasajera a hábito",
+ "text": [
+  "Hace veinte años, ver a alguien corriendo por la calle llamaba la atención. Hoy es difícil pasear por un parque de cualquier ciudad española sin cruzarse con decenas de corredores. {{1}} Hay quien sale a primera hora de la mañana, antes de ir a la oficina, y quien prefiere correr de noche, cuando las calles están más tranquilas y hace menos calor.",
+  "Las razones de este éxito son sencillas. {{2}} No hace falta pagar un gimnasio ni comprar un equipo caro: con unas buenas zapatillas es suficiente. Además, se puede practicar a cualquier hora y en cualquier lugar, solo o en compañía. Muchas personas aprovechan los viajes de trabajo para conocer las ciudades corriendo.",
+  "Las carreras populares también han contribuido a esta fiebre. {{3}} En ellas participan desde atletas profesionales hasta personas que corren por primera vez, y muchas tienen un fin solidario. Lo que se recauda con las inscripciones suele destinarse a asociaciones de enfermos o a proyectos sociales del barrio.",
+  "Sin embargo, los médicos advierten de que correr no es tan inofensivo como parece. {{4}} Las lesiones de rodilla y de tobillo son muy frecuentes, sobre todo entre quienes empiezan con demasiado entusiasmo.",
+  "Los expertos recomiendan empezar poco a poco, alternando minutos de carrera y de caminata. {{5}} También es importante calentar antes de salir, estirar al terminar y descansar al menos un día entre entrenamientos.",
+  "Otro error frecuente es obsesionarse con los números. {{6}} Hay corredores que dejan de disfrutar porque solo piensan en bajar su tiempo o en correr más kilómetros que la semana anterior. Otros se comparan constantemente con sus amigos en las aplicaciones y se sienten mal si no están entre los mejores.",
+  "Para la psicóloga deportiva Ana Torres, la clave está en no perder de vista el motivo por el que empezamos. {{7}} «Si corres para sentirte bien, no tiene sentido terminar cada entrenamiento enfadado contigo mismo», concluye."
+ ],
+ "fragments": [
+  {
+   "id": "A",
+   "text": "Según algunas estimaciones, en España corren con regularidad más de tres millones de personas."
+  },
+  {
+   "id": "B",
+   "text": "Correr es, probablemente, el deporte más barato y accesible que existe."
+  },
+  {
+   "id": "C",
+   "text": "Cada fin de semana se celebran decenas de ellas por todo el país."
+  },
+  {
+   "id": "D",
+   "text": "Hacer demasiados kilómetros sin preparación puede causar problemas."
+  },
+  {
+   "id": "E",
+   "text": "De este modo, el cuerpo se acostumbra al esfuerzo sin sufrir."
+  },
+  {
+   "id": "F",
+   "text": "Los relojes inteligentes miden la velocidad, la distancia y hasta el ritmo del corazón."
+  },
+  {
+   "id": "G",
+   "text": "En su opinión, la salud y el placer deberían ir siempre por delante de las marcas."
+  },
+  {
+   "id": "H",
+   "text": "Por eso, la mayoría de los corredores prefiere entrenar en el gimnasio."
+  },
+  {
+   "id": "I",
+   "text": "Ninguna de ellas, sin embargo, está abierta a corredores aficionados."
+  },
+  {
+   "id": "J",
+   "text": "Antes de los cuarenta años, en cambio, no hay ningún riesgo."
+  }
+ ],
+ "gaps": [
+  {
+   "n": 1,
+   "answer": "A",
+   "clue": "decenas de corredores",
+   "why": "The figure (three million) develops the idea of how many people run today."
+  },
+  {
+   "n": 2,
+   "answer": "B",
+   "clue": "barato y accesible",
+   "why": "The next sentences explain why it is cheap (no gym) and accessible (any time, any place)."
+  },
+  {
+   "n": 3,
+   "answer": "C",
+   "clue": "ellas",
+   "why": "«ellas» refers to «las carreras populares», and «En ellas» in the next sentence continues the reference."
+  },
+  {
+   "n": 4,
+   "answer": "D",
+   "clue": "puede causar problemas",
+   "why": "It explains why running isn't harmless; the next sentence names the problems (injuries)."
+  },
+  {
+   "n": 5,
+   "answer": "E",
+   "clue": "De este modo",
+   "why": "«De este modo» refers to starting gradually, alternating running and walking."
+  },
+  {
+   "n": 6,
+   "answer": "F",
+   "clue": "los números",
+   "why": "Smart watches produce the numbers that some runners become obsessed with."
+  },
+  {
+   "n": 7,
+   "answer": "G",
+   "clue": "En su opinión",
+   "why": "«su» refers to Ana Torres; her opinion is then developed in the quote."
+  }
+ ]
+}

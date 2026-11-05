@@ -7,7 +7,7 @@ const TABS = [
 ];
 
 export function TabBar({ route }: { route: string }) {
-  const active = route === 'settings' ? 'progress' : route;
+  const active = route === 'settings' ? 'progress' : route === 'reading' || route === 'listening' ? 'practice' : route;
   return (
     <nav class="tabbar">
       {TABS.map((t) => (

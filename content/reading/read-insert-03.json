@@ -1,0 +1,102 @@
+{
+ "id": "read-insert-03",
+ "unit": 8,
+ "taskFormat": "read-insert",
+ "topic": "viajes",
+ "title": "Vuelve el tren nocturno",
+ "text": [
+  "Durante años parecía que los trenes nocturnos estaban condenados a desaparecer. Los vuelos baratos y la alta velocidad los dejaron sin pasajeros, y muchas compañías cerraron sus líneas. En España, el último tren nocturno dejó de circular en 2020. {{1}} Hoy es posible dormir en un tren entre ciudades como París y Berlín, Viena y Roma o Bruselas y Praga.",
+  "Detrás de este regreso está, sobre todo, la preocupación por el medioambiente. {{2}} Por eso, cada vez más viajeros eligen el tren aunque el viaje dure más horas. Algunas empresas incluso lo recomiendan a sus empleados para los viajes de negocios.",
+  "La comodidad es otro argumento a favor. {{3}} Además, al llegar no hay que desplazarse desde un aeropuerto lejano, porque las estaciones suelen estar en el centro de las ciudades.",
+  "Las compañías han modernizado los vagones para atraer a nuevos clientes. {{4}} Hay compartimentos privados con baño, conexión wifi y desayuno incluido en el precio. Para quienes viajan con poco dinero, existen también literas en compartimentos de seis personas, mucho más económicas.",
+  "No todo es perfecto, claro. {{5}} En temporada alta, un billete en cama individual puede costar más que un vuelo con hotel incluido.",
+  "También hay quejas sobre la puntualidad. {{6}} Algunos pasajeros cuentan que han llegado a su destino con tres o cuatro horas de retraso por problemas en las vías. Para quien tiene una reunión a primera hora, un retraso así puede ser un problema serio.",
+  "Aun así, quienes lo prueban suelen repetir. {{7}} Mirar el paisaje por la ventana, leer sin prisa o charlar con desconocidos en el vagón restaurante son placeres que el avión no ofrece. Como dice una viajera alemana que hace cada año la ruta de Viena a Venecia: «En el avión solo llegas. En el tren, viajas»."
+ ],
+ "fragments": [
+  {
+   "id": "A",
+   "text": "Sin embargo, en los últimos años han vuelto con fuerza a las vías europeas."
+  },
+  {
+   "id": "B",
+   "text": "Un avión contamina mucho más por pasajero que un tren en un trayecto de la misma distancia."
+  },
+  {
+   "id": "C",
+   "text": "El viajero se acuesta en una ciudad y se despierta en otra, sin perder un día de vacaciones."
+  },
+  {
+   "id": "D",
+   "text": "Atrás quedan los asientos incómodos y los vagones viejos de los años ochenta."
+  },
+  {
+   "id": "E",
+   "text": "El principal inconveniente es el precio, que a veces resulta muy elevado."
+  },
+  {
+   "id": "F",
+   "text": "Los trenes nocturnos, al compartir las vías con los de mercancías, sufren a menudo retrasos."
+  },
+  {
+   "id": "G",
+   "text": "Para muchos, la experiencia forma ya parte del propio viaje."
+  },
+  {
+   "id": "H",
+   "text": "Por eso, los gobiernos han decidido prohibir los vuelos de menos de dos horas."
+  },
+  {
+   "id": "I",
+   "text": "Ninguna compañía, en cambio, ofrece todavía servicio de comida."
+  },
+  {
+   "id": "J",
+   "text": "Además, los aeropuertos están cada vez más cerca del centro."
+  }
+ ],
+ "gaps": [
+  {
+   "n": 1,
+   "answer": "A",
+   "clue": "Sin embargo",
+   "why": "«Sin embargo» contrasts with the trains seeming condemned to disappear; the next paragraph mentions «este regreso»."
+  },
+  {
+   "n": 2,
+   "answer": "B",
+   "clue": "contamina",
+   "why": "It develops the environmental concern; «Por eso» then explains why travellers choose the train."
+  },
+  {
+   "n": 3,
+   "answer": "C",
+   "clue": "se despierta en otra",
+   "why": "Sleeping on the move is the comfort argument; «Además» adds a second advantage."
+  },
+  {
+   "n": 4,
+   "answer": "D",
+   "clue": "Atrás quedan",
+   "why": "It contrasts the old carriages with the modern features described next."
+  },
+  {
+   "n": 5,
+   "answer": "E",
+   "clue": "inconveniente",
+   "why": "«No todo es perfecto» introduces a drawback; the next sentence gives an example of the price."
+  },
+  {
+   "n": 6,
+   "answer": "F",
+   "clue": "retrasos",
+   "why": "It explains the complaints about punctuality, illustrated by passengers' delays."
+  },
+  {
+   "n": 7,
+   "answer": "G",
+   "clue": "forma ya parte del propio viaje",
+   "why": "The idea that the journey is part of the trip is echoed in the final quote."
+  }
+ ]
+}

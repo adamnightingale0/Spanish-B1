@@ -179,3 +179,92 @@ export type GrammarPoint = z.infer<typeof GrammarPoint>;
 export type ExamProfile = z.infer<typeof ExamProfile>;
 export type WhyId = z.infer<typeof WhyId>;
 export type TimeMarker = z.infer<typeof TimeMarker>;
+
+/* ---------- Skill tasks (Phase 3) ---------- */
+
+const evidenceText = z.string().min(5); // must appear verbatim in the text / script (checked by validate-content)
+
+export const ReadMcq = z.object({
+  id: z.string(),
+  unit: z.number().int().min(0).max(12),
+  taskFormat: z.literal('read-mcq'),
+  title: z.string(),
+  topic: z.string(),
+  text: z.array(z.string()).min(3), // paragraphs
+  questions: z
+    .array(z.object({ q: z.string(), options: z.array(z.string()).length(3), answer: z.number().int().min(0).max(2), evidence: evidenceText }))
+    .length(7)
+});
+
+export const ReadMatch = z.object({
+  id: z.string(),
+  unit: z.number().int().min(0).max(12),
+  taskFormat: z.literal('read-match'),
+  title: z.string(),
+  topic: z.string(),
+  instruction: z.string(),
+  profiles: z.array(z.object({ id: z.string().regex(/^[A-J]$/), text: z.string() })).length(10),
+  texts: z.array(z.object({ title: z.string(), text: z.string(), answer: z.string().regex(/^[A-J]$/), evidence: evidenceText })).length(8)
+});
+
+export const ReadInsert = z.object({
+  id: z.string(),
+  unit: z.number().int().min(0).max(12),
+  taskFormat: z.literal('read-insert'),
+  title: z.string(),
+  topic: z.string(),
+  text: z.array(z.string()).min(3), // paragraphs with {{1}}…{{7}} markers
+  fragments: z.array(z.object({ id: z.string().regex(/^[A-J]$/), text: z.string() })).length(10),
+  gaps: z.array(z.object({ n: z.number().int().min(1).max(7), answer: z.string().regex(/^[A-J]$/), clue: evidenceText, why: z.string() })).length(7)
+});
+
+export const ReadingTask = z.union([ReadMcq, ReadMatch, ReadInsert]);
+
+const Line = z.object({ speaker: z.string(), line: z.string() });
+
+export const ListenReply = z.object({
+  id: z.string(),
+  unit: z.number().int().min(0).max(12),
+  taskFormat: z.literal('listen-reply'),
+  title: z.string(),
+  voiceRate: z.number().default(1),
+  items: z
+    .array(z.object({ speaker: z.string(), script: z.string(), options: z.array(z.string()).length(3), answer: z.number().int().min(0).max(2), why: z.string() }))
+    .length(6)
+});
+
+export const ListenSpeakers = z.object({
+  id: z.string(),
+  unit: z.number().int().min(0).max(12),
+  taskFormat: z.literal('listen-speakers'),
+  title: z.string(),
+  context: z.string(),
+  voiceRate: z.number().default(1),
+  speakers: z.object({ A: z.string(), B: z.string(), C: z.string() }),
+  script: z.array(Line).min(12),
+  statements: z.array(z.object({ s: z.string(), answer: z.enum(['A', 'B', 'C', 'N']), evidence: evidenceText })).length(7)
+});
+
+export const ListenInterview = z.object({
+  id: z.string(),
+  unit: z.number().int().min(0).max(12),
+  taskFormat: z.literal('listen-interview'),
+  title: z.string(),
+  context: z.string(),
+  voiceRate: z.number().default(1),
+  script: z.array(Line).min(12),
+  questions: z
+    .array(z.object({ q: z.string(), options: z.array(z.string()).length(3), answer: z.number().int().min(0).max(2), evidence: evidenceText }))
+    .length(7)
+});
+
+export const ListeningTask = z.union([ListenReply, ListenSpeakers, ListenInterview]);
+
+export type ReadingTask = z.infer<typeof ReadingTask>;
+export type ListeningTask = z.infer<typeof ListeningTask>;
+export type ReadMcq = z.infer<typeof ReadMcq>;
+export type ReadMatch = z.infer<typeof ReadMatch>;
+export type ReadInsert = z.infer<typeof ReadInsert>;
+export type ListenReply = z.infer<typeof ListenReply>;
+export type ListenSpeakers = z.infer<typeof ListenSpeakers>;
+export type ListenInterview = z.infer<typeof ListenInterview>;

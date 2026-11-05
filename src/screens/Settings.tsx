@@ -125,7 +125,7 @@ export function SettingsScreen() {
             <button onClick={() => speak('Esta mañana he perdido el autobús.', s.voiceURI, s.ttsRate)}>🔊</button>
           </div>
         ) : (
-          <p class="small muted">No hay voces en español. En el iPhone: Ajustes → Accesibilidad → Contenido leído → Voces → Español (España).</p>
+          <p class="small muted">No hay voces en español. En el iPhone: Ajustes → Accesibilidad → Leer y hablar (en versiones anteriores, «Contenido leído») → Voces → Español → España. Si no lo encuentras, escribe «Voces» en el buscador de Ajustes.</p>
         )}
       </label>
       <label class="field">
