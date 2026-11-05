@@ -1,0 +1,66 @@
+{
+ "id": "u10",
+ "unit": 10,
+ "title": "De diseño",
+ "grammarPoints": [
+  "relativas-ind-subj",
+  "relativas-preposicion",
+  "valorar-objetos",
+  "exclamativas",
+  "superlativo-isimo"
+ ],
+ "functions": [
+  "describir características y funcionamiento",
+  "opinar sobre objetos"
+ ],
+ "themes": [
+  "objetos",
+  "diseño y moda"
+ ],
+ "writingTaskType": "póster de objetos que necesitamos",
+ "phonetics": "la entonación de las parentéticas",
+ "targetWords": [
+  "lujoso/a",
+  "sencillo/a",
+  "colorido/a",
+  "útil",
+  "práctico/a",
+  "blando/a",
+  "duro/a",
+  "frágil",
+  "llamativo/a",
+  "suave",
+  "de madera",
+  "de hierro",
+  "de piedra",
+  "de plástico",
+  "de cristal",
+  "de lana",
+  "de algodón",
+  "de cerámica",
+  "cuadrado/a",
+  "redondo/a",
+  "rectangular",
+  "alargado/a",
+  "estrecho/a",
+  "servir para",
+  "funcionar con pilas",
+  "arrugarse",
+  "estropearse",
+  "caber",
+  "ocupar espacio",
+  "el diseño gráfico",
+  "estar de moda",
+  "pasado/a de moda"
+ ],
+ "bookRef": {
+  "page": 136,
+  "lexico": 144,
+  "gramatica": 145,
+  "masGramatica": [
+   297,
+   298
+  ],
+  "masEjercicios": 242
+ }
+}

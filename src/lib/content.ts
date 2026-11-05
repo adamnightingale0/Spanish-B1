@@ -44,6 +44,6 @@ export const TYPE_LABELS: Record<DrillItem['type'], string> = {
   cloze: 'Historia (cloze)'
 };
 
-export function bookRefFor(item: DrillItem): { page: number; masEjercicios?: number; masGramatica?: number } | undefined {
+export function bookRefFor(item: DrillItem): { page: number; masEjercicios?: number; masGramatica?: number; ejercicios?: string } | undefined {
   return gpById.get(item.grammarPoint)?.bookRef ?? unitByNumber.get(item.unit)?.bookRef;
 }

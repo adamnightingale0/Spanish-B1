@@ -1,0 +1,72 @@
+{
+ "id": "u02",
+ "unit": 2,
+ "title": "Volver a empezar",
+ "grammarPoints": [
+  "perifrasis-tiempo",
+  "llevar-seguir-gerundio",
+  "estar-gerundio",
+  "desde-hace",
+  "past-review"
+ ],
+ "functions": [
+  "hablar de hábitos en el presente",
+  "relatar experiencias pasadas",
+  "hablar del inicio y la duración de una acción",
+  "localizar una acción en el tiempo"
+ ],
+ "themes": [
+  "trayectoria personal",
+  "trabajo y experiencia laboral",
+  "cambios de vida"
+ ],
+ "writingTaskType": "carta de presentación para un trabajo",
+ "phonetics": "interrogativas disyuntivas",
+ "targetWords": [
+  "enamorarse",
+  "casarse",
+  "separarse",
+  "divorciarse",
+  "independizarse",
+  "jubilarse",
+  "mudarse de casa",
+  "quedarse en el paro",
+  "tener un accidente",
+  "cambiar de trabajo",
+  "cambiar de vida",
+  "un cambio radical",
+  "un cambio de aires",
+  "el/la candidato/a",
+  "el/la compañero/a de trabajo",
+  "el contrato indefinido",
+  "el contrato temporal",
+  "el trabajo a tiempo parcial",
+  "el trabajo precario",
+  "estar al mando de",
+  "coordinar un equipo",
+  "la sede",
+  "la filial",
+  "montar una empresa",
+  "hacer un máster",
+  "hacer unas prácticas",
+  "solicitar un puesto",
+  "la carta de presentación",
+  "la entrevista de trabajo",
+  "dejar / dejar de",
+  "acabar / acabar de",
+  "Estimados señores",
+  "Atentamente",
+  "Cordialmente",
+  "Saludos cordiales"
+ ],
+ "bookRef": {
+  "page": 24,
+  "lexico": 32,
+  "gramatica": 33,
+  "masEjercicios": 186,
+  "masGramatica": [
+   275,
+   290
+  ]
+ }
+}

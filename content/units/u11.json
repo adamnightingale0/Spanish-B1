@@ -1,29 +1,448 @@
 {
-  "id": "u11", "unit": 11, "title": "Un mundo mejor", "theme": "Problemas y soluciones",
-  "vocabAreas": ["Acciones para un mundo mejor", "Objetos y materiales"],
-  "writingTask": "Presentar problemas y proponer soluciones",
-  "bookRef": { "page": 150 },
-  "grammarPoints": ["valorar-inf-subj", "condicional", "lo-neutro"],
-  "items": [
-    { "id": "u11-val-001", "type": "choice", "unit": 11, "grammarPoint": "valorar-inf-subj", "difficulty": 1, "prompt": "Me parece fatal que los supermercados ___ tanta comida.", "options": ["tiren", "tiran", "tirar"], "answers": ["tiren"], "feedback": "Value judgment + que → subjunctive.", "contrast": "Me parece fatal tirar comida." },
-    { "id": "u11-val-002", "type": "choice", "unit": 11, "grammarPoint": "valorar-inf-subj", "difficulty": 1, "prompt": "Está bien ___ la bici, pero hacen falta más carriles.", "options": ["usar", "que usa", "usa"], "answers": ["usar"], "feedback": "General statement → infinitive.", "contrast": "Está bien que uses la bici." },
-    { "id": "u11-val-003", "type": "gap", "unit": 11, "grammarPoint": "valorar-inf-subj", "difficulty": 2, "prompt": "Es injusto que las mujeres ___ (cobrar) menos por el mismo trabajo.", "answers": ["cobren"], "feedback": "es injusto que + subjunctive.", "contrast": "Es injusto cobrar menos." },
-    { "id": "u11-val-004", "type": "gap", "unit": 11, "grammarPoint": "valorar-inf-subj", "difficulty": 2, "prompt": "Es una vergüenza que todavía ___ (haber) personas sin hogar.", "answers": ["haya"], "feedback": "haber → haya (subjunctive).", "contrast": "Hay personas sin hogar (fact)." },
-    { "id": "u11-val-005", "type": "transform", "unit": 11, "grammarPoint": "valorar-inf-subj", "difficulty": 2, "instruction": "Valora con «Me parece bien que…».", "prompt": "El ayuntamiento cierra el centro a los coches.", "answers": ["Me parece bien que el ayuntamiento cierre el centro a los coches"], "feedback": "cierra → cierre (e→ie in the subjunctive too).", "contrast": "Me parece bien cerrar el centro." },
-    { "id": "u11-val-006", "type": "choice", "unit": 11, "grammarPoint": "valorar-inf-subj", "difficulty": 3, "prompt": "Es lógico que la gente ___ enfadada con la subida de los alquileres.", "options": ["esté", "está", "estar"], "answers": ["esté"], "feedback": "es lógico que + subjunctive.", "contrast": "Es verdad que la gente está enfadada (certainty → indicative)." },
-
-    { "id": "u11-cond-001", "type": "conjugate", "unit": 11, "grammarPoint": "condicional", "difficulty": 1, "verb": "vivir", "person": "nosotros", "tense": "condicional", "answers": ["viviríamos"], "feedback": "Infinitive + -íamos.", "contrast": "vivíamos (imperfecto)" },
-    { "id": "u11-cond-002", "type": "conjugate", "unit": 11, "grammarPoint": "condicional", "difficulty": 2, "verb": "poder", "person": "tú", "tense": "condicional", "answers": ["podrías"], "feedback": "poder → podr- + ías.", "contrast": "podías (imperfecto)" },
-    { "id": "u11-cond-003", "type": "conjugate", "unit": 11, "grammarPoint": "condicional", "difficulty": 2, "verb": "hacer", "person": "yo", "tense": "condicional", "answers": ["haría"], "feedback": "hacer → har- + ía.", "contrast": "haré (futuro)" },
-    { "id": "u11-cond-004", "type": "gap", "unit": 11, "grammarPoint": "condicional", "difficulty": 2, "prompt": "Yo que tú, ___ (hablar) con el casero sobre la humedad.", "answers": ["hablaría"], "feedback": "Advice with yo que tú / yo en tu lugar + condicional.", "contrast": "Habla con el casero (imperative)." },
-    { "id": "u11-cond-005", "type": "gap", "unit": 11, "grammarPoint": "condicional", "difficulty": 2, "prompt": "¿___ (importar, a ti) cerrar la puerta, por favor?", "answers": ["Te importaría"], "feedback": "Polite request: ¿te importaría + infinitive?", "contrast": "¿Te importa…? (less polite)" },
-    { "id": "u11-cond-006", "type": "conjugate", "unit": 11, "grammarPoint": "condicional", "difficulty": 3, "verb": "salir", "person": "vosotros", "tense": "condicional", "answers": ["saldríais"], "feedback": "salir → saldr- + íais.", "contrast": "saldréis (futuro)" },
-
-    { "id": "u11-lo-001", "type": "choice", "unit": 11, "grammarPoint": "lo-neutro", "difficulty": 1, "prompt": "___ peor de la ciudad es el tráfico.", "options": ["Lo", "El", "La"], "answers": ["Lo"], "feedback": "lo + adjective = 'the worst thing'.", "contrast": "El peor barrio…" },
-    { "id": "u11-lo-002", "type": "choice", "unit": 11, "grammarPoint": "lo-neutro", "difficulty": 1, "prompt": "___ más me preocupa es el cambio climático.", "options": ["Lo que", "Que", "El que"], "answers": ["Lo que"], "feedback": "lo que = what (the thing that).", "contrast": "El problema que más me preocupa…" },
-    { "id": "u11-lo-003", "type": "choice", "unit": 11, "grammarPoint": "lo-neutro", "difficulty": 2, "prompt": "Lo ___ de este proyecto es que es barato.", "options": ["bueno", "buena", "buen"], "answers": ["bueno"], "feedback": "lo + adjective stays masculine singular.", "contrast": "La parte buena es…" },
-    { "id": "u11-lo-004", "type": "gap", "unit": 11, "grammarPoint": "lo-neutro", "difficulty": 2, "prompt": "No entiendo ___ (lo / lo que) dices.", "answers": ["lo que"], "feedback": "lo que + verb = what (you say).", "contrast": "Lo importante es…" },
-    { "id": "u11-lo-005", "type": "transform", "unit": 11, "grammarPoint": "lo-neutro", "difficulty": 2, "instruction": "Reescribe con «Lo que necesitamos es…».", "prompt": "Necesitamos más transporte público.", "answers": ["Lo que necesitamos es más transporte público"], "feedback": "lo que + verb + es + emphasised element.", "contrast": "Necesitamos más transporte público." },
-    { "id": "u11-lo-006", "type": "choice", "unit": 11, "grammarPoint": "lo-neutro", "difficulty": 2, "prompt": "Lo más importante es que todos ___ algo.", "options": ["hagamos", "hacemos", "hacer"], "answers": ["hagamos"], "feedback": "lo importante es que + subjunctive.", "contrast": "Lo importante es hacer algo." }
-  ]
+ "id": "u11",
+ "unit": 11,
+ "title": "Un mundo mejor",
+ "theme": "Problemas y soluciones",
+ "vocabAreas": [
+  "Acciones para un mundo mejor",
+  "Objetos y materiales"
+ ],
+ "writingTask": "Presentar problemas y proponer soluciones",
+ "bookRef": {
+  "page": 150,
+  "masEjercicios": 249,
+  "masGramatica": 263
+ },
+ "grammarPoints": [
+  "valorar-inf-subj",
+  "condicional",
+  "lo-neutro",
+  "veracidad-ind-subj"
+ ],
+ "items": [
+  {
+   "id": "u11-val-001",
+   "type": "choice",
+   "unit": 11,
+   "grammarPoint": "valorar-inf-subj",
+   "difficulty": 1,
+   "prompt": "Me parece fatal que los supermercados ___ tanta comida.",
+   "options": [
+    "tiren",
+    "tiran",
+    "tirar"
+   ],
+   "answers": [
+    "tiren"
+   ],
+   "feedback": "Value judgment + que → subjunctive.",
+   "contrast": "Me parece fatal tirar comida."
+  },
+  {
+   "id": "u11-val-002",
+   "type": "choice",
+   "unit": 11,
+   "grammarPoint": "valorar-inf-subj",
+   "difficulty": 1,
+   "prompt": "Está bien ___ la bici, pero hacen falta más carriles.",
+   "options": [
+    "usar",
+    "que usa",
+    "usa"
+   ],
+   "answers": [
+    "usar"
+   ],
+   "feedback": "General statement → infinitive.",
+   "contrast": "Está bien que uses la bici."
+  },
+  {
+   "id": "u11-val-003",
+   "type": "gap",
+   "unit": 11,
+   "grammarPoint": "valorar-inf-subj",
+   "difficulty": 2,
+   "prompt": "Es injusto que las mujeres ___ (cobrar) menos por el mismo trabajo.",
+   "answers": [
+    "cobren"
+   ],
+   "feedback": "es injusto que + subjunctive.",
+   "contrast": "Es injusto cobrar menos."
+  },
+  {
+   "id": "u11-val-004",
+   "type": "gap",
+   "unit": 11,
+   "grammarPoint": "valorar-inf-subj",
+   "difficulty": 2,
+   "prompt": "Es una vergüenza que todavía ___ (haber) personas sin hogar.",
+   "answers": [
+    "haya"
+   ],
+   "feedback": "haber → haya (subjunctive).",
+   "contrast": "Hay personas sin hogar (fact)."
+  },
+  {
+   "id": "u11-val-005",
+   "type": "transform",
+   "unit": 11,
+   "grammarPoint": "valorar-inf-subj",
+   "difficulty": 2,
+   "instruction": "Valora con «Me parece bien que…».",
+   "prompt": "El ayuntamiento cierra el centro a los coches.",
+   "answers": [
+    "Me parece bien que el ayuntamiento cierre el centro a los coches"
+   ],
+   "feedback": "cierra → cierre (e→ie in the subjunctive too).",
+   "contrast": "Me parece bien cerrar el centro."
+  },
+  {
+   "id": "u11-val-006",
+   "type": "choice",
+   "unit": 11,
+   "grammarPoint": "valorar-inf-subj",
+   "difficulty": 3,
+   "prompt": "Es lógico que la gente ___ enfadada con la subida de los alquileres.",
+   "options": [
+    "esté",
+    "está",
+    "estar"
+   ],
+   "answers": [
+    "esté"
+   ],
+   "feedback": "es lógico que + subjunctive.",
+   "contrast": "Es verdad que la gente está enfadada (certainty → indicative)."
+  },
+  {
+   "id": "u11-cond-001",
+   "type": "conjugate",
+   "unit": 11,
+   "grammarPoint": "condicional",
+   "difficulty": 1,
+   "verb": "vivir",
+   "person": "nosotros",
+   "tense": "condicional",
+   "answers": [
+    "viviríamos"
+   ],
+   "feedback": "Infinitive + -íamos.",
+   "contrast": "vivíamos (imperfecto)"
+  },
+  {
+   "id": "u11-cond-002",
+   "type": "conjugate",
+   "unit": 11,
+   "grammarPoint": "condicional",
+   "difficulty": 2,
+   "verb": "poder",
+   "person": "tú",
+   "tense": "condicional",
+   "answers": [
+    "podrías"
+   ],
+   "feedback": "poder → podr- + ías.",
+   "contrast": "podías (imperfecto)"
+  },
+  {
+   "id": "u11-cond-003",
+   "type": "conjugate",
+   "unit": 11,
+   "grammarPoint": "condicional",
+   "difficulty": 2,
+   "verb": "hacer",
+   "person": "yo",
+   "tense": "condicional",
+   "answers": [
+    "haría"
+   ],
+   "feedback": "hacer → har- + ía.",
+   "contrast": "haré (futuro)"
+  },
+  {
+   "id": "u11-cond-004",
+   "type": "gap",
+   "unit": 11,
+   "grammarPoint": "condicional",
+   "difficulty": 2,
+   "prompt": "Yo que tú, ___ (hablar) con el casero sobre la humedad.",
+   "answers": [
+    "hablaría"
+   ],
+   "feedback": "Advice with yo que tú / yo en tu lugar + condicional.",
+   "contrast": "Habla con el casero (imperative)."
+  },
+  {
+   "id": "u11-cond-005",
+   "type": "gap",
+   "unit": 11,
+   "grammarPoint": "condicional",
+   "difficulty": 2,
+   "prompt": "¿___ (importar, a ti) cerrar la puerta, por favor?",
+   "answers": [
+    "Te importaría"
+   ],
+   "feedback": "Polite request: ¿te importaría + infinitive?",
+   "contrast": "¿Te importa…? (less polite)"
+  },
+  {
+   "id": "u11-cond-006",
+   "type": "conjugate",
+   "unit": 11,
+   "grammarPoint": "condicional",
+   "difficulty": 3,
+   "verb": "salir",
+   "person": "vosotros",
+   "tense": "condicional",
+   "answers": [
+    "saldríais"
+   ],
+   "feedback": "salir → saldr- + íais.",
+   "contrast": "saldréis (futuro)"
+  },
+  {
+   "id": "u11-lo-001",
+   "type": "choice",
+   "unit": 11,
+   "grammarPoint": "lo-neutro",
+   "difficulty": 1,
+   "prompt": "___ peor de la ciudad es el tráfico.",
+   "options": [
+    "Lo",
+    "El",
+    "La"
+   ],
+   "answers": [
+    "Lo"
+   ],
+   "feedback": "lo + adjective = 'the worst thing'.",
+   "contrast": "El peor barrio…"
+  },
+  {
+   "id": "u11-lo-002",
+   "type": "choice",
+   "unit": 11,
+   "grammarPoint": "lo-neutro",
+   "difficulty": 1,
+   "prompt": "___ más me preocupa es el cambio climático.",
+   "options": [
+    "Lo que",
+    "Que",
+    "El que"
+   ],
+   "answers": [
+    "Lo que"
+   ],
+   "feedback": "lo que = what (the thing that).",
+   "contrast": "El problema que más me preocupa…"
+  },
+  {
+   "id": "u11-lo-003",
+   "type": "choice",
+   "unit": 11,
+   "grammarPoint": "lo-neutro",
+   "difficulty": 2,
+   "prompt": "Lo ___ de este proyecto es que es barato.",
+   "options": [
+    "bueno",
+    "buena",
+    "buen"
+   ],
+   "answers": [
+    "bueno"
+   ],
+   "feedback": "lo + adjective stays masculine singular.",
+   "contrast": "La parte buena es…"
+  },
+  {
+   "id": "u11-lo-004",
+   "type": "gap",
+   "unit": 11,
+   "grammarPoint": "lo-neutro",
+   "difficulty": 2,
+   "prompt": "No entiendo ___ (lo / lo que) dices.",
+   "answers": [
+    "lo que"
+   ],
+   "feedback": "lo que + verb = what (you say).",
+   "contrast": "Lo importante es…"
+  },
+  {
+   "id": "u11-lo-005",
+   "type": "transform",
+   "unit": 11,
+   "grammarPoint": "lo-neutro",
+   "difficulty": 2,
+   "instruction": "Reescribe con «Lo que necesitamos es…».",
+   "prompt": "Necesitamos más transporte público.",
+   "answers": [
+    "Lo que necesitamos es más transporte público"
+   ],
+   "feedback": "lo que + verb + es + emphasised element.",
+   "contrast": "Necesitamos más transporte público."
+  },
+  {
+   "id": "u11-lo-006",
+   "type": "choice",
+   "unit": 11,
+   "grammarPoint": "lo-neutro",
+   "difficulty": 2,
+   "prompt": "Lo más importante es que todos ___ algo.",
+   "options": [
+    "hagamos",
+    "hacemos",
+    "hacer"
+   ],
+   "answers": [
+    "hagamos"
+   ],
+   "feedback": "lo importante es que + subjunctive.",
+   "contrast": "Lo importante es hacer algo."
+  },
+  {
+   "id": "u11-lo-007",
+   "type": "choice",
+   "unit": 11,
+   "grammarPoint": "lo-neutro",
+   "difficulty": 2,
+   "prompt": "—¿Te has enterado de ___ la subida del alquiler? —Sí, es una vergüenza.",
+   "options": [
+    "lo de",
+    "lo que",
+    "el de"
+   ],
+   "answers": [
+    "lo de"
+   ],
+   "feedback": "lo de + noun = the business about / the matter of.",
+   "contrast": "Lo que dices es verdad."
+  },
+  {
+   "id": "u11-lo-008",
+   "type": "choice",
+   "unit": 11,
+   "grammarPoint": "lo-neutro",
+   "difficulty": 2,
+   "prompt": "___ que hayan cerrado la biblioteca me parece fatal.",
+   "options": [
+    "Eso de",
+    "Lo de",
+    "Esto"
+   ],
+   "answers": [
+    "Eso de"
+   ],
+   "feedback": "eso de / lo de que + subjunctive = the fact that…",
+   "contrast": "Lo de la biblioteca me parece fatal."
+  },
+  {
+   "id": "u11-ver-001",
+   "type": "choice",
+   "unit": 11,
+   "grammarPoint": "veracidad-ind-subj",
+   "difficulty": 1,
+   "prompt": "Es evidente que el cambio climático ___ un problema grave.",
+   "options": [
+    "es",
+    "sea"
+   ],
+   "answers": [
+    "es"
+   ],
+   "feedback": "Evidence (es evidente que) → indicative.",
+   "contrast": "No es evidente que sea grave."
+  },
+  {
+   "id": "u11-ver-002",
+   "type": "choice",
+   "unit": 11,
+   "grammarPoint": "veracidad-ind-subj",
+   "difficulty": 1,
+   "prompt": "No es verdad que el reciclaje no ___ para nada.",
+   "options": [
+    "sirva",
+    "sirve"
+   ],
+   "answers": [
+    "sirva"
+   ],
+   "feedback": "Denying the truth (no es verdad que) → subjunctive.",
+   "contrast": "Es verdad que sirve."
+  },
+  {
+   "id": "u11-ver-003",
+   "type": "gap",
+   "unit": 11,
+   "grammarPoint": "veracidad-ind-subj",
+   "difficulty": 2,
+   "prompt": "Está claro que ___ (tener, nosotros) que consumir menos plástico.",
+   "answers": [
+    "tenemos"
+   ],
+   "feedback": "está claro que + indicative.",
+   "contrast": "No está claro que tengamos que…"
+  },
+  {
+   "id": "u11-ver-004",
+   "type": "gap",
+   "unit": 11,
+   "grammarPoint": "veracidad-ind-subj",
+   "difficulty": 2,
+   "prompt": "Es mentira que los coches eléctricos no ___ (contaminar) nada.",
+   "answers": [
+    "contaminen"
+   ],
+   "feedback": "es mentira / es falso que + subjunctive.",
+   "contrast": "Es cierto que contaminan menos."
+  },
+  {
+   "id": "u11-ver-005",
+   "type": "choice",
+   "unit": 11,
+   "grammarPoint": "veracidad-ind-subj",
+   "difficulty": 2,
+   "prompt": "Es cierto que la comida local ___ más sostenible.",
+   "options": [
+    "es",
+    "sea",
+    "será que"
+   ],
+   "answers": [
+    "es"
+   ],
+   "feedback": "es cierto (= es verdad) que + indicative.",
+   "contrast": "No es cierto que sea más cara."
+  },
+  {
+   "id": "u11-ver-006",
+   "type": "gap",
+   "unit": 11,
+   "grammarPoint": "veracidad-ind-subj",
+   "difficulty": 3,
+   "prompt": "No está claro que las bolsas de papel ___ (ser) mejores que las de tela.",
+   "answers": [
+    "sean"
+   ],
+   "feedback": "no está claro que + subjunctive.",
+   "contrast": "Está claro que son mejores."
+  },
+  {
+   "id": "u11-val-007",
+   "type": "choice",
+   "unit": 11,
+   "grammarPoint": "valorar-inf-subj",
+   "difficulty": 2,
+   "prompt": "Es ___ tirar la comida que sobra: hay mucha gente que pasa hambre.",
+   "options": [
+    "intolerable",
+    "inlógico",
+    "injusto que"
+   ],
+   "answers": [
+    "intolerable"
+   ],
+   "feedback": "Es + adjective + infinitive. Note: the opposite of lógico is ilógico (in- → i- before l).",
+   "contrast": "Es ilógico."
+  }
+ ]
 }

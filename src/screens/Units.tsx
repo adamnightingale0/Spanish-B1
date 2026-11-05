@@ -71,6 +71,7 @@ export function UnitDetail({ unit }: { unit: number }) {
           <div class="card">
             <h3 style={{ marginTop: 0 }}>{g.title}</h3>
             <MasteryBar m={m.get(id)} label="Dominio (últimos 20 intentos)" />
+            <BookRef {...(g.bookRef ?? {})} />
             <p style={{ marginTop: 10 }}>{g.summary}</p>
             <ul class="small">
               {g.rules.map((r) => (

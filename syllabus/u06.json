@@ -1,0 +1,62 @@
+{
+ "id": "u06",
+ "unit": 6,
+ "title": "¡Basta ya!",
+ "grammarPoints": [
+  "subjuntivo-presente",
+  "querer-pedir-que",
+  "cuando-subjuntivo",
+  "deberian-habria-que"
+ ],
+ "functions": [
+  "expresar deseos y reclamaciones",
+  "expresar necesidad",
+  "proponer soluciones",
+  "escribir una carta abierta"
+ ],
+ "themes": [
+  "vida social y administrativa",
+  "activismo social"
+ ],
+ "writingTaskType": "carta abierta para exponer un problema",
+ "spelling": "mismo sonido, distintas letras",
+ "targetWords": [
+  "la vivienda",
+  "la sanidad",
+  "el empleo",
+  "el medioambiente",
+  "la justicia",
+  "reivindicar",
+  "defender",
+  "tener derecho a",
+  "luchar contra",
+  "luchar por",
+  "protestar por / contra",
+  "concienciar sobre",
+  "exigir",
+  "una vivienda digna",
+  "la subida / subir",
+  "la bajada / bajar",
+  "el cierre / cerrar",
+  "la apertura / abrir",
+  "la reducción / reducir",
+  "el abandono / abandonar",
+  "la ocupación / ocupar",
+  "disminuir",
+  "trasladarse",
+  "realizar",
+  "cursar"
+ ],
+ "bookRef": {
+  "page": 80,
+  "lexico": 88,
+  "gramatica": 89,
+  "masGramatica": [
+   285,
+   289,
+   296,
+   299
+  ],
+  "masEjercicios": 214
+ }
+}

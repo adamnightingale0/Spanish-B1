@@ -1,0 +1,57 @@
+{
+ "id": "u07",
+ "unit": 7,
+ "title": "Mensajes",
+ "grammarPoints": [
+  "estilo-indirecto"
+ ],
+ "functions": [
+  "desenvolverse por teléfono",
+  "tomar y dejar recados",
+  "transmitir mensajes",
+  "transmitir órdenes, peticiones y consejos"
+ ],
+ "themes": [
+  "tipos de mensajes",
+  "comunicación"
+ ],
+ "writingTaskType": "crear y transmitir mensajes",
+ "spelling": "los dos puntos",
+ "targetWords": [
+  "el mensaje",
+  "el correo electrónico",
+  "la postal",
+  "la nota",
+  "la tarjeta de agradecimiento",
+  "la invitación",
+  "la felicitación",
+  "el comentario",
+  "comentar",
+  "publicar",
+  "dar tu opinión",
+  "dejar un recado",
+  "subir / colgar una foto",
+  "compartir una publicación",
+  "pedir / preguntar",
+  "¿Diga? / ¿Dígame?",
+  "¿De parte de quién?",
+  "Ahora se pone",
+  "Te paso con…",
+  "Se equivoca (de número)",
+  "dar las gracias por",
+  "despedirse de",
+  "preguntar por",
+  "sugerir",
+  "proponer",
+  "felicitar por"
+ ],
+ "bookRef": {
+  "page": 94,
+  "lexico": 102,
+  "gramatica": 103,
+  "masGramatica": [
+   299
+  ],
+  "masEjercicios": 221
+ }
+}

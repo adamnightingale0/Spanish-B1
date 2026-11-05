@@ -1,0 +1,66 @@
+{
+ "id": "u05",
+ "unit": 5,
+ "title": "Busque y compare",
+ "grammarPoints": [
+  "imperativo-afirmativo",
+  "imperativo-negativo",
+  "pronombres-posicion"
+ ],
+ "functions": [
+  "recomendar y aconsejar",
+  "dar instrucciones",
+  "describir un anuncio"
+ ],
+ "themes": [
+  "publicidad",
+  "valores y objetivos de un anuncio"
+ ],
+ "writingTaskType": "campaña publicitaria",
+ "spelling": "la tilde diacrítica",
+ "targetWords": [
+  "el/la publicista",
+  "el/la creativo/a",
+  "el/la consumidor/a",
+  "la agencia de publicidad",
+  "la marca",
+  "la valla publicitaria",
+  "el anuncio",
+  "el folleto",
+  "el cartel",
+  "la campaña institucional",
+  "vender",
+  "promocionar",
+  "persuadir",
+  "convencer",
+  "concienciar",
+  "seducir",
+  "impactar",
+  "el lujo",
+  "la juventud",
+  "la solidaridad",
+  "la igualdad",
+  "la libertad",
+  "el éxito",
+  "el eslogan",
+  "impactante",
+  "atrevido/a",
+  "polémico/a",
+  "provocador/a",
+  "efectivo/a",
+  "ir dirigido/a a",
+  "dirigirse a"
+ ],
+ "bookRef": {
+  "page": 66,
+  "lexico": 74,
+  "gramatica": 75,
+  "masGramatica": [
+   269,
+   286,
+   287,
+   288
+  ],
+  "masEjercicios": 207
+ }
+}

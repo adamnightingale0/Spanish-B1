@@ -9,7 +9,9 @@
  ],
  "writingTask": "Diseñar y presentar una campaña publicitaria",
  "bookRef": {
-  "page": 66
+  "page": 66,
+  "masEjercicios": 207,
+  "masGramatica": 263
  },
  "grammarPoints": [
   "imperativo-afirmativo",
@@ -300,6 +302,39 @@
    ],
    "feedback": "usted affirmative: llame + nos → llámenos.",
    "contrast": "No nos llame después de las ocho."
+  },
+  {
+   "id": "u05-pos-007",
+   "type": "choice",
+   "unit": 5,
+   "grammarPoint": "pronombres-posicion",
+   "difficulty": 2,
+   "prompt": "Para dormir mejor, tienes que ___ antes de acostarte.",
+   "options": [
+    "relajarte",
+    "te relajar",
+    "relájate"
+   ],
+   "answers": [
+    "relajarte"
+   ],
+   "feedback": "With an infinitive the pronoun goes on the end (or before the conjugated verb: te tienes que relajar).",
+   "contrast": "Te tienes que relajar."
+  },
+  {
+   "id": "u05-pos-008",
+   "type": "transform",
+   "unit": 5,
+   "grammarPoint": "pronombres-posicion",
+   "difficulty": 2,
+   "instruction": "Pon el pronombre delante del verbo conjugado.",
+   "prompt": "¿El coche? Están arreglándolo.",
+   "answers": [
+    "¿El coche? Lo están arreglando",
+    "Lo están arreglando"
+   ],
+   "feedback": "With estar + gerund the pronoun can go on the gerund or before estar.",
+   "contrast": "Están arreglándolo = Lo están arreglando."
   }
  ]
 }

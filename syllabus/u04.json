@@ -1,0 +1,71 @@
+{
+ "id": "u04",
+ "unit": 4,
+ "title": "Va y le dice…",
+ "grammarPoints": [
+  "presente-relato",
+  "conectores-relato",
+  "causa-contraste",
+  "pronombres-od-oi"
+ ],
+ "functions": [
+  "relatar en presente",
+  "resumir el argumento de un libro o una película",
+  "entender chistes"
+ ],
+ "themes": [
+  "cine",
+  "literatura",
+  "televisión",
+  "chistes"
+ ],
+ "writingTaskType": "sinopsis de una película",
+ "spelling": "la coma",
+ "targetWords": [
+  "contar una historia",
+  "contar un chiste",
+  "contar un secreto",
+  "narrar una anécdota",
+  "el cuento",
+  "la leyenda",
+  "el argumento",
+  "el final",
+  "la película",
+  "la saga",
+  "la serie",
+  "la novela",
+  "el relato",
+  "la comedia",
+  "el drama",
+  "el documental",
+  "de ciencia ficción",
+  "de animación",
+  "de suspense",
+  "de aventuras",
+  "de acción",
+  "de terror",
+  "del Oeste",
+  "romántica",
+  "policíaca",
+  "bélica",
+  "biográfica",
+  "fantástica",
+  "infantil",
+  "tratar de / ir de",
+  "estar basado/a en",
+  "estar ambientado/a en",
+  "el/la protagonista",
+  "salir (en una película)"
+ ],
+ "bookRef": {
+  "page": 52,
+  "lexico": 60,
+  "gramatica": 61,
+  "masEjercicios": 200,
+  "masGramatica": [
+   267,
+   273,
+   277
+  ]
+ }
+}

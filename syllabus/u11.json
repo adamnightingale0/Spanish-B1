@@ -1,0 +1,62 @@
+{
+ "id": "u11",
+ "unit": 11,
+ "title": "Un mundo mejor",
+ "grammarPoints": [
+  "condicional",
+  "lo-neutro",
+  "valorar-inf-subj",
+  "veracidad-ind-subj"
+ ],
+ "functions": [
+  "valorar situaciones y hechos",
+  "opinar sobre acciones y conductas",
+  "expresar veracidad o evidencia"
+ ],
+ "themes": [
+  "acciones para un mundo mejor",
+  "materiales de los objetos"
+ ],
+ "writingTaskType": "presentar problemas y proponer soluciones",
+ "spelling": "¿ge o jota?",
+ "targetWords": [
+  "(i)lógico",
+  "(in)necesario",
+  "(in)suficiente",
+  "(in)justo",
+  "ético",
+  "grave",
+  "intolerable",
+  "una vergüenza",
+  "una tontería",
+  "una locura",
+  "es cierto",
+  "es evidente",
+  "es obvio",
+  "es innegable",
+  "reciclar / el reciclaje",
+  "reutilizar / la reutilización",
+  "consumir / el consumo",
+  "ahorrar / el ahorro",
+  "fomentar / el fomento",
+  "biodegradable",
+  "reciclable",
+  "orgánico/a",
+  "de proximidad",
+  "de un solo uso",
+  "de usar y tirar",
+  "de segunda mano",
+  "el acero inoxidable"
+ ],
+ "bookRef": {
+  "page": 150,
+  "lexico": 158,
+  "gramatica": 159,
+  "masGramatica": [
+   265,
+   285,
+   297
+  ],
+  "masEjercicios": 249
+ }
+}

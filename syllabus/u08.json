@@ -1,0 +1,61 @@
+{
+ "id": "u08",
+ "unit": 8,
+ "title": "El turista accidental",
+ "grammarPoints": [
+  "pluscuamperfecto",
+  "past-combined",
+  "conectores-causa-consecuencia",
+  "recursos-anecdota"
+ ],
+ "functions": [
+  "contar anécdotas",
+  "mostrar interés al escuchar un relato",
+  "hablar de causas y consecuencias"
+ ],
+ "themes": [
+  "viajes y turismo",
+  "anécdotas"
+ ],
+ "writingTaskType": "anécdota real o inventada",
+ "phonetics": "la entonación de partículas narrativas",
+ "targetWords": [
+  "hacer una reserva",
+  "hacer la maleta",
+  "sacar el visado",
+  "sacar el billete",
+  "buscar alojamiento",
+  "facturar el equipaje",
+  "cancelar un vuelo",
+  "contratar un seguro de viaje",
+  "hacer escala",
+  "perder el avión",
+  "el overbooking",
+  "el equipaje de mano",
+  "salir con retraso",
+  "el turismo rural",
+  "el turismo cultural",
+  "el viaje organizado",
+  "la luna de miel",
+  "el crucero",
+  "el albergue",
+  "la casa rural",
+  "el refugio",
+  "resulta que",
+  "total, que",
+  "al día siguiente",
+  "¡No me digas!",
+  "¡Menos mal!"
+ ],
+ "bookRef": {
+  "page": 108,
+  "lexico": 116,
+  "gramatica": 117,
+  "masGramatica": [
+   273,
+   279,
+   282
+  ],
+  "masEjercicios": 228
+ }
+}

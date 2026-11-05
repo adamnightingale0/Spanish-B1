@@ -1,0 +1,79 @@
+{
+ "id": "u01",
+ "unit": 1,
+ "title": "Prohibido prohibir",
+ "grammarPoints": [
+  "esta-prohibido",
+  "se-impersonal",
+  "lo-normal-es",
+  "soler-inf",
+  "cuantificadores",
+  "ser-estar-normas"
+ ],
+ "functions": [
+  "expresar prohibición",
+  "expresar obligatoriedad",
+  "expresar impersonalidad",
+  "hablar de hábitos",
+  "opinar y aconsejar"
+ ],
+ "themes": [
+  "costumbres sociales",
+  "normas",
+  "el mundo laboral"
+ ],
+ "writingTaskType": "artículo sobre costumbres y códigos sociales",
+ "spelling": "mayúsculas y minúsculas",
+ "targetWords": [
+  "todo el mundo",
+  "la mayoría (de)",
+  "la mitad (de)",
+  "casi nadie",
+  "ningún / ninguna",
+  "dar las gracias",
+  "dar un abrazo",
+  "dar la mano",
+  "invitar a un café",
+  "enviar una invitación",
+  "una felicitación",
+  "una nota de agradecimiento",
+  "aceptar un regalo",
+  "rechazar una invitación",
+  "hacer un cumplido",
+  "recibir un elogio",
+  "el salario",
+  "cobrar el sueldo",
+  "la plantilla",
+  "el personal",
+  "el/la empleado/a",
+  "el/la jefe/a",
+  "la jornada completa",
+  "la media jornada",
+  "la pausa",
+  "el descanso",
+  "la hora de entrada",
+  "el día de permiso",
+  "los días de vacaciones",
+  "la baja por maternidad",
+  "la baja por paternidad",
+  "la baja por enfermedad",
+  "obligatorio/a",
+  "de mala educación",
+  "una señal de respeto",
+  "aconsejable",
+  "recomendable",
+  "prohibido/a",
+  "permitido/a",
+  "bien visto / mal visto",
+  "dejar"
+ ],
+ "bookRef": {
+  "page": 10,
+  "lexico": 18,
+  "gramatica": 19,
+  "masEjercicios": 179,
+  "masGramatica": [
+   294
+  ]
+ }
+}

@@ -1,38 +1,560 @@
 {
-  "id": "u02", "unit": 2, "title": "Volver a empezar", "theme": "Etapas de la vida, trabajo y currículum",
-  "vocabAreas": ["El trabajo", "Etapas y acontecimientos de la vida"],
-  "writingTask": "Carta de presentación para un trabajo",
-  "bookRef": { "page": 24 },
-  "grammarPoints": ["perifrasis-tiempo", "llevar-seguir-gerundio", "desde-hace", "past-review"],
-  "items": [
-    { "id": "u02-perif-001", "type": "choice", "unit": 2, "grammarPoint": "perifrasis-tiempo", "difficulty": 1, "prompt": "Mi hermano ha dejado ___ fumar después de veinte años.", "options": ["de", "a", "por"], "answers": ["de"], "feedback": "dejar de + infinitive = stop doing.", "contrast": "Ha vuelto a fumar." },
-    { "id": "u02-perif-002", "type": "choice", "unit": 2, "grammarPoint": "perifrasis-tiempo", "difficulty": 1, "prompt": "¿Marta? Acaba ___ salir; si corres, la alcanzas.", "options": ["de", "a", "por"], "answers": ["de"], "feedback": "acabar de + infinitive = have just done.", "contrast": "Va a salir dentro de un rato." },
-    { "id": "u02-perif-003", "type": "gap", "unit": 2, "grammarPoint": "perifrasis-tiempo", "difficulty": 2, "prompt": "Después de la pandemia, Lucía ___ (volver, perfecto) a trabajar en la oficina.", "answers": ["ha vuelto"], "feedback": "volver a + inf. = do again. Participle: vuelto.", "contrast": "Ha dejado de trabajar en la oficina." },
-    { "id": "u02-perif-004", "type": "choice", "unit": 2, "grammarPoint": "perifrasis-tiempo", "difficulty": 2, "prompt": "A los 40 años empecé ___ estudiar piano.", "options": ["a", "de", "—"], "answers": ["a"], "feedback": "empezar a + infinitive.", "contrast": "Terminé de estudiar a los 23." },
-    { "id": "u02-perif-005", "type": "transform", "unit": 2, "grammarPoint": "perifrasis-tiempo", "difficulty": 2, "instruction": "Usa «volver a + infinitivo».", "prompt": "Este año he estudiado inglés otra vez.", "answers": ["Este año he vuelto a estudiar inglés"], "feedback": "otra vez + verb → volver a + infinitive.", "contrast": "He dejado de estudiar inglés." },
-    { "id": "u02-perif-006", "type": "choice", "unit": 2, "grammarPoint": "perifrasis-tiempo", "difficulty": 2, "prompt": "Cuando termine ___ escribir el currículum, te lo enseño.", "options": ["de", "a", "por"], "answers": ["de"], "feedback": "terminar de + infinitive = finish doing.", "contrast": "Empiezo a escribirlo mañana." },
-    { "id": "u02-perif-007", "type": "gap", "unit": 2, "grammarPoint": "perifrasis-tiempo", "difficulty": 2, "prompt": "Yo ___ (acabar, presente) de llegar a casa, ¿te llamo en diez minutos?", "answers": ["acabo"], "feedback": "acabar de in the present = 'I have just…'.", "contrast": "Acababa de llegar cuando sonó el teléfono." },
-
-    { "id": "u02-llevar-001", "type": "gap", "unit": 2, "grammarPoint": "llevar-seguir-gerundio", "difficulty": 1, "prompt": "Llevo tres años ___ (vivir) en Sevilla.", "answers": ["viviendo"], "feedback": "llevar + time + gerund.", "contrast": "Vivo en Sevilla desde hace tres años." },
-    { "id": "u02-llevar-002", "type": "gap", "unit": 2, "grammarPoint": "llevar-seguir-gerundio", "difficulty": 2, "prompt": "¿Todavía ___ (seguir, tú) trabajando en el hotel?", "answers": ["sigues"], "feedback": "seguir is e→i and drops the u: sigo, sigues, sigue…", "contrast": "Ya no trabajas en el hotel." },
-    { "id": "u02-llevar-003", "type": "choice", "unit": 2, "grammarPoint": "llevar-seguir-gerundio", "difficulty": 2, "prompt": "Llevo dos semanas ___ comer azúcar.", "options": ["sin", "no", "dejando"], "answers": ["sin"], "feedback": "Negative: llevar + time + sin + infinitive.", "contrast": "Llevo dos semanas comiendo sano." },
-    { "id": "u02-llevar-004", "type": "transform", "unit": 2, "grammarPoint": "llevar-seguir-gerundio", "difficulty": 2, "instruction": "Usa «llevar + gerundio».", "prompt": "Estudio español desde hace seis meses.", "answers": ["Llevo seis meses estudiando español"], "feedback": "desde hace + time → llevar + time + gerund.", "contrast": "Hace seis meses que estudio español." },
-    { "id": "u02-llevar-005", "type": "gap", "unit": 2, "grammarPoint": "llevar-seguir-gerundio", "difficulty": 2, "prompt": "Mis padres ___ (llevar) cuarenta años casados.", "answers": ["llevan"], "feedback": "llevar + time + adjective/participle also works: llevan … casados.", "contrast": "Llevan cuarenta años viviendo juntos." },
-    { "id": "u02-llevar-006", "type": "gap", "unit": 2, "grammarPoint": "llevar-seguir-gerundio", "difficulty": 3, "prompt": "Aunque se jubiló, mi abuelo sigue ___ (leer) el periódico cada mañana.", "answers": ["leyendo"], "feedback": "leer → leyendo (i → y between vowels).", "contrast": "Ha dejado de leer el periódico." },
-
-    { "id": "u02-desde-001", "type": "choice", "unit": 2, "grammarPoint": "desde-hace", "difficulty": 1, "prompt": "Trabajo en esta empresa ___ 2022.", "options": ["desde", "desde hace", "hace"], "answers": ["desde"], "feedback": "desde + point in time (year, date).", "contrast": "Trabajo aquí desde hace tres años." },
-    { "id": "u02-desde-002", "type": "choice", "unit": 2, "grammarPoint": "desde-hace", "difficulty": 1, "prompt": "No veo a Pablo ___ dos meses.", "options": ["desde hace", "desde", "hace que"], "answers": ["desde hace"], "feedback": "desde hace + period of time.", "contrast": "No lo veo desde marzo." },
-    { "id": "u02-desde-003", "type": "choice", "unit": 2, "grammarPoint": "desde-hace", "difficulty": 2, "prompt": "___ cinco años que estudio por las noches.", "options": ["Hace", "Desde hace", "Desde"], "answers": ["Hace"], "feedback": "Hace + period + que + present.", "contrast": "Estudio por las noches desde hace cinco años." },
-    { "id": "u02-desde-004", "type": "choice", "unit": 2, "grammarPoint": "desde-hace", "difficulty": 2, "prompt": "___ que llegué a España, como mucho más tarde.", "options": ["Desde", "Desde hace", "Hace"], "answers": ["Desde"], "feedback": "desde que + verb = since (an event).", "contrast": "Desde mi llegada…" },
-    { "id": "u02-desde-005", "type": "transform", "unit": 2, "grammarPoint": "desde-hace", "difficulty": 2, "instruction": "Empieza con «Hace…».", "prompt": "Vivo con mi pareja desde hace un año.", "answers": ["Hace un año que vivo con mi pareja"], "feedback": "desde hace X → Hace X que + present.", "contrast": "Llevo un año viviendo con mi pareja." },
-    { "id": "u02-desde-006", "type": "choice", "unit": 2, "grammarPoint": "desde-hace", "difficulty": 2, "prompt": "Terminé la carrera ___ diez años.", "options": ["hace", "desde hace", "desde"], "answers": ["hace"], "feedback": "A finished action with indefinido: hace + time = 'ago'.", "contrast": "Trabajo de profesor desde hace diez años." },
-
-    { "id": "u02-past-001", "type": "gap", "unit": 2, "grammarPoint": "past-review", "subPoint": "perfecto-vs-indefinido", "difficulty": 2, "prompt": "Esta mañana ___ (perder, yo) el autobús y he llegado tarde.", "answers": ["he perdido"], "why": "time-marker-open", "feedback": "Esta mañana is a period that is still open → pretérito perfecto in Spain.", "contrast": "Ayer perdí el autobús." },
-    { "id": "u02-past-002", "type": "gap", "unit": 2, "grammarPoint": "past-review", "subPoint": "perfecto-vs-indefinido", "difficulty": 2, "prompt": "En 2018 ___ (empezar, yo) a trabajar como enfermero.", "answers": ["empecé"], "why": "time-marker-closed", "feedback": "En 2018 is a closed period → indefinido. Spelling: z → c before e (empecé).", "contrast": "Este año he empezado un nuevo trabajo." },
-    { "id": "u02-past-003", "type": "gap", "unit": 2, "grammarPoint": "past-review", "subPoint": "indefinido-vs-imperfecto", "difficulty": 2, "prompt": "Cuando ___ (ser, yo) estudiante, trabajaba de camarero los fines de semana.", "answers": ["era"], "why": "background-description", "feedback": "Describing a stage of life → imperfecto (era).", "contrast": "Fui estudiante durante cuatro años." },
-    { "id": "u02-past-004", "type": "choice", "unit": 2, "grammarPoint": "past-review", "subPoint": "perfecto-vs-indefinido", "difficulty": 2, "prompt": "¿___ alguna vez en el extranjero?", "options": ["Has trabajado", "Trabajaste", "Trabajabas"], "answers": ["Has trabajado"], "why": "time-marker-open", "feedback": "alguna vez (life experience up to now) → perfecto.", "contrast": "¿Trabajaste en el extranjero en 2015?" },
-    { "id": "u02-past-005", "type": "gap", "unit": 2, "grammarPoint": "past-review", "subPoint": "indefinido-vs-imperfecto", "difficulty": 2, "prompt": "De niña, mi madre ___ (vivir) en un pueblo de Huelva.", "answers": ["vivía"], "why": "background-description", "feedback": "De niña describes a background situation → imperfecto.", "contrast": "A los veinte años se fue a vivir a Madrid." },
-    { "id": "u02-past-006", "type": "gap", "unit": 2, "grammarPoint": "past-review", "subPoint": "perfecto-vs-indefinido", "difficulty": 3, "prompt": "Hace dos años ___ (dejar, yo) mi trabajo y me fui a Australia.", "answers": ["dejé"], "why": "time-marker-closed", "feedback": "hace + time (ago) → indefinido.", "contrast": "Este mes he dejado el gimnasio." },
-    { "id": "u02-past-007", "type": "choice", "unit": 2, "grammarPoint": "past-review", "subPoint": "perfecto-vs-indefinido", "difficulty": 1, "prompt": "Todavía no ___ el currículum. Lo hago esta tarde.", "options": ["he enviado", "envié", "enviaba"], "answers": ["he enviado"], "why": "time-marker-open", "feedback": "todavía no / ya → perfecto in Spain.", "contrast": "Lo envié el lunes." }
-  ]
+ "id": "u02",
+ "unit": 2,
+ "title": "Volver a empezar",
+ "theme": "Etapas de la vida, trabajo y currículum",
+ "vocabAreas": [
+  "El trabajo",
+  "Etapas y acontecimientos de la vida"
+ ],
+ "writingTask": "Carta de presentación para un trabajo",
+ "bookRef": {
+  "page": 24,
+  "masEjercicios": 186,
+  "masGramatica": 263
+ },
+ "grammarPoints": [
+  "perifrasis-tiempo",
+  "llevar-seguir-gerundio",
+  "desde-hace",
+  "estar-gerundio",
+  "past-review"
+ ],
+ "items": [
+  {
+   "id": "u02-perif-001",
+   "type": "choice",
+   "unit": 2,
+   "grammarPoint": "perifrasis-tiempo",
+   "difficulty": 1,
+   "prompt": "Mi hermano ha dejado ___ fumar después de veinte años.",
+   "options": [
+    "de",
+    "a",
+    "por"
+   ],
+   "answers": [
+    "de"
+   ],
+   "feedback": "dejar de + infinitive = stop doing.",
+   "contrast": "Ha vuelto a fumar."
+  },
+  {
+   "id": "u02-perif-002",
+   "type": "choice",
+   "unit": 2,
+   "grammarPoint": "perifrasis-tiempo",
+   "difficulty": 1,
+   "prompt": "¿Marta? Acaba ___ salir; si corres, la alcanzas.",
+   "options": [
+    "de",
+    "a",
+    "por"
+   ],
+   "answers": [
+    "de"
+   ],
+   "feedback": "acabar de + infinitive = have just done.",
+   "contrast": "Va a salir dentro de un rato."
+  },
+  {
+   "id": "u02-perif-003",
+   "type": "gap",
+   "unit": 2,
+   "grammarPoint": "perifrasis-tiempo",
+   "difficulty": 2,
+   "prompt": "Después de la pandemia, Lucía ___ (volver, perfecto) a trabajar en la oficina.",
+   "answers": [
+    "ha vuelto"
+   ],
+   "feedback": "volver a + inf. = do again. Participle: vuelto.",
+   "contrast": "Ha dejado de trabajar en la oficina."
+  },
+  {
+   "id": "u02-perif-004",
+   "type": "choice",
+   "unit": 2,
+   "grammarPoint": "perifrasis-tiempo",
+   "difficulty": 2,
+   "prompt": "A los 40 años empecé ___ estudiar piano.",
+   "options": [
+    "a",
+    "de",
+    "—"
+   ],
+   "answers": [
+    "a"
+   ],
+   "feedback": "empezar a + infinitive.",
+   "contrast": "Terminé de estudiar a los 23."
+  },
+  {
+   "id": "u02-perif-005",
+   "type": "transform",
+   "unit": 2,
+   "grammarPoint": "perifrasis-tiempo",
+   "difficulty": 2,
+   "instruction": "Usa «volver a + infinitivo».",
+   "prompt": "Este año he estudiado inglés otra vez.",
+   "answers": [
+    "Este año he vuelto a estudiar inglés"
+   ],
+   "feedback": "otra vez + verb → volver a + infinitive.",
+   "contrast": "He dejado de estudiar inglés."
+  },
+  {
+   "id": "u02-perif-006",
+   "type": "choice",
+   "unit": 2,
+   "grammarPoint": "perifrasis-tiempo",
+   "difficulty": 2,
+   "prompt": "Cuando termine ___ escribir el currículum, te lo enseño.",
+   "options": [
+    "de",
+    "a",
+    "por"
+   ],
+   "answers": [
+    "de"
+   ],
+   "feedback": "terminar de + infinitive = finish doing.",
+   "contrast": "Empiezo a escribirlo mañana."
+  },
+  {
+   "id": "u02-perif-007",
+   "type": "gap",
+   "unit": 2,
+   "grammarPoint": "perifrasis-tiempo",
+   "difficulty": 2,
+   "prompt": "Yo ___ (acabar, presente) de llegar a casa, ¿te llamo en diez minutos?",
+   "answers": [
+    "acabo"
+   ],
+   "feedback": "acabar de in the present = 'I have just…'.",
+   "contrast": "Acababa de llegar cuando sonó el teléfono."
+  },
+  {
+   "id": "u02-llevar-001",
+   "type": "gap",
+   "unit": 2,
+   "grammarPoint": "llevar-seguir-gerundio",
+   "difficulty": 1,
+   "prompt": "Llevo tres años ___ (vivir) en Sevilla.",
+   "answers": [
+    "viviendo"
+   ],
+   "feedback": "llevar + time + gerund.",
+   "contrast": "Vivo en Sevilla desde hace tres años."
+  },
+  {
+   "id": "u02-llevar-002",
+   "type": "gap",
+   "unit": 2,
+   "grammarPoint": "llevar-seguir-gerundio",
+   "difficulty": 2,
+   "prompt": "¿Todavía ___ (seguir, tú) trabajando en el hotel?",
+   "answers": [
+    "sigues"
+   ],
+   "feedback": "seguir is e→i and drops the u: sigo, sigues, sigue…",
+   "contrast": "Ya no trabajas en el hotel."
+  },
+  {
+   "id": "u02-llevar-003",
+   "type": "choice",
+   "unit": 2,
+   "grammarPoint": "llevar-seguir-gerundio",
+   "difficulty": 2,
+   "prompt": "Llevo dos semanas ___ comer azúcar.",
+   "options": [
+    "sin",
+    "no",
+    "dejando"
+   ],
+   "answers": [
+    "sin"
+   ],
+   "feedback": "Negative: llevar + time + sin + infinitive.",
+   "contrast": "Llevo dos semanas comiendo sano."
+  },
+  {
+   "id": "u02-llevar-004",
+   "type": "transform",
+   "unit": 2,
+   "grammarPoint": "llevar-seguir-gerundio",
+   "difficulty": 2,
+   "instruction": "Usa «llevar + gerundio».",
+   "prompt": "Estudio español desde hace seis meses.",
+   "answers": [
+    "Llevo seis meses estudiando español"
+   ],
+   "feedback": "desde hace + time → llevar + time + gerund.",
+   "contrast": "Hace seis meses que estudio español."
+  },
+  {
+   "id": "u02-llevar-005",
+   "type": "gap",
+   "unit": 2,
+   "grammarPoint": "llevar-seguir-gerundio",
+   "difficulty": 2,
+   "prompt": "Mis padres ___ (llevar) cuarenta años casados.",
+   "answers": [
+    "llevan"
+   ],
+   "feedback": "llevar + time + adjective/participle also works: llevan … casados.",
+   "contrast": "Llevan cuarenta años viviendo juntos."
+  },
+  {
+   "id": "u02-llevar-006",
+   "type": "gap",
+   "unit": 2,
+   "grammarPoint": "llevar-seguir-gerundio",
+   "difficulty": 3,
+   "prompt": "Aunque se jubiló, mi abuelo sigue ___ (leer) el periódico cada mañana.",
+   "answers": [
+    "leyendo"
+   ],
+   "feedback": "leer → leyendo (i → y between vowels).",
+   "contrast": "Ha dejado de leer el periódico."
+  },
+  {
+   "id": "u02-desde-001",
+   "type": "choice",
+   "unit": 2,
+   "grammarPoint": "desde-hace",
+   "difficulty": 1,
+   "prompt": "Trabajo en esta empresa ___ 2022.",
+   "options": [
+    "desde",
+    "desde hace",
+    "hace"
+   ],
+   "answers": [
+    "desde"
+   ],
+   "feedback": "desde + point in time (year, date).",
+   "contrast": "Trabajo aquí desde hace tres años."
+  },
+  {
+   "id": "u02-desde-002",
+   "type": "choice",
+   "unit": 2,
+   "grammarPoint": "desde-hace",
+   "difficulty": 1,
+   "prompt": "No veo a Pablo ___ dos meses.",
+   "options": [
+    "desde hace",
+    "desde",
+    "hace que"
+   ],
+   "answers": [
+    "desde hace"
+   ],
+   "feedback": "desde hace + period of time.",
+   "contrast": "No lo veo desde marzo."
+  },
+  {
+   "id": "u02-desde-003",
+   "type": "choice",
+   "unit": 2,
+   "grammarPoint": "desde-hace",
+   "difficulty": 2,
+   "prompt": "___ cinco años que estudio por las noches.",
+   "options": [
+    "Hace",
+    "Desde hace",
+    "Desde"
+   ],
+   "answers": [
+    "Hace"
+   ],
+   "feedback": "Hace + period + que + present.",
+   "contrast": "Estudio por las noches desde hace cinco años."
+  },
+  {
+   "id": "u02-desde-004",
+   "type": "choice",
+   "unit": 2,
+   "grammarPoint": "desde-hace",
+   "difficulty": 2,
+   "prompt": "___ que llegué a España, como mucho más tarde.",
+   "options": [
+    "Desde",
+    "Desde hace",
+    "Hace"
+   ],
+   "answers": [
+    "Desde"
+   ],
+   "feedback": "desde que + verb = since (an event).",
+   "contrast": "Desde mi llegada…"
+  },
+  {
+   "id": "u02-desde-005",
+   "type": "transform",
+   "unit": 2,
+   "grammarPoint": "desde-hace",
+   "difficulty": 2,
+   "instruction": "Empieza con «Hace…».",
+   "prompt": "Vivo con mi pareja desde hace un año.",
+   "answers": [
+    "Hace un año que vivo con mi pareja"
+   ],
+   "feedback": "desde hace X → Hace X que + present.",
+   "contrast": "Llevo un año viviendo con mi pareja."
+  },
+  {
+   "id": "u02-desde-006",
+   "type": "choice",
+   "unit": 2,
+   "grammarPoint": "desde-hace",
+   "difficulty": 2,
+   "prompt": "Terminé la carrera ___ diez años.",
+   "options": [
+    "hace",
+    "desde hace",
+    "desde"
+   ],
+   "answers": [
+    "hace"
+   ],
+   "feedback": "A finished action with indefinido: hace + time = 'ago'.",
+   "contrast": "Trabajo de profesor desde hace diez años."
+  },
+  {
+   "id": "u02-past-001",
+   "type": "gap",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "perfecto-vs-indefinido",
+   "difficulty": 2,
+   "prompt": "Esta mañana ___ (perder, yo) el autobús y he llegado tarde.",
+   "answers": [
+    "he perdido"
+   ],
+   "why": "time-marker-open",
+   "feedback": "Esta mañana is a period that is still open → pretérito perfecto in Spain.",
+   "contrast": "Ayer perdí el autobús."
+  },
+  {
+   "id": "u02-past-002",
+   "type": "gap",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "perfecto-vs-indefinido",
+   "difficulty": 2,
+   "prompt": "En 2018 ___ (empezar, yo) a trabajar como enfermero.",
+   "answers": [
+    "empecé"
+   ],
+   "why": "time-marker-closed",
+   "feedback": "En 2018 is a closed period → indefinido. Spelling: z → c before e (empecé).",
+   "contrast": "Este año he empezado un nuevo trabajo."
+  },
+  {
+   "id": "u02-past-003",
+   "type": "gap",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "indefinido-vs-imperfecto",
+   "difficulty": 2,
+   "prompt": "Cuando ___ (ser, yo) estudiante, trabajaba de camarero los fines de semana.",
+   "answers": [
+    "era"
+   ],
+   "why": "background-description",
+   "feedback": "Describing a stage of life → imperfecto (era).",
+   "contrast": "Fui estudiante durante cuatro años."
+  },
+  {
+   "id": "u02-past-004",
+   "type": "choice",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "perfecto-vs-indefinido",
+   "difficulty": 2,
+   "prompt": "¿___ alguna vez en el extranjero?",
+   "options": [
+    "Has trabajado",
+    "Trabajaste",
+    "Trabajabas"
+   ],
+   "answers": [
+    "Has trabajado"
+   ],
+   "why": "time-marker-open",
+   "feedback": "alguna vez (life experience up to now) → perfecto.",
+   "contrast": "¿Trabajaste en el extranjero en 2015?"
+  },
+  {
+   "id": "u02-past-005",
+   "type": "gap",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "indefinido-vs-imperfecto",
+   "difficulty": 2,
+   "prompt": "De niña, mi madre ___ (vivir) en un pueblo de Huelva.",
+   "answers": [
+    "vivía"
+   ],
+   "why": "background-description",
+   "feedback": "De niña describes a background situation → imperfecto.",
+   "contrast": "A los veinte años se fue a vivir a Madrid."
+  },
+  {
+   "id": "u02-past-006",
+   "type": "gap",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "perfecto-vs-indefinido",
+   "difficulty": 3,
+   "prompt": "Hace dos años ___ (dejar, yo) mi trabajo y me fui a Australia.",
+   "answers": [
+    "dejé"
+   ],
+   "why": "time-marker-closed",
+   "feedback": "hace + time (ago) → indefinido.",
+   "contrast": "Este mes he dejado el gimnasio."
+  },
+  {
+   "id": "u02-past-007",
+   "type": "choice",
+   "unit": 2,
+   "grammarPoint": "past-review",
+   "subPoint": "perfecto-vs-indefinido",
+   "difficulty": 1,
+   "prompt": "Todavía no ___ el currículum. Lo hago esta tarde.",
+   "options": [
+    "he enviado",
+    "envié",
+    "enviaba"
+   ],
+   "answers": [
+    "he enviado"
+   ],
+   "why": "time-marker-open",
+   "feedback": "todavía no / ya → perfecto in Spain.",
+   "contrast": "Lo envié el lunes."
+  },
+  {
+   "id": "u02-estger-001",
+   "type": "gap",
+   "unit": 2,
+   "grammarPoint": "estar-gerundio",
+   "difficulty": 1,
+   "prompt": "—¿Qué haces? —___ (estar, presente) preparando la entrevista de mañana.",
+   "answers": [
+    "Estoy"
+   ],
+   "feedback": "Action in progress now → estoy + gerund.",
+   "contrast": "Ayer estuve preparando la entrevista."
+  },
+  {
+   "id": "u02-estger-002",
+   "type": "gap",
+   "unit": 2,
+   "grammarPoint": "estar-gerundio",
+   "difficulty": 2,
+   "prompt": "Esta mañana he ___ (estar) limpiando el piso con mi compañero.",
+   "answers": [
+    "estado"
+   ],
+   "why": "time-marker-open",
+   "feedback": "esta mañana + an activity that lasted and is over → he estado + gerund.",
+   "contrast": "Ayer estuve limpiando el piso."
+  },
+  {
+   "id": "u02-estger-003",
+   "type": "gap",
+   "unit": 2,
+   "grammarPoint": "estar-gerundio",
+   "difficulty": 2,
+   "prompt": "El sábado pasado ___ (estar, nosotros) paseando por Triana toda la tarde.",
+   "answers": [
+    "estuvimos"
+   ],
+   "why": "time-marker-closed",
+   "feedback": "A closed period + duration → indefinido of estar + gerund.",
+   "contrast": "Este sábado hemos estado paseando."
+  },
+  {
+   "id": "u02-estger-004",
+   "type": "gap",
+   "unit": 2,
+   "grammarPoint": "estar-gerundio",
+   "difficulty": 2,
+   "prompt": "Cuando me llamaste, ___ (estar, yo) duchándome.",
+   "answers": [
+    "estaba"
+   ],
+   "why": "interrupted-action",
+   "feedback": "In progress when something happened → estaba + gerund.",
+   "contrast": "Estuve duchándome diez minutos."
+  },
+  {
+   "id": "u02-estger-005",
+   "type": "conjugate",
+   "unit": 2,
+   "grammarPoint": "estar-gerundio",
+   "difficulty": 1,
+   "verb": "leer",
+   "person": "nosotros",
+   "tense": "estar (presente) + gerundio",
+   "answers": [
+    "estamos leyendo"
+   ],
+   "feedback": "leer → leyendo (i → y between vowels).",
+   "contrast": "hemos estado leyendo"
+  },
+  {
+   "id": "u02-estger-006",
+   "type": "choice",
+   "unit": 2,
+   "grammarPoint": "estar-gerundio",
+   "difficulty": 3,
+   "prompt": "Últimamente ___ mucho porque tengo un examen.",
+   "options": [
+    "estoy estudiando",
+    "estuve estudiando",
+    "he estado estudiado"
+   ],
+   "answers": [
+    "estoy estudiando"
+   ],
+   "feedback": "últimamente + a current, ongoing activity → estoy + gerund.",
+   "contrast": "El mes pasado estuve estudiando mucho."
+  },
+  {
+   "id": "u02-estger-007",
+   "type": "transform",
+   "unit": 2,
+   "grammarPoint": "estar-gerundio",
+   "difficulty": 2,
+   "instruction": "Escribe el pronombre al final del gerundio.",
+   "prompt": "Me estoy vistiendo.",
+   "answers": [
+    "Estoy vistiéndome"
+   ],
+   "feedback": "The pronoun can go before estar or on the gerund (which then takes an accent).",
+   "contrast": "Me estoy vistiendo = Estoy vistiéndome."
+  },
+  {
+   "id": "u02-acabar-001",
+   "type": "choice",
+   "unit": 2,
+   "grammarPoint": "perifrasis-tiempo",
+   "difficulty": 2,
+   "prompt": "___ la carrera este año: en junio tengo el último examen.",
+   "options": [
+    "Acabo",
+    "Acabo de",
+    "Dejo de"
+   ],
+   "answers": [
+    "Acabo"
+   ],
+   "feedback": "acabar + noun = finish (it). acabar de + infinitive = have just done.",
+   "contrast": "Acabo de empezar la carrera."
+  }
+ ]
 }
