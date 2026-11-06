@@ -5,6 +5,7 @@ import { exportBackup, importBackup, resetAll, requestPersistence, saveBook, rem
 import { closeBook } from '../lib/book';
 import { spanishVoices, speak, ttsSupported } from '../lib/tts';
 import { Header } from '../components/common';
+import { platform, VOICE_HINT } from '../lib/platform';
 
 export function SettingsScreen() {
   const app = useApp();
@@ -68,6 +69,11 @@ export function SettingsScreen() {
       <Header title="Ajustes" back="progress" />
 
       <label class="field">
+        <span>Tu nombre (para el saludo)</span>
+        <input type="text" value={s.name} maxLength={30} autocomplete="given-name" placeholder="Opcional" onChange={(e) => updateSettings({ name: e.currentTarget.value.trim() })} />
+      </label>
+
+      <label class="field">
         <span>Fecha del examen escrito</span>
         <input type="date" value={s.examDate} onChange={(e) => updateSettings({ examDate: e.currentTarget.value || '2027-01-18' })} />
       </label>
@@ -125,7 +131,7 @@ export function SettingsScreen() {
             <button onClick={() => speak('Esta mañana he perdido el autobús.', s.voiceURI, s.ttsRate)}>🔊</button>
           </div>
         ) : (
-          <p class="small muted">No hay voces en español. En el iPhone: Ajustes → Accesibilidad → Leer y hablar (en versiones anteriores, «Contenido leído») → Voces → Español → España. Si no lo encuentras, escribe «Voces» en el buscador de Ajustes.</p>
+          <p class="small muted">No hay voces en español. Para instalar una: {VOICE_HINT[platform()]}</p>
         )}
       </label>
       <label class="field">
@@ -138,7 +144,7 @@ export function SettingsScreen() {
 
       <h2>Copia de seguridad</h2>
       <p class="small muted">
-        Tu progreso solo está en este iPhone. Exporta una copia cada 14 días.
+        Tu progreso solo está en este dispositivo. Exporta una copia cada 14 días.
         {s.lastBackup ? ` Última: ${new Date(s.lastBackup).toLocaleDateString('es-ES')}.` : ' Aún no has hecho ninguna.'}
       </p>
       <div class="row">
@@ -192,7 +198,7 @@ function BookSettings() {
       await requestPersistence();
       app.setHasBook(true);
       setSize(f.size);
-      setMsg('Libro guardado en este iPhone.');
+      setMsg('Libro guardado en este dispositivo.');
     } catch (e) {
       setMsg('No se pudo guardar: ' + (e as Error).message + '. Prueba con una versión comprimida (30–50 MB).');
     } finally {
@@ -204,7 +210,7 @@ function BookSettings() {
     <>
       <h2>Mi libro (PDF)</h2>
       <p class="small muted">
-        Tu copia del libro se guarda solo en este iPhone. Nunca se sube a internet ni se incluye en las copias de seguridad. Comprímelo antes en el
+        Tu copia del libro se guarda solo en este dispositivo. Nunca se sube a internet ni se incluye en las copias de seguridad. Comprímelo antes en el
         ordenador (30–50 MB) para que cargue rápido.
       </p>
       {size !== null ? (
@@ -220,7 +226,7 @@ function BookSettings() {
               class="grow"
               style={{ color: 'var(--bad)' }}
               onClick={async () => {
-                if (!confirm('¿Quitar el libro de este iPhone?')) return;
+                if (!confirm('¿Quitar el libro de este dispositivo?')) return;
                 await removeBook();
                 await closeBook();
                 app.setHasBook(false);

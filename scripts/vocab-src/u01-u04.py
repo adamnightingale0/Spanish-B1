@@ -62,7 +62,7 @@ U = {
 ("dejar de + infinitivo","to stop doing","perífrasis","He dejado de tomar café por la tarde.","I've stopped drinking coffee in the afternoon."),
 ("acabar de + infinitivo","to have just done","perífrasis","Acabo de llegar a casa.","I've just got home."),
 ("Estimados señores:","Dear Sirs (formal letter)","carta formal","Estimados señores: les escribo para solicitar información.","Dear Sirs, I am writing to request information."),
-("Atentamente","Yours faithfully / sincerely","carta formal","Atentamente, Adam Nightingale.","Yours faithfully, Adam Nightingale."),
+("Atentamente","Yours faithfully / sincerely","carta formal","Atentamente, Alex Moreno.","Yours faithfully, Alex Moreno."),
 ],
 3: [
 ("reducir la contaminación","to reduce pollution","retos del futuro","Las bicis ayudan a reducir la contaminación.","Bikes help to reduce pollution."),

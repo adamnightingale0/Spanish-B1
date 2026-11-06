@@ -45,7 +45,7 @@
   "Quiere saber cuándo…",
   "Dice que le llames."
  ],
- "modelAnswer": "¡Hola, Laura! ¿Qué tal por Lisboa? Espero que estés disfrutando mucho del viaje. Te escribo porque hoy han llamado varias personas preguntando por ti. Primero ha llamado tu madre. Me ha dicho que no encuentra las llaves del coche y me ha preguntado si te las has llevado tú. También me ha pedido que la llames esta noche, porque quiere contarte algo importante sobre la boda de tu prima. Después ha llamado tu jefe. Dice que la reunión del lunes ha cambiado al martes a las diez y quiere que le envíes el informe antes del fin de semana. Por último, ha venido Marcos, tu amigo del gimnasio. Me ha preguntado cuándo vuelves, porque quiere invitarte a su cumpleaños el sábado. ¡Ya está! Pásalo muy bien y nos vemos el domingo. Un abrazo,\nAdam",
+ "modelAnswer": "¡Hola, Laura! ¿Qué tal por Lisboa? Espero que estés disfrutando mucho del viaje. Te escribo porque hoy han llamado varias personas preguntando por ti. Primero ha llamado tu madre. Me ha dicho que no encuentra las llaves del coche y me ha preguntado si te las has llevado tú. También me ha pedido que la llames esta noche, porque quiere contarte algo importante sobre la boda de tu prima. Después ha llamado tu jefe. Dice que la reunión del lunes ha cambiado al martes a las diez y quiere que le envíes el informe antes del fin de semana. Por último, ha venido Marcos, tu amigo del gimnasio. Me ha preguntado cuándo vuelves, porque quiere invitarte a su cumpleaños el sábado. ¡Ya está! Pásalo muy bien y nos vemos el domingo. Un abrazo,\nAlex",
  "taskFormat": "write-choice",
  "wordRange": [
   120,

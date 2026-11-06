@@ -19,6 +19,7 @@ export interface Attempt {
 }
 
 export interface Settings {
+  name: string; // shown in the Home greeting; empty = no name
   examDate: string; // yyyy-mm-dd
   classUnit: number;
   focus: string; // 'past-tenses' | grammarPoint id | 'none'
@@ -33,6 +34,7 @@ export interface Settings {
 }
 
 export const DEFAULT_SETTINGS: Settings = {
+  name: '',
   examDate: '2027-01-18',
   classUnit: 2,
   focus: 'past-tenses',

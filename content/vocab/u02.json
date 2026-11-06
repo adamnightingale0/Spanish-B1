@@ -286,8 +286,8 @@
    "topic": "carta formal",
    "es": "Atentamente",
    "en": "Yours faithfully / sincerely",
-   "example_es": "Atentamente, Adam Nightingale.",
-   "example_en": "Yours faithfully, Adam Nightingale."
+   "example_es": "Atentamente, Alex Moreno.",
+   "example_en": "Yours faithfully, Alex Moreno."
   },
   {
    "id": "v02-nacer",
@@ -566,8 +566,8 @@
    "topic": "carta formal",
    "es": "Cordialmente",
    "en": "Kind regards",
-   "example_es": "Cordialmente, Adam Nightingale.",
-   "example_en": "Kind regards, Adam Nightingale."
+   "example_es": "Cordialmente, Alex Moreno.",
+   "example_en": "Kind regards, Alex Moreno."
   }
  ]
 }

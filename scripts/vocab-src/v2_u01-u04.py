@@ -61,7 +61,7 @@ U = {
 ("seguir + gerundio","to still be doing","perífrasis","Sigo viviendo en el mismo barrio.","I'm still living in the same neighbourhood."),
 ("llevar + tiempo + gerundio","to have been doing (for)","perífrasis","Llevo dos años estudiando español.","I've been studying Spanish for two years."),
 ("Distinguidos señores:","Dear Sirs (very formal)","carta formal","Distinguidos señores: les escribo en relación con…","Dear Sirs, I am writing regarding…"),
-("Cordialmente","Kind regards","carta formal","Cordialmente, Adam Nightingale.","Kind regards, Adam Nightingale."),
+("Cordialmente","Kind regards","carta formal","Cordialmente, Alex Moreno.","Kind regards, Alex Moreno."),
 ],
 3: [
 ("el reto","the challenge","retos del futuro","El cambio climático es el gran reto de este siglo.","Climate change is this century's great challenge."),
