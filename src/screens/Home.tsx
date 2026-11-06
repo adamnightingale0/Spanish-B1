@@ -6,6 +6,7 @@ import { buildQueue } from '../lib/srs';
 import { buildPlacement } from '../lib/placement';
 import { suggestTask, skillsAtRisk, checkDue, SKILL_SHORT } from '../lib/skills';
 import { MasteryBar } from '../components/common';
+import { platform, INSTALL_HINT } from '../lib/platform';
 
 const isStandalone = () =>
   (navigator as Navigator & { standalone?: boolean }).standalone === true || matchMedia('(display-mode: standalone)').matches;
@@ -28,7 +29,7 @@ export function Home() {
   return (
     <div class="screen">
       <div class="row spread">
-        <h1>¡Hola, Adam!</h1>
+        <h1>{settings.name.trim() ? `¡Hola, ${settings.name.trim()}!` : '¡Hola!'}</h1>
         <a class="btn btn-ghost" href="#/settings" aria-label="Ajustes">⚙︎</a>
       </div>
       <p class="muted">
@@ -79,7 +80,7 @@ export function Home() {
 
       {!isStandalone() && (
         <div class="banner">
-          <b>Instala la app</b> para que funcione sin conexión y Safari no borre tu progreso: en Safari, pulsa <b>Compartir</b> → <b>Añadir a pantalla de inicio</b>.
+          <b>Instala la app</b> para que funcione sin conexión y el navegador no borre tu progreso: {INSTALL_HINT[platform()]}
         </div>
       )}
       {backupDue && (

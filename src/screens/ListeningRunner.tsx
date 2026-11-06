@@ -4,6 +4,7 @@ import { FORMAT_LABELS } from '../lib/content';
 import { playLines, stopSpeaking, spanishVoices, ttsSupported, type ScriptLine } from '../lib/tts';
 import { Highlight, scorePct } from '../components/skills';
 import { useApp } from '../state';
+import { platform, VOICE_HINT } from '../lib/platform';
 import type { Answer } from './ReadingRunner';
 
 const GRACE_SECONDS = 30;
@@ -112,7 +113,7 @@ export function ListeningRunner({
         <div class="player">
           {!hasVoice && (
             <p class="warn-line small">
-              No hay ninguna voz en español instalada, así que no se oirá nada. En el iPhone: Ajustes → Accesibilidad → Leer y hablar (en versiones anteriores, «Contenido leído») → Voces → Español → España. Si no lo encuentras, escribe «Voces» en el buscador de Ajustes.
+              No hay ninguna voz en español instalada, así que no se oirá nada. Para instalar una: {VOICE_HINT[platform()]}
             </p>
           )}
           <p class="small">Primero tendrás {prepSeconds(task)} segundos para leer las preguntas. Después escucharás cada audio dos veces.</p>
