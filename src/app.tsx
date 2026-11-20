@@ -7,6 +7,7 @@ import { Home } from './screens/Home';
 import { Units, UnitDetail } from './screens/Units';
 import { Practice } from './screens/Practice';
 import { TensesList, TenseDetail } from './screens/Tenses';
+import { ConjCardsScreen } from './screens/ConjCards';
 import { Drill } from './screens/Drill';
 import { Sorter } from './screens/Sorter';
 import { Exam } from './screens/Exam';
@@ -122,6 +123,10 @@ export function App() {
       break;
     case 'practice':
       screen = <Practice />;
+      break;
+    case 'tarjetas':
+      screen = <ConjCardsScreen />;
+      tabs = false;
       break;
     case 'tenses':
       screen = arg ? <TenseDetail key={arg} id={arg} /> : <TensesList />;

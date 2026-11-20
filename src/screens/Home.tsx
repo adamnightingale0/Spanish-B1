@@ -1,7 +1,7 @@
 import { useApp, navigate } from '../state';
 import { buildTodaySession, focusLabel, focusMasteryValue, focusPool, buildDrill, masteryByPoint, masteryBySubPoint } from '../lib/session';
 import { daysUntil, streak, todayCount, lastByItem } from '../lib/stats';
-import { focus, gpById, allItems, vocabCards } from '../lib/content';
+import { focus, gpById, allItems, vocabCards, itemById } from '../lib/content';
 import { buildQueue } from '../lib/srs';
 import { buildPlacement } from '../lib/placement';
 import { suggestTask, skillsAtRisk, checkDue, SKILL_SHORT } from '../lib/skills';
@@ -18,7 +18,7 @@ export function Home() {
   const lastItems = lastByItem(attempts);
   const vq = buildQueue(vocabCards, app.srs, settings.classUnit);
   const vocabAvailable = vq.due.length + vq.fresh.length;
-  const toReview = [...lastItems.values()].filter((a) => !a.correct).length;
+  const toReview = [...lastItems.entries()].filter(([id, a]) => !a.correct && itemById.has(id)).length;
   const focusM = focusMasteryValue(attempts, settings.focus);
   const subM = masteryBySubPoint(attempts);
   const gpM = masteryByPoint(attempts);
