@@ -1,8 +1,10 @@
-import type { DrillItem, UnitPack, FocusPack, GrammarPoint, ExamProfile, WhyId, VocabCard, ReadingTask, ListeningTask, WritingTask } from './schema';
+import type { TenseGuideEntry, DrillItem, UnitPack, FocusPack, GrammarPoint, ExamProfile, WhyId, VocabCard, ReadingTask, ListeningTask, WritingTask } from './schema';
 import gpData from '../../content/grammar-points.json';
 import focusData from '../../content/focus/past-tenses.json';
 import usb1 from '../../content/exam-profiles/us-b1.json';
 import manifest from '../../content/manifest.json';
+import tenseGuideData from '../../content/tenses/guide.json';
+import tensePracticeData from '../../content/tenses/practice.json';
 
 // All unit packs are bundled into the JS, so they are precached with the app and work offline.
 const unitModules = import.meta.glob('../../content/units/*.json', { eager: true, import: 'default' });
@@ -24,7 +26,9 @@ export const vocabCards: VocabCard[] = Object.values(vocabModules as Record<stri
   .sort((a, b) => a.unit - b.unit);
 export const cardById = new Map(vocabCards.map((c) => [c.id, c]));
 
-export const allItems: DrillItem[] = [...focus.items, ...units.flatMap((u) => u.items)];
+export const tenseGuide = tenseGuideData as unknown as TenseGuideEntry[];
+export const tenseItems = (tensePracticeData as unknown as { items: DrillItem[] }).items;
+export const allItems: DrillItem[] = [...focus.items, ...units.flatMap((u) => u.items), ...tenseItems];
 export const itemById = new Map(allItems.map((i) => [i.id, i]));
 
 export const PAST_POINTS = new Set(['past-review', 'pluscuamperfecto', 'past-combined']);

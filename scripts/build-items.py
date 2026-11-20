@@ -46,6 +46,7 @@ HELPERS = dict(g=g, c=c, t=t, e=e, o=o, m=m, cz=cz)
 
 def pack_path(unit):
     if unit == 'focus': return os.path.join(ROOT, 'content', 'focus', 'past-tenses.json'), 'pt'
+    if unit == 'tenses': return os.path.join(ROOT, 'content', 'tenses', 'practice.json'), 'tn'
     if unit == 0: return os.path.join(ROOT, 'content', 'units', 'programa.json'), 'prog'
     return os.path.join(ROOT, 'content', 'units', f'u{unit:02d}.json'), f'u{unit:02d}'
 
@@ -60,7 +61,7 @@ for unit, items in by_pack.items():
     pack['items'] = [i for i in pack['items'] if '-f-' not in i['id']]
     for n, it in enumerate(items, 1):
         it = {'id': f'{prefix}-f-{n:03d}', **it}
-        it.setdefault('unit', 2 if unit == 'focus' else unit)
+        it.setdefault('unit', 2 if unit == 'focus' else 0 if unit == 'tenses' else unit)
         pack['items'].append(it)
     json.dump(pack, open(path, 'w'), ensure_ascii=False, indent=1)
     print(unit, f'+{len(items)} → {len(pack["items"])} items')

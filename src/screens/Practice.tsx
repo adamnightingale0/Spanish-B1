@@ -48,6 +48,11 @@ export function Practice() {
         <p class="tiny muted">«Puntos débiles» se activa cuando tengas al menos 3 respuestas por punto en los últimos 14 días.</p>
       )}
 
+      <div class="card highlight tap" onClick={() => navigate('tenses')} style={{ marginTop: 12 }}>
+        <b>📚 Tiempos verbales</b>
+        <p class="small muted">Todos los tiempos del B1: formas, cuándo se usan y cuándo no. Práctica ilimitada de formas y de uso.</p>
+      </div>
+
       <h2>🎯 Los pasados</h2>
       <div class="card">
         {focus.subPoints.map((s) => (
