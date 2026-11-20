@@ -3,6 +3,7 @@ import type { DrillItem, WhyId, ClozeItem } from '../lib/schema';
 import { inErrorSpan, errorSpanText } from '../lib/schema';
 import { tagError } from '../lib/errors';
 import { shuffle, type SessionSpec } from '../lib/session';
+import { clozeRetryItems } from '../lib/clozeRetry';
 import { VocabReview } from './Vocab';
 import { WHY_IDS } from '../lib/why';
 import { checkAnswer, type CheckResult } from '../lib/answer';
@@ -206,9 +207,17 @@ export function Drill({ spec }: { spec: SessionSpec }) {
     const count = requeued.current.get(item.id) ?? 0;
     const limit = item.type === 'cloze' ? 1 : MAX_REQUEUE;
     if (!outcome.correct && count < limit) {
-      requeued.current.set(item.id, count + 1);
+      // A story only sends back the sentences with mistakes, never the whole text again.
+      const again =
+        item.type === 'cloze'
+          ? clozeRetryItems(
+              item,
+              outcome.results.filter((g) => !g.res.correct).map((g) => g.n)
+            )
+          : [item];
+      for (const a of again) requeued.current.set(a.id, a === item ? count + 1 : MAX_REQUEUE);
       q = [...queue];
-      q.splice(Math.min(pos + REQUEUE_GAP, q.length), 0, item);
+      q.splice(Math.min(pos + REQUEUE_GAP, q.length), 0, ...again);
       setQueue(q);
     }
     if (pos + 1 >= q.length) setPhase('done');
@@ -241,7 +250,7 @@ export function Drill({ spec }: { spec: SessionSpec }) {
         <span class="pill">{unitLabel(item.unit)}</span>
         <span class="pill">{gp?.title ?? item.grammarPoint}</span>
         <span class="pill">{TYPE_LABELS[item.type]}</span>
-        {requeued.current.get(item.id) && phase === 'answer' ? <span class="pill accent">Otra vez</span> : null}
+        {requeued.current.get(item.id) && phase === 'answer' ? <span class="pill accent">{item.id.includes('#') || item.type === 'cloze' ? 'Repaso de la historia' : 'Otra vez'}</span> : null}
       </div>
 
       {item.type === 'cloze' ? (
