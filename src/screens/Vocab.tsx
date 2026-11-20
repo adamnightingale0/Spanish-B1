@@ -3,6 +3,7 @@ import { useApp, navigate } from '../state';
 import { vocabCards, units } from '../lib/content';
 import { buildQueue, directionFor, review, retention, Rating, NEW_PER_DAY } from '../lib/srs';
 import { checkAnswer, type CheckResult } from '../lib/answer';
+import { acceptedAnswers } from '../lib/vocabAnswers';
 import type { VocabCard } from '../lib/schema';
 import type { Grade } from 'ts-fsrs';
 import { Speak, pct } from '../components/common';
@@ -112,7 +113,7 @@ export function VocabReview({ limit, unit, title, onDone }: { limit: number; uni
               <form
                 onSubmit={(e) => {
                   e.preventDefault();
-                  setRes(checkAnswer(typed, [card.es, card.es.replace(/^(el|la|los|las) /, '')], app.settings.accent));
+                  setRes(checkAnswer(typed, acceptedAnswers(card.es), app.settings.accent));
                 }}
               >
                 <input
