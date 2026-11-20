@@ -1,0 +1,1517 @@
+{
+ "id": "tenses-practice",
+ "title": "¿Qué tiempo uso?",
+ "items": [
+  {
+   "id": "tn-f-001",
+   "type": "choice",
+   "grammarPoint": "presente-valor-futuro",
+   "difficulty": 1,
+   "feedback": "Habit now (normalmente) → presente.",
+   "contrast": "El sábado pasado salí al centro.",
+   "subPoint": "uso-presente",
+   "prompt": "Los sábados normalmente ___ con mis amigos al centro.",
+   "options": [
+    "salgo",
+    "salí",
+    "saldré"
+   ],
+   "answers": [
+    "salgo"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-002",
+   "type": "choice",
+   "grammarPoint": "desde-hace",
+   "difficulty": 2,
+   "feedback": "Still true now → presente (not perfecto, unlike English «have lived»).",
+   "contrast": "Viví en Londres cinco años (finished).",
+   "subPoint": "uso-presente",
+   "prompt": "Vivo en Sevilla desde 2023. → ___ en Sevilla desde hace dos años.",
+   "options": [
+    "Vivo",
+    "He vivido",
+    "Viví"
+   ],
+   "answers": [
+    "Vivo"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-003",
+   "type": "choice",
+   "grammarPoint": "si-presente",
+   "difficulty": 1,
+   "feedback": "si + presente (real condition).",
+   "contrast": "Cuando haga buen tiempo, saldremos.",
+   "subPoint": "uso-presente",
+   "prompt": "Si ___ mal tiempo, nos quedamos en casa.",
+   "options": [
+    "hace",
+    "hará",
+    "haga"
+   ],
+   "answers": [
+    "hace"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-004",
+   "type": "choice",
+   "grammarPoint": "presente-valor-futuro",
+   "difficulty": 2,
+   "feedback": "Timetables and fixed plans → presente.",
+   "contrast": "Saldrá con retraso (prediction).",
+   "subPoint": "uso-presente",
+   "prompt": "El tren a Madrid ___ mañana a las 7:45, según el horario.",
+   "options": [
+    "sale",
+    "saldría",
+    "salió"
+   ],
+   "answers": [
+    "sale"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-005",
+   "type": "error",
+   "grammarPoint": "presente-valor-futuro",
+   "difficulty": 2,
+   "feedback": "Never the future after si: si + presente.",
+   "contrast": "Cuando tengas tiempo…",
+   "subPoint": "uso-presente",
+   "prompt": "Si tendrás tiempo esta tarde, ayúdame con la mudanza.",
+   "errorIndex": 1,
+   "answers": [
+    "tienes"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-006",
+   "type": "gap",
+   "grammarPoint": "presente-relato",
+   "difficulty": 2,
+   "feedback": "Plot summaries → presente.",
+   "contrast": "Ayer vi una película que contaba…",
+   "subPoint": "uso-presente",
+   "prompt": "La película ___ (contar) la historia de una familia de Cádiz.",
+   "answers": [
+    "cuenta"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-007",
+   "type": "choice",
+   "grammarPoint": "past-review",
+   "difficulty": 1,
+   "feedback": "esta mañana (today) → perfecto in Spain.",
+   "contrast": "Ayer recibí un correo.",
+   "why": "time-marker-open",
+   "subPoint": "uso-perfecto",
+   "prompt": "Esta mañana ___ un correo muy raro de mi jefe.",
+   "options": [
+    "he recibido",
+    "recibí",
+    "recibía"
+   ],
+   "answers": [
+    "he recibido"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-008",
+   "type": "choice",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "Life experience (alguna vez) → perfecto.",
+   "contrast": "La probé en Valencia en 2021.",
+   "why": "time-marker-open",
+   "subPoint": "uso-perfecto",
+   "prompt": "¿___ alguna vez paella valenciana?",
+   "options": [
+    "Has probado",
+    "Probaste",
+    "Probabas"
+   ],
+   "answers": [
+    "Has probado"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-009",
+   "type": "choice",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "todavía no → perfecto.",
+   "contrast": "La hice anoche.",
+   "why": "time-marker-open",
+   "subPoint": "uso-perfecto",
+   "prompt": "—¿Ya has hecho la maleta? —No, todavía no la ___.",
+   "options": [
+    "he hecho",
+    "hice",
+    "hacía"
+   ],
+   "answers": [
+    "he hecho"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-010",
+   "type": "error",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "ayer → indefinido (and «me dolió»).",
+   "contrast": "Hoy he ido al dentista.",
+   "why": "time-marker-closed",
+   "subPoint": "uso-perfecto",
+   "prompt": "Ayer he ido al dentista y me ha dolido muchísimo.",
+   "errorIndex": 1,
+   "answers": [
+    "fui"
+   ],
+   "errorLength": 2,
+   "unit": 0
+  },
+  {
+   "id": "tn-f-011",
+   "type": "gap",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "este año → perfecto.",
+   "contrast": "El año pasado cambié de trabajo.",
+   "why": "time-marker-open",
+   "subPoint": "uso-perfecto",
+   "prompt": "Este año ___ (cambiar, yo) de trabajo dos veces.",
+   "answers": [
+    "he cambiado"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-012",
+   "type": "choice",
+   "grammarPoint": "past-review",
+   "difficulty": 3,
+   "feedback": "últimamente (up to now) → perfecto.",
+   "contrast": "El mes pasado vi muchas series.",
+   "why": "time-marker-open",
+   "subPoint": "uso-perfecto",
+   "prompt": "Últimamente ___ muchas series coreanas.",
+   "options": [
+    "he visto",
+    "vi",
+    "veré"
+   ],
+   "answers": [
+    "he visto"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-013",
+   "type": "choice",
+   "grammarPoint": "past-review",
+   "difficulty": 3,
+   "feedback": "Experience up to now → perfecto.",
+   "contrast": "Nunca había viajado en avión hasta 2020.",
+   "why": "time-marker-open",
+   "subPoint": "uso-perfecto",
+   "prompt": "Nunca ___ en avión; me da mucho miedo.",
+   "options": [
+    "he viajado",
+    "viajé",
+    "había viajado"
+   ],
+   "answers": [
+    "he viajado"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-014",
+   "type": "choice",
+   "grammarPoint": "past-review",
+   "difficulty": 1,
+   "feedback": "el verano pasado → indefinido.",
+   "contrast": "Este verano he ido a Asturias.",
+   "why": "time-marker-closed",
+   "subPoint": "uso-indefinido",
+   "prompt": "El verano pasado ___ a Asturias con mis padres.",
+   "options": [
+    "fui",
+    "he ido",
+    "iba"
+   ],
+   "answers": [
+    "fui"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-015",
+   "type": "choice",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "A sequence of completed actions → indefinido.",
+   "contrast": "Mientras preparaba la cena…",
+   "why": "completed-action",
+   "subPoint": "uso-indefinido",
+   "prompt": "Llegué a casa, ___ la cena y me fui a dormir.",
+   "options": [
+    "preparé",
+    "preparaba",
+    "he preparado"
+   ],
+   "answers": [
+    "preparé"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-016",
+   "type": "choice",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "The interrupting event → indefinido.",
+   "contrast": "El teléfono sonaba sin parar (background).",
+   "why": "completed-action",
+   "subPoint": "uso-indefinido",
+   "prompt": "Estaba leyendo en el sofá cuando ___ el teléfono.",
+   "options": [
+    "sonó",
+    "sonaba",
+    "ha sonado"
+   ],
+   "answers": [
+    "sonó"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-017",
+   "type": "choice",
+   "grammarPoint": "past-review",
+   "difficulty": 3,
+   "feedback": "A closed, measured period → indefinido.",
+   "contrast": "Antes estaba en Londres (background).",
+   "why": "time-marker-closed",
+   "subPoint": "uso-indefinido",
+   "prompt": "Viví en Londres cinco años, de 2015 a 2020. → En Londres ___ cinco años.",
+   "options": [
+    "estuve",
+    "estaba",
+    "he estado"
+   ],
+   "answers": [
+    "estuve"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-018",
+   "type": "gap",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "hace + time (ago) → indefinido.",
+   "contrast": "Este año he conocido a mucha gente.",
+   "why": "time-marker-closed",
+   "subPoint": "uso-indefinido",
+   "prompt": "Hace tres años ___ (conocer, yo) a mi pareja en una boda.",
+   "answers": [
+    "conocí"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-019",
+   "type": "error",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "de repente + a single event → indefinido.",
+   "contrast": "Cuando era pequeño, a menudo se iba la luz.",
+   "why": "completed-action",
+   "subPoint": "uso-indefinido",
+   "prompt": "De repente se iba la luz y todo quedó a oscuras.",
+   "errorIndex": 2,
+   "answers": [
+    "se fue"
+   ],
+   "errorLength": 2,
+   "unit": 0
+  },
+  {
+   "id": "tn-f-020",
+   "type": "choice",
+   "grammarPoint": "past-review",
+   "difficulty": 3,
+   "feedback": "An overall evaluation of a finished event → indefinido.",
+   "contrast": "La casa era enorme (description).",
+   "why": "completed-action",
+   "subPoint": "uso-indefinido",
+   "prompt": "La fiesta del sábado ___ genial: bailamos hasta las cinco.",
+   "options": [
+    "fue",
+    "era",
+    "ha sido"
+   ],
+   "answers": [
+    "fue"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-021",
+   "type": "choice",
+   "grammarPoint": "past-review",
+   "difficulty": 1,
+   "feedback": "A stage of life → imperfecto.",
+   "contrast": "Fui niño de coro durante dos años (closed period).",
+   "why": "background-description",
+   "subPoint": "uso-imperfecto",
+   "prompt": "Cuando ___ niño, pasaba los veranos en el pueblo.",
+   "options": [
+    "era",
+    "fui",
+    "he sido"
+   ],
+   "answers": [
+    "era"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-022",
+   "type": "choice",
+   "grammarPoint": "past-review",
+   "difficulty": 1,
+   "feedback": "antes (past habit vs now) → imperfecto.",
+   "contrast": "Ayer bebí tres cafés.",
+   "why": "habit",
+   "subPoint": "uso-imperfecto",
+   "prompt": "Antes ___ mucho café, pero ahora solo tomo té.",
+   "options": [
+    "bebía",
+    "bebí",
+    "he bebido"
+   ],
+   "answers": [
+    "bebía"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-023",
+   "type": "choice",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "Describing a place → imperfecto.",
+   "contrast": "Vivir allí fue una experiencia genial.",
+   "why": "background-description",
+   "subPoint": "uso-imperfecto",
+   "prompt": "El piso ___ muy luminoso y tenía dos balcones.",
+   "options": [
+    "era",
+    "fue",
+    "ha sido"
+   ],
+   "answers": [
+    "era"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-024",
+   "type": "choice",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "mientras + two actions in progress at the same time → imperfecto.",
+   "contrast": "Limpié y luego salí.",
+   "why": "interrupted-action",
+   "subPoint": "uso-imperfecto",
+   "prompt": "Mientras yo ___ , mi compañero hacía la compra.",
+   "options": [
+    "limpiaba",
+    "limpié",
+    "he limpiado"
+   ],
+   "answers": [
+    "limpiaba"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-025",
+   "type": "error",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "Time as background → imperfecto.",
+   "contrast": "Llegamos a las tres.",
+   "why": "background-description",
+   "subPoint": "uso-imperfecto",
+   "prompt": "Cuando llegamos al hotel, fueron las tres de la mañana.",
+   "errorIndex": 4,
+   "answers": [
+    "eran"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-026",
+   "type": "gap",
+   "grammarPoint": "past-review",
+   "difficulty": 2,
+   "feedback": "todos los domingos → habit → imperfecto.",
+   "contrast": "El domingo pasado nos preparó paella.",
+   "why": "habit",
+   "subPoint": "uso-imperfecto",
+   "prompt": "Todos los domingos mi abuela nos ___ (preparar) cocido.",
+   "answers": [
+    "preparaba"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-027",
+   "type": "choice",
+   "grammarPoint": "past-review",
+   "difficulty": 3,
+   "feedback": "The cause / state behind an event → imperfecto.",
+   "contrast": "Estuve cansado toda la semana (closed).",
+   "why": "background-description",
+   "subPoint": "uso-imperfecto",
+   "prompt": "No fui a la fiesta porque ___ muy cansado.",
+   "options": [
+    "estaba",
+    "estuve",
+    "he estado"
+   ],
+   "answers": [
+    "estaba"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-028",
+   "type": "choice",
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 1,
+   "feedback": "Before another past moment (ya) → pluscuamperfecto.",
+   "contrast": "Cuando llegué, empezó la película (just then).",
+   "why": "prior-past",
+   "subPoint": "uso-pluscuamperfecto",
+   "prompt": "Cuando llegué al cine, la película ya ___.",
+   "options": [
+    "había empezado",
+    "empezó",
+    "ha empezado"
+   ],
+   "answers": [
+    "había empezado"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-029",
+   "type": "choice",
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 2,
+   "feedback": "Experience before a past moment → pluscuamperfecto.",
+   "contrast": "Nunca he probado el sushi (up to now).",
+   "why": "prior-past",
+   "subPoint": "uso-pluscuamperfecto",
+   "prompt": "Aquel día probé el sushi por primera vez: nunca lo ___.",
+   "options": [
+    "había probado",
+    "he probado",
+    "probé"
+   ],
+   "answers": [
+    "había probado"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-030",
+   "type": "choice",
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 2,
+   "feedback": "No other past moment to compare with → perfecto, not pluscuamperfecto.",
+   "contrast": "Cuando llegué, ya habían comido.",
+   "why": "time-marker-open",
+   "subPoint": "uso-pluscuamperfecto",
+   "prompt": "Hoy ___ con mis padres en un restaurante nuevo.",
+   "options": [
+    "he comido",
+    "había comido",
+    "comía"
+   ],
+   "answers": [
+    "he comido"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-031",
+   "type": "gap",
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 2,
+   "feedback": "The night before a past moment → pluscuamperfecto.",
+   "contrast": "Anoche dormí cuatro horas.",
+   "why": "prior-past",
+   "subPoint": "uso-pluscuamperfecto",
+   "prompt": "Estaba agotada porque la noche anterior ___ (dormir) solo cuatro horas.",
+   "answers": [
+    "había dormido"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-032",
+   "type": "error",
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 2,
+   "feedback": "Reported in the past about an earlier event → pluscuamperfecto.",
+   "contrast": "Me ha dicho que ha perdido el pasaporte (just now).",
+   "why": "prior-past",
+   "subPoint": "uso-pluscuamperfecto",
+   "prompt": "Mi amiga me contó que ha perdido el pasaporte en el viaje.",
+   "errorIndex": 5,
+   "answers": [
+    "había perdido"
+   ],
+   "errorLength": 2,
+   "unit": 0
+  },
+  {
+   "id": "tn-f-033",
+   "type": "choice",
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 3,
+   "feedback": "Same moment / straight after → indefinido, not pluscuamperfecto.",
+   "contrast": "Ya había empezado a llover (before we arrived).",
+   "why": "completed-action",
+   "subPoint": "uso-pluscuamperfecto",
+   "prompt": "Cuando llegamos a la estación, ___ a llover (justo en ese momento).",
+   "options": [
+    "empezó",
+    "había empezado",
+    "empezaba"
+   ],
+   "answers": [
+    "empezó"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-034",
+   "type": "choice",
+   "grammarPoint": "futuro-simple",
+   "difficulty": 1,
+   "feedback": "A prediction → futuro.",
+   "contrast": "Ojalá la gente trabaje menos.",
+   "subPoint": "uso-futuro",
+   "prompt": "Creo que en el futuro la gente ___ más tiempo en casa.",
+   "options": [
+    "trabajará",
+    "trabaje",
+    "trabajaba"
+   ],
+   "answers": [
+    "trabajará"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-035",
+   "type": "choice",
+   "grammarPoint": "futuro-simple",
+   "difficulty": 2,
+   "feedback": "si + presente → futuro in the main clause.",
+   "contrast": "Si aprobaras, te invitaría (hypothesis, beyond B1).",
+   "subPoint": "uso-futuro",
+   "prompt": "Si apruebas el examen, te ___ a cenar.",
+   "options": [
+    "invitaré",
+    "invite",
+    "invitaría"
+   ],
+   "answers": [
+    "invitaré"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-036",
+   "type": "choice",
+   "grammarPoint": "futuro-simple",
+   "difficulty": 2,
+   "feedback": "A guess about the present → futuro simple.",
+   "contrast": "Habrá ido al gimnasio (guess about the recent past).",
+   "subPoint": "uso-futuro",
+   "prompt": "—¿Dónde está Pablo? —No sé, ___ en el gimnasio.",
+   "options": [
+    "estará",
+    "habrá estado",
+    "estaría"
+   ],
+   "answers": [
+    "estará"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-037",
+   "type": "choice",
+   "grammarPoint": "cuando-subjuntivo",
+   "difficulty": 2,
+   "feedback": "Never the future after cuando: cuando + subjuntivo.",
+   "contrast": "Buscaré trabajo cuando termine.",
+   "subPoint": "uso-futuro",
+   "prompt": "Cuando ___ el máster, buscaré trabajo en Madrid.",
+   "options": [
+    "termine",
+    "terminaré",
+    "termino"
+   ],
+   "answers": [
+    "termine"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-038",
+   "type": "error",
+   "grammarPoint": "futuro-simple",
+   "difficulty": 2,
+   "feedback": "decir → dir- + é.",
+   "contrast": "Te lo digo mañana.",
+   "subPoint": "uso-futuro",
+   "prompt": "No te preocupes, mañana te lo diceré sin falta.",
+   "errorIndex": 6,
+   "answers": [
+    "diré"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-039",
+   "type": "choice",
+   "grammarPoint": "presente-valor-futuro",
+   "difficulty": 3,
+   "feedback": "A plan you have already decided → ir a + infinitivo (or the present).",
+   "contrast": "Algún día iré a Japón (vague prediction).",
+   "subPoint": "uso-ir-a",
+   "prompt": "Ya lo he decidido: este verano ___ a Japón. (plan ya decidido)",
+   "options": [
+    "voy a ir",
+    "iría",
+    "fui"
+   ],
+   "answers": [
+    "voy a ir"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-040",
+   "type": "choice",
+   "grammarPoint": "futuro-compuesto",
+   "difficulty": 2,
+   "feedback": "A guess about something that has (probably) just happened → futuro compuesto.",
+   "contrast": "Se ha quedado dormido (certain).",
+   "subPoint": "uso-futuro-compuesto",
+   "prompt": "Mi hermano no contesta al móvil: se ___ dormido.",
+   "options": [
+    "habrá quedado",
+    "quedará",
+    "quedaría"
+   ],
+   "answers": [
+    "habrá quedado"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-041",
+   "type": "choice",
+   "grammarPoint": "futuro-compuesto",
+   "difficulty": 2,
+   "feedback": "Evidence of a recent past → futuro compuesto.",
+   "contrast": "Lloverá mañana (prediction).",
+   "subPoint": "uso-futuro-compuesto",
+   "prompt": "El suelo está mojado. ___ esta noche.",
+   "options": [
+    "Habrá llovido",
+    "Lloverá",
+    "Llovería"
+   ],
+   "answers": [
+    "Habrá llovido"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-042",
+   "type": "choice",
+   "grammarPoint": "futuro-compuesto",
+   "difficulty": 3,
+   "feedback": "A guess about NOW → futuro simple, not compuesto.",
+   "contrast": "Habrá salido ya.",
+   "subPoint": "uso-futuro-compuesto",
+   "prompt": "—¿Qué hace Ana ahora? —No sé, ___ en la oficina.",
+   "options": [
+    "estará",
+    "habrá estado",
+    "estuvo"
+   ],
+   "answers": [
+    "estará"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-043",
+   "type": "gap",
+   "grammarPoint": "futuro-compuesto",
+   "difficulty": 2,
+   "feedback": "Wondering about a recent past → habré + participle.",
+   "contrast": "¿Dónde las he puesto?",
+   "subPoint": "uso-futuro-compuesto",
+   "prompt": "No encuentro las gafas. ¿Dónde las ___ (poner, yo)?",
+   "answers": [
+    "habré puesto"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-044",
+   "type": "choice",
+   "grammarPoint": "futuro-compuesto",
+   "difficulty": 3,
+   "feedback": "Finished before a future moment → futuro compuesto.",
+   "contrast": "Lo terminaré a las nueve.",
+   "subPoint": "uso-futuro-compuesto",
+   "prompt": "A las nueve ya ___ el informe, te lo prometo.",
+   "options": [
+    "habré terminado",
+    "terminaré",
+    "terminaría"
+   ],
+   "answers": [
+    "habré terminado"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-045",
+   "type": "choice",
+   "grammarPoint": "condicional",
+   "difficulty": 1,
+   "feedback": "Wishes → condicional.",
+   "contrast": "De pequeño me gustaba el mar.",
+   "subPoint": "uso-condicional",
+   "prompt": "Me ___ vivir en un pueblo cerca del mar.",
+   "options": [
+    "gustaría",
+    "gustará",
+    "gustaba"
+   ],
+   "answers": [
+    "gustaría"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-046",
+   "type": "choice",
+   "grammarPoint": "condicional",
+   "difficulty": 2,
+   "feedback": "Advice with yo que tú → condicional.",
+   "contrast": "Habla con tu jefe (direct advice).",
+   "subPoint": "uso-condicional",
+   "prompt": "Yo que tú, ___ con tu jefe antes de dimitir.",
+   "options": [
+    "hablaría",
+    "hablaré",
+    "hable"
+   ],
+   "answers": [
+    "hablaría"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-047",
+   "type": "choice",
+   "grammarPoint": "condicional",
+   "difficulty": 2,
+   "feedback": "Polite request → condicional.",
+   "contrast": "¿Puedes cerrarla? (less polite)",
+   "subPoint": "uso-condicional",
+   "prompt": "¿___ cerrar la ventana, por favor? Hace frío.",
+   "options": [
+    "Podrías",
+    "Podrás",
+    "Pudiste"
+   ],
+   "answers": [
+    "Podrías"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-048",
+   "type": "choice",
+   "grammarPoint": "condicional",
+   "difficulty": 3,
+   "feedback": "English «would» for past habits = imperfecto, not condicional.",
+   "contrast": "Me llevarían si pudieran (hypothesis).",
+   "subPoint": "uso-condicional",
+   "prompt": "Cuando era pequeño, mis abuelos me ___ al parque cada tarde.",
+   "options": [
+    "llevaban",
+    "llevarían",
+    "llevarán"
+   ],
+   "answers": [
+    "llevaban"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-049",
+   "type": "error",
+   "grammarPoint": "deberian-habria-que",
+   "difficulty": 2,
+   "feedback": "A proposal → habría que (condicional).",
+   "contrast": "Hay que plantar árboles (obligation).",
+   "subPoint": "uso-condicional",
+   "prompt": "Para mejorar la ciudad, habrá que plantar más árboles.",
+   "errorIndex": 4,
+   "answers": [
+    "habría"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-050",
+   "type": "gap",
+   "grammarPoint": "condicional",
+   "difficulty": 2,
+   "feedback": "Opinion about a hypothetical action → condicional.",
+   "contrast": "Nunca he abandonado a un animal.",
+   "subPoint": "uso-condicional",
+   "prompt": "Yo nunca ___ (abandonar) a un animal en la calle.",
+   "answers": [
+    "abandonaría"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-051",
+   "type": "choice",
+   "grammarPoint": "querer-pedir-que",
+   "difficulty": 1,
+   "feedback": "Different subjects (yo / tú) → que + subjuntivo.",
+   "contrast": "Quiero venir a tu fiesta (same subject).",
+   "subPoint": "uso-subjuntivo",
+   "prompt": "Quiero que ___ a mi fiesta el sábado.",
+   "options": [
+    "vengas",
+    "vienes",
+    "vendrás"
+   ],
+   "answers": [
+    "vengas"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-052",
+   "type": "choice",
+   "grammarPoint": "querer-pedir-que",
+   "difficulty": 1,
+   "feedback": "Same subject → infinitive, no subjunctive.",
+   "contrast": "Quiero que vengas.",
+   "subPoint": "uso-subjuntivo",
+   "prompt": "Quiero ___ a tu fiesta el sábado.",
+   "options": [
+    "ir",
+    "que vaya",
+    "voy"
+   ],
+   "answers": [
+    "ir"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-053",
+   "type": "choice",
+   "grammarPoint": "creo-que-ind",
+   "difficulty": 2,
+   "feedback": "Affirmative creo que → indicative.",
+   "contrast": "No creo que sea en enero.",
+   "subPoint": "uso-subjuntivo",
+   "prompt": "Creo que el examen ___ en enero.",
+   "options": [
+    "es",
+    "sea",
+    "será que"
+   ],
+   "answers": [
+    "es"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-054",
+   "type": "choice",
+   "grammarPoint": "creo-que-ind",
+   "difficulty": 2,
+   "feedback": "Negative no creo que → subjunctive.",
+   "contrast": "Creo que es difícil.",
+   "subPoint": "uso-subjuntivo",
+   "prompt": "No creo que el examen ___ tan difícil.",
+   "options": [
+    "sea",
+    "es",
+    "será"
+   ],
+   "answers": [
+    "sea"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-055",
+   "type": "choice",
+   "grammarPoint": "cuando-subjuntivo",
+   "difficulty": 2,
+   "feedback": "cuando for a habit → indicative.",
+   "contrast": "Cuando llegue a casa, te llamaré (future).",
+   "subPoint": "uso-subjuntivo",
+   "prompt": "Cuando ___ a casa, siempre me ducho.",
+   "options": [
+    "llego",
+    "llegue",
+    "llegaré"
+   ],
+   "answers": [
+    "llego"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-056",
+   "type": "choice",
+   "grammarPoint": "hipotesis-ind-subj",
+   "difficulty": 2,
+   "feedback": "a lo mejor always takes the indicative.",
+   "contrast": "Puede que vayamos al cine.",
+   "subPoint": "uso-subjuntivo",
+   "prompt": "A lo mejor ___ al cine esta noche.",
+   "options": [
+    "vamos",
+    "vayamos",
+    "iremos que"
+   ],
+   "answers": [
+    "vamos"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-057",
+   "type": "choice",
+   "grammarPoint": "veracidad-ind-subj",
+   "difficulty": 2,
+   "feedback": "Certainty (está claro que) → indicative.",
+   "contrast": "No está claro que haya que cambiar.",
+   "subPoint": "uso-subjuntivo",
+   "prompt": "Está claro que ___ que cambiar algo.",
+   "options": [
+    "hay",
+    "haya",
+    "habrá que"
+   ],
+   "answers": [
+    "hay"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-058",
+   "type": "gap",
+   "grammarPoint": "me-fascina-que",
+   "difficulty": 2,
+   "feedback": "Feeling + que + different subject → subjuntivo.",
+   "contrast": "Me molesta poner la música alta.",
+   "subPoint": "uso-subjuntivo",
+   "prompt": "Me molesta que mis vecinos ___ (poner) la música tan alta.",
+   "answers": [
+    "pongan"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-059",
+   "type": "error",
+   "grammarPoint": "para-inf",
+   "difficulty": 2,
+   "feedback": "para que + subjuntivo.",
+   "contrast": "Te lo mando para verlo juntos.",
+   "subPoint": "uso-subjuntivo",
+   "prompt": "Te mando el enlace para que ves el piso.",
+   "errorIndex": 6,
+   "answers": [
+    "veas"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-060",
+   "type": "choice",
+   "grammarPoint": "imperativo-afirmativo",
+   "difficulty": 1,
+   "feedback": "tú affirmative = 3rd-person present (e→ie).",
+   "contrast": "Cierre la puerta (usted).",
+   "subPoint": "uso-imperativo",
+   "prompt": "___ la puerta, por favor, que hace frío. (tú)",
+   "options": [
+    "Cierra",
+    "Cierras",
+    "Cierre"
+   ],
+   "answers": [
+    "Cierra"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-061",
+   "type": "choice",
+   "grammarPoint": "imperativo-negativo",
+   "difficulty": 1,
+   "feedback": "Negative command → no + subjuntivo (c → qu).",
+   "contrast": "Toca el timbre.",
+   "subPoint": "uso-imperativo",
+   "prompt": "No ___ eso, está muy caliente. (tú)",
+   "options": [
+    "toques",
+    "tocas",
+    "toca"
+   ],
+   "answers": [
+    "toques"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-062",
+   "type": "choice",
+   "grammarPoint": "imperativo-negativo",
+   "difficulty": 2,
+   "feedback": "Negative vosotros → no + subjuntivo (-áis).",
+   "contrast": "Corred (affirmative).",
+   "subPoint": "uso-imperativo",
+   "prompt": "¡No ___ tan rápido, chicos! (vosotros)",
+   "options": [
+    "corráis",
+    "corred",
+    "corréis"
+   ],
+   "answers": [
+    "corráis"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-063",
+   "type": "choice",
+   "grammarPoint": "pronombres-posicion",
+   "difficulty": 2,
+   "feedback": "Affirmative: pronouns attached (and an accent).",
+   "contrast": "No te la pruebes.",
+   "subPoint": "uso-imperativo",
+   "prompt": "¿Esta chaqueta? ___ , te va a quedar genial. (tú)",
+   "options": [
+    "Pruébatela",
+    "Te la pruebas",
+    "Pruébala te"
+   ],
+   "answers": [
+    "Pruébatela"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-064",
+   "type": "error",
+   "grammarPoint": "imperativo-afirmativo",
+   "difficulty": 2,
+   "feedback": "Irregular tú: haz.",
+   "contrast": "Haced los deberes (vosotros).",
+   "subPoint": "uso-imperativo",
+   "prompt": "¡Hace tus deberes ahora mismo!",
+   "errorIndex": 0,
+   "answers": [
+    "Haz"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-065",
+   "type": "gap",
+   "grammarPoint": "imperativo-afirmativo",
+   "difficulty": 2,
+   "feedback": "usted → subjunctive form: pase.",
+   "contrast": "Pasa (tú).",
+   "subPoint": "uso-imperativo",
+   "prompt": "Señora, ___ (pasar, usted), por favor, la doctora la espera.",
+   "answers": [
+    "pase"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-066",
+   "type": "choice",
+   "grammarPoint": "presente-valor-futuro",
+   "difficulty": 1,
+   "feedback": "Plans → voy a + infinitivo.",
+   "contrast": "Ayer fui a la biblioteca.",
+   "subPoint": "uso-ir-a",
+   "prompt": "Esta tarde ___ a estudiar a la biblioteca.",
+   "options": [
+    "voy",
+    "iré a ir",
+    "iba"
+   ],
+   "answers": [
+    "voy"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-067",
+   "type": "choice",
+   "grammarPoint": "presente-valor-futuro",
+   "difficulty": 2,
+   "feedback": "Something clearly about to happen → va a + infinitivo.",
+   "contrast": "Mañana lloverá (prediction).",
+   "subPoint": "uso-ir-a",
+   "prompt": "Mira esas nubes negras: ___ a llover.",
+   "options": [
+    "va",
+    "irá",
+    "iba"
+   ],
+   "answers": [
+    "va"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-068",
+   "type": "choice",
+   "grammarPoint": "presente-valor-futuro",
+   "difficulty": 3,
+   "feedback": "A plan that did not happen → iba a + infinitivo.",
+   "contrast": "Voy a llamarte mañana.",
+   "subPoint": "uso-ir-a",
+   "prompt": "___ a llamarte ayer, pero se me olvidó.",
+   "options": [
+    "Iba",
+    "Voy",
+    "Fui"
+   ],
+   "answers": [
+    "Iba"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-069",
+   "type": "error",
+   "grammarPoint": "presente-valor-futuro",
+   "difficulty": 1,
+   "feedback": "ir + a + infinitivo (do not forget the a).",
+   "contrast": "Voy a estudiar.",
+   "subPoint": "uso-ir-a",
+   "prompt": "Mañana voy estudiar con Lucía.",
+   "errorIndex": 2,
+   "answers": [
+    "a estudiar"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-070",
+   "type": "choice",
+   "grammarPoint": "estar-gerundio",
+   "difficulty": 1,
+   "feedback": "Right now → estoy + gerundio.",
+   "contrast": "Ayer estuve conduciendo cinco horas.",
+   "subPoint": "uso-estar-gerundio",
+   "prompt": "Ahora no puedo hablar, ___ conduciendo.",
+   "options": [
+    "estoy",
+    "estaba",
+    "estuve"
+   ],
+   "answers": [
+    "estoy"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-071",
+   "type": "choice",
+   "grammarPoint": "estar-gerundio",
+   "difficulty": 2,
+   "feedback": "A while in a closed period, finished → estuve + gerundio.",
+   "contrast": "Estaba estudiando cuando me llamaste.",
+   "why": "time-marker-closed",
+   "subPoint": "uso-estar-gerundio",
+   "prompt": "Ayer ___ estudiando toda la tarde.",
+   "options": [
+    "estuve",
+    "estaba",
+    "estoy"
+   ],
+   "answers": [
+    "estuve"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-072",
+   "type": "choice",
+   "grammarPoint": "estar-gerundio",
+   "difficulty": 2,
+   "feedback": "In progress when something happened → estaba + gerundio.",
+   "contrast": "Estuve durmiendo diez horas.",
+   "why": "interrupted-action",
+   "subPoint": "uso-estar-gerundio",
+   "prompt": "___ durmiendo cuando sonó la alarma.",
+   "options": [
+    "Estaba",
+    "Estuve",
+    "Estoy"
+   ],
+   "answers": [
+    "Estaba"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-073",
+   "type": "choice",
+   "grammarPoint": "estar-gerundio",
+   "difficulty": 3,
+   "feedback": "State verbs (saber, tener, querer, conocer) are not used with estar + gerundio.",
+   "contrast": "Estoy pensando la respuesta.",
+   "subPoint": "uso-estar-gerundio",
+   "prompt": "¿Qué frase es correcta?",
+   "options": [
+    "Sé la respuesta.",
+    "Estoy sabiendo la respuesta.",
+    "Estoy sabido la respuesta."
+   ],
+   "answers": [
+    "Sé la respuesta."
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-074",
+   "type": "gap",
+   "grammarPoint": "estar-gerundio",
+   "difficulty": 2,
+   "feedback": "esta mañana → perfecto: hemos estado + gerundio.",
+   "contrast": "Ayer estuvimos limpiando.",
+   "why": "time-marker-open",
+   "subPoint": "uso-estar-gerundio",
+   "prompt": "Esta mañana ___ (estar, nosotros) limpiando el piso para la visita.",
+   "answers": [
+    "hemos estado"
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-075",
+   "type": "match",
+   "grammarPoint": "past-review",
+   "difficulty": 3,
+   "feedback": "Time markers choose the tense: hoy → perfecto, ayer → indefinido, de pequeño → imperfecto, mañana → futuro.",
+   "subPoint": "uso-mezcla",
+   "instruction": "Relaciona cada marcador con la frase adecuada.",
+   "pairs": [
+    {
+     "left": "Hoy",
+     "right": "he desayunado tostadas."
+    },
+    {
+     "left": "Ayer",
+     "right": "desayuné churros."
+    },
+    {
+     "left": "De pequeño",
+     "right": "desayunaba cereales."
+    },
+    {
+     "left": "Mañana",
+     "right": "desayunaré en el tren."
+    }
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-076",
+   "type": "match",
+   "grammarPoint": "subjuntivo-presente",
+   "difficulty": 3,
+   "feedback": "espero que / cuando (future) + subjuntivo; creo que + indicativo; si + presente.",
+   "subPoint": "uso-mezcla",
+   "instruction": "Relaciona cada principio con su final.",
+   "pairs": [
+    {
+     "left": "Espero que",
+     "right": "tengas buen viaje."
+    },
+    {
+     "left": "Creo que",
+     "right": "tienes razón."
+    },
+    {
+     "left": "Si tienes tiempo,",
+     "right": "llámame."
+    },
+    {
+     "left": "Cuando tengas tiempo,",
+     "right": "llámame."
+    }
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-077",
+   "type": "match",
+   "grammarPoint": "condicional",
+   "difficulty": 3,
+   "feedback": "Advice → condicional; si + presente → futuro; past habit → imperfecto; closed past → indefinido.",
+   "subPoint": "uso-mezcla",
+   "instruction": "Relaciona cada principio con su final.",
+   "pairs": [
+    {
+     "left": "Yo que tú,",
+     "right": "iría al médico."
+    },
+    {
+     "left": "Si vas al médico,",
+     "right": "te sentirás mejor."
+    },
+    {
+     "left": "Antes",
+     "right": "iba al médico cada año."
+    },
+    {
+     "left": "El lunes pasado",
+     "right": "fui al médico."
+    }
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-078",
+   "type": "choice",
+   "grammarPoint": "past-review",
+   "difficulty": 3,
+   "feedback": "Stage of life + description → imperfecto.",
+   "contrast": "Viví en Málaga de 2010 a 2015.",
+   "why": "background-description",
+   "subPoint": "uso-mezcla",
+   "prompt": "Elige la frase correcta.",
+   "options": [
+    "Cuando era pequeño, vivía en Málaga.",
+    "Cuando fui pequeño, viví en Málaga.",
+    "Cuando he sido pequeño, he vivido en Málaga."
+   ],
+   "answers": [
+    "Cuando era pequeño, vivía en Málaga."
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-079",
+   "type": "choice",
+   "grammarPoint": "futuro-simple",
+   "difficulty": 3,
+   "feedback": "si + presente, futuro.",
+   "contrast": "Cuando llueva, no iremos.",
+   "subPoint": "uso-mezcla",
+   "prompt": "Elige la frase correcta.",
+   "options": [
+    "Si llueve, no iremos a la playa.",
+    "Si lloverá, no iremos a la playa.",
+    "Si llueva, no iremos a la playa."
+   ],
+   "answers": [
+    "Si llueve, no iremos a la playa."
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-080",
+   "type": "choice",
+   "grammarPoint": "subjuntivo-presente",
+   "difficulty": 3,
+   "feedback": "cuando (future) + subjuntivo.",
+   "contrast": "Cuando termino, siempre te llamo (habit).",
+   "subPoint": "uso-mezcla",
+   "prompt": "Elige la frase correcta.",
+   "options": [
+    "Cuando termine, te llamo.",
+    "Cuando terminaré, te llamo.",
+    "Cuando termino mañana, te llamo."
+   ],
+   "answers": [
+    "Cuando termine, te llamo."
+   ],
+   "unit": 0
+  },
+  {
+   "id": "tn-f-081",
+   "type": "choice",
+   "grammarPoint": "pluscuamperfecto",
+   "difficulty": 3,
+   "feedback": "Before another past moment → pluscuamperfecto.",
+   "contrast": "Cuando llegué, se fueron (afterwards).",
+   "why": "prior-past",
+   "subPoint": "uso-mezcla",
+   "prompt": "Elige la frase correcta.",
+   "options": [
+    "Cuando llegué, ya se habían ido.",
+    "Cuando llegué, ya se han ido.",
+    "Cuando he llegado, ya se iban."
+   ],
+   "answers": [
+    "Cuando llegué, ya se habían ido."
+   ],
+   "unit": 0
+  }
+ ]
+}

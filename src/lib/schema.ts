@@ -118,6 +118,24 @@ export const FocusPack = z.object({
   items: z.array(DrillItem)
 });
 
+export const TenseGuideEntry = z.object({
+  id: z.string(),
+  tense: z.string().nullable(), // a TenseId from conjugate.ts, or null for periphrases (ir a, estar + gerundio)
+  name: z.string(),
+  group: z.string(),
+  summary: z.string(),
+  how: z.string(),
+  irregulars: z.array(z.string()),
+  uses: z.array(z.object({ rule: z.string(), es: z.string() })).min(2),
+  notUse: z.array(z.object({ wrong: z.string(), right: z.string(), why: z.string() })).min(2),
+  markers: z.array(z.string()),
+  grammarPoints: z.array(z.string()).min(1),
+  subPoints: z.array(z.string()).optional()
+});
+export const TenseGuide = z.array(TenseGuideEntry);
+export type TenseGuideEntry = z.infer<typeof TenseGuideEntry>;
+export const TensePractice = z.object({ id: z.string(), title: z.string(), items: z.array(DrillItem) });
+
 export const GrammarPoint = z.object({
   id: z.string(),
   unit: z.number().int().min(0).max(12),

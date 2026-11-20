@@ -1,0 +1,833 @@
+[
+ {
+  "id": "presente",
+  "tense": "presente",
+  "name": "Presente de indicativo",
+  "group": "Presente",
+  "summary": "The everyday tense: what is true now, what you usually do, and also fixed plans for the future.",
+  "how": "-ar: -o, -as, -a, -amos, -áis, -an · -er: -o, -es, -e, -emos, -éis, -en · -ir: -o, -es, -e, -imos, -ís, -en.",
+  "irregulars": [
+   "Stem changes in yo, tú, él, ellos: e→ie (pienso), o→ue (puedo), e→i (pido); nosotros and vosotros keep the infinitive stem (pensamos).",
+   "Irregular yo: tengo, vengo, pongo, salgo, hago, digo, traigo, conozco, sé, doy, veo.",
+   "Totally irregular: ser (soy, eres, es…), ir (voy, vas, va…), estar (estoy, estás…), haber (he, has, ha… / hay)."
+  ],
+  "uses": [
+   {
+    "rule": "Facts and things that are true now",
+    "es": "Vivo en Sevilla y trabajo en una academia."
+   },
+   {
+    "rule": "Habits and routines (with siempre, normalmente, cada día…)",
+    "es": "Los sábados desayuno churros."
+   },
+   {
+    "rule": "Fixed plans and timetables in the future, with a time marker",
+    "es": "Mañana salgo a las siete. El tren sale a las 8:15."
+   },
+   {
+    "rule": "After si in real conditions (never the future)",
+    "es": "Si llueve, nos quedamos en casa."
+   },
+   {
+    "rule": "With desde / desde hace / llevar for something that started in the past and continues",
+    "es": "Estudio español desde hace un año."
+   },
+   {
+    "rule": "Telling stories, jokes and film plots in a lively way",
+    "es": "La película trata de un chico que vive en una isla."
+   }
+  ],
+  "notUse": [
+   {
+    "wrong": "Estoy vivir en Sevilla desde 2023.",
+    "right": "Vivo en Sevilla desde 2023.",
+    "why": "For something still true now, use the present (not estar + infinitive, and not the perfecto as in English «have lived»)."
+   },
+   {
+    "wrong": "Ahora mismo hablo por teléfono, ¿te llamo luego?",
+    "right": "Ahora mismo estoy hablando por teléfono.",
+    "why": "For an action happening at this very moment, estar + gerundio is more natural."
+   },
+   {
+    "wrong": "Si lloverá mañana, no iremos.",
+    "right": "Si llueve mañana, no iremos.",
+    "why": "After si (real condition) Spanish uses the present, never the future."
+   },
+   {
+    "wrong": "Cuando llego a Madrid mañana, te llamo.",
+    "right": "Cuando llegue a Madrid mañana, te llamo.",
+    "why": "After cuando for a future event, use the subjunctive, not the present."
+   }
+  ],
+  "markers": [
+   "siempre",
+   "normalmente",
+   "cada día",
+   "a menudo",
+   "ahora",
+   "hoy en día",
+   "desde hace",
+   "mañana (planes)"
+  ],
+  "grammarPoints": [
+   "soler-inf",
+   "presente-valor-futuro",
+   "desde-hace",
+   "llevar-seguir-gerundio",
+   "presente-relato",
+   "si-presente"
+  ]
+ },
+ {
+  "id": "perfecto",
+  "tense": "perfecto",
+  "name": "Pretérito perfecto",
+  "group": "Pasado",
+  "summary": "Past actions inside a period that is still open (hoy, esta semana, este año) or life experiences up to now. In Spain it is used much more than in Latin America.",
+  "how": "haber in the present (he, has, ha, hemos, habéis, han) + participle (-ado / -ido). Haber and the participle are never separated; pronouns go before haber.",
+  "irregulars": [
+   "Irregular participles: hecho, dicho, visto, puesto, escrito, vuelto, abierto, roto, muerto, descubierto, resuelto.",
+   "The participle never changes: hemos ido (not hemos idos)."
+  ],
+  "uses": [
+   {
+    "rule": "Something that happened in a period that has not finished (hoy, esta mañana, esta semana, este mes, este año)",
+    "es": "Esta mañana he perdido el autobús."
+   },
+   {
+    "rule": "Life experiences, with or without alguna vez / nunca",
+    "es": "¿Has estado alguna vez en Marruecos? Nunca he probado los caracoles."
+   },
+   {
+    "rule": "With ya and todavía no",
+    "es": "Ya he hecho la compra. Todavía no he terminado el informe."
+   },
+   {
+    "rule": "Very recent events, especially in Spain",
+    "es": "¿Qué ha pasado? —Se me ha caído el vaso."
+   },
+   {
+    "rule": "Summing up a period up to now: últimamente, desde entonces",
+    "es": "Últimamente he dormido muy poco."
+   }
+  ],
+  "notUse": [
+   {
+    "wrong": "Ayer he ido al cine.",
+    "right": "Ayer fui al cine.",
+    "why": "ayer, anoche, el lunes pasado, en 2019, hace dos años are closed periods → indefinido."
+   },
+   {
+    "wrong": "He vivido en Sevilla desde 2023 (and I still do).",
+    "right": "Vivo en Sevilla desde 2023.",
+    "why": "For a situation that continues now, Spanish uses the present (English uses «have lived»)."
+   },
+   {
+    "wrong": "Cuando era niño he jugado al fútbol.",
+    "right": "Cuando era niño jugaba al fútbol.",
+    "why": "Past habits and descriptions → imperfecto."
+   },
+   {
+    "wrong": "Lo he visto el martes pasado.",
+    "right": "Lo vi el martes pasado.",
+    "why": "Even if the question uses the perfecto, a specific past day takes the indefinido."
+   }
+  ],
+  "markers": [
+   "hoy",
+   "esta mañana",
+   "esta semana",
+   "este año",
+   "alguna vez",
+   "nunca",
+   "ya",
+   "todavía no",
+   "últimamente",
+   "desde entonces"
+  ],
+  "grammarPoints": [
+   "past-review"
+  ],
+  "subPoints": [
+   "forms-perfecto",
+   "perfecto-vs-indefinido"
+  ]
+ },
+ {
+  "id": "indefinido",
+  "tense": "indefinido",
+  "name": "Pretérito indefinido",
+  "group": "Pasado",
+  "summary": "Completed past events in a period that is over. It moves the story forward: first this happened, then that.",
+  "how": "-ar: -é, -aste, -ó, -amos, -asteis, -aron · -er / -ir: -í, -iste, -ió, -imos, -isteis, -ieron.",
+  "irregulars": [
+   "Irregular stems with no accents: tuve, estuve, hice (hizo), pude, puse, vine, quise, supe, dije, traje, conduje (dijeron, trajeron without i).",
+   "ser and ir share the same forms: fui, fuiste, fue, fuimos, fuisteis, fueron. dar: di, dio (no accent).",
+   "-ir stem changers in 3rd persons: pidió, sintió, durmió, siguió, eligió.",
+   "Spelling in yo: llegué, busqué, empecé; i→y: leyó, oyó, construyó."
+  ],
+  "uses": [
+   {
+    "rule": "Finished actions at a specific past time (ayer, anoche, el año pasado, en 2019, hace dos años)",
+    "es": "El año pasado viajé a Lisboa."
+   },
+   {
+    "rule": "A sequence of events in a story",
+    "es": "Llegué a casa, me duché y me fui a la cama."
+   },
+   {
+    "rule": "An event that interrupts a background action",
+    "es": "Estaba cenando cuando sonó el teléfono."
+   },
+   {
+    "rule": "Something that lasted a closed, measured time (durante dos horas, tres años)",
+    "es": "Viví en Londres cinco años."
+   },
+   {
+    "rule": "A summary or evaluation of a finished event",
+    "es": "El viaje fue genial."
+   }
+  ],
+  "notUse": [
+   {
+    "wrong": "De pequeño fui a la playa todos los veranos.",
+    "right": "De pequeño iba a la playa todos los veranos.",
+    "why": "Repeated past habits → imperfecto."
+   },
+   {
+    "wrong": "La casa fue grande y tuvo un jardín.",
+    "right": "La casa era grande y tenía un jardín.",
+    "why": "Descriptions of places, people and situations → imperfecto."
+   },
+   {
+    "wrong": "Hoy me levanté a las seis.",
+    "right": "Hoy me he levantado a las seis.",
+    "why": "In Spain, hoy / esta mañana / este año take the perfecto."
+   },
+   {
+    "wrong": "Cuando llegué, el tren ya salió.",
+    "right": "Cuando llegué, el tren ya había salido.",
+    "why": "For something that happened before another past event, use the pluscuamperfecto."
+   }
+  ],
+  "markers": [
+   "ayer",
+   "anoche",
+   "anteayer",
+   "el lunes pasado",
+   "la semana pasada",
+   "el año pasado",
+   "en 2019",
+   "hace dos años",
+   "aquel día",
+   "de repente",
+   "al final"
+  ],
+  "grammarPoints": [
+   "past-review"
+  ],
+  "subPoints": [
+   "forms-indefinido",
+   "perfecto-vs-indefinido",
+   "indefinido-vs-imperfecto"
+  ]
+ },
+ {
+  "id": "imperfecto",
+  "tense": "imperfecto",
+  "name": "Pretérito imperfecto",
+  "group": "Pasado",
+  "summary": "The past «background»: what things were like, what used to happen, and what was going on when something else happened.",
+  "how": "-ar: -aba, -abas, -aba, -ábamos, -abais, -aban · -er / -ir: -ía, -ías, -ía, -íamos, -íais, -ían.",
+  "irregulars": [
+   "Only three irregular verbs: ser (era, eras…), ir (iba, ibas…), ver (veía, veías…).",
+   "hay → había (there was / there were)."
+  ],
+  "uses": [
+   {
+    "rule": "Describing people, places and situations in the past",
+    "es": "Mi abuelo era alto y tenía una voz muy grave."
+   },
+   {
+    "rule": "Past habits (siempre, cada verano, todos los días, de pequeño, antes)",
+    "es": "Antes fumaba un paquete al día."
+   },
+   {
+    "rule": "An action in progress when something else happened (often with mientras / estaba + gerundio)",
+    "es": "Mientras cocinaba, llegaron los invitados."
+   },
+   {
+    "rule": "Time, age and weather as background",
+    "es": "Eran las once, tenía veinte años y llovía muchísimo."
+   },
+   {
+    "rule": "Polite requests",
+    "es": "Quería un café, por favor."
+   }
+  ],
+  "notUse": [
+   {
+    "wrong": "Ayer iba al médico.",
+    "right": "Ayer fui al médico.",
+    "why": "A single completed event → indefinido (iba would need a continuation: «iba al médico cuando…»)."
+   },
+   {
+    "wrong": "Viví en Roma cuando tenía veinte años y vivía allí tres años.",
+    "right": "…y viví allí tres años.",
+    "why": "A closed, measured period (tres años) → indefinido."
+   },
+   {
+    "wrong": "Estaba duchándome cuando sonaba el timbre.",
+    "right": "Estaba duchándome cuando sonó el timbre.",
+    "why": "The interrupting event is a completed action → indefinido."
+   },
+   {
+    "wrong": "Todo el mundo estaban contentos.",
+    "right": "Todo el mundo estaba contento.",
+    "why": "todo el mundo takes a singular verb."
+   }
+  ],
+  "markers": [
+   "antes",
+   "de pequeño/a",
+   "cuando era niño/a",
+   "siempre",
+   "todos los días",
+   "cada verano",
+   "normalmente",
+   "a menudo",
+   "mientras",
+   "en aquella época"
+  ],
+  "grammarPoints": [
+   "past-review"
+  ],
+  "subPoints": [
+   "forms-imperfecto",
+   "indefinido-vs-imperfecto",
+   "interrupted-action"
+  ]
+ },
+ {
+  "id": "pluscuamperfecto",
+  "tense": "pluscuamperfecto",
+  "name": "Pretérito pluscuamperfecto",
+  "group": "Pasado",
+  "summary": "The «past of the past»: something that had already happened before another past moment.",
+  "how": "haber in the imperfecto (había, habías, había, habíamos, habíais, habían) + participle.",
+  "irregulars": [
+   "Same irregular participles as the perfecto: había hecho, dicho, visto, puesto, escrito, vuelto, roto…"
+  ],
+  "uses": [
+   {
+    "rule": "An action before another past action",
+    "es": "Cuando llegué a la estación, el tren ya había salido."
+   },
+   {
+    "rule": "Experiences before a past moment, with nunca or ya",
+    "es": "Nunca había visto el mar hasta los veinte años."
+   },
+   {
+    "rule": "Explaining the cause of a past situation",
+    "es": "Estaba cansado porque había dormido muy poco."
+   },
+   {
+    "rule": "In reported speech about the past",
+    "es": "Me dijo que había perdido las llaves."
+   }
+  ],
+  "notUse": [
+   {
+    "wrong": "Hoy había comido con mis padres.",
+    "right": "Hoy he comido con mis padres.",
+    "why": "With no other past moment to refer to, use the perfecto or indefinido."
+   },
+   {
+    "wrong": "Cuando llegamos, había empezado a llover (it started just as we arrived).",
+    "right": "Cuando llegamos, empezó a llover.",
+    "why": "If the two actions happen at the same moment or one after the other, use the indefinido."
+   },
+   {
+    "wrong": "Nunca había estado en Japón (and I still haven't).",
+    "right": "Nunca he estado en Japón.",
+    "why": "Experience up to now → perfecto; había is only for «before that moment in the past»."
+   }
+  ],
+  "markers": [
+   "ya (antes de otro pasado)",
+   "nunca antes",
+   "todavía no (en el pasado)",
+   "antes de + momento pasado",
+   "la noche anterior",
+   "el día anterior"
+  ],
+  "grammarPoints": [
+   "pluscuamperfecto",
+   "past-combined"
+  ],
+  "subPoints": [
+   "pluscuamperfecto"
+  ]
+ },
+ {
+  "id": "futuro",
+  "tense": "futuro",
+  "name": "Futuro simple",
+  "group": "Futuro",
+  "summary": "Predictions and promises about the future, and guesses about the present.",
+  "how": "Infinitive + -é, -ás, -á, -emos, -éis, -án (the same for -ar, -er and -ir).",
+  "irregulars": [
+   "Irregular stems: tendr-, vendr-, pondr-, saldr-, podr-, sabr-, habr-, querr-, har-, dir-, cabr-, valdr- (tendré, haré, dirá…)."
+  ],
+  "uses": [
+   {
+    "rule": "Predictions about the future",
+    "es": "En 2050 habrá más coches eléctricos."
+   },
+   {
+    "rule": "Promises and decisions taken at the moment of speaking",
+    "es": "Te llamaré mañana sin falta."
+   },
+   {
+    "rule": "After si + present (the result)",
+    "es": "Si estudias, aprobarás."
+   },
+   {
+    "rule": "Guessing about the present (probability)",
+    "es": "¿Dónde está Luis? —Estará en el gimnasio."
+   }
+  ],
+  "notUse": [
+   {
+    "wrong": "Si tendré tiempo, te ayudaré.",
+    "right": "Si tengo tiempo, te ayudaré.",
+    "why": "After si → present, never future."
+   },
+   {
+    "wrong": "Cuando terminaré la carrera, buscaré trabajo.",
+    "right": "Cuando termine la carrera, buscaré trabajo.",
+    "why": "After cuando (future meaning) → subjunctive."
+   },
+   {
+    "wrong": "Esta noche cenaré con Marta (already arranged).",
+    "right": "Esta noche ceno con Marta. / Voy a cenar con Marta.",
+    "why": "For fixed plans, the present or ir a + infinitive sound more natural."
+   }
+  ],
+  "markers": [
+   "mañana",
+   "pasado mañana",
+   "el año que viene",
+   "la próxima semana",
+   "dentro de + tiempo",
+   "en el futuro",
+   "algún día",
+   "seguramente",
+   "probablemente"
+  ],
+  "grammarPoints": [
+   "futuro-simple",
+   "si-presente",
+   "probabilidad-adverbios",
+   "marcadores-futuro"
+  ]
+ },
+ {
+  "id": "futuro-compuesto",
+  "tense": "futuro-compuesto",
+  "name": "Futuro compuesto",
+  "group": "Futuro",
+  "summary": "At B1 it is mainly used to guess about something that has (probably) just happened.",
+  "how": "haber in the future (habré, habrás, habrá, habremos, habréis, habrán) + participle.",
+  "irregulars": [
+   "Irregular participles as in the perfecto: habrá hecho, habrán vuelto, se habrá roto…"
+  ],
+  "uses": [
+   {
+    "rule": "Guessing about a recent past (the perfecto as a hypothesis)",
+    "es": "Marta no contesta: se habrá quedado sin batería."
+   },
+   {
+    "rule": "Explaining evidence",
+    "es": "El suelo está mojado: habrá llovido esta noche."
+   },
+   {
+    "rule": "Something that will be finished by a future moment",
+    "es": "A las ocho ya habré terminado el informe."
+   }
+  ],
+  "notUse": [
+   {
+    "wrong": "Habrá estado en casa ahora.",
+    "right": "Estará en casa ahora.",
+    "why": "A guess about the present → futuro simple."
+   },
+   {
+    "wrong": "No vino a la fiesta el sábado: habrá estado enfermo.",
+    "right": "…: estaría enfermo.",
+    "why": "A guess about an indefinido-type past (el sábado) → condicional (this is a B1+ nuance)."
+   },
+   {
+    "wrong": "Se habrá quedado sin batería (when you know for sure).",
+    "right": "Se ha quedado sin batería.",
+    "why": "If you are sure, there is no guess: use the perfecto."
+   }
+  ],
+  "markers": [
+   "(conjeturas)",
+   "ya (a una hora futura)",
+   "para + hora futura"
+  ],
+  "grammarPoints": [
+   "futuro-compuesto",
+   "hipotesis-ind-subj"
+  ]
+ },
+ {
+  "id": "condicional",
+  "tense": "condicional",
+  "name": "Condicional simple",
+  "group": "Condicional",
+  "summary": "Wishes, advice, polite requests and hypothetical situations («would»).",
+  "how": "Infinitive + -ía, -ías, -ía, -íamos, -íais, -ían. Same irregular stems as the future (tendría, haría, diría, podría…).",
+  "irregulars": [
+   "tendr-, vendr-, pondr-, saldr-, podr-, sabr-, habr-, querr-, har-, dir- + -ía…"
+  ],
+  "uses": [
+   {
+    "rule": "Wishes",
+    "es": "Me gustaría vivir cerca del mar."
+   },
+   {
+    "rule": "Advice (yo que tú, yo en tu lugar, deberías)",
+    "es": "Yo que tú, hablaría con ella. Deberías descansar."
+   },
+   {
+    "rule": "Polite requests",
+    "es": "¿Podrías ayudarme? ¿Te importaría cerrar la ventana?"
+   },
+   {
+    "rule": "Imagined situations and opinions about behaviour",
+    "es": "Yo nunca abandonaría a un animal."
+   },
+   {
+    "rule": "Proposals for change",
+    "es": "Habría que mejorar el transporte público."
+   }
+  ],
+  "notUse": [
+   {
+    "wrong": "Si tengo dinero, viajaría por el mundo.",
+    "right": "Si tengo dinero, viajaré… / Si tuviera dinero, viajaría…",
+    "why": "si + present goes with the future. The condicional goes with si + imperfect subjunctive (beyond B1)."
+   },
+   {
+    "wrong": "Cuando era pequeño, iría a la playa cada verano.",
+    "right": "Cuando era pequeño, iba a la playa cada verano.",
+    "why": "English «would» for past habits = imperfecto in Spanish."
+   },
+   {
+    "wrong": "Me gustaría que vienes.",
+    "right": "Me gustaría que vinieras. / Me gustaría venir.",
+    "why": "me gustaría que needs the past subjunctive; at B1 use me gustaría + infinitive when you can."
+   }
+  ],
+  "markers": [
+   "me gustaría",
+   "yo que tú",
+   "yo en tu lugar",
+   "deberías",
+   "podrías",
+   "¿te importaría…?",
+   "habría que"
+  ],
+  "grammarPoints": [
+   "condicional",
+   "deberian-habria-que"
+  ]
+ },
+ {
+  "id": "subjuntivo",
+  "tense": "subjuntivo",
+  "name": "Presente de subjuntivo",
+  "group": "Subjuntivo",
+  "summary": "Not a time but a mood: used after expressions of wishes, requests, feelings, value judgments, doubt and purpose when the subject changes, and after cuando for the future.",
+  "how": "Take the yo form of the present, drop -o, and swap the vowel: -ar → -e, -es, -e, -emos, -éis, -en · -er / -ir → -a, -as, -a, -amos, -áis, -an.",
+  "irregulars": [
+   "From the irregular yo: tenga, haga, ponga, salga, venga, diga, conozca, traiga.",
+   "Six to learn by heart: sea, vaya, esté, haya, sepa, dé.",
+   "Stem changes as in the present (quiera, pueda); -ir verbs also change in nosotros/vosotros (durmamos, pidamos, sintamos).",
+   "Spelling: llegue, busque, empiece, coja."
+  ],
+  "uses": [
+   {
+    "rule": "Wishes and requests with a different subject: quiero que, espero que, te pido que, ojalá",
+    "es": "Espero que tengas suerte en el examen."
+   },
+   {
+    "rule": "Feelings and value judgments + que: me molesta que, es injusto que, me parece bien que",
+    "es": "Me molesta que la gente llegue tarde."
+   },
+   {
+    "rule": "Advice and suggestions: te recomiendo / aconsejo / sugiero que",
+    "es": "Te aconsejo que vayas en tren."
+   },
+   {
+    "rule": "Cuando, en cuanto, hasta que + future",
+    "es": "Cuando termine el curso, buscaré trabajo."
+   },
+   {
+    "rule": "Purpose with a different subject: para que",
+    "es": "Te lo explico para que lo entiendas."
+   },
+   {
+    "rule": "Doubt, denial and some probability expressions: no creo que, dudo que, puede que, es posible que",
+    "es": "No creo que sea tan difícil."
+   },
+   {
+    "rule": "Unknown or desired things in relative clauses: busco un piso que tenga terraza",
+    "es": "Necesito alguien que sepa inglés."
+   },
+   {
+    "rule": "Negative commands and usted/ustedes commands",
+    "es": "No te preocupes. Pase, por favor."
+   }
+  ],
+  "notUse": [
+   {
+    "wrong": "Quiero que voy al cine.",
+    "right": "Quiero ir al cine.",
+    "why": "Same subject → infinitive (yo quiero, yo voy)."
+   },
+   {
+    "wrong": "Creo que sea verdad.",
+    "right": "Creo que es verdad.",
+    "why": "Affirmative creo que / pienso que / me parece que + indicative. Only the negative takes subjunctive."
+   },
+   {
+    "wrong": "A lo mejor venga mañana.",
+    "right": "A lo mejor viene mañana.",
+    "why": "a lo mejor always takes the indicative."
+   },
+   {
+    "wrong": "Cuando llegue a casa, siempre me ducho.",
+    "right": "Cuando llego a casa, siempre me ducho.",
+    "why": "cuando for habits (or the past) → indicative. Subjunctive only for the future."
+   },
+   {
+    "wrong": "Es verdad que sea caro.",
+    "right": "Es verdad que es caro.",
+    "why": "Certainty (es verdad, está claro, es evidente que) → indicative."
+   }
+  ],
+  "markers": [
+   "quiero que",
+   "espero que",
+   "ojalá",
+   "me molesta que",
+   "es importante que",
+   "te recomiendo que",
+   "cuando (futuro)",
+   "para que",
+   "no creo que",
+   "puede que",
+   "busco algo que"
+  ],
+  "grammarPoints": [
+   "subjuntivo-presente",
+   "querer-pedir-que",
+   "cuando-subjuntivo",
+   "me-fascina-que",
+   "verbos-sentimiento",
+   "valorar-inf-subj",
+   "veracidad-ind-subj",
+   "hipotesis-ind-subj",
+   "relativas-ind-subj",
+   "para-inf",
+   "creo-que-ind",
+   "ser-estar-adj-que",
+   "que-subj-deseos",
+   "sugerir-recomendar-quejarse-proponer"
+  ]
+ },
+ {
+  "id": "imperativo",
+  "tense": "imperativo",
+  "name": "Imperativo (afirmativo y negativo)",
+  "group": "Imperativo",
+  "summary": "Instructions, advice, invitations and ads. Affirmative and negative commands are built differently.",
+  "how": "Affirmative: tú = 3rd-person present (habla, come) · vosotros = infinitive -r → -d (hablad) · usted / ustedes = subjunctive (hable, hablen). Negative: no + subjunctive for all (no hables, no habléis, no hable, no hablen).",
+  "irregulars": [
+   "Irregular tú: ten, ven, pon, sal, haz, di, ve, sé.",
+   "Pronouns go on the end of affirmative commands (dímelo, siéntate) and before negative ones (no me lo digas).",
+   "vosotros + os drops the -d: sentaos, levantaos (but idos)."
+  ],
+  "uses": [
+   {
+    "rule": "Instructions and recipes",
+    "es": "Corta la cebolla y añade un poco de sal."
+   },
+   {
+    "rule": "Advice",
+    "es": "Descansa y bebe mucha agua."
+   },
+   {
+    "rule": "Invitations and offers",
+    "es": "Pasa, pasa, siéntate."
+   },
+   {
+    "rule": "Advertising",
+    "es": "Pruébalo gratis durante un mes."
+   },
+   {
+    "rule": "Prohibitions (negative)",
+    "es": "No toques eso. No dejéis la puerta abierta."
+   }
+  ],
+  "notUse": [
+   {
+    "wrong": "¡No hablad tan alto!",
+    "right": "¡No habléis tan alto!",
+    "why": "Negative commands always use the subjunctive."
+   },
+   {
+    "wrong": "¡Hace los deberes!",
+    "right": "¡Haz los deberes!",
+    "why": "hacer has an irregular tú command: haz."
+   },
+   {
+    "wrong": "Me lo dice, por favor (usted).",
+    "right": "Dígamelo, por favor.",
+    "why": "In affirmative commands, pronouns go on the end of the verb."
+   },
+   {
+    "wrong": "No dímelo.",
+    "right": "No me lo digas.",
+    "why": "Negative: no + pronouns + subjunctive."
+   }
+  ],
+  "markers": [
+   "por favor",
+   "¡…!",
+   "instrucciones",
+   "recetas",
+   "anuncios"
+  ],
+  "grammarPoints": [
+   "imperativo-afirmativo",
+   "imperativo-negativo",
+   "pronombres-posicion"
+  ]
+ },
+ {
+  "id": "ir-a",
+  "tense": null,
+  "name": "Ir a + infinitivo",
+  "group": "Futuro",
+  "summary": "The everyday way to talk about plans and intentions, and things that are clearly about to happen.",
+  "how": "ir in the present (voy, vas, va, vamos, vais, van) + a + infinitive.",
+  "irregulars": [
+   "Only ir is conjugated: voy a estudiar, vamos a salir."
+  ],
+  "uses": [
+   {
+    "rule": "Plans and intentions",
+    "es": "Este verano voy a hacer el Camino de Santiago."
+   },
+   {
+    "rule": "Something that is about to happen, with evidence",
+    "es": "¡Cuidado, que te vas a caer!"
+   },
+   {
+    "rule": "In the past (iba a) for plans that did not happen",
+    "es": "Iba a llamarte, pero se me olvidó."
+   }
+  ],
+  "notUse": [
+   {
+    "wrong": "Voy a estudiar ayer.",
+    "right": "Iba a estudiar ayer (pero no pude). / Ayer estudié.",
+    "why": "ir a in the present is only for the future."
+   },
+   {
+    "wrong": "Voy estudiar mañana.",
+    "right": "Voy a estudiar mañana.",
+    "why": "Do not forget the a."
+   },
+   {
+    "wrong": "Si voy a tener tiempo, te ayudo.",
+    "right": "Si tengo tiempo, te ayudo.",
+    "why": "After si, use the simple present."
+   }
+  ],
+  "markers": [
+   "esta tarde",
+   "este fin de semana",
+   "el mes que viene",
+   "pronto"
+  ],
+  "grammarPoints": [
+   "presente-valor-futuro",
+   "futuro-simple"
+  ]
+ },
+ {
+  "id": "estar-gerundio",
+  "tense": null,
+  "name": "Estar + gerundio",
+  "group": "Presente",
+  "summary": "An action in progress. The tense of estar decides the meaning: now, while something else happened, or for a while and finished.",
+  "how": "estar (in any tense) + gerund (-ando / -iendo). Irregular gerunds: leyendo, durmiendo, pidiendo, diciendo, viniendo, yendo, sintiendo, siguiendo.",
+  "irregulars": [
+   "leer → leyendo, ir → yendo, dormir → durmiendo, pedir → pidiendo, decir → diciendo, venir → viniendo."
+  ],
+  "uses": [
+   {
+    "rule": "Something happening right now",
+    "es": "Ahora no puedo, estoy conduciendo."
+   },
+   {
+    "rule": "A temporary situation these days",
+    "es": "Últimamente estoy estudiando mucho."
+   },
+   {
+    "rule": "Background in progress in the past (estaba + gerundio)",
+    "es": "Estaba durmiendo cuando sonó el teléfono."
+   },
+   {
+    "rule": "Something that lasted a while and is finished (estuve / he estado + gerundio)",
+    "es": "Ayer estuve estudiando toda la tarde."
+   }
+  ],
+  "notUse": [
+   {
+    "wrong": "Estoy saber la respuesta.",
+    "right": "Sé la respuesta.",
+    "why": "Verbs of state (saber, tener, querer, gustar, conocer) are not used with estar + gerundio."
+   },
+   {
+    "wrong": "Mañana estoy trabajando en Madrid (for a plan).",
+    "right": "Mañana trabajo / voy a trabajar en Madrid.",
+    "why": "For plans, Spanish prefers the present or ir a + infinitive."
+   },
+   {
+    "wrong": "Estoy vivido aquí dos años.",
+    "right": "Llevo dos años viviendo aquí.",
+    "why": "For duration up to now, use llevar + time + gerund."
+   }
+  ],
+  "markers": [
+   "ahora",
+   "ahora mismo",
+   "en este momento",
+   "últimamente",
+   "estos días",
+   "cuando…",
+   "toda la tarde"
+  ],
+  "grammarPoints": [
+   "estar-gerundio",
+   "llevar-seguir-gerundio"
+  ]
+ }
+]

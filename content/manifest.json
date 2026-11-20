@@ -1,5 +1,5 @@
 {
- "version": "2026.11-phase2",
+ "version": "2026.11-tenses",
  "packs": [
   "grammar-points.json",
   "focus/past-tenses.json",
@@ -28,6 +28,8 @@
   "vocab/u09.json",
   "vocab/u10.json",
   "vocab/u11.json",
-  "vocab/u12.json"
+  "vocab/u12.json",
+  "tenses/guide.json",
+  "tenses/practice.json"
  ]
 }

@@ -6,6 +6,7 @@ import { TabBar } from './components/TabBar';
 import { Home } from './screens/Home';
 import { Units, UnitDetail } from './screens/Units';
 import { Practice } from './screens/Practice';
+import { TensesList, TenseDetail } from './screens/Tenses';
 import { Drill } from './screens/Drill';
 import { Sorter } from './screens/Sorter';
 import { Exam } from './screens/Exam';
@@ -121,6 +122,9 @@ export function App() {
       break;
     case 'practice':
       screen = <Practice />;
+      break;
+    case 'tenses':
+      screen = arg ? <TenseDetail key={arg} id={arg} /> : <TensesList />;
       break;
     case 'drill':
       screen = session ? <Drill key={session.startedAt} spec={session} /> : <Home />;

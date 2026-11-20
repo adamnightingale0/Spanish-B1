@@ -3,7 +3,8 @@
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { z } from 'zod';
-import { UnitPack, FocusPack, GrammarPoints, ExamProfile, Manifest, VocabPack, ReadingTask, ListeningTask, WritingTask } from '../src/lib/schema';
+import { UnitPack, FocusPack, GrammarPoints, ExamProfile, Manifest, VocabPack, ReadingTask, ListeningTask, WritingTask, TenseGuide, TensePractice } from '../src/lib/schema';
+import { TENSE_NAMES } from '../src/lib/conjugate';
 import { countWords, targetHits } from '../src/lib/writing';
 
 const root = join(import.meta.dirname, '..', 'content');
@@ -60,6 +61,18 @@ for (const f of unitFiles) {
 
 const focus = load('focus/past-tenses.json', FocusPack);
 if (focus) checkItems('focus/past-tenses.json', focus.items);
+
+const tensePractice = load('tenses/practice.json', TensePractice);
+if (tensePractice) checkItems('tenses/practice.json', tensePractice.items);
+const guide = load('tenses/guide.json', TenseGuide) ?? [];
+for (const t of guide) {
+  for (const gp of t.grammarPoints) if (!gpIds.has(gp)) errors.push(`tenses/guide.json: ${t.id} unknown grammarPoint ${gp}`);
+  if (t.tense && !(t.tense in TENSE_NAMES)) errors.push(`tenses/guide.json: ${t.id} unknown tense ${t.tense}`);
+  const n = tensePractice?.items.filter((i) => i.subPoint === `uso-${t.id}`).length ?? 0;
+  if (n < 4) errors.push(`tenses: ${t.id} has ${n} «¿qué tiempo?» items (minimum 4)`);
+}
+for (const i of tensePractice?.items ?? [])
+  if (i.subPoint !== 'uso-mezcla' && !guide.some((t) => `uso-${t.id}` === i.subPoint)) errors.push(`tenses/practice.json: ${i.id} unknown subPoint ${i.subPoint}`);
 
 const cardIds = new Set<string>();
 let cardCount = 0;
@@ -161,5 +174,5 @@ if (errors.length) {
   console.error(`\n${errors.length} content error(s).`);
   process.exit(1);
 }
-console.log(`✓ content valid: ${itemIds.size} items across ${unitFiles.length + 1} packs, ${gps.length} grammar points, ${cardCount} vocabulary cards.`);
+console.log(`✓ content valid: ${itemIds.size} items across ${unitFiles.length + 2} packs, ${guide.length} tenses, ${gps.length} grammar points, ${cardCount} vocabulary cards.`);
 console.log(`  skill tasks: ${Object.entries(skillCounts).map(([k, v]) => `${k} ${v}`).join(', ')}`);
