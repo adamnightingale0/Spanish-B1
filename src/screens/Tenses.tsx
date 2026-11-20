@@ -21,6 +21,10 @@ export function TensesList() {
       <button class="btn-primary btn-block" onClick={() => app.startSession({ title: 'Mezcla de tiempos', items: buildMixDrill(app.attempts) }, 'tenses')}>
         ▶ Mezcla de tiempos · ¿qué tiempo uso? ({tenseItems.length})
       </button>
+      <div class="card highlight tap" style={{ marginTop: 12 }} onClick={() => navigate('tarjetas')}>
+        <b>🃏 Tarjetas: indefinidos irregulares</b>
+        <p class="small muted">Escribe la forma (tuve, pidió, leyeron…) y aprende el significado de cada verbo. Con repaso espaciado.</p>
+      </div>
       {groups.map((g) => (
         <>
           <h2>{g}</h2>
@@ -95,6 +99,11 @@ export function TenseDetail({ id }: { id: string }) {
           Practicar el uso
         </button>
       </div>
+      {t.id === 'indefinido' && (
+        <button class="btn-block" style={{ marginTop: 8 }} onClick={() => navigate('tarjetas')}>
+          🃏 Tarjetas: verbos irregulares
+        </button>
+      )}
 
       <h2>✅ Cuándo se usa</h2>
       <div class="card">

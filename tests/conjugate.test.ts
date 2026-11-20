@@ -66,3 +66,32 @@ describe('conjugator', () => {
     }
   });
 });
+
+describe('irregular indefinido flashcards', async () => {
+  const { indefCards, INDEF_GROUPS, buildCardQueue, cardStates } = await import('../src/lib/conjCards');
+  const card = (id: string) => indefCards.find((c) => c.id === id);
+  it('only the irregular persons become cards', () => {
+    expect(indefCards.filter((c) => c.verb === 'tener').length).toBe(6);
+    expect(indefCards.filter((c) => c.verb === 'pedir').map((c) => c.answer)).toEqual(['pidió', 'pidieron']);
+    expect(indefCards.filter((c) => c.verb === 'buscar').map((c) => c.answer)).toEqual(['busqué']);
+    expect(indefCards.filter((c) => c.verb === 'leer').map((c) => c.answer)).toContain('leyeron');
+    expect(card('fc-indefinido-decir-5')?.answer).toBe('dijeron');
+    expect(card('fc-indefinido-cruzar-0')?.answer).toBe('crucé');
+    expect(card('fc-indefinido-dar-2')?.answer).toBe('dio');
+  });
+  it('every verb in the deck has a meaning and at least one card; ids are unique', () => {
+    for (const g of INDEF_GROUPS) for (const v of g.verbs) expect(indefCards.some((c) => c.verb === v && c.en)).toBe(true);
+    expect(new Set(indefCards.map((c) => c.id)).size).toBe(indefCards.length);
+  });
+  it('schedules: new cards first time, wrong cards due again, right cards later', () => {
+    const now = Date.now();
+    expect(buildCardQueue(indefCards, [], 20, 10, now).length).toBe(10);
+    const mk = (id: string, correct: boolean, ts: number) => ({ key: `${ts}-${id}`, itemId: id, grammarPoint: 'past-review', unit: 0, ts, correct, given: '' });
+    const att = [mk('fc-indefinido-tener-0', false, now - 1000), mk('fc-indefinido-tener-1', true, now - 1000)];
+    const st = cardStates(att);
+    expect(st.get('fc-indefinido-tener-1')!.due).toBeGreaterThan(now);
+    const q = buildCardQueue(indefCards, att, 20, 10, now);
+    expect(q[0].id).toBe('fc-indefinido-tener-0');
+    expect(q.some((c) => c.id === 'fc-indefinido-tener-1')).toBe(false);
+  });
+});

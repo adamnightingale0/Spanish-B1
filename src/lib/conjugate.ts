@@ -84,7 +84,34 @@ export const VERBS: Verb[] = [
   { inf: 'ir', en: 'to go', pres: six('voy vas va vamos vais van'), indef: six('fui fuiste fue fuimos fuisteis fueron'), impf: six('iba ibas iba íbamos ibais iban'), subj: six('vaya vayas vaya vayamos vayáis vayan'), tu: 've', ger: 'yendo' },
   { inf: 'haber', en: 'to have (auxiliary); hay = there is', pres: six('he has ha hemos habéis han'), indef: six('hube hubiste hubo hubimos hubisteis hubieron'), fut: 'habr', subj: six('haya hayas haya hayamos hayáis hayan') },
   { inf: 'morir', en: 'to die', pres: six('muero mueres muere morimos morís mueren'), indef: six('morí moriste murió morimos moristeis murieron'), subj: six('muera mueras muera muramos muráis mueran'), part: 'muerto', ger: 'muriendo' },
-  { inf: 'descubrir', en: 'to discover', part: 'descubierto' }
+  { inf: 'descubrir', en: 'to discover', part: 'descubierto' },
+  // More verbs for the irregular indefinido flashcards (all other tenses listed where irregular).
+  { inf: 'andar', en: 'to walk', indef: six('anduve anduviste anduvo anduvimos anduvisteis anduvieron') },
+  { inf: 'mantener', en: 'to keep, maintain', pres: six('mantengo mantienes mantiene mantenemos mantenéis mantienen'), indef: six('mantuve mantuviste mantuvo mantuvimos mantuvisteis mantuvieron'), fut: 'mantendr', tu: 'mantén' },
+  { inf: 'obtener', en: 'to obtain, get', pres: six('obtengo obtienes obtiene obtenemos obtenéis obtienen'), indef: six('obtuve obtuviste obtuvo obtuvimos obtuvisteis obtuvieron'), fut: 'obtendr', tu: 'obtén' },
+  { inf: 'proponer', en: 'to propose', pres: six('propongo propones propone proponemos proponéis proponen'), indef: six('propuse propusiste propuso propusimos propusisteis propusieron'), fut: 'propondr', part: 'propuesto', tu: 'propón' },
+  { inf: 'suponer', en: 'to suppose', pres: six('supongo supones supone suponemos suponéis suponen'), indef: six('supuse supusiste supuso supusimos supusisteis supusieron'), fut: 'supondr', part: 'supuesto', tu: 'supón' },
+  { inf: 'traducir', en: 'to translate', pres: six('traduzco traduces traduce traducimos traducís traducen'), indef: six('traduje tradujiste tradujo tradujimos tradujisteis tradujeron') },
+  { inf: 'producir', en: 'to produce', pres: six('produzco produces produce producimos producís producen'), indef: six('produje produjiste produjo produjimos produjisteis produjeron') },
+  { inf: 'preferir', en: 'to prefer', pres: six('prefiero prefieres prefiere preferimos preferís prefieren'), indef: six('preferí preferiste prefirió preferimos preferisteis prefirieron'), subj: six('prefiera prefieras prefiera prefiramos prefiráis prefieran'), ger: 'prefiriendo' },
+  { inf: 'repetir', en: 'to repeat', pres: six('repito repites repite repetimos repetís repiten'), indef: six('repetí repetiste repitió repetimos repetisteis repitieron'), ger: 'repitiendo' },
+  { inf: 'servir', en: 'to serve, be useful', pres: six('sirvo sirves sirve servimos servís sirven'), indef: six('serví serviste sirvió servimos servisteis sirvieron'), ger: 'sirviendo' },
+  { inf: 'mentir', en: 'to lie (not tell the truth)', pres: six('miento mientes miente mentimos mentís mienten'), indef: six('mentí mentiste mintió mentimos mentisteis mintieron'), subj: six('mienta mientas mienta mintamos mintáis mientan'), ger: 'mintiendo' },
+  { inf: 'sugerir', en: 'to suggest', pres: six('sugiero sugieres sugiere sugerimos sugerís sugieren'), indef: six('sugerí sugeriste sugirió sugerimos sugeristeis sugirieron'), subj: six('sugiera sugieras sugiera sugiramos sugiráis sugieran'), ger: 'sugiriendo' },
+  { inf: 'conseguir', en: 'to get, manage to', pres: six('consigo consigues consigue conseguimos conseguís consiguen'), indef: six('conseguí conseguiste consiguió conseguimos conseguisteis consiguieron'), ger: 'consiguiendo' },
+  { inf: 'vestir', en: 'to dress', pres: six('visto vistes viste vestimos vestís visten'), indef: six('vestí vestiste vistió vestimos vestisteis vistieron'), ger: 'vistiendo' },
+  { inf: 'reír', en: 'to laugh', pres: six('río ríes ríe reímos reís ríen'), indef: six('reí reíste rio reímos reísteis rieron'), subj: six('ría rías ría riamos riais rían'), fut: 'reir', part: 'reído', ger: 'riendo' },
+  { inf: 'oír', en: 'to hear', pres: six('oigo oyes oye oímos oís oyen'), indef: six('oí oíste oyó oímos oísteis oyeron'), fut: 'oir', part: 'oído', ger: 'oyendo', tu: 'oye' },
+  { inf: 'creer', en: 'to believe, think', indef: six('creí creíste creyó creímos creísteis creyeron'), part: 'creído', ger: 'creyendo' },
+  { inf: 'construir', en: 'to build', pres: six('construyo construyes construye construimos construís construyen'), indef: six('construí construiste construyó construimos construisteis construyeron'), ger: 'construyendo' },
+  { inf: 'caer', en: 'to fall', pres: six('caigo caes cae caemos caéis caen'), indef: six('caí caíste cayó caímos caísteis cayeron'), part: 'caído', ger: 'cayendo' },
+  { inf: 'tocar', en: 'to touch; to play (an instrument)' },
+  { inf: 'sacar', en: 'to take out; to get (a grade)' },
+  { inf: 'explicar', en: 'to explain' },
+  { inf: 'practicar', en: 'to practise' },
+  { inf: 'cruzar', en: 'to cross' },
+  { inf: 'organizar', en: 'to organise' },
+  { inf: 'comenzar', en: 'to begin', pres: six('comienzo comienzas comienza comenzamos comenzáis comienzan'), subj: six('comience comiences comience comencemos comencéis comiencen') }
 ];
 export const verbByInf = new Map(VERBS.map((v) => [v.inf, v]));
 
