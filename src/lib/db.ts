@@ -31,6 +31,7 @@ export interface Settings {
   firstRun: number;
   pageOffset: number; // PDF page = printed page + pageOffset
   placementDone: number | null;
+  conjBest: number; // best flashcard session score (irregular indefinido)
 }
 
 export const DEFAULT_SETTINGS: Settings = {
@@ -45,7 +46,8 @@ export const DEFAULT_SETTINGS: Settings = {
   lastBackup: null,
   firstRun: Date.now(),
   pageOffset: 1,
-  placementDone: null
+  placementDone: null,
+  conjBest: 0
 };
 
 const attemptsStore = createStore('b1-attempts', 'attempts');

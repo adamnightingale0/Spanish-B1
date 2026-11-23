@@ -68,7 +68,8 @@ describe('conjugator', () => {
 });
 
 describe('irregular indefinido flashcards', async () => {
-  const { indefCards, INDEF_GROUPS, buildCardQueue, cardStates } = await import('../src/lib/conjCards');
+  const { indefCards, INDEF_GROUPS, buildCardQueue, cardStates, interleave, gradeOf, pointsFor } = await import('../src/lib/conjCards');
+  const { Rating } = await import('ts-fsrs');
   const card = (id: string) => indefCards.find((c) => c.id === id);
   it('only the irregular persons become cards', () => {
     expect(indefCards.filter((c) => c.verb === 'tener').length).toBe(6);
@@ -83,15 +84,53 @@ describe('irregular indefinido flashcards', async () => {
     for (const g of INDEF_GROUPS) for (const v of g.verbs) expect(indefCards.some((c) => c.verb === v && c.en)).toBe(true);
     expect(new Set(indefCards.map((c) => c.id)).size).toBe(indefCards.length);
   });
-  it('schedules: new cards first time, wrong cards due again, right cards later', () => {
+  const mk = (id: string, correct: boolean, ts: number, extra = {}) => ({ key: `${ts}-${id}`, itemId: id, grammarPoint: 'past-review', unit: 0, ts, correct, given: '', ms: 3000, ...extra });
+  const H = 36e5;
+  it('shuffles: never the same verb twice in a row, and not in person order', () => {
+    const q = buildCardQueue(indefCards, [], 'study');
+    expect(q.length).toBeGreaterThan(5);
+    for (let i = 1; i < q.length; i++) if (new Set(q.map((c) => c.verb)).size > 1) expect(q[i].verb === q[i - 1].verb && q.some((c, j) => j > i && c.verb !== q[i].verb)).toBe(false);
+    const all = interleave(indefCards.filter((c) => c.verb === 'tener' || c.verb === 'hacer' || c.verb === 'decir'));
+    for (let i = 1; i < all.length; i++) expect(all[i].verb).not.toBe(all[i - 1].verb);
+  });
+  it('a card you get wrong comes back much sooner than one you always get right', () => {
+    const t0 = Date.now() - 30 * 24 * H;
+    const good = [0, 1, 4, 10].map((d) => mk('fc-indefinido-tener-0', true, t0 + d * 24 * H));
+    const bad = [0, 1, 4, 10].map((d, i) => mk('fc-indefinido-tener-1', i !== 3, t0 + d * 24 * H));
+    const st = cardStates([...good, ...bad].sort((a, b) => a.ts - b.ts));
+    const g = st.get('fc-indefinido-tener-0')!;
+    const b = st.get('fc-indefinido-tener-1')!;
+    expect(b.due - (t0 + 10 * 24 * H)).toBeLessThan(H); // relearning: minutes, not days
+    expect(g.due).toBeGreaterThan(b.due + 5 * 24 * H);
+    expect(g.card.stability).toBeGreaterThan(b.card.stability);
+    expect(gradeOf({ correct: true, accentOnly: true })).toBe(Rating.Hard);
+    expect(gradeOf({ correct: true, ms: 20000 })).toBe(Rating.Hard);
+  });
+  it('due cards come first, weakest first; difíciles are tracked', () => {
     const now = Date.now();
-    expect(buildCardQueue(indefCards, [], 20, 10, now).length).toBe(10);
-    const mk = (id: string, correct: boolean, ts: number) => ({ key: `${ts}-${id}`, itemId: id, grammarPoint: 'past-review', unit: 0, ts, correct, given: '' });
-    const att = [mk('fc-indefinido-tener-0', false, now - 1000), mk('fc-indefinido-tener-1', true, now - 1000)];
-    const st = cardStates(att);
-    expect(st.get('fc-indefinido-tener-1')!.due).toBeGreaterThan(now);
-    const q = buildCardQueue(indefCards, att, 20, 10, now);
-    expect(q[0].id).toBe('fc-indefinido-tener-0');
-    expect(q.some((c) => c.id === 'fc-indefinido-tener-1')).toBe(false);
+    const att = [
+      mk('fc-indefinido-poder-0', false, now - 3 * H),
+      mk('fc-indefinido-poder-0', false, now - 2 * H),
+      mk('fc-indefinido-poder-0', false, now - H),
+      mk('fc-indefinido-poner-1', true, now - 50 * H),
+      mk('fc-indefinido-poner-1', true, now - 49 * H),
+      mk('fc-indefinido-poner-1', true, now - H)
+    ];
+    const att2 = [...att].sort((a, b) => a.ts - b.ts);
+    att.splice(0, att.length, ...att2);
+    const st = cardStates(att, now);
+    expect(st.get('fc-indefinido-poder-0')!.hard).toBe(true);
+    const q = buildCardQueue(indefCards, att, 'study', now);
+    expect(q.some((c) => c.id === 'fc-indefinido-poder-0')).toBe(true);
+    expect(q.some((c) => c.id === 'fc-indefinido-poner-1')).toBe(false);
+    expect(buildCardQueue(indefCards, att, 'hard', now).map((c) => c.id)).toEqual(['fc-indefinido-poder-0']);
+  });
+  it('scores streaks', () => {
+    expect(pointsFor(Rating.Good, 0, false)).toBe(10);
+    expect(pointsFor(Rating.Good, 5, false)).toBe(15);
+    expect(pointsFor(Rating.Good, 30, false)).toBe(20);
+    expect(pointsFor(Rating.Hard, 5, false)).toBe(5);
+    expect(pointsFor(Rating.Good, 5, true)).toBe(2);
+    expect(pointsFor(Rating.Again, 5, false)).toBe(0);
   });
 });
