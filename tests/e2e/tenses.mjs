@@ -55,7 +55,20 @@ await page.click('button:has-text("Comprobar")');
 await page.click('button:has-text("Era una errata")');
 ok(await page.locator('.feedback.ok').count() === 1, 'typo override marks it right');
 await page.click('button:has-text("Siguiente")');
+// order check: the first few cards are not one verb in person order
+const verbs = [verb1];
+for (let i = 0; i < 4; i++) {
+  await page.fill('.answer-input', 'x');
+  await page.click('button:has-text("Comprobar")');
+  await page.click('button:has-text("Siguiente")');
+  verbs.push(await page.locator('.fc-main').innerText());
+}
+ok(verbs.every((v, i) => !i || v !== verbs[i - 1]), `no verb twice in a row (${verbs.join(', ')})`);
+ok(await page.locator('text=pts').count() > 0, 'score shown');
+await shot('c-card');
 await page.click('.drill-top button');
 await page.waitForSelector('text=para repasar');
+ok(/Aprendiendo [1-9]/.test(await page.locator('.screen').innerText()), 'studied cards move to Aprendiendo');
+await shot('c-home2');
 ok(errors.length === 0, 'no page errors' + (errors.length ? ': ' + errors.join(' | ') : ''));
 await browser.close();
